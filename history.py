@@ -17,6 +17,8 @@ history.
 from __future__ import annotations
 
 import json
+import re
+from collections import Counter
 from dataclasses import dataclass, asdict
 from datetime import date, timedelta
 from pathlib import Path
@@ -24,6 +26,49 @@ from statistics import mean
 from typing import Iterable
 
 from config import HISTORY_DIR, MISSING_DAYS_THRESHOLD, PG_BRANDS
+
+# Sorted longest-first so "HEAD & SHOULDERS" is tried before any shorter
+# brand name that might also appear as a substring of it.
+_PG_BRANDS_BY_LENGTH = sorted(PG_BRANDS, key=len, reverse=True)
+
+
+def _norm(text: str) -> str:
+    """Upper-case and collapse whitespace, for tolerant string matching."""
+    return re.sub(r"\s+", " ", (text or "").strip().upper())
+
+
+def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
+    """
+    Decide whether a row is a P&G product, and how we decided.
+
+    Some retailers (Lidl's CSVs are the known case so far) leave the
+    dedicated brand column blank or use free-text that doesn't match our
+    brand list, while still naming the brand inside the product title
+    itself (e.g. brand="" but product="Pampers Pants Giant Pack vel. 4").
+    Matching on brand alone silently drops those rows to zero, which is
+    exactly the bug seen on Lidl's first run. So: try the brand field first
+    (cheap, precise), and if that comes up empty, fall back to a substring
+    search over the product name.
+
+    Returns (is_pg, matched_via) where matched_via is "brand",
+    "product_name", or "" if no match.
+    """
+    norm_brand = _norm(brand)
+    if norm_brand in PG_BRANDS:
+        return True, "brand"
+
+    norm_product = _norm(product_name)
+    if norm_product:
+        for pg_brand in _PG_BRANDS_BY_LENGTH:
+            if pg_brand in norm_product:
+                return True, "product_name"
+
+    return False, ""
+
+
+def is_pg(brand: str) -> bool:
+    """Back-compat wrapper: brand-field-only check."""
+    return _norm(brand) in PG_BRANDS
 
 
 def retailer_dir(retailer: str) -> Path:
@@ -36,10 +81,6 @@ def day_path(retailer: str, day: date) -> Path:
     return retailer_dir(retailer) / f"{day.isoformat()}.json"
 
 
-def is_pg(brand: str) -> bool:
-    return (brand or "").strip().upper() in PG_BRANDS
-
-
 def build_day_payload(retailer: str, day: date, stores: list) -> dict:
     """
     stores: list of crawler_vendor.models.Store objects (already crawled).
@@ -48,21 +89,36 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
     pg_rows: list[dict] = []
     total_products = 0
     stores_count = len(stores)
+    blank_brand_count = 0
+    all_brand_counter: Counter = Counter()
+    match_via_counter: Counter = Counter()
 
     for store in stores:
         for item in store.items:
             total_products += 1
             category = (item.category or "Uncategorized").strip() or "Uncategorized"
             price = float(item.price) if item.price is not None else None
+            norm_brand = _norm(item.brand)
+            if norm_brand:
+                all_brand_counter[norm_brand] += 1
+            else:
+                blank_brand_count += 1
 
             cs = category_stats.setdefault(
-                category, {"count": 0, "prices": [], "pg_count": 0, "pg_prices": []}
+                category,
+                {
+                    "count": 0, "prices": [],
+                    "pg_count": 0, "pg_prices": [],
+                    "competitor_prices": [],
+                },
             )
             cs["count"] += 1
             if price is not None:
                 cs["prices"].append(price)
 
-            if is_pg(item.brand):
+            matched, via = match_pg_brand(item.brand, item.product)
+            if matched:
+                match_via_counter[via] += 1
                 cs["pg_count"] += 1
                 if price is not None:
                     cs["pg_prices"].append(price)
@@ -77,15 +133,25 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         "category": category,
                         "price": price,
                         "barcode": item.barcode,
+                        "matched_via": via,
                     }
                 )
+            elif price is not None:
+                # Non-P&G row with a usable price: this is the true
+                # "competitor" population for price comparisons, kept
+                # separate from the all-brands average (which otherwise
+                # gets diluted by P&G's own prices).
+                cs["competitor_prices"].append(price)
 
     # collapse raw price lists into summary numbers before saving
     for cat, cs in category_stats.items():
         prices = cs.pop("prices")
         pg_prices = cs.pop("pg_prices")
+        competitor_prices = cs.pop("competitor_prices")
         cs["avg_price"] = round(mean(prices), 2) if prices else None
         cs["pg_avg_price"] = round(mean(pg_prices), 2) if pg_prices else None
+        cs["competitor_avg_price"] = round(mean(competitor_prices), 2) if competitor_prices else None
+        cs["competitor_count"] = len(competitor_prices)
 
     return {
         "date": day.isoformat(),
@@ -95,6 +161,13 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
         "pg_product_rows": len(pg_rows),
         "category_stats": category_stats,
         "pg_products": pg_rows,
+        "diagnostics": {
+            "blank_brand_field_rows": blank_brand_count,
+            "blank_brand_field_pct": round(100 * blank_brand_count / total_products, 1) if total_products else 0,
+            "matched_via_brand_field": match_via_counter.get("brand", 0),
+            "matched_via_product_name_fallback": match_via_counter.get("product_name", 0),
+            "top_brands_seen": all_brand_counter.most_common(40),
+        },
     }
 
 

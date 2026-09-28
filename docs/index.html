@@ -62,6 +62,18 @@
   .empty { color: var(--muted); font-size: 13px; padding: 10px 0; }
   canvas { max-height: 320px; }
   footer { text-align: center; font-size: 12px; color: var(--muted); padding: 20px; }
+  .search-row { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; flex-wrap: wrap; }
+  .search-row input {
+    flex: 1; min-width: 220px; padding: 8px 12px; border: 1px solid var(--border);
+    border-radius: 6px; font-size: 14px;
+  }
+  .search-count { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  details.diagnostics { font-size: 13px; color: var(--muted); }
+  details.diagnostics summary { cursor: pointer; color: var(--pg-blue); font-weight: 600; margin-bottom: 8px; }
+  .diag-warning { background: #fff4e5; color: #b06000; padding: 8px 12px; border-radius: 6px; margin-bottom: 10px; font-size: 13px; }
+  .brand-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .brand-tag { background: #eef1f4; border-radius: 4px; padding: 2px 8px; font-size: 12px; }
+  .scroll-table { max-height: 480px; overflow-y: auto; }
 </style>
 </head>
 <body>
@@ -83,6 +95,7 @@
 let dashboardData = null;
 let activeRetailer = null;
 let chartInstance = null;
+let productsCache = {};   // retailer -> array of product rows (lazy-loaded)
 
 async function loadData() {
   try {
@@ -154,8 +167,12 @@ function renderRetailer(name) {
     .sort((a, b) => b[1].pg_count - a[1].pg_count)
     .slice(0, 10);
 
+  const diag = r.diagnostics || {};
+  const pgIsSuspiciouslyLow = r.pg_products_tracked === 0 || (diag.blank_brand_field_pct || 0) > 60;
+
   content.innerHTML = `
     <p class="status-line">Last updated ${fmtDate(r.last_updated)} ${statusPill(r.status)}</p>
+    ${pgIsSuspiciouslyLow ? `<div class="diag-warning">⚠ P&amp;G products tracked looks unexpectedly low for this retailer. Open "Why so few P&amp;G matches?" below — most likely the brand column isn't populated the way we expect for this retailer's files.</div>` : ''}
     <div class="cards">
       <div class="card"><div class="label">Total catalog size</div><div class="value">${r.total_catalog_size.toLocaleString()}</div></div>
       <div class="card"><div class="label">P&amp;G products tracked</div><div class="value">${r.pg_products_tracked.toLocaleString()}</div></div>
@@ -164,7 +181,7 @@ function renderRetailer(name) {
     </div>
 
     <div class="section">
-      <h2>P&amp;G vs. category average price (top categories by P&amp;G presence)</h2>
+      <h2>P&amp;G vs. competitor average price (top categories by P&amp;G presence)</h2>
       <canvas id="priceChart"></canvas>
     </div>
 
@@ -172,9 +189,73 @@ function renderRetailer(name) {
       <h2>Flagged: likely out of stock (missing ${dashboardData.missing_days_threshold}+ consecutive published days)</h2>
       ${renderFlaggedTable(r.flagged_items)}
     </div>
+
+    <div class="section">
+      <h2>P&amp;G products tracked</h2>
+      <div class="search-row">
+        <input type="text" id="product-search" placeholder="Filter by product, brand, category, or store…">
+        <span class="search-count" id="product-count"></span>
+      </div>
+      <div class="scroll-table"><table id="products-table"><thead>
+        <tr><th>Product</th><th>Brand</th><th>Category</th><th>Store</th><th>Price</th></tr>
+      </thead><tbody><tr><td colspan="5" class="empty">Loading…</td></tr></tbody></table></div>
+    </div>
+
+    <div class="section">
+      <details class="diagnostics">
+        <summary>Why so few P&amp;G matches? (brand-matching diagnostics)</summary>
+        <p>${diag.blank_brand_field_pct != null ? `${diag.blank_brand_field_pct}% of ${name}'s rows today had no value in the brand column` : 'No diagnostic data yet'}
+           ${diag.matched_via_product_name_fallback ? ` — ${diag.matched_via_product_name_fallback.toLocaleString()} of the P&amp;G matches above came from spotting a brand name inside the product title rather than the brand field, because the brand field was empty or didn't match.` : ''}
+        </p>
+        <p>Most common brand values actually seen in ${name}'s file today (use this to spot a P&amp;G brand spelled differently than expected in <code>config.py</code>'s <code>PG_BRANDS</code>):</p>
+        <div class="brand-tags">
+          ${(diag.top_brands_seen || []).map(([b, c]) => `<span class="brand-tag">${escapeHtml(b || '(blank)')} · ${c}</span>`).join('') || '<span class="empty">No data</span>'}
+        </div>
+      </details>
+    </div>
   `;
 
   renderChart(cats);
+  loadProducts(name);
+}
+
+async function loadProducts(retailer) {
+  const tbody = document.querySelector('#products-table tbody');
+  const countEl = document.getElementById('product-count');
+  try {
+    if (!productsCache[retailer]) {
+      const res = await fetch(`products/${retailer}.json?_=` + Date.now());
+      productsCache[retailer] = await res.json();
+    }
+    const rows = productsCache[retailer];
+    const searchInput = document.getElementById('product-search');
+
+    function renderRows(filterText) {
+      const q = (filterText || '').trim().toLowerCase();
+      const filtered = q
+        ? rows.filter(p =>
+            (p.product || '').toLowerCase().includes(q) ||
+            (p.brand || '').toLowerCase().includes(q) ||
+            (p.category || '').toLowerCase().includes(q) ||
+            (p.store_name || '').toLowerCase().includes(q))
+        : rows;
+      const shown = filtered.slice(0, 300);
+      countEl.textContent = `${filtered.length.toLocaleString()} match${filtered.length === 1 ? '' : 'es'}${filtered.length > 300 ? ' (showing first 300 — keep typing to narrow)' : ''}`;
+      tbody.innerHTML = shown.length ? shown.map(p => `
+        <tr>
+          <td>${escapeHtml(p.product)}</td>
+          <td>${escapeHtml(p.brand)}</td>
+          <td>${escapeHtml(p.category)}</td>
+          <td>${escapeHtml(p.store_name)}</td>
+          <td>${p.price != null ? '€' + Number(p.price).toFixed(2) : '—'}</td>
+        </tr>`).join('') : '<tr><td colspan="5" class="empty">No matches.</td></tr>';
+    }
+
+    renderRows('');
+    searchInput.addEventListener('input', e => renderRows(e.target.value));
+  } catch (e) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">Could not load the product list for this retailer.</td></tr>';
+  }
 }
 
 function renderFlaggedTable(items) {
@@ -213,7 +294,7 @@ function renderChart(cats) {
       labels: cats.map(([name]) => name),
       datasets: [
         { label: "P&G avg price (€)", data: cats.map(([, v]) => v.pg_avg_price), backgroundColor: '#004b93' },
-        { label: "Category avg price, all brands (€)", data: cats.map(([, v]) => v.avg_price), backgroundColor: '#9db8d1' },
+        { label: "Competitor avg price, excl. P&G (€)", data: cats.map(([, v]) => v.competitor_avg_price), backgroundColor: '#9db8d1' },
       ],
     },
     options: {

@@ -64,6 +64,15 @@ def run_retailer(retailer: str, target_date: date) -> dict:
             json.dumps(flags, ensure_ascii=False, indent=1), encoding="utf-8"
         )
 
+        # Full P&G product list for the "Products tracked" tab — kept as its
+        # own file (not inlined in data.json) so the main dashboard payload
+        # stays small even when a retailer has tens of thousands of P&G rows.
+        products_path = DOCS_DIR / "products"
+        products_path.mkdir(parents=True, exist_ok=True)
+        (products_path / f"{retailer}.json").write_text(
+            json.dumps(payload["pg_products"], ensure_ascii=False, indent=1), encoding="utf-8"
+        )
+
         return {
             "retailer": retailer,
             "status": "ok",
@@ -72,6 +81,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
             "total_catalog_size": payload["total_products_all_stores"],
             "pg_products_tracked": payload["pg_product_rows"],
             "category_stats": payload["category_stats"],
+            "diagnostics": payload["diagnostics"],
             "flagged_count": len(flags),
             "flagged_items": flags[:200],  # cap so data.json stays light
             "history_days_available": len(available_dates(retailer)),
@@ -93,6 +103,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
                     "total_catalog_size": prev["total_products_all_stores"],
                     "pg_products_tracked": prev["pg_product_rows"],
                     "category_stats": prev["category_stats"],
+                    "diagnostics": prev.get("diagnostics", {}),
                     "flagged_count": len(flags),
                     "flagged_items": flags[:200],
                     "history_days_available": len(available_dates(retailer)),
