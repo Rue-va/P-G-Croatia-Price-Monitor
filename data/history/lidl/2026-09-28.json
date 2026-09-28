@@ -1,0 +1,46 @@
+{
+ "date": "2026-09-28",
+ "retailer": "lidl",
+ "stores_count": 116,
+ "total_products_all_stores": 1667775,
+ "pg_product_rows": 0,
+ "category_stats": {
+  "Piće": {
+   "count": 154976,
+   "pg_count": 0,
+   "avg_price": 4.38,
+   "pg_avg_price": null
+  },
+  "Hrana": {
+   "count": 1110395,
+   "pg_count": 0,
+   "avg_price": 3.03,
+   "pg_avg_price": null
+  },
+  "Toaletne potrepštine": {
+   "count": 38976,
+   "pg_count": 0,
+   "avg_price": 3.69,
+   "pg_avg_price": null
+  },
+  "Sredstva za čišćenje": {
+   "count": 81432,
+   "pg_count": 0,
+   "avg_price": 5.34,
+   "pg_avg_price": null
+  },
+  "Proizvodi za kućanstvo": {
+   "count": 108808,
+   "pg_count": 0,
+   "avg_price": 3.16,
+   "pg_avg_price": null
+  },
+  "Kozmetika": {
+   "count": 173188,
+   "pg_count": 0,
+   "avg_price": 3.26,
+   "pg_avg_price": null
+  }
+ },
+ "pg_products": []
+}

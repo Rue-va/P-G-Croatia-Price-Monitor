@@ -1,11 +1,203 @@
 {
- "generated_at": null,
- "as_of_date": null,
+ "generated_at": "2026-09-28T11:08:41.884665+00:00",
+ "as_of_date": "2026-09-28",
  "missing_days_threshold": 3,
  "retailers": [
-  {"retailer": "konzum", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
-  {"retailer": "kaufland", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
-  {"retailer": "spar", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
-  {"retailer": "lidl", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null}
+  {
+   "retailer": "konzum",
+   "status": "ok",
+   "last_updated": "2026-09-28",
+   "stores_count": 112,
+   "total_catalog_size": 1036944,
+   "pg_products_tracked": 26771,
+   "category_stats": {
+    "PIĆE": {
+     "count": 128481,
+     "pg_count": 0,
+     "avg_price": 6.09,
+     "pg_avg_price": null
+    },
+    "KOZMETIKA": {
+     "count": 123772,
+     "pg_count": 13165,
+     "avg_price": 6.53,
+     "pg_avg_price": 9.96
+    },
+    "SREDSTVA ZA ČIŠĆENJE": {
+     "count": 62107,
+     "pg_count": 10405,
+     "avg_price": 8.78,
+     "pg_avg_price": 10.93
+    },
+    "PROIZVODI ZA KUĆANSTVO": {
+     "count": 42244,
+     "pg_count": 0,
+     "avg_price": 5.81,
+     "pg_avg_price": null
+    },
+    "HRANA": {
+     "count": 655742,
+     "pg_count": 0,
+     "avg_price": 4.17,
+     "pg_avg_price": null
+    },
+    "TOALETNE POTREPŠTINE": {
+     "count": 24598,
+     "pg_count": 3201,
+     "avg_price": 5.3,
+     "pg_avg_price": 16.87
+    }
+   },
+   "flagged_count": 0,
+   "flagged_items": [],
+   "history_days_available": 1
+  },
+  {
+   "retailer": "kaufland",
+   "status": "ok",
+   "last_updated": "2026-09-28",
+   "stores_count": 53,
+   "total_catalog_size": 736845,
+   "pg_products_tracked": 18637,
+   "category_stats": {
+    "SREDSTVA ZA ČIŠĆENJE": {
+     "count": 40819,
+     "pg_count": 3295,
+     "avg_price": 7.83,
+     "pg_avg_price": 16.53
+    },
+    "HRANA": {
+     "count": 394513,
+     "pg_count": 0,
+     "avg_price": 3.6,
+     "pg_avg_price": null
+    },
+    "KOZMETIKA": {
+     "count": 147922,
+     "pg_count": 13967,
+     "avg_price": 6.31,
+     "pg_avg_price": 12.31
+    },
+    "PIĆE": {
+     "count": 108744,
+     "pg_count": 15,
+     "avg_price": 7.56,
+     "pg_avg_price": 2.53
+    },
+    "PROIZVODI ZA KUĆANSTVO": {
+     "count": 32665,
+     "pg_count": 0,
+     "avg_price": 3.36,
+     "pg_avg_price": null
+    },
+    "TOALETNE POTREPŠTINE": {
+     "count": 12182,
+     "pg_count": 1360,
+     "avg_price": 3.63,
+     "pg_avg_price": 3.57
+    }
+   },
+   "flagged_count": 0,
+   "flagged_items": [],
+   "history_days_available": 1
+  },
+  {
+   "retailer": "spar",
+   "status": "ok",
+   "last_updated": "2026-09-28",
+   "stores_count": 144,
+   "total_catalog_size": 1303137,
+   "pg_products_tracked": 18273,
+   "category_stats": {
+    "Hrana": {
+     "count": 793419,
+     "pg_count": 0,
+     "avg_price": 3.78,
+     "pg_avg_price": null
+    },
+    "Kozmetika": {
+     "count": 119820,
+     "pg_count": 10138,
+     "avg_price": 5.58,
+     "pg_avg_price": 8.63
+    },
+    "Pića": {
+     "count": 241670,
+     "pg_count": 0,
+     "avg_price": 6.25,
+     "pg_avg_price": null
+    },
+    "Sredstva za čišćenje": {
+     "count": 56787,
+     "pg_count": 4876,
+     "avg_price": 7.16,
+     "pg_avg_price": 11.86
+    },
+    "Proizvodi za kućanstvo": {
+     "count": 63065,
+     "pg_count": 0,
+     "avg_price": 3.91,
+     "pg_avg_price": null
+    },
+    "Toaletne potrepštine": {
+     "count": 28376,
+     "pg_count": 3259,
+     "avg_price": 4.42,
+     "pg_avg_price": 8.88
+    }
+   },
+   "flagged_count": 0,
+   "flagged_items": [],
+   "history_days_available": 1
+  },
+  {
+   "retailer": "lidl",
+   "status": "ok",
+   "last_updated": "2026-09-28",
+   "stores_count": 116,
+   "total_catalog_size": 1667775,
+   "pg_products_tracked": 0,
+   "category_stats": {
+    "Piće": {
+     "count": 154976,
+     "pg_count": 0,
+     "avg_price": 4.38,
+     "pg_avg_price": null
+    },
+    "Hrana": {
+     "count": 1110395,
+     "pg_count": 0,
+     "avg_price": 3.03,
+     "pg_avg_price": null
+    },
+    "Toaletne potrepštine": {
+     "count": 38976,
+     "pg_count": 0,
+     "avg_price": 3.69,
+     "pg_avg_price": null
+    },
+    "Sredstva za čišćenje": {
+     "count": 81432,
+     "pg_count": 0,
+     "avg_price": 5.34,
+     "pg_avg_price": null
+    },
+    "Proizvodi za kućanstvo": {
+     "count": 108808,
+     "pg_count": 0,
+     "avg_price": 3.16,
+     "pg_avg_price": null
+    },
+    "Kozmetika": {
+     "count": 173188,
+     "pg_count": 0,
+     "avg_price": 3.26,
+     "pg_avg_price": null
+    }
+   },
+   "flagged_count": 0,
+   "flagged_items": [],
+   "history_days_available": 1
+  }
  ]
 }
