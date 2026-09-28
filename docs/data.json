@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T11:08:41.884665+00:00",
+ "generated_at": "2026-09-28T12:51:50.999898+00:00",
  "as_of_date": "2026-09-28",
  "missing_days_threshold": 3,
  "retailers": [
@@ -7,46 +7,226 @@
    "retailer": "konzum",
    "status": "ok",
    "last_updated": "2026-09-28",
-   "stores_count": 112,
-   "total_catalog_size": 1036944,
-   "pg_products_tracked": 26771,
+   "stores_count": 99,
+   "total_catalog_size": 989252,
+   "pg_products_tracked": 27517,
    "category_stats": {
-    "PIĆE": {
-     "count": 128481,
+    "HRANA": {
+     "count": 627632,
      "pg_count": 0,
-     "avg_price": 6.09,
-     "pg_avg_price": null
+     "avg_price": 4.24,
+     "pg_avg_price": null,
+     "competitor_avg_price": 4.24,
+     "competitor_count": 627632
     },
-    "KOZMETIKA": {
-     "count": 123772,
-     "pg_count": 13165,
-     "avg_price": 6.53,
-     "pg_avg_price": 9.96
+    "PIĆE": {
+     "count": 120422,
+     "pg_count": 98,
+     "avg_price": 6.36,
+     "pg_avg_price": 4.9,
+     "competitor_avg_price": 6.36,
+     "competitor_count": 120324
     },
     "SREDSTVA ZA ČIŠĆENJE": {
-     "count": 62107,
-     "pg_count": 10405,
-     "avg_price": 8.78,
-     "pg_avg_price": 10.93
+     "count": 59794,
+     "pg_count": 10007,
+     "avg_price": 8.8,
+     "pg_avg_price": 10.85,
+     "competitor_avg_price": 8.39,
+     "competitor_count": 49787
     },
     "PROIZVODI ZA KUĆANSTVO": {
-     "count": 42244,
-     "pg_count": 0,
-     "avg_price": 5.81,
-     "pg_avg_price": null
+     "count": 41342,
+     "pg_count": 10,
+     "avg_price": 5.79,
+     "pg_avg_price": 1.35,
+     "competitor_avg_price": 5.79,
+     "competitor_count": 41332
     },
-    "HRANA": {
-     "count": 655742,
-     "pg_count": 0,
-     "avg_price": 4.17,
-     "pg_avg_price": null
+    "KOZMETIKA": {
+     "count": 116727,
+     "pg_count": 12605,
+     "avg_price": 6.46,
+     "pg_avg_price": 10.18,
+     "competitor_avg_price": 6.01,
+     "competitor_count": 104122
     },
     "TOALETNE POTREPŠTINE": {
-     "count": 24598,
-     "pg_count": 3201,
-     "avg_price": 5.3,
-     "pg_avg_price": 16.87
+     "count": 23335,
+     "pg_count": 4797,
+     "avg_price": 5.29,
+     "pg_avg_price": 11.79,
+     "competitor_avg_price": 3.61,
+     "competitor_count": 18538
     }
+   },
+   "diagnostics": {
+    "blank_brand_field_rows": 19221,
+    "blank_brand_field_pct": 1.9,
+    "matched_via_brand_field": 25501,
+    "matched_via_product_name_fallback": 2016,
+    "top_brands_seen": [
+     [
+      "K PLUS",
+      26223
+     ],
+     [
+      "PODRAVKA",
+      21076
+     ],
+     [
+      "NIVEA",
+      14260
+     ],
+     [
+      "LEDO",
+      10775
+     ],
+     [
+      "GARDEN GOOD",
+      10702
+     ],
+     [
+      "FERRERO",
+      8592
+     ],
+     [
+      "MILKA",
+      8456
+     ],
+     [
+      "KOTANYI",
+      8066
+     ],
+     [
+      "MINUTE",
+      8051
+     ],
+     [
+      "VIOLETA",
+      7605
+     ],
+     [
+      "Z BREGOV",
+      7177
+     ],
+     [
+      "FRANCK",
+      7141
+     ],
+     [
+      "CEKIN",
+      6973
+     ],
+     [
+      "PIK VRBOVEC",
+      6785
+     ],
+     [
+      "OLEA",
+      6714
+     ],
+     [
+      "DAX",
+      6529
+     ],
+     [
+      "ZVIJEZDA",
+      6429
+     ],
+     [
+      "DOLCELA",
+      6394
+     ],
+     [
+      "PIK",
+      6371
+     ],
+     [
+      "GAVRILOVIĆ",
+      6186
+     ],
+     [
+      "SPECIAL MOMENTS",
+      6076
+     ],
+     [
+      "FINESSE",
+      5879
+     ],
+     [
+      "HRUSTY",
+      5684
+     ],
+     [
+      "DR OETKER",
+      5605
+     ],
+     [
+      "WRIGLEY",
+      5338
+     ],
+     [
+      "ARIEL",
+      5328
+     ],
+     [
+      "POLLEO",
+      5160
+     ],
+     [
+      "NESCAFE",
+      4974
+     ],
+     [
+      "LINO",
+      4693
+     ],
+     [
+      "MLINAR",
+      4646
+     ],
+     [
+      "BARILLA",
+      4619
+     ],
+     [
+      "OLD SPICE",
+      4075
+     ],
+     [
+      "CEDEVITA",
+      4063
+     ],
+     [
+      "VINDI",
+      4024
+     ],
+     [
+      "PRESIDENT",
+      3987
+     ],
+     [
+      "FRUCTAL",
+      3964
+     ],
+     [
+      "KRAŠ",
+      3952
+     ],
+     [
+      "MAGGI",
+      3951
+     ],
+     [
+      "ACTIVE ZONE",
+      3773
+     ],
+     [
+      "HIPP",
+      3709
+     ]
+    ]
    },
    "flagged_count": 0,
    "flagged_items": [],
@@ -58,44 +238,224 @@
    "last_updated": "2026-09-28",
    "stores_count": 53,
    "total_catalog_size": 736845,
-   "pg_products_tracked": 18637,
+   "pg_products_tracked": 19919,
    "category_stats": {
     "SREDSTVA ZA ČIŠĆENJE": {
      "count": 40819,
-     "pg_count": 3295,
+     "pg_count": 3532,
      "avg_price": 7.83,
-     "pg_avg_price": 16.53
+     "pg_avg_price": 15.87,
+     "competitor_avg_price": 7.07,
+     "competitor_count": 37287
     },
     "HRANA": {
      "count": 394513,
-     "pg_count": 0,
+     "pg_count": 50,
      "avg_price": 3.6,
-     "pg_avg_price": null
+     "pg_avg_price": 2.49,
+     "competitor_avg_price": 3.6,
+     "competitor_count": 394463
     },
     "KOZMETIKA": {
      "count": 147922,
-     "pg_count": 13967,
+     "pg_count": 14697,
      "avg_price": 6.31,
-     "pg_avg_price": 12.31
+     "pg_avg_price": 12.52,
+     "competitor_avg_price": 5.63,
+     "competitor_count": 133225
     },
     "PIĆE": {
      "count": 108744,
-     "pg_count": 15,
+     "pg_count": 68,
      "avg_price": 7.56,
-     "pg_avg_price": 2.53
+     "pg_avg_price": 4.26,
+     "competitor_avg_price": 7.56,
+     "competitor_count": 108676
     },
     "PROIZVODI ZA KUĆANSTVO": {
      "count": 32665,
      "pg_count": 0,
      "avg_price": 3.36,
-     "pg_avg_price": null
+     "pg_avg_price": null,
+     "competitor_avg_price": 3.36,
+     "competitor_count": 32665
     },
     "TOALETNE POTREPŠTINE": {
      "count": 12182,
-     "pg_count": 1360,
+     "pg_count": 1572,
      "avg_price": 3.63,
-     "pg_avg_price": 3.57
+     "pg_avg_price": 3.49,
+     "competitor_avg_price": 3.65,
+     "competitor_count": 10610
     }
+   },
+   "diagnostics": {
+    "blank_brand_field_rows": 1639,
+    "blank_brand_field_pct": 0.2,
+    "matched_via_brand_field": 18637,
+    "matched_via_product_name_fallback": 1282,
+    "top_brands_seen": [
+     [
+      "K-CLASSIC",
+      56842
+     ],
+     [
+      "NIVEA",
+      13257
+     ],
+     [
+      "#",
+      12897
+     ],
+     [
+      "PODRAVKA",
+      11429
+     ],
+     [
+      "BEVOLA",
+      10380
+     ],
+     [
+      "EVELINE",
+      8501
+     ],
+     [
+      "KOTANYI",
+      6666
+     ],
+     [
+      "LEDO",
+      6585
+     ],
+     [
+      "GAVRILOVIĆ",
+      6224
+     ],
+     [
+      "AFRODITA",
+      5805
+     ],
+     [
+      "K- CLASSIC",
+      5417
+     ],
+     [
+      "K-BIO",
+      5359
+     ],
+     [
+      "LOREAL",
+      4687
+     ],
+     [
+      "K-FAVOURITES",
+      4657
+     ],
+     [
+      "DR.OETKER",
+      4402
+     ],
+     [
+      "ESSENCE",
+      4281
+     ],
+     [
+      "FRANCK",
+      3986
+     ],
+     [
+      "MILKA",
+      3966
+     ],
+     [
+      "GARNIER",
+      3897
+     ],
+     [
+      "DUKAT",
+      3881
+     ],
+     [
+      "VIOLETA",
+      3736
+     ],
+     [
+      "VINDI",
+      3528
+     ],
+     [
+      "DOLCELA",
+      3430
+     ],
+     [
+      "ZVIJEZDA",
+      3400
+     ],
+     [
+      "`Z BREGOV",
+      3080
+     ],
+     [
+      "PRESIDENT",
+      3077
+     ],
+     [
+      "PALMOLIVE",
+      3054
+     ],
+     [
+      "NESCAFE",
+      2806
+     ],
+     [
+      "K-GOLD EDITION",
+      2783
+     ],
+     [
+      "HIPP",
+      2779
+     ],
+     [
+      "CEKIN",
+      2757
+     ],
+     [
+      "OLD SPICE",
+      2709
+     ],
+     [
+      "VITAKRAFT",
+      2706
+     ],
+     [
+      "SYOSS",
+      2644
+     ],
+     [
+      "KRAŠ",
+      2552
+     ],
+     [
+      "GILLETTE",
+      2515
+     ],
+     [
+      "PIK",
+      2461
+     ],
+     [
+      "PAMPERS",
+      2452
+     ],
+     [
+      "DOVE",
+      2389
+     ],
+     [
+      "VIGO",
+      2369
+     ]
+    ]
    },
    "flagged_count": 0,
    "flagged_items": [],
@@ -107,44 +467,224 @@
    "last_updated": "2026-09-28",
    "stores_count": 144,
    "total_catalog_size": 1303137,
-   "pg_products_tracked": 18273,
+   "pg_products_tracked": 18423,
    "category_stats": {
     "Hrana": {
      "count": 793419,
      "pg_count": 0,
      "avg_price": 3.78,
-     "pg_avg_price": null
+     "pg_avg_price": null,
+     "competitor_avg_price": 3.78,
+     "competitor_count": 793419
     },
     "Kozmetika": {
      "count": 119820,
-     "pg_count": 10138,
+     "pg_count": 10197,
      "avg_price": 5.58,
-     "pg_avg_price": 8.63
+     "pg_avg_price": 8.67,
+     "competitor_avg_price": 5.29,
+     "competitor_count": 109623
     },
     "Pića": {
      "count": 241670,
-     "pg_count": 0,
+     "pg_count": 73,
      "avg_price": 6.25,
-     "pg_avg_price": null
+     "pg_avg_price": 3.39,
+     "competitor_avg_price": 6.25,
+     "competitor_count": 241597
     },
     "Sredstva za čišćenje": {
      "count": 56787,
-     "pg_count": 4876,
+     "pg_count": 4894,
      "avg_price": 7.16,
-     "pg_avg_price": 11.86
+     "pg_avg_price": 11.9,
+     "competitor_avg_price": 6.71,
+     "competitor_count": 51893
     },
     "Proizvodi za kućanstvo": {
      "count": 63065,
      "pg_count": 0,
      "avg_price": 3.91,
-     "pg_avg_price": null
+     "pg_avg_price": null,
+     "competitor_avg_price": 3.91,
+     "competitor_count": 63065
     },
     "Toaletne potrepštine": {
      "count": 28376,
      "pg_count": 3259,
      "avg_price": 4.42,
-     "pg_avg_price": 8.88
+     "pg_avg_price": 8.88,
+     "competitor_avg_price": 3.84,
+     "competitor_count": 25117
     }
+   },
+   "diagnostics": {
+    "blank_brand_field_rows": 274001,
+    "blank_brand_field_pct": 21.0,
+    "matched_via_brand_field": 18273,
+    "matched_via_product_name_fallback": 150,
+    "top_brands_seen": [
+     [
+      "S-BUDGET",
+      89146
+     ],
+     [
+      "SPAR",
+      71681
+     ],
+     [
+      "PODRAVKA",
+      36175
+     ],
+     [
+      "DESPAR",
+      26888
+     ],
+     [
+      "SPAR NATUR*PUR",
+      24295
+     ],
+     [
+      "SPAR PREMIUM",
+      16845
+     ],
+     [
+      "VINDIJA",
+      16474
+     ],
+     [
+      "LEDO",
+      16346
+     ],
+     [
+      "DUKAT",
+      13533
+     ],
+     [
+      "SPAR ENJOY",
+      13280
+     ],
+     [
+      "GAVRILOVIC",
+      13203
+     ],
+     [
+      "SPLENDID",
+      11863
+     ],
+     [
+      "FRANCK",
+      9682
+     ],
+     [
+      "SPAR VITAL",
+      8107
+     ],
+     [
+      "KRAŠ",
+      8060
+     ],
+     [
+      "DR. OETKER",
+      7463
+     ],
+     [
+      "NIVEA",
+      7190
+     ],
+     [
+      "ZVIJEZDA",
+      7084
+     ],
+     [
+      "KOTANYI",
+      6855
+     ],
+     [
+      "NESCAFE",
+      6545
+     ],
+     [
+      "VIOLETA",
+      6402
+     ],
+     [
+      "SPAR VRTOVI HRVATSKE",
+      6229
+     ],
+     [
+      "CEKIN",
+      6206
+     ],
+     [
+      "GARNIER",
+      6183
+     ],
+     [
+      "SPAR FREE FROM",
+      6040
+     ],
+     [
+      "FRUCTAL",
+      5925
+     ],
+     [
+      "ISANA",
+      5540
+     ],
+     [
+      "HIPP",
+      5137
+     ],
+     [
+      "CEDEVITA",
+      4882
+     ],
+     [
+      "SPAR VEGGIE",
+      4803
+     ],
+     [
+      "PIK",
+      4682
+     ],
+     [
+      "WRIGLEY",
+      4449
+     ],
+     [
+      "Z BREGOV",
+      4298
+     ],
+     [
+      "MILKA",
+      4086
+     ],
+     [
+      "BEAUTY KISS",
+      3912
+     ],
+     [
+      "FERRERO",
+      3852
+     ],
+     [
+      "GILLETTE",
+      3790
+     ],
+     [
+      "AFRODITA",
+      3761
+     ],
+     [
+      "PERUTNINA",
+      3620
+     ],
+     [
+      "DOVE",
+      3580
+     ]
+    ]
    },
    "flagged_count": 0,
    "flagged_items": [],
@@ -156,44 +696,224 @@
    "last_updated": "2026-09-28",
    "stores_count": 116,
    "total_catalog_size": 1667775,
-   "pg_products_tracked": 0,
+   "pg_products_tracked": 22388,
    "category_stats": {
     "Piće": {
      "count": 154976,
-     "pg_count": 0,
+     "pg_count": 116,
      "avg_price": 4.38,
-     "pg_avg_price": null
+     "pg_avg_price": 4.69,
+     "competitor_avg_price": 4.38,
+     "competitor_count": 154860
     },
     "Hrana": {
      "count": 1110395,
      "pg_count": 0,
      "avg_price": 3.03,
-     "pg_avg_price": null
+     "pg_avg_price": null,
+     "competitor_avg_price": 3.03,
+     "competitor_count": 1110395
     },
     "Toaletne potrepštine": {
      "count": 38976,
-     "pg_count": 0,
+     "pg_count": 5568,
      "avg_price": 3.69,
-     "pg_avg_price": null
+     "pg_avg_price": 3.83,
+     "competitor_avg_price": 3.66,
+     "competitor_count": 33408
     },
     "Sredstva za čišćenje": {
      "count": 81432,
-     "pg_count": 0,
+     "pg_count": 6960,
      "avg_price": 5.34,
-     "pg_avg_price": null
+     "pg_avg_price": 13.05,
+     "competitor_avg_price": 4.61,
+     "competitor_count": 74472
     },
     "Proizvodi za kućanstvo": {
      "count": 108808,
      "pg_count": 0,
      "avg_price": 3.16,
-     "pg_avg_price": null
+     "pg_avg_price": null,
+     "competitor_avg_price": 3.16,
+     "competitor_count": 108808
     },
     "Kozmetika": {
      "count": 173188,
-     "pg_count": 0,
+     "pg_count": 9744,
      "avg_price": 3.26,
-     "pg_avg_price": null
+     "pg_avg_price": 6.52,
+     "competitor_avg_price": 3.07,
+     "competitor_count": 163444
     }
+   },
+   "diagnostics": {
+    "blank_brand_field_rows": 520328,
+    "blank_brand_field_pct": 31.2,
+    "matched_via_brand_field": 0,
+    "matched_via_product_name_fallback": 22388,
+    "top_brands_seen": [
+     [
+      "DELUXE",
+      71688
+     ],
+     [
+      "CIEN",
+      68208
+     ],
+     [
+      "W5",
+      48140
+     ],
+     [
+      "MILBONA",
+      42837
+     ],
+     [
+      "VITASIA",
+      40368
+     ],
+     [
+      "NAŠA MESNICA",
+      40135
+     ],
+     [
+      "OKUSI ZAVIČAJA",
+      33292
+     ],
+     [
+      "ITALIAMO",
+      32596
+     ],
+     [
+      "PILOS",
+      31210
+     ],
+     [
+      "-",
+      30508
+     ],
+     [
+      "CHEF SELECT",
+      29000
+     ],
+     [
+      "FAVORINA",
+      25868
+     ],
+     [
+      "KANIA",
+      25636
+     ],
+     [
+      "GELATELLI",
+      20300
+     ],
+     [
+      "PIKOK",
+      19412
+     ],
+     [
+      "BELBAKE",
+      19024
+     ],
+     [
+      "ERIDANOUS",
+      18444
+     ],
+     [
+      "SONDEY",
+      17284
+     ],
+     [
+      "FRESHONA",
+      15312
+     ],
+     [
+      "MCENNEDY",
+      15312
+     ],
+     [
+      "VEMONDO",
+      15196
+     ],
+     [
+      "SNACK DAY",
+      14436
+     ],
+     [
+      "ALPENFESTSTYLE",
+      14152
+     ],
+     [
+      "CIEN BEAUTY",
+      13572
+     ],
+     [
+      "BELLAROM",
+      12992
+     ],
+     [
+      "SOLEVITA",
+      12644
+     ],
+     [
+      "CROWNFIELD",
+      12180
+     ],
+     [
+      "ALESTO",
+      11368
+     ],
+     [
+      "LUPILU",
+      11252
+     ],
+     [
+      "MISTER CHOC",
+      10324
+     ],
+     [
+      "DUC DE COEUR",
+      10208
+     ],
+     [
+      "DULANO",
+      9976
+     ],
+     [
+      "TASTINO",
+      9860
+     ],
+     [
+      "ORLANDO",
+      9512
+     ],
+     [
+      "ALPENFEST",
+      9396
+     ],
+     [
+      "BON GELATI",
+      8352
+     ],
+     [
+      "CIEN MEN",
+      8004
+     ],
+     [
+      "EL TEQUITO",
+      7888
+     ],
+     [
+      "CIEN SUN",
+      7772
+     ],
+     [
+      "HALLOWEEN",
+      7656
+     ]
+    ]
    },
    "flagged_count": 0,
    "flagged_items": [],
