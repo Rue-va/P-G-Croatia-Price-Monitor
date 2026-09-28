@@ -1,0 +1,11 @@
+{
+ "generated_at": null,
+ "as_of_date": null,
+ "missing_days_threshold": 3,
+ "retailers": [
+  {"retailer": "konzum", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
+  {"retailer": "kaufland", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
+  {"retailer": "spar", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null},
+  {"retailer": "lidl", "status": "error", "error": "No data yet — waiting for the first scheduled run.", "last_updated": null}
+ ]
+}

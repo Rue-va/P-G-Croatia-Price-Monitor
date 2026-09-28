@@ -1,0 +1,61 @@
+name: Daily price & assortment crawl
+
+on:
+  schedule:
+    # 05:00 UTC = 07:00 Zagreb time (06:00 during CET/winter) — after
+    # retailers' 8am local publication deadline is not guaranteed for every
+    # retailer, so a second run below catches any that weren't live yet.
+    - cron: "0 5 * * *"
+    - cron: "0 8 * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawl and export
+        run: python scrape_and_export.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "pg-price-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/data.json docs/flags/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily price/assortment update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy-pages:
+    needs: crawl
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
