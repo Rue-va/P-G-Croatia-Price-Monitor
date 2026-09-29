@@ -14,6 +14,9 @@ Sheet layout:
     flagged count — plus a bar chart comparing retailers at a glance.
   - "<Retailer> Categories": P&G vs. competitor average price per category,
     plus a bar chart — the Excel equivalent of the dashboard's price chart.
+  - "<Retailer> Competitor Tracker": the manager-curated brand watchlist
+    (config.CATEGORY_BRANDS) — every tracked P&G/competitor brand per
+    fighting category, one row each, even at 0 rows seen today.
   - "<Retailer> P&G assortment": every P&G product tracked, one row per
     store (this is the same data as the dashboard's "Products tracked"
     table, just delivered as a spreadsheet instead).
@@ -47,7 +50,7 @@ REPORT_PATH = DOCS_DIR / "PG_Price_Report.xlsx"
 
 
 def _safe_sheet_name(name: str) -> str:
-    # Excel sheet names: max 31 chars, no []:*?/\
+    # Excel sheet names: max 31 chars, no []:*?/\\
     for ch in "[]:*?/\\":
         name = name.replace(ch, "")
     return name[:31]
@@ -115,6 +118,10 @@ def build_report():
             cat_ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Categories"))
             cat_rows = []
             for cat, cs in sorted(category_stats.items()):
+                top_brands = cs.get("top_competitor_brands") or []
+                brands_text = "; ".join(
+                    f"{b['brand']} (€{b['avg_price']:.2f}, {b['count']}x)" for b in top_brands
+                )
                 cat_rows.append([
                     cat,
                     cs.get("count", 0),
@@ -122,12 +129,13 @@ def build_report():
                     cs.get("pg_avg_price"),
                     cs.get("competitor_avg_price"),
                     cs.get("competitor_count", 0),
+                    brands_text,
                 ])
             _write_table(
                 cat_ws,
                 ["Category", "All-Store Item Count", "P&G Item Count",
                  "P&G Avg Price (EUR)", "Competitor Avg Price excl. P&G (EUR)",
-                 "Competitor Item Count"],
+                 "Competitor Item Count", "Named Competitor Brands (avg price, rows seen)"],
                 cat_rows,
                 table_name=_safe_sheet_name(f"{retailer}_categories").replace(" ", "_"),
             )
@@ -148,6 +156,32 @@ def build_report():
                 chart.width, chart.height = 24, 11
                 cat_ws.add_chart(chart, f"A{n_cat + 4}")
 
+        # --- Competitor Tracker sheet: the manager-curated brand watchlist,
+        # one row per tracked brand so it's filterable/sortable, with every
+        # configured brand present even at 0 rows/no price (so "not sold
+        # today" is visible instead of just missing from the sheet). ---
+        watchlist = r.get("category_brand_watchlist") or {}
+        if watchlist:
+            wl_ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Competitor Tracker"))
+            wl_rows = []
+            for cat, groups in watchlist.items():
+                for b in groups.get("pg_brands", []):
+                    wl_rows.append([cat, "P&G", b["brand"], b["count"], b["avg_price"]])
+                for b in groups.get("competitor_brands", []):
+                    wl_rows.append([cat, "Competitor", b["brand"], b["count"], b["avg_price"]])
+            _write_table(
+                wl_ws,
+                ["Category", "Side", "Brand", "Rows Seen Today", "Avg Price (EUR)"],
+                wl_rows,
+                table_name=_safe_sheet_name(f"{retailer}_watchlist").replace(" ", "_"),
+            )
+            # Flag brands with zero rows today — either genuinely not sold,
+            # or a brand-name spelling mismatch worth double-checking.
+            for row_idx, row in enumerate(wl_rows, start=2):
+                if row[3] == 0:
+                    for col_idx in range(1, 6):
+                        wl_ws.cell(row=row_idx, column=col_idx).fill = WARN_FILL
+
         # --- P&G assortment sheet ---
         products_path = DOCS_DIR / "products" / f"{retailer}.json"
         if products_path.exists():
@@ -155,10 +189,10 @@ def build_report():
             ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} P&G"))
             _write_table(
                 ws,
-                ["Product", "Brand", "Category", "Store", "City", "Price (EUR)"],
+                ["Product", "Brand", "Category", "EAN", "Store", "Address", "City", "Price (EUR)"],
                 [
-                    [p.get("product"), p.get("brand"), p.get("category"),
-                     p.get("store_name"), p.get("city"), p.get("price")]
+                    [p.get("product"), p.get("brand"), p.get("category"), p.get("barcode"),
+                     p.get("store_name"), p.get("street_address"), p.get("city"), p.get("price")]
                     for p in products
                 ],
                 table_name=_safe_sheet_name(f"{retailer}_pg").replace(" ", "_"),

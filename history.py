@@ -25,11 +25,49 @@ from pathlib import Path
 from statistics import mean
 from typing import Iterable
 
-from config import HISTORY_DIR, MISSING_DAYS_THRESHOLD, PG_BRANDS
+from config import (
+    CATEGORY_BRANDS,
+    CATEGORY_DISAMBIGUATION_KEYWORDS,
+    HISTORY_DIR,
+    MISSING_DAYS_THRESHOLD,
+    PG_BRANDS,
+    PRIVATE_LABEL_BRANDS,
+)
 
 # Sorted longest-first so "HEAD & SHOULDERS" is tried before any shorter
 # brand name that might also appear as a substring of it.
 _PG_BRANDS_BY_LENGTH = sorted(PG_BRANDS, key=len, reverse=True)
+
+
+def _build_watchlist_index(retailer: str):
+    """
+    Builds the per-retailer lookup structures for CATEGORY_BRANDS:
+      - brand_to_categories: normalized brand -> list of category names it
+        appears in (usually one; Violeta/Jar appear in two)
+      - brand_display: normalized brand -> the nicely-cased name from config
+      - brand_lookup_by_length: normalized brands sorted longest-first, for
+        the product-name substring fallback
+      - init_prices: category -> normalized brand -> [] (price accumulator)
+    """
+    brand_to_categories: dict[str, list[str]] = {}
+    brand_display: dict[str, str] = {}
+    init_prices: dict[str, dict[str, list]] = {}
+
+    for category, brands in CATEGORY_BRANDS.items():
+        brands = list(brands)
+        private_label = PRIVATE_LABEL_BRANDS.get(retailer)
+        if category == "Diapers & Wipes" and private_label and private_label not in brands:
+            brands = brands + [private_label]
+
+        init_prices[category] = {}
+        for brand in brands:
+            norm = _norm(brand)
+            brand_to_categories.setdefault(norm, []).append(category)
+            brand_display[norm] = brand
+            init_prices[category][norm] = []
+
+    brand_lookup_by_length = sorted(brand_to_categories, key=len, reverse=True)
+    return brand_to_categories, brand_display, brand_lookup_by_length, init_prices
 
 
 def _norm(text: str) -> str:
@@ -93,23 +131,53 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
     all_brand_counter: Counter = Counter()
     match_via_counter: Counter = Counter()
 
+    watch_brand_to_categories, watch_brand_display, watch_brand_by_length, watch_prices = (
+        _build_watchlist_index(retailer)
+    )
+
     for store in stores:
         for item in store.items:
             total_products += 1
             category = (item.category or "Uncategorized").strip() or "Uncategorized"
             price = float(item.price) if item.price is not None else None
             norm_brand = _norm(item.brand)
+            norm_product = _norm(item.product)
             if norm_brand:
                 all_brand_counter[norm_brand] += 1
             else:
                 blank_brand_count += 1
+
+            # Manager-curated brand watchlist (config.CATEGORY_BRANDS): match
+            # on the brand field first, then fall back to spotting the brand
+            # name inside the product title, same tolerant approach as
+            # match_pg_brand below.
+            if price is not None:
+                matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
+                if matched_watch_brand is None and norm_product:
+                    for wb in watch_brand_by_length:
+                        if wb in norm_product:
+                            matched_watch_brand = wb
+                            break
+                if matched_watch_brand:
+                    cats_for_brand = watch_brand_to_categories[matched_watch_brand]
+                    if len(cats_for_brand) == 1:
+                        target_cat = cats_for_brand[0]
+                    else:
+                        target_cat = None
+                        for cat in cats_for_brand:
+                            keywords = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
+                            if any(kw in norm_product for kw in keywords):
+                                target_cat = cat
+                                break
+                    if target_cat:
+                        watch_prices[target_cat][matched_watch_brand].append(price)
 
             cs = category_stats.setdefault(
                 category,
                 {
                     "count": 0, "prices": [],
                     "pg_count": 0, "pg_prices": [],
-                    "competitor_prices": [],
+                    "competitor_prices": [], "competitor_brands": {},
                 },
             )
             cs["count"] += 1
@@ -126,6 +194,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                     {
                         "store_id": store.store_id,
                         "store_name": store.name,
+                        "street_address": store.street_address,
                         "city": store.city,
                         "product_id": item.product_id,
                         "product": item.product,
@@ -142,16 +211,59 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                 # separate from the all-brands average (which otherwise
                 # gets diluted by P&G's own prices).
                 cs["competitor_prices"].append(price)
+                if norm_brand:
+                    # Track named competitor brands per category (e.g.
+                    # Persil within Ariel's laundry category), scoped to
+                    # categories P&G actually competes in — unlike the
+                    # catalog-wide brand diagnostics below, this doesn't get
+                    # crowded out by unrelated grocery brands.
+                    slot = cs["competitor_brands"].setdefault(
+                        norm_brand, {"display": item.brand.strip(), "prices": []}
+                    )
+                    slot["prices"].append(price)
 
     # collapse raw price lists into summary numbers before saving
     for cat, cs in category_stats.items():
         prices = cs.pop("prices")
         pg_prices = cs.pop("pg_prices")
         competitor_prices = cs.pop("competitor_prices")
+        competitor_brands = cs.pop("competitor_brands")
         cs["avg_price"] = round(mean(prices), 2) if prices else None
         cs["pg_avg_price"] = round(mean(pg_prices), 2) if pg_prices else None
         cs["competitor_avg_price"] = round(mean(competitor_prices), 2) if competitor_prices else None
         cs["competitor_count"] = len(competitor_prices)
+
+        top_brands = sorted(
+            competitor_brands.values(), key=lambda b: len(b["prices"]), reverse=True
+        )[:8]
+        cs["top_competitor_brands"] = [
+            {
+                "brand": b["display"],
+                "count": len(b["prices"]),
+                "avg_price": round(mean(b["prices"]), 2),
+            }
+            for b in top_brands
+        ]
+
+    # Collapse the manager-curated brand watchlist into a display-ready
+    # structure: every configured brand appears for every configured
+    # category, even at count=0, so a brand that genuinely isn't sold today
+    # is visibly "not found" rather than silently absent from the page.
+    category_brand_watchlist: dict[str, dict] = {}
+    for cat, brands in watch_prices.items():
+        pg_brands, competitor_brands_out = [], []
+        for norm, prices in brands.items():
+            display = watch_brand_display[norm]
+            entry = {
+                "brand": display,
+                "count": len(prices),
+                "avg_price": round(mean(prices), 2) if prices else None,
+            }
+            (pg_brands if is_pg(display) else competitor_brands_out).append(entry)
+        category_brand_watchlist[cat] = {
+            "pg_brands": pg_brands,
+            "competitor_brands": competitor_brands_out,
+        }
 
     return {
         "date": day.isoformat(),
@@ -160,6 +272,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
         "total_products_all_stores": total_products,
         "pg_product_rows": len(pg_rows),
         "category_stats": category_stats,
+        "category_brand_watchlist": category_brand_watchlist,
         "pg_products": pg_rows,
         "diagnostics": {
             "blank_brand_field_rows": blank_brand_count,

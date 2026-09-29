@@ -81,6 +81,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
             "total_catalog_size": payload["total_products_all_stores"],
             "pg_products_tracked": payload["pg_product_rows"],
             "category_stats": payload["category_stats"],
+            "category_brand_watchlist": payload.get("category_brand_watchlist", {}),
             "diagnostics": payload["diagnostics"],
             "flagged_count": len(flags),
             "flagged_items": flags[:200],  # cap so data.json stays light
@@ -103,6 +104,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
                     "total_catalog_size": prev["total_products_all_stores"],
                     "pg_products_tracked": prev["pg_product_rows"],
                     "category_stats": prev["category_stats"],
+                    "category_brand_watchlist": prev.get("category_brand_watchlist", {}),
                     "diagnostics": prev.get("diagnostics", {}),
                     "flagged_count": len(flags),
                     "flagged_items": flags[:200],

@@ -72,7 +72,8 @@
   details.diagnostics summary { cursor: pointer; color: var(--pg-blue); font-weight: 600; margin-bottom: 8px; }
   .diag-warning { background: #fff4e5; color: #b06000; padding: 8px 12px; border-radius: 6px; margin-bottom: 10px; font-size: 13px; }
   .brand-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-  .brand-tag { background: #eef1f4; border-radius: 4px; padding: 2px 8px; font-size: 12px; }
+  .brand-tag { background: #eef1f4; border-radius: 4px; padding: 2px 8px; font-size: 12px; display: inline-block; margin: 2px; }
+  .brand-tag.pg-brand { background: #e3edf9; color: var(--pg-blue); font-weight: 600; }
   .scroll-table { max-height: 480px; overflow-y: auto; }
   .search-row select {
     padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
@@ -208,6 +209,12 @@ function renderRetailer(name) {
     </div>
 
     <div class="section">
+      <h2>Competitor tracker, by category</h2>
+      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing.</p>
+      ${renderBrandWatchlist(r.category_brand_watchlist)}
+    </div>
+
+    <div class="section">
       <h2>Flagged: likely out of stock (missing ${dashboardData.missing_days_threshold}+ consecutive published days)</h2>
       ${renderFlaggedTable(r.flagged_items)}
     </div>
@@ -222,8 +229,8 @@ function renderRetailer(name) {
         <span class="search-count" id="product-count"></span>
       </div>
       <div class="scroll-table"><table id="sku-table"><thead>
-        <tr><th>Product</th><th>Brand</th><th>Category</th><th class="num"># Stores</th><th class="num">Min €</th><th class="num">Avg €</th><th class="num">Max €</th></tr>
-      </thead><tbody><tr><td colspan="7" class="empty">Loading…</td></tr></tbody></table></div>
+        <tr><th>Product</th><th>Brand</th><th>Category</th><th>EAN</th><th class="num"># Stores</th><th class="num">Min €</th><th class="num">Avg €</th><th class="num">Max €</th></tr>
+      </thead><tbody><tr><td colspan="8" class="empty">Loading…</td></tr></tbody></table></div>
 
       <div class="sku-detail" id="sku-detail">
         <button class="close-detail" onclick="closeSkuDetail()">✕ close</button>
@@ -231,7 +238,7 @@ function renderRetailer(name) {
         <p class="sub" id="sku-detail-sub"></p>
         <canvas id="skuChart"></canvas>
         <div class="scroll-table" style="margin-top:14px;"><table id="sku-store-table"><thead>
-          <tr><th>Store</th><th>City</th><th class="num">Price</th></tr>
+          <tr><th>Store</th><th>Address</th><th>City</th><th class="num">Price</th></tr>
         </thead><tbody></tbody></table></div>
       </div>
     </div>
@@ -242,7 +249,7 @@ function renderRetailer(name) {
         <p>${diag.blank_brand_field_pct != null ? `${diag.blank_brand_field_pct}% of ${name}'s rows today had no value in the brand column` : 'No diagnostic data yet'}
            ${diag.matched_via_product_name_fallback ? ` — ${diag.matched_via_product_name_fallback.toLocaleString()} of the P&amp;G matches above came from spotting a brand name inside the product title rather than the brand field, because the brand field was empty or didn't match.` : ''}
         </p>
-        <p>Most common brand values actually seen in ${name}'s file today (use this to spot a P&amp;G brand spelled differently than expected in <code>config.py</code>'s <code>PG_BRANDS</code>):</p>
+        <p>Most common brand values across ${name}'s <strong>entire</strong> catalog today — this is a brand-matching debug list, not a competitor list, so it's dominated by high-volume grocery brands and can miss lower-volume real competitors (e.g. Persil). For actual named competitors, see "Competitor tracker, by category" above. Use this list to spot a P&amp;G brand spelled differently than expected in <code>config.py</code>'s <code>PG_BRANDS</code>:</p>
         <div class="brand-tags">
           ${(diag.top_brands_seen || []).map(([b, c]) => `<span class="brand-tag">${escapeHtml(b || '(blank)')} · ${c}</span>`).join('') || '<span class="empty">No data</span>'}
         </div>
@@ -268,7 +275,7 @@ function groupIntoSkus(rows) {
     if (!groups.has(key)) {
       groups.set(key, {
         product: row.product, brand: row.brand, category: row.category,
-        stores: [],
+        ean: row.barcode || '', stores: [],
       });
     }
     groups.get(key).stores.push(row);
@@ -324,11 +331,12 @@ async function loadProducts(retailer) {
           <td>${escapeHtml(s.product)}</td>
           <td>${escapeHtml(s.brand)}</td>
           <td>${escapeHtml(s.category)}</td>
+          <td>${escapeHtml(s.ean) || '—'}</td>
           <td class="num">${s.store_count}</td>
           <td class="num">${s.min_price != null ? s.min_price.toFixed(2) : '—'}</td>
           <td class="num">${s.avg_price != null ? s.avg_price.toFixed(2) : '—'}</td>
           <td class="num">${s.max_price != null ? s.max_price.toFixed(2) : '—'}</td>
-        </tr>`).join('') : '<tr><td colspan="7" class="empty">No matches.</td></tr>';
+        </tr>`).join('') : '<tr><td colspan="8" class="empty">No matches.</td></tr>';
 
       // Bind clicks in JS rather than inline onclick="" strings — product
       // names/categories can contain quotes or accented characters that
@@ -358,7 +366,7 @@ function showSkuDetail(sku) {
   panel.classList.add('open');
   document.getElementById('sku-detail-title').textContent = `${sku.product} — ${sku.brand}`;
   document.getElementById('sku-detail-sub').textContent =
-    `${sku.category} · in ${sku.store_count} store${sku.store_count === 1 ? '' : 's'} · €${sku.min_price?.toFixed(2)}–€${sku.max_price?.toFixed(2)} (avg €${sku.avg_price?.toFixed(2)})`;
+    `${sku.category}${sku.ean ? ' · EAN ' + sku.ean : ''} · in ${sku.store_count} store${sku.store_count === 1 ? '' : 's'} · €${sku.min_price?.toFixed(2)}–€${sku.max_price?.toFixed(2)} (avg €${sku.avg_price?.toFixed(2)})`;
 
   const storesSorted = [...sku.stores].sort((a, b) => (a.price ?? 0) - (b.price ?? 0));
 
@@ -366,6 +374,7 @@ function showSkuDetail(sku) {
   tbody.innerHTML = storesSorted.map(s => `
     <tr>
       <td>${escapeHtml(s.store_name)}</td>
+      <td>${escapeHtml(s.street_address || '—')}</td>
       <td>${escapeHtml(s.city || '')}</td>
       <td class="num">${s.price != null ? '€' + Number(s.price).toFixed(2) : '—'}</td>
     </tr>`).join('');
@@ -374,10 +383,18 @@ function showSkuDetail(sku) {
   if (skuChartInstance) skuChartInstance.destroy();
   const CHART_CAP = 60;
   const chartStores = storesSorted.slice(0, CHART_CAP);
+  // Some retailers give two distinct physical stores the identical display
+  // name (e.g. two "Konzum Biograd Na Moru" branches) — disambiguate those
+  // with the street address so the chart doesn't look like a duplicate bar.
+  const nameCounts = {};
+  chartStores.forEach(s => { nameCounts[s.store_name] = (nameCounts[s.store_name] || 0) + 1; });
+  const chartLabel = s => nameCounts[s.store_name] > 1 && s.street_address
+    ? `${s.store_name} (${s.street_address})`
+    : s.store_name;
   skuChartInstance = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: chartStores.map(s => s.store_name),
+      labels: chartStores.map(chartLabel),
       datasets: [{ label: 'Price (€)', data: chartStores.map(s => s.price), backgroundColor: '#004b93' }],
     },
     options: {
@@ -401,6 +418,30 @@ function showSkuDetail(sku) {
 function closeSkuDetail() {
   const panel = document.getElementById('sku-detail');
   if (panel) panel.classList.remove('open');
+}
+
+function brandChip(b, extraClass) {
+  const found = b.count > 0;
+  const label = found ? `${escapeHtml(b.brand)} · €${b.avg_price.toFixed(2)} · ${b.count}×` : `${escapeHtml(b.brand)} · not found today`;
+  return `<span class="brand-tag${extraClass ? ' ' + extraClass : ''}"${found ? '' : ' style="opacity:0.5;"'}>${label}</span>`;
+}
+
+function renderBrandWatchlist(watchlist) {
+  const entries = Object.entries(watchlist || {});
+  if (!entries.length) {
+    return '<p class="empty">No brand watchlist data for this retailer yet.</p>';
+  }
+  const rows = entries.map(([cat, v]) => `
+    <tr>
+      <td>${escapeHtml(cat)}</td>
+      <td>${(v.pg_brands || []).map(b => brandChip(b, 'pg-brand')).join(' ')}</td>
+      <td>${(v.competitor_brands || []).map(b => brandChip(b)).join(' ')}</td>
+    </tr>`).join('');
+  return `
+    <table>
+      <thead><tr><th>Category</th><th>P&amp;G</th><th>Competitors</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
 }
 
 function renderFlaggedTable(items) {
