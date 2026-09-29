@@ -86,12 +86,22 @@
   .sku-detail .sub { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
   .close-detail { float: right; background: none; border: none; color: var(--muted); cursor: pointer; font-size: 13px; }
   .num { text-align: right; }
+  .header-actions { margin-top: 8px; }
+  .btn-download {
+    display: inline-block; padding: 8px 14px; border-radius: 6px;
+    background: var(--accent, #004B93); color: #fff; text-decoration: none;
+    font-size: 13px; font-weight: 600;
+  }
+  .btn-download:hover { opacity: 0.9; }
 </style>
 </head>
 <body>
 <header>
   <h1>P&amp;G Croatia — Retail Price &amp; Assortment Monitor</h1>
   <p id="generated-line">Loading…</p>
+  <div class="header-actions">
+    <a class="btn-download" href="PG_Price_Report.xlsx" download>⬇ Download Excel report</a>
+  </div>
 </header>
 <main>
   <div class="tabs" id="tabs"></div>
