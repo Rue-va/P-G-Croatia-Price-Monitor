@@ -2,9 +2,15 @@ name: Daily price & assortment crawl
 
 on:
   schedule:
+    # 05:00 UTC = 07:00 Zagreb time (06:00 during CET/winter) — after
+    # retailers' 8am local publication deadline is not guaranteed for every
+    # retailer, so a second run below catches any that weren't live yet.
     - cron: "0 5 * * *"
     - cron: "0 8 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+  push:
+    branches: [main]
+    paths: ["docs/**"]   # redeploy the site immediately when dashboard code changes, without re-crawling
 
 permissions:
   contents: write
@@ -15,6 +21,7 @@ concurrency:
 
 jobs:
   crawl:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,3 +48,24 @@ jobs:
             git pull --rebase origin ${{ github.ref_name }}
             git push
           fi
+
+  deploy-pages:
+    needs: crawl
+    if: always() && (needs.crawl.result == 'success' || needs.crawl.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
