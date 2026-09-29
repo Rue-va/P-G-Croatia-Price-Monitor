@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T08:16:34.549064+00:00",
+ "generated_at": "2026-09-29T11:15:41.038406+00:00",
  "as_of_date": "2026-09-29",
  "missing_days_threshold": 3,
  "retailers": [
@@ -7,224 +7,799 @@
    "retailer": "konzum",
    "status": "ok",
    "last_updated": "2026-09-29",
-   "stores_count": 65,
-   "total_catalog_size": 672748,
-   "pg_products_tracked": 19827,
+   "stores_count": 69,
+   "total_catalog_size": 686199,
+   "pg_products_tracked": 21941,
    "category_stats": {
     "HRANA": {
-     "count": 419879,
-     "pg_count": 0,
-     "avg_price": 4.25,
-     "pg_avg_price": null,
-     "competitor_avg_price": 4.25,
-     "competitor_count": 419879
+     "count": 432690,
+     "pg_count": 350,
+     "avg_price": 4.28,
+     "pg_avg_price": 15.06,
+     "competitor_avg_price": 4.27,
+     "competitor_count": 432340,
+     "top_competitor_brands": [
+      {
+       "brand": "K PLUS",
+       "count": 16974,
+       "avg_price": 2.92
+      },
+      {
+       "brand": "PODRAVKA",
+       "count": 14768,
+       "avg_price": 2.84
+      },
+      {
+       "brand": "LEDO",
+       "count": 7699,
+       "avg_price": 4.76
+      },
+      {
+       "brand": "GARDEN GOOD",
+       "count": 7455,
+       "avg_price": 2.36
+      },
+      {
+       "brand": "FERRERO",
+       "count": 5793,
+       "avg_price": 3.3
+      },
+      {
+       "brand": "MILKA",
+       "count": 5713,
+       "avg_price": 3.23
+      },
+      {
+       "brand": "KOTANYI",
+       "count": 5583,
+       "avg_price": 2.37
+      },
+      {
+       "brand": "MINUTE",
+       "count": 5052,
+       "avg_price": 2.51
+      }
+     ]
     },
     "PIĆE": {
-     "count": 80867,
-     "pg_count": 65,
-     "avg_price": 6.47,
-     "pg_avg_price": 4.88,
-     "competitor_avg_price": 6.47,
-     "competitor_count": 80802
+     "count": 83278,
+     "pg_count": 69,
+     "avg_price": 6.19,
+     "pg_avg_price": 4.84,
+     "competitor_avg_price": 6.19,
+     "competitor_count": 83209,
+     "top_competitor_brands": [
+      {
+       "brand": "VINDI",
+       "count": 2766,
+       "avg_price": 1.66
+      },
+      {
+       "brand": "FRUCTAL",
+       "count": 2721,
+       "avg_price": 2.52
+      },
+      {
+       "brand": "CEDEVITA",
+       "count": 2331,
+       "avg_price": 2.98
+      },
+      {
+       "brand": "JANA",
+       "count": 2311,
+       "avg_price": 1.54
+      },
+      {
+       "brand": "BADEL 1862",
+       "count": 2057,
+       "avg_price": 10.88
+      },
+      {
+       "brand": "COCA COLA",
+       "count": 1501,
+       "avg_price": 2.54
+      },
+      {
+       "brand": "MARASKA",
+       "count": 1488,
+       "avg_price": 8.6
+      },
+      {
+       "brand": "MOJ DAN",
+       "count": 1347,
+       "avg_price": 2.23
+      }
+     ]
     },
     "KOZMETIKA": {
-     "count": 86479,
-     "pg_count": 9399,
-     "avg_price": 6.44,
-     "pg_avg_price": 10.34,
-     "competitor_avg_price": 5.97,
-     "competitor_count": 77080
-    },
-    "TOALETNE POTREPŠTINE": {
-     "count": 16041,
-     "pg_count": 3377,
-     "avg_price": 5.35,
-     "pg_avg_price": 11.79,
-     "competitor_avg_price": 3.64,
-     "competitor_count": 12664
-    },
-    "PROIZVODI ZA KUĆANSTVO": {
-     "count": 27683,
-     "pg_count": 10,
-     "avg_price": 5.83,
-     "pg_avg_price": 1.35,
-     "competitor_avg_price": 5.83,
-     "competitor_count": 27673
+     "count": 84750,
+     "pg_count": 9140,
+     "avg_price": 6.46,
+     "pg_avg_price": 9.97,
+     "competitor_avg_price": 6.03,
+     "competitor_count": 75610,
+     "top_competitor_brands": [
+      {
+       "brand": "NIVEA",
+       "count": 10249,
+       "avg_price": 8.66
+      },
+      {
+       "brand": "OLEA",
+       "count": 3685,
+       "avg_price": 2.27
+      },
+      {
+       "brand": "DOVE",
+       "count": 2544,
+       "avg_price": 4.12
+      },
+      {
+       "brand": "AFRODITA",
+       "count": 2457,
+       "avg_price": 6.71
+      },
+      {
+       "brand": "PALMOLIVE",
+       "count": 2192,
+       "avg_price": 4.44
+      },
+      {
+       "brand": "FA",
+       "count": 1935,
+       "avg_price": 3.3
+      },
+      {
+       "brand": "COLGATE",
+       "count": 1864,
+       "avg_price": 3.87
+      },
+      {
+       "brand": "SYOSS",
+       "count": 1861,
+       "avg_price": 6.01
+      }
+     ]
     },
     "SREDSTVA ZA ČIŠĆENJE": {
-     "count": 41799,
-     "pg_count": 6976,
-     "avg_price": 8.75,
-     "pg_avg_price": 10.84,
-     "competitor_avg_price": 8.33,
-     "competitor_count": 34823
+     "count": 40948,
+     "pg_count": 8995,
+     "avg_price": 8.86,
+     "pg_avg_price": 12.88,
+     "competitor_avg_price": 7.73,
+     "competitor_count": 31953,
+     "top_competitor_brands": [
+      {
+       "brand": "PERSIL",
+       "count": 2329,
+       "avg_price": 17.7
+      },
+      {
+       "brand": "DAX",
+       "count": 2202,
+       "avg_price": 2.24
+      },
+      {
+       "brand": "FAKS",
+       "count": 1634,
+       "avg_price": 12.18
+      },
+      {
+       "brand": "BREF",
+       "count": 1629,
+       "avg_price": 4.32
+      },
+      {
+       "brand": "VIOLETA",
+       "count": 1529,
+       "avg_price": 4.82
+      },
+      {
+       "brand": "SOMAT",
+       "count": 1502,
+       "avg_price": 14.53
+      },
+      {
+       "brand": "ORNEL",
+       "count": 1438,
+       "avg_price": 3.21
+      },
+      {
+       "brand": "AIRWICK",
+       "count": 1306,
+       "avg_price": 7.39
+      }
+     ]
+    },
+    "PROIZVODI ZA KUĆANSTVO": {
+     "count": 28293,
+     "pg_count": 9,
+     "avg_price": 5.81,
+     "pg_avg_price": 1.35,
+     "competitor_avg_price": 5.82,
+     "competitor_count": 28284,
+     "top_competitor_brands": [
+      {
+       "brand": "DAX",
+       "count": 2393,
+       "avg_price": 2.31
+      },
+      {
+       "brand": "VILEDA",
+       "count": 1666,
+       "avg_price": 13.29
+      },
+      {
+       "brand": "PALOMA",
+       "count": 1612,
+       "avg_price": 2.09
+      },
+      {
+       "brand": "FINO",
+       "count": 1500,
+       "avg_price": 2.89
+      },
+      {
+       "brand": "FELIX",
+       "count": 1494,
+       "avg_price": 3.79
+      },
+      {
+       "brand": "BUDDY",
+       "count": 1443,
+       "avg_price": 2.24
+      },
+      {
+       "brand": "PEDIGREE",
+       "count": 1388,
+       "avg_price": 3.67
+      },
+      {
+       "brand": "FRISKIES",
+       "count": 1365,
+       "avg_price": 4.29
+      }
+     ]
+    },
+    "TOALETNE POTREPŠTINE": {
+     "count": 16240,
+     "pg_count": 3378,
+     "avg_price": 5.32,
+     "pg_avg_price": 11.78,
+     "competitor_avg_price": 3.62,
+     "competitor_count": 12862,
+     "top_competitor_brands": [
+      {
+       "brand": "VIOLETA",
+       "count": 2728,
+       "avg_price": 5.74
+      },
+      {
+       "brand": "LUMPI",
+       "count": 1239,
+       "avg_price": 5.36
+      },
+      {
+       "brand": "NATUR",
+       "count": 1196,
+       "avg_price": 2.0
+      },
+      {
+       "brand": "OLEA",
+       "count": 1056,
+       "avg_price": 1.36
+      },
+      {
+       "brand": "LIBRESSE",
+       "count": 961,
+       "avg_price": 2.82
+      },
+      {
+       "brand": "ZEWA",
+       "count": 695,
+       "avg_price": 3.78
+      },
+      {
+       "brand": "PALOMA",
+       "count": 659,
+       "avg_price": 3.35
+      },
+      {
+       "brand": "LOLA",
+       "count": 353,
+       "avg_price": 1.94
+      }
+     ]
+    }
+   },
+   "category_brand_watchlist": {
+    "Laundry": {
+     "pg_brands": [
+      {
+       "brand": "Ariel",
+       "count": 3716,
+       "avg_price": 15.28
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Persil",
+       "count": 2329,
+       "avg_price": 17.7
+      },
+      {
+       "brand": "Dash",
+       "count": 450,
+       "avg_price": 18.41
+      },
+      {
+       "brand": "Weisse Riese",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Faks",
+       "count": 1634,
+       "avg_price": 12.18
+      }
+     ]
+    },
+    "Fabric Enhancers": {
+     "pg_brands": [
+      {
+       "brand": "Lenor",
+       "count": 2201,
+       "avg_price": 5.72
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 852,
+       "avg_price": 4.61
+      },
+      {
+       "brand": "Ornel",
+       "count": 1558,
+       "avg_price": 3.3
+      },
+      {
+       "brand": "Silan",
+       "count": 1060,
+       "avg_price": 5.48
+      }
+     ]
+    },
+    "Hand Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Čarli",
+       "count": 374,
+       "avg_price": 1.95
+      },
+      {
+       "brand": "Likvi",
+       "count": 644,
+       "avg_price": 5.17
+      },
+      {
+       "brand": "Pur",
+       "count": 5495,
+       "avg_price": 5.33
+      }
+     ]
+    },
+    "Automatic Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Somat",
+       "count": 1503,
+       "avg_price": 14.53
+      },
+      {
+       "brand": "Finish",
+       "count": 773,
+       "avg_price": 17.98
+      }
+     ]
+    },
+    "Air Care": {
+     "pg_brands": [
+      {
+       "brand": "Ambi Pur",
+       "count": 931,
+       "avg_price": 6.69
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Glade",
+       "count": 849,
+       "avg_price": 6.37
+      },
+      {
+       "brand": "AirWick",
+       "count": 1306,
+       "avg_price": 7.39
+      }
+     ]
+    },
+    "Diapers & Wipes": {
+     "pg_brands": [
+      {
+       "brand": "Pampers",
+       "count": 2117,
+       "avg_price": 16.89
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 402,
+       "avg_price": 2.88
+      },
+      {
+       "brand": "K Plus",
+       "count": 20703,
+       "avg_price": 2.67
+      }
+     ]
+    },
+    "Femcare": {
+     "pg_brands": [
+      {
+       "brand": "Always",
+       "count": 1261,
+       "avg_price": 3.2
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Naturella",
+       "count": 291,
+       "avg_price": 3.14
+      },
+      {
+       "brand": "Libresse",
+       "count": 961,
+       "avg_price": 2.82
+      },
+      {
+       "brand": "WeCare",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Carefree",
+       "count": 264,
+       "avg_price": 2.89
+      }
+     ]
+    },
+    "Hair Care": {
+     "pg_brands": [
+      {
+       "brand": "Pantene",
+       "count": 1287,
+       "avg_price": 6.89
+      },
+      {
+       "brand": "Head & Shoulders",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Herbal Essences",
+       "count": 318,
+       "avg_price": 7.05
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Elseve",
+       "count": 1603,
+       "avg_price": 4.69
+      },
+      {
+       "brand": "Garnier",
+       "count": 1633,
+       "avg_price": 5.44
+      },
+      {
+       "brand": "Gliss",
+       "count": 1165,
+       "avg_price": 5.01
+      },
+      {
+       "brand": "Syoss",
+       "count": 2352,
+       "avg_price": 6.1
+      },
+      {
+       "brand": "Schauma",
+       "count": 1593,
+       "avg_price": 3.72
+      }
+     ]
+    },
+    "APDO": {
+     "pg_brands": [
+      {
+       "brand": "Old Spice",
+       "count": 2957,
+       "avg_price": 6.37
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Axe",
+       "count": 1428,
+       "avg_price": 5.79
+      },
+      {
+       "brand": "Rexona",
+       "count": 588,
+       "avg_price": 3.01
+      },
+      {
+       "brand": "Nivea",
+       "count": 10410,
+       "avg_price": 8.6
+      },
+      {
+       "brand": "Dove",
+       "count": 2571,
+       "avg_price": 4.22
+      },
+      {
+       "brand": "Fa",
+       "count": 10646,
+       "avg_price": 3.3
+      },
+      {
+       "brand": "Borotalco",
+       "count": 778,
+       "avg_price": 5.58
+      }
+     ]
+    },
+    "Shave Care": {
+     "pg_brands": [
+      {
+       "brand": "Gillette",
+       "count": 2569,
+       "avg_price": 14.8
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "BIC",
+       "count": 1152,
+       "avg_price": 26.48
+      },
+      {
+       "brand": "Wilkinson",
+       "count": 907,
+       "avg_price": 5.3
+      }
+     ]
+    },
+    "Oral Care": {
+     "pg_brands": [
+      {
+       "brand": "Oral-B",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Sensodyne",
+       "count": 941,
+       "avg_price": 6.57
+      },
+      {
+       "brand": "Paradontax",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Signal",
+       "count": 867,
+       "avg_price": 3.75
+      },
+      {
+       "brand": "Curaprox",
+       "count": 421,
+       "avg_price": 9.7
+      },
+      {
+       "brand": "Colgate",
+       "count": 1864,
+       "avg_price": 3.87
+      }
+     ]
     }
    },
    "diagnostics": {
-    "blank_brand_field_rows": 12300,
-    "blank_brand_field_pct": 1.8,
-    "matched_via_brand_field": 18429,
-    "matched_via_product_name_fallback": 1398,
+    "blank_brand_field_rows": 13705,
+    "blank_brand_field_pct": 2.0,
+    "matched_via_brand_field": 18027,
+    "matched_via_product_name_fallback": 3914,
     "top_brands_seen": [
      [
       "K PLUS",
-      17372
+      18300
      ],
      [
       "PODRAVKA",
-      14164
+      14768
      ],
      [
       "NIVEA",
-      10630
+      10410
      ],
      [
       "LEDO",
-      7317
+      7699
      ],
      [
       "GARDEN GOOD",
-      7109
+      7455
      ],
      [
       "FERRERO",
-      5795
+      5793
      ],
      [
       "MILKA",
-      5660
-     ],
-     [
-      "KOTANYI",
-      5512
+      5713
      ],
      [
       "MINUTE",
-      5235
+      5626
+     ],
+     [
+      "KOTANYI",
+      5583
      ],
      [
       "VIOLETA",
-      5233
+      5240
      ],
      [
       "Z BREGOV",
-      4762
+      4981
      ],
      [
       "FRANCK",
-      4700
+      4896
      ],
      [
       "CEKIN",
-      4634
+      4820
      ],
      [
       "OLEA",
-      4558
-     ],
-     [
-      "DAX",
-      4537
+      4741
      ],
      [
       "PIK VRBOVEC",
-      4391
+      4737
+     ],
+     [
+      "DAX",
+      4595
      ],
      [
       "DOLCELA",
-      4379
+      4560
      ],
      [
       "ZVIJEZDA",
-      4323
+      4484
      ],
      [
       "PIK",
-      4095
+      4376
      ],
      [
       "GAVRILOVIĆ",
-      4087
+      4324
      ],
      [
       "SPECIAL MOMENTS",
-      3972
+      4203
      ],
      [
       "FINESSE",
-      3870
+      3972
      ],
      [
       "DR OETKER",
-      3797
+      3935
      ],
      [
       "HRUSTY",
-      3761
+      3874
      ],
      [
       "ARIEL",
-      3669
+      3716
      ],
      [
       "WRIGLEY",
-      3522
-     ],
-     [
-      "POLLEO",
-      3510
+      3630
      ],
      [
       "NESCAFE",
-      3224
+      3408
+     ],
+     [
+      "POLLEO",
+      3374
      ],
      [
       "LINO",
-      3197
+      3313
      ],
      [
       "BARILLA",
-      3131
+      3188
      ],
      [
       "MLINAR",
-      2957
+      3099
      ],
      [
       "OLD SPICE",
-      2956
-     ],
-     [
-      "KRAŠ",
-      2669
-     ],
-     [
-      "VINDI",
-      2669
-     ],
-     [
-      "MAGGI",
-      2662
-     ],
-     [
-      "CEDEVITA",
-      2661
+      2931
      ],
      [
       "PRESIDENT",
-      2642
+      2855
+     ],
+     [
+      "VINDI",
+      2766
+     ],
+     [
+      "CEDEVITA",
+      2763
      ],
      [
       "FRUCTAL",
-      2635
+      2721
+     ],
+     [
+      "MAGGI",
+      2708
+     ],
+     [
+      "KRAŠ",
+      2697
      ],
      [
       "HIPP",
-      2615
+      2629
      ],
      [
-      "GILLETTE",
-      2612
+      "VEGETA MAESTRO",
+      2602
      ]
     ]
    },
@@ -238,23 +813,107 @@
    "last_updated": "2026-09-29",
    "stores_count": 53,
    "total_catalog_size": 736164,
-   "pg_products_tracked": 19810,
+   "pg_products_tracked": 21030,
    "category_stats": {
     "SREDSTVA ZA ČIŠĆENJE": {
      "count": 40761,
-     "pg_count": 3438,
+     "pg_count": 4649,
      "avg_price": 7.81,
-     "pg_avg_price": 16.16,
-     "competitor_avg_price": 7.04,
-     "competitor_count": 37323
+     "pg_avg_price": 17.46,
+     "competitor_avg_price": 6.57,
+     "competitor_count": 36112,
+     "top_competitor_brands": [
+      {
+       "brand": "K-Classic",
+       "count": 2638,
+       "avg_price": 2.17
+      },
+      {
+       "brand": "Persil",
+       "count": 1482,
+       "avg_price": 21.83
+      },
+      {
+       "brand": "Bref",
+       "count": 1302,
+       "avg_price": 5.79
+      },
+      {
+       "brand": "Frosch",
+       "count": 1292,
+       "avg_price": 3.6
+      },
+      {
+       "brand": "Violeta",
+       "count": 1213,
+       "avg_price": 5.49
+      },
+      {
+       "brand": "Faks",
+       "count": 1207,
+       "avg_price": 12.62
+      },
+      {
+       "brand": "Vileda",
+       "count": 1190,
+       "avg_price": 4.94
+      },
+      {
+       "brand": "Finish",
+       "count": 1189,
+       "avg_price": 16.37
+      }
+     ]
     },
     "HRANA": {
      "count": 393910,
-     "pg_count": 47,
+     "pg_count": 56,
      "avg_price": 3.6,
-     "pg_avg_price": 2.49,
+     "pg_avg_price": 3.02,
      "competitor_avg_price": 3.6,
-     "competitor_count": 393863
+     "competitor_count": 393854,
+     "top_competitor_brands": [
+      {
+       "brand": "K-Classic",
+       "count": 45509,
+       "avg_price": 2.24
+      },
+      {
+       "brand": "#",
+       "count": 11639,
+       "avg_price": 3.97
+      },
+      {
+       "brand": "Podravka",
+       "count": 11413,
+       "avg_price": 2.5
+      },
+      {
+       "brand": "Kotanyi",
+       "count": 6664,
+       "avg_price": 2.18
+      },
+      {
+       "brand": "Ledo",
+       "count": 6591,
+       "avg_price": 4.4
+      },
+      {
+       "brand": "Gavrilović",
+       "count": 6172,
+       "avg_price": 5.3
+      },
+      {
+       "brand": "K-Bio",
+       "count": 4973,
+       "avg_price": 3.21
+      },
+      {
+       "brand": "K- Classic",
+       "count": 4709,
+       "avg_price": 2.52
+      }
+     ]
     },
     "KOZMETIKA": {
      "count": 147883,
@@ -262,7 +921,49 @@
      "avg_price": 6.3,
      "pg_avg_price": 12.47,
      "competitor_avg_price": 5.61,
-     "competitor_count": 133194
+     "competitor_count": 133194,
+     "top_competitor_brands": [
+      {
+       "brand": "Nivea",
+       "count": 13241,
+       "avg_price": 6.71
+      },
+      {
+       "brand": "Bevola",
+       "count": 9436,
+       "avg_price": 2.08
+      },
+      {
+       "brand": "Eveline",
+       "count": 8481,
+       "avg_price": 5.21
+      },
+      {
+       "brand": "Afrodita",
+       "count": 5802,
+       "avg_price": 5.74
+      },
+      {
+       "brand": "Loreal",
+       "count": 4686,
+       "avg_price": 10.34
+      },
+      {
+       "brand": "Essence",
+       "count": 4261,
+       "avg_price": 2.84
+      },
+      {
+       "brand": "Garnier",
+       "count": 3886,
+       "avg_price": 6.11
+      },
+      {
+       "brand": "Palmolive",
+       "count": 3050,
+       "avg_price": 2.93
+      }
+     ]
     },
     "PIĆE": {
      "count": 108739,
@@ -270,7 +971,49 @@
      "avg_price": 7.54,
      "pg_avg_price": 4.32,
      "competitor_avg_price": 7.55,
-     "competitor_count": 108674
+     "competitor_count": 108674,
+     "top_competitor_brands": [
+      {
+       "brand": "Vindi",
+       "count": 3525,
+       "avg_price": 1.71
+      },
+      {
+       "brand": "K-Classic",
+       "count": 2938,
+       "avg_price": 1.6
+      },
+      {
+       "brand": "Maraska",
+       "count": 2304,
+       "avg_price": 8.19
+      },
+      {
+       "brand": "Badel",
+       "count": 2072,
+       "avg_price": 10.55
+      },
+      {
+       "brand": "Fructal",
+       "count": 1975,
+       "avg_price": 2.28
+      },
+      {
+       "brand": "Cedevita",
+       "count": 1784,
+       "avg_price": 2.98
+      },
+      {
+       "brand": "Pfanner",
+       "count": 1484,
+       "avg_price": 3.18
+      },
+      {
+       "brand": "Zvečevo",
+       "count": 1410,
+       "avg_price": 8.25
+      }
+     ]
     },
     "PROIZVODI ZA KUĆANSTVO": {
      "count": 32696,
@@ -278,7 +1021,49 @@
      "avg_price": 3.36,
      "pg_avg_price": null,
      "competitor_avg_price": 3.36,
-     "competitor_count": 32696
+     "competitor_count": 32696,
+     "top_competitor_brands": [
+      {
+       "brand": "K-Classic",
+       "count": 5054,
+       "avg_price": 2.05
+      },
+      {
+       "brand": "Vitakraft",
+       "count": 2703,
+       "avg_price": 3.49
+      },
+      {
+       "brand": "Vigo",
+       "count": 1879,
+       "avg_price": 2.77
+      },
+      {
+       "brand": "Pedigree",
+       "count": 1645,
+       "avg_price": 4.8
+      },
+      {
+       "brand": "Friskies",
+       "count": 1636,
+       "avg_price": 4.28
+      },
+      {
+       "brand": "Felix",
+       "count": 1475,
+       "avg_price": 2.15
+      },
+      {
+       "brand": "Whiskas",
+       "count": 1277,
+       "avg_price": 3.77
+      },
+      {
+       "brand": "K-Carinura",
+       "count": 1272,
+       "avg_price": 2.55
+      }
+     ]
     },
     "TOALETNE POTREPŠTINE": {
      "count": 12175,
@@ -286,14 +1071,379 @@
      "avg_price": 3.49,
      "pg_avg_price": 3.48,
      "competitor_avg_price": 3.49,
-     "competitor_count": 10604
+     "competitor_count": 10604,
+     "top_competitor_brands": [
+      {
+       "brand": "Libresse",
+       "count": 1389,
+       "avg_price": 2.21
+      },
+      {
+       "brand": "Naturella",
+       "count": 987,
+       "avg_price": 2.42
+      },
+      {
+       "brand": "Kuniboo",
+       "count": 908,
+       "avg_price": 3.13
+      },
+      {
+       "brand": "Bevola",
+       "count": 829,
+       "avg_price": 1.47
+      },
+      {
+       "brand": "Violeta",
+       "count": 807,
+       "avg_price": 2.11
+      },
+      {
+       "brand": "MAM",
+       "count": 681,
+       "avg_price": 7.4
+      },
+      {
+       "brand": "Baby Nova",
+       "count": 602,
+       "avg_price": 5.6
+      },
+      {
+       "brand": "Nuk",
+       "count": 550,
+       "avg_price": 7.42
+      }
+     ]
+    }
+   },
+   "category_brand_watchlist": {
+    "Laundry": {
+     "pg_brands": [
+      {
+       "brand": "Ariel",
+       "count": 2051,
+       "avg_price": 22.06
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Persil",
+       "count": 1482,
+       "avg_price": 21.83
+      },
+      {
+       "brand": "Dash",
+       "count": 490,
+       "avg_price": 18.63
+      },
+      {
+       "brand": "Weisse Riese",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Faks",
+       "count": 1207,
+       "avg_price": 12.62
+      }
+     ]
+    },
+    "Fabric Enhancers": {
+     "pg_brands": [
+      {
+       "brand": "Lenor",
+       "count": 1354,
+       "avg_price": 7.52
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 836,
+       "avg_price": 4.43
+      },
+      {
+       "brand": "Ornel",
+       "count": 1210,
+       "avg_price": 4.44
+      },
+      {
+       "brand": "Silan",
+       "count": 787,
+       "avg_price": 5.68
+      }
+     ]
+    },
+    "Hand Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 477,
+       "avg_price": 4.98
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Čarli",
+       "count": 608,
+       "avg_price": 2.69
+      },
+      {
+       "brand": "Likvi",
+       "count": 928,
+       "avg_price": 6.88
+      },
+      {
+       "brand": "Pur",
+       "count": 7178,
+       "avg_price": 4.79
+      }
+     ]
+    },
+    "Automatic Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 660,
+       "avg_price": 34.92
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Somat",
+       "count": 680,
+       "avg_price": 17.52
+      },
+      {
+       "brand": "Finish",
+       "count": 1233,
+       "avg_price": 15.85
+      }
+     ]
+    },
+    "Air Care": {
+     "pg_brands": [
+      {
+       "brand": "Ambi Pur",
+       "count": 574,
+       "avg_price": 3.75
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Glade",
+       "count": 1554,
+       "avg_price": 6.78
+      },
+      {
+       "brand": "AirWick",
+       "count": 1335,
+       "avg_price": 7.0
+      }
+     ]
+    },
+    "Diapers & Wipes": {
+     "pg_brands": [
+      {
+       "brand": "Pampers",
+       "count": 2449,
+       "avg_price": 17.5
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 1439,
+       "avg_price": 9.31
+      },
+      {
+       "brand": "Kaufland",
+       "count": 0,
+       "avg_price": null
+      }
+     ]
+    },
+    "Femcare": {
+     "pg_brands": [
+      {
+       "brand": "Always",
+       "count": 1596,
+       "avg_price": 3.5
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Naturella",
+       "count": 987,
+       "avg_price": 2.42
+      },
+      {
+       "brand": "Libresse",
+       "count": 1389,
+       "avg_price": 2.21
+      },
+      {
+       "brand": "WeCare",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Carefree",
+       "count": 399,
+       "avg_price": 3.26
+      }
+     ]
+    },
+    "Hair Care": {
+     "pg_brands": [
+      {
+       "brand": "Pantene",
+       "count": 1670,
+       "avg_price": 7.36
+      },
+      {
+       "brand": "Head & Shoulders",
+       "count": 1,
+       "avg_price": 11.89
+      },
+      {
+       "brand": "Herbal Essences",
+       "count": 787,
+       "avg_price": 6.84
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Elseve",
+       "count": 1832,
+       "avg_price": 6.38
+      },
+      {
+       "brand": "Garnier",
+       "count": 8048,
+       "avg_price": 5.69
+      },
+      {
+       "brand": "Gliss",
+       "count": 2774,
+       "avg_price": 6.61
+      },
+      {
+       "brand": "Syoss",
+       "count": 3526,
+       "avg_price": 6.33
+      },
+      {
+       "brand": "Schauma",
+       "count": 1661,
+       "avg_price": 4.6
+      }
+     ]
+    },
+    "APDO": {
+     "pg_brands": [
+      {
+       "brand": "Old Spice",
+       "count": 2750,
+       "avg_price": 5.71
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Axe",
+       "count": 2116,
+       "avg_price": 5.22
+      },
+      {
+       "brand": "Rexona",
+       "count": 1271,
+       "avg_price": 5.26
+      },
+      {
+       "brand": "Nivea",
+       "count": 16044,
+       "avg_price": 7.08
+      },
+      {
+       "brand": "Dove",
+       "count": 3074,
+       "avg_price": 5.09
+      },
+      {
+       "brand": "Fa",
+       "count": 18160,
+       "avg_price": 3.62
+      },
+      {
+       "brand": "Borotalco",
+       "count": 1793,
+       "avg_price": 2.81
+      }
+     ]
+    },
+    "Shave Care": {
+     "pg_brands": [
+      {
+       "brand": "Gillette",
+       "count": 2908,
+       "avg_price": 17.37
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "BIC",
+       "count": 1018,
+       "avg_price": 6.81
+      },
+      {
+       "brand": "Wilkinson",
+       "count": 1816,
+       "avg_price": 7.46
+      }
+     ]
+    },
+    "Oral Care": {
+     "pg_brands": [
+      {
+       "brand": "Oral-B",
+       "count": 175,
+       "avg_price": 4.38
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Sensodyne",
+       "count": 1049,
+       "avg_price": 7.06
+      },
+      {
+       "brand": "Paradontax",
+       "count": 53,
+       "avg_price": 5.45
+      },
+      {
+       "brand": "Signal",
+       "count": 705,
+       "avg_price": 3.75
+      },
+      {
+       "brand": "Curaprox",
+       "count": 130,
+       "avg_price": 5.79
+      },
+      {
+       "brand": "Colgate",
+       "count": 2201,
+       "avg_price": 2.42
+      }
+     ]
     }
    },
    "diagnostics": {
     "blank_brand_field_rows": 1651,
     "blank_brand_field_pct": 0.2,
-    "matched_via_brand_field": 18534,
-    "matched_via_product_name_fallback": 1276,
+    "matched_via_brand_field": 19745,
+    "matched_via_product_name_fallback": 1285,
     "top_brands_seen": [
      [
       "K-CLASSIC",
@@ -467,39 +1617,207 @@
    "last_updated": "2026-09-29",
    "stores_count": 144,
    "total_catalog_size": 1304741,
-   "pg_products_tracked": 18419,
+   "pg_products_tracked": 21191,
    "category_stats": {
     "Hrana": {
      "count": 795688,
-     "pg_count": 0,
+     "pg_count": 222,
      "avg_price": 3.79,
-     "pg_avg_price": null,
+     "pg_avg_price": 4.18,
      "competitor_avg_price": 3.79,
-     "competitor_count": 795688
+     "competitor_count": 795466,
+     "top_competitor_brands": [
+      {
+       "brand": "S-BUDGET",
+       "count": 67707,
+       "avg_price": 2.48
+      },
+      {
+       "brand": "SPAR",
+       "count": 59207,
+       "avg_price": 3.41
+      },
+      {
+       "brand": "Podravka",
+       "count": 34694,
+       "avg_price": 2.57
+      },
+      {
+       "brand": "SPAR Natur*pur",
+       "count": 22535,
+       "avg_price": 2.56
+      },
+      {
+       "brand": "DESPAR",
+       "count": 20325,
+       "avg_price": 2.57
+      },
+      {
+       "brand": "Ledo",
+       "count": 16356,
+       "avg_price": 4.51
+      },
+      {
+       "brand": "Vindija",
+       "count": 14412,
+       "avg_price": 4.13
+      },
+      {
+       "brand": "SPAR PREMIUM",
+       "count": 14402,
+       "avg_price": 4.15
+      }
+     ]
     },
     "Kozmetika": {
      "count": 119328,
-     "pg_count": 10184,
+     "pg_count": 10629,
      "avg_price": 5.55,
-     "pg_avg_price": 8.67,
+     "pg_avg_price": 8.6,
      "competitor_avg_price": 5.26,
-     "competitor_count": 109144
+     "competitor_count": 108699,
+     "top_competitor_brands": [
+      {
+       "brand": "Nivea",
+       "count": 6999,
+       "avg_price": 5.41
+      },
+      {
+       "brand": "Garnier",
+       "count": 6175,
+       "avg_price": 5.49
+      },
+      {
+       "brand": "ISANA",
+       "count": 5544,
+       "avg_price": 2.06
+      },
+      {
+       "brand": "Afrodita",
+       "count": 3679,
+       "avg_price": 6.71
+      },
+      {
+       "brand": "Dove",
+       "count": 3570,
+       "avg_price": 4.87
+      },
+      {
+       "brand": "BEAUTY KISS",
+       "count": 3275,
+       "avg_price": 1.73
+      },
+      {
+       "brand": "Palette",
+       "count": 2515,
+       "avg_price": 4.5
+      },
+      {
+       "brand": "Elseve",
+       "count": 2420,
+       "avg_price": 5.52
+      }
+     ]
     },
     "Pića": {
      "count": 241379,
-     "pg_count": 73,
+     "pg_count": 76,
      "avg_price": 6.26,
-     "pg_avg_price": 3.39,
+     "pg_avg_price": 4.22,
      "competitor_avg_price": 6.26,
-     "competitor_count": 241306
+     "competitor_count": 241303,
+     "top_competitor_brands": [
+      {
+       "brand": "S-BUDGET",
+       "count": 12156,
+       "avg_price": 3.37
+      },
+      {
+       "brand": "Franck",
+       "count": 8699,
+       "avg_price": 4.12
+      },
+      {
+       "brand": "SPAR",
+       "count": 7864,
+       "avg_price": 2.38
+      },
+      {
+       "brand": "Nescafe",
+       "count": 6601,
+       "avg_price": 7.65
+      },
+      {
+       "brand": "Cedevita",
+       "count": 3774,
+       "avg_price": 2.91
+      },
+      {
+       "brand": "Fructal",
+       "count": 3543,
+       "avg_price": 1.89
+      },
+      {
+       "brand": "DESPAR",
+       "count": 3167,
+       "avg_price": 2.65
+      },
+      {
+       "brand": "Juicy",
+       "count": 3160,
+       "avg_price": 2.11
+      }
+     ]
     },
     "Sredstva za čišćenje": {
      "count": 56848,
-     "pg_count": 4907,
+     "pg_count": 7009,
      "avg_price": 7.16,
-     "pg_avg_price": 11.88,
-     "competitor_avg_price": 6.71,
-     "competitor_count": 51941
+     "pg_avg_price": 12.67,
+     "competitor_avg_price": 6.39,
+     "competitor_count": 49839,
+     "top_competitor_brands": [
+      {
+       "brand": "Splendid",
+       "count": 6949,
+       "avg_price": 2.66
+      },
+      {
+       "brand": "Persil",
+       "count": 3495,
+       "avg_price": 17.63
+      },
+      {
+       "brand": "Finish",
+       "count": 2064,
+       "avg_price": 14.27
+      },
+      {
+       "brand": "Somat",
+       "count": 1859,
+       "avg_price": 14.84
+      },
+      {
+       "brand": "Glade",
+       "count": 1781,
+       "avg_price": 6.89
+      },
+      {
+       "brand": "Bref",
+       "count": 1692,
+       "avg_price": 4.4
+      },
+      {
+       "brand": "Faks",
+       "count": 1525,
+       "avg_price": 9.62
+      },
+      {
+       "brand": "DESPAR",
+       "count": 1406,
+       "avg_price": 2.11
+      }
+     ]
     },
     "Proizvodi za kućanstvo": {
      "count": 63080,
@@ -507,7 +1825,49 @@
      "avg_price": 3.91,
      "pg_avg_price": null,
      "competitor_avg_price": 3.91,
-     "competitor_count": 63080
+     "competitor_count": 63080,
+     "top_competitor_brands": [
+      {
+       "brand": "S-BUDGET",
+       "count": 5412,
+       "avg_price": 2.41
+      },
+      {
+       "brand": "Splendid",
+       "count": 4794,
+       "avg_price": 4.48
+      },
+      {
+       "brand": "SPAR",
+       "count": 3891,
+       "avg_price": 2.61
+      },
+      {
+       "brand": "Vitakraft",
+       "count": 3250,
+       "avg_price": 3.03
+      },
+      {
+       "brand": "Scotty",
+       "count": 3001,
+       "avg_price": 2.33
+      },
+      {
+       "brand": "Whiskas",
+       "count": 2689,
+       "avg_price": 3.28
+      },
+      {
+       "brand": "Pedigree",
+       "count": 2469,
+       "avg_price": 3.39
+      },
+      {
+       "brand": "Raid",
+       "count": 2279,
+       "avg_price": 6.8
+      }
+     ]
     },
     "Toaletne potrepštine": {
      "count": 28418,
@@ -515,14 +1875,379 @@
      "avg_price": 4.42,
      "pg_avg_price": 8.88,
      "competitor_avg_price": 3.84,
-     "competitor_count": 25163
+     "competitor_count": 25163,
+     "top_competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 4305,
+       "avg_price": 5.71
+      },
+      {
+       "brand": "Libresse",
+       "count": 2397,
+       "avg_price": 1.88
+      },
+      {
+       "brand": "Lovely",
+       "count": 2276,
+       "avg_price": 2.7
+      },
+      {
+       "brand": "Zewa",
+       "count": 2148,
+       "avg_price": 4.89
+      },
+      {
+       "brand": "Pretty Baby",
+       "count": 1332,
+       "avg_price": 4.73
+      },
+      {
+       "brand": "Durex",
+       "count": 1326,
+       "avg_price": 9.77
+      },
+      {
+       "brand": "S-BUDGET",
+       "count": 1265,
+       "avg_price": 1.65
+      },
+      {
+       "brand": "pamina",
+       "count": 974,
+       "avg_price": 1.91
+      }
+     ]
+    }
+   },
+   "category_brand_watchlist": {
+    "Laundry": {
+     "pg_brands": [
+      {
+       "brand": "Ariel",
+       "count": 2561,
+       "avg_price": 17.27
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Persil",
+       "count": 3495,
+       "avg_price": 17.63
+      },
+      {
+       "brand": "Dash",
+       "count": 788,
+       "avg_price": 13.43
+      },
+      {
+       "brand": "Weisse Riese",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Faks",
+       "count": 1525,
+       "avg_price": 9.62
+      }
+     ]
+    },
+    "Fabric Enhancers": {
+     "pg_brands": [
+      {
+       "brand": "Lenor",
+       "count": 1808,
+       "avg_price": 5.88
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 20,
+       "avg_price": 5.99
+      },
+      {
+       "brand": "Ornel",
+       "count": 1175,
+       "avg_price": 3.06
+      },
+      {
+       "brand": "Silan",
+       "count": 899,
+       "avg_price": 4.46
+      }
+     ]
+    },
+    "Hand Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Čarli",
+       "count": 896,
+       "avg_price": 2.41
+      },
+      {
+       "brand": "Likvi",
+       "count": 605,
+       "avg_price": 2.78
+      },
+      {
+       "brand": "Pur",
+       "count": 22071,
+       "avg_price": 3.63
+      }
+     ]
+    },
+    "Automatic Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Somat",
+       "count": 1859,
+       "avg_price": 14.84
+      },
+      {
+       "brand": "Finish",
+       "count": 2064,
+       "avg_price": 14.27
+      }
+     ]
+    },
+    "Air Care": {
+     "pg_brands": [
+      {
+       "brand": "Ambi Pur",
+       "count": 535,
+       "avg_price": 6.44
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Glade",
+       "count": 1782,
+       "avg_price": 6.89
+      },
+      {
+       "brand": "AirWick",
+       "count": 733,
+       "avg_price": 5.31
+      }
+     ]
+    },
+    "Diapers & Wipes": {
+     "pg_brands": [
+      {
+       "brand": "Pampers",
+       "count": 1960,
+       "avg_price": 12.9
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 372,
+       "avg_price": 2.54
+      },
+      {
+       "brand": "Spar",
+       "count": 111660,
+       "avg_price": 3.19
+      }
+     ]
+    },
+    "Femcare": {
+     "pg_brands": [
+      {
+       "brand": "Always",
+       "count": 1288,
+       "avg_price": 2.79
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Naturella",
+       "count": 889,
+       "avg_price": 4.15
+      },
+      {
+       "brand": "Libresse",
+       "count": 2397,
+       "avg_price": 1.88
+      },
+      {
+       "brand": "WeCare",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Carefree",
+       "count": 671,
+       "avg_price": 3.07
+      }
+     ]
+    },
+    "Hair Care": {
+     "pg_brands": [
+      {
+       "brand": "Pantene",
+       "count": 1266,
+       "avg_price": 5.34
+      },
+      {
+       "brand": "Head & Shoulders",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Herbal Essences",
+       "count": 186,
+       "avg_price": 5.73
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Elseve",
+       "count": 2495,
+       "avg_price": 5.66
+      },
+      {
+       "brand": "Garnier",
+       "count": 6175,
+       "avg_price": 5.49
+      },
+      {
+       "brand": "Gliss",
+       "count": 1362,
+       "avg_price": 5.72
+      },
+      {
+       "brand": "Syoss",
+       "count": 2133,
+       "avg_price": 5.79
+      },
+      {
+       "brand": "Schauma",
+       "count": 1910,
+       "avg_price": 3.32
+      }
+     ]
+    },
+    "APDO": {
+     "pg_brands": [
+      {
+       "brand": "Old Spice",
+       "count": 2660,
+       "avg_price": 5.26
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Axe",
+       "count": 1954,
+       "avg_price": 5.44
+      },
+      {
+       "brand": "Rexona",
+       "count": 706,
+       "avg_price": 5.61
+      },
+      {
+       "brand": "Nivea",
+       "count": 7269,
+       "avg_price": 5.42
+      },
+      {
+       "brand": "Dove",
+       "count": 3685,
+       "avg_price": 4.87
+      },
+      {
+       "brand": "Fa",
+       "count": 13611,
+       "avg_price": 3.59
+      },
+      {
+       "brand": "Borotalco",
+       "count": 1820,
+       "avg_price": 4.12
+      }
+     ]
+    },
+    "Shave Care": {
+     "pg_brands": [
+      {
+       "brand": "Gillette",
+       "count": 3788,
+       "avg_price": 13.7
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "BIC",
+       "count": 1471,
+       "avg_price": 4.4
+      },
+      {
+       "brand": "Wilkinson",
+       "count": 1448,
+       "avg_price": 5.25
+      }
+     ]
+    },
+    "Oral Care": {
+     "pg_brands": [
+      {
+       "brand": "Oral-B",
+       "count": 105,
+       "avg_price": 5.94
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Sensodyne",
+       "count": 1605,
+       "avg_price": 7.01
+      },
+      {
+       "brand": "Paradontax",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Signal",
+       "count": 1300,
+       "avg_price": 3.48
+      },
+      {
+       "brand": "Curaprox",
+       "count": 782,
+       "avg_price": 9.47
+      },
+      {
+       "brand": "Colgate",
+       "count": 2026,
+       "avg_price": 3.53
+      }
+     ]
     }
    },
    "diagnostics": {
     "blank_brand_field_rows": 273724,
     "blank_brand_field_pct": 21.0,
-    "matched_via_brand_field": 18269,
-    "matched_via_product_name_fallback": 150,
+    "matched_via_brand_field": 20368,
+    "matched_via_product_name_fallback": 823,
     "top_brands_seen": [
      [
       "S-BUDGET",
@@ -696,23 +2421,107 @@
    "last_updated": "2026-09-29",
    "stores_count": 116,
    "total_catalog_size": 1669195,
-   "pg_products_tracked": 22388,
+   "pg_products_tracked": 23780,
    "category_stats": {
     "Piće": {
      "count": 155092,
-     "pg_count": 116,
+     "pg_count": 348,
      "avg_price": 4.38,
-     "pg_avg_price": 4.69,
-     "competitor_avg_price": 4.38,
-     "competitor_count": 154976
+     "pg_avg_price": 2.45,
+     "competitor_avg_price": 4.39,
+     "competitor_count": 154744,
+     "top_competitor_brands": [
+      {
+       "brand": "Bellarom",
+       "count": 12528,
+       "avg_price": 5.58
+      },
+      {
+       "brand": "-",
+       "count": 8468,
+       "avg_price": 3.24
+      },
+      {
+       "brand": "Solevita",
+       "count": 6844,
+       "avg_price": 2.31
+      },
+      {
+       "brand": "Lord Nelson",
+       "count": 5916,
+       "avg_price": 1.43
+      },
+      {
+       "brand": "Nestlé",
+       "count": 5684,
+       "avg_price": 4.99
+      },
+      {
+       "brand": "Freeway",
+       "count": 5452,
+       "avg_price": 1.56
+      },
+      {
+       "brand": "Perlenbacher",
+       "count": 4524,
+       "avg_price": 2.3
+      },
+      {
+       "brand": "Allini",
+       "count": 4060,
+       "avg_price": 3.59
+      }
+     ]
     },
     "Hrana": {
      "count": 1109379,
-     "pg_count": 0,
+     "pg_count": 116,
      "avg_price": 3.02,
-     "pg_avg_price": null,
+     "pg_avg_price": 6.29,
      "competitor_avg_price": 3.02,
-     "competitor_count": 1109379
+     "competitor_count": 1109263,
+     "top_competitor_brands": [
+      {
+       "brand": "Deluxe",
+       "count": 67744,
+       "avg_price": 3.05
+      },
+      {
+       "brand": "Milbona",
+       "count": 42837,
+       "avg_price": 2.26
+      },
+      {
+       "brand": "Naša mesnica",
+       "count": 40252,
+       "avg_price": 6.21
+      },
+      {
+       "brand": "Vitasia",
+       "count": 38164,
+       "avg_price": 1.95
+      },
+      {
+       "brand": "Italiamo",
+       "count": 32596,
+       "avg_price": 2.68
+      },
+      {
+       "brand": "Okusi zavičaja",
+       "count": 32480,
+       "avg_price": 4.83
+      },
+      {
+       "brand": "Pilos",
+       "count": 31432,
+       "avg_price": 1.71
+      },
+      {
+       "brand": "Chef Select",
+       "count": 29000,
+       "avg_price": 2.7
+      }
+     ]
     },
     "Toaletne potrepštine": {
      "count": 38976,
@@ -720,15 +2529,99 @@
      "avg_price": 3.69,
      "pg_avg_price": 3.83,
      "competitor_avg_price": 3.66,
-     "competitor_count": 33408
+     "competitor_count": 33408,
+     "top_competitor_brands": [
+      {
+       "brand": "Floralys",
+       "count": 5800,
+       "avg_price": 2.71
+      },
+      {
+       "brand": "Lupilu",
+       "count": 5336,
+       "avg_price": 6.71
+      },
+      {
+       "brand": "Siempre",
+       "count": 4640,
+       "avg_price": 2.58
+      },
+      {
+       "brand": "Sensiplast",
+       "count": 4640,
+       "avg_price": 0.89
+      },
+      {
+       "brand": "Johnson & Johnson",
+       "count": 1276,
+       "avg_price": 3.35
+      },
+      {
+       "brand": "Mondos",
+       "count": 1160,
+       "avg_price": 1.97
+      },
+      {
+       "brand": "Cien",
+       "count": 696,
+       "avg_price": 1.42
+      },
+      {
+       "brand": "W5",
+       "count": 348,
+       "avg_price": 3.29
+      }
+     ]
     },
     "Sredstva za čišćenje": {
      "count": 81664,
-     "pg_count": 6960,
+     "pg_count": 8004,
      "avg_price": 5.22,
-     "pg_avg_price": 12.89,
-     "competitor_avg_price": 4.5,
-     "competitor_count": 74704
+     "pg_avg_price": 13.39,
+     "competitor_avg_price": 4.33,
+     "competitor_count": 73660,
+     "top_competitor_brands": [
+      {
+       "brand": "W5",
+       "count": 32480,
+       "avg_price": 2.2
+      },
+      {
+       "brand": "Formil",
+       "count": 6960,
+       "avg_price": 4.82
+      },
+      {
+       "brand": "Henkel",
+       "count": 3828,
+       "avg_price": 9.9
+      },
+      {
+       "brand": "Doussy",
+       "count": 3480,
+       "avg_price": 2.64
+      },
+      {
+       "brand": "Formil Basic",
+       "count": 2088,
+       "avg_price": 5.55
+      },
+      {
+       "brand": "Air by W5",
+       "count": 696,
+       "avg_price": 2.29
+      },
+      {
+       "brand": "-",
+       "count": 580,
+       "avg_price": 1.41
+      },
+      {
+       "brand": "Maxitrat",
+       "count": 232,
+       "avg_price": 7.69
+      }
+     ]
     },
     "Proizvodi za kućanstvo": {
      "count": 109968,
@@ -736,7 +2629,49 @@
      "avg_price": 3.18,
      "pg_avg_price": null,
      "competitor_avg_price": 3.18,
-     "competitor_count": 109968
+     "competitor_count": 109968,
+     "top_competitor_brands": [
+      {
+       "brand": "W5",
+       "count": 15544,
+       "avg_price": 1.89
+      },
+      {
+       "brand": "Orlando",
+       "count": 9280,
+       "avg_price": 2.34
+      },
+      {
+       "brand": "-",
+       "count": 9280,
+       "avg_price": 2.13
+      },
+      {
+       "brand": "Coshida",
+       "count": 7076,
+       "avg_price": 2.25
+      },
+      {
+       "brand": "Mila's World",
+       "count": 4176,
+       "avg_price": 2.27
+      },
+      {
+       "brand": "Max's World",
+       "count": 3712,
+       "avg_price": 3.04
+      },
+      {
+       "brand": "Aromata",
+       "count": 3016,
+       "avg_price": 1.49
+      },
+      {
+       "brand": "Grillmeister",
+       "count": 2088,
+       "avg_price": 1.73
+      }
+     ]
     },
     "Kozmetika": {
      "count": 174116,
@@ -744,14 +2679,379 @@
      "avg_price": 3.25,
      "pg_avg_price": 6.45,
      "competitor_avg_price": 3.06,
-     "competitor_count": 164372
+     "competitor_count": 164372,
+     "top_competitor_brands": [
+      {
+       "brand": "Cien",
+       "count": 67860,
+       "avg_price": 1.82
+      },
+      {
+       "brand": "Cien Beauty",
+       "count": 13572,
+       "avg_price": 1.15
+      },
+      {
+       "brand": "Cien MEN",
+       "count": 8004,
+       "avg_price": 1.72
+      },
+      {
+       "brand": "Cien Sun",
+       "count": 7772,
+       "avg_price": 4.73
+      },
+      {
+       "brand": "Dentalux",
+       "count": 7424,
+       "avg_price": 1.18
+      },
+      {
+       "brand": "Henkel",
+       "count": 3248,
+       "avg_price": 5.32
+      },
+      {
+       "brand": "Suddenly",
+       "count": 3132,
+       "avg_price": 4.93
+      },
+      {
+       "brand": "G. Bellini",
+       "count": 1856,
+       "avg_price": 5.28
+      }
+     ]
+    }
+   },
+   "category_brand_watchlist": {
+    "Laundry": {
+     "pg_brands": [
+      {
+       "brand": "Ariel",
+       "count": 3480,
+       "avg_price": 19.78
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Persil",
+       "count": 1624,
+       "avg_price": 17.85
+      },
+      {
+       "brand": "Dash",
+       "count": 116,
+       "avg_price": 17.99
+      },
+      {
+       "brand": "Weisse Riese",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Faks",
+       "count": 928,
+       "avg_price": 13.2
+      }
+     ]
+    },
+    "Fabric Enhancers": {
+     "pg_brands": [
+      {
+       "brand": "Lenor",
+       "count": 3480,
+       "avg_price": 5.99
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 1044,
+       "avg_price": 4.26
+      },
+      {
+       "brand": "Ornel",
+       "count": 1972,
+       "avg_price": 6.11
+      },
+      {
+       "brand": "Silan",
+       "count": 1392,
+       "avg_price": 5.53
+      }
+     ]
+    },
+    "Hand Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 464,
+       "avg_price": 12.4
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Čarli",
+       "count": 812,
+       "avg_price": 3.1
+      },
+      {
+       "brand": "Likvi",
+       "count": 812,
+       "avg_price": 4.31
+      },
+      {
+       "brand": "Pur",
+       "count": 10788,
+       "avg_price": 4.08
+      }
+     ]
+    },
+    "Automatic Dishwashing": {
+     "pg_brands": [
+      {
+       "brand": "Jar",
+       "count": 116,
+       "avg_price": 27.29
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Somat",
+       "count": 1044,
+       "avg_price": 14.88
+      },
+      {
+       "brand": "Finish",
+       "count": 812,
+       "avg_price": 11.5
+      }
+     ]
+    },
+    "Air Care": {
+     "pg_brands": [
+      {
+       "brand": "Ambi Pur",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Glade",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "AirWick",
+       "count": 116,
+       "avg_price": 8.95
+      }
+     ]
+    },
+    "Diapers & Wipes": {
+     "pg_brands": [
+      {
+       "brand": "Pampers",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Violeta",
+       "count": 1508,
+       "avg_price": 9.64
+      },
+      {
+       "brand": "Lidl",
+       "count": 116,
+       "avg_price": 1.38
+      }
+     ]
+    },
+    "Femcare": {
+     "pg_brands": [
+      {
+       "brand": "Always",
+       "count": 5568,
+       "avg_price": 3.83
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Naturella",
+       "count": 1044,
+       "avg_price": 4.79
+      },
+      {
+       "brand": "Libresse",
+       "count": 812,
+       "avg_price": 2.53
+      },
+      {
+       "brand": "WeCare",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Carefree",
+       "count": 1276,
+       "avg_price": 3.35
+      }
+     ]
+    },
+    "Hair Care": {
+     "pg_brands": [
+      {
+       "brand": "Pantene",
+       "count": 1160,
+       "avg_price": 4.38
+      },
+      {
+       "brand": "Head & Shoulders",
+       "count": 928,
+       "avg_price": 7.46
+      },
+      {
+       "brand": "Herbal Essences",
+       "count": 0,
+       "avg_price": null
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Elseve",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Garnier",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Gliss",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Syoss",
+       "count": 348,
+       "avg_price": 5.89
+      },
+      {
+       "brand": "Schauma",
+       "count": 3828,
+       "avg_price": 4.11
+      }
+     ]
+    },
+    "APDO": {
+     "pg_brands": [
+      {
+       "brand": "Old Spice",
+       "count": 4640,
+       "avg_price": 4.37
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Axe",
+       "count": 2204,
+       "avg_price": 4.4
+      },
+      {
+       "brand": "Rexona",
+       "count": 1044,
+       "avg_price": 5.49
+      },
+      {
+       "brand": "Nivea",
+       "count": 12180,
+       "avg_price": 7.39
+      },
+      {
+       "brand": "Dove",
+       "count": 2552,
+       "avg_price": 5.06
+      },
+      {
+       "brand": "Fa",
+       "count": 17516,
+       "avg_price": 3.96
+      },
+      {
+       "brand": "Borotalco",
+       "count": 580,
+       "avg_price": 4.03
+      }
+     ]
+    },
+    "Shave Care": {
+     "pg_brands": [
+      {
+       "brand": "Gillette",
+       "count": 2784,
+       "avg_price": 10.63
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "BIC",
+       "count": 1508,
+       "avg_price": 4.14
+      },
+      {
+       "brand": "Wilkinson",
+       "count": 0,
+       "avg_price": null
+      }
+     ]
+    },
+    "Oral Care": {
+     "pg_brands": [
+      {
+       "brand": "Oral-B",
+       "count": 232,
+       "avg_price": 4.09
+      }
+     ],
+     "competitor_brands": [
+      {
+       "brand": "Sensodyne",
+       "count": 1624,
+       "avg_price": 5.88
+      },
+      {
+       "brand": "Paradontax",
+       "count": 116,
+       "avg_price": 5.49
+      },
+      {
+       "brand": "Signal",
+       "count": 348,
+       "avg_price": 2.69
+      },
+      {
+       "brand": "Curaprox",
+       "count": 0,
+       "avg_price": null
+      },
+      {
+       "brand": "Colgate",
+       "count": 928,
+       "avg_price": 3.12
+      }
+     ]
     }
    },
    "diagnostics": {
     "blank_brand_field_rows": 520015,
     "blank_brand_field_pct": 31.2,
     "matched_via_brand_field": 0,
-    "matched_via_product_name_fallback": 22388,
+    "matched_via_product_name_fallback": 23780,
     "top_brands_seen": [
      [
       "DELUXE",
