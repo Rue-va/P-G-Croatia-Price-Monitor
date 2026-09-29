@@ -2,15 +2,12 @@ name: Daily price & assortment crawl
 
 on:
   schedule:
-    # 05:00 UTC = 07:00 Zagreb time (06:00 during CET/winter) — after
-    # retailers' 8am local publication deadline is not guaranteed for every
-    # retailer, so a second run below catches any that weren't live yet.
     - cron: "0 5 * * *"
     - cron: "0 8 * * *"
-  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+  workflow_dispatch: {}
   push:
     branches: [main]
-    paths: ["docs/**"]   # redeploy the site immediately when dashboard code changes, without re-crawling
+    paths: ["docs/**"]
 
 permissions:
   contents: write
@@ -25,22 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run crawl and export
         run: python scrape_and_export.py
-
+      - name: Build Excel report
+        run: python excel_report.py
       - name: Commit updated data
         run: |
           git config user.name "pg-price-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ docs/data.json docs/flags/ docs/products/
+          git add data/ docs/data.json docs/flags/ docs/products/ docs/PG_Price_Report.xlsx
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
