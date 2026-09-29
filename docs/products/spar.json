@@ -620,7 +620,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -1832,7 +1832,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -3876,6 +3876,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8701",
+  "store_name": "Zd",
+  "city": "Zadar",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8702",
   "store_name": "Zg Cco",
   "city": "Zagreb",
@@ -4520,7 +4532,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -5792,7 +5804,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -8600,7 +8612,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -9776,7 +9788,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -12572,7 +12584,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -13688,7 +13700,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -16400,7 +16412,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -16567,7 +16579,7 @@
   "product": "PATRONE MACH3 BASE 16/1",
   "brand": "Gillette",
   "category": "Kozmetika",
-  "price": 26.54,
+  "price": 26.49,
   "barcode": "7702018411849",
   "matched_via": "brand"
  },
@@ -17780,7 +17792,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -20528,7 +20540,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -21668,7 +21680,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -23412,6 +23424,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8706",
+  "store_name": "Sb Osjecka",
+  "city": "Slavonski Brod",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8707",
   "store_name": "Zg",
   "city": "Zagreb",
@@ -24080,7 +24104,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -25628,7 +25652,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -28652,7 +28676,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -29924,7 +29948,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -31173,18 +31197,6 @@
   "category": "Toaletne potrepštine",
   "price": 5.99,
   "barcode": "8700216784443",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8708",
-  "store_name": "Interspar",
-  "city": "Donji Stupnik",
-  "product_id": "389335",
-  "product": "ULOŠ.ALWAYS PLAT.NIGHT 36/1",
-  "brand": "Always",
-  "category": "Toaletne potrepštine",
-  "price": 5.99,
-  "barcode": "8700216784559",
   "matched_via": "brand"
  },
  {
@@ -32768,7 +32780,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -33944,7 +33956,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -36596,7 +36608,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -37652,7 +37664,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -40076,7 +40088,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -41336,7 +41348,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -44084,7 +44096,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -45308,7 +45320,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -48056,7 +48068,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -48879,18 +48891,6 @@
   "store_id": "8715",
   "store_name": "St Cco ",
   "city": "Split",
-  "product_id": "356629",
-  "product": "ULOŠCI ALWAYS ULTRA MAXI 6/1",
-  "brand": "Always",
-  "category": "Toaletne potrepštine",
-  "price": 1.29,
-  "barcode": "8006540538258",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "city": "Split",
   "product_id": "361533",
   "product": "GEL ARIEL KAPS.COLOR 13/1",
   "brand": "Ariel",
@@ -49304,7 +49304,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -52004,7 +52004,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -53192,7 +53192,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -55856,7 +55856,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -57044,7 +57044,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -59864,7 +59864,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -61076,7 +61076,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -63204,6 +63204,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8718",
+  "store_name": "St Mos",
+  "city": "Split",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8719",
   "store_name": "Pu",
   "city": "Pula",
@@ -63848,7 +63860,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -65360,7 +65372,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -67407,18 +67419,6 @@
   "store_id": "8719",
   "store_name": "Pu",
   "city": "Pula",
-  "product_id": "400152",
-  "product": "PEL.PAMPERS S6 50/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "price": 18.99,
-  "barcode": "8700216865029",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8719",
-  "store_name": "Pu",
-  "city": "Pula",
   "product_id": "400153",
   "product": "PEL.PAMPERS S3 78/1",
   "brand": "Pampers",
@@ -68204,7 +68204,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -69428,7 +69428,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -72236,7 +72236,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -73340,7 +73340,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -76004,7 +76004,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -77324,7 +77324,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -80264,7 +80264,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -81320,7 +81320,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -83172,6 +83172,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8723",
+  "store_name": "Zd",
+  "city": "Zadar",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8725",
   "store_name": "Os",
   "city": "Osijek",
@@ -83804,7 +83816,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -84896,7 +84908,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -87476,7 +87488,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -88640,7 +88652,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -91172,7 +91184,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -92456,7 +92468,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -95132,7 +95144,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -96260,7 +96272,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -98907,12 +98919,24 @@
   "store_id": "87001",
   "store_name": "Vz Supernova",
   "city": "Varazdin",
+  "product_id": "372684",
+  "product": "ZUB.P.ORAL B WHITE GUM 2x75 ml",
+  "brand": "Oral B",
+  "category": "Kozmetika",
+  "price": 5.79,
+  "barcode": "8006530444224",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87001",
+  "store_name": "Vz Supernova",
+  "city": "Varazdin",
   "product_id": "375400",
   "product": "ZUB.P.ORAL-B PROEXPERT 2x75 ml",
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -100124,7 +100148,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -100689,18 +100713,6 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87003",
-  "store_name": "Si Supernova",
-  "city": "Sibenik",
-  "product_id": "4754",
-  "product": "LOSION OLD SP.WHITEWAT.100 ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 7.89,
-  "barcode": "5000174440256",
   "matched_via": "brand"
  },
  {
@@ -101492,7 +101504,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -102033,18 +102045,6 @@
   "category": "Sredstva za čišćenje",
   "price": 19.99,
   "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87003",
-  "store_name": "Si Supernova",
-  "city": "Sibenik",
-  "product_id": "390643",
-  "product": "TEK.DET. ARIEL COLOR 1,125 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "price": 9.99,
-  "barcode": "8700216691925",
   "matched_via": "brand"
  },
  {
@@ -102716,7 +102716,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -103148,7 +103148,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -103941,6 +103941,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87004",
+  "store_name": "Zd Supernova",
+  "city": "Zadar",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -105512,7 +105524,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -107204,7 +107216,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -107600,7 +107612,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -110240,7 +110252,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -111344,7 +111356,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -111651,18 +111663,6 @@
   "store_id": "87016",
   "store_name": "Vz Medimurska",
   "city": "Varazdin",
-  "product_id": "352370",
-  "product": "PEL.GAĆ.NOĆNE PAMPERS S4 25/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "price": 8.99,
-  "barcode": "8006540234709",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87016",
-  "store_name": "Vz Medimurska",
-  "city": "Varazdin",
   "product_id": "352385",
   "product": "PEL.GAĆ.NOĆNE PAMPERS S6 19/1",
   "brand": "Pampers",
@@ -111788,7 +111788,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -111801,18 +111801,6 @@
   "category": "Kozmetika",
   "price": 9.99,
   "barcode": "8700216156134",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87016",
-  "store_name": "Vz Medimurska",
-  "city": "Varazdin",
-  "product_id": "376167",
-  "product": "ŠAMP.H&S APPLE  500 ml",
-  "brand": "Head&Shoulders",
-  "category": "Kozmetika",
-  "price": 7.99,
-  "barcode": "8700216305259",
   "matched_via": "brand"
  },
  {
@@ -112808,7 +112796,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -113192,7 +113180,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -113913,6 +113901,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87017",
+  "store_name": "Zg Grada Mainz",
+  "city": "Zagreb",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -115040,7 +115040,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -117356,7 +117356,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -118688,7 +118688,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -119313,6 +119313,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87023",
+  "store_name": "Zg",
+  "city": "Zagreb",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -120572,7 +120584,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -121772,7 +121784,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -122216,7 +122228,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -123512,7 +123524,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -124008,6 +124020,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "87028",
+  "store_name": "Ludbreg",
+  "city": "Ludbreg",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "87029",
   "store_name": "Zg Ujevica",
   "city": "Zagreb",
@@ -124496,7 +124520,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -125000,7 +125024,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -126644,7 +126668,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -127952,7 +127976,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -128708,7 +128732,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -128955,30 +128979,6 @@
   "store_id": "87032",
   "store_name": "Krizevci",
   "city": "Krizevci",
-  "product_id": "331872",
-  "product": "DEO OLD SPICE WHITEWATER2x50ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8006530049023",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "city": "Krizevci",
-  "product_id": "331873",
-  "product": "DEO STICK OLD SPICE CAP.2x50ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8700216961998",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "city": "Krizevci",
   "product_id": "350434",
   "product": "PELENE GAĆ.PAMPERS JU.62/1",
   "brand": "Pampers",
@@ -129135,24 +129135,12 @@
   "store_id": "87032",
   "store_name": "Krizevci",
   "city": "Krizevci",
-  "product_id": "373901",
-  "product": "OME.LENOR ORCHID 2x1200 ml",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "price": 6.35,
-  "barcode": "8006540901830",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "city": "Krizevci",
   "product_id": "375400",
   "product": "ZUB.P.ORAL-B PROEXPERT 2x75 ml",
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -130064,7 +130052,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -130496,7 +130484,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -131924,7 +131912,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -133124,7 +133112,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -134240,7 +134228,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -135260,7 +135248,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -136628,7 +136616,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -137792,7 +137780,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -138129,18 +138117,6 @@
   "category": "Sredstva za čišćenje",
   "price": 19.99,
   "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87040",
-  "store_name": "Novi Marof",
-  "city": "Novi Marof",
-  "product_id": "390643",
-  "product": "TEK.DET. ARIEL COLOR 1,125 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "price": 9.99,
-  "barcode": "8700216691925",
   "matched_via": "brand"
  },
  {
@@ -138789,6 +138765,18 @@
   "category": "Sredstva za čišćenje",
   "price": 8.59,
   "barcode": "8006530250979",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87041",
+  "store_name": "Zg",
+  "city": "Zagreb",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -139568,7 +139556,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -140408,7 +140396,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -141128,7 +141116,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -141572,7 +141560,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -142580,7 +142568,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -143012,7 +143000,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -143770,18 +143758,6 @@
   "price": 3.39,
   "barcode": "3859892866884",
   "matched_via": "product_name"
- },
- {
-  "store_id": "87049",
-  "store_name": "Kastel Sucurac",
-  "city": "Kastel Sucurac",
-  "product_id": "16134",
-  "product": "BR.GILL.BLUE II PLUS 5 KOM",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "price": 4.89,
-  "barcode": "3014260283254",
-  "matched_via": "brand"
  },
  {
   "store_id": "87049",
@@ -144728,7 +144704,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -146132,7 +146108,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -155408,7 +155384,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -155960,7 +155936,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -157028,7 +157004,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -157520,7 +157496,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -158792,7 +158768,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -159296,7 +159272,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -160580,7 +160556,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -161060,7 +161036,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -162140,7 +162116,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -162441,18 +162417,6 @@
   "category": "Kozmetika",
   "price": 5.99,
   "barcode": "8700216961967",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87075",
-  "store_name": "Zg",
-  "city": "Zagreb",
-  "product_id": "331872",
-  "product": "DEO OLD SPICE WHITEWATER2x50ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8006530049023",
   "matched_via": "brand"
  },
  {
@@ -162800,7 +162764,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -163788,6 +163752,18 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "87075",
+  "store_name": "Zg",
+  "city": "Zagreb",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "87076",
   "store_name": "Vg Matice Hrv",
   "city": "Velika Gorica",
@@ -164168,7 +164144,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -164624,7 +164600,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -165273,6 +165249,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87076",
+  "store_name": "Vg Matice Hrv",
+  "city": "Velika Gorica",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -166556,7 +166544,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -167408,7 +167396,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -167865,6 +167853,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87080",
+  "store_name": "Vg",
+  "city": "Velika Gorica",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -172280,7 +172280,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -172784,7 +172784,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -172977,6 +172977,18 @@
   "category": "Sredstva za čišćenje",
   "price": 3.99,
   "barcode": "8700216708517",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87088",
+  "store_name": "Sb Svaciceva",
+  "city": "Slavonski Brod",
+  "product_id": "387830",
+  "product": "MIR.PERLICE LENOR SPRING 195 g",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 3.99,
+  "barcode": "8700216708418",
   "matched_via": "brand"
  },
  {
@@ -173996,7 +174008,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -174476,7 +174488,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -175808,7 +175820,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -176324,7 +176336,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -177596,7 +177608,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -177903,18 +177915,6 @@
   "store_id": "87091",
   "store_name": "Kc Kolodvorska",
   "city": "Koprivnica",
-  "product_id": "331872",
-  "product": "DEO OLD SPICE WHITEWATER2x50ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8006530049023",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87091",
-  "store_name": "Kc Kolodvorska",
-  "city": "Koprivnica",
   "product_id": "346119",
   "product": "PEL.GAĆI.PAMPERS JUM 38/1",
   "brand": "Pampers",
@@ -178028,7 +178028,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -179528,7 +179528,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -179583,18 +179583,6 @@
   "store_id": "87092",
   "store_name": "Bjelovar",
   "city": "Bjelovar",
-  "product_id": "377150",
-  "product": "ŠAMP.H&S 7U1 HAIR FALL 250 ml",
-  "brand": "Head&Shoulders",
-  "category": "Kozmetika",
-  "price": 6.89,
-  "barcode": "8700216156936",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87092",
-  "store_name": "Bjelovar",
-  "city": "Bjelovar",
   "product_id": "383181",
   "product": "ŠAMPON PANTENE R&P 3U1 325 ml",
   "brand": "Pantene",
@@ -179613,18 +179601,6 @@
   "category": "Kozmetika",
   "price": 4.99,
   "barcode": "8700216422338",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87092",
-  "store_name": "Bjelovar",
-  "city": "Bjelovar",
-  "product_id": "383193",
-  "product": "REG.PANTENE AQUALIGHT 275 ml",
-  "brand": "Pantene",
-  "category": "Kozmetika",
-  "price": 4.99,
-  "barcode": "8700216509015",
   "matched_via": "brand"
  },
  {
@@ -180168,18 +180144,6 @@
   "matched_via": "brand"
  },
  {
-  "store_id": "87092",
-  "store_name": "Bjelovar",
-  "city": "Bjelovar",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "price": 18.99,
-  "barcode": "8006530125208",
-  "matched_via": "brand"
- },
- {
   "store_id": "87093",
   "store_name": "Ka Kresimirova",
   "city": "Karlovac",
@@ -180644,7 +180608,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -181100,7 +181064,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -182192,7 +182156,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -182499,18 +182463,6 @@
   "store_id": "87094",
   "store_name": "Vk Zvonimirova",
   "city": "Vinkovci",
-  "product_id": "331864",
-  "product": "GEL OLD SPICE CAPTAIN 2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8700216961967",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87094",
-  "store_name": "Vk Zvonimirova",
-  "city": "Vinkovci",
   "product_id": "346119",
   "product": "PEL.GAĆI.PAMPERS JUM 38/1",
   "brand": "Pampers",
@@ -182648,7 +182600,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -184124,7 +184076,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -185096,7 +185048,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -185528,7 +185480,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -187736,7 +187688,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -188516,7 +188468,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -188811,18 +188763,6 @@
   "store_id": "87100",
   "store_name": "Suhopolje",
   "city": "Suhopolje",
-  "product_id": "331872",
-  "product": "DEO OLD SPICE WHITEWATER2x50ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 5.99,
-  "barcode": "8006530049023",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87100",
-  "store_name": "Suhopolje",
-  "city": "Suhopolje",
   "product_id": "331873",
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
@@ -188960,7 +188900,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -190820,7 +190760,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -191240,7 +191180,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -192308,7 +192248,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -193172,7 +193112,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -193724,7 +193664,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -195092,7 +195032,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -195632,7 +195572,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -196575,18 +196515,6 @@
   "store_id": "87106",
   "store_name": "Opatija",
   "city": "Opatija",
-  "product_id": "4754",
-  "product": "LOSION OLD SP.WHITEWAT.100 ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 7.89,
-  "barcode": "5000174440256",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87106",
-  "store_name": "Opatija",
-  "city": "Opatija",
   "product_id": "7408",
   "product": "ULO.ALWAYS ULT.NORM.PLUS 20/1",
   "brand": "Always",
@@ -197048,7 +196976,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -197540,7 +197468,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -198704,7 +198632,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -200108,7 +200036,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -201020,7 +200948,7 @@
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
   "price": 15.99,
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -201404,7 +201332,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -203144,7 +203072,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -203757,6 +203685,18 @@
   "category": "Sredstva za čišćenje",
   "price": 18.99,
   "barcode": "8006530125208",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87119",
+  "store_name": "Zg",
+  "city": "Zagreb",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -204489,18 +204429,6 @@
   "category": "Sredstva za čišćenje",
   "price": 9.99,
   "barcode": "8700216691925",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87123",
-  "store_name": "Zlatar",
-  "city": "Zlatar",
-  "product_id": "391619",
-  "product": "P.P.GILLETTE PROGLIDE",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "price": 27.99,
-  "barcode": "8006530032346",
   "matched_via": "brand"
  },
  {
@@ -206372,7 +206300,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -208628,7 +208556,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -209720,7 +209648,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -210620,7 +210548,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -210963,18 +210891,6 @@
   "store_id": "87135",
   "store_name": "Pregrada",
   "city": "Pregrada",
-  "product_id": "395918",
-  "product": "OME.LENOR SPRING AWAKENI.2.65L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "price": 9.99,
-  "barcode": "8006530170529",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87135",
-  "store_name": "Pregrada",
-  "city": "Pregrada",
   "product_id": "397054",
   "product": "PJENA GILLETTE SENSITIV.250 ml",
   "brand": "Gillette",
@@ -211005,6 +210921,18 @@
   "category": "Sredstva za čišćenje",
   "price": 4.45,
   "barcode": "8700216759113",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87135",
+  "store_name": "Pregrada",
+  "city": "Pregrada",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -211640,7 +211568,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -212660,7 +212588,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -213009,6 +212937,18 @@
   "category": "Kozmetika",
   "price": 7.99,
   "barcode": "8006530074001",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87140",
+  "store_name": "Ozalj",
+  "city": "Ozalj",
+  "product_id": "402174",
+  "product": "OME.LENOR SENSITIVE 2x1239 ml",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 8.99,
+  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -213752,7 +213692,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -215060,7 +215000,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -216452,7 +216392,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -217017,18 +216957,6 @@
   "category": "Sredstva za čišćenje",
   "price": 8.35,
   "barcode": "8700216686488",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87156",
-  "store_name": "Gospic",
-  "city": "Gospic",
-  "product_id": "391604",
-  "product": "P.P:OLD SPICE CAPTAIN TORBICA",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "price": 15.99,
-  "barcode": "8006530005968",
   "matched_via": "brand"
  },
  {
@@ -217892,7 +217820,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -219272,7 +219200,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -220364,7 +220292,7 @@
   "brand": "Oral B",
   "category": "Kozmetika",
   "price": 5.79,
-  "barcode": "8700216384643",
+  "barcode": "8006530444187",
   "matched_via": "brand"
  },
  {
@@ -220389,6 +220317,18 @@
   "category": "Kozmetika",
   "price": 4.99,
   "barcode": "8700216567084",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "city": "Osijek",
+  "product_id": "387830",
+  "product": "MIR.PERLICE LENOR SPRING 195 g",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 3.99,
+  "barcode": "8700216708418",
   "matched_via": "brand"
  },
  {
@@ -220473,6 +220413,18 @@
   "category": "Sredstva za čišćenje",
   "price": 13.99,
   "barcode": "8700216691086",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "city": "Osijek",
+  "product_id": "387912",
+  "product": "OMEKŠIVAČ LENOR LOTUS 1,239 L",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "price": 3.99,
+  "barcode": "8006530218306",
   "matched_via": "brand"
  },
  {

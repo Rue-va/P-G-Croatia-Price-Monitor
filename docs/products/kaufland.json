@@ -1231,7 +1231,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -2227,7 +2227,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -2727,18 +2727,6 @@
   "store_id": "1630",
   "store_name": "Kaufland Split",
   "city": "Split",
-  "product_id": "20681449",
-  "product": "Vinea Venus Vino crno 1L",
-  "brand": "Vinea",
-  "category": "PIĆE",
-  "price": 4.75,
-  "barcode": "3859892866884",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "1630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
   "product_id": "20694961",
   "product": "Head&Shoulders Šampon Citrus Fresh 500ml",
   "brand": "Head&Shoulders",
@@ -3055,7 +3043,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -3067,7 +3055,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -3903,18 +3891,6 @@
   "store_id": "1630",
   "store_name": "Kaufland Split",
   "city": "Split",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -4101,18 +4077,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216733311",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
-  "product_id": "20825178",
-  "product": "Ariel Deterdžent za rublje Ex.clean1,35L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 15.99,
-  "barcode": "8006530146357",
   "matched_via": "brand"
  },
  {
@@ -4401,18 +4365,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -6319,7 +6271,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -7659,18 +7611,6 @@
   "store_id": "2030",
   "store_name": "Kaufland Zadar",
   "city": "Zadar",
-  "product_id": "20664263",
-  "product": "Gillette Patrone Fusion5 8/1",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 37.19,
-  "barcode": "8006540989197",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2030",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
   "product_id": "20667547",
   "product": "Ambi Pur Osvježivač kup.flowers sp.8ml",
   "brand": "Ambi Pur",
@@ -7875,18 +7815,6 @@
   "store_id": "2030",
   "store_name": "Kaufland Zadar",
   "city": "Zadar",
-  "product_id": "20732367",
-  "product": "Old Spice Dezodorans stick Deep Sea85ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 7.49,
-  "barcode": "8006540955871",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2030",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
   "product_id": "20733785",
   "product": "Pantene Balzam Hydra glow 160 ml",
   "brand": "Pantene",
@@ -8023,7 +7951,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -8035,7 +7963,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -8511,18 +8439,6 @@
   "store_id": "2030",
   "store_name": "Kaufland Zadar",
   "city": "Zadar",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2030",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -8841,18 +8757,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2030",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -9321,6 +9225,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216766173",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2030",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216834292",
   "matched_via": "brand"
  },
  {
@@ -9927,6 +9843,18 @@
   "store_id": "2030",
   "store_name": "Kaufland Zadar",
   "city": "Zadar",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2030",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
   "product_id": "20970666",
   "product": "Oral-B Pasta za zube Sensitive 2x75ml",
   "brand": "Oral-B",
@@ -10161,6 +10089,18 @@
   "category": "TOALETNE POTREPŠTINE",
   "price": 4.99,
   "barcode": "8700216861182",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00033492",
+  "product": "Old Spice Deo Sprej Bearglove 150ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "price": 2.59,
+  "barcode": "4015600860332",
   "matched_via": "brand"
  },
  {
@@ -11143,7 +11083,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -12907,7 +12847,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -12919,7 +12859,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -13383,18 +13323,6 @@
   "store_id": "5630",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -13413,18 +13341,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
   "matched_via": "brand"
  },
  {
@@ -16147,7 +16063,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -17767,7 +17683,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -17779,7 +17695,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -18531,24 +18447,24 @@
   "store_id": "3430",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822608",
-  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
-  "barcode": "8700216764896",
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
   "store_id": "3430",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -22327,7 +22243,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -22339,7 +22255,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -23091,18 +23007,6 @@
   "store_id": "5930",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20824569",
   "product": "Ariel Deterdžent za rublje amethyst2,25L",
   "brand": "Ariel",
@@ -23505,18 +23409,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -24855,6 +24747,18 @@
   "store_id": "5230",
   "store_name": "Kaufland Zagreb Blato",
   "city": "Zagreb Blato",
+  "product_id": "00099941",
+  "product": "Gill. Blue3 Jedn.brit.Cool m. 6+2kom",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 9.79,
+  "barcode": "7702018457342",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
   "product_id": "00099942",
   "product": "Gill. Blue3 Com.Jedn.brit.m.1kom",
   "brand": "Gillette",
@@ -25207,7 +25111,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -26863,7 +26767,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -26875,7 +26779,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -27147,18 +27051,6 @@
   "store_id": "5230",
   "store_name": "Kaufland Zagreb Blato",
   "city": "Zagreb Blato",
-  "product_id": "20762290",
-  "product": "Pantene Balzam Inten.repair 275ml",
-  "brand": "Pantene",
-  "category": "KOZMETIKA",
-  "price": 5.99,
-  "barcode": "8700216422338",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5230",
-  "store_name": "Kaufland Zagreb Blato",
-  "city": "Zagreb Blato",
   "product_id": "20762497",
   "product": "Pantene Šampon Intensive repair 625ml",
   "brand": "Pantene",
@@ -27285,18 +27177,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5230",
-  "store_name": "Kaufland Zagreb Blato",
-  "city": "Zagreb Blato",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
   "matched_via": "brand"
  },
  {
@@ -27603,24 +27483,24 @@
   "store_id": "5230",
   "store_name": "Kaufland Zagreb Blato",
   "city": "Zagreb Blato",
-  "product_id": "20822608",
-  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
-  "barcode": "8700216764896",
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
   "store_id": "5230",
   "store_name": "Kaufland Zagreb Blato",
   "city": "Zagreb Blato",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -28017,18 +27897,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 16.99,
   "barcode": "8700216765923",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5230",
-  "store_name": "Kaufland Zagreb Blato",
-  "city": "Zagreb Blato",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -28833,6 +28701,18 @@
   "category": "TOALETNE POTREPŠTINE",
   "price": 3.45,
   "barcode": "4015400552154",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "00028424",
+  "product": "Gill. Blue II Plus Jedn.britvice m.1/1",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 1.29,
+  "barcode": "3014260265885",
   "matched_via": "brand"
  },
  {
@@ -29899,7 +29779,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -31639,7 +31519,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -31651,7 +31531,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -32199,18 +32079,6 @@
   "store_id": "3130",
   "store_name": "Kaufland Osijek",
   "city": "Osijek",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3130",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -32553,18 +32421,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3130",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -33159,6 +33015,18 @@
   "store_id": "3130",
   "store_name": "Kaufland Osijek",
   "city": "Osijek",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216834292",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
   "product_id": "20844950",
   "product": "Pantene Sprej za kosu Sunkiss Glow 200ml",
   "brand": "Pantene",
@@ -33321,18 +33189,6 @@
   "category": "KOZMETIKA",
   "price": 3.19,
   "barcode": "8700216567923",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3130",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20899413",
-  "product": "Gillette Patrone jednokratne Mach 3 12/1",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 29.99,
-  "barcode": "8006530028875",
   "matched_via": "brand"
  },
  {
@@ -34467,6 +34323,18 @@
   "store_id": "4430",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "00103672",
+  "product": "B_Oral B Pro Exp. Clinic Line konac 25m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "price": 4.19,
+  "barcode": "8700216365604",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "00103699",
   "product": "B_Gillette gel za brijanje Fusion 5 75ml",
   "brand": "Gillette",
@@ -34747,7 +34615,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -36343,7 +36211,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -36355,7 +36223,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -36711,18 +36579,6 @@
   "store_id": "4430",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -36933,6 +36789,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -37293,18 +37161,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -40131,18 +39987,6 @@
   "store_id": "2630",
   "store_name": "Kaufland Pula",
   "city": "Pula",
-  "product_id": "20343310",
-  "product": "Pampers Maramice vlažne aqua 48/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 3.35,
-  "barcode": "8006540458563",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
   "product_id": "20343311",
   "product": "Pampers Maramice vlažne new baby 46/1",
   "brand": "Pampers",
@@ -40185,18 +40029,6 @@
   "category": "KOZMETIKA",
   "price": 18.49,
   "barcode": "8006540857755",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20346133",
-  "product": "Pampers Pelene Premium care vel.2 136/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 24.99,
-  "barcode": "8006540855812",
   "matched_via": "brand"
  },
  {
@@ -40257,18 +40089,6 @@
   "category": "KOZMETIKA",
   "price": 5.99,
   "barcode": "8700216058056",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20619509",
-  "product": "Old Spice Gel za tuširanje Captain 1L",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 10.99,
-  "barcode": "8006540818824",
   "matched_via": "brand"
  },
  {
@@ -40735,7 +40555,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -40747,7 +40567,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -41211,18 +41031,6 @@
   "store_id": "2630",
   "store_name": "Kaufland Pula",
   "city": "Pula",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -41577,30 +41385,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -42027,6 +41811,18 @@
   "store_id": "2630",
   "store_name": "Kaufland Pula",
   "city": "Pula",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 1.8,
+  "barcode": "8700216723657",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
   "product_id": "20835571",
   "product": "Ariel Det.za pranje rub.Extra 40p.1,8L",
   "brand": "Ariel",
@@ -42213,18 +42009,6 @@
   "category": "KOZMETIKA",
   "price": 5.99,
   "barcode": "8700216938808",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20869112",
-  "product": "Pantene Pro-V Balzam za kosu Hydra.275ml",
-  "brand": "Pantene Pro-V",
-  "category": "KOZMETIKA",
-  "price": 5.99,
-  "barcode": "8700216938839",
   "matched_via": "product_name"
  },
  {
@@ -42826,18 +42610,6 @@
   "price": 3.45,
   "barcode": "4015400552154",
   "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "00023060",
-  "product": "Simply venus 2 brijač 4 +2 komada",
-  "brand": "Simply Venus",
-  "category": "KOZMETIKA",
-  "price": 5.39,
-  "barcode": "7702018069316",
-  "matched_via": "product_name"
  },
  {
   "store_id": "1930",
@@ -43539,18 +43311,6 @@
   "store_id": "1930",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "00105442",
-  "product": "Gillette Fusion5 patrone XXL 16kom",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 38.99,
-  "barcode": "8001090819536",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "00106083",
   "product": "Old Spice deo sprej original 150ml",
   "brand": "Old Spice",
@@ -43651,7 +43411,7 @@
   "product": "Gillette Mach3 T. 3D drška+2 patrone m.",
   "brand": "Gillette",
   "category": "KOZMETIKA",
-  "price": 17.39,
+  "price": 6.19,
   "barcode": "7702018514229",
   "matched_via": "brand"
  },
@@ -44290,18 +44050,6 @@
   "price": 16.79,
   "barcode": "8001090950130",
   "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "00137444",
-  "product": "Kandi Čokolada Milk choco fairy220g",
-  "brand": "Kandi",
-  "category": "HRANA",
-  "price": 2.49,
-  "barcode": "3856024803922",
-  "matched_via": "product_name"
  },
  {
   "store_id": "1930",
@@ -45823,7 +45571,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -45835,7 +45583,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -46143,6 +45891,18 @@
   "store_id": "1930",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "20762293",
+  "product": "Pantene Balzam Intensive repair 160ml",
+  "brand": "Pantene",
+  "category": "KOZMETIKA",
+  "price": 1.49,
+  "barcode": "8700216508834",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "20762497",
   "product": "Pantene Šampon Intensive repair 625ml",
   "brand": "Pantene",
@@ -46329,18 +46089,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -46683,18 +46431,6 @@
   "store_id": "1930",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -46947,6 +46683,18 @@
   "store_id": "1930",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 1.8,
+  "barcode": "8700216724463",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "20827017",
   "product": "Oral B Zamjenske glave iO Gentle C.4/1",
   "brand": "Oral B",
@@ -47001,18 +46749,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 8.99,
   "barcode": "8700216766012",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20828282",
-  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216724371",
   "matched_via": "brand"
  },
  {
@@ -47145,18 +46881,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -49051,7 +48775,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -50707,7 +50431,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -50719,7 +50443,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -51147,18 +50871,6 @@
   "store_id": "3230",
   "store_name": "Kaufland Kutina",
   "city": "Kutina",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -51423,6 +51135,18 @@
   "store_id": "3230",
   "store_name": "Kaufland Kutina",
   "city": "Kutina",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3230",
+  "store_name": "Kaufland Kutina",
+  "city": "Kutina",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
@@ -51441,30 +51165,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 36.99,
   "barcode": "8700216691444",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -52575,18 +52275,6 @@
   "store_id": "3230",
   "store_name": "Kaufland Kutina",
   "city": "Kutina",
-  "product_id": "20970667",
-  "product": "Oral-B Pasta za zube Gentle whit.2x75ml",
-  "brand": "Oral-B",
-  "category": "KOZMETIKA",
-  "price": 5.29,
-  "barcode": "8006530444187",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
   "product_id": "20970721",
   "product": "Lenor Perlice mirisne Cotton fresh 495g",
   "brand": "Lenor",
@@ -53599,7 +53287,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -55279,7 +54967,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -55291,7 +54979,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -55671,18 +55359,6 @@
   "store_id": "4230",
   "store_name": "Kaufland Trogir",
   "city": "Trogir",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4230",
-  "store_name": "Kaufland Trogir",
-  "city": "Trogir",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -56013,18 +55689,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4230",
-  "store_name": "Kaufland Trogir",
-  "city": "Trogir",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -58563,6 +58227,18 @@
   "store_id": "2330",
   "store_name": "Kaufland Varazdin",
   "city": "Varazdin",
+  "product_id": "00139805",
+  "product": "Oral B Četkica za zube Allround.bl.3 kom",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "price": 3.59,
+  "barcode": "3014260101503",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
   "product_id": "00142497",
   "product": "Lenor Omekšivač Fresh 37 pranja 925ml",
   "brand": "Lenor",
@@ -59971,7 +59647,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -59983,7 +59659,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -60495,18 +60171,6 @@
   "store_id": "2330",
   "store_name": "Kaufland Varazdin",
   "city": "Varazdin",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2330",
-  "store_name": "Kaufland Varazdin",
-  "city": "Varazdin",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -60825,18 +60489,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2330",
-  "store_name": "Kaufland Varazdin",
-  "city": "Varazdin",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -61563,18 +61215,6 @@
   "store_id": "2330",
   "store_name": "Kaufland Varazdin",
   "city": "Varazdin",
-  "product_id": "20916678",
-  "product": "Always Ulošci hig.Ultra night norm.66/1",
-  "brand": "Always",
-  "category": "TOALETNE POTREPŠTINE",
-  "price": 9.99,
-  "barcode": "8006530186742",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2330",
-  "store_name": "Kaufland Varazdin",
-  "city": "Varazdin",
   "product_id": "20919749",
   "product": "Old Spice Gel za tuširanje 3u1 Cold 1L",
   "brand": "Old Spice",
@@ -62085,6 +61725,18 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8700216162173",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1430",
+  "store_name": "Kaufland Vinkovci",
+  "city": "Vinkovci",
+  "product_id": "00020000",
+  "product": "Old Spice Deo Sprej wolfthorn m.150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 2.59,
+  "barcode": "4015600306595",
   "matched_via": "brand"
  },
  {
@@ -63091,7 +62743,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -64191,18 +63843,6 @@
   "store_id": "1430",
   "store_name": "Kaufland Vinkovci",
   "city": "Vinkovci",
-  "product_id": "20344247",
-  "product": "Pampers Pelene Premium care vel.3 78/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 18.49,
-  "barcode": "8006540857755",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
   "product_id": "20347699",
   "product": "Pampers Pelene gaćice vel.8 32/1",
   "brand": "Pampers",
@@ -64735,7 +64375,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -64747,7 +64387,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -65163,18 +64803,6 @@
   "store_id": "1430",
   "store_name": "Kaufland Vinkovci",
   "city": "Vinkovci",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -65499,18 +65127,6 @@
   "store_id": "1430",
   "store_name": "Kaufland Vinkovci",
   "city": "Vinkovci",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -65793,18 +65409,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216691604",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
-  "product_id": "20828282",
-  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216724371",
   "matched_via": "brand"
  },
  {
@@ -66627,6 +66231,18 @@
   "store_id": "1430",
   "store_name": "Kaufland Vinkovci",
   "city": "Vinkovci",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1430",
+  "store_name": "Kaufland Vinkovci",
+  "city": "Vinkovci",
   "product_id": "20970666",
   "product": "Oral-B Pasta za zube Sensitive 2x75ml",
   "brand": "Oral-B",
@@ -66885,18 +66501,6 @@
   "category": "KOZMETIKA",
   "price": 23.29,
   "barcode": "8006540069325",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
-  "product_id": "00048877",
-  "product": "Pampers pelene gaćice jp xl 44/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 23.29,
-  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -69111,18 +68715,6 @@
   "store_id": "2830",
   "store_name": "Kaufland Slavonski Brod",
   "city": "Slavonski Brod",
-  "product_id": "20663761",
-  "product": "Venus Vino muškat Hamburg 1L",
-  "brand": "Venus",
-  "category": "PIĆE",
-  "price": 2.09,
-  "barcode": "3859892866815",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
   "product_id": "20664263",
   "product": "Gillette Patrone Fusion5 8/1",
   "brand": "Gillette",
@@ -69487,7 +69079,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -69499,7 +69091,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -69939,36 +69531,12 @@
   "store_id": "2830",
   "store_name": "Kaufland Slavonski Brod",
   "city": "Slavonski Brod",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -70305,30 +69873,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -70857,6 +70401,18 @@
   "category": "KOZMETIKA",
   "price": 3.97,
   "barcode": "8700216445962",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216834292",
   "matched_via": "brand"
  },
  {
@@ -71493,6 +71049,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 20.99,
   "barcode": "8006530202480",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
   "matched_via": "brand"
  },
  {
@@ -74095,7 +73663,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -74107,7 +73675,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -74463,18 +74031,6 @@
   "store_id": "2730",
   "store_name": "Kaufland Pozega",
   "city": "Pozega",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2730",
-  "store_name": "Kaufland Pozega",
-  "city": "Pozega",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -74787,6 +74343,18 @@
   "store_id": "2730",
   "store_name": "Kaufland Pozega",
   "city": "Pozega",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
@@ -74805,18 +74373,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 36.99,
   "barcode": "8700216691444",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2730",
-  "store_name": "Kaufland Pozega",
-  "city": "Pozega",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -75267,18 +74823,6 @@
   "store_id": "2730",
   "store_name": "Kaufland Pozega",
   "city": "Pozega",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2730",
-  "store_name": "Kaufland Pozega",
-  "city": "Pozega",
   "product_id": "20835169",
   "product": "Ariel Deterdžent za rublje Amethyst 38/1",
   "brand": "Ariel",
@@ -75405,6 +74949,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216733458",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "20857350",
+  "product": "Ambi Pur Uložak zamje.za dif.Gold 2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216686488",
   "matched_via": "brand"
  },
  {
@@ -78583,7 +78139,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -78595,7 +78151,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -79257,6 +78813,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6030",
+  "store_name": "Kaufland Umag",
+  "city": "Umag",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -81723,18 +81291,6 @@
   "store_id": "6330",
   "store_name": "Kaufland Rijeka",
   "city": "Rijeka",
-  "product_id": "00137444",
-  "product": "Kandi Čokolada Milk choco fairy220g",
-  "brand": "Kandi",
-  "category": "HRANA",
-  "price": 2.49,
-  "barcode": "3856024803922",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "6330",
-  "store_name": "Kaufland Rijeka",
-  "city": "Rijeka",
   "product_id": "00139801",
   "product": "B_Gillette Patrone Fusion 5 progl. 8kom",
   "brand": "Gillette",
@@ -83191,7 +82747,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -83203,7 +82759,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -83643,18 +83199,6 @@
   "store_id": "6330",
   "store_name": "Kaufland Rijeka",
   "city": "Rijeka",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6330",
-  "store_name": "Kaufland Rijeka",
-  "city": "Rijeka",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -83961,18 +83505,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6330",
-  "store_name": "Kaufland Rijeka",
-  "city": "Rijeka",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -85065,6 +84597,18 @@
   "category": "KOZMETIKA",
   "price": 3.69,
   "barcode": "8006530116558",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6330",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20940307",
+  "product": "Old Spice Gel za tuširanje3u1 Rockstar1L",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 10.99,
+  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
@@ -86299,7 +85843,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -88003,7 +87547,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -88015,7 +87559,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -88797,30 +88341,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 36.99,
   "barcode": "8700216691444",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7130",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7130",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -90015,6 +89535,18 @@
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
+  "product_id": "00011857",
+  "product": "Head&Shoulders šampon Apple Fresh 400 ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 6.69,
+  "barcode": "5410076659456",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
   "product_id": "00015668",
   "product": "Pantene šampon Aqualight 400 ml",
   "brand": "Pantene",
@@ -90979,7 +90511,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -91437,6 +90969,18 @@
   "category": "KOZMETIKA",
   "price": 17.59,
   "barcode": "7702018866946",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "04702459",
+  "product": "Gillette Patrone Fusion5 4/1",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 20.49,
+  "barcode": "7702018866984",
   "matched_via": "brand"
  },
  {
@@ -91935,6 +91479,18 @@
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
+  "product_id": "20200312",
+  "product": "Oral B Zamj.glave za el.četki.Frozen 4/1",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "price": 21.25,
+  "barcode": "4210201385233",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
   "product_id": "20205071",
   "product": "Gillette Gel za brijanje Mach3 240 ml",
   "brand": "Gillette",
@@ -92181,6 +91737,18 @@
   "category": "KOZMETIKA",
   "price": 37.19,
   "barcode": "8006540989197",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20667547",
+  "product": "Ambi Pur Osvježivač kup.flowers sp.8ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 2.84,
+  "barcode": "8700216014878",
   "matched_via": "brand"
  },
  {
@@ -92515,7 +92083,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -92527,7 +92095,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -92919,18 +92487,6 @@
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -93207,24 +92763,24 @@
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
-  "product_id": "20822608",
-  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
-  "barcode": "8700216764896",
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -93795,6 +93351,18 @@
   "store_id": "4630",
   "store_name": "Kaufland Split",
   "city": "Split",
+  "product_id": "20869112",
+  "product": "Pantene Pro-V Balzam za kosu Hydra.275ml",
+  "brand": "Pantene Pro-V",
+  "category": "KOZMETIKA",
+  "price": 5.99,
+  "barcode": "8700216938839",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
   "product_id": "20869113",
   "product": "Pantene Pro-V Balzam Intensive Hyd.220ml",
   "brand": "Pantene Pro-V",
@@ -93885,6 +93453,18 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8006530004404",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20920379",
+  "product": "Head&Shoulders Šampon2u1 Citrus 800mlXXL",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 12.49,
+  "barcode": "8006530004527",
   "matched_via": "brand"
  },
  {
@@ -95001,18 +94581,6 @@
   "category": "KOZMETIKA",
   "price": 36.95,
   "barcode": "7702018867059",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "00105439",
-  "product": "Gillette Mach3 patrone XXL 16kom",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 25.99,
-  "barcode": "7702018582907",
   "matched_via": "brand"
  },
  {
@@ -96871,7 +96439,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -96883,7 +96451,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -97287,18 +96855,6 @@
   "store_id": "3330",
   "store_name": "Kaufland Zapresic",
   "city": "Zapresic",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -97533,30 +97089,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "20824572",
-  "product": "Ariel Deterdžent za rublje Extra c.2,25L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 16.99,
-  "barcode": "8700216692045",
   "matched_via": "brand"
  },
  {
@@ -97893,18 +97425,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -101191,7 +100711,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -101203,7 +100723,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -101835,24 +101355,24 @@
   "store_id": "2930",
   "store_name": "Kaufland Virovitica",
   "city": "Virovitica",
-  "product_id": "20822608",
-  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
-  "barcode": "8700216764896",
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
   "store_id": "2930",
   "store_name": "Kaufland Virovitica",
   "city": "Virovitica",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -102225,18 +101745,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2930",
-  "store_name": "Kaufland Virovitica",
-  "city": "Virovitica",
-  "product_id": "20835572",
-  "product": "Ariel Deterdžent za rublje Fresh air1,8L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 20.99,
-  "barcode": "8700216692090",
   "matched_via": "brand"
  },
  {
@@ -102873,18 +102381,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 20.99,
   "barcode": "8006530202480",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2930",
-  "store_name": "Kaufland Virovitica",
-  "city": "Virovitica",
-  "product_id": "20970621",
-  "product": "Ariel Deterdž.za rub.Jap.bloss.40pr.1,8L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 15.99,
-  "barcode": "8006530345446",
   "matched_via": "brand"
  },
  {
@@ -103843,7 +103339,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -105439,7 +104935,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -105451,7 +104947,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -106347,18 +105843,6 @@
   "store_id": "6430",
   "store_name": "Kaufland Osijek",
   "city": "Osijek",
-  "product_id": "20826930",
-  "product": "Lenor Omekš.rub.Lotus&Diamond 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8006530170895",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6430",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
   "product_id": "20827017",
   "product": "Oral B Zamjenske glave iO Gentle C.4/1",
   "brand": "Oral B",
@@ -106545,18 +106029,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6430",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -108511,7 +107983,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -109119,6 +108591,18 @@
   "store_id": "1030",
   "store_name": "Kaufland Karlovac",
   "city": "Karlovac",
+  "product_id": "04703580",
+  "product": "Head&Shoulders  Classic Clean Sham.400ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 6.69,
+  "barcode": "5011321336049",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1030",
+  "store_name": "Kaufland Karlovac",
+  "city": "Karlovac",
   "product_id": "04704469",
   "product": "Venus Breeze brijač",
   "brand": "Venus",
@@ -109209,18 +108693,6 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8700216162180",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
-  "product_id": "04801941",
-  "product": "Oral B zubni konac Essential 50 m",
-  "brand": "Oral B",
-  "category": "KOZMETIKA",
-  "price": 3.89,
-  "barcode": "5010622005029",
   "matched_via": "brand"
  },
  {
@@ -109483,7 +108955,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -110323,7 +109795,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -110335,7 +109807,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -111183,18 +110655,6 @@
   "store_id": "1030",
   "store_name": "Kaufland Karlovac",
   "city": "Karlovac",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -111657,18 +111117,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -112402,18 +111850,6 @@
   "price": 2.99,
   "barcode": "8006530147354",
   "matched_via": "product_name"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
-  "product_id": "20954926",
-  "product": "Lenor Omekšivač Jap.blossom 59 pr.1,239L",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 5.19,
-  "barcode": "8006530389846",
-  "matched_via": "brand"
  },
  {
   "store_id": "1030",
@@ -115159,7 +114595,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -115171,7 +114607,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -115599,18 +115035,6 @@
   "store_id": "1230",
   "store_name": "Kaufland Koprivnica",
   "city": "Koprivnica",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1230",
-  "store_name": "Kaufland Koprivnica",
-  "city": "Koprivnica",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -115911,24 +115335,12 @@
   "store_id": "1230",
   "store_name": "Kaufland Koprivnica",
   "city": "Koprivnica",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1230",
-  "store_name": "Kaufland Koprivnica",
-  "city": "Koprivnica",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -116379,18 +115791,6 @@
   "store_id": "1230",
   "store_name": "Kaufland Koprivnica",
   "city": "Koprivnica",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1230",
-  "store_name": "Kaufland Koprivnica",
-  "city": "Koprivnica",
   "product_id": "20835169",
   "product": "Ariel Deterdžent za rublje Amethyst 38/1",
   "brand": "Ariel",
@@ -116505,6 +115905,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216733458",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1230",
+  "store_name": "Kaufland Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "20857350",
+  "product": "Ambi Pur Uložak zamje.za dif.Gold 2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216686488",
   "matched_via": "brand"
  },
  {
@@ -116938,6 +116350,18 @@
   "price": 8.49,
   "barcode": "8006530215138",
   "matched_via": "product_name"
+ },
+ {
+  "store_id": "1230",
+  "store_name": "Kaufland Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "20932140",
+  "product": "Ariel Deterdžent za rub.Gold orchid 50/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8006530201933",
+  "matched_via": "brand"
  },
  {
   "store_id": "1230",
@@ -118219,7 +117643,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -118257,6 +117681,18 @@
   "category": "KOZMETIKA",
   "price": 13.25,
   "barcode": "4210201383994",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00125765",
+  "product": "Venus brijač Extra Smooth Sens Rosegold",
+  "brand": "Venus",
+  "category": "KOZMETIKA",
+  "price": 13.59,
+  "barcode": "7702018517886",
   "matched_via": "brand"
  },
  {
@@ -119151,18 +118587,6 @@
   "store_id": "1830",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20122856",
-  "product": "Gillette Brijač i 11 patrona Fusion 5",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 29.99,
-  "barcode": "7702018425761",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20157858",
   "product": "Always Ulošci hig.ult.secu.night24/1_OC",
   "brand": "Always",
@@ -119863,7 +119287,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -119875,7 +119299,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -120303,18 +119727,6 @@
   "store_id": "1830",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -120525,6 +119937,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -122755,7 +122179,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -123631,7 +123055,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -124047,18 +123471,6 @@
   "store_id": "3530",
   "store_name": "Kaufland Samobor",
   "city": "Samobor",
-  "product_id": "20663761",
-  "product": "Venus Vino muškat Hamburg 1L",
-  "brand": "Venus",
-  "category": "PIĆE",
-  "price": 2.09,
-  "barcode": "3859892866815",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3530",
-  "store_name": "Kaufland Samobor",
-  "city": "Samobor",
   "product_id": "20664263",
   "product": "Gillette Patrone Fusion5 8/1",
   "brand": "Gillette",
@@ -124411,7 +123823,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -124423,7 +123835,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -124779,18 +124191,6 @@
   "store_id": "3530",
   "store_name": "Kaufland Samobor",
   "city": "Samobor",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3530",
-  "store_name": "Kaufland Samobor",
-  "city": "Samobor",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -125061,18 +124461,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3530",
-  "store_name": "Kaufland Samobor",
-  "city": "Samobor",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -127363,7 +126751,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -129175,7 +128563,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -129187,7 +128575,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -130071,18 +129459,6 @@
   "store_id": "3630",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -130539,18 +129915,6 @@
   "store_id": "3630",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20835169",
   "product": "Ariel Deterdžent za rublje Amethyst 38/1",
   "brand": "Ariel",
@@ -130821,18 +130185,6 @@
   "category": "KOZMETIKA",
   "price": 5.29,
   "barcode": "8700216922784",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20897703",
-  "product": "Oral-B Četkica za zube Sen.Clin.Soft2/1",
-  "brand": "Oral-B",
-  "category": "KOZMETIKA",
-  "price": 3.19,
-  "barcode": "8700216567923",
   "matched_via": "brand"
  },
  {
@@ -132615,6 +131967,18 @@
   "store_id": "3030",
   "store_name": "Kaufland Bjelovar",
   "city": "Bjelovar",
+  "product_id": "00145991",
+  "product": "Ariel Deterdž.za rub.Fresh 80pr.4,4kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
   "product_id": "04700091",
   "product": "Old Spice Los. posl.brij.whitew.m.100ml",
   "brand": "Old spice",
@@ -132633,18 +131997,6 @@
   "category": "KOZMETIKA",
   "price": 6.69,
   "barcode": "5011321336032",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3030",
-  "store_name": "Kaufland Bjelovar",
-  "city": "Bjelovar",
-  "product_id": "04700536",
-  "product": "Gillet.Pjena za brij. regular m. 200ml",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 3.29,
-  "barcode": "3014260228668",
   "matched_via": "brand"
  },
  {
@@ -133867,7 +133219,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -133879,7 +133231,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -134559,6 +133911,18 @@
   "store_id": "3030",
   "store_name": "Kaufland Bjelovar",
   "city": "Bjelovar",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 1.8,
+  "barcode": "8700216723862",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -134829,6 +134193,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216724371",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "20830444",
+  "product": "Pampers Pelene Premium care vel.6 50/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "price": 18.49,
+  "barcode": "8700216865029",
   "matched_via": "brand"
  },
  {
@@ -136563,18 +135939,6 @@
   "store_id": "1530",
   "store_name": "Kaufland Sisak",
   "city": "Sisak",
-  "product_id": "00112257",
-  "product": "Old Spice Deo Stick deep sea men 50ml",
-  "brand": "Old spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8001841283906",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
   "product_id": "00117483",
   "product": "Venus patrone Extra Smooth 4/1",
   "brand": "Venus",
@@ -136731,6 +136095,18 @@
   "store_id": "1530",
   "store_name": "Kaufland Sisak",
   "city": "Sisak",
+  "product_id": "00123624",
+  "product": "Old Spice Deo Stick Restart men 50ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 2.59,
+  "barcode": "8001841858357",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
   "product_id": "00123629",
   "product": "Pantene ulje Keratin Protect 100ml",
   "brand": "Pantene",
@@ -136819,7 +136195,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -138399,18 +137775,6 @@
   "store_id": "1530",
   "store_name": "Kaufland Sisak",
   "city": "Sisak",
-  "product_id": "20730534",
-  "product": "Old Spice Dezodorans stick Rockstar50 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8700216203906",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
   "product_id": "20730535",
   "product": "Old Spice Dezodor.sprej Rockstar150ml",
   "brand": "Old Spice",
@@ -138607,7 +137971,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -138619,7 +137983,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -138886,18 +138250,6 @@
   "price": 26.89,
   "barcode": "8700216356794",
   "matched_via": "brand"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
-  "product_id": "20756892",
-  "product": "Gillette Venus 3 Britvice jednok.Col.3+1",
-  "brand": "Gillette Venus 3",
-  "category": "KOZMETIKA",
-  "price": 4.89,
-  "barcode": "8700216506991",
-  "matched_via": "product_name"
  },
  {
   "store_id": "1530",
@@ -139467,6 +138819,18 @@
   "store_id": "1530",
   "store_name": "Kaufland Sisak",
   "city": "Sisak",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
@@ -139485,18 +138849,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -139918,18 +139270,6 @@
   "price": 11.35,
   "barcode": "8700216821339",
   "matched_via": "product_name"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
-  "product_id": "20834714",
-  "product": "Ariel Deterdž.za rublje kap.Color100/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 24.99,
-  "barcode": "8700216764179",
-  "matched_via": "brand"
  },
  {
   "store_id": "1530",
@@ -141243,6 +140583,18 @@
   "store_id": "5830",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "00081367",
+  "product": "Old Spice Gel za tuš. Bearglove m.400ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "price": 4.99,
+  "barcode": "8001090533869",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "00085710",
   "product": "Gil. Gel za br. Fus.Sensitive m.200 ml",
   "brand": "Gillette",
@@ -141799,7 +141151,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -143455,7 +142807,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -143799,36 +143151,12 @@
   "store_id": "5830",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -144039,18 +143367,6 @@
   "store_id": "5830",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20822523",
-  "product": "Ariel Kapsule za rublje Color Fresh 60/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 29.99,
-  "barcode": "8700216765183",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20822524",
   "product": "Lenor Perlice mirisne Spring aw.XL 495g",
   "brand": "Lenor",
@@ -144069,6 +143385,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -144441,18 +143769,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216733793",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -145995,18 +145311,6 @@
   "store_id": "1730",
   "store_name": "Kaufland Rijeka",
   "city": "Rijeka",
-  "product_id": "00105439",
-  "product": "Gillette Mach3 patrone XXL 16kom",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 25.99,
-  "barcode": "7702018582907",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1730",
-  "store_name": "Kaufland Rijeka",
-  "city": "Rijeka",
   "product_id": "00105442",
   "product": "Gillette Fusion5 patrone XXL 16kom",
   "brand": "Gillette",
@@ -146419,7 +145723,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -147343,7 +146647,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -148171,7 +147475,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -148183,7 +147487,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -150387,6 +149691,18 @@
   "store_id": "1730",
   "store_name": "Kaufland Rijeka",
   "city": "Rijeka",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
   "product_id": "20970621",
   "product": "Ariel Deterdž.za rub.Jap.bloss.40pr.1,8L",
   "brand": "Ariel",
@@ -150639,18 +149955,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "00048876",
-  "product": "Pampers pelene gaćice jp jn 48/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 23.29,
-  "barcode": "8006540069325",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "00048877",
   "product": "Pampers pelene gaćice jp xl 44/1",
   "brand": "Pampers",
@@ -150843,6 +150147,18 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "00067408",
+  "product": "Head&shoulders šampon nourish 400 ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 6.69,
+  "barcode": "4084500819689",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "00069181",
   "product": "Pampers Pelene ABD Maxi Pack 3 70/1_OC",
   "brand": "Pampers",
@@ -150915,18 +150231,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "00081367",
-  "product": "Old Spice Gel za tuš. Bearglove m.400ml",
-  "brand": "Old spice",
-  "category": "KOZMETIKA",
-  "price": 4.99,
-  "barcode": "8001090533869",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "00085710",
   "product": "Gil. Gel za br. Fus.Sensitive m.200 ml",
   "brand": "Gillette",
@@ -150957,18 +150261,6 @@
   "category": "KOZMETIKA",
   "price": 3.45,
   "barcode": "3014260098964",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "00091331",
-  "product": "Oral  B Dj.čet za zube Baby Winnie 0-2 g",
-  "brand": "Oral B",
-  "category": "KOZMETIKA",
-  "price": 3.45,
-  "barcode": "3014260281366",
   "matched_via": "brand"
  },
  {
@@ -151315,7 +150607,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -151527,18 +150819,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "00138172",
-  "product": "Ariel Kapsule za rublje moun.spri.24/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 6.12,
-  "barcode": "8001090726667",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "00139801",
   "product": "B_Gillette Patrone Fusion 5 progl. 8kom",
   "brand": "Gillette",
@@ -151557,18 +150837,6 @@
   "category": "KOZMETIKA",
   "price": 3.59,
   "barcode": "3014260101503",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "00141619",
-  "product": "Lenor Omekšivač Spring Aw.49pr.1230ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.75,
-  "barcode": "8006540889954",
   "matched_via": "brand"
  },
  {
@@ -151911,18 +151179,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "04800812",
-  "product": "Oral B Dj.čet za zube Princes/Cars, 5-7g",
-  "brand": "Oral B",
-  "category": "KOZMETIKA",
-  "price": 3.45,
-  "barcode": "5010622010795",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "04805460",
   "product": "Old Spice Deo Stick original men 50ml",
   "brand": "Old spice",
@@ -152151,6 +151407,18 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "20085698",
+  "product": "Old Spice Antiperspirant i Deo gel 70ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 5.99,
+  "barcode": "8006530030397",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "20099412",
   "product": "Old Spice Gel za tuš. 3u1Whitewater675ml",
   "brand": "Old Spice",
@@ -152181,6 +151449,30 @@
   "category": "KOZMETIKA",
   "price": 7.49,
   "barcode": "8700216230988",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20122856",
+  "product": "Gillette Brijač i 11 patrona Fusion 5",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 29.99,
+  "barcode": "7702018425761",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20123350",
+  "product": "Gillette Brijač i 12 patrona Mach 3",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 21.84,
+  "barcode": "7702018425853",
   "matched_via": "brand"
  },
  {
@@ -152343,6 +151635,30 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
+  "product_id": "20346133",
+  "product": "Pampers Pelene Premium care vel.2 136/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "price": 24.99,
+  "barcode": "8006540855812",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20346449",
+  "product": "Lenor Omekšivač Cotton Fresh 48pr.2x1,2L",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 6.07,
+  "barcode": "8006540890134",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
   "product_id": "20347699",
   "product": "Pampers Pelene gaćice vel.8 32/1",
   "brand": "Pampers",
@@ -152493,18 +151809,6 @@
   "category": "KOZMETIKA",
   "price": 39.99,
   "barcode": "8700216066587",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20664263",
-  "product": "Gillette Patrone Fusion5 8/1",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 37.19,
-  "barcode": "8006540989197",
   "matched_via": "brand"
  },
  {
@@ -152839,7 +152143,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -152851,7 +152155,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -152997,6 +152301,30 @@
   "category": "KOZMETIKA",
   "price": 10.29,
   "barcode": "8700216158022",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20743375",
+  "product": "Head&Shoulders Šamp.Hair Fall.Defe.250ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 4.19,
+  "barcode": "8700216156936",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20743376",
+  "product": "Head&Shoulders Šamp.Persi.Dand.Con.250ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 4.19,
+  "barcode": "8700216156882",
   "matched_via": "brand"
  },
  {
@@ -153183,12 +152511,12 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20775187",
-  "product": "Oral B Četkice za zube Extra Soft 2/1",
+  "product_id": "20787474",
+  "product": "Oral B Zamjenske glave Ultimate clean4/1",
   "brand": "Oral B",
   "category": "KOZMETIKA",
-  "price": 7.35,
-  "barcode": "8700216431866",
+  "price": 19.99,
+  "barcode": "4210201342748",
   "matched_via": "brand"
  },
  {
@@ -153237,30 +152565,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
   "matched_via": "brand"
  },
  {
@@ -153453,18 +152757,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822604",
-  "product": "Ariel Kapsule za rublje Mountain S.60/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 29.99,
-  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -153831,30 +153123,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20835093",
-  "product": "Ariel Deterdžent za rublje Extra st.44/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20836214",
   "product": "Oral B Zamjenske glave iO Ultimate C.4/1",
   "brand": "Oral B",
@@ -153891,18 +153159,6 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20843310",
-  "product": "Oral-B Četkica za zube Pro Medium 2/1",
-  "brand": "Oral-B",
-  "category": "KOZMETIKA",
-  "price": 3.97,
-  "barcode": "8700216445962",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20844262",
   "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
   "brand": "Ambi Pur",
@@ -153921,18 +153177,6 @@
   "category": "KOZMETIKA",
   "price": 6.99,
   "barcode": "8006530050999",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20851369",
-  "product": "Old Spice Deo u spreju Night Panth.250ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 7.49,
-  "barcode": "8700216752459",
   "matched_via": "brand"
  },
  {
@@ -154011,60 +153255,12 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20872470",
-  "product": "Old Spice Poklon paket Epic Legend",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.36,
-  "barcode": "8006530006187",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20872472",
-  "product": "Old Spice Poklon paket Captain",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 7.9,
-  "barcode": "8006530006996",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20876714",
-  "product": "Old Spice Poklon paket Captain",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.36,
-  "barcode": "8006530006972",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
   "product_id": "20878236",
   "product": "Old Spice Gel za tuširanje 3u1 Beargl.1L",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
   "price": 10.99,
   "barcode": "8700216610933",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6230",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20880810",
-  "product": "Gillette Brijač Stalak 3 patrone Fusion5",
-  "brand": "Gillette",
-  "category": "KOZMETIKA",
-  "price": 19.99,
-  "barcode": "8700216889094",
   "matched_via": "brand"
  },
  {
@@ -154515,12 +153711,12 @@
   "store_id": "6230",
   "store_name": "Kaufland Zagreb",
   "city": "Zagreb",
-  "product_id": "20970667",
-  "product": "Oral-B Pasta za zube Gentle whit.2x75ml",
-  "brand": "Oral-B",
-  "category": "KOZMETIKA",
-  "price": 5.29,
-  "barcode": "8006530444187",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
   "matched_via": "brand"
  },
  {
@@ -157183,7 +156379,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -157195,7 +156391,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -157875,18 +157071,6 @@
   "store_id": "1330",
   "store_name": "Kaufland Dakovo",
   "city": "Dakovo",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1330",
-  "store_name": "Kaufland Dakovo",
-  "city": "Dakovo",
   "product_id": "20822910",
   "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
   "brand": "Lenor",
@@ -158313,18 +157497,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216733793",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1330",
-  "store_name": "Kaufland Dakovo",
-  "city": "Dakovo",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -159045,18 +158217,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8006530345446",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1330",
-  "store_name": "Kaufland Dakovo",
-  "city": "Dakovo",
-  "product_id": "20970622",
-  "product": "Ariel Deterdžent za rub.Jap.blossom 30/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 11.19,
-  "barcode": "8006530380782",
   "matched_via": "brand"
  },
  {
@@ -160087,7 +159247,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -160114,18 +159274,6 @@
   "price": 16.39,
   "barcode": "7702018575381",
   "matched_via": "brand"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
-  "product_id": "00125778",
-  "product": "Gillette Venus Brijač Smooth sensit.1/1",
-  "brand": "Gillette Venus",
-  "category": "KOZMETIKA",
-  "price": 7.89,
-  "barcode": "7702018575350",
-  "matched_via": "product_name"
  },
  {
   "store_id": "2230",
@@ -161151,18 +160299,6 @@
   "store_id": "2230",
   "store_name": "Kaufland Velika Gorica",
   "city": "Velika Gorica",
-  "product_id": "20344246",
-  "product": "Pampers Pelene Premium care vel.2 88/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 18.49,
-  "barcode": "8006540857717",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
   "product_id": "20344247",
   "product": "Pampers Pelene Premium care vel.3 78/1",
   "brand": "Pampers",
@@ -161683,7 +160819,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -161695,7 +160831,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -162063,18 +161199,6 @@
   "store_id": "2230",
   "store_name": "Kaufland Velika Gorica",
   "city": "Velika Gorica",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -162357,18 +161481,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -163389,18 +162501,6 @@
   "category": "KOZMETIKA",
   "price": 10.99,
   "barcode": "8006530074001",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
-  "product_id": "20941272",
-  "product": "Old Spice Deo u spreju Cold 150 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8006530101608",
   "matched_via": "brand"
  },
  {
@@ -166431,18 +165531,6 @@
   "store_id": "6530",
   "store_name": "Kaufland Biograd",
   "city": "Biograd",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6530",
-  "store_name": "Kaufland Biograd",
-  "city": "Biograd",
   "product_id": "20824573",
   "product": "Ariel Deterdžent za rublje Color 2,25L",
   "brand": "Ariel",
@@ -168367,7 +167455,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -168550,18 +167638,6 @@
   "price": 16.79,
   "barcode": "8001090950130",
   "matched_via": "brand"
- },
- {
-  "store_id": "2130",
-  "store_name": "Kaufland Nova Gradiska",
-  "city": "Nova Gradiska",
-  "product_id": "00137444",
-  "product": "Kandi Čokolada Milk choco fairy220g",
-  "brand": "Kandi",
-  "category": "HRANA",
-  "price": 2.49,
-  "barcode": "3856024803922",
-  "matched_via": "product_name"
  },
  {
   "store_id": "2130",
@@ -169927,7 +169003,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -169939,7 +169015,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -170331,18 +169407,6 @@
   "store_id": "2130",
   "store_name": "Kaufland Nova Gradiska",
   "city": "Nova Gradiska",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2130",
-  "store_name": "Kaufland Nova Gradiska",
-  "city": "Nova Gradiska",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -170577,18 +169641,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2130",
-  "store_name": "Kaufland Nova Gradiska",
-  "city": "Nova Gradiska",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -170919,18 +169971,6 @@
   "store_id": "2130",
   "store_name": "Kaufland Nova Gradiska",
   "city": "Nova Gradiska",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2130",
-  "store_name": "Kaufland Nova Gradiska",
-  "city": "Nova Gradiska",
   "product_id": "20835169",
   "product": "Ariel Deterdžent za rublje Amethyst 38/1",
   "brand": "Ariel",
@@ -171165,18 +170205,6 @@
   "category": "KOZMETIKA",
   "price": 51.99,
   "barcode": "8001090821232",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2130",
-  "store_name": "Kaufland Nova Gradiska",
-  "city": "Nova Gradiska",
-  "product_id": "20916678",
-  "product": "Always Ulošci hig.Ultra night norm.66/1",
-  "brand": "Always",
-  "category": "TOALETNE POTREPŠTINE",
-  "price": 9.99,
-  "barcode": "8006530186742",
   "matched_via": "brand"
  },
  {
@@ -172815,18 +171843,6 @@
   "store_id": "5130",
   "store_name": "Kaufland Porec",
   "city": "Porec",
-  "product_id": "00145991",
-  "product": "Ariel Deterdž.za rub.Fresh 80pr.4,4kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 29.99,
-  "barcode": "8006540940150",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
   "product_id": "04700091",
   "product": "Old Spice Los. posl.brij.whitew.m.100ml",
   "brand": "Old spice",
@@ -173295,6 +172311,18 @@
   "store_id": "5130",
   "store_name": "Kaufland Porec",
   "city": "Porec",
+  "product_id": "20032448",
+  "product": "Gillette Britvice jedn.ž.Simply Venus8/1",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 7.99,
+  "barcode": "7702018465767",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
   "product_id": "20046413",
   "product": "Pampers Pelene gać.vel.6 prem.care38/1",
   "brand": "Pampers",
@@ -173323,7 +172351,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -174031,7 +173059,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -174043,7 +173071,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -174411,18 +173439,6 @@
   "store_id": "5130",
   "store_name": "Kaufland Porec",
   "city": "Porec",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -174627,36 +173643,24 @@
   "store_id": "5130",
   "store_name": "Kaufland Porec",
   "city": "Porec",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -174843,18 +173847,6 @@
   "store_id": "5130",
   "store_name": "Kaufland Porec",
   "city": "Porec",
-  "product_id": "20827095",
-  "product": "Old Spice Deo u stiku Epic Legend 50ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8700216607360",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
   "product_id": "20827674",
   "product": "Ariel Deterdžent za rublje Color 1,8 L",
   "brand": "Ariel",
@@ -174969,18 +173961,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5130",
-  "store_name": "Kaufland Porec",
-  "city": "Porec",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -176811,6 +175791,18 @@
   "store_id": "4330",
   "store_name": "Kaufland Sinj",
   "city": "Sinj",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "price": 2.49,
+  "barcode": "3856024803922",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "4330",
+  "store_name": "Kaufland Sinj",
+  "city": "Sinj",
   "product_id": "00138031",
   "product": "Lenor Perlice mirisne Scent of Ariel210g",
   "brand": "Lenor",
@@ -177511,7 +176503,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -178291,7 +177283,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -178303,7 +177295,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -179223,18 +178215,6 @@
   "store_id": "4330",
   "store_name": "Kaufland Sinj",
   "city": "Sinj",
-  "product_id": "20827674",
-  "product": "Ariel Deterdžent za rublje Color 1,8 L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 15.99,
-  "barcode": "8700216691604",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4330",
-  "store_name": "Kaufland Sinj",
-  "city": "Sinj",
   "product_id": "20830618",
   "product": "Lenor Perlice mirisne Spring awaken.195g",
   "brand": "Lenor",
@@ -179445,18 +178425,6 @@
   "category": "KOZMETIKA",
   "price": 3.97,
   "barcode": "8700216445962",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4330",
-  "store_name": "Kaufland Sinj",
-  "city": "Sinj",
-  "product_id": "20844262",
-  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "price": 5.49,
-  "barcode": "8700216834292",
   "matched_via": "brand"
  },
  {
@@ -179973,18 +178941,6 @@
   "category": "KOZMETIKA",
   "price": 10.99,
   "barcode": "8006530074001",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4330",
-  "store_name": "Kaufland Sinj",
-  "city": "Sinj",
-  "product_id": "20941272",
-  "product": "Old Spice Deo u spreju Cold 150 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8006530101608",
   "matched_via": "brand"
  },
  {
@@ -181135,7 +180091,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -181269,6 +180225,18 @@
   "category": "KOZMETIKA",
   "price": 21.75,
   "barcode": "7702018610181",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "1130",
+  "store_name": "Kaufland Cakovec",
+  "city": "Cakovec",
+  "product_id": "00131815",
+  "product": "Pampers Pelene ABD gp vel.3 90/1_OC",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "price": 23.49,
+  "barcode": "8001090949455",
   "matched_via": "brand"
  },
  {
@@ -181939,7 +180907,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -182731,7 +181699,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -182743,7 +181711,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -183111,36 +182079,12 @@
   "store_id": "1130",
   "store_name": "Kaufland Cakovec",
   "city": "Cakovec",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1130",
-  "store_name": "Kaufland Cakovec",
-  "city": "Cakovec",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1130",
-  "store_name": "Kaufland Cakovec",
-  "city": "Cakovec",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -183357,18 +182301,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1130",
-  "store_name": "Kaufland Cakovec",
-  "city": "Cakovec",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
   "matched_via": "brand"
  },
  {
@@ -184353,18 +183285,6 @@
   "category": "KOZMETIKA",
   "price": 10.99,
   "barcode": "8006530074001",
-  "matched_via": "brand"
- },
- {
-  "store_id": "1130",
-  "store_name": "Kaufland Cakovec",
-  "city": "Cakovec",
-  "product_id": "20941272",
-  "product": "Old Spice Deo u spreju Cold 150 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8006530101608",
   "matched_via": "brand"
  },
  {
@@ -185503,7 +184423,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -186355,7 +185275,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -187135,7 +186055,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -187147,7 +186067,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -187539,48 +186459,12 @@
   "store_id": "4730",
   "store_name": "Kaufland Vukovar",
   "city": "Vukovar",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4730",
-  "store_name": "Kaufland Vukovar",
-  "city": "Vukovar",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4730",
-  "store_name": "Kaufland Vukovar",
-  "city": "Vukovar",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4730",
-  "store_name": "Kaufland Vukovar",
-  "city": "Vukovar",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
   "matched_via": "brand"
  },
  {
@@ -187869,30 +186753,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4730",
-  "store_name": "Kaufland Vukovar",
-  "city": "Vukovar",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4730",
-  "store_name": "Kaufland Vukovar",
-  "city": "Vukovar",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -190095,18 +188955,6 @@
   "store_id": "6730",
   "store_name": "Kaufland Vodice",
   "city": "Vodice",
-  "product_id": "00130196",
-  "product": "Old Spice Deo Stick night pan. m. 50ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8700216884617",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6730",
-  "store_name": "Kaufland Vodice",
-  "city": "Vodice",
   "product_id": "00130197",
   "product": "Old Spice Deo Stick captain for men 85ml",
   "brand": "Old Spice",
@@ -190807,7 +189655,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -190893,18 +189741,6 @@
   "category": "KOZMETIKA",
   "price": 7.49,
   "barcode": "8700216875714",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6730",
-  "store_name": "Kaufland Vodice",
-  "city": "Vodice",
-  "product_id": "20179912",
-  "product": "Old Spice Dezodorans stick Whitewat.85ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 7.49,
-  "barcode": "8700216357814",
   "matched_via": "brand"
  },
  {
@@ -191551,7 +190387,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -191563,7 +190399,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -192339,6 +191175,18 @@
   "store_id": "6730",
   "store_name": "Kaufland Vodice",
   "city": "Vodice",
+  "product_id": "20825355",
+  "product": "Old Spice Gel za tuš.Epic Legend 400ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 4.99,
+  "barcode": "8700216611046",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
   "product_id": "20825932",
   "product": "Ambi Pur Osvjež.zraka sprej Aloha 185ml",
   "brand": "Ambi Pur",
@@ -192405,18 +191253,6 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8700216606035",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6730",
-  "store_name": "Kaufland Vodice",
-  "city": "Vodice",
-  "product_id": "20827095",
-  "product": "Old Spice Deo u stiku Epic Legend 50ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8700216607360",
   "matched_via": "brand"
  },
  {
@@ -192537,18 +191373,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6730",
-  "store_name": "Kaufland Vodice",
-  "city": "Vodice",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -193581,6 +192405,18 @@
   "category": "KOZMETIKA",
   "price": 4.29,
   "barcode": "8006540063385",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "00054761",
+  "product": "Head&Shoulders šampon za kosu app. 250ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "price": 4.29,
+  "barcode": "8006540063248",
   "matched_via": "brand"
  },
  {
@@ -194823,18 +193659,6 @@
   "store_id": "4130",
   "store_name": "Kaufland Makarska",
   "city": "Makarska",
-  "product_id": "04806370",
-  "product": "Old Spice Deo Sprej white water m.150ml",
-  "brand": "Old spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "4084500479821",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4130",
-  "store_name": "Kaufland Makarska",
-  "city": "Makarska",
   "product_id": "05100073",
   "product": "Always Ulošci hig.Ult.nor.plu.duo20/1_OC",
   "brand": "Always",
@@ -196071,18 +194895,6 @@
   "store_id": "4130",
   "store_name": "Kaufland Makarska",
   "city": "Makarska",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4130",
-  "store_name": "Kaufland Makarska",
-  "city": "Makarska",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -196323,24 +195135,24 @@
   "store_id": "4130",
   "store_name": "Kaufland Makarska",
   "city": "Makarska",
-  "product_id": "20822608",
-  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
-  "barcode": "8700216764896",
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
   "store_id": "4130",
   "store_name": "Kaufland Makarska",
   "city": "Makarska",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
+  "product_id": "20822608",
+  "product": "Ariel Kapsule za rublje Extra Stain 50/1",
+  "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
+  "price": 29.99,
+  "barcode": "8700216764896",
   "matched_via": "brand"
  },
  {
@@ -196713,18 +195525,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "4130",
-  "store_name": "Kaufland Makarska",
-  "city": "Makarska",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -198321,18 +197121,6 @@
   "category": "KOZMETIKA",
   "price": 23.29,
   "barcode": "8006540069387",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6130",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
-  "product_id": "00123622",
-  "product": "Old Spice Deo Sprej Restart men 150ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8001841834375",
   "matched_via": "brand"
  },
  {
@@ -199951,7 +198739,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -199963,7 +198751,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -202579,7 +201367,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -203703,18 +202491,6 @@
   "store_id": "7830",
   "store_name": "Kaufland Ivanec",
   "city": "Ivanec",
-  "product_id": "20346133",
-  "product": "Pampers Pelene Premium care vel.2 136/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "price": 24.99,
-  "barcode": "8006540855812",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7830",
-  "store_name": "Kaufland Ivanec",
-  "city": "Ivanec",
   "product_id": "20347699",
   "product": "Pampers Pelene gaćice vel.8 32/1",
   "brand": "Pampers",
@@ -204211,7 +202987,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -204223,7 +202999,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -204627,18 +203403,6 @@
   "store_id": "7830",
   "store_name": "Kaufland Ivanec",
   "city": "Ivanec",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7830",
-  "store_name": "Kaufland Ivanec",
-  "city": "Ivanec",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -204897,18 +203661,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7830",
-  "store_name": "Kaufland Ivanec",
-  "city": "Ivanec",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -205275,18 +204027,6 @@
   "store_id": "7830",
   "store_name": "Kaufland Ivanec",
   "city": "Ivanec",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7830",
-  "store_name": "Kaufland Ivanec",
-  "city": "Ivanec",
   "product_id": "20835169",
   "product": "Ariel Deterdžent za rublje Amethyst 38/1",
   "brand": "Ariel",
@@ -205389,6 +204129,30 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216733458",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "20857350",
+  "product": "Ambi Pur Uložak zamje.za dif.Gold 2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216686488",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "20857696",
+  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "price": 5.49,
+  "barcode": "8700216486200",
   "matched_via": "brand"
  },
  {
@@ -207799,7 +206563,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -208555,7 +207319,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -208567,7 +207331,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -210267,6 +209031,18 @@
   "store_id": "7330",
   "store_name": "Kaufland Zabok",
   "city": "Zabok",
+  "product_id": "20967892",
+  "product": "Ariel Deterdžent za rub.Gold orchid 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8006530202312",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "7330",
+  "store_name": "Kaufland Zabok",
+  "city": "Zabok",
   "product_id": "20970621",
   "product": "Ariel Deterdž.za rub.Jap.bloss.40pr.1,8L",
   "brand": "Ariel",
@@ -211255,7 +210031,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -212559,18 +211335,6 @@
   "store_id": "7430",
   "store_name": "Kaufland Cibaca",
   "city": "Cibaca",
-  "product_id": "20695164",
-  "product": "Head&Shoulders Šampon 2u1 Classic 400ml",
-  "brand": "Head&Shoulders",
-  "category": "KOZMETIKA",
-  "price": 4.99,
-  "barcode": "8700216304917",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7430",
-  "store_name": "Kaufland Cibaca",
-  "city": "Cibaca",
   "product_id": "20695232",
   "product": "Head&Shoulders Šampon Apple Fresh 500ml",
   "brand": "Head&Shoulders",
@@ -212637,18 +211401,6 @@
   "category": "KOZMETIKA",
   "price": 6.69,
   "barcode": "8700216304733",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7430",
-  "store_name": "Kaufland Cibaca",
-  "city": "Cibaca",
-  "product_id": "20730534",
-  "product": "Old Spice Dezodorans stick Rockstar50 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8700216203906",
   "matched_via": "brand"
  },
  {
@@ -212839,7 +211591,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -212851,7 +211603,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -213231,18 +211983,6 @@
   "store_id": "7430",
   "store_name": "Kaufland Cibaca",
   "city": "Cibaca",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7430",
-  "store_name": "Kaufland Cibaca",
-  "city": "Cibaca",
   "product_id": "20807615",
   "product": "Oral B Četkica el.za zube iOS2 pink 1/1",
   "brand": "Oral B",
@@ -213447,6 +212187,18 @@
   "store_id": "7430",
   "store_name": "Kaufland Cibaca",
   "city": "Cibaca",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "7430",
+  "store_name": "Kaufland Cibaca",
+  "city": "Cibaca",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
@@ -213465,18 +212217,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 1.8,
   "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7430",
-  "store_name": "Kaufland Cibaca",
-  "city": "Cibaca",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -213801,18 +212541,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "7430",
-  "store_name": "Kaufland Cibaca",
-  "city": "Cibaca",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -216991,7 +215719,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -217003,7 +215731,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -217401,30 +216129,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3830",
-  "store_name": "Kaufland Rovinj",
-  "city": "Rovinj",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "3830",
-  "store_name": "Kaufland Rovinj",
-  "city": "Rovinj",
-  "product_id": "20804784",
-  "product": "Ariel Det.kapsule Mountain spring 70/1",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216764193",
   "matched_via": "brand"
  },
  {
@@ -220351,7 +219055,7 @@
   "product": "Old Spice Antiperspirant i Deo gel 70ml",
   "brand": "Old Spice",
   "category": "KOZMETIKA",
-  "price": 5.99,
+  "price": 4.19,
   "barcode": "8006530030397",
   "matched_via": "brand"
  },
@@ -222543,12 +221247,12 @@
   "store_id": "6830",
   "store_name": "Kaufland Varazdin",
   "city": "Varazdin",
-  "product_id": "00033492",
-  "product": "Old Spice Deo Sprej Bearglove 150ml",
+  "product_id": "00033497",
+  "product": "Old Spice Deo Stick bear glove m. 50ml",
   "brand": "Old spice",
   "category": "KOZMETIKA",
   "price": 2.59,
-  "barcode": "4015600860332",
+  "barcode": "8700216884662",
   "matched_via": "brand"
  },
  {
@@ -223267,7 +221971,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -223450,18 +222154,6 @@
   "price": 16.79,
   "barcode": "8001090950130",
   "matched_via": "brand"
- },
- {
-  "store_id": "6830",
-  "store_name": "Kaufland Varazdin",
-  "city": "Varazdin",
-  "product_id": "00137444",
-  "product": "Kandi Čokolada Milk choco fairy220g",
-  "brand": "Kandi",
-  "category": "HRANA",
-  "price": 2.49,
-  "barcode": "3856024803922",
-  "matched_via": "product_name"
  },
  {
   "store_id": "6830",
@@ -224803,7 +223495,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -224815,7 +223507,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -225171,6 +223863,18 @@
   "store_id": "6830",
   "store_name": "Kaufland Varazdin",
   "city": "Varazdin",
+  "product_id": "20804781",
+  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 19.99,
+  "barcode": "8700216733618",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6830",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
   "product_id": "20804784",
   "product": "Ariel Det.kapsule Mountain spring 70/1",
   "brand": "Ariel",
@@ -225393,6 +224097,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 13.99,
   "barcode": "8700216704724",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "6830",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
   "matched_via": "brand"
  },
  {
@@ -225957,18 +224673,6 @@
   "category": "KOZMETIKA",
   "price": 19.99,
   "barcode": "8700216889094",
-  "matched_via": "brand"
- },
- {
-  "store_id": "6830",
-  "store_name": "Kaufland Varazdin",
-  "city": "Varazdin",
-  "product_id": "20897703",
-  "product": "Oral-B Četkica za zube Sen.Clin.Soft2/1",
-  "brand": "Oral-B",
-  "category": "KOZMETIKA",
-  "price": 3.19,
-  "barcode": "8700216567923",
   "matched_via": "brand"
  },
  {
@@ -227383,7 +226087,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -228943,7 +227647,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -228955,7 +227659,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -230931,6 +229635,18 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
+  "product_id": "00031187",
+  "product": "Always Ulošci hig.day&nig.Platin.12/1_OC",
+  "brand": "Always",
+  "category": "TOALETNE POTREPŠTINE",
+  "price": 2.99,
+  "barcode": "4015400612469",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
   "product_id": "00033063",
   "product": "Always Ulošci hig.Ultra super pl.32/1_OC",
   "brand": "Always",
@@ -230973,6 +229689,18 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8700216884662",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "00046177",
+  "product": "Gill. Blue3 Sens. Jedn.britvice m. 3/1",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 5.29,
+  "barcode": "7702018490080",
   "matched_via": "brand"
  },
  {
@@ -231375,6 +230103,18 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
+  "product_id": "00099942",
+  "product": "Gill. Blue3 Com.Jedn.brit.m.1kom",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 2.35,
+  "barcode": "8006540745298",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
   "product_id": "00099948",
   "product": "Gillette Skinguard drška + 2 patrone m.",
   "brand": "Gillette",
@@ -231453,18 +230193,6 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8700216203982",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
-  "product_id": "00106092",
-  "product": "Old Spice Gel za tuš. Captain m.400ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 4.99,
-  "barcode": "8700216859820",
   "matched_via": "brand"
  },
  {
@@ -231655,7 +230383,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -231741,6 +230469,18 @@
   "category": "KOZMETIKA",
   "price": 2.59,
   "barcode": "8006540377321",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "00130196",
+  "product": "Old Spice Deo Stick night pan. m. 50ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 2.59,
+  "barcode": "8700216884617",
   "matched_via": "brand"
  },
  {
@@ -232623,6 +231363,18 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
+  "product_id": "20344246",
+  "product": "Pampers Pelene Premium care vel.2 88/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "price": 18.49,
+  "barcode": "8006540857717",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
   "product_id": "20344247",
   "product": "Pampers Pelene Premium care vel.3 78/1",
   "brand": "Pampers",
@@ -233131,7 +231883,7 @@
   "product": "Pantene Maska za kosu Hair rescue300ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.49,
+  "price": 9.49,
   "barcode": "8700216334365",
   "matched_via": "brand"
  },
@@ -233143,7 +231895,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -233475,18 +232227,6 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
@@ -233751,30 +232491,6 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
   "product_id": "20824569",
   "product": "Ariel Deterdžent za rublje amethyst2,25L",
   "brand": "Ariel",
@@ -233793,6 +232509,18 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 19.99,
   "barcode": "8700216691475",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "20824644",
+  "product": "Ariel Deterdžent za rublje Col.60pr.2,7L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 24.99,
+  "barcode": "8700216690829",
   "matched_via": "brand"
  },
  {
@@ -233871,6 +232599,18 @@
   "store_id": "2530",
   "store_name": "Kaufland Sibenik",
   "city": "Sibenik",
+  "product_id": "20825174",
+  "product": "Ariel Deterdžent za rublje Extra hy.26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 15.99,
+  "barcode": "8700216765305",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
   "product_id": "20825175",
   "product": "Ariel Deterdžent za rublje Fresh air26/1",
   "brand": "Ariel",
@@ -233937,6 +232677,18 @@
   "category": "KOZMETIKA",
   "price": 37.99,
   "barcode": "8700216199346",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "20827094",
+  "product": "Old Spice Deo u spreju Epic Legend 150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "price": 2.59,
+  "barcode": "8700216606035",
   "matched_via": "brand"
  },
  {
@@ -234069,18 +232821,6 @@
   "category": "KOZMETIKA",
   "price": 12.49,
   "barcode": "8700216658317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
-  "product_id": "20835110",
-  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723657",
   "matched_via": "brand"
  },
  {
@@ -234225,6 +232965,18 @@
   "category": "KOZMETIKA",
   "price": 5.99,
   "barcode": "8700216938808",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "20869112",
+  "product": "Pantene Pro-V Balzam za kosu Hydra.275ml",
+  "brand": "Pantene Pro-V",
+  "category": "KOZMETIKA",
+  "price": 5.99,
+  "barcode": "8700216938839",
   "matched_via": "product_name"
  },
  {
@@ -235711,7 +234463,7 @@
   "product": "Pantene sprej Hair Shake Repair 150 ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 4.69,
+  "price": 3.29,
   "barcode": "8001841914282",
   "matched_via": "brand"
  },
@@ -237331,7 +236083,7 @@
   "product": "Pantene Balzam Bond repair 150ml",
   "brand": "Pantene",
   "category": "KOZMETIKA",
-  "price": 13.89,
+  "price": 4.99,
   "barcode": "8700216334426",
   "matched_via": "brand"
  },
@@ -237555,6 +236307,18 @@
   "store_id": "5030",
   "store_name": "Kaufland Dugo Selo",
   "city": "Dugo Selo",
+  "product_id": "20755351",
+  "product": "Gillette Brijač Stalak i 5patr.Fusion 5",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "price": 26.89,
+  "barcode": "8700216356794",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5030",
+  "store_name": "Kaufland Dugo Selo",
+  "city": "Dugo Selo",
   "product_id": "20760527",
   "product": "Oral B Četkica elek.Spider-Man 3god1/1",
   "brand": "Oral B",
@@ -237687,36 +236451,12 @@
   "store_id": "5030",
   "store_name": "Kaufland Dugo Selo",
   "city": "Dugo Selo",
-  "product_id": "20804777",
-  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
   "product_id": "20804779",
   "product": "Lenor Omekš.rub.Floral Bouquet 47w.987ml",
   "brand": "Lenor",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 5.99,
   "barcode": "8700216723879",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
-  "product_id": "20804781",
-  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 19.99,
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -237951,36 +236691,24 @@
   "store_id": "5030",
   "store_name": "Kaufland Dugo Selo",
   "city": "Dugo Selo",
+  "product_id": "20822604",
+  "product": "Ariel Kapsule za rublje Mountain S.60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "price": 29.99,
+  "barcode": "8700216765145",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "5030",
+  "store_name": "Kaufland Dugo Selo",
+  "city": "Dugo Selo",
   "product_id": "20822608",
   "product": "Ariel Kapsule za rublje Extra Stain 50/1",
   "brand": "Ariel",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 29.99,
   "barcode": "8700216764896",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723862",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
-  "product_id": "20822910",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 1.8,
-  "barcode": "8700216723909",
   "matched_via": "brand"
  },
  {
@@ -238197,18 +236925,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 15.99,
   "barcode": "8700216691604",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
-  "product_id": "20827675",
-  "product": "Ariel Det.za pranje r.Fresh 30p.1,35L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 8.99,
-  "barcode": "8700216690966",
   "matched_via": "brand"
  },
  {
@@ -238935,18 +237651,6 @@
   "store_id": "5030",
   "store_name": "Kaufland Dugo Selo",
   "city": "Dugo Selo",
-  "product_id": "20941272",
-  "product": "Old Spice Deo u spreju Cold 150 ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "price": 2.59,
-  "barcode": "8006530101608",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
   "product_id": "20953938",
   "product": "Always Maxi Ulošci hig.dnevni normal22/1",
   "brand": "Always Maxi",
@@ -239001,18 +237705,6 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "price": 20.99,
   "barcode": "8006530202480",
-  "matched_via": "brand"
- },
- {
-  "store_id": "5030",
-  "store_name": "Kaufland Dugo Selo",
-  "city": "Dugo Selo",
-  "product_id": "20970621",
-  "product": "Ariel Deterdž.za rub.Jap.bloss.40pr.1,8L",
-  "brand": "Ariel",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "price": 15.99,
-  "barcode": "8006530345446",
   "matched_via": "brand"
  },
  {
