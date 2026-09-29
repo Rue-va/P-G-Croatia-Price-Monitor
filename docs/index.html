@@ -320,7 +320,7 @@ async function loadProducts(retailer) {
       const shown = filtered.slice(0, 300);
       countEl.textContent = `${filtered.length.toLocaleString()} SKU${filtered.length === 1 ? '' : 's'}${filtered.length > 300 ? ' (showing first 300 — narrow your filter)' : ''}`;
       tbody.innerHTML = shown.length ? shown.map((s, i) => `
-        <tr onclick="showSkuDetail('${retailer}', ${filtered.indexOf(s)}, ${JSON.stringify(cat)}, ${JSON.stringify(brand)}, ${JSON.stringify(q)})">
+        <tr data-idx="${i}">
           <td>${escapeHtml(s.product)}</td>
           <td>${escapeHtml(s.brand)}</td>
           <td>${escapeHtml(s.category)}</td>
@@ -329,6 +329,16 @@ async function loadProducts(retailer) {
           <td class="num">${s.avg_price != null ? s.avg_price.toFixed(2) : '—'}</td>
           <td class="num">${s.max_price != null ? s.max_price.toFixed(2) : '—'}</td>
         </tr>`).join('') : '<tr><td colspan="7" class="empty">No matches.</td></tr>';
+
+      // Bind clicks in JS rather than inline onclick="" strings — product
+      // names/categories can contain quotes or accented characters that
+      // broke the previous inline-attribute approach and silently made
+      // clicking do nothing.
+      tbody.querySelectorAll('tr[data-idx]').forEach(row => {
+        row.addEventListener('click', () => {
+          showSkuDetail(shown[Number(row.dataset.idx)]);
+        });
+      });
     }
 
     renderRows();
@@ -341,16 +351,7 @@ async function loadProducts(retailer) {
   }
 }
 
-function showSkuDetail(retailer, index, cat, brand, q) {
-  // Re-derive the same filtered list used to render the table, so the index
-  // passed from the row's onclick points at the right SKU.
-  const skus = skuGroupsCache[retailer] || [];
-  const filtered = skus.filter(s =>
-    (!q || (s.product || '').toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q)) &&
-    (!cat || s.category === cat) &&
-    (!brand || s.brand === brand)
-  );
-  const sku = filtered[index];
+function showSkuDetail(sku) {
   if (!sku) return;
 
   const panel = document.getElementById('sku-detail');
