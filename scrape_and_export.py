@@ -73,6 +73,15 @@ def run_retailer(retailer: str, target_date: date) -> dict:
             json.dumps(payload["pg_products"], ensure_ascii=False, indent=1), encoding="utf-8"
         )
 
+        # Same idea, but for the (much smaller) set of watchlisted competitor
+        # brands — this is what lets the dashboard drill into store-level
+        # detail when someone clicks a competitor brand chip in the
+        # Competitor Tracker, not just P&G's own brands.
+        (products_path / f"{retailer}_watchlist_competitors.json").write_text(
+            json.dumps(payload.get("watchlist_competitor_products", []), ensure_ascii=False, indent=1),
+            encoding="utf-8",
+        )
+
         return {
             "retailer": retailer,
             "status": "ok",

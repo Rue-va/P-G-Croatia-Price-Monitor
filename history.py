@@ -125,6 +125,13 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
     """
     category_stats: dict[str, dict] = {}
     pg_rows: list[dict] = []
+    # Row-level detail for competitor brands on the manager's watchlist only
+    # (config.CATEGORY_BRANDS) — a bounded, small set (~50 brands), unlike the
+    # full competitor catalog, which is why this is safe to keep per-row while
+    # the rest of the competitor catalog stays aggregate-only. This is what
+    # lets the dashboard drill into "which stores, what price" when someone
+    # clicks a competitor brand chip in the Competitor Tracker.
+    watchlist_competitor_rows: list[dict] = []
     total_products = 0
     stores_count = len(stores)
     blank_brand_count = 0
@@ -150,7 +157,11 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             # Manager-curated brand watchlist (config.CATEGORY_BRANDS): match
             # on the brand field first, then fall back to spotting the brand
             # name inside the product title, same tolerant approach as
-            # match_pg_brand below.
+            # match_pg_brand below. row_fighting_category is stashed onto the
+            # P&G row itself (below) so the dashboard can filter the SKU list
+            # by the same "fighting category" taxonomy as the competitor
+            # tracker, not just by the retailer's own raw category string.
+            row_fighting_category = None
             if price is not None:
                 matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
                 if matched_watch_brand is None and norm_product:
@@ -171,6 +182,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                                 break
                     if target_cat:
                         watch_prices[target_cat][matched_watch_brand].append(price)
+                        row_fighting_category = target_cat
 
             cs = category_stats.setdefault(
                 category,
@@ -200,6 +212,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         "product": item.product,
                         "brand": item.brand,
                         "category": category,
+                        "fighting_category": row_fighting_category,
                         "price": price,
                         "barcode": item.barcode,
                         "matched_via": via,
@@ -221,6 +234,21 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         norm_brand, {"display": item.brand.strip(), "prices": []}
                     )
                     slot["prices"].append(price)
+                if row_fighting_category:
+                    watchlist_competitor_rows.append(
+                        {
+                            "store_id": store.store_id,
+                            "store_name": store.name,
+                            "street_address": store.street_address,
+                            "city": store.city,
+                            "product_id": item.product_id,
+                            "product": item.product,
+                            "brand": item.brand,
+                            "fighting_category": row_fighting_category,
+                            "price": price,
+                            "barcode": item.barcode,
+                        }
+                    )
 
     # collapse raw price lists into summary numbers before saving
     for cat, cs in category_stats.items():
@@ -274,6 +302,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
         "category_stats": category_stats,
         "category_brand_watchlist": category_brand_watchlist,
         "pg_products": pg_rows,
+        "watchlist_competitor_products": watchlist_competitor_rows,
         "diagnostics": {
             "blank_brand_field_rows": blank_brand_count,
             "blank_brand_field_pct": round(100 * blank_brand_count / total_products, 1) if total_products else 0,
