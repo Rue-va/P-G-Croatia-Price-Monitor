@@ -29,6 +29,12 @@
     color: white;
     padding: 20px 28px;
   }
+  .header-top { display: flex; align-items: center; gap: 14px; }
+  .header-logo {
+    background: #ffffff; border-radius: 6px; padding: 4px 8px;
+    display: inline-flex; align-items: center; flex: 0 0 auto;
+  }
+  .header-logo img { display: block; height: 28px; width: auto; }
   header h1 { margin: 0; font-size: 20px; }
   header p { margin: 4px 0 0; font-size: 13px; opacity: 0.85; }
   main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 60px; }
@@ -114,12 +120,14 @@
 </head>
 <body>
 <header>
-  <h1>P&amp;G Croatia — Retail Price &amp; Assortment Monitor</h1>
+  <div class="header-top">
+    <span class="header-logo"><img src="assets/pg-logo.png" alt="P&amp;G logo"></span>
+    <h1>P&amp;G Croatia — Retail Price &amp; Assortment Monitor</h1>
+  </div>
   <p id="generated-line">Loading…</p>
   <p id="staleness-line" class="header-stale-warning"></p>
   <div class="header-actions">
     <a class="btn-download" href="PG_Price_Report.xlsx" download>⬇ Download Excel report</a>
-    <a class="btn-download" style="background:rgba(255,255,255,0.18);" href="https://github.com/Rue-va/P-G-Croatia-Price-Monitor/actions/workflows/daily.yml" target="_blank" rel="noopener" title="Opens GitHub Actions — click 'Run workflow' there to force a fresh crawl now. Needs a GitHub sign-in with access to this repo.">⟳ Force a fresh update now</a>
   </div>
 </header>
 <main>
@@ -177,7 +185,7 @@ function render() {
       : null;
     if (hoursSince != null && hoursSince > 20) {
       staleEl.style.display = 'inline-block';
-      staleEl.textContent = `⚠ Last refreshed ${Math.round(hoursSince)}h ago — today's automatic run may be delayed. Trigger it manually from the Actions tab for fresher data now.`;
+      staleEl.textContent = `⚠ Last refreshed ${Math.round(hoursSince)}h ago — today's automatic update may be delayed. It runs on its own several times a day and should catch up shortly.`;
     } else {
       staleEl.style.display = 'none';
     }
@@ -252,7 +260,7 @@ function renderRetailer(name) {
 
     <div class="section">
       <h2>Competitor tracker, by category</h2>
-      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing. Click any brand to see the stores and prices behind the number.</p>
+      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing.</p>
       <div class="search-row">
         <select id="watchlist-category-filter"><option value="">All categories (Hair Care, Femcare, Laundry, …)</option></select>
       </div>

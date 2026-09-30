@@ -39,7 +39,15 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
     "Hand Dishwashing": ["Jar", "Čarli", "Likvi", "Pur"],
     "Automatic Dishwashing": ["Jar", "Somat", "Finish"],
     "Air Care": ["Ambi Pur", "Glade", "AirWick"],
-    "Diapers & Wipes": ["Pampers", "Violeta"],  # retailer's private label appended below
+    # Split rather than one merged "Diapers & Wipes" bucket, since Pampers
+    # and Violeta both sell diapers AND wipes — a product-name keyword (below)
+    # decides which one each row belongs to, rather than one blended count
+    # that mixes both product lines together. Violeta confirmed to sell both
+    # (manager correction). Retailer's private label appended to "Wipes"
+    # below (the only line we have confirmed evidence it sells; unconfirmed
+    # for Diapers).
+    "Diapers": ["Pampers", "Violeta"],
+    "Wipes": ["Pampers", "Violeta"],
     "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree"],
     "Hair Care": ["Pantene", "Head & Shoulders", "Herbal Essences", "Elseve", "Garnier", "Gliss", "Syoss", "Schauma"],
     "APDO": ["Old Spice", "Axe", "Rexona", "Nivea", "Dove", "Fa", "Borotalco"],
@@ -48,15 +56,21 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
 }
 
 # Some brand names above sell products in more than one watchlist category
-# (Violeta makes both fabric softener and diapers/wipes; Jar makes both
-# hand- and machine-dishwashing detergent). The brand field alone can't
-# tell these apart, so a product name keyword decides which category a row
-# belongs to. A row that matches neither keyword set is left uncounted here
-# (it still counts normally everywhere else in the dashboard).
+# (Violeta makes fabric softener, diapers, AND wipes; Pampers makes both
+# diapers and wipes; Jar makes both hand- and machine-dishwashing detergent).
+# The brand field alone can't tell these apart, so a product name keyword
+# decides which category a row belongs to. A row that matches neither
+# keyword set is left uncounted here (it still counts normally everywhere
+# else in the dashboard).
 CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str]]] = {
     "VIOLETA": {
         "Fabric Enhancers": ["OMEKŠIVA", "OMEKSIVA", "OM "],
-        "Diapers & Wipes": ["PELEN", "MARAMIC", "VLAŽN", "VLAZN", "PANTS"],
+        "Diapers": ["PELEN", "PANTS"],
+        "Wipes": ["MARAMIC", "VLAŽN", "VLAZN"],
+    },
+    "PAMPERS": {
+        "Diapers": ["PELEN", "PANTS"],
+        "Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES"],
     },
     "JAR": {
         "Hand Dishwashing": ["POSUĐ", "POSUD", "SUĐE", "SUDJE"],
@@ -65,10 +79,10 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str]]] = {
 }
 
 # Best-effort store-brand name per retailer, used only for the "Private
-# Label" slot in Diapers & Wipes. We only have a confirmed real name for
-# Konzum (K Plus, visible heavily in its own data) — for the others this
-# just falls back to the retailer's own name, which is a guess and should
-# be replaced once the real private-label brand names are known.
+# Label" slot in Wipes. We only have a confirmed real name for Konzum
+# (K Plus, visible heavily in its own data) — for the others this just
+# falls back to the retailer's own name, which is a guess and should be
+# replaced once the real private-label brand names are known.
 PRIVATE_LABEL_BRANDS: dict[str, str] = {
     "konzum": "K Plus",
     "kaufland": "Kaufland",
