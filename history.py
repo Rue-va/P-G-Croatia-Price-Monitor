@@ -26,6 +26,7 @@ from statistics import mean
 from typing import Iterable
 
 from config import (
+    BRAND_FIELD_CATEGORY_OVERRIDES,
     CATEGORY_BRANDS,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
     HISTORY_DIR,
@@ -37,6 +38,25 @@ from config import (
 # Sorted longest-first so "HEAD & SHOULDERS" is tried before any shorter
 # brand name that might also appear as a substring of it.
 _PG_BRANDS_BY_LENGTH = sorted(PG_BRANDS, key=len, reverse=True)
+
+_word_match_cache: dict[str, re.Pattern] = {}
+
+
+def _contains_as_word(haystack: str, needle: str) -> bool:
+    """
+    True if `needle` appears in `haystack` as a whole word, not merely as a
+    substring. Needed because some watchlist brand names are very short
+    ("Fa", "BIC") and a plain substring check false-matches them inside
+    unrelated words — e.g. "BIC" inside "CUBICS" (a bag of chips) or "FA"
+    inside "FARCHIONI" (an olive oil brand), silently miscategorizing
+    completely unrelated products into Shave Care / APDO. \\b uses Python's
+    Unicode-aware \\w, so it also respects Croatian diacritics (č, š, ž, đ).
+    """
+    pattern = _word_match_cache.get(needle)
+    if pattern is None:
+        pattern = re.compile(r"\b" + re.escape(needle) + r"\b")
+        _word_match_cache[needle] = pattern
+    return bool(pattern.search(haystack))
 
 
 def _build_watchlist_index(retailer: str):
@@ -56,7 +76,7 @@ def _build_watchlist_index(retailer: str):
     for category, brands in CATEGORY_BRANDS.items():
         brands = list(brands)
         private_label = PRIVATE_LABEL_BRANDS.get(retailer)
-        if category == "Diapers & Wipes" and private_label and private_label not in brands:
+        if category == "Wipes" and private_label and private_label not in brands:
             brands = brands + [private_label]
 
         init_prices[category] = {}
@@ -98,7 +118,7 @@ def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
     norm_product = _norm(product_name)
     if norm_product:
         for pg_brand in _PG_BRANDS_BY_LENGTH:
-            if pg_brand in norm_product:
+            if _contains_as_word(norm_product, pg_brand):
                 return True, "product_name"
 
     return False, ""
@@ -163,26 +183,39 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             # tracker, not just by the retailer's own raw category string.
             row_fighting_category = None
             if price is not None:
-                matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
-                if matched_watch_brand is None and norm_product:
-                    for wb in watch_brand_by_length:
-                        if wb in norm_product:
-                            matched_watch_brand = wb
-                            break
-                if matched_watch_brand:
-                    cats_for_brand = watch_brand_to_categories[matched_watch_brand]
-                    if len(cats_for_brand) == 1:
-                        target_cat = cats_for_brand[0]
-                    else:
-                        target_cat = None
-                        for cat in cats_for_brand:
-                            keywords = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
-                            if any(kw in norm_product for kw in keywords):
-                                target_cat = cat
-                                break
-                    if target_cat:
-                        watch_prices[target_cat][matched_watch_brand].append(price)
+                # Some retailers' own brand field already spells out which
+                # product line a row is (see BRAND_FIELD_CATEGORY_OVERRIDES
+                # in config.py) — that's a more reliable signal than
+                # guessing from the product name, so it's checked first and
+                # skips the keyword disambiguation below entirely.
+                override = BRAND_FIELD_CATEGORY_OVERRIDES.get(norm_brand)
+                if override:
+                    override_brand_display, target_cat = override
+                    override_norm_brand = _norm(override_brand_display)
+                    if override_norm_brand in watch_prices.get(target_cat, {}):
+                        watch_prices[target_cat][override_norm_brand].append(price)
                         row_fighting_category = target_cat
+                else:
+                    matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
+                    if matched_watch_brand is None and norm_product:
+                        for wb in watch_brand_by_length:
+                            if _contains_as_word(norm_product, wb):
+                                matched_watch_brand = wb
+                                break
+                    if matched_watch_brand:
+                        cats_for_brand = watch_brand_to_categories[matched_watch_brand]
+                        if len(cats_for_brand) == 1:
+                            target_cat = cats_for_brand[0]
+                        else:
+                            target_cat = None
+                            for cat in cats_for_brand:
+                                keywords = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
+                                if any(kw in norm_product for kw in keywords):
+                                    target_cat = cat
+                                    break
+                        if target_cat:
+                            watch_prices[target_cat][matched_watch_brand].append(price)
+                            row_fighting_category = target_cat
 
             cs = category_stats.setdefault(
                 category,

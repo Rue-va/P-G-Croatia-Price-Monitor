@@ -42,10 +42,9 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
     # Split rather than one merged "Diapers & Wipes" bucket, since Pampers
     # and Violeta both sell diapers AND wipes — a product-name keyword (below)
     # decides which one each row belongs to, rather than one blended count
-    # that mixes both product lines together. Violeta confirmed to sell both
-    # (manager correction). Retailer's private label appended to "Wipes"
-    # below (the only line we have confirmed evidence it sells; unconfirmed
-    # for Diapers).
+    # that mixes both product lines together. Retailer's private label
+    # appended to "Wipes" below (the only line we have confirmed evidence
+    # it sells; unconfirmed for Diapers).
     "Diapers": ["Pampers", "Violeta"],
     "Wipes": ["Pampers", "Violeta"],
     "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree"],
@@ -74,8 +73,26 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str]]] = {
     },
     "JAR": {
         "Hand Dishwashing": ["POSUĐ", "POSUD", "SUĐE", "SUDJE"],
-        "Automatic Dishwashing": ["TABLET", "KAPSUL", "STROJ", "MAŠIN", "MASIN"],
+        # Retailers abbreviate "tableta" as "TAB" in the product name
+        # (e.g. "DET JAR PLATINUM PLUS 40 TAB"), not the full word "TABLETA".
+        "Automatic Dishwashing": ["TABLET", "TAB", "KAPSUL", "STROJ", "MAŠIN", "MASIN"],
     },
+}
+
+# Some retailers' own brand column already spells out which product line a
+# row belongs to, more reliably than any product-name keyword guess could
+# (e.g. Konzum's CSV brand field literally reads "JAR HDW" for hand
+# dishwashing and "JAR ADW" for automatic dishwashing tablets/capsules).
+# When a row's raw brand field matches one of these (after normalizing —
+# upper-case, collapsed whitespace), it's assigned straight to that
+# category under the given display brand, skipping the CATEGORY_BRANDS /
+# CATEGORY_DISAMBIGUATION_KEYWORDS guesswork entirely for that row. Add more
+# entries here whenever a retailer's brand field turns out to already encode
+# the product line for a brand that sells across multiple watchlist
+# categories.
+BRAND_FIELD_CATEGORY_OVERRIDES: dict[str, tuple[str, str]] = {
+    "JAR HDW": ("Jar", "Hand Dishwashing"),
+    "JAR ADW": ("Jar", "Automatic Dishwashing"),
 }
 
 # Best-effort store-brand name per retailer, used only for the "Private
