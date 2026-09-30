@@ -2,8 +2,15 @@ name: Daily price & assortment crawl
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    # Four attempts spread through the morning/midday (UTC) instead of two —
+    # GitHub only *queues* a scheduled run at this time, it doesn't guarantee
+    # it starts then, and a run has been observed lagging by several hours.
+    # More attempts means a much better chance one of them lands early. All
+    # free: public repos get unlimited GitHub Actions minutes.
+    - cron: "0 4 * * *"
+    - cron: "0 6 * * *"
     - cron: "0 8 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
