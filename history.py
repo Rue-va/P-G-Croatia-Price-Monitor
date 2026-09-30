@@ -91,10 +91,16 @@ def _build_watchlist_index(retailer: str):
 
 
 def _norm(text: str) -> str:
-    """Upper-case and collapse whitespace, for tolerant string matching."""
-    return re.sub(r"\s+", " ", (text or "").strip().upper())
-
-
+    """
+    Upper-case, treat hyphens as spaces, and collapse whitespace, for
+    tolerant string matching. The hyphen/space fold matters because a
+    canonical brand name in config.py (e.g. "Oral-B") and a retailer's own
+    brand column (e.g. Konzum's "ORAL B", no hyphen) can spell the same
+    brand differently — without this, the watchlist match silently fails
+    and the brand shows as "not found today" even when it's clearly in the
+    data.
+    """
+    return re.sub(r"\s+", " ", (text or "").replace("-", " ").strip().upper())
 def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
     """
     Decide whether a row is a P&G product, and how we decided.
