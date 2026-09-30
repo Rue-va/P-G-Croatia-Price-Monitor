@@ -94,12 +94,25 @@
     font-size: 13px; font-weight: 600;
   }
   .btn-download:hover { opacity: 0.9; }
+  .header-stale-warning {
+    display: none; margin-top: 6px; padding: 4px 10px; border-radius: 6px;
+    background: rgba(255,255,255,0.18); color: #ffe1b3; font-size: 12px; font-weight: 600;
+  }
+  .watchlist-card { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 12px; }
+  .watchlist-card-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
+  .watchlist-card-header h3 { margin: 0; font-size: 14px; }
+  .price-gap { font-size: 12px; color: var(--muted); }
+  .price-gap.gap-high { color: var(--danger); }
+  .price-gap.gap-low { color: var(--ok); }
+  .watchlist-row { display: flex; gap: 10px; align-items: flex-start; margin-top: 6px; }
+  .watchlist-side-label { flex: 0 0 90px; font-size: 11px; text-transform: uppercase; color: var(--muted); font-weight: 600; padding-top: 3px; }
 </style>
 </head>
 <body>
 <header>
   <h1>P&amp;G Croatia — Retail Price &amp; Assortment Monitor</h1>
   <p id="generated-line">Loading…</p>
+  <p id="staleness-line" class="header-stale-warning"></p>
   <div class="header-actions">
     <a class="btn-download" href="PG_Price_Report.xlsx" download>⬇ Download Excel report</a>
   </div>
@@ -137,9 +150,33 @@ function fmtDate(iso) {
   return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
 }
 
+function fmtDateTime(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  // toLocaleString renders in the viewer's own timezone/clock automatically.
+  return d.toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
 function render() {
   const genLine = document.getElementById('generated-line');
-  genLine.textContent = `Updated ${fmtDate(dashboardData.as_of_date)} · flags after ${dashboardData.missing_days_threshold}+ consecutive missing days`;
+  genLine.textContent = `Data generated ${fmtDateTime(dashboardData.generated_at)} · flags after ${dashboardData.missing_days_threshold}+ consecutive missing days`;
+
+  // The daily crawl is scheduled twice a day, but GitHub only *queues* scheduled
+  // runs at that time — it doesn't guarantee they start on time, so a run can
+  // lag by hours with no error anywhere. Rather than let that look like silently
+  // stale/broken data, say so plainly once a refresh is clearly overdue.
+  const staleEl = document.getElementById('staleness-line');
+  if (staleEl) {
+    const hoursSince = dashboardData.generated_at
+      ? (Date.now() - new Date(dashboardData.generated_at).getTime()) / 3600000
+      : null;
+    if (hoursSince != null && hoursSince > 20) {
+      staleEl.style.display = 'inline-block';
+      staleEl.textContent = `⚠ Last refreshed ${Math.round(hoursSince)}h ago — today's automatic run may be delayed. Trigger it manually from the Actions tab for fresher data now.`;
+    } else {
+      staleEl.style.display = 'none';
+    }
+  }
 
   const tabs = document.getElementById('tabs');
   tabs.innerHTML = '';
@@ -211,7 +248,10 @@ function renderRetailer(name) {
     <div class="section">
       <h2>Competitor tracker, by category</h2>
       <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing.</p>
-      ${renderBrandWatchlist(r.category_brand_watchlist)}
+      <div class="search-row">
+        <select id="watchlist-category-filter"><option value="">All categories (Hair Care, Femcare, Laundry, …)</option></select>
+      </div>
+      <div id="watchlist-container"></div>
     </div>
 
     <div class="section">
@@ -258,6 +298,7 @@ function renderRetailer(name) {
   `;
 
   renderChart(cats);
+  renderWatchlistSection(r.category_brand_watchlist);
   loadProducts(name);
 }
 
@@ -426,22 +467,63 @@ function brandChip(b, extraClass) {
   return `<span class="brand-tag${extraClass ? ' ' + extraClass : ''}"${found ? '' : ' style="opacity:0.5;"'}>${label}</span>`;
 }
 
-function renderBrandWatchlist(watchlist) {
-  const entries = Object.entries(watchlist || {});
+function categoryPriceGap(v) {
+  // Quick "are we priced above or below competitors?" read: average price
+  // across brands actually found today on each side. Returns null when
+  // either side has no priced brand today, rather than a misleading number.
+  const pgFound = (v.pg_brands || []).filter(b => b.count > 0);
+  const compFound = (v.competitor_brands || []).filter(b => b.count > 0);
+  if (!pgFound.length || !compFound.length) return null;
+  const pgAvg = pgFound.reduce((sum, b) => sum + b.avg_price, 0) / pgFound.length;
+  const compAvg = compFound.reduce((sum, b) => sum + b.avg_price, 0) / compFound.length;
+  return { pgAvg, compAvg, diff: pgAvg - compAvg };
+}
+
+function renderWatchlistCards(entries) {
   if (!entries.length) {
-    return '<p class="empty">No brand watchlist data for this retailer yet.</p>';
+    return '<p class="empty">No brand watchlist data for this category.</p>';
   }
-  const rows = entries.map(([cat, v]) => `
-    <tr>
-      <td>${escapeHtml(cat)}</td>
-      <td>${(v.pg_brands || []).map(b => brandChip(b, 'pg-brand')).join(' ')}</td>
-      <td>${(v.competitor_brands || []).map(b => brandChip(b)).join(' ')}</td>
-    </tr>`).join('');
-  return `
-    <table>
-      <thead><tr><th>Category</th><th>P&amp;G</th><th>Competitors</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
+  return entries.map(([cat, v]) => {
+    const gap = categoryPriceGap(v);
+    const gapHtml = gap
+      ? `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G avg €${gap.pgAvg.toFixed(2)} vs. competitors avg €${gap.compAvg.toFixed(2)} — P&amp;G ${Math.abs(gap.diff).toFixed(2)}€ ${gap.diff > 0 ? 'higher' : 'lower'}</span>`
+      : `<span class="price-gap">Not enough prices today on both sides to compare</span>`;
+    return `
+      <div class="watchlist-card">
+        <div class="watchlist-card-header">
+          <h3>${escapeHtml(cat)}</h3>
+          ${gapHtml}
+        </div>
+        <div class="watchlist-row">
+          <span class="watchlist-side-label">P&amp;G</span>
+          <div class="brand-tags">${(v.pg_brands || []).map(b => brandChip(b, 'pg-brand')).join(' ')}</div>
+        </div>
+        <div class="watchlist-row">
+          <span class="watchlist-side-label">Competitors</span>
+          <div class="brand-tags">${(v.competitor_brands || []).map(b => brandChip(b)).join(' ')}</div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderWatchlistSection(watchlist) {
+  const filterSelect = document.getElementById('watchlist-category-filter');
+  const container = document.getElementById('watchlist-container');
+  if (!filterSelect || !container) return;
+
+  const categories = Object.keys(watchlist || {});
+  filterSelect.innerHTML = '<option value="">All categories (Hair Care, Femcare, Laundry, …)</option>' +
+    categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  filterSelect.value = '';
+
+  function draw() {
+    const selected = filterSelect.value;
+    const entries = Object.entries(watchlist || {}).filter(([cat]) => !selected || cat === selected);
+    container.innerHTML = renderWatchlistCards(entries);
+  }
+
+  filterSelect.onchange = draw;
+  draw();
 }
 
 function renderFlaggedTable(items) {
