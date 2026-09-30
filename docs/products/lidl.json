@@ -1310,7 +1310,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -1618,7 +1618,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -2150,7 +2150,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -2713,6 +2713,146 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000536",
+  "product": "Always Ultra Quattro ulošci SK",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 4.99,
+  "barcode": "8006540211380",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000536",
+  "product": "Always Ultra Quattro ulošci SK",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 4.99,
+  "barcode": "8006540211380",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000537",
+  "product": "Always Dailies Dnevni ulošci SK",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 2.99,
+  "barcode": "4015400565574",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000537",
+  "product": "Always Dailies Dnevni ulošci SK",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 2.99,
+  "barcode": "8006540791394",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000687",
+  "product": "Gillette Simply Venus jedn. brit.",
+  "brand": "",
+  "category": "Kozmetika",
+  "fighting_category": "Shave Care",
+  "price": 5.89,
+  "barcode": "7702018426201",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000833",
+  "product": "Ariel Tekući deter. Color 100pr.",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "price": 19.99,
+  "barcode": "8700216692007",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000874",
+  "product": "Lenor Omekšivač Sensitive 2x59 pran",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "price": 7.89,
+  "barcode": "8006530069915",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000887",
+  "product": "Gillette Rasierer Sensor +8 patrona",
+  "brand": "",
+  "category": "Kozmetika",
+  "fighting_category": "Shave Care",
+  "price": 9.99,
+  "barcode": "8700216873284",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000928",
+  "product": "Ariel Tekući detrdžent Color, 90pr.",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "price": 18.99,
+  "barcode": "8006530146265",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "104",
+  "store_name": "Lidl Jastrebarsko",
+  "street_address": "Ulica Dr. Franje Tuđmana 30",
+  "city": "Jastrebarsko",
+  "product_id": "0000956",
+  "product": "Pantene Pro-V Šampon Repair&Protect",
+  "brand": "",
+  "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "price": 6.39,
+  "barcode": "8700216821339",
   "matched_via": "product_name"
  },
  {
@@ -2720,272 +2860,118 @@
   "store_name": "Lidl Jastrebarsko",
   "street_address": "Ulica Dr. Franje Tuđmana 30",
   "city": "Jastrebarsko",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000536",
-  "product": "Always Ultra Quattro ulošci SK",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 4.99,
-  "barcode": "8006540211380",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000536",
-  "product": "Always Ultra Quattro ulošci SK",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 4.99,
-  "barcode": "8006540211380",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000537",
-  "product": "Always Dailies Dnevni ulošci SK",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 2.99,
-  "barcode": "4015400565574",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000537",
-  "product": "Always Dailies Dnevni ulošci SK",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 2.99,
-  "barcode": "8006540791394",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000687",
-  "product": "Gillette Simply Venus jedn. brit.",
-  "brand": "",
-  "category": "Kozmetika",
-  "fighting_category": "Shave Care",
-  "price": 5.89,
-  "barcode": "7702018426201",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000833",
-  "product": "Ariel Tekući deter. Color 100pr.",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "barcode": "8700216692007",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000874",
-  "product": "Lenor Omekšivač Sensitive 2x59 pran",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Fabric Enhancers",
-  "price": 7.89,
-  "barcode": "8006530069915",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000887",
-  "product": "Gillette Rasierer Sensor +8 patrona",
-  "brand": "",
-  "category": "Kozmetika",
-  "fighting_category": "Shave Care",
-  "price": 9.99,
-  "barcode": "8700216873284",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000928",
-  "product": "Ariel Tekući detrdžent Color, 90pr.",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "barcode": "8006530146265",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "0000956",
-  "product": "Pantene Pro-V Šampon Repair&Protect",
-  "brand": "",
-  "category": "Kozmetika",
-  "fighting_category": "Hair Care",
-  "price": 6.39,
-  "barcode": "8700216821339",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "104",
-  "store_name": "Lidl Jastrebarsko",
-  "street_address": "Ulica Dr. Franje Tuđmana 30",
-  "city": "Jastrebarsko",
-  "product_id": "1013904",
-  "product": "Pantene Pro-V Regenerator, 275ml",
-  "brand": "",
-  "category": "Kozmetika",
-  "fighting_category": "Hair Care",
-  "price": 3.99,
-  "barcode": "8700216509015",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000017",
-  "product": "Always Ultra higijenski ulošci BA",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 1.66,
-  "barcode": "4015400931225",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000017",
-  "product": "Always Ultra higijenski ulošci BA",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 1.66,
-  "barcode": "8001841263854",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000084",
-  "product": "Lenor Omekšivač 60 pranja Sensitiv",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.57,
-  "barcode": "8001841375557",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000087",
-  "product": "Lenor Omekšivač G. Orchid 48 pranja",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.57,
-  "barcode": "8001841375885",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000088",
-  "product": "Ariel Pods Color 35 Kom.",
-  "brand": "",
-  "category": "Sredstva za čišćenje",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "barcode": "8001090727015",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000367",
-  "product": "Always ulošci Ultra 36 kom",
-  "brand": "",
-  "category": "Toaletne potrepštine",
-  "fighting_category": "Femcare",
-  "price": 5.99,
-  "barcode": "8700216450379",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
-  "product_id": "0000369",
-  "product": "Gillette Fusion Sport brijač+zam.b.",
-  "brand": "",
-  "category": "Kozmetika",
-  "fighting_category": "Shave Care",
-  "price": 15.99,
-  "barcode": "8700216075039",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
+  "product_id": "1013904",
+  "product": "Pantene Pro-V Regenerator, 275ml",
+  "brand": "",
+  "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "price": 3.99,
+  "barcode": "8700216509015",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000017",
+  "product": "Always Ultra higijenski ulošci BA",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 1.66,
+  "barcode": "4015400931225",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000017",
+  "product": "Always Ultra higijenski ulošci BA",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 1.66,
+  "barcode": "8001841263854",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000084",
+  "product": "Lenor Omekšivač 60 pranja Sensitiv",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "price": 5.57,
+  "barcode": "8001841375557",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000087",
+  "product": "Lenor Omekšivač G. Orchid 48 pranja",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "price": 5.57,
+  "barcode": "8001841375885",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000088",
+  "product": "Ariel Pods Color 35 Kom.",
+  "brand": "",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "price": 19.99,
+  "barcode": "8001090727015",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000367",
+  "product": "Always ulošci Ultra 36 kom",
+  "brand": "",
+  "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "price": 5.99,
+  "barcode": "8700216450379",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
+  "product_id": "0000369",
+  "product": "Gillette Fusion Sport brijač+zam.b.",
+  "brand": "",
+  "category": "Kozmetika",
+  "fighting_category": "Shave Care",
+  "price": 15.99,
+  "barcode": "8700216075039",
+  "matched_via": "product_name"
+ },
+ {
+  "store_id": "105",
+  "store_name": "Lidl Osijek",
+  "street_address": "Zeleno Polje 8 A",
+  "city": "Osijek",
   "product_id": "0000436",
   "product": "Old Spice Gel za tuširanje Whitewa.",
   "brand": "",
@@ -4194,7 +4180,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -4502,7 +4488,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -5034,7 +5020,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -5604,20 +5590,6 @@
   "store_name": "Lidl Osijek",
   "street_address": "Zeleno Polje 8 A",
   "city": "Osijek",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "105",
-  "store_name": "Lidl Osijek",
-  "street_address": "Zeleno Polje 8 A",
-  "city": "Osijek",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -7078,7 +7050,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -7386,7 +7358,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -7918,7 +7890,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -8481,20 +8453,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "109",
-  "store_name": "Lidl Županja",
-  "street_address": "Vinkovačka Ulica 2A",
-  "city": "Županja",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -9962,7 +9920,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -10270,7 +10228,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -10802,7 +10760,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -11365,20 +11323,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "110",
-  "store_name": "Lidl Varaždin",
-  "street_address": "Gospodarska 54",
-  "city": "Varaždin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -12846,7 +12790,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -13154,7 +13098,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -13686,7 +13630,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -14249,20 +14193,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "111",
-  "store_name": "Lidl Valpovo",
-  "street_address": "Bizovačka 1",
-  "city": "Valpovo",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -15730,7 +15660,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -16038,7 +15968,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -16570,7 +16500,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -17133,20 +17063,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "112",
-  "store_name": "Lidl Vinkovci",
-  "street_address": "Duga Ulica 111",
-  "city": "Vinkovci",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -18614,7 +18530,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -18922,7 +18838,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -19454,7 +19370,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -20017,20 +19933,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "113",
-  "store_name": "Lidl Gospić",
-  "street_address": "Budačka Ulica 22",
-  "city": "Gospić",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -21498,7 +21400,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -21806,7 +21708,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -22338,7 +22240,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -22901,20 +22803,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "114",
-  "store_name": "Lidl Sisak",
-  "street_address": "Zagrebačka 49 F",
-  "city": "Sisak",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -24382,7 +24270,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -24690,7 +24578,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -25222,7 +25110,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -25792,20 +25680,6 @@
   "store_name": "Lidl Petrinja",
   "street_address": "Sisačka 1A",
   "city": "Petrinja",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "118",
-  "store_name": "Lidl Petrinja",
-  "street_address": "Sisačka 1A",
-  "city": "Petrinja",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -27266,7 +27140,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -27574,7 +27448,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -28106,7 +27980,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -28669,20 +28543,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "120",
-  "store_name": "Lidl Metković",
-  "street_address": "Ulica Splitska 57 C",
-  "city": "Metković",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -30150,7 +30010,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -30458,7 +30318,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -30990,7 +30850,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -31553,20 +31413,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "121",
-  "store_name": "Lidl Koprivnica",
-  "street_address": "Križevačka Ulica 21",
-  "city": "Koprivnica",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -33034,7 +32880,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -33342,7 +33188,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -33874,7 +33720,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -34437,20 +34283,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "124",
-  "store_name": "Lidl Labin",
-  "street_address": "Zelenice 41",
-  "city": "Labin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -35918,7 +35750,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -36226,7 +36058,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -36758,7 +36590,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -37321,20 +37153,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "125",
-  "store_name": "Lidl Sinj",
-  "street_address": "Fra Pavla Vučkovića 17",
-  "city": "Sinj",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -38802,7 +38620,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -39110,7 +38928,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -39642,7 +39460,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -40205,20 +40023,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "126",
-  "store_name": "Lidl Kutina",
-  "street_address": "Kralja P. Krešimira Iv 4 B",
-  "city": "Kutina",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -41686,7 +41490,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -41994,7 +41798,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -42526,7 +42330,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -43089,20 +42893,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "127",
-  "store_name": "Lidl Solin",
-  "street_address": "Hektorovićeva 38 C",
-  "city": "Solin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -44570,7 +44360,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -44878,7 +44668,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -45410,7 +45200,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -45973,20 +45763,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "128",
-  "store_name": "Lidl Nova Gradiška",
-  "street_address": "Ulica Kralja Petra Svačića 11",
-  "city": "Nova Gradiška",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -47454,7 +47230,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -47762,7 +47538,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -48294,7 +48070,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -48857,20 +48633,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "129",
-  "store_name": "Lidl Našice",
-  "street_address": "Josipa J. Strossmayera 89",
-  "city": "Našice",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -50338,7 +50100,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -50646,7 +50408,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -51178,7 +50940,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -51741,20 +51503,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "130",
-  "store_name": "Lidl Split",
-  "street_address": "Put Lore 4",
-  "city": "Split",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -53222,7 +52970,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -53530,7 +53278,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -54062,7 +53810,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -54625,20 +54373,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "131",
-  "store_name": "Lidl Ploče",
-  "street_address": "Crna Rika 7",
-  "city": "Ploče",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -56106,7 +55840,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -56414,7 +56148,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -56946,7 +56680,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -57509,20 +57243,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "132",
-  "store_name": "Lidl Đurđevac",
-  "street_address": "Ulica Grada Vukovara 11",
-  "city": "Đurđevac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -58990,7 +58710,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -59298,7 +59018,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -59830,7 +59550,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -60393,20 +60113,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "133",
-  "store_name": "Lidl Imotski",
-  "street_address": "Glavina Donja 346",
-  "city": "Imotski",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -61874,7 +61580,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -62182,7 +61888,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -62714,7 +62420,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -63277,20 +62983,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "135",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Oreškovićeva 3C",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -64758,7 +64450,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -65066,7 +64758,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -65598,7 +65290,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -66161,20 +65853,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "136",
-  "store_name": "Lidl Knin",
-  "street_address": "4. Gardijske Brigade 42",
-  "city": "Knin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -67642,7 +67320,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -67950,7 +67628,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -68482,7 +68160,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -69052,20 +68730,6 @@
   "store_name": "Lidl Beli Manastir",
   "street_address": "Ulica Kralja Tomislava 48",
   "city": "Beli Manastir",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "139",
-  "store_name": "Lidl Beli Manastir",
-  "street_address": "Ulica Kralja Tomislava 48",
-  "city": "Beli Manastir",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -70526,7 +70190,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -70834,7 +70498,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -71366,7 +71030,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -71929,20 +71593,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "141",
-  "store_name": "Lidl Donji Miholjac",
-  "street_address": "Vukovarska Ulica 32",
-  "city": "Donji Miholjac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -73410,7 +73060,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -73718,7 +73368,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -74250,7 +73900,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -74813,20 +74463,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "142",
-  "store_name": "Lidl Zadar",
-  "street_address": "Benka Benkovića 17",
-  "city": "Zadar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -76294,7 +75930,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -76602,7 +76238,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -77134,7 +76770,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -77697,20 +77333,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "143",
-  "store_name": "Lidl Karlovac",
-  "street_address": "Marmontova Aleja 6",
-  "city": "Karlovac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -79178,7 +78800,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -79486,7 +79108,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -80018,7 +79640,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -80588,20 +80210,6 @@
   "store_name": "Lidl Ivanec",
   "street_address": "Ulica Ivana Gorana Kovačića 18",
   "city": "Ivanec",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "144",
-  "store_name": "Lidl Ivanec",
-  "street_address": "Ulica Ivana Gorana Kovačića 18",
-  "city": "Ivanec",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -82062,7 +81670,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -82370,7 +81978,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -82902,7 +82510,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -83465,20 +83073,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "145",
-  "store_name": "Lidl Dubrovnik",
-  "street_address": "Tomislava Macana 7",
-  "city": "Dubrovnik",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -84946,7 +84540,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -85254,7 +84848,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -85786,7 +85380,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -86349,20 +85943,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "147",
-  "store_name": "Lidl Pula",
-  "street_address": "Labinska Ulica 2 A",
-  "city": "Pula",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -87830,7 +87410,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -88138,7 +87718,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -88670,7 +88250,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -89233,20 +88813,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "148",
-  "store_name": "Lidl Slatina",
-  "street_address": "Ulica Kralja Zvonimira 14",
-  "city": "Slatina",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -90714,7 +90280,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -91022,7 +90588,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -91554,7 +91120,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -92117,20 +91683,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "150",
-  "store_name": "Lidl Daruvar",
-  "street_address": "Trg Križnog Puta 5",
-  "city": "Daruvar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -93598,7 +93150,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -93906,7 +93458,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -94438,7 +93990,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -95001,20 +94553,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "152",
-  "store_name": "Lidl Vrbovec",
-  "street_address": "Zagrebačka Ulica 10",
-  "city": "Vrbovec",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -96482,7 +96020,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -96790,7 +96328,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -97322,7 +96860,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -97885,20 +97423,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "153",
-  "store_name": "Lidl Virovitica",
-  "street_address": "Stjepana Radića 68",
-  "city": "Virovitica",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -99366,7 +98890,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -99674,7 +99198,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -100206,7 +99730,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -100769,20 +100293,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "154",
-  "store_name": "Lidl Kaštela",
-  "street_address": "Cesta Dr. Franje Tuđmana 346",
-  "city": "Kaštela",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -102250,7 +101760,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -102558,7 +102068,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -103090,7 +102600,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -103653,20 +103163,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "155",
-  "store_name": "Lidl Split",
-  "street_address": "Poljička Cesta 37",
-  "city": "Split",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -105134,7 +104630,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -105442,7 +104938,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -105974,7 +105470,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -106537,20 +106033,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "156",
-  "store_name": "Lidl Zadar",
-  "street_address": "Benkovačka Cesta 2",
-  "city": "Zadar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -108018,7 +107500,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -108326,7 +107808,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -108858,7 +108340,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -109421,20 +108903,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "157",
-  "store_name": "Lidl Ogulin",
-  "street_address": "Lomošćanska Cesta 24",
-  "city": "Ogulin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -110902,7 +110370,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -111210,7 +110678,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -111742,7 +111210,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -112305,20 +111773,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "158",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Velimira Škorpika 25",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -113786,7 +113240,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -114094,7 +113548,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -114626,7 +114080,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -115189,20 +114643,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "159",
-  "store_name": "Lidl Rovinj",
-  "street_address": "Braće Božić 4 A",
-  "city": "Rovinj",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -116670,7 +116110,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -116978,7 +116418,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -117510,7 +116950,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -118073,20 +117513,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "165",
-  "store_name": "Lidl Požega",
-  "street_address": "Industrijska Ulica 16A",
-  "city": "Požega",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -119554,7 +118980,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -119862,7 +119288,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -120394,7 +119820,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -120957,20 +120383,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "166",
-  "store_name": "Lidl Vodice",
-  "street_address": "Put Gaćeleza 3 A",
-  "city": "Vodice",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -122438,7 +121850,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -122746,7 +122158,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -123278,7 +122690,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -123841,20 +123253,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "169",
-  "store_name": "Lidl Otočac",
-  "street_address": "Kralja Zvonimira 4",
-  "city": "Otočac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -125322,7 +124720,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -125630,7 +125028,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -126162,7 +125560,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -126725,20 +126123,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "170",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Oranički Odvojak 1",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -128206,7 +127590,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -128514,7 +127898,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -129046,7 +128430,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -129609,20 +128993,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "172",
-  "store_name": "Lidl Senj",
-  "street_address": "Ulica Kaetana Knežića 2",
-  "city": "Senj",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -131090,7 +130460,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -131398,7 +130768,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -131930,7 +131300,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -132500,20 +131870,6 @@
   "store_name": "Lidl Križevci",
   "street_address": "Ulica Nikole Tesle 2",
   "city": "Križevci",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "174",
-  "store_name": "Lidl Križevci",
-  "street_address": "Ulica Nikole Tesle 2",
-  "city": "Križevci",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -133974,7 +133330,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -134282,7 +133638,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -134814,7 +134170,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -135377,20 +134733,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "177",
-  "store_name": "Lidl Karlovac",
-  "street_address": "Dr. Ante Starčevića 27",
-  "city": "Karlovac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -136858,7 +136200,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -137166,7 +136508,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -137698,7 +137040,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -138261,20 +137603,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "180",
-  "store_name": "Lidl Rijeka",
-  "street_address": "Osječka 67 A",
-  "city": "Rijeka",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -139742,7 +139070,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -140050,7 +139378,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -140582,7 +139910,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -141145,20 +140473,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "181",
-  "store_name": "Lidl Trogir",
-  "street_address": "Plano-Aerodrom 1 Pr",
-  "city": "Trogir",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -142626,7 +141940,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -142934,7 +142248,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -143466,7 +142780,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -144029,20 +143343,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "182",
-  "store_name": "Lidl Dugo Selo",
-  "street_address": "Ulica Anđelke I Belizara Božikovića 2",
-  "city": "Dugo Selo",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -145510,7 +144810,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -145818,7 +145118,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -146350,7 +145650,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -146913,20 +146213,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "183",
-  "store_name": "Lidl Vukovar",
-  "street_address": "Priljevo 30 A",
-  "city": "Vukovar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -148394,7 +147680,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -148702,7 +147988,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -149234,7 +148520,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -149797,20 +149083,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "184",
-  "store_name": "Lidl Biograd na Moru",
-  "street_address": "Jadranska Magistrala 1A",
-  "city": "Biograd Na Moru",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -151278,7 +150550,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -151586,7 +150858,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -152118,7 +151390,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -152681,20 +151953,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "187",
-  "store_name": "Lidl Pazin",
-  "street_address": "43. Istarske Divizije 11A",
-  "city": "Pazin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -154162,7 +153420,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -154470,7 +153728,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -155002,7 +154260,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -155565,20 +154823,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "188",
-  "store_name": "Lidl Šibenik",
-  "street_address": "Velimira Škorpika 10",
-  "city": "Šibenik",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -157046,7 +156290,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -157354,7 +156598,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -157886,7 +157130,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -158449,20 +157693,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "190",
-  "store_name": "Lidl Novska",
-  "street_address": "Zagrebačka Ulica 51",
-  "city": "Novska",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -159930,7 +159160,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -160238,7 +159468,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -160770,7 +160000,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -161333,20 +160563,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "191",
-  "store_name": "Lidl Samobor",
-  "street_address": "Ulica Grada Wirgesa 20",
-  "city": "Samobor",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -162814,7 +162030,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -163122,7 +162338,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -163654,7 +162870,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -164217,20 +163433,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "192",
-  "store_name": "Lidl Sesvete",
-  "street_address": "Ulica 144.Brigade Hrvatske Vojske 1",
-  "city": "Sesvete",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -165698,7 +164900,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -166006,7 +165208,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -166538,7 +165740,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -167101,20 +166303,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "193",
-  "store_name": "Lidl Makarska",
-  "street_address": "Ulica Europske Zajednice 2",
-  "city": "Makarska",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -168582,7 +167770,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -168890,7 +168078,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -169422,7 +168610,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -169985,20 +169173,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "194",
-  "store_name": "Lidl Ivanić-Grad",
-  "street_address": "Majdekova Ulica 47",
-  "city": "Ivanić-Grad",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -171466,7 +170640,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -171774,7 +170948,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -172306,7 +171480,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -172869,20 +172043,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "195",
-  "store_name": "Lidl Kukuljanovo",
-  "street_address": "Kukuljanovo 348",
-  "city": "Kukuljanovo",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -174350,7 +173510,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -174658,7 +173818,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -175190,7 +174350,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -175760,20 +174920,6 @@
   "store_name": "Lidl Zagreb",
   "street_address": "Nova Cesta 7",
   "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "196",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Nova Cesta 7",
-  "city": "Zagreb",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -177234,7 +176380,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -177542,7 +176688,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -178074,7 +177220,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -178637,20 +177783,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "197",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Dubrava 33",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -180118,7 +179250,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -180426,7 +179558,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -180958,7 +180090,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -181521,20 +180653,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "198",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Ive Robića 4",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -183002,7 +182120,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -183310,7 +182428,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -183842,7 +182960,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -184405,20 +183523,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "199",
-  "store_name": "Lidl Supetar",
-  "street_address": "Žedno - Drage 15",
-  "city": "Supetar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -185886,7 +184990,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -186194,7 +185298,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -186726,7 +185830,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -187296,20 +186400,6 @@
   "store_name": "Lidl Pula",
   "street_address": "Ulica Proštinske Bune 20",
   "city": "Pula",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "200",
-  "store_name": "Lidl Pula",
-  "street_address": "Ulica Proštinske Bune 20",
-  "city": "Pula",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -188770,7 +187860,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -189078,7 +188168,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -189610,7 +188700,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -190173,20 +189263,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "202",
-  "store_name": "Lidl Sveta Nedelja",
-  "street_address": "Vojvodići 1",
-  "city": "Sveta Nedelja",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -191654,7 +190730,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -191962,7 +191038,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -192494,7 +191570,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -193057,20 +192133,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "203",
-  "store_name": "Lidl Slavonski Brod",
-  "street_address": "Trg Hrvatskog Proljeća 9",
-  "city": "Slavonski Brod",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -194538,7 +193600,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -194846,7 +193908,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -195378,7 +194440,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -195941,20 +195003,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "204",
-  "store_name": "Lidl Čakovec",
-  "street_address": "Športska 7",
-  "city": "Čakovec",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -197422,7 +196470,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -197730,7 +196778,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -198262,7 +197310,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -198825,20 +197873,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "205",
-  "store_name": "Lidl Mali Lošinj",
-  "street_address": "Omladinska 1   A",
-  "city": "Mali Lošinj",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -200306,7 +199340,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -200614,7 +199648,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -201146,7 +200180,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -201709,20 +200743,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "206",
-  "store_name": "Lidl Matulji",
-  "street_address": "Kvarnerska Cesta 53",
-  "city": "Matulji",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -203190,7 +202210,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -203498,7 +202518,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -204030,7 +203050,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -204593,20 +203613,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "207",
-  "store_name": "Lidl Šibenik",
-  "street_address": "Bana Josipa Jelačića 19",
-  "city": "Šibenik",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -206074,7 +205080,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -206382,7 +205388,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -206914,7 +205920,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -207477,20 +206483,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "208",
-  "store_name": "Lidl Novi Vinodolski",
-  "street_address": "Mel 1 A",
-  "city": "Novi Vinodolski",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -208958,7 +207950,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -209266,7 +208258,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -209798,7 +208790,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -210361,20 +209353,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "209",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Risnjačka Ulica 1",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -211842,7 +210820,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -212150,7 +211128,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -212682,7 +211660,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -213245,20 +212223,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "210",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Zadarska Ulica 79",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -214726,7 +213690,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -215034,7 +213998,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -215566,7 +214530,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -216129,20 +215093,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "211",
-  "store_name": "Lidl Đakovo",
-  "street_address": "Bana Jelačića 41",
-  "city": "Đakovo",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -217610,7 +216560,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -217918,7 +216868,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -218450,7 +217400,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -219013,20 +217963,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "212",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Slavenskog 1",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -220494,7 +219430,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -220802,7 +219738,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -221334,7 +220270,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -221897,20 +220833,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "213",
-  "store_name": "Lidl Osijek",
-  "street_address": "Ulica J. J. Strossmayera 350",
-  "city": "Osijek",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -223378,7 +222300,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -223686,7 +222608,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -224218,7 +223140,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -224781,20 +223703,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "214",
-  "store_name": "Lidl Delnice",
-  "street_address": "Lujzinska Cesta 40",
-  "city": "Delnice",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -226262,7 +225170,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -226570,7 +225478,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -227102,7 +226010,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -227665,20 +226573,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "215",
-  "store_name": "Lidl Split",
-  "street_address": "Nikole Tesle 16 A",
-  "city": "Split",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -229146,7 +228040,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -229454,7 +228348,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -229986,7 +228880,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -230549,20 +229443,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "216",
-  "store_name": "Lidl Rijeka",
-  "street_address": "Radnička 35",
-  "city": "Rijeka",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -232030,7 +230910,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -232338,7 +231218,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -232870,7 +231750,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -233433,20 +232313,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "217",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Lastovska Ulica 42",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -234914,7 +233780,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -235222,7 +234088,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -235754,7 +234620,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -236317,20 +235183,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "220",
-  "store_name": "Lidl Krapina",
-  "street_address": "Ulica Frana Galovića 7 A",
-  "city": "Krapina",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -237798,7 +236650,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -238106,7 +236958,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -238638,7 +237490,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -239208,20 +238060,6 @@
   "store_name": "Lidl Rijeka",
   "street_address": "Petra Jurčića 2A",
   "city": "Rijeka",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "223",
-  "store_name": "Lidl Rijeka",
-  "street_address": "Petra Jurčića 2A",
-  "city": "Rijeka",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -240682,7 +239520,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -240990,7 +239828,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -241522,7 +240360,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -242085,20 +240923,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "225",
-  "store_name": "Lidl Zaprešić",
-  "street_address": "Ulica Kardinala Alojzija Stepinca 64",
-  "city": "Zaprešić",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -243566,7 +242390,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -243874,7 +242698,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -244406,7 +243230,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -244969,20 +243793,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "226",
-  "store_name": "Lidl Viškovo",
-  "street_address": "Furićevo 23",
-  "city": "Viškovo",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -246450,7 +245260,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -246758,7 +245568,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -247290,7 +246100,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -247853,20 +246663,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "227",
-  "store_name": "Lidl Medulin",
-  "street_address": "Munida 3 C",
-  "city": "Medulin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -249334,7 +248130,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -249642,7 +248438,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -250174,7 +248970,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -250737,20 +249533,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "228",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Aleja Javora 3",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -252218,7 +251000,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -252526,7 +251308,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -253058,7 +251840,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -253621,20 +252403,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "229",
-  "store_name": "Lidl Krk",
-  "street_address": "Vršanska 18 A",
-  "city": "Krk",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -255102,7 +253870,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -255410,7 +254178,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -255942,7 +254710,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -256505,20 +255273,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "230",
-  "store_name": "Lidl Crikvenica",
-  "street_address": "Kralja Tomislava 109 C",
-  "city": "Crikvenica",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -257986,7 +256740,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -258294,7 +257048,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -258826,7 +257580,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -259389,20 +258143,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "231",
-  "store_name": "Lidl Osijek",
-  "street_address": "Svetog Leopolda Bogdana Mandića 33 A",
-  "city": "Osijek",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -260870,7 +259610,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -261178,7 +259918,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -261710,7 +260450,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -262273,20 +261013,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "232",
-  "store_name": "Lidl Bjelovar",
-  "street_address": "Slavonska Cesta 12",
-  "city": "Bjelovar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -263754,7 +262480,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -264062,7 +262788,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -264594,7 +263320,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -265157,20 +263883,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "233",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Donje Svetice 46",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -266638,7 +265350,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -266946,7 +265658,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -267478,7 +266190,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -268041,20 +266753,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "234",
-  "store_name": "Lidl Zabok",
-  "street_address": "Ulica Josipa Broza Tita 17",
-  "city": "Zabok",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -269522,7 +268220,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -269830,7 +268528,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -270362,7 +269060,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -270925,20 +269623,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "239",
-  "store_name": "Lidl Umag-Umago",
-  "street_address": "Ulica Poduzetnika 3",
-  "city": "Umag-Umago",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -272406,7 +271090,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -272714,7 +271398,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -273246,7 +271930,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -273809,20 +272493,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "240",
-  "store_name": "Lidl Velika Gorica",
-  "street_address": "Ulica Kneza Ljudevita Posavskog 55",
-  "city": "Velika Gorica",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -275290,7 +273960,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -275598,7 +274268,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -276130,7 +274800,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -276693,20 +275363,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "243",
-  "store_name": "Lidl Velika Gorica",
-  "street_address": "Sisačka Ulica 39D",
-  "city": "Velika Gorica",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -278174,7 +276830,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -278482,7 +277138,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -279014,7 +277670,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -279577,20 +278233,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "244",
-  "store_name": "Lidl Slavonski Brod",
-  "street_address": "Osječka Ulica 280C",
-  "city": "Slavonski Brod",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -281058,7 +279700,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -281366,7 +280008,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -281898,7 +280540,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -282468,20 +281110,6 @@
   "store_name": "Lidl Čakovec",
   "street_address": "Stjepana Radića 31",
   "city": "Čakovec",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "245",
-  "store_name": "Lidl Čakovec",
-  "street_address": "Stjepana Radića 31",
-  "city": "Čakovec",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -283942,7 +282570,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -284250,7 +282878,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -284782,7 +283410,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -285345,20 +283973,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "246",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Ilica 201",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -286826,7 +285440,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -287134,7 +285748,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -287666,7 +286280,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -288229,20 +286843,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "248",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Huzjanova Ulica 4",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -289710,7 +288310,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -290018,7 +288618,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -290550,7 +289150,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -291113,20 +289713,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "249",
-  "store_name": "Lidl Split",
-  "street_address": "Kralja Držislava 24",
-  "city": "Split",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -292594,7 +291180,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -292902,7 +291488,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -293434,7 +292020,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -294004,20 +292590,6 @@
   "store_name": "Lidl Zagreb",
   "street_address": "Ljubljanska Avenija 2",
   "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "250",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Ljubljanska Avenija 2",
-  "city": "Zagreb",
   "product_id": "0000536",
   "product": "Always Ultra Quattro ulošci SK",
   "brand": "",
@@ -295478,7 +294050,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -295786,7 +294358,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -296318,7 +294890,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -296881,20 +295453,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "251",
-  "store_name": "Lidl Poreč",
-  "street_address": "Mate Vlašića 48",
-  "city": "Poreč",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -298362,7 +296920,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -298670,7 +297228,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -299202,7 +297760,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -299765,20 +298323,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "252",
-  "store_name": "Lidl Varaždin",
-  "street_address": "Optujska Ulica 74",
-  "city": "Varaždin",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -301246,7 +299790,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -301554,7 +300098,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -302086,7 +300630,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -302649,20 +301193,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "253",
-  "store_name": "Lidl Split",
-  "street_address": "Vukovarska Ulica 190",
-  "city": "Split",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -304130,7 +302660,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -304438,7 +302968,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -304970,7 +303500,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -305533,20 +304063,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "255",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Kobiljačka Cesta 54",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -307014,7 +305530,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -307322,7 +305838,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -307854,7 +306370,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -308417,20 +306933,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "256",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Radnička Cesta 232",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -309898,7 +308400,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -310206,7 +308708,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -310738,7 +309240,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -311301,20 +309803,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "257",
-  "store_name": "Lidl Zadar",
-  "street_address": "Put Murvice 18",
-  "city": "Zadar",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -312782,7 +311270,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -313090,7 +311578,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -313622,7 +312110,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -314185,20 +312673,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "259",
-  "store_name": "Lidl Dugopolje",
-  "street_address": "Sv. Leopolda Mandića 17",
-  "city": "Dugopolje",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -315666,7 +314140,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -315974,7 +314448,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -316506,7 +314980,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -317069,20 +315543,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "260",
-  "store_name": "Lidl Novi Marof",
-  "street_address": "Grana 150 4",
-  "city": "Novi Marof",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -318550,7 +317010,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -318858,7 +317318,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -319390,7 +317850,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -319953,20 +318413,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "265",
-  "store_name": "Lidl Prelog",
-  "street_address": "Ulica Franje Glada 13",
-  "city": "Prelog",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -321434,7 +319880,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -321742,7 +320188,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -322274,7 +320720,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -322837,20 +321283,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "266",
-  "store_name": "Lidl Omišalj",
-  "street_address": "Ulica Pušća 150",
-  "city": "Omišalj",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -324318,7 +322750,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -324626,7 +323058,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -325158,7 +323590,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -325721,20 +324153,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "268",
-  "store_name": "Lidl Buzet",
-  "street_address": "Ulica Ii Istarske Brigade 27",
-  "city": "Buzet",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -327202,7 +325620,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -327510,7 +325928,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -328042,7 +326460,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -328605,20 +327023,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "269",
-  "store_name": "Lidl Zagreb",
-  "street_address": "Ulica Julija Knifera 10",
-  "city": "Zagreb",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -330086,7 +328490,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -330394,7 +328798,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -330926,7 +329330,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -331489,20 +329893,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "270",
-  "store_name": "Lidl Ludbreg",
-  "street_address": "Ulica Žrtava Fašizma 1",
-  "city": "Ludbreg",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
@@ -332970,7 +331360,7 @@
   "product": "Jar Tabs Platinum All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 24.99,
   "barcode": "8006530122184",
   "matched_via": "product_name"
@@ -333278,7 +331668,7 @@
   "product": "Jar Tabs Platinum Plus All in One",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 19.99,
   "barcode": "8700216253581",
   "matched_via": "product_name"
@@ -333810,7 +332200,7 @@
   "product": "Jar Tabs Platinum All in One Mirac.",
   "brand": "",
   "category": "Sredstva za čišćenje",
-  "fighting_category": null,
+  "fighting_category": "Automatic Dishwashing",
   "price": 25.39,
   "barcode": "8006530100960",
   "matched_via": "product_name"
@@ -334373,20 +332763,6 @@
   "fighting_category": "APDO",
   "price": 3.85,
   "barcode": "8700216162180",
-  "matched_via": "product_name"
- },
- {
-  "store_id": "274",
-  "store_name": "Lidl Benkovac",
-  "street_address": "Ulica Benkovačke Bojne 1A",
-  "city": "Benkovac",
-  "product_id": "0136628",
-  "product": "MSC Kavijar",
-  "brand": "Deluxe",
-  "category": "Hrana",
-  "fighting_category": null,
-  "price": 6.29,
-  "barcode": "20081256",
   "matched_via": "product_name"
  },
  {
