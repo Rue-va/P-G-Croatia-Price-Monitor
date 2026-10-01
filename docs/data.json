@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T10:46:08.781163+00:00",
+ "generated_at": "2026-10-01T12:46:41.329675+00:00",
  "as_of_date": "2026-10-01",
  "missing_days_threshold": 3,
  "retailers": [
@@ -7,307 +7,307 @@
    "retailer": "konzum",
    "status": "ok",
    "last_updated": "2026-10-01",
-   "stores_count": 61,
-   "total_catalog_size": 584562,
-   "pg_products_tracked": 18284,
+   "stores_count": 92,
+   "total_catalog_size": 850417,
+   "pg_products_tracked": 25954,
    "category_stats": {
     "HRANA": {
-     "count": 368429,
-     "pg_count": 51,
-     "avg_price": 4.2,
-     "pg_avg_price": 15.75,
-     "competitor_avg_price": 4.2,
-     "competitor_count": 368378,
+     "count": 539008,
+     "pg_count": 73,
+     "avg_price": 4.19,
+     "pg_avg_price": 15.77,
+     "competitor_avg_price": 4.19,
+     "competitor_count": 538935,
      "top_competitor_brands": [
       {
        "brand": "K PLUS",
-       "count": 13914,
-       "avg_price": 3.03
+       "count": 20601,
+       "avg_price": 3.02
       },
       {
        "brand": "PODRAVKA",
-       "count": 12674,
-       "avg_price": 2.89
+       "count": 18543,
+       "avg_price": 2.88
       },
       {
        "brand": "LEDO",
-       "count": 6541,
-       "avg_price": 4.82
+       "count": 9704,
+       "avg_price": 4.8
       },
       {
        "brand": "GARDEN GOOD",
-       "count": 6478,
-       "avg_price": 2.29
+       "count": 9576,
+       "avg_price": 2.3
       },
       {
        "brand": "FERRERO",
-       "count": 5180,
-       "avg_price": 3.29
+       "count": 7508,
+       "avg_price": 3.27
       },
       {
        "brand": "MILKA",
-       "count": 5093,
+       "count": 7425,
        "avg_price": 3.25
       },
       {
        "brand": "KOTANYI",
-       "count": 4662,
+       "count": 6788,
        "avg_price": 2.41
       },
       {
-       "brand": "FRANCK",
-       "count": 4293,
-       "avg_price": 3.78
+       "brand": "MINUTE",
+       "count": 6289,
+       "avg_price": 2.51
       }
      ]
     },
     "PIĆE": {
-     "count": 72476,
-     "pg_count": 59,
-     "avg_price": 6.05,
-     "pg_avg_price": 4.91,
-     "competitor_avg_price": 6.05,
-     "competitor_count": 72417,
+     "count": 105590,
+     "pg_count": 89,
+     "avg_price": 6.25,
+     "pg_avg_price": 4.86,
+     "competitor_avg_price": 6.25,
+     "competitor_count": 105501,
      "top_competitor_brands": [
       {
        "brand": "VINDI",
-       "count": 2435,
-       "avg_price": 1.73
+       "count": 3446,
+       "avg_price": 1.74
       },
       {
        "brand": "FRUCTAL",
-       "count": 2415,
-       "avg_price": 2.44
+       "count": 3373,
+       "avg_price": 2.43
       },
       {
        "brand": "JANA",
-       "count": 2087,
+       "count": 3111,
        "avg_price": 1.57
       },
       {
        "brand": "CEDEVITA",
-       "count": 2041,
-       "avg_price": 3.01
+       "count": 3022,
+       "avg_price": 3.03
       },
       {
        "brand": "BADEL 1862",
-       "count": 1744,
-       "avg_price": 10.99
+       "count": 2596,
+       "avg_price": 11.0
       },
       {
        "brand": "COCA COLA",
-       "count": 1316,
-       "avg_price": 2.52
+       "count": 1957,
+       "avg_price": 2.55
       },
       {
        "brand": "MARASKA",
-       "count": 1281,
-       "avg_price": 8.59
+       "count": 1877,
+       "avg_price": 8.64
       },
       {
        "brand": "MOJ DAN",
-       "count": 1163,
-       "avg_price": 2.21
+       "count": 1725,
+       "avg_price": 2.22
       }
      ]
     },
     "KOZMETIKA": {
-     "count": 70627,
-     "pg_count": 7623,
-     "avg_price": 6.53,
-     "pg_avg_price": 9.66,
-     "competitor_avg_price": 6.15,
-     "competitor_count": 63004,
+     "count": 101014,
+     "pg_count": 10794,
+     "avg_price": 6.57,
+     "pg_avg_price": 9.46,
+     "competitor_avg_price": 6.22,
+     "competitor_count": 90220,
      "top_competitor_brands": [
       {
        "brand": "NIVEA",
-       "count": 8606,
-       "avg_price": 8.9
+       "count": 12254,
+       "avg_price": 8.96
       },
       {
        "brand": "OLEA",
-       "count": 3198,
-       "avg_price": 2.0
+       "count": 4557,
+       "avg_price": 2.01
       },
       {
        "brand": "DOVE",
-       "count": 2108,
-       "avg_price": 4.1
+       "count": 3017,
+       "avg_price": 4.11
       },
       {
        "brand": "AFRODITA",
-       "count": 2004,
-       "avg_price": 6.82
+       "count": 2932,
+       "avg_price": 6.85
       },
       {
        "brand": "PALMOLIVE",
-       "count": 1814,
-       "avg_price": 4.3
+       "count": 2610,
+       "avg_price": 4.31
       },
       {
        "brand": "FA",
-       "count": 1627,
-       "avg_price": 3.3
+       "count": 2288,
+       "avg_price": 3.31
       },
       {
        "brand": "COLGATE",
-       "count": 1575,
-       "avg_price": 3.87
+       "count": 2263,
+       "avg_price": 3.86
       },
       {
        "brand": "SYOSS",
-       "count": 1548,
-       "avg_price": 7.03
+       "count": 2193,
+       "avg_price": 7.06
       }
      ]
     },
     "SREDSTVA ZA ČIŠĆENJE": {
-     "count": 35178,
-     "pg_count": 7559,
-     "avg_price": 9.04,
-     "pg_avg_price": 13.26,
-     "competitor_avg_price": 7.88,
-     "competitor_count": 27619,
+     "count": 50091,
+     "pg_count": 10785,
+     "avg_price": 9.1,
+     "pg_avg_price": 13.32,
+     "competitor_avg_price": 7.95,
+     "competitor_count": 39306,
      "top_competitor_brands": [
       {
        "brand": "PERSIL",
-       "count": 2001,
+       "count": 2884,
        "avg_price": 17.58
       },
       {
        "brand": "DAX",
-       "count": 1898,
+       "count": 2775,
        "avg_price": 2.23
       },
       {
        "brand": "BREF",
-       "count": 1509,
-       "avg_price": 4.84
+       "count": 2197,
+       "avg_price": 4.81
       },
       {
        "brand": "VIOLETA",
-       "count": 1386,
-       "avg_price": 5.21
+       "count": 2008,
+       "avg_price": 5.22
       },
       {
        "brand": "FAKS",
-       "count": 1347,
-       "avg_price": 12.61
+       "count": 1889,
+       "avg_price": 12.58
       },
       {
        "brand": "SOMAT",
-       "count": 1301,
-       "avg_price": 18.9
+       "count": 1864,
+       "avg_price": 18.96
       },
       {
        "brand": "ORNEL",
-       "count": 1258,
-       "avg_price": 3.88
+       "count": 1757,
+       "avg_price": 3.87
       },
       {
        "brand": "AIRWICK",
-       "count": 1136,
-       "avg_price": 7.35
-      }
-     ]
-    },
-    "TOALETNE POTREPŠTINE": {
-     "count": 14147,
-     "pg_count": 2992,
-     "avg_price": 5.44,
-     "pg_avg_price": 11.92,
-     "competitor_avg_price": 3.7,
-     "competitor_count": 11155,
-     "top_competitor_brands": [
-      {
-       "brand": "VIOLETA",
-       "count": 2398,
-       "avg_price": 6.31
-      },
-      {
-       "brand": "LUMPI",
-       "count": 1087,
-       "avg_price": 4.75
-      },
-      {
-       "brand": "NATUR",
-       "count": 1045,
-       "avg_price": 2.32
-      },
-      {
-       "brand": "OLEA",
-       "count": 908,
-       "avg_price": 1.36
-      },
-      {
-       "brand": "LIBRESSE",
-       "count": 818,
-       "avg_price": 2.36
-      },
-      {
-       "brand": "ZEWA",
-       "count": 622,
-       "avg_price": 3.78
-      },
-      {
-       "brand": "PALOMA",
-       "count": 580,
-       "avg_price": 3.33
-      },
-      {
-       "brand": "LOLA",
-       "count": 299,
-       "avg_price": 1.94
+       "count": 1550,
+       "avg_price": 7.42
       }
      ]
     },
     "PROIZVODI ZA KUĆANSTVO": {
-     "count": 23705,
+     "count": 34587,
      "pg_count": 0,
-     "avg_price": 5.79,
+     "avg_price": 5.82,
      "pg_avg_price": null,
-     "competitor_avg_price": 5.79,
-     "competitor_count": 23705,
+     "competitor_avg_price": 5.82,
+     "competitor_count": 34587,
      "top_competitor_brands": [
       {
        "brand": "DAX",
-       "count": 2012,
+       "count": 3022,
        "avg_price": 2.3
       },
       {
-       "brand": "PALOMA",
-       "count": 1392,
-       "avg_price": 2.04
-      },
-      {
        "brand": "VILEDA",
-       "count": 1342,
-       "avg_price": 13.38
+       "count": 1988,
+       "avg_price": 13.23
       },
       {
        "brand": "FINO",
-       "count": 1288,
-       "avg_price": 2.71
+       "count": 1914,
+       "avg_price": 2.7
       },
       {
-       "brand": "FELIX",
-       "count": 1266,
-       "avg_price": 3.78
+       "brand": "PALOMA",
+       "count": 1855,
+       "avg_price": 2.06
       },
       {
        "brand": "BUDDY",
-       "count": 1243,
-       "avg_price": 2.41
+       "count": 1834,
+       "avg_price": 2.34
+      },
+      {
+       "brand": "FELIX",
+       "count": 1832,
+       "avg_price": 3.71
       },
       {
        "brand": "PEDIGREE",
-       "count": 1165,
-       "avg_price": 3.76
+       "count": 1721,
+       "avg_price": 3.71
       },
       {
        "brand": "FRISKIES",
-       "count": 1146,
-       "avg_price": 4.24
+       "count": 1671,
+       "avg_price": 4.14
+      }
+     ]
+    },
+    "TOALETNE POTREPŠTINE": {
+     "count": 20127,
+     "pg_count": 4213,
+     "avg_price": 5.38,
+     "pg_avg_price": 11.89,
+     "competitor_avg_price": 3.66,
+     "competitor_count": 15914,
+     "top_competitor_brands": [
+      {
+       "brand": "VIOLETA",
+       "count": 3412,
+       "avg_price": 6.22
+      },
+      {
+       "brand": "LUMPI",
+       "count": 1580,
+       "avg_price": 4.72
+      },
+      {
+       "brand": "NATUR",
+       "count": 1553,
+       "avg_price": 2.33
+      },
+      {
+       "brand": "OLEA",
+       "count": 1335,
+       "avg_price": 1.36
+      },
+      {
+       "brand": "LIBRESSE",
+       "count": 1165,
+       "avg_price": 2.35
+      },
+      {
+       "brand": "ZEWA",
+       "count": 883,
+       "avg_price": 3.79
+      },
+      {
+       "brand": "PALOMA",
+       "count": 820,
+       "avg_price": 3.36
+      },
+      {
+       "brand": "LOLA",
+       "count": 422,
+       "avg_price": 1.95
       }
      ]
     }
@@ -317,20 +317,20 @@
      "pg_brands": [
       {
        "brand": "Ariel",
-       "count": 3202,
-       "avg_price": 16.91
+       "count": 4578,
+       "avg_price": 16.83
       }
      ],
      "competitor_brands": [
       {
        "brand": "Persil",
-       "count": 2001,
+       "count": 2884,
        "avg_price": 17.58
       },
       {
        "brand": "Dash",
-       "count": 370,
-       "avg_price": 18.37
+       "count": 514,
+       "avg_price": 18.22
       },
       {
        "brand": "Weisse Riese",
@@ -339,8 +339,8 @@
       },
       {
        "brand": "Faks",
-       "count": 1347,
-       "avg_price": 12.61
+       "count": 1889,
+       "avg_price": 12.58
       }
      ]
     },
@@ -348,25 +348,25 @@
      "pg_brands": [
       {
        "brand": "Lenor",
-       "count": 1887,
-       "avg_price": 6.4
+       "count": 2697,
+       "avg_price": 6.39
       }
      ],
      "competitor_brands": [
       {
        "brand": "Violeta",
-       "count": 796,
-       "avg_price": 4.64
+       "count": 1156,
+       "avg_price": 4.65
       },
       {
        "brand": "Ornel",
-       "count": 1362,
-       "avg_price": 3.92
+       "count": 1907,
+       "avg_price": 3.91
       },
       {
        "brand": "Silan",
-       "count": 913,
-       "avg_price": 5.16
+       "count": 1241,
+       "avg_price": 5.17
       }
      ]
     },
@@ -374,25 +374,25 @@
      "pg_brands": [
       {
        "brand": "Jar",
-       "count": 773,
+       "count": 1107,
        "avg_price": 4.28
       }
      ],
      "competitor_brands": [
       {
        "brand": "Čarli",
-       "count": 313,
-       "avg_price": 2.41
+       "count": 456,
+       "avg_price": 2.4
       },
       {
        "brand": "Likvi",
-       "count": 545,
+       "count": 775,
        "avg_price": 5.1
       },
       {
        "brand": "Pur",
-       "count": 889,
-       "avg_price": 4.05
+       "count": 1271,
+       "avg_price": 3.96
       }
      ]
     },
@@ -400,20 +400,20 @@
      "pg_brands": [
       {
        "brand": "Jar",
-       "count": 856,
-       "avg_price": 29.57
+       "count": 1262,
+       "avg_price": 29.43
       }
      ],
      "competitor_brands": [
       {
        "brand": "Somat",
-       "count": 1302,
-       "avg_price": 18.89
+       "count": 1867,
+       "avg_price": 18.96
       },
       {
        "brand": "Finish",
-       "count": 659,
-       "avg_price": 17.35
+       "count": 961,
+       "avg_price": 17.3
       }
      ]
     },
@@ -421,20 +421,20 @@
      "pg_brands": [
       {
        "brand": "Ambi Pur",
-       "count": 841,
-       "avg_price": 6.36
+       "count": 1141,
+       "avg_price": 6.54
       }
      ],
      "competitor_brands": [
       {
        "brand": "Glade",
-       "count": 780,
-       "avg_price": 6.29
+       "count": 1053,
+       "avg_price": 6.24
       },
       {
        "brand": "AirWick",
-       "count": 1136,
-       "avg_price": 7.35
+       "count": 1550,
+       "avg_price": 7.42
       }
      ]
     },
@@ -442,8 +442,8 @@
      "pg_brands": [
       {
        "brand": "Pampers",
-       "count": 225,
-       "avg_price": 21.03
+       "count": 287,
+       "avg_price": 20.77
       }
      ],
      "competitor_brands": [
@@ -458,19 +458,19 @@
      "pg_brands": [
       {
        "brand": "Pampers",
-       "count": 379,
-       "avg_price": 6.84
+       "count": 545,
+       "avg_price": 6.9
       }
      ],
      "competitor_brands": [
       {
        "brand": "Violeta",
-       "count": 60,
-       "avg_price": 2.8
+       "count": 92,
+       "avg_price": 2.81
       },
       {
        "brand": "K Plus",
-       "count": 17025,
+       "count": 25046,
        "avg_price": 2.71
       }
      ]
@@ -479,20 +479,20 @@
      "pg_brands": [
       {
        "brand": "Always",
-       "count": 1080,
-       "avg_price": 3.2
+       "count": 1543,
+       "avg_price": 3.18
       }
      ],
      "competitor_brands": [
       {
        "brand": "Naturella",
-       "count": 246,
-       "avg_price": 3.13
+       "count": 335,
+       "avg_price": 3.1
       },
       {
        "brand": "Libresse",
-       "count": 818,
-       "avg_price": 2.36
+       "count": 1165,
+       "avg_price": 2.35
       },
       {
        "brand": "WeCare",
@@ -501,8 +501,8 @@
       },
       {
        "brand": "Carefree",
-       "count": 225,
-       "avg_price": 2.89
+       "count": 316,
+       "avg_price": 2.9
       }
      ]
     },
@@ -510,8 +510,8 @@
      "pg_brands": [
       {
        "brand": "Pantene",
-       "count": 1071,
-       "avg_price": 5.29
+       "count": 1519,
+       "avg_price": 5.3
       },
       {
        "brand": "Head & Shoulders",
@@ -520,35 +520,35 @@
       },
       {
        "brand": "Herbal Essences",
-       "count": 241,
-       "avg_price": 6.97
+       "count": 361,
+       "avg_price": 7.03
       }
      ],
      "competitor_brands": [
       {
        "brand": "Elseve",
-       "count": 1354,
-       "avg_price": 4.65
+       "count": 1953,
+       "avg_price": 4.66
       },
       {
        "brand": "Garnier",
-       "count": 1328,
-       "avg_price": 5.41
+       "count": 1895,
+       "avg_price": 5.45
       },
       {
        "brand": "Gliss",
-       "count": 982,
-       "avg_price": 6.41
+       "count": 1413,
+       "avg_price": 6.4
       },
       {
        "brand": "Syoss",
-       "count": 1944,
-       "avg_price": 7.21
+       "count": 2760,
+       "avg_price": 7.25
       },
       {
        "brand": "Schauma",
-       "count": 1347,
-       "avg_price": 3.72
+       "count": 1920,
+       "avg_price": 3.71
       }
      ]
     },
@@ -556,40 +556,40 @@
      "pg_brands": [
       {
        "brand": "Old Spice",
-       "count": 2474,
-       "avg_price": 5.92
+       "count": 3480,
+       "avg_price": 5.93
       }
      ],
      "competitor_brands": [
       {
        "brand": "Axe",
-       "count": 1185,
-       "avg_price": 5.76
+       "count": 1669,
+       "avg_price": 5.79
       },
       {
        "brand": "Rexona",
-       "count": 458,
+       "count": 673,
        "avg_price": 5.9
       },
       {
        "brand": "Nivea",
-       "count": 8742,
-       "avg_price": 8.83
+       "count": 12440,
+       "avg_price": 8.89
       },
       {
        "brand": "Dove",
-       "count": 2128,
-       "avg_price": 4.19
+       "count": 3055,
+       "avg_price": 4.22
       },
       {
        "brand": "Fa",
-       "count": 1627,
-       "avg_price": 3.3
+       "count": 2288,
+       "avg_price": 3.31
       },
       {
        "brand": "Borotalco",
-       "count": 639,
-       "avg_price": 3.31
+       "count": 910,
+       "avg_price": 3.32
       }
      ]
     },
@@ -597,20 +597,20 @@
      "pg_brands": [
       {
        "brand": "Gillette",
-       "count": 2179,
-       "avg_price": 15.08
+       "count": 3104,
+       "avg_price": 14.47
       }
      ],
      "competitor_brands": [
       {
        "brand": "BIC",
-       "count": 99,
-       "avg_price": 4.63
+       "count": 144,
+       "avg_price": 4.62
       },
       {
        "brand": "Wilkinson",
-       "count": 729,
-       "avg_price": 5.14
+       "count": 1040,
+       "avg_price": 5.18
       }
      ]
     },
@@ -618,15 +618,15 @@
      "pg_brands": [
       {
        "brand": "Oral-B",
-       "count": 1066,
-       "avg_price": 12.6
+       "count": 1482,
+       "avg_price": 12.38
       }
      ],
      "competitor_brands": [
       {
        "brand": "Sensodyne",
-       "count": 781,
-       "avg_price": 6.59
+       "count": 1114,
+       "avg_price": 6.56
       },
       {
        "brand": "Paradontax",
@@ -635,192 +635,252 @@
       },
       {
        "brand": "Signal",
-       "count": 726,
+       "count": 1027,
        "avg_price": 3.72
       },
       {
        "brand": "Curaprox",
-       "count": 351,
-       "avg_price": 9.66
+       "count": 517,
+       "avg_price": 9.67
       },
       {
        "brand": "Colgate",
-       "count": 1575,
-       "avg_price": 3.87
+       "count": 2263,
+       "avg_price": 3.86
       }
      ]
     }
    },
    "diagnostics": {
-    "blank_brand_field_rows": 11014,
+    "blank_brand_field_rows": 16052,
     "blank_brand_field_pct": 1.9,
-    "matched_via_brand_field": 15439,
-    "matched_via_product_name_fallback": 2845,
+    "matched_via_brand_field": 21846,
+    "matched_via_product_name_fallback": 4108,
     "top_brands_seen": [
      [
       "K PLUS",
-      15098
+      22275
      ],
      [
       "PODRAVKA",
-      12674
+      18543
      ],
      [
       "NIVEA",
-      8742
+      12440
      ],
      [
       "LEDO",
-      6541
+      9704
      ],
      [
       "GARDEN GOOD",
-      6478
+      9576
      ],
      [
       "FERRERO",
-      5180
+      7508
      ],
      [
       "MILKA",
-      5093
+      7425
      ],
      [
       "MINUTE",
-      4702
+      7028
      ],
      [
       "KOTANYI",
-      4662
+      6788
      ],
      [
       "VIOLETA",
-      4623
-     ],
-     [
-      "FRANCK",
-      4293
+      6650
      ],
      [
       "Z BREGOV",
-      4156
+      6281
      ],
      [
-      "OLEA",
-      4106
+      "FRANCK",
+      6238
      ],
      [
       "CEKIN",
-      4099
+      5929
      ],
      [
-      "PIK VRBOVEC",
-      4023
+      "OLEA",
+      5892
      ],
      [
       "DAX",
-      3910
+      5797
+     ],
+     [
+      "PIK VRBOVEC",
+      5756
      ],
      [
       "ZVIJEZDA",
-      3869
-     ],
-     [
-      "DOLCELA",
-      3820
+      5693
      ],
      [
       "PIK",
-      3724
+      5523
+     ],
+     [
+      "DOLCELA",
+      5493
      ],
      [
       "GAVRILOVIĆ",
-      3687
+      5467
      ],
      [
       "SPECIAL MOMENTS",
-      3629
+      5355
      ],
      [
       "FINESSE",
-      3541
+      5112
      ],
      [
       "HRUSTY",
-      3436
+      4984
      ],
      [
       "DR OETKER",
-      3252
+      4762
      ],
      [
       "WRIGLEY",
-      3250
+      4743
      ],
      [
       "ARIEL",
-      3202
-     ],
-     [
-      "POLLEO",
-      3007
+      4578
      ],
      [
       "NESCAFE",
-      2991
+      4361
      ],
      [
       "LINO",
-      2850
-     ],
-     [
-      "BARILLA",
-      2760
+      4111
      ],
      [
       "MLINAR",
-      2719
+      4086
+     ],
+     [
+      "POLLEO",
+      4043
+     ],
+     [
+      "BARILLA",
+      4006
      ],
      [
       "FRUCTAL",
-      2589
-     ],
-     [
-      "OLD SPICE",
-      2454
+      3637
      ],
      [
       "CEDEVITA",
-      2443
-     ],
-     [
-      "VINDI",
-      2435
-     ],
-     [
-      "KRAŠ",
-      2423
+      3578
      ],
      [
       "PRESIDENT",
-      2360
+      3534
      ],
      [
-      "HIPP",
-      2355
+      "KRAŠ",
+      3533
+     ],
+     [
+      "OLD SPICE",
+      3450
+     ],
+     [
+      "VINDI",
+      3446
      ],
      [
       "MAGGI",
-      2290
+      3275
      ],
      [
-      "KANDIT",
-      2241
+      "ACTIVE ZONE",
+      3269
+     ],
+     [
+      "HIPP",
+      3211
      ]
     ]
    },
-   "flagged_count": 5162,
+   "flagged_count": 4147,
    "flagged_items": [
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90993772",
+     "product": "GLAVA ZAMJ ORAL B EL.ČE STITCH 4 kom",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 29.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90993776",
+     "product": "SET ORAL B EL ČET STITCH + ETUI",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 68.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995983",
+     "product": "ZP ORAL B COMPLETE WHITE 75 ml",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 2.79,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996066",
+     "product": "ŠAMPON HERBAL ESSENCES ARGAN 630 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 11.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996071",
+     "product": "ŠAMPON HERBAL ESSENCES RUŽA 630 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 11.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
     {
      "store_id": "1200",
      "store_name": "Konzum Vrbovec",
@@ -830,6 +890,390 @@
      "brand": "AFRODITA",
      "category": "KOZMETIKA",
      "last_seen_price": 12.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995986",
+     "product": "ZP ORAL B COMPLETE FRESH 75 ml",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 2.79,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995990",
+     "product": "ZP ORAL B COMPLETE 75 ml",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 2.79,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996062",
+     "product": "MASKA PANTENE PRO-V MOISTURE 300 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 8.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995321",
+     "product": "STICK OLD SPICE COLD 70 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995342",
+     "product": "GEL TUŠ OLD SPICE COLD 1 l",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995350",
+     "product": "GEL TUŠ OLD SPICE ROCKSTAR 1 l",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995969",
+     "product": "ZP ORAL B PRO EXPERT SENSIT 2X75 ml",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.75,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90402235",
+     "product": "BRIJAČ JEDNOK BLUE3 3KOM LIGA PRVAKA",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.69,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90402643",
+     "product": "ZP ORAL B DESN&CAKL 75Mml PROF GEN WH",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90324299",
+     "product": "BRIJAČ VENUS SIMPLY 3 OŠTRICE 4 kom",
+     "brand": "VENUS",
+     "category": "KOZMETIKA",
+     "last_seen_price": 6.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90156905",
+     "product": "STICK OLDSP WHITEWATER 50ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885712",
+     "product": "BALZAM KCG 100 ml",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 8.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06562166",
+     "product": "PATRONE GILL FUS PROGL MAN 4KOM",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 25.59,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885797",
+     "product": "ČETKICA ORAL B PRO EXPERT 2/1",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.59,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850389",
+     "product": "REGEN PANTENE THICK&STRONG 275 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850680",
+     "product": "ZP ORAL B KIDS 75 ml",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90382262",
+     "product": "LENOR MIRISNE PERLICE GOLD ORCHID 210g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90731340",
+     "product": "OM LENOR NORTHERN SOLSTICE 770ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662792",
+     "product": "DET ARIEL COLOR 13TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 8.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886450",
+     "product": "DET ARIEL LE FRESH AIR 1.35 L=30 PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 15.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886280",
+     "product": "DET ARIEL LE AMETHYST 38TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90705877",
+     "product": "DET ARIEL OXI 2.75kg=50PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 15.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886227",
+     "product": "OM LENOR SPRING AWAKE 1.491 L",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662817",
+     "product": "DET ARIEL COMPLETE 36 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90300072",
+     "product": "DN UL ALWAYS DEO RPW 20/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 1.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90167389",
+     "product": "PEL GAĆ PAMP EL JP 44/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 21.63,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90477873",
+     "product": "PEL GAĆICE PAMPERS JUMBOPACK S7 38 KO",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90769909",
+     "product": "HIG UL ALWAYS ULTRA PL NIGHT  20/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90361331",
+     "product": "PELENE GAĆ PAMPERS PREMIUM VP S4 9-15kg 38/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 21.63,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90668667",
+     "product": "HIG UL ALWAYS ULTRA SUPER WING 32/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90800144",
+     "product": "HIG UL ALWAYS ULTRA SNIGHT EXTRA 32/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90707868",
+     "product": "PEL PAMPERS PREMIUM VP S3 60/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
@@ -849,42 +1293,54 @@
      "store_id": "1200",
      "store_name": "Konzum Vrbovec",
      "city": "Vrbovec",
-     "product_id": "90969905",
-     "product": "SET AFRODITA HOLIDAY FAIRYTALE",
-     "brand": "AFRODITA",
+     "product_id": "90996039",
+     "product": "TRETMAN PANTENE PRO-V MOISTUR 135 ml",
+     "brand": "PANTENE",
      "category": "KOZMETIKA",
-     "last_seen_price": 10.0,
+     "last_seen_price": 9.39,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90995321",
-     "product": "STICK OLD SPICE COLD 70 ml",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90993762",
+     "product": "GEL TUŠ OLDSPICE BEARGLOVE 1000 ml",
      "brand": "OLD SPICE",
      "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
+     "last_seen_price": 5.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996043",
+     "product": "MASKA PANTENE GROW ABUNDANT 300 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "90993856",
      "product": "PJENA GILL ORIGINAL 250 ml",
      "brand": "GILLETTE",
      "category": "KOZMETIKA",
-     "last_seen_price": 3.99,
+     "last_seen_price": 3.69,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "90995929",
      "product": "KONAC ZUBNI OB MENTA 50 m",
      "brand": "ORAL B",
@@ -894,1725 +1350,81 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90954933",
-     "product": "SET OS SPORTFAN WW STICK+SG",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90904798",
-     "product": "ŠAMP PANTENE 400ml+MASK INT R 300ml",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996057",
+     "product": "SERUM PANTENE GROW ABUNDANT 60 ml",
      "brand": "PANTENE",
      "category": "KOZMETIKA",
-     "last_seen_price": 7.95,
+     "last_seen_price": 11.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90976144",
-     "product": "ŠAMP PANTENE PRO-V HYD REC 400 ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91010029",
-     "product": "DET ARIEL JAPAN BLOSSOM 4.05 L=90PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 32.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91020919",
-     "product": "DET ARIEL COLOR 4.995 L=111PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 21.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005477",
-     "product": "OM LENOR SENSITIVE 1.491 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.09,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005510",
-     "product": "DET ARIEL OXI 1.925 kg=35PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005513",
-     "product": "DET ARIEL EXTRA CLEAN 50 TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 35.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90992026",
-     "product": "DET ARIEL MSPRING 1.8 L=40 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90996200",
-     "product": "OM LENOR SPRING AWAKENING 2.65 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 12.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90995135",
-     "product": "DET ARIEL COLOR 4.05L 90 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 18.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886616",
-     "product": "OM LENOR GOLD ORCHID 2X987 ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 5.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886619",
-     "product": "OM LENOR SPRING AWAK 2X1.239 l",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 5.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06561545",
-     "product": "GEL GILL SER SENSITIV 200ml 4692",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90425032",
-     "product": "STICK DEO OLD SPICE WHITE 2x50ML",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 10.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703269",
-     "product": "PATRONE GILL FUSION 12/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 39.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90887402",
-     "product": "ČETKICA ORAL B KIDS 3 21 SOFT",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995956",
+     "product": "ZP ORAL B PRO EXPERT 2X75 ml",
      "brand": "ORAL B",
      "category": "KOZMETIKA",
-     "last_seen_price": 3.19,
+     "last_seen_price": 5.75,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90662792",
-     "product": "DET ARIEL COLOR 13TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705877",
-     "product": "DET ARIEL OXI 2.75kg=50PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 15.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886227",
-     "product": "OM LENOR SPRING AWAKE 1.491 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886197",
-     "product": "OM LENOR COTTON FRESH 987 ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703528",
-     "product": "OM LENOR SPRING AWAK 850ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 2.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850669",
-     "product": "GEL TUŠ OLD SPICE WOLFTHORN 1 L",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90042632",
-     "product": "BRIJAČ JEDN GILL BLUE 10+4",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 11.01,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90380442",
-     "product": "PATRONE GILL FUSION 8/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 27.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886271",
-     "product": "DET ARIEL EX STAIN REMOVAL38TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 27.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886431",
-     "product": "DET ARIEL EX STAIN REMOV 1.35 L=30PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 19.59,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90830351",
-     "product": "DET ARIEL COLOR 100 TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 24.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705882",
-     "product": "DET ARIEL COLOR 1L=20PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 5.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705935",
-     "product": "DET ARIEL EXTRA CLEAN 1.95L=39PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886180",
-     "product": "OM LENOR PT GOLD ORCHID 1.239 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90662828",
-     "product": "DET ARIEL EXTRA CLEAN 20 TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886380",
-     "product": "DET ARIEL FRESH 3.465 kg=63PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 27.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886217",
-     "product": "OM LENOR SPRING AWAKE 1.239 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705888",
-     "product": "DET ARIEL SENSITIVE 0.85L=17PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 7.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90662800",
-     "product": "DET ARIEL COLOR 31 TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703535",
-     "product": "OM LENOR DIAMOND 700ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 2.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886384",
-     "product": "DET ARIEL COLOR 1.8 L=40 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886593",
-     "product": "DET ARIEL COLOR 3.87 L=86 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 25.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703437",
-     "product": "OM LENOR SPRING AWAK 1.23L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90706049",
-     "product": "DET ARIEL M SPRING 1.98kg=36PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90359981",
-     "product": "DEO OLD SPICE WOLF 150ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90198478",
-     "product": "BRIJAČ GIL FUS PRO STYLER+ZAMJ BRIT",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 26.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06550286",
-     "product": "DEO GEL OLDSP WHITEWATER 70ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90572100",
-     "product": "GEL TUŠ OLD SPICE WHITEWAT XXL 675ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.09,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90084739",
-     "product": "STICK OLDSP BEARGLOVE 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06561530",
-     "product": "PJENA GILL REGULAR 200ml 8668",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 2.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90885618",
-     "product": "DEO OS TIGER CLAW 150 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90362390",
-     "product": "GEL TUŠ OLD SPICE CAPTAIN 400ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90424317",
-     "product": "ZP ORAL B G&E PRO EX FR 2x75ml",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06630094",
-     "product": "BRITVICE PLATINUM D/E SSC 5/1 2595",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 2.45,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886406",
-     "product": "DET ARIEL COLOR 2.7 L=60 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 27.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703542",
-     "product": "OM LENOR ORCHID 925ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886436",
-     "product": "DET ARIEL EX STAIN REMOV 1.8 L=40 PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 15.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886585",
-     "product": "DET ARIEL MOUNTAIN SPRING 60TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 18.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886315",
-     "product": "PERLICE LENOR SPRING AWAK 195 g",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90712800",
-     "product": "DET ARIEL MSPRING 4.4kg=80PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 25.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886250",
-     "product": "DET ARIEL MOUNTAIN SPRING 30TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705848",
-     "product": "DET ARIEL M SPRING 1.1kg=20PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 7.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886302",
-     "product": "DET ARIEL FRESH 2.2 kg=40PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06560865",
-     "product": "GEL GILL SATIN CARE OSJET 200ML 3007",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850393",
-     "product": "REGEN PANTENE REPAIR&PROTECT 275 ml",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996052",
+     "product": "ŠAMPON PANTENE GROW ABUNDANT 290 ml",
      "brand": "PANTENE",
      "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90158044",
-     "product": "STICK OLDSP ORIGINAL 50 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850659",
-     "product": "BRIJAČ JEDNOK GILLETTE BLUE 3 1/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 2.45,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06560935",
-     "product": "PATRONE Ž GILL VENUS BREEZE",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 21.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90362777",
-     "product": "SIMPLY VENUS3 MULTICOL JEDNOKR BRIJAČI 6kom",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.09,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90362399",
-     "product": "BRIJAČ VENUS3 SENS 3KOM",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.69,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90156905",
-     "product": "STICK OLDSP WHITEWATER 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886268",
-     "product": "DET ARIEL EX STAIN REMOVAL 26TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886184",
-     "product": "OM LENOR PT LOTUS DIAMOND 1.239 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886292",
-     "product": "DET ARIEL FRESH 1.65 kg=30PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 17.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703531",
-     "product": "OM LENOR FLORAL BOUQUET 925ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 3.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886215",
-     "product": "DET ARIEL COLOR 30TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90662837",
-     "product": "DET ARIEL EXTRA CLEAN 26 TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886165",
-     "product": "OM LENOR PT FLORAL BOUQUET 987 ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
      "last_seen_price": 6.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995335",
+     "product": "GEL TUŠ OLD SPICE COLD 400 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90402674",
+     "product": "DEO OLD SPICE DEEP SEA SPR 150ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "90703238",
      "product": "BRIJAČ JEDNOK GILL BLUE2 PLUS 5/1",
      "brand": "GILLETTE",
      "category": "KOZMETIKA",
-     "last_seen_price": 5.49,
+     "last_seen_price": 5.19,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06562139",
-     "product": "BRIJAČ JEDNOK Ž GILL SIM VEN2 4+2",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90885824",
-     "product": "ČETK ORAL B PRO SENS Cl 2/1",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90885633",
-     "product": "STICK OS EPIC LEGEND 50 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90396605",
-     "product": "GEL BRIJ GILL SENSITIVE 240 ML",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886310",
-     "product": "DET ARIEL OXI 1.65 kg=30PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 19.59,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886245",
-     "product": "DET ARIEL COLOR 44TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 27.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90703520",
-     "product": "OM LENOR ORCHID 700ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 2.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886174",
-     "product": "OM LENOR PT GOLD ORCHID 987 ml",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705865",
-     "product": "DET ARIEL M SPRING 2.475kg=45PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90886405",
-     "product": "DET ARIEL COLOR 22TAB",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 17.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705894",
-     "product": "DET ARIEL COLOR 2.15L=43PR",
-     "brand": "ARIEL",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06561244",
-     "product": "PATRONE GILL MACH 3 8/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 18.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850200",
-     "product": "PJENA GILLETTE SENSITIVE 400 ml",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90785289",
-     "product": "OSVJ AMBI PUR SPREJ GOLD ORCH 185 ml",
-     "brand": "AMBI PUR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 6.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90057481",
-     "product": "STICK OLDSP WOLF 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90739679",
-     "product": "BRIJAČ JEDNOK GILL BL3 12/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 15.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90478652",
-     "product": "BRIJAČ GILL MACH3+5PATRONA",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 16.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06560936",
-     "product": "BRIJAČ Ž FW GILL VENUS BREEZE",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 9.69,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90360003",
-     "product": "DEO OLD SPICE WHITEWATER 150ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90362366",
-     "product": "STICK OLD SPICE CAPTAIN 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91004709",
-     "product": "PEL PAMP PR CARE MONTH PACK S5 160/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 39.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90992844",
-     "product": "VL MARAMICE PAMPERS FRESH CLEAN 4X80",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 11.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90992831",
-     "product": "VL MARAMICE PAMPERS 99% WATER 3X60",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 11.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90261066",
-     "product": "DN ULOŠCI ALWAYS NORM FR 58/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.89,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90335550",
-     "product": "PEL PAMPERS AB MAXIPACK S5 54/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 14.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90335553",
-     "product": "PEL PAMPERS AB MAXIPACK S6 48/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 14.4,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90385503",
-     "product": "VL MARAMICE PAMPERS SENSITIVE 4X80",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 11.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90674541",
-     "product": "VL MARAM PAMPER FR CLEAN 5X52",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 8.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90706575",
-     "product": "PEL PAMPERS PREMIUM JP 78 5-9kg",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 31.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90300072",
-     "product": "DN UL ALWAYS DEO RPW 20/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 1.89,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90885818",
-     "product": "ČETKICA ORAL B PRO 3D WHITE",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 3.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06560859",
-     "product": "GEL GILL SER MOISTUR 200ml 0051",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90572069",
-     "product": "ČETKICA OB ALLROUND BLACK 3KOM",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 2.85,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90478656",
-     "product": "PATRONE GILL MACH3 5/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 19.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06630201",
-     "product": "BRIJAČ GILL MACH3       9626",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 9.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90805002",
-     "product": "BRIJAČ GILLETTE FUSION+5 PATRONA",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 21.69,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90425039",
-     "product": "GEL TUŠ OLDSP WHITE 2x400ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 9.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90668667",
-     "product": "HIG UL ALWAYS ULTRA SUPER WING 32/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 4.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06600063",
-     "product": "HIG UL ALWAYS ULT NOĆNI DUO 14/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06500030",
-     "product": "HIG UL ALWAYS UL NOR PL DUO 20/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90360926",
-     "product": "PEL PAMPERS PREMIUM JP S5 58/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 29.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90824671",
-     "product": "HIG UL ALWAYS ULT SEC NIGHT EXT 20/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 4.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90385486",
-     "product": "VL MARAMICE PAMPERS SENSTI 80/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 1.59,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90261062",
-     "product": "DN ULOŠCI ALWAYS LONG 52/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.89,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06500031",
-     "product": "HIG UL ALWAYS SUP+16/1 DUO 6756",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90360921",
-     "product": "PEL PAMPERS PREMIUM JP S4 68/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 29.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90261058",
-     "product": "DN ULOŠCI ALWAYS EXT LONG 44/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.89,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90598671",
-     "product": "STICK OLD SPICE WHITEWATER 85ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.09,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06630400",
-     "product": "PATRONE GILL FUS 4/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 22.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90034822",
-     "product": "ŠAMPON PANTEN INTENZ REG 250ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90706571",
-     "product": "PEL PAMPERS PREMIUM JP S2 88/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 29.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90335528",
-     "product": "PEL PAMPERS AB MAXIPACK S4 62/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 14.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06500267",
-     "product": "PEL PAMPERS PREMIUM JUN 5 11-18KG 44/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 15.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90839902",
-     "product": "PEL PAMPERS PREMIUM VP S7 32/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 15.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90484465",
-     "product": "HIG UL ALWAYS ULT SECURE NIGHT 10/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90364412",
-     "product": "PEL PAMPERS PREM CARE VEL 6 13+ 38KOM",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 15.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90674544",
-     "product": "VL MARAMICE PAMPERS SENS 5X52",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 8.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90167387",
-     "product": "PEL GAĆ PAMP JUNIOR JP 48/1",
-     "brand": "PAMPERS",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 15.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90599154",
-     "product": "HIG UL ALWAYS ULT SEC NIGHT 24/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 4.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90084078",
-     "product": "HIG UL ALWAYS ULT EXT NIGHT DUO 12/1",
-     "brand": "ALWAYS P&G",
-     "category": "TOALETNE POTREPŠTINE",
-     "last_seen_price": 2.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90705800",
-     "product": "ČETKICA OB 3 EFFECT NAT DUO",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 1.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06630018",
-     "product": "BRIJAČ JEDNOK GILL BL II 5/1 3278",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.09,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90699377",
-     "product": "GEL GILL MACH3 EXTRA COMFORT 240ml",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.19,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90669704",
-     "product": "ČETK EL ORAL B VIT PR PROT X BL",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 25.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850353",
-     "product": "REGEN PANTENE REPAIR&PROTECT 800 ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 15.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90775174",
-     "product": "PATRONE VENUS SUGARBERRY 4/1",
-     "brand": "VENUS",
-     "category": "KOZMETIKA",
-     "last_seen_price": 10.0,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90885797",
-     "product": "ČETKICA ORAL B PRO EXPERT 2/1",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.59,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "06560233",
      "product": "BRIJAČ JEDNOK GILL BL 3",
      "brand": "GILLETTE",
@@ -2622,11 +1434,11 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90312078",
-     "product": "DEO OLDSPICE ANITPERSP SPR ORIGINAL 150ml",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90598830",
+     "product": "GEL TUŠ OLD SPICE NIGHT PANT 400ml",
      "brand": "OLD SPICE",
      "category": "KOZMETIKA",
      "last_seen_price": 4.0,
@@ -2634,59 +1446,11 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90298838",
-     "product": "GEL ZA TUŠIRANJE OLDSPICE WHITEWATER 400ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90031299",
-     "product": "PJENA GILL SENSITIVE 300ml",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 3.69,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90729773",
-     "product": "ŠAMPON PANTENE INFINITE LONG 400ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90771199",
-     "product": "BRIJAČ JEDNOK GILL BLUE3 PLUS 12/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 15.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06614074",
-     "product": "KONAC ZUBNI 0B MENTA 50m 5029",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90729766",
+     "product": "ZP ORAL B PROEXPERT PROTECT 75ml",
      "brand": "ORAL B",
      "category": "KOZMETIKA",
      "last_seen_price": 3.0,
@@ -2694,383 +1458,383 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90598669",
-     "product": "DEO OLD SPICE WHITEWATER 250ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.09,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886273",
+     "product": "DET ARIEL EX COLOR CARE 38TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 25.49,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90108239",
-     "product": "SER. ZA KOSU PANT KER.REP.OIL 100ML",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 7.89,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886197",
+     "product": "OM LENOR COTTON FRESH 987 ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 6.39,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90402225",
-     "product": "BRIJAČ GILL BLUE3  6+2KOM LIGA PRVAKA",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 11.79,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886319",
+     "product": "PERLICE LENOR COTTON FRESH 195 g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "06560033",
-     "product": "LOSION OLDSP WHITW 100ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 9.19,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703528",
+     "product": "OM LENOR SPRING AWAK 850ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 2.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850364",
-     "product": "REGEN PANTENE REPAIR&PROTECT 220 ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.0,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662796",
+     "product": "DET ARIEL COLOR 24 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90850411",
-     "product": "ŠAMPON PANTENE 3U1 REPAIR&PR 325 ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703448",
+     "product": "OM LENOR FRESH WIND 462ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90775140",
-     "product": "GEL TUŠ OLD SPICE WHITEWATER 1 l",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.99,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886271",
+     "product": "DET ARIEL EX STAIN REMOVAL38TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 25.49,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90362371",
-     "product": "DEO OLD SPICE CAPTAIN 150ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 5.39,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90839879",
+     "product": "PELENE GAĆ PAMPERS JP S6 48/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 25.89,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90771281",
-     "product": "ŠAMPON HERBAL ESSENCES ARGAN 350 ml",
-     "brand": "HERBAL ESSENCES",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.69,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06600063",
+     "product": "HIG UL ALWAYS ULT NOĆNI DUO 14/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.29,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90311362",
-     "product": "VINO VENUS 1L",
-     "brand": "VIZBA VALANDOVO",
-     "category": "PIĆE",
-     "last_seen_price": 5.09,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90167384",
+     "product": "PEL GAĆ PAMP MAXI JP 52/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 21.63,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91020995",
-     "product": "SPREJ PANTENE SUNKISS GLOW 75 ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 3.49,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06500030",
+     "product": "HIG UL ALWAYS UL NOR PL DUO 20/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.29,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021419",
-     "product": "STICK OLDSP WOLF 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021402",
-     "product": "DEO OLD SPICE WHITEWATER 200 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021422",
-     "product": "STICK OLDSPICE ORIGINAL 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021426",
-     "product": "STICK OLDSP WHITEWATER 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021406",
-     "product": "STICK OLD SPICE EPIC LEGEND 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90298817",
-     "product": "MASKA PANTENE REPAIR&PROTECT 300ml",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90034829",
-     "product": "ŠAMPON PANTEN INTENZ REG 400ML",
-     "brand": "PANTENE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90402635",
-     "product": "ZP ORAL B DESNI&CAKL EX FR 75ml",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021436",
-     "product": "DEO OLD SPICE WOLF 200 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021392",
-     "product": "STICK OLD SPICE CAPTAIN 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021383",
-     "product": "DEO OLD SPICE CAPTAIN 200 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021384",
-     "product": "STICK OLDSP BEARGLOVE 65 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91020998",
-     "product": "STICK OLD SPICE WHITEWATER 2X85 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91021001",
-     "product": "STICK OLD SPICE CAPTAIN 2X85 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 8.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90995359",
-     "product": "STICK OLD SPICE WHITEWATER 70 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90995942",
-     "product": "ZP ORAL B PRO EXPERT 75 ml",
-     "brand": "ORAL B",
-     "category": "KOZMETIKA",
-     "last_seen_price": 3.79,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90995329",
-     "product": "DEO OLD SPICE COLD 150 ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90699350",
-     "product": "PATRONE GILLETTE MACH3 12/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90360926",
+     "product": "PEL PAMPERS PREMIUM JP S5 58/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
      "last_seen_price": 27.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90044320",
-     "product": "ŠAMPON PANTENE AQUALIGHT 400ML",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90879964",
+     "product": "HIG UL ALWAYS PLAT LONG 26/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90824671",
+     "product": "HIG UL ALWAYS ULT SEC NIGHT EXT 20/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90385486",
+     "product": "VL MARAMICE PAMPERS SENSTI 80/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 1.59,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90261062",
+     "product": "DN ULOŠCI ALWAYS LONG 52/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06500031",
+     "product": "HIG UL ALWAYS SUP+16/1 DUO 6756",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90360921",
+     "product": "PEL PAMPERS PREMIUM JP S4 68/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 27.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90839877",
+     "product": "PELENE GAĆ PAMPERS JP S5 56/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 25.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90261058",
+     "product": "DN ULOŠCI ALWAYS EXT LONG 44/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90995371",
+     "product": "STICK OLD SPICE CAPTAIN 70 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90996048",
+     "product": "REGEN PANTENE GR ABUNDAN 250 ml",
      "brand": "PANTENE",
      "category": "KOZMETIKA",
-     "last_seen_price": 6.49,
+     "last_seen_price": 6.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90453725",
-     "product": "GLAVA ZAMJ ORAL B ZA EL ČETK CROSS BL 4 KOM",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90954933",
+     "product": "SET OS SPORTFAN WW STICK+SG",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06562139",
+     "product": "BRIJAČ JEDNOK Ž GILL SIM VEN2 4+2",
+     "brand": "VENUS",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.39,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90146981",
+     "product": "KONAC ZUBNI OB PRO EXP CL 25m",
      "brand": "ORAL B",
      "category": "KOZMETIKA",
-     "last_seen_price": 15.89,
+     "last_seen_price": 3.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "90924733",
-     "product": "SPREJ PANTENE SUNKISS GLOW 200 ml",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771240",
+     "product": "REGEN PANTENE MIRAC VOLUME 160 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885824",
+     "product": "ČETK ORAL B PRO SENS Cl 2/1",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 6.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885633",
+     "product": "STICK OS EPIC LEGEND 50 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90362382",
+     "product": "STICK OLD SPICE AP CAPT 70ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90298838",
+     "product": "GEL ZA TUŠIRANJE OLDSPICE WHITEWATER 400ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90031299",
+     "product": "PJENA GILL SENSITIVE 300ml",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.39,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90729773",
+     "product": "ŠAMPON PANTENE INFINITE LONG 400ml",
      "brand": "PANTENE",
      "category": "KOZMETIKA",
      "last_seen_price": 5.99,
@@ -3078,129 +1842,117 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005442",
-     "product": "OM LENOR SPRING AWAKENING 1.995 L",
-     "brand": "LENOR",
-     "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.19,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90570754",
+     "product": "GLAVA ZAMJ ORAL B iO ULT CLEAN BL 4KOM",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 30.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005507",
-     "product": "DET ARIEL EXTR CLEAN 1.575 L=35PR",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771199",
+     "product": "BRIJAČ JEDNOK GILL BLUE3 PLUS 12/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 14.69,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886431",
+     "product": "DET ARIEL EX STAIN REMOV 1.35 L=30PR",
      "brand": "ARIEL",
      "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.98,
+     "last_seen_price": 17.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91009915",
-     "product": "OM LENOR JAPANESE BLOSSOM 1.239 L",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90830351",
+     "product": "DET ARIEL COLOR 100 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 24.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90705882",
+     "product": "DET ARIEL COLOR 1L=20PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90705935",
+     "product": "DET ARIEL EXTRA CLEAN 1.95L=39PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886180",
+     "product": "OM LENOR PT GOLD ORCHID 1.239 L",
      "brand": "LENOR",
      "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 8.09,
+     "last_seen_price": 3.99,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1733",
-     "store_name": "Konzum Split",
-     "city": "Split",
-     "product_id": "91005461",
-     "product": "OM LENOR GOLD ORCHID 1.827L",
-     "brand": "LENOR",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662828",
+     "product": "DET ARIEL EXTRA CLEAN 20 TAB",
+     "brand": "ARIEL",
      "category": "SREDSTVA ZA ČIŠĆENJE",
-     "last_seen_price": 10.19,
+     "last_seen_price": 10.0,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90703248",
-     "product": "PJENA GILL SOOTHING SENS 200ml",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 3.0,
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886380",
+     "product": "DET ARIEL FRESH 3.465 kg=63PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 25.49,
      "days_missing": 3,
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90057481",
-     "product": "STICK OLDSP WOLF 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90739679",
-     "product": "BRIJAČ JEDNOK GILL BL3 12/1",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 13.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90478652",
-     "product": "BRIJAČ GILL MACH3+5PATRONA",
-     "brand": "GILLETTE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 16.29,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90360003",
-     "product": "DEO OLD SPICE WHITEWATER 150ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
-     "product_id": "90362366",
-     "product": "STICK OLD SPICE CAPTAIN 50ml",
-     "brand": "OLD SPICE",
-     "category": "KOZMETIKA",
-     "last_seen_price": 4.99,
-     "days_missing": 3,
-     "as_of": "2026-10-01"
-    },
-    {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "90886217",
      "product": "OM LENOR SPRING AWAKE 1.239 L",
      "brand": "LENOR",
@@ -3210,14 +1962,1262 @@
      "as_of": "2026-10-01"
     },
     {
-     "store_id": "1830",
-     "store_name": "Konzum Osijek",
-     "city": "Osijek",
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90706571",
+     "product": "PEL PAMPERS PREMIUM JP S2 88/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 27.19,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90335528",
+     "product": "PEL PAMPERS AB MAXIPACK S4 62/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 14.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90335522",
+     "product": "PEL PAMPERS AB MAXIPACK S3 70/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 14.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06500267",
+     "product": "PEL PAMPERS PREMIUM JUN 5 11-18KG 44/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90839902",
+     "product": "PEL PAMPERS PREMIUM VP S7 32/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90484465",
+     "product": "HIG UL ALWAYS ULT SECURE NIGHT 10/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90385475",
+     "product": "VL MARAMICE PAMPERS SENSTI 52/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.09,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90706566",
+     "product": "PEL PAMPERS PREMIUM JP S1 72/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 19.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90874774",
+     "product": "PEL PAMPERS PREMIUM JP S6 50/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 27.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90361334",
+     "product": "PELENE GAĆ PAMPERS PREMIUM VP S5 12-17kg 34/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06500268",
+     "product": "PEL PAMPERS PREMIUM MAXI 4 7-18KG 52/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90954922",
+     "product": "SET OS CAPTAIN TORBA DEO+STICK+SG",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90904798",
+     "product": "ŠAMP PANTENE 400ml+MASK INT R 300ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.95,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90954905",
+     "product": "SET PANTENE R&P SH400 ml+REG220 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90954907",
+     "product": "SET PANTENE INF SH400 ml+REG220 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90976139",
+     "product": "REGEN PANTENE PRO-V HYD REC 275 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90969905",
+     "product": "SET AFRODITA HOLIDAY FAIRYTALE",
+     "brand": "AFRODITA",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90598823",
+     "product": "PATRONE VENUS SMOOTH SENS PINK 4KOM",
+     "brand": "VENUS",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885638",
+     "product": "GEL TUŠ OS WOLFTHORN 675 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90396605",
+     "product": "GEL BRIJ GILL SENSITIVE 240 ML",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.19,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06561244",
+     "product": "PATRONE GILL MACH 3 8/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 18.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885671",
+     "product": "GEL TUŠ OS TIGER CLAW 400 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850674",
+     "product": "TRIMER ZA BRADU KCG PRO",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 71.59,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90598669",
+     "product": "DEO OLD SPICE WHITEWATER 250ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90108239",
+     "product": "SER. ZA KOSU PANT KER.REP.OIL 100ML",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
      "product_id": "90705888",
      "product": "DET ARIEL SENSITIVE 0.85L=17PR",
      "brand": "ARIEL",
      "category": "SREDSTVA ZA ČIŠĆENJE",
      "last_seen_price": 7.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703443",
+     "product": "OM LENOR COTTON FRESH 925ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 2.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662800",
+     "product": "DET ARIEL COLOR 31 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886230",
+     "product": "OM LENOR SUMMER BREEZE 1.491 L",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 7.39,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703535",
+     "product": "OM LENOR DIAMOND 700ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 2.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90904706",
+     "product": "PERLICE LENOR GOLD ORCHID 495 g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 16.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886384",
+     "product": "DET ARIEL COLOR 1.8 L=40 PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 8.98,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90364412",
+     "product": "PEL PAMPERS PREM CARE VEL 6 13+ 38KOM",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90674544",
+     "product": "VL MARAMICE PAMPERS SENS 5X52",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 7.85,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90800134",
+     "product": "HIG UL ALWAYS ULTRA SUPER 48/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90874769",
+     "product": "PELENE GAĆ PAMPERS JP S7 42/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 25.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90622756",
+     "product": "VL MARAM PAMPERS HARM AQA 3X48",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 8.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90668669",
+     "product": "HIG UL ALWAYS UL REG WING LIGHT 40/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90167387",
+     "product": "PEL GAĆ PAMP JUNIOR JP 48/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 15.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90599154",
+     "product": "HIG UL ALWAYS ULT SEC NIGHT 24/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90568120",
+     "product": "PEL GAĆ PAMPERS NIGHT S6 19/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 11.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90084078",
+     "product": "HIG UL ALWAYS ULT EXT NIGHT DUO 12/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 2.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90954918",
+     "product": "SET OS ROCKSTAR TORBA DEO+ST+SG",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 15.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90976136",
+     "product": "REGEN PANTENE PRO-V 3MIN MIR 220 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90976144",
+     "product": "ŠAMP PANTENE PRO-V HYD REC 400 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90976159",
+     "product": "KONAC ZUBNI OB SUPERFLOSS 50",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.15,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90729735",
+     "product": "PATRONE GILLETTE KCG STYLE M 8/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 15.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90052852",
+     "product": "LAK PANTEN VOLUMEN 250ML",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885800",
+     "product": "ČETKICA ORAL B PRO EXPERT 2/1",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850375",
+     "product": "REGEN PANTENE AQUA LIGHT 275 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771272",
+     "product": "ŠAMPON HERBAL ESSENCES ORANGE 350 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850200",
+     "product": "PJENA GILLETTE SENSITIVE 400 ml",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.19,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90402679",
+     "product": "STICK OLD SPICE DEEP SEA 50ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90775155",
+     "product": "DEO OLD SPICE ROCKSTAR 150 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90835113",
+     "product": "SET ORAL B EL ČET LION KING+PUT ETUI",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 30.79,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885678",
+     "product": "GEL TUŠ OS EPIC LEGEND 400 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771249",
+     "product": "MASKA HERBAL ESSENCES ROSE 300 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 8.35,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90064664",
+     "product": "ŠAMPON PANTEN MOISTURE 400ML",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885654",
+     "product": "STICK OS WOLFTHORN 85 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 7.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90402225",
+     "product": "BRIJAČ GILL BLUE3  6+2KOM LIGA PRVAKA",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.98,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771236",
+     "product": "MASKA PANTENE MIRAC HYDRATION 300 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885629",
+     "product": "DEO OS EPIC LEGEND 150 ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06560033",
+     "product": "LOSION OLDSP WHITW 100ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 8.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90353569",
+     "product": "BRIJAČ JEDNOK GILL SENSIT 3KOM",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90904710",
+     "product": "PERLICE LENOR FRESH 195 g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886593",
+     "product": "DET ARIEL COLOR 3.87 L=86 PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 23.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703514",
+     "product": "OM LENOR SUMMER BREEZE 850ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 2.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703437",
+     "product": "OM LENOR SPRING AWAK 1.23L",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90706049",
+     "product": "DET ARIEL M SPRING 1.98kg=36PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886131",
+     "product": "OM LENOR FA NORTHERN SOLSTICE 700 ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 7.39,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886406",
+     "product": "DET ARIEL COLOR 2.7 L=60 PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 25.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703542",
+     "product": "OM LENOR ORCHID 925ml",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886585",
+     "product": "DET ARIEL MOUNTAIN SPRING 60TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 18.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886315",
+     "product": "PERLICE LENOR SPRING AWAK 195 g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90406912",
+     "product": "PEL PAMPERS AB MAXIPACK S7 44/1",
+     "brand": "PAMPERS",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 13.2,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90800137",
+     "product": "HIG UL ALWAYS ULTRA NORMAL 56/1",
+     "brand": "ALWAYS P&G",
+     "category": "TOALETNE POTREPŠTINE",
+     "last_seen_price": 4.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90453738",
+     "product": "GLAVA ZAMJ ORAL B ZA EL ČETK SENS UL TH 4 KOM",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 15.89,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90324334",
+     "product": "BRIJAČ JEDNOK GILL BLUE3 COOL 6+2",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 10.98,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703248",
+     "product": "PJENA GILL SOOTHING SENS 200ml",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90168959",
+     "product": "BRIJAČ FUSION PROGL POWER RAZOR 1UP",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 18.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850411",
+     "product": "ŠAMPON PANTENE 3U1 REPAIR&PR 325 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90662821",
+     "product": "DET ARIEL EXTRA CLEAN 10 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90712800",
+     "product": "DET ARIEL MSPRING 4.4kg=80PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 23.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886250",
+     "product": "DET ARIEL MOUNTAIN SPRING 30TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 8.98,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90705929",
+     "product": "DET ARIEL M SPRING 2.4L=48PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 10.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90705848",
+     "product": "DET ARIEL M SPRING 1.1kg=20PR",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 7.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90886322",
+     "product": "PERLICE LENOR GOLDEN ORCHID 195 g",
+     "brand": "LENOR",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 3.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90826034",
+     "product": "DET ARIEL FRESH AIR 36 TAB",
+     "brand": "ARIEL",
+     "category": "SREDSTVA ZA ČIŠĆENJE",
+     "last_seen_price": 15.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "06561545",
+     "product": "GEL GILL SER SENSITIV 200ml 4692",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.19,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90850689",
+     "product": "REGEN PANTENE COLOR 275 ml",
+     "brand": "PANTENE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.0,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885827",
+     "product": "ČETKICA EL ORAL B iO2 BLACK",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 62.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90598674",
+     "product": "DEO OLD SPICE NIGHT PANTHER 150ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90425032",
+     "product": "STICK DEO OLD SPICE WHITE 2x50ML",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 9.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90900104",
+     "product": "PATRONE GILLETTE MACH 3 16/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 37.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703269",
+     "product": "PATRONE GILL FUSION 12/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 39.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90887402",
+     "product": "ČETKICA ORAL B KIDS 3 21 SOFT",
+     "brand": "ORAL B",
+     "category": "KOZMETIKA",
+     "last_seen_price": 3.19,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885675",
+     "product": "BRIJAČ VENUS SIMPLY3+ H+4/1",
+     "brand": "VENUS",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.29,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90703761",
+     "product": "STICK DEO OLD SPICE CAPTAIN 2X50ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 9.49,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90885647",
+     "product": "PATRONE VENUS SUGAR 3/1",
+     "brand": "VENUS",
+     "category": "KOZMETIKA",
+     "last_seen_price": 19.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90057481",
+     "product": "STICK OLDSP WOLF 50ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90739679",
+     "product": "BRIJAČ JEDNOK GILL BL3 12/1",
+     "brand": "GILLETTE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 13.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90775140",
+     "product": "GEL TUŠ OLD SPICE WHITEWATER 1 l",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 5.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771251",
+     "product": "MASKA HERBAL ESSENCES ARGAN 300 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 8.35,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90362371",
+     "product": "DEO OLD SPICE CAPTAIN 150ml",
+     "brand": "OLD SPICE",
+     "category": "KOZMETIKA",
+     "last_seen_price": 4.99,
+     "days_missing": 3,
+     "as_of": "2026-10-01"
+    },
+    {
+     "store_id": "1200",
+     "store_name": "Konzum Vrbovec",
+     "city": "Vrbovec",
+     "product_id": "90771281",
+     "product": "ŠAMPON HERBAL ESSENCES ARGAN 350 ml",
+     "brand": "HERBAL ESSENCES",
+     "category": "KOZMETIKA",
+     "last_seen_price": 6.19,
      "days_missing": 3,
      "as_of": "2026-10-01"
     }
