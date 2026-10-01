@@ -143,10 +143,27 @@ class KonzumCrawler(BaseCrawler):
         return store
 
     def get_index(self, date: datetime.date) -> list[str]:
+        """
+        Walk Konzum's paginated price-list index for this date until a page
+        comes back with no CSV links.
+
+        This used to stop after page 9 unconditionally (`range(1, 10)`),
+        which silently truncated the result whenever Konzum published more
+        pages than that for a given day — e.g. tracking only ~107 stores
+        against the ~636 Konzum operates nationally. The loop already had a
+        correct "stop once a page is empty" condition; the fixed upper bound
+        was cutting it off before that condition could ever fire on a day
+        with a lot of stores. MAX_PAGES below is just a safety ceiling to
+        avoid looping forever if Konzum's pagination ever breaks and starts
+        repeating content — it does not limit how many *real* pages get
+        fetched on a normal day.
+        """
         url = f"{self.INDEX_URL}?date={date:%Y-%m-%d}"
+        MAX_PAGES = 60
 
         csv_urls = []
-        for page in range(1, 10):
+        page = 1
+        while page <= MAX_PAGES:
             page_url = f"{url}&page={page}"
             content = self.fetch_text(page_url)
             if not content:
@@ -157,6 +174,7 @@ class KonzumCrawler(BaseCrawler):
                 break
 
             csv_urls.extend(csv_urls_on_page)
+            page += 1
 
         return csv_urls
 

@@ -419,62 +419,67 @@ def build_product_price_history(
 def compute_missing_flags(
    retailer: str, as_of: date, threshold: int = MISSING_DAYS_THRESHOLD, lookback_days: int = 60
 ) -> list[dict]:
-   """
-   Walk backwards from `as_of` through saved history files for `retailer`
-   and flag any (store_id, product_id) that:
-     - has appeared at least once in the retained history, and
-     - is absent from the price list for `threshold`+ consecutive
-       *published* days counting back from the most recent file we have,
-   never counting back further than the product's first-ever appearance.
-   This is an inference from public price-list presence/absence, not real
-   warehouse inventory data.
-   """
-   dates = [d for d in available_dates(retailer) if d <= as_of]
-   dates = dates[-lookback_days:]
-   if not dates:
-       return []
-   # product_key -> {"first_seen": date, "last_seen": date, "meta": {...}}
-   seen: dict[tuple, dict] = {}
-   presence_by_date: dict[date, set] = {}
-   for d in dates:
-       payload = load_day(retailer, d)
-       if not payload:
-           continue
-       present_today = set()
-       for row in payload["pg_products"]:
-           key = (row["store_id"], row["product_id"])
-           present_today.add(key)
-           info = seen.setdefault(key, {"first_seen": d, "meta": row})
-           info["last_seen_present"] = d
-           info["meta"] = row  # keep freshest metadata
-       presence_by_date[d] = present_today
-   flags = []
-   most_recent = dates[-1]
-   for key, info in seen.items():
-       # Count consecutive missing days ending at most_recent, not going
-       # back further than first_seen.
-       missing_days = 0
-       for d in reversed(dates):
-           if d < info["first_seen"]:
-               break
-           if key in presence_by_date.get(d, set()):
-               break
-           missing_days += 1
-       if missing_days >= threshold:
-           meta = info["meta"]
-           flags.append(
-               {
-                   "store_id": meta["store_id"],
-                   "store_name": meta["store_name"],
-                   "city": meta.get("city", ""),
-                   "product_id": meta["product_id"],
-                   "product": meta["product"],
-                   "brand": meta["brand"],
-                   "category": meta["category"],
-                   "last_seen_price": meta.get("price"),
-                   "days_missing": missing_days,
-                   "as_of": most_recent.isoformat(),
-               }
-           )
-   flags.sort(key=lambda f: f["days_missing"], reverse=True)
-   return flags
+    """
+    Walk backwards from `as_of` through saved history files for `retailer`
+    and flag any (store_id, product_id) that:
+      - has appeared at least once in the retained history, and
+      - is absent from the price list for `threshold`+ consecutive
+        *published* days counting back from the most recent file we have,
+    never counting back further than the product's first-ever appearance.
+
+    This is an inference from public price-list presence/absence, not real
+    warehouse inventory data.
+    """
+    dates = [d for d in available_dates(retailer) if d <= as_of]
+    dates = dates[-lookback_days:]
+    if not dates:
+        return []
+
+    # product_key -> {"first_seen": date, "last_seen": date, "meta": {...}}
+    seen: dict[tuple, dict] = {}
+    presence_by_date: dict[date, set] = {}
+
+    for d in dates:
+        payload = load_day(retailer, d)
+        if not payload:
+            continue
+        present_today = set()
+        for row in payload["pg_products"]:
+            key = (row["store_id"], row["product_id"])
+            present_today.add(key)
+            info = seen.setdefault(key, {"first_seen": d, "meta": row})
+            info["last_seen_present"] = d
+            info["meta"] = row  # keep freshest metadata
+        presence_by_date[d] = present_today
+
+    flags = []
+    most_recent = dates[-1]
+    for key, info in seen.items():
+        # Count consecutive missing days ending at most_recent, not going
+        # back further than first_seen.
+        missing_days = 0
+        for d in reversed(dates):
+            if d < info["first_seen"]:
+                break
+            if key in presence_by_date.get(d, set()):
+                break
+            missing_days += 1
+        if missing_days >= threshold:
+            meta = info["meta"]
+            flags.append(
+                {
+                    "store_id": meta["store_id"],
+                    "store_name": meta["store_name"],
+                    "city": meta.get("city", ""),
+                    "product_id": meta["product_id"],
+                    "product": meta["product"],
+                    "brand": meta["brand"],
+                    "category": meta["category"],
+                    "last_seen_price": meta.get("price"),
+                    "days_missing": missing_days,
+                    "as_of": most_recent.isoformat(),
+                }
+            )
+
+    flags.sort(key=lambda f: f["days_missing"], reverse=True)
+    return flags
