@@ -30,6 +30,7 @@ from config import (
     CATEGORY_BRANDS,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
     HISTORY_DIR,
+    LOOKBACK_DAYS,
     MISSING_DAYS_THRESHOLD,
     PG_BRANDS,
     PRIVATE_LABEL_BRANDS,
@@ -59,6 +60,27 @@ def _contains_as_word(haystack: str, needle: str) -> bool:
     return bool(pattern.search(haystack))
 
 
+def _keyword_rule_matches(norm_product: str, rule) -> bool:
+    """
+    Evaluate one CATEGORY_DISAMBIGUATION_KEYWORDS rule against a normalized
+    product name. `rule` is either a plain list of keywords (matches if ANY
+    are present — the original, simple form) or a dict with "include"
+    and/or "exclude" keyword lists (matches if an "include" keyword is
+    present AND no "exclude" keyword is present). The dict form is for
+    brands that sell several genuinely different product lines under
+    overlapping wording, e.g. Violeta's "Baby Wipes" vs. its makeup-removal
+    wipes and wet toilet paper, which all share the Croatian word
+    "maramice".
+    """
+    if isinstance(rule, dict):
+        include = rule.get("include", [])
+        exclude = rule.get("exclude", [])
+        if exclude and any(kw in norm_product for kw in exclude):
+            return False
+        return any(kw in norm_product for kw in include) if include else True
+    return any(kw in norm_product for kw in rule)
+
+
 def _build_watchlist_index(retailer: str):
     """
     Builds the per-retailer lookup structures for CATEGORY_BRANDS:
@@ -76,7 +98,7 @@ def _build_watchlist_index(retailer: str):
     for category, brands in CATEGORY_BRANDS.items():
         brands = list(brands)
         private_label = PRIVATE_LABEL_BRANDS.get(retailer)
-        if category == "Wipes" and private_label and private_label not in brands:
+        if category == "Baby Wipes" and private_label and private_label not in brands:
             brands = brands + [private_label]
 
         init_prices[category] = {}
@@ -101,6 +123,8 @@ def _norm(text: str) -> str:
     data.
     """
     return re.sub(r"\s+", " ", (text or "").replace("-", " ").strip().upper())
+
+
 def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
     """
     Decide whether a row is a P&G product, and how we decided.
@@ -215,8 +239,8 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         else:
                             target_cat = None
                             for cat in cats_for_brand:
-                                keywords = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
-                                if any(kw in norm_product for kw in keywords):
+                                rule = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
+                                if _keyword_rule_matches(norm_product, rule):
                                     target_cat = cat
                                     break
                         if target_cat:
@@ -374,6 +398,63 @@ def available_dates(retailer: str) -> list[date]:
         except ValueError:
             continue
     return sorted(out)
+
+
+def build_product_price_history(
+    retailer: str, as_of: date, lookback_days: int = LOOKBACK_DAYS
+) -> dict[str, list[dict]]:
+    """
+    Per-product (by barcode) daily price history for the last
+    `lookback_days` published days, so the dashboard can show "how has this
+    product's price moved" when someone clicks into it — not just today's
+    per-store snapshot.
+
+    Covers the same two row sets already saved in each day's history file —
+    P&G's own products and the manager's tracked competitor watchlist
+    brands — not the retailer's full catalog, which is what keeps this
+    small enough to publish alongside the rest of the dashboard's data.
+
+    Returns: barcode -> list of {date, avg_price, min_price, max_price,
+    store_count}, oldest first. A barcode simply has no entry for a day it
+    wasn't seen on, rather than a zero/null placeholder — a product on the
+    market for only part of the window shouldn't look like it was ever
+    priced at zero.
+    """
+    dates = [d for d in available_dates(retailer) if d <= as_of]
+    dates = dates[-lookback_days:]
+
+    # barcode -> date (iso string) -> list of prices seen that day (across stores)
+    series: dict[str, dict[str, list[float]]] = {}
+
+    for d in dates:
+        payload = load_day(retailer, d)
+        if not payload:
+            continue
+        rows = list(payload.get("pg_products", [])) + list(
+            payload.get("watchlist_competitor_products", [])
+        )
+        for row in rows:
+            barcode = row.get("barcode")
+            price = row.get("price")
+            if not barcode or price is None:
+                continue
+            series.setdefault(barcode, {}).setdefault(d.isoformat(), []).append(price)
+
+    result: dict[str, list[dict]] = {}
+    for barcode, by_date in series.items():
+        points = []
+        for iso_date, prices in sorted(by_date.items()):
+            points.append(
+                {
+                    "date": iso_date,
+                    "avg_price": round(mean(prices), 2),
+                    "min_price": round(min(prices), 2),
+                    "max_price": round(max(prices), 2),
+                    "store_count": len(prices),
+                }
+            )
+        result[barcode] = points
+    return result
 
 
 def compute_missing_flags(

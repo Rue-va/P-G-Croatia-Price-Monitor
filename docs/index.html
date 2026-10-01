@@ -283,18 +283,23 @@ function renderRetailer(name) {
     </div>
 
     <div class="section">
-      <h2>P&amp;G products tracked — by SKU</h2>
-      <p class="status-line" style="margin-top:-4px;">One row per SKU across all stores. Click a row to see its price by individual store.</p>
+      <h2>Products tracked — by SKU</h2>
+      <p class="status-line" style="margin-top:-4px;">One row per SKU across all stores — P&amp;G's own products plus the named competitor brands tracked in the Competitor Tracker above. Click a row to see its price by individual store and over time.</p>
       <div class="search-row">
         <input type="text" id="product-search" placeholder="Search by product or brand…">
         <select id="category-filter"><option value="">All raw categories</option></select>
         <select id="pg-category-filter"><option value="">All P&amp;G categories (Hair Care, Femcare, Laundry, …)</option></select>
         <select id="brand-filter"><option value="">All brands</option></select>
+        <select id="side-filter">
+          <option value="">P&amp;G + competitors</option>
+          <option value="pg">P&amp;G only</option>
+          <option value="competitor">Tracked competitors only</option>
+        </select>
         <span class="search-count" id="product-count"></span>
       </div>
       <div class="scroll-table"><table id="sku-table"><thead>
-        <tr><th>Product</th><th>Brand</th><th>Category</th><th>EAN</th><th class="num"># Stores</th><th class="num">Min €</th><th class="num">Avg €</th><th class="num">Max €</th></tr>
-      </thead><tbody><tr><td colspan="8" class="empty">Loading…</td></tr></tbody></table></div>
+        <tr><th>Product</th><th>Brand</th><th>Side</th><th>Category</th><th>EAN</th><th class="num"># Stores</th><th class="num">Min €</th><th class="num">Avg €</th><th class="num">Max €</th></tr>
+      </thead><tbody><tr><td colspan="9" class="empty">Loading…</td></tr></tbody></table></div>
 
       <div class="sku-detail" id="sku-detail">
         <button class="close-detail" onclick="closeSkuDetail()">✕ close</button>
@@ -304,6 +309,11 @@ function renderRetailer(name) {
         <div class="scroll-table" style="margin-top:14px;"><table id="sku-store-table"><thead>
           <tr><th>Store</th><th>Address</th><th>City</th><th class="num">Price</th></tr>
         </thead><tbody></tbody></table></div>
+        <div id="sku-history-block" style="margin-top:18px;">
+          <h3 style="font-size:14px;margin-bottom:4px;">Price over time</h3>
+          <p class="sub" id="sku-history-sub"></p>
+          <canvas id="skuHistoryChart"></canvas>
+        </div>
       </div>
     </div>
 
@@ -330,17 +340,22 @@ let skuGroupsCache = {};  // retailer -> array of grouped SKU objects
 let skuChartInstance = null;
 
 function groupIntoSkus(rows) {
-  // Group per-store rows into one entry per SKU (product_id, falling back to
-  // product+brand if a retailer's product_id isn't stable), so a manager can
-  // see "this SKU, across N stores" rather than N separate rows for the
-  // same product.
+  // Group per-store rows into one entry per SKU. Prefer the barcode (EAN) as
+  // the grouping key — it's the one identifier that's genuinely unique to a
+  // single product everywhere — over the retailer's own internal product_id,
+  // which isn't always reliable (Lidl's own code has been seen reused across
+  // more than a dozen completely different products), and which would
+  // otherwise silently lump unrelated SKUs into one inflated "store count".
+  // Falls back to product_id, then product+brand, only when no barcode is
+  // present on the row.
   const groups = new Map();
   for (const row of rows) {
-    const key = row.product_id ? `id:${row.product_id}` : `nb:${row.product}|${row.brand}`;
+    const key = row.barcode ? `ean:${row.barcode}` : (row.product_id ? `id:${row.product_id}` : `nb:${row.product}|${row.brand}`);
     if (!groups.has(key)) {
       groups.set(key, {
         product: row.product, brand: row.brand, category: row.category,
         fighting_category: row.fighting_category || null,
+        side: row.side || 'pg',
         ean: row.barcode || '', stores: [],
       });
     }
@@ -364,12 +379,13 @@ async function loadProducts(retailer) {
   const categorySelect = document.getElementById('category-filter');
   const pgCategorySelect = document.getElementById('pg-category-filter');
   const brandSelect = document.getElementById('brand-filter');
+  const sideSelect = document.getElementById('side-filter');
   const searchInput = document.getElementById('product-search');
   closeSkuDetail();
 
   try {
-    await ensureProductsLoaded(retailer);
-    const skus = skuGroupsCache[retailer] || (skuGroupsCache[retailer] = groupIntoSkus(productsCache[retailer]));
+    const allRows = await ensureAllTrackedProductsLoaded(retailer);
+    const skus = skuGroupsCache[retailer] || (skuGroupsCache[retailer] = groupIntoSkus(allRows));
 
     // Populate filter dropdowns from what's actually in this retailer's data.
     // Two different category taxonomies coexist here on purpose: "category"
@@ -394,11 +410,13 @@ async function loadProducts(retailer) {
       const cat = categorySelect.value;
       const pgCat = pgCategorySelect.value;
       const brand = brandSelect.value;
+      const side = sideSelect.value;
       const filtered = skus.filter(s =>
         (!q || (s.product || '').toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q)) &&
         (!cat || s.category === cat) &&
         (!pgCat || (pgCat === '__other__' ? !s.fighting_category : s.fighting_category === pgCat)) &&
-        (!brand || s.brand === brand)
+        (!brand || s.brand === brand) &&
+        (!side || s.side === side)
       );
       const shown = filtered.slice(0, 300);
       countEl.textContent = `${filtered.length.toLocaleString()} SKU${filtered.length === 1 ? '' : 's'}${filtered.length > 300 ? ' (showing first 300 — narrow your filter)' : ''}`;
@@ -406,13 +424,14 @@ async function loadProducts(retailer) {
         <tr data-idx="${i}">
           <td>${escapeHtml(s.product)}</td>
           <td>${escapeHtml(s.brand)}</td>
+          <td>${s.side === 'competitor' ? 'Competitor' : 'P&amp;G'}</td>
           <td>${escapeHtml(s.category)}</td>
           <td>${escapeHtml(s.ean) || '—'}</td>
           <td class="num">${s.store_count}</td>
           <td class="num">${s.min_price != null ? s.min_price.toFixed(2) : '—'}</td>
           <td class="num">${s.avg_price != null ? s.avg_price.toFixed(2) : '—'}</td>
           <td class="num">${s.max_price != null ? s.max_price.toFixed(2) : '—'}</td>
-        </tr>`).join('') : '<tr><td colspan="8" class="empty">No matches.</td></tr>';
+        </tr>`).join('') : '<tr><td colspan="9" class="empty">No matches.</td></tr>';
 
       // Bind clicks in JS rather than inline onclick="" strings — product
       // names/categories can contain quotes or accented characters that
@@ -431,12 +450,15 @@ async function loadProducts(retailer) {
     categorySelect.onchange = renderRows;
     pgCategorySelect.onchange = renderRows;
     brandSelect.onchange = renderRows;
+    sideSelect.onchange = renderRows;
   } catch (e) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">Could not load the product list for this retailer.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" class="empty">Could not load the product list for this retailer.</td></tr>';
   }
 }
 
-function showSkuDetail(sku) {
+let skuHistoryChartInstance = null;
+
+async function showSkuDetail(sku) {
   if (!sku) return;
 
   const panel = document.getElementById('sku-detail');
@@ -488,6 +510,48 @@ function showSkuDetail(sku) {
       },
     },
   });
+
+  // Price-over-time chart — sourced from the daily history already kept for
+  // this product (by barcode), separate from the per-store bar chart above.
+  const historySub = document.getElementById('sku-history-sub');
+  const historyCtx = document.getElementById('skuHistoryChart');
+  if (skuHistoryChartInstance) { skuHistoryChartInstance.destroy(); skuHistoryChartInstance = null; }
+  if (!sku.ean) {
+    historySub.textContent = "No barcode on this product, so price history can't be tracked.";
+  } else {
+    const historyMap = await ensurePriceHistoryLoaded(activeRetailer);
+    const points = historyMap[sku.ean] || [];
+    if (points.length < 2) {
+      historySub.textContent = points.length === 1
+        ? 'Only one day of history recorded so far — check back after a few more daily updates.'
+        : 'No price history recorded yet for this product.';
+    } else {
+      historySub.textContent = `${points.length} day${points.length === 1 ? '' : 's'} of history, ${fmtDate(points[0].date)} – ${fmtDate(points[points.length - 1].date)}`;
+      skuHistoryChartInstance = new Chart(historyCtx, {
+        type: 'line',
+        data: {
+          labels: points.map(p => fmtDate(p.date)),
+          datasets: [{
+            label: 'Avg price (€)',
+            data: points.map(p => p.avg_price),
+            borderColor: '#004b93',
+            backgroundColor: 'rgba(0, 75, 147, 0.08)',
+            fill: true,
+            tension: 0.15,
+            pointRadius: points.length > 30 ? 0 : 3,
+          }],
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { beginAtZero: false, title: { display: true, text: 'EUR' } },
+            x: { ticks: { autoSkip: true, maxRotation: 60, minRotation: 30 } },
+          },
+        },
+      });
+    }
+  }
 
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -600,6 +664,43 @@ async function loadWatchlistCompetitorRows(retailer) {
     }
   }
   return watchlistCompetitorCache[retailer];
+}
+
+let allTrackedProductsCache = {};  // retailer -> P&G rows + tracked-competitor rows, each tagged with `side`
+
+async function ensureAllTrackedProductsLoaded(retailer) {
+  // The "Products tracked — by SKU" table covers both P&G's own products
+  // and the named competitor brands tracked in the Competitor Tracker —
+  // not the retailer's entire catalog (thousands of unrelated grocery
+  // items), which the tool deliberately doesn't store row-by-row. Tags
+  // each row with `side` so the table can filter/label P&G vs. competitor,
+  // and so a competitor row without a raw `category` value still groups
+  // and filters sensibly.
+  if (!allTrackedProductsCache[retailer]) {
+    const [pgRows, compRows] = await Promise.all([
+      ensureProductsLoaded(retailer),
+      loadWatchlistCompetitorRows(retailer),
+    ]);
+    allTrackedProductsCache[retailer] = [
+      ...pgRows.map(r => ({ ...r, side: 'pg' })),
+      ...compRows.map(r => ({ ...r, side: 'competitor', category: r.category || 'Uncategorized' })),
+    ];
+  }
+  return allTrackedProductsCache[retailer];
+}
+
+let priceHistoryCache = {};  // retailer -> { barcode: [{date, avg_price, min_price, max_price, store_count}, ...] }
+
+async function ensurePriceHistoryLoaded(retailer) {
+  if (!priceHistoryCache[retailer]) {
+    try {
+      const res = await fetch(`history/${retailer}.json?_=` + Date.now());
+      priceHistoryCache[retailer] = await res.json();
+    } catch (e) {
+      priceHistoryCache[retailer] = {};
+    }
+  }
+  return priceHistoryCache[retailer];
 }
 
 async function showWatchlistDetail(category, brandDisplay, side) {

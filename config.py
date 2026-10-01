@@ -42,11 +42,16 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
     # Split rather than one merged "Diapers & Wipes" bucket, since Pampers
     # and Violeta both sell diapers AND wipes — a product-name keyword (below)
     # decides which one each row belongs to, rather than one blended count
-    # that mixes both product lines together. Retailer's private label
-    # appended to "Wipes" below (the only line we have confirmed evidence
-    # it sells; unconfirmed for Diapers).
+    # that mixes both product lines together. "Baby Wipes" specifically
+    # (not just "Wipes") because Violeta, as a general household brand,
+    # also sells makeup-removal wipes, wet toilet paper, and plain dry
+    # tissues under names that share the same Croatian word "maramice" —
+    # none of which Pampers competes in, so a plain "Wipes" bucket was
+    # blending baby wipes with unrelated product lines. Retailer's private
+    # label appended to "Baby Wipes" below (the only line we have confirmed
+    # evidence it sells; unconfirmed for Diapers).
     "Diapers": ["Pampers", "Violeta"],
-    "Wipes": ["Pampers", "Violeta"],
+    "Baby Wipes": ["Pampers", "Violeta"],
     "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree"],
     "Hair Care": ["Pantene", "Head & Shoulders", "Herbal Essences", "Elseve", "Garnier", "Gliss", "Syoss", "Schauma"],
     "APDO": ["Old Spice", "Axe", "Rexona", "Nivea", "Dove", "Fa", "Borotalco"],
@@ -58,18 +63,41 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
 # (Violeta makes fabric softener, diapers, AND wipes; Pampers makes both
 # diapers and wipes; Jar makes both hand- and machine-dishwashing detergent).
 # The brand field alone can't tell these apart, so a product name keyword
-# decides which category a row belongs to. A row that matches neither
-# keyword set is left uncounted here (it still counts normally everywhere
-# else in the dashboard).
-CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str]]] = {
+# decides which category a row belongs to.
+#
+# Each category's value is either:
+#   - a plain list of keywords: a row counts if the product name contains
+#     ANY of them ("include"-only, the original/simple form), or
+#   - a dict with "include" and/or "exclude" keys: a row counts if it
+#     matches an "include" keyword AND does NOT match any "exclude"
+#     keyword. Used where a brand sells several genuinely different product
+#     lines under overlapping wording (see "Baby Wipes" below).
+# A row that matches neither is left uncounted here (it still counts
+# normally everywhere else in the dashboard).
+CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list[str]]]] = {
     "VIOLETA": {
         "Fabric Enhancers": ["OMEKŠIVA", "OMEKSIVA", "OM "],
         "Diapers": ["PELEN", "PANTS"],
-        "Wipes": ["MARAMIC", "VLAŽN", "VLAZN"],
+        # Violeta, unlike Pampers, sells several unrelated "maramice"
+        # ("wipes"/"tissues" in Croatian) product lines: makeup-removal
+        # wipes ("MARAMICE VIOLETA MAKE UP"), wet toilet paper ("TP VLAŽNI
+        # VIOLETA NEVEN", "...toal. papir..."), disinfectant wipes, and
+        # plain dry tissues ("maramice classic 3 sl.") with no baby
+        # indicator at all. Requiring a baby-specific word AND excluding
+        # makeup/toilet-paper wording keeps this bucket to genuine baby
+        # wet wipes, so it's comparable to Pampers (which only sells baby
+        # wipes). Verified against this brand's actual live product names.
+        "Baby Wipes": {
+            "include": ["BEBI", "BABY", "DJEČ", "DJEC"],
+            "exclude": ["MAKE UP", "MAKEUP", "ŠMINK", "SMINK", "DEMAKE", "TOAL"],
+        },
     },
     "PAMPERS": {
         "Diapers": ["PELEN", "PANTS"],
-        "Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES"],
+        # No exclude list needed — Pampers doesn't sell makeup wipes, wet
+        # toilet paper, or dry tissues, so any "wipe"-shaped product name
+        # is safely a baby wipe.
+        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES"],
     },
     "JAR": {
         "Hand Dishwashing": ["POSUĐ", "POSUD", "SUĐE", "SUDJE"],

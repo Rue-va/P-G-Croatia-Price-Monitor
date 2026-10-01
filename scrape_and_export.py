@@ -23,7 +23,14 @@ import traceback
 from datetime import date, datetime, timezone
 
 from config import DASHBOARD_DATA_FILE, DOCS_DIR, MISSING_DAYS_THRESHOLD, RETAILERS
-from history import build_day_payload, compute_missing_flags, save_day, load_day, available_dates
+from history import (
+    build_day_payload,
+    build_product_price_history,
+    compute_missing_flags,
+    save_day,
+    load_day,
+    available_dates,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -80,6 +87,17 @@ def run_retailer(retailer: str, target_date: date) -> dict:
         (products_path / f"{retailer}_watchlist_competitors.json").write_text(
             json.dumps(payload.get("watchlist_competitor_products", []), ensure_ascii=False, indent=1),
             encoding="utf-8",
+        )
+
+        # Per-product (by barcode) price-over-time series, covering P&G's
+        # own products and the tracked competitor watchlist — powers the
+        # price history chart shown when someone clicks into an individual
+        # product, rather than only ever showing today's snapshot.
+        history_path = DOCS_DIR / "history"
+        history_path.mkdir(parents=True, exist_ok=True)
+        price_history = build_product_price_history(retailer, target_date)
+        (history_path / f"{retailer}.json").write_text(
+            json.dumps(price_history, ensure_ascii=False, indent=1), encoding="utf-8"
         )
 
         return {
