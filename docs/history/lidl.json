@@ -1,0 +1,10440 @@
+{
+ "4015400931225": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  }
+ ],
+ "8001841263854": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  }
+ ],
+ "8001841375557": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  }
+ ],
+ "8001841375885": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  }
+ ],
+ "8001090727015": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "8700216450379": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216075039": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  }
+ ],
+ "8006540280195": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216357814": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "8001841283906": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216162173": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216203982": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "3014260228668": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  }
+ ],
+ "8700216764353": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  }
+ ],
+ "4015400489764": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "8700216861182": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "4015400563846": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  }
+ ],
+ "4015400565574": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  }
+ ],
+ "8006540818824": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  }
+ ],
+ "8700216764285": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  }
+ ],
+ "8700216724074": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.55,
+   "min_price": 6.55,
+   "max_price": 6.55,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.55,
+   "min_price": 6.55,
+   "max_price": 6.55,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.55,
+   "min_price": 6.55,
+   "max_price": 6.55,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.55,
+   "min_price": 6.55,
+   "max_price": 6.55,
+   "store_count": 232
+  }
+ ],
+ "8001090533869": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216704724": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  }
+ ],
+ "8006530146326": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216821407": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  }
+ ],
+ "8001841263908": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  }
+ ],
+ "8006540863138": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 116
+  }
+ ],
+ "8700216156172": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8700216765268": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 20.99,
+   "min_price": 20.99,
+   "max_price": 20.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "8006540319574": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8006530000253": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216884662": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "3859892866884": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "8006540903766": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "8700216171342": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "8001090250681": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "8006540878927": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "8700216724081": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.55,
+   "min_price": 6.55,
+   "max_price": 6.55,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  }
+ ],
+ "7702018617234": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  }
+ ],
+ "8700216708517": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  }
+ ],
+ "8006540940150": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216764896": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "8006530348218": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  }
+ ],
+ "5410076562794": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8006530029469": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "8700216090308": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  }
+ ],
+ "4084500940444": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500940512": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8001090970459": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "3014260228682": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  }
+ ],
+ "7702018405015": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.29,
+   "min_price": 5.29,
+   "max_price": 5.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8700216148092": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 13.45,
+   "min_price": 13.45,
+   "max_price": 13.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 10.59,
+   "min_price": 10.59,
+   "max_price": 10.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.59,
+   "min_price": 10.59,
+   "max_price": 10.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.59,
+   "min_price": 10.59,
+   "max_price": 10.59,
+   "store_count": 116
+  }
+ ],
+ "8006540093764": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "8006540211380": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 464
+  }
+ ],
+ "8006540791394": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 348
+  }
+ ],
+ "8006540940693": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8006540940761": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "7702018426201": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.89,
+   "min_price": 5.89,
+   "max_price": 5.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.89,
+   "min_price": 5.89,
+   "max_price": 5.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.89,
+   "min_price": 5.89,
+   "max_price": 5.89,
+   "store_count": 116
+  }
+ ],
+ "4084500978973": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8006530139021": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  }
+ ],
+ "8700216708418": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 116
+  }
+ ],
+ "8700216873727": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.49,
+   "min_price": 8.49,
+   "max_price": 8.49,
+   "store_count": 116
+  }
+ ],
+ "8006530045995": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216691475": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 232
+  }
+ ],
+ "8700216691635": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  }
+ ],
+ "8700216764933": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.49,
+   "min_price": 19.49,
+   "max_price": 19.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.49,
+   "min_price": 19.49,
+   "max_price": 19.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.49,
+   "min_price": 19.49,
+   "max_price": 19.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.49,
+   "min_price": 19.49,
+   "max_price": 19.49,
+   "store_count": 116
+  }
+ ],
+ "8700216765183": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216938808": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8700216422338": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8006540241233": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.85,
+   "min_price": 6.85,
+   "max_price": 6.85,
+   "store_count": 232
+  }
+ ],
+ "8006540889879": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  }
+ ],
+ "8700216450294": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216733267": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8006540319697": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "7702018982011": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.29,
+   "min_price": 5.29,
+   "max_price": 5.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8006540800331": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 116
+  }
+ ],
+ "8700216722940": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.45,
+   "min_price": 6.45,
+   "max_price": 6.45,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.29,
+   "min_price": 4.29,
+   "max_price": 4.29,
+   "store_count": 232
+  }
+ ],
+ "4084500978881": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500978911": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216856812": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216859820": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216275781": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216691338": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  }
+ ],
+ "8700216764179": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  }
+ ],
+ "8700216508933": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8001841263953": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.66,
+   "min_price": 1.66,
+   "max_price": 1.66,
+   "store_count": 348
+  }
+ ],
+ "8700216157933": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  }
+ ],
+ "8700216074995": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  }
+ ],
+ "8700216090254": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  }
+ ],
+ "8700216090285": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  }
+ ],
+ "8006540315118": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "4015600862268": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500019195": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500490543": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500490581": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "7702018070732": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 11.89,
+   "min_price": 11.89,
+   "max_price": 11.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 11.89,
+   "min_price": 11.89,
+   "max_price": 11.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 11.89,
+   "min_price": 11.89,
+   "max_price": 11.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 11.89,
+   "min_price": 11.89,
+   "max_price": 11.89,
+   "store_count": 116
+  }
+ ],
+ "8700216075084": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 31.49,
+   "min_price": 31.49,
+   "max_price": 31.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 31.49,
+   "min_price": 31.49,
+   "max_price": 31.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 31.49,
+   "min_price": 31.49,
+   "max_price": 31.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 31.49,
+   "min_price": 31.49,
+   "max_price": 31.49,
+   "store_count": 116
+  }
+ ],
+ "8700216764032": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216708388": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216497039": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "8700216610933": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.45,
+   "min_price": 5.45,
+   "max_price": 5.45,
+   "store_count": 116
+  }
+ ],
+ "8700216765145": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216749497": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  }
+ ],
+ "5410076561834": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8700216938839": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8700216605663": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  }
+ ],
+ "8006540889862": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.65,
+   "min_price": 5.65,
+   "max_price": 5.65,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.65,
+   "min_price": 5.65,
+   "max_price": 5.65,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.65,
+   "min_price": 5.65,
+   "max_price": 5.65,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.65,
+   "min_price": 5.65,
+   "max_price": 5.65,
+   "store_count": 116
+  }
+ ],
+ "8700216158114": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  }
+ ],
+ "8700216305303": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.59,
+   "min_price": 6.59,
+   "max_price": 6.59,
+   "store_count": 116
+  }
+ ],
+ "8006540940815": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "8700216879835": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "4015600858735": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "7702018499939": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 11.15,
+   "min_price": 11.15,
+   "max_price": 11.15,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 11.15,
+   "min_price": 11.15,
+   "max_price": 11.15,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 11.15,
+   "min_price": 11.15,
+   "max_price": 11.15,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 11.15,
+   "min_price": 11.15,
+   "max_price": 11.15,
+   "store_count": 116
+  }
+ ],
+ "8006530348171": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  }
+ ],
+ "8006540818862": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.79,
+   "min_price": 6.79,
+   "max_price": 6.79,
+   "store_count": 116
+  }
+ ],
+ "8700216764360": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  }
+ ],
+ "8001090965615": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8006530049023": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.79,
+   "min_price": 5.79,
+   "max_price": 5.79,
+   "store_count": 116
+  }
+ ],
+ "8006530250641": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216880886": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216880770": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216704809": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "8700216704779": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "8700216764940": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.49,
+   "min_price": 18.49,
+   "max_price": 18.49,
+   "store_count": 116
+  }
+ ],
+ "8700216733502": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8006530029292": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "8700216605731": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.89,
+   "min_price": 9.89,
+   "max_price": 9.89,
+   "store_count": 116
+  }
+ ],
+ "8001841375564": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.57,
+   "min_price": 5.57,
+   "max_price": 5.57,
+   "store_count": 232
+  }
+ ],
+ "8700216156134": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8700216075183": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  }
+ ],
+ "8006540280249": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216230988": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216879866": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "4084500479821": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "4084500940383": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "7702018094455": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  }
+ ],
+ "8700216075008": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 35.99,
+   "min_price": 35.99,
+   "max_price": 35.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 35.99,
+   "min_price": 35.99,
+   "max_price": 35.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 35.99,
+   "min_price": 35.99,
+   "max_price": 35.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 35.99,
+   "min_price": 35.99,
+   "max_price": 35.99,
+   "store_count": 116
+  }
+ ],
+ "8700216994293": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216881036": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  }
+ ],
+ "8006530129763": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8700216880909": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "5410076561223": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8006530029339": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "7702018464005": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 11.09,
+   "min_price": 11.09,
+   "max_price": 11.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 11.09,
+   "min_price": 11.09,
+   "max_price": 11.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 11.09,
+   "min_price": 11.09,
+   "max_price": 11.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 11.09,
+   "min_price": 11.09,
+   "max_price": 11.09,
+   "store_count": 116
+  }
+ ],
+ "8700216450423": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  }
+ ],
+ "4015600862640": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216162180": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.85,
+   "min_price": 3.85,
+   "max_price": 3.85,
+   "store_count": 116
+  }
+ ],
+ "8700216692007": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "8006530069915": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.89,
+   "min_price": 7.89,
+   "max_price": 7.89,
+   "store_count": 116
+  }
+ ],
+ "8700216873284": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "8006530146265": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "8700216821339": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 6.39,
+   "min_price": 6.39,
+   "max_price": 6.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.39,
+   "min_price": 6.39,
+   "max_price": 6.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.39,
+   "min_price": 6.39,
+   "max_price": 6.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.39,
+   "min_price": 6.39,
+   "max_price": 6.39,
+   "store_count": 116
+  }
+ ],
+ "8700216509015": [
+  {
+   "date": "2026-09-28",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8001841513706": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  }
+ ],
+ "8001090621801": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 3.25,
+   "min_price": 3.25,
+   "max_price": 3.25,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.25,
+   "min_price": 3.25,
+   "max_price": 3.25,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.25,
+   "min_price": 3.25,
+   "max_price": 3.25,
+   "store_count": 116
+  }
+ ],
+ "20245023": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  }
+ ],
+ "4015400795193": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 2.29,
+   "min_price": 2.29,
+   "max_price": 2.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.29,
+   "min_price": 2.29,
+   "max_price": 2.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.29,
+   "min_price": 2.29,
+   "max_price": 2.29,
+   "store_count": 116
+  }
+ ],
+ "8006530122184": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 24.99,
+   "min_price": 24.99,
+   "max_price": 24.99,
+   "store_count": 116
+  }
+ ],
+ "8006540463598": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.09,
+   "min_price": 6.09,
+   "max_price": 6.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.09,
+   "min_price": 6.09,
+   "max_price": 6.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.09,
+   "min_price": 6.09,
+   "max_price": 6.09,
+   "store_count": 116
+  }
+ ],
+ "8700216253581": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "4304493261570": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.33,
+   "min_price": 1.33,
+   "max_price": 1.33,
+   "store_count": 116
+  }
+ ],
+ "8006530100960": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 25.39,
+   "min_price": 25.39,
+   "max_price": 25.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 25.39,
+   "min_price": 25.39,
+   "max_price": 25.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 25.39,
+   "min_price": 25.39,
+   "max_price": 25.39,
+   "store_count": 116
+  }
+ ],
+ "8006530121934": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 27.29,
+   "min_price": 27.29,
+   "max_price": 27.29,
+   "store_count": 116
+  }
+ ],
+ "8006540750124": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 13.95,
+   "min_price": 13.95,
+   "max_price": 13.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-09-30",
+   "avg_price": 13.95,
+   "min_price": 13.95,
+   "max_price": 13.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 13.95,
+   "min_price": 13.95,
+   "max_price": 13.95,
+   "store_count": 116
+  }
+ ],
+ "20081256": [
+  {
+   "date": "2026-09-29",
+   "avg_price": 6.29,
+   "min_price": 6.29,
+   "max_price": 6.29,
+   "store_count": 116
+  }
+ ],
+ "8700216148146": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 10.99,
+   "min_price": 10.99,
+   "max_price": 10.99,
+   "store_count": 116
+  }
+ ],
+ "9000101850420": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "3574660322712": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "3574661256139": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "5900300056101": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  }
+ ],
+ "5000228015874": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8712561614122": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "4015100216509": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100216523": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "7319470012134": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  }
+ ],
+ "4005808432394": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "3850105163691": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 232
+  }
+ ],
+ "7322540062656": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.75,
+   "min_price": 1.75,
+   "max_price": 1.75,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.75,
+   "min_price": 1.75,
+   "max_price": 1.75,
+   "store_count": 116
+  }
+ ],
+ "9005800351551": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  }
+ ],
+ "9005800350400": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "9005800250328": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3850105177353": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 116
+  }
+ ],
+ "3850105183040": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 232
+  }
+ ],
+ "3850105183019": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 232
+  }
+ ],
+ "3850105191915": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "8000630040843": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8712561319409": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "9000580038579": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "9005800357874": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "9005800385792": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "9005800415017": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "3870128018198": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "4005808246175": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  }
+ ],
+ "4005808246205": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  }
+ ],
+ "4005808247318": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  }
+ ],
+ "4005900826121": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  }
+ ],
+ "4005900935267": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "4015400197546": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  }
+ ],
+ "9000101831658": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "5201143728942": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "8718951313576": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9005800382746": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "9005800313719": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3850105190468": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "9000101566635": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "9000101801323": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.29,
+   "min_price": 15.29,
+   "max_price": 15.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.29,
+   "min_price": 15.29,
+   "max_price": 15.29,
+   "store_count": 116
+  }
+ ],
+ "3870128040519": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3830075445645": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "9005800393193": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.69,
+   "min_price": 7.69,
+   "max_price": 7.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.69,
+   "min_price": 7.69,
+   "max_price": 7.69,
+   "store_count": 116
+  }
+ ],
+ "9005800380551": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "42495741": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3850105193674": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "3850105192806": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9000101786989": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  }
+ ],
+ "9000101858440": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101568363": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 13.95,
+   "min_price": 13.95,
+   "max_price": 13.95,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 13.95,
+   "min_price": 13.95,
+   "max_price": 13.95,
+   "store_count": 232
+  }
+ ],
+ "9000101581508": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3574661552576": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "8712561119825": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "9000101213980": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.15,
+   "min_price": 2.15,
+   "max_price": 2.15,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.15,
+   "min_price": 2.15,
+   "max_price": 2.15,
+   "store_count": 116
+  }
+ ],
+ "3800132250550": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "3800132250574": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "5054563042996": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "5054563072634": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "5054563072658": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "5054563232908": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "4015000999922": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005370": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100216493": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4005900828095": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42241508": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42242147": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3850111304293": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "9005800361161": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "9005800383132": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "3850105182258": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8717163994252": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8717644579107": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8720181284335": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8720181291623": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "4000388669000": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "3850105176646": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.69,
+   "min_price": 8.69,
+   "max_price": 8.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.69,
+   "min_price": 8.69,
+   "max_price": 8.69,
+   "store_count": 116
+  }
+ ],
+ "3870128033023": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "4005900935540": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "8006540399521": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  }
+ ],
+ "5201143728980": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "9000101681307": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "3870128035294": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  }
+ ],
+ "3870128039810": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.19,
+   "min_price": 3.19,
+   "max_price": 3.19,
+   "store_count": 116
+  }
+ ],
+ "9005800308456": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8710447284117": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "8720181291999": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181334719": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181471599": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9000101806458": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.29,
+   "min_price": 15.29,
+   "max_price": 15.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.29,
+   "min_price": 15.29,
+   "max_price": 15.29,
+   "store_count": 116
+  }
+ ],
+ "9000101566086": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "3850111303555": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "3850105188212": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.49,
+   "min_price": 15.49,
+   "max_price": 15.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.49,
+   "min_price": 15.49,
+   "max_price": 15.49,
+   "store_count": 116
+  }
+ ],
+ "3850105191885": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3850105191854": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 11.99,
+   "min_price": 11.99,
+   "max_price": 11.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 11.99,
+   "min_price": 11.99,
+   "max_price": 11.99,
+   "store_count": 232
+  }
+ ],
+ "9005800414027": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "5900017062419": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "42495765": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101581874": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101819250": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "9000101808087": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.49,
+   "min_price": 14.49,
+   "max_price": 14.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.49,
+   "min_price": 14.49,
+   "max_price": 14.49,
+   "store_count": 116
+  }
+ ],
+ "9000101850024": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "3574660322651": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "3574661554877": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "5900300856794": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  }
+ ],
+ "8712561120029": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8718114148304": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "4026600847704": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "4026600848800": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "4015000910897": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005417": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005622": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005677": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005684": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100196856": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100197006": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "9000100852333": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4005808837359": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "9005800372983": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "80453000": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.69,
+   "min_price": 3.69,
+   "max_price": 3.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.69,
+   "min_price": 3.69,
+   "max_price": 3.69,
+   "store_count": 116
+  }
+ ],
+ "9005800318325": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3870128010291": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.79,
+   "min_price": 14.79,
+   "max_price": 14.79,
+   "store_count": 116
+  }
+ ],
+ "3850105182289": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3850105170286": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.35,
+   "min_price": 2.35,
+   "max_price": 2.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.35,
+   "min_price": 2.35,
+   "max_price": 2.35,
+   "store_count": 116
+  }
+ ],
+ "8720181291715": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8711600350212": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "3870128036543": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "5054563186942": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3850111304095": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "9005800372266": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "4005900478566": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "9005800286778": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "070330600065": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.79,
+   "min_price": 1.79,
+   "max_price": 1.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.79,
+   "min_price": 1.79,
+   "max_price": 1.79,
+   "store_count": 116
+  }
+ ],
+ "7322540576450": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.85,
+   "min_price": 2.85,
+   "max_price": 2.85,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.85,
+   "min_price": 2.85,
+   "max_price": 2.85,
+   "store_count": 116
+  }
+ ],
+ "9000101806083": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "9000101831559": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "5900017102429": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "8720181284946": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181284953": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181292064": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181292095": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "5999109545794": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.95,
+   "min_price": 8.95,
+   "max_price": 8.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.95,
+   "min_price": 8.95,
+   "max_price": 8.95,
+   "store_count": 116
+  }
+ ],
+ "8714789235356": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "9005800385587": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9005800380643": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "lidl:0000147": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 23.99,
+   "min_price": 23.99,
+   "max_price": 23.99,
+   "store_count": 232
+  }
+ ],
+ "9000101590159": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "3830029299546": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "42241560": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "9005800390178": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3850105162557": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 13.49,
+   "min_price": 13.49,
+   "max_price": 13.49,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 13.49,
+   "min_price": 13.49,
+   "max_price": 13.49,
+   "store_count": 232
+  }
+ ],
+ "9005800415031": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.99,
+   "min_price": 7.99,
+   "max_price": 7.99,
+   "store_count": 116
+  }
+ ],
+ "9005800361123": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "8718951540033": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  }
+ ],
+ "9005800342634": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "9005800365732": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3870128010253": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "3850105174802": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3850105180612": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "4052917842002": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  }
+ ],
+ "9005800375496": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "3870128021280": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "5054563078124": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3850111304446": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "42449027": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 13.99,
+   "min_price": 13.99,
+   "max_price": 13.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 13.99,
+   "min_price": 13.99,
+   "max_price": 13.99,
+   "store_count": 116
+  }
+ ],
+ "4005808760466": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 7.39,
+   "min_price": 7.39,
+   "max_price": 7.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 7.39,
+   "min_price": 7.39,
+   "max_price": 7.39,
+   "store_count": 116
+  }
+ ],
+ "0070330600065": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.79,
+   "min_price": 1.79,
+   "max_price": 1.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.79,
+   "min_price": 1.79,
+   "max_price": 1.79,
+   "store_count": 116
+  }
+ ],
+ "7322541195032": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "8006540399569": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 348
+  }
+ ],
+ "9000101830880": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.49,
+   "min_price": 15.49,
+   "max_price": 15.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.49,
+   "min_price": 15.49,
+   "max_price": 15.49,
+   "store_count": 116
+  }
+ ],
+ "9000101263916": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "5908252011032": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "7322541195056": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "5999109583352": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 21.99,
+   "min_price": 21.99,
+   "max_price": 21.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 21.99,
+   "min_price": 21.99,
+   "max_price": 21.99,
+   "store_count": 116
+  }
+ ],
+ "8594002687397": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.19,
+   "min_price": 2.19,
+   "max_price": 2.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.19,
+   "min_price": 2.19,
+   "max_price": 2.19,
+   "store_count": 116
+  }
+ ],
+ "8720181334757": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181466502": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9000101561845": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "7322541472065": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.49,
+   "min_price": 2.49,
+   "max_price": 2.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.49,
+   "min_price": 2.49,
+   "max_price": 2.49,
+   "store_count": 116
+  }
+ ],
+ "9005800414010": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "4006000038896": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "4005900648181": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101778915": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.19,
+   "min_price": 6.19,
+   "max_price": 6.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.19,
+   "min_price": 6.19,
+   "max_price": 6.19,
+   "store_count": 116
+  }
+ ],
+ "9000101857856": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101581539": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.95,
+   "min_price": 4.95,
+   "max_price": 4.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.95,
+   "min_price": 4.95,
+   "max_price": 4.95,
+   "store_count": 116
+  }
+ ],
+ "9000101819502": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "3574660322613": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "3574660334937": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "5900300056002": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.69,
+   "min_price": 2.69,
+   "max_price": 2.69,
+   "store_count": 116
+  }
+ ],
+ "8711600639232": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8711700735179": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "4015000910712": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015000910880": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005455": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100196863": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "42242055": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "4005808439836": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "3870128028593": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "9005800372990": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "8718951050860": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  }
+ ],
+ "8714789732244": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.19,
+   "min_price": 2.19,
+   "max_price": 2.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.19,
+   "min_price": 2.19,
+   "max_price": 2.19,
+   "store_count": 116
+  }
+ ],
+ "3850105182340": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8720181177835": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "9005800375540": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "9005800415024": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "3870128008182": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "3870128031326": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.89,
+   "min_price": 2.89,
+   "max_price": 2.89,
+   "store_count": 116
+  }
+ ],
+ "8002410041866": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  }
+ ],
+ "4005900111296": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  }
+ ],
+ "4005900118165": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  }
+ ],
+ "3870128033054": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "4005808237029": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101831672": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "9000101681123": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "8717163340455": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181334740": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "3850105190499": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "8700216742047": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "9005800394428": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.45,
+   "min_price": 4.45,
+   "max_price": 4.45,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.45,
+   "min_price": 4.45,
+   "max_price": 4.45,
+   "store_count": 116
+  }
+ ],
+ "3850105191823": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.99,
+   "min_price": 15.99,
+   "max_price": 15.99,
+   "store_count": 116
+  }
+ ],
+ "9000101586732": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "9000101581911": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101590272": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.95,
+   "min_price": 4.95,
+   "max_price": 4.95,
+   "store_count": 232
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.95,
+   "min_price": 4.95,
+   "max_price": 4.95,
+   "store_count": 232
+  }
+ ],
+ "5999109580061": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.31,
+   "min_price": 5.31,
+   "max_price": 5.31,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.31,
+   "min_price": 5.31,
+   "max_price": 5.31,
+   "store_count": 116
+  }
+ ],
+ "3574660322590": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "8710908052040": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8717644277379": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "3800132250611": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "4015000911061": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005431": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100216592": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4005900036070": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "4006000075402": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "5025970023694": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  }
+ ],
+ "7310791245607": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "7322541194998": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "3850105174291": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.49,
+   "min_price": 3.49,
+   "max_price": 3.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.49,
+   "min_price": 3.49,
+   "max_price": 3.49,
+   "store_count": 116
+  }
+ ],
+ "3870128023963": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "8718951250017": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.59,
+   "min_price": 2.59,
+   "max_price": 2.59,
+   "store_count": 116
+  }
+ ],
+ "4005900907165": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "4005900908698": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 17.99,
+   "min_price": 17.99,
+   "max_price": 17.99,
+   "store_count": 116
+  }
+ ],
+ "5054563158789": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "3850111304132": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.55,
+   "min_price": 2.55,
+   "max_price": 2.55,
+   "store_count": 116
+  }
+ ],
+ "8002410040388": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  }
+ ],
+ "8002410043587": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.19,
+   "min_price": 4.19,
+   "max_price": 4.19,
+   "store_count": 116
+  }
+ ],
+ "4005808247349": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  }
+ ],
+ "9000101838886": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101743616": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.99,
+   "min_price": 6.99,
+   "max_price": 6.99,
+   "store_count": 116
+  }
+ ],
+ "9000101609394": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "3870128035324": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "8718951312722": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "4005808779543": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "4005808228706": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "9005800313252": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "54024892": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "8720181468438": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "3850105190475": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.99,
+   "min_price": 4.99,
+   "max_price": 4.99,
+   "store_count": 116
+  }
+ ],
+ "9005800394725": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "3850105191328": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.95,
+   "min_price": 16.95,
+   "max_price": 16.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.95,
+   "min_price": 16.95,
+   "max_price": 16.95,
+   "store_count": 116
+  }
+ ],
+ "3574660322637": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "3574660322675": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "3574661552804": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.35,
+   "min_price": 3.35,
+   "max_price": 3.35,
+   "store_count": 116
+  }
+ ],
+ "8717644013045": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8718114156828": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "5054563186904": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "3838824351483": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015000910859": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015100216530": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "42241553": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42242154": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3870128008151": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "3870128028623": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "9005800382753": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "9005801230237": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "4005808734320": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3858893941859": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  }
+ ],
+ "3850105170460": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.35,
+   "min_price": 2.35,
+   "max_price": 2.35,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.35,
+   "min_price": 2.35,
+   "max_price": 2.35,
+   "store_count": 116
+  }
+ ],
+ "8712561820493": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "8720181291852": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.19,
+   "min_price": 5.19,
+   "max_price": 5.19,
+   "store_count": 116
+  }
+ ],
+ "4005808158041": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.15,
+   "min_price": 5.15,
+   "max_price": 5.15,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.15,
+   "min_price": 5.15,
+   "max_price": 5.15,
+   "store_count": 116
+  }
+ ],
+ "9005800377889": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.89,
+   "min_price": 4.89,
+   "max_price": 4.89,
+   "store_count": 116
+  }
+ ],
+ "4005808473908": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  }
+ ],
+ "4005900118158": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.95,
+   "min_price": 9.95,
+   "max_price": 9.95,
+   "store_count": 116
+  }
+ ],
+ "3870128032965": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "9005800282480": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "9000101565775": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "9000101681185": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "9000101681246": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 9.99,
+   "min_price": 9.99,
+   "max_price": 9.99,
+   "store_count": 116
+  }
+ ],
+ "4006000075419": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "5908252010974": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 11.99,
+   "min_price": 11.99,
+   "max_price": 11.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 11.99,
+   "min_price": 11.99,
+   "max_price": 11.99,
+   "store_count": 116
+  }
+ ],
+ "8711600359659": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "8720181291951": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181292033": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181292088": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 6.49,
+   "min_price": 6.49,
+   "max_price": 6.49,
+   "store_count": 116
+  }
+ ],
+ "8720181166389": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8720181313448": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9000101277999": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "9000101846300": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "3850111160820": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "5999109583727": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 15.95,
+   "min_price": 15.95,
+   "max_price": 15.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 15.95,
+   "min_price": 15.95,
+   "max_price": 15.95,
+   "store_count": 116
+  }
+ ],
+ "3870128040557": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.49,
+   "min_price": 5.49,
+   "max_price": 5.49,
+   "store_count": 116
+  }
+ ],
+ "4005808310715": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9005800404080": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.09,
+   "min_price": 5.09,
+   "max_price": 5.09,
+   "store_count": 116
+  }
+ ],
+ "42495789": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101858358": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9000101807936": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.49,
+   "min_price": 14.49,
+   "max_price": 14.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.49,
+   "min_price": 14.49,
+   "max_price": 14.49,
+   "store_count": 116
+  }
+ ],
+ "8712561119627": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8712561249393": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "8718114650708": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.55,
+   "min_price": 4.55,
+   "max_price": 4.55,
+   "store_count": 116
+  }
+ ],
+ "4026600841108": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.95,
+   "min_price": 5.95,
+   "max_price": 5.95,
+   "store_count": 116
+  }
+ ],
+ "3838824086675": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "3838824337821": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015000911078": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4015001005394": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.17,
+   "min_price": 3.17,
+   "max_price": 3.17,
+   "store_count": 116
+  }
+ ],
+ "4005808303267": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42240716": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42242864": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "42246350": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "4005808430208": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 18.99,
+   "min_price": 18.99,
+   "max_price": 18.99,
+   "store_count": 116
+  }
+ ],
+ "4005900355300": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  }
+ ],
+ "7319470012127": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 14.99,
+   "min_price": 14.99,
+   "max_price": 14.99,
+   "store_count": 116
+  }
+ ],
+ "0038701280124": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "3870128012882": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ],
+ "3870128023932": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.49,
+   "min_price": 4.49,
+   "max_price": 4.49,
+   "store_count": 116
+  }
+ ],
+ "9005800350127": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.39,
+   "min_price": 4.39,
+   "max_price": 4.39,
+   "store_count": 116
+  }
+ ],
+ "9005800318349": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "4005808727056": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "4005808734528": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "9005800365749": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.95,
+   "min_price": 3.95,
+   "max_price": 3.95,
+   "store_count": 116
+  }
+ ],
+ "3850105177322": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.25,
+   "min_price": 4.25,
+   "max_price": 4.25,
+   "store_count": 116
+  }
+ ],
+ "4052917666721": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 1.29,
+   "min_price": 1.29,
+   "max_price": 1.29,
+   "store_count": 116
+  }
+ ],
+ "8717644585337": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.69,
+   "min_price": 4.69,
+   "max_price": 4.69,
+   "store_count": 116
+  }
+ ],
+ "9005800357881": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 8.99,
+   "min_price": 8.99,
+   "max_price": 8.99,
+   "store_count": 116
+  }
+ ],
+ "5025970022840": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  }
+ ],
+ "4005900047700": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "9005800282503": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "9005800286570": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.29,
+   "min_price": 3.29,
+   "max_price": 3.29,
+   "store_count": 116
+  }
+ ],
+ "8592326010419": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.05,
+   "min_price": 3.05,
+   "max_price": 3.05,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.05,
+   "min_price": 3.05,
+   "max_price": 3.05,
+   "store_count": 116
+  }
+ ],
+ "4005808158096": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "8720181166372": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8710908317828": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "8720181225451": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.99,
+   "min_price": 2.99,
+   "max_price": 2.99,
+   "store_count": 116
+  }
+ ],
+ "9000101846270": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 19.99,
+   "min_price": 19.99,
+   "max_price": 19.99,
+   "store_count": 116
+  }
+ ],
+ "3850111304545": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 2.79,
+   "min_price": 2.79,
+   "max_price": 2.79,
+   "store_count": 116
+  }
+ ],
+ "3850105191366": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 16.99,
+   "min_price": 16.99,
+   "max_price": 16.99,
+   "store_count": 116
+  }
+ ],
+ "9005800218540": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9005800223063": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 5.99,
+   "min_price": 5.99,
+   "max_price": 5.99,
+   "store_count": 116
+  }
+ ],
+ "9005800239958": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.99,
+   "min_price": 3.99,
+   "max_price": 3.99,
+   "store_count": 116
+  }
+ ],
+ "8002410046861": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 3.89,
+   "min_price": 3.89,
+   "max_price": 3.89,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 3.89,
+   "min_price": 3.89,
+   "max_price": 3.89,
+   "store_count": 116
+  }
+ ],
+ "lidl:6910229": [
+  {
+   "date": "2026-09-30",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  },
+  {
+   "date": "2026-10-01",
+   "avg_price": 4.79,
+   "min_price": 4.79,
+   "max_price": 4.79,
+   "store_count": 116
+  }
+ ]
+}
