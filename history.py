@@ -1,166 +1,84 @@
-"""
-Lightweight JSON-file history store, kept small enough to live in git.
-
-Design choice: rather than a binary SQLite file (which git can't diff and
-which grows without bound), each retailer/day gets one small JSON file
-containing only:
-  - aggregate stats for the WHOLE assortment (so "total catalog size" and
-    "P&G vs. average price per category" can be shown without keeping every
-    competitor SKU forever), and
-  - the full row-level detail for P&G products only (since that's the part
-    we need per-store, per-day presence history for the missing-item flag).
-
-This keeps each file's size proportional to P&G's assortment, not the
-retailer's whole catalog, so the repo stays small even after a year of daily
-history.
-"""
 from __future__ import annotations
 
 import json
-import re
-from collections import Counter
-from dataclasses import dataclass, asdict
-from datetime import date, timedelta
+import logging
+from dataclasses import asdict
+from datetime import date, datetime
 from pathlib import Path
-from statistics import mean
-from typing import Iterable
 
 from config import (
-    BRAND_FIELD_CATEGORY_OVERRIDES,
     CATEGORY_BRANDS,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
-    HISTORY_DIR,
-    LOOKBACK_DAYS,
-    MISSING_DAYS_THRESHOLD,
+    BRAND_FIELD_CATEGORY_OVERRIDES,
     PG_BRANDS,
     PRIVATE_LABEL_BRANDS,
+    MISSING_DAYS_THRESHOLD,
 )
 
-# Sorted longest-first so "HEAD & SHOULDERS" is tried before any shorter
-# brand name that might also appear as a substring of it.
-_PG_BRANDS_BY_LENGTH = sorted(PG_BRANDS, key=len, reverse=True)
+logger = logging.getLogger(__name__)
 
-_word_match_cache: dict[str, re.Pattern] = {}
+DATA_DIR = Path("data")
+
+
+def _norm(s: str) -> str:
+    return (s or "").strip().casefold()
 
 
 def _contains_as_word(haystack: str, needle: str) -> bool:
-    """
-    True if `needle` appears in `haystack` as a whole word, not merely as a
-    substring. Needed because some watchlist brand names are very short
-    ("Fa", "BIC") and a plain substring check false-matches them inside
-    unrelated words — e.g. "BIC" inside "CUBICS" (a bag of chips) or "FA"
-    inside "FARCHIONI" (an olive oil brand), silently miscategorizing
-    completely unrelated products into Shave Care / APDO. \\b uses Python's
-    Unicode-aware \\w, so it also respects Croatian diacritics (č, š, ž, đ).
-    """
-    pattern = _word_match_cache.get(needle)
-    if pattern is None:
-        pattern = re.compile(r"\b" + re.escape(needle) + r"\b")
-        _word_match_cache[needle] = pattern
-    return bool(pattern.search(haystack))
+    """Whole-word substring match, case-insensitive."""
+    import re
+
+    pattern = r"(?<![a-zA-Z0-9])" + re.escape(needle) + r"(?![a-zA-Z0-9])"
+    return re.search(pattern, haystack, flags=re.IGNORECASE) is not None
 
 
-def _keyword_rule_matches(norm_product: str, rule) -> bool:
+def _build_watchlist_index():
     """
-    Evaluate one CATEGORY_DISAMBIGUATION_KEYWORDS rule against a normalized
-    product name. `rule` is either a plain list of keywords (matches if ANY
-    are present — the original, simple form) or a dict with "include"
-    and/or "exclude" keyword lists (matches if an "include" keyword is
-    present AND no "exclude" keyword is present). The dict form is for
-    brands that sell several genuinely different product lines under
-    overlapping wording, e.g. Violeta's "Baby Wipes" vs. its makeup-removal
-    wipes and wet toilet paper, which all share the Croatian word
-    "maramice".
+    Build a lookup from normalized brand name -> category, using
+    CATEGORY_BRANDS (the curated "fighting category" taxonomy) plus any
+    per-brand category overrides.
     """
-    if isinstance(rule, dict):
-        include = rule.get("include", [])
-        exclude = rule.get("exclude", [])
-        if exclude and any(kw in norm_product for kw in exclude):
-            return False
-        return any(kw in norm_product for kw in include) if include else True
-    return any(kw in norm_product for kw in rule)
-
-
-def _build_watchlist_index(retailer: str):
-    """
-    Builds the per-retailer lookup structures for CATEGORY_BRANDS:
-      - brand_to_categories: normalized brand -> list of category names it
-        appears in (usually one; Violeta/Jar appear in two)
-      - brand_display: normalized brand -> the nicely-cased name from config
-      - brand_lookup_by_length: normalized brands sorted longest-first, for
-        the product-name substring fallback
-      - init_prices: category -> normalized brand -> [] (price accumulator)
-    """
-    brand_to_categories: dict[str, list[str]] = {}
-    brand_display: dict[str, str] = {}
-    init_prices: dict[str, dict[str, list]] = {}
-
+    index = {}
     for category, brands in CATEGORY_BRANDS.items():
-        brands = list(brands)
-        private_label = PRIVATE_LABEL_BRANDS.get(retailer)
-        if category == "Baby Wipes" and private_label and private_label not in brands:
-            brands = brands + [private_label]
-
-        init_prices[category] = {}
-        for brand in brands:
-            norm = _norm(brand)
-            brand_to_categories.setdefault(norm, []).append(category)
-            brand_display[norm] = brand
-            init_prices[category][norm] = []
-
-    brand_lookup_by_length = sorted(brand_to_categories, key=len, reverse=True)
-    return brand_to_categories, brand_display, brand_lookup_by_length, init_prices
+        for brand in brands.get("pg_brands", []) + brands.get("competitor_brands", []):
+            index[_norm(brand)] = category
+    for brand, category in BRAND_FIELD_CATEGORY_OVERRIDES.items():
+        index[_norm(brand)] = category
+    return index
 
 
-def _norm(text: str) -> str:
+_WATCHLIST_INDEX = _build_watchlist_index()
+
+
+def match_pg_brand(brand_field: str, product_field: str = "") -> str | None:
     """
-    Upper-case, treat hyphens as spaces, and collapse whitespace, for
-    tolerant string matching. The hyphen/space fold matters because a
-    canonical brand name in config.py (e.g. "Oral-B") and a retailer's own
-    brand column (e.g. Konzum's "ORAL B", no hyphen) can spell the same
-    brand differently — without this, the watchlist match silently fails
-    and the brand shows as "not found today" even when it's clearly in the
-    data.
+    Return the canonical P&G brand name if brand_field (or, failing that,
+    product_field) matches one of PG_BRANDS, else None.
     """
-    return re.sub(r"\s+", " ", (text or "").replace("-", " ").strip().upper())
+    norm_brand = _norm(brand_field)
+    for pg_brand in PG_BRANDS:
+        if _norm(pg_brand) == norm_brand or _contains_as_word(norm_brand, _norm(pg_brand)):
+            return pg_brand
+    if product_field:
+        norm_product = _norm(product_field)
+        for pg_brand in PG_BRANDS:
+            if _contains_as_word(norm_product, _norm(pg_brand)):
+                return pg_brand
+    return None
 
 
-def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
-    """
-    Decide whether a row is a P&G product, and how we decided.
+def is_pg(brand_field: str, product_field: str = "") -> bool:
+    return match_pg_brand(brand_field, product_field) is not None
 
-    Some retailers (Lidl's CSVs are the known case so far) leave the
-    dedicated brand column blank or use free-text that doesn't match our
-    brand list, while still naming the brand inside the product title
-    itself (e.g. brand="" but product="Pampers Pants Giant Pack vel. 4").
-    Matching on brand alone silently drops those rows to zero, which is
-    exactly the bug seen on Lidl's first run. So: try the brand field first
-    (cheap, precise), and if that comes up empty, fall back to a substring
-    search over the product name.
 
-    Returns (is_pg, matched_via) where matched_via is "brand",
-    "product_name", or "" if no match.
-    """
-    norm_brand = _norm(brand)
-    if norm_brand in PG_BRANDS:
-        return True, "brand"
-
+def _keyword_rule_matches(product_name: str, category: str) -> bool:
+    keywords = CATEGORY_DISAMBIGUATION_KEYWORDS.get(category, [])
     norm_product = _norm(product_name)
-    if norm_product:
-        for pg_brand in _PG_BRANDS_BY_LENGTH:
-            if _contains_as_word(norm_product, pg_brand):
-                return True, "product_name"
-
-    return False, ""
-
-
-def is_pg(brand: str) -> bool:
-    """Back-compat wrapper: brand-field-only check."""
-    return _norm(brand) in PG_BRANDS
+    return any(_contains_as_word(norm_product, _norm(kw)) for kw in keywords)
 
 
 def retailer_dir(retailer: str) -> Path:
-    d = HISTORY_DIR / retailer
+    d = DATA_DIR / "history" / retailer
     d.mkdir(parents=True, exist_ok=True)
     return d
 
@@ -171,290 +89,107 @@ def day_path(retailer: str, day: date) -> Path:
 
 def build_day_payload(retailer: str, day: date, stores: list) -> dict:
     """
-    stores: list of crawler_vendor.models.Store objects (already crawled).
+    Reduce a full list of Store objects (with nested Product items) for one
+    day into a compact payload: just the P&G-relevant rows we need for
+    history/flagging, plus a couple of summary counts.
     """
-    category_stats: dict[str, dict] = {}
-    pg_rows: list[dict] = []
-    # Row-level detail for competitor brands on the manager's watchlist only
-    # (config.CATEGORY_BRANDS) — a bounded, small set (~50 brands), unlike the
-    # full competitor catalog, which is why this is safe to keep per-row while
-    # the rest of the competitor catalog stays aggregate-only. This is what
-    # lets the dashboard drill into "which stores, what price" when someone
-    # clicks a competitor brand chip in the Competitor Tracker.
-    watchlist_competitor_rows: list[dict] = []
-    total_products = 0
-    stores_count = len(stores)
-    blank_brand_count = 0
-    all_brand_counter: Counter = Counter()
-    match_via_counter: Counter = Counter()
-
-    watch_brand_to_categories, watch_brand_display, watch_brand_by_length, watch_prices = (
-        _build_watchlist_index(retailer)
-    )
-
+    pg_products = []
     for store in stores:
         for item in store.items:
-            total_products += 1
-            category = (item.category or "Uncategorized").strip() or "Uncategorized"
-            price = float(item.price) if item.price is not None else None
-            norm_brand = _norm(item.brand)
-            norm_product = _norm(item.product)
-            if norm_brand:
-                all_brand_counter[norm_brand] += 1
-            else:
-                blank_brand_count += 1
-
-            # Manager-curated brand watchlist (config.CATEGORY_BRANDS): match
-            # on the brand field first, then fall back to spotting the brand
-            # name inside the product title, same tolerant approach as
-            # match_pg_brand below. row_fighting_category is stashed onto the
-            # P&G row itself (below) so the dashboard can filter the SKU list
-            # by the same "fighting category" taxonomy as the competitor
-            # tracker, not just by the retailer's own raw category string.
-            row_fighting_category = None
-            if price is not None:
-                # Some retailers' own brand field already spells out which
-                # product line a row is (see BRAND_FIELD_CATEGORY_OVERRIDES
-                # in config.py) — that's a more reliable signal than
-                # guessing from the product name, so it's checked first and
-                # skips the keyword disambiguation below entirely.
-                override = BRAND_FIELD_CATEGORY_OVERRIDES.get(norm_brand)
-                if override:
-                    override_brand_display, target_cat = override
-                    override_norm_brand = _norm(override_brand_display)
-                    if override_norm_brand in watch_prices.get(target_cat, {}):
-                        watch_prices[target_cat][override_norm_brand].append(price)
-                        row_fighting_category = target_cat
-                else:
-                    matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
-                    if matched_watch_brand is None and norm_product:
-                        for wb in watch_brand_by_length:
-                            if _contains_as_word(norm_product, wb):
-                                matched_watch_brand = wb
-                                break
-                    if matched_watch_brand:
-                        cats_for_brand = watch_brand_to_categories[matched_watch_brand]
-                        if len(cats_for_brand) == 1:
-                            target_cat = cats_for_brand[0]
-                        else:
-                            target_cat = None
-                            for cat in cats_for_brand:
-                                rule = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
-                                if _keyword_rule_matches(norm_product, rule):
-                                    target_cat = cat
-                                    break
-                        if target_cat:
-                            watch_prices[target_cat][matched_watch_brand].append(price)
-                            row_fighting_category = target_cat
-
-            cs = category_stats.setdefault(
-                category,
+            brand = getattr(item, "brand", "") or ""
+            product_name = getattr(item, "product", "") or ""
+            if not is_pg(brand, product_name):
+                continue
+            pg_products.append(
                 {
-                    "count": 0, "prices": [],
-                    "pg_count": 0, "pg_prices": [],
-                    "competitor_prices": [], "competitor_brands": {},
-                },
+                    "store_id": store.store_id,
+                    "store_name": store.name,
+                    "city": getattr(store, "city", ""),
+                    "product_id": getattr(item, "product_id", ""),
+                    "product": product_name,
+                    "brand": brand,
+                    "category": getattr(item, "category", "") or "",
+                    "price": getattr(item, "price", None),
+                }
             )
-            cs["count"] += 1
-            if price is not None:
-                cs["prices"].append(price)
-
-            matched, via = match_pg_brand(item.brand, item.product)
-            if matched:
-                match_via_counter[via] += 1
-                cs["pg_count"] += 1
-                if price is not None:
-                    cs["pg_prices"].append(price)
-                pg_rows.append(
-                    {
-                        "store_id": store.store_id,
-                        "store_name": store.name,
-                        "street_address": store.street_address,
-                        "city": store.city,
-                        "product_id": item.product_id,
-                        "product": item.product,
-                        "brand": item.brand,
-                        "category": category,
-                        "fighting_category": row_fighting_category,
-                        "price": price,
-                        "barcode": item.barcode,
-                        "matched_via": via,
-                    }
-                )
-            elif price is not None:
-                # Non-P&G row with a usable price: this is the true
-                # "competitor" population for price comparisons, kept
-                # separate from the all-brands average (which otherwise
-                # gets diluted by P&G's own prices).
-                cs["competitor_prices"].append(price)
-                if norm_brand:
-                    # Track named competitor brands per category (e.g.
-                    # Persil within Ariel's laundry category), scoped to
-                    # categories P&G actually competes in — unlike the
-                    # catalog-wide brand diagnostics below, this doesn't get
-                    # crowded out by unrelated grocery brands.
-                    slot = cs["competitor_brands"].setdefault(
-                        norm_brand, {"display": item.brand.strip(), "prices": []}
-                    )
-                    slot["prices"].append(price)
-                if row_fighting_category:
-                    watchlist_competitor_rows.append(
-                        {
-                            "store_id": store.store_id,
-                            "store_name": store.name,
-                            "street_address": store.street_address,
-                            "city": store.city,
-                            "product_id": item.product_id,
-                            "product": item.product,
-                            "brand": item.brand,
-                            "fighting_category": row_fighting_category,
-                            "price": price,
-                            "barcode": item.barcode,
-                        }
-                    )
-
-    # collapse raw price lists into summary numbers before saving
-    for cat, cs in category_stats.items():
-        prices = cs.pop("prices")
-        pg_prices = cs.pop("pg_prices")
-        competitor_prices = cs.pop("competitor_prices")
-        competitor_brands = cs.pop("competitor_brands")
-        cs["avg_price"] = round(mean(prices), 2) if prices else None
-        cs["pg_avg_price"] = round(mean(pg_prices), 2) if pg_prices else None
-        cs["competitor_avg_price"] = round(mean(competitor_prices), 2) if competitor_prices else None
-        cs["competitor_count"] = len(competitor_prices)
-
-        top_brands = sorted(
-            competitor_brands.values(), key=lambda b: len(b["prices"]), reverse=True
-        )[:8]
-        cs["top_competitor_brands"] = [
-            {
-                "brand": b["display"],
-                "count": len(b["prices"]),
-                "avg_price": round(mean(b["prices"]), 2),
-            }
-            for b in top_brands
-        ]
-
-    # Collapse the manager-curated brand watchlist into a display-ready
-    # structure: every configured brand appears for every configured
-    # category, even at count=0, so a brand that genuinely isn't sold today
-    # is visibly "not found" rather than silently absent from the page.
-    category_brand_watchlist: dict[str, dict] = {}
-    for cat, brands in watch_prices.items():
-        pg_brands, competitor_brands_out = [], []
-        for norm, prices in brands.items():
-            display = watch_brand_display[norm]
-            entry = {
-                "brand": display,
-                "count": len(prices),
-                "avg_price": round(mean(prices), 2) if prices else None,
-            }
-            (pg_brands if is_pg(display) else competitor_brands_out).append(entry)
-        category_brand_watchlist[cat] = {
-            "pg_brands": pg_brands,
-            "competitor_brands": competitor_brands_out,
-        }
 
     return {
-        "date": day.isoformat(),
         "retailer": retailer,
-        "stores_count": stores_count,
-        "total_products_all_stores": total_products,
-        "pg_product_rows": len(pg_rows),
-        "category_stats": category_stats,
-        "category_brand_watchlist": category_brand_watchlist,
-        "pg_products": pg_rows,
-        "watchlist_competitor_products": watchlist_competitor_rows,
-        "diagnostics": {
-            "blank_brand_field_rows": blank_brand_count,
-            "blank_brand_field_pct": round(100 * blank_brand_count / total_products, 1) if total_products else 0,
-            "matched_via_brand_field": match_via_counter.get("brand", 0),
-            "matched_via_product_name_fallback": match_via_counter.get("product_name", 0),
-            "top_brands_seen": all_brand_counter.most_common(40),
-        },
+        "date": day.isoformat(),
+        "stores_count": len(stores),
+        "pg_product_rows": len(pg_products),
+        "pg_products": pg_products,
     }
 
 
-def save_day(retailer: str, day: date, payload: dict) -> Path:
+def save_day(retailer: str, day: date, payload: dict) -> None:
     path = day_path(retailer, day)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    return path
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False)
 
 
 def load_day(retailer: str, day: date) -> dict | None:
     path = day_path(retailer, day)
     if not path.exists():
         return None
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.warning("Could not read %s: %s", path, exc)
+        return None
 
 
 def available_dates(retailer: str) -> list[date]:
     d = retailer_dir(retailer)
-    out = []
-    for f in d.glob("*.json"):
+    dates = []
+    for p in d.glob("*.json"):
         try:
-            out.append(date.fromisoformat(f.stem))
+            dates.append(date.fromisoformat(p.stem))
         except ValueError:
             continue
-    return sorted(out)
+    return sorted(dates)
 
 
-def build_product_price_history(
-    retailer: str, as_of: date, lookback_days: int = LOOKBACK_DAYS
-) -> dict[str, list[dict]]:
+def build_product_price_history(retailer: str, lookback_days: int = 90) -> dict:
     """
-    Per-product (by barcode) daily price history for the last
-    `lookback_days` published days, so the dashboard can show "how has this
-    product's price moved" when someone clicks into it — not just today's
-    per-store snapshot.
-
-    Covers the same two row sets already saved in each day's history file —
-    P&G's own products and the manager's tracked competitor watchlist
-    brands — not the retailer's full catalog, which is what keeps this
-    small enough to publish alongside the rest of the dashboard's data.
-
-    Returns: barcode -> list of {date, avg_price, min_price, max_price,
-    store_count}, oldest first. A barcode simply has no entry for a day it
-    wasn't seen on, rather than a zero/null placeholder — a product on the
-    market for only part of the window shouldn't look like it was ever
-    priced at zero.
+    Walk all saved history files for `retailer` and build, per product_id,
+    a time series of {date, price} points (deduplicated/averaged across
+    stores for a simple national trend line).
     """
-    dates = [d for d in available_dates(retailer) if d <= as_of]
+    dates = available_dates(retailer)
     dates = dates[-lookback_days:]
 
-    # barcode -> date (iso string) -> list of prices seen that day (across stores)
-    series: dict[str, dict[str, list[float]]] = {}
+    # product_id -> {"product": str, "brand": str, "points": {date_str: [prices]}}
+    series: dict[str, dict] = {}
 
     for d in dates:
         payload = load_day(retailer, d)
         if not payload:
             continue
-        rows = list(payload.get("pg_products", [])) + list(
-            payload.get("watchlist_competitor_products", [])
-        )
-        for row in rows:
-            barcode = row.get("barcode")
-            price = row.get("price")
-            if not barcode or price is None:
-                continue
-            series.setdefault(barcode, {}).setdefault(d.isoformat(), []).append(price)
-
-    result: dict[str, list[dict]] = {}
-    for barcode, by_date in series.items():
-        points = []
-        for iso_date, prices in sorted(by_date.items()):
-            points.append(
-                {
-                    "date": iso_date,
-                    "avg_price": round(mean(prices), 2),
-                    "min_price": round(min(prices), 2),
-                    "max_price": round(max(prices), 2),
-                    "store_count": len(prices),
-                }
+        for row in payload["pg_products"]:
+            pid = row["product_id"]
+            entry = series.setdefault(
+                pid,
+                {"product": row["product"], "brand": row["brand"], "points": {}},
             )
-        result[barcode] = points
-    return result
+            if row.get("price") is not None:
+                entry["points"].setdefault(d.isoformat(), []).append(row["price"])
+
+    history = {}
+    for pid, entry in series.items():
+        points = [
+            {"date": d_str, "price": round(sum(prices) / len(prices), 2)}
+            for d_str, prices in sorted(entry["points"].items())
+        ]
+        if points:
+            history[pid] = {
+                "product": entry["product"],
+                "brand": entry["brand"],
+                "points": points,
+            }
+
+    return history
 
 
 def compute_missing_flags(
@@ -466,7 +201,7 @@ def compute_missing_flags(
       - has appeared at least once in the retained history, and
       - is absent from the price list for `threshold`+ consecutive
         *published* days counting back from the most recent file we have,
-    never counting back further than the product's first-ever appearance.
+      never counting back further than the product's first-ever appearance.
 
     This is an inference from public price-list presence/absence, not real
     warehouse inventory data.
@@ -497,14 +232,20 @@ def compute_missing_flags(
     most_recent = dates[-1]
     for key, info in seen.items():
         # Count consecutive missing days ending at most_recent, not going
-        # back further than first_seen.
+        # back further than first_seen. Walking backwards (most recent
+        # first), `first_missing_date` keeps getting overwritten with an
+        # earlier date as long as the item is still missing, so by the time
+        # the loop stops it holds the OLDEST date in this missing streak —
+        # i.e. the first day the gap started, not just how many days long it is.
         missing_days = 0
+        first_missing_date = None
         for d in reversed(dates):
             if d < info["first_seen"]:
                 break
             if key in presence_by_date.get(d, set()):
                 break
             missing_days += 1
+            first_missing_date = d
         if missing_days >= threshold:
             meta = info["meta"]
             flags.append(
@@ -523,6 +264,10 @@ def compute_missing_flags(
                     # manager can tell a product that vanished last week from
                     # one that's been gone since the start of the window.
                     "last_seen_date": info["last_seen_present"].isoformat(),
+                    # Together with last_seen_date, this bounds the actual gap:
+                    # present through last_seen_date, absent from
+                    # first_missing_date through as_of (most_recent) below.
+                    "first_missing_date": first_missing_date.isoformat() if first_missing_date else None,
                     "days_missing": missing_days,
                     "as_of": most_recent.isoformat(),
                 }

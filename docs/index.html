@@ -116,6 +116,32 @@
   .price-gap.gap-low { color: var(--ok); }
   .watchlist-row { display: flex; gap: 10px; align-items: flex-start; margin-top: 6px; }
   .watchlist-side-label { flex: 0 0 90px; font-size: 11px; text-transform: uppercase; color: var(--muted); font-weight: 600; padding-top: 3px; }
+  #flagged-table-wrap th { position: relative; white-space: nowrap; }
+  .col-filter-btn {
+    background: none; border: none; color: var(--muted); cursor: pointer;
+    font-size: 11px; padding: 0 0 0 4px; vertical-align: middle;
+  }
+  .col-filter-btn.active { color: var(--pg-blue); font-weight: 700; }
+  .col-filter-panel {
+    position: absolute; top: 100%; left: 0; z-index: 30; background: #fff;
+    border: 1px solid var(--border); border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15); padding: 8px; width: 220px;
+    max-height: 260px; overflow-y: auto; font-weight: normal;
+    text-transform: none; font-size: 13px; color: var(--text); cursor: default;
+  }
+  .col-filter-panel input[type="text"] {
+    width: 100%; margin-bottom: 6px; padding: 4px 6px; border: 1px solid var(--border);
+    border-radius: 4px; font-size: 12px; box-sizing: border-box;
+  }
+  .col-filter-panel .cf-actions { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .col-filter-panel .cf-actions button {
+    background: none; border: none; color: var(--pg-blue); cursor: pointer;
+    font-size: 11px; padding: 0;
+  }
+  .col-filter-panel .cf-list label {
+    display: block; padding: 2px 0; cursor: pointer; font-weight: normal; white-space: normal;
+  }
+  .col-filter-panel .cf-list label input { margin-right: 6px; }
 </style>
 </head>
 <body>
@@ -136,7 +162,8 @@
 </main>
 <footer>
   Data source: retailers' legally-mandated public daily price lists (NN 75/2025). "Flagged" items are inferred as
-  likely out of stock from N+ consecutive days missing from the published price list.
+  likely out of stock from N+ consecutive days missing from the published price list — this is not real warehouse
+  inventory data.
 </footer>
 
 <script>
@@ -234,11 +261,6 @@ function renderRetailer(name) {
     return;
   }
 
-  const cats = Object.entries(r.category_stats || {})
-    .filter(([, v]) => v.pg_count > 0)
-    .sort((a, b) => b[1].pg_count - a[1].pg_count)
-    .slice(0, 10);
-
   const diag = r.diagnostics || {};
   const pgIsSuspiciouslyLow = r.pg_products_tracked === 0 || (diag.blank_brand_field_pct || 0) > 60;
 
@@ -253,13 +275,15 @@ function renderRetailer(name) {
     </div>
 
     <div class="section">
-      <h2>P&amp;G vs. competitor average price (top categories by P&amp;G presence)</h2>
+      <h2>Price gap vs. named competitors, by category</h2>
+      <p class="status-line" style="margin-top:-4px;">P&amp;G's average price vs. the named competitors tracked in each fighting category below — not the retailer's own raw catalog categories, which mixed in unrelated things like food and drinks whenever a product happened to be filed oddly. Only categories with a priced brand on both sides today are shown.</p>
       <canvas id="priceChart"></canvas>
+      <p class="empty" id="priceChart-empty" style="display:none;">Not enough prices today on both sides, in any category, to compare.</p>
     </div>
 
     <div class="section">
       <h2>Competitor tracker, by category</h2>
-      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each category — every tracked brand is shown.</p>
+      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing.</p>
       <div class="search-row">
         <select id="watchlist-category-filter"><option value="">All categories (Hair Care, Femcare, Laundry, …)</option></select>
       </div>
@@ -278,7 +302,12 @@ function renderRetailer(name) {
 
     <div class="section">
       <h2>Flagged: likely out of stock (missing ${dashboardData.missing_days_threshold}+ consecutive published days)</h2>
-      ${renderFlaggedTable(r.flagged_items)}
+      <p class="status-line" style="margin-top:-4px;">Showing up to the 200 longest-flagged items. "Last seen" is the last published day this exact item appeared in this store's price list. Click the ▾ on a column header to filter by its values, like an Excel AutoFilter.</p>
+      <div class="search-row">
+        <input type="text" id="flagged-search" placeholder="Search by product or brand…">
+        <span class="search-count" id="flagged-count"></span>
+      </div>
+      <div class="scroll-table" id="flagged-table-wrap"></div>
     </div>
 
     <div class="section">
@@ -330,9 +359,118 @@ function renderRetailer(name) {
     </div>
   `;
 
-  renderChart(cats);
+  renderChart(r.category_brand_watchlist);
   renderWatchlistSection(r.category_brand_watchlist);
+  renderFlaggedSection(r.flagged_items);
   loadProducts(name);
+}
+
+// --- Excel-style column filter dropdowns (used by the Flagged table) ---
+// filters[col] is either null/undefined ("all values selected", the default)
+// or a Set of the specific values to keep. Values are read from the FULL
+// unfiltered item list for that column every time the dropdown opens, so
+// deselecting a value and later wanting it back is always possible.
+let openFilterPanel = null;
+
+function closeColumnFilterPanels() {
+  document.querySelectorAll('.col-filter-panel').forEach(p => p.remove());
+  openFilterPanel = null;
+}
+document.addEventListener('click', () => closeColumnFilterPanels());
+
+function openColumnFilterPanel(btn, col, allItems, filters, onApply) {
+  closeColumnFilterPanels();
+  const values = [...new Set(allItems.map(it => (it[col] || '').toString()))].filter(Boolean).sort();
+  const selected = filters[col]; // null = everything selected
+
+  const panel = document.createElement('div');
+  panel.className = 'col-filter-panel';
+  panel.innerHTML = `
+    <input type="text" class="cf-search" placeholder="Search…">
+    <div class="cf-actions">
+      <button type="button" class="cf-select-all">Select all</button>
+      <button type="button" class="cf-clear">Clear</button>
+    </div>
+    <div class="cf-list">
+      ${values.map(v => `<label><input type="checkbox" value="${escapeHtml(v)}" ${(!selected || selected.has(v)) ? 'checked' : ''}> ${escapeHtml(v)}</label>`).join('') || '<span class="empty">No values</span>'}
+    </div>
+  `;
+  btn.parentElement.appendChild(panel);
+  openFilterPanel = panel;
+  panel.addEventListener('click', e => e.stopPropagation());
+
+  function apply() {
+    const checked = new Set(
+      [...panel.querySelectorAll('input[type="checkbox"]')].filter(cb => cb.checked).map(cb => cb.value)
+    );
+    filters[col] = checked.size === values.length ? null : checked;
+    btn.classList.toggle('active', filters[col] !== null);
+    onApply();
+  }
+
+  panel.querySelector('.cf-search').addEventListener('input', e => {
+    const q = e.target.value.toLowerCase();
+    panel.querySelectorAll('.cf-list label').forEach(label => {
+      label.style.display = label.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  });
+  panel.querySelector('.cf-select-all').addEventListener('click', () => {
+    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = true; });
+    apply();
+  });
+  panel.querySelector('.cf-clear').addEventListener('click', () => {
+    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = false; });
+    apply();
+  });
+  panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.addEventListener('change', apply));
+}
+
+function renderFlaggedSection(items) {
+  const wrap = document.getElementById('flagged-table-wrap');
+  const searchInput = document.getElementById('flagged-search');
+  const countEl = document.getElementById('flagged-count');
+  if (!wrap) return;
+
+  const all = items || [];
+  if (!all.length) {
+    wrap.innerHTML = '<p class="empty">Nothing flagged right now.</p>';
+    countEl.textContent = '';
+    searchInput.value = '';
+    searchInput.oninput = null;
+    return;
+  }
+
+  // One entry per filterable column; null = no filter applied to that column.
+  const filters = { product: null, brand: null, category: null, store_name: null };
+
+  function draw() {
+    const q = (searchInput.value || '').trim().toLowerCase();
+    const filtered = all.filter(it => {
+      if (q && !((it.product || '').toLowerCase().includes(q) || (it.brand || '').toLowerCase().includes(q))) {
+        return false;
+      }
+      for (const col of ['product', 'brand', 'category', 'store_name']) {
+        const sel = filters[col];
+        if (sel && !sel.has((it[col] || '').toString())) return false;
+      }
+      return true;
+    });
+    countEl.textContent = `${filtered.length.toLocaleString()} item${filtered.length === 1 ? '' : 's'}` +
+      (filtered.length !== all.length ? ` (of ${all.length.toLocaleString()} flagged)` : '');
+    wrap.innerHTML = renderFlaggedTable(filtered);
+    wrap.querySelectorAll('.col-filter-btn').forEach(btn => {
+      const col = btn.dataset.col;
+      if (filters[col]) btn.classList.add('active');
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        openColumnFilterPanel(btn, col, all, filters, draw);
+      });
+    });
+  }
+
+  searchInput.value = '';
+  searchInput.oninput = draw;
+  draw();
 }
 
 let skuGroupsCache = {};  // retailer -> array of grouped SKU objects
@@ -786,8 +924,19 @@ function closeWatchlistDetail() {
 }
 
 function renderFlaggedTable(items) {
+  const headerRow = `
+    <tr>
+      <th>Product <button type="button" class="col-filter-btn" data-col="product">▾</button></th>
+      <th>Brand <button type="button" class="col-filter-btn" data-col="brand">▾</button></th>
+      <th>Category <button type="button" class="col-filter-btn" data-col="category">▾</button></th>
+      <th>Store <button type="button" class="col-filter-btn" data-col="store_name">▾</button></th>
+      <th>Last seen</th>
+      <th>Missing since</th>
+      <th>Last seen price</th>
+      <th>Missing</th>
+    </tr>`;
   if (!items || !items.length) {
-    return '<p class="empty">Nothing flagged right now.</p>';
+    return `<table><thead>${headerRow}</thead><tbody><tr><td colspan="8" class="empty">No items match the current filters.</td></tr></tbody></table>`;
   }
   const rows = items.map(it => `
     <tr>
@@ -795,13 +944,15 @@ function renderFlaggedTable(items) {
       <td>${escapeHtml(it.brand)}</td>
       <td>${escapeHtml(it.category)}</td>
       <td>${escapeHtml(it.store_name)} ${it.city ? '(' + escapeHtml(it.city) + ')' : ''}</td>
+      <td>${fmtDate(it.last_seen_date)}</td>
+      <td>${fmtDate(it.first_missing_date)}${it.as_of ? ' – ' + fmtDate(it.as_of) : ''}</td>
       <td>${it.last_seen_price != null ? '€' + it.last_seen_price.toFixed(2) : '—'}</td>
       <td><span class="badge danger">${it.days_missing} days</span></td>
     </tr>
   `).join('');
   return `
     <table>
-      <thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Store</th><th>Last seen price</th><th>Missing</th></tr></thead>
+      <thead>${headerRow}</thead>
       <tbody>${rows}</tbody>
     </table>`;
 }
@@ -811,23 +962,67 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-function renderChart(cats) {
+function computeCategoryGaps(watchlist) {
+  // Same price-gap math as the Competitor Tracker cards below
+  // (categoryPriceGap), but collected across every fighting category into
+  // one sorted list — the biggest real gaps first. Deliberately NOT based
+  // on the retailer's own raw catalog categories (category_stats), which
+  // mixed in things P&G doesn't even sell (food, drinks) whenever a product
+  // happened to be filed oddly in that retailer's own taxonomy.
+  const gaps = [];
+  for (const [cat, v] of Object.entries(watchlist || {})) {
+    const gap = categoryPriceGap(v);
+    if (gap && gap.compAvg) {
+      gaps.push({ category: cat, pgAvg: gap.pgAvg, compAvg: gap.compAvg, diffPct: (gap.diff / gap.compAvg) * 100 });
+    }
+  }
+  gaps.sort((a, b) => Math.abs(b.diffPct) - Math.abs(a.diffPct));
+  return gaps;
+}
+
+function renderChart(watchlist) {
   const ctx = document.getElementById('priceChart');
+  const emptyEl = document.getElementById('priceChart-empty');
   if (!ctx) return;
-  if (chartInstance) chartInstance.destroy();
+  if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
+
+  const gaps = computeCategoryGaps(watchlist);
+  if (!gaps.length) {
+    ctx.style.display = 'none';
+    if (emptyEl) emptyEl.style.display = 'block';
+    return;
+  }
+  ctx.style.display = 'block';
+  if (emptyEl) emptyEl.style.display = 'none';
+
   chartInstance = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: cats.map(([name]) => name),
-      datasets: [
-        { label: "P&G avg price (€)", data: cats.map(([, v]) => v.pg_avg_price), backgroundColor: '#004b93' },
-        { label: "Competitor avg price, excl. P&G (€)", data: cats.map(([, v]) => v.competitor_avg_price), backgroundColor: '#9db8d1' },
-      ],
+      labels: gaps.map(g => g.category),
+      datasets: [{
+        label: 'P&G price gap vs. named competitors',
+        data: gaps.map(g => Math.round(g.diffPct * 10) / 10),
+        backgroundColor: gaps.map(g => g.diffPct > 0 ? '#c0392b' : '#1e8e3e'),
+      }],
     },
     options: {
+      indexAxis: 'y',
       responsive: true,
-      plugins: { legend: { position: 'bottom' } },
-      scales: { y: { beginAtZero: true, title: { display: true, text: 'EUR' } } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx2) => {
+              const g = gaps[ctx2.dataIndex];
+              const sign = g.diffPct > 0 ? '+' : '';
+              return `P&G €${g.pgAvg.toFixed(2)} avg vs. competitors €${g.compAvg.toFixed(2)} avg (${sign}${g.diffPct.toFixed(1)}%)`;
+            },
+          },
+        },
+      },
+      scales: {
+        x: { title: { display: true, text: '% P&G above (+) / below (-) competitor avg' } },
+      },
     },
   });
 }
