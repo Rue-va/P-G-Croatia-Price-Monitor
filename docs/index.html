@@ -3,1099 +3,733 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>P&G Croatia — Retail Price &amp; Assortment Monitor</title>
+<title>P&amp;G Croatia Price Monitor</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
   :root {
+    color-scheme: light;
     --pg-blue: #004b93;
-    --bg: #f4f6f8;
-    --card: #ffffff;
-    --border: #dfe3e8;
-    --text: #1c1f24;
-    --muted: #6b7480;
-    --danger: #c0392b;
-    --danger-bg: #fdecea;
-    --ok: #1e8e3e;
+    --bg: #f5f6f4;
+    --surface: #ffffff;
+    --surface-2: #f0efec;
+    --border: #e2e1dc;
+    --text: #0b0b0b;
+    --text-2: #52514e;
+    --muted: #7a7974;
+    --series-pg: #2a78d6;
+    --series-comp: #b9b8b2;
+    --warn: #fab219;
+    --warn-bg: #fff6df;
+    --warn-text: #7a5200;
+    --good: #0ca30c;
+    --chip-pg-bg: #e3edf9;
+    --chip-pg-text: #1c5cab;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #111110;
+      --surface: #1a1a19;
+      --surface-2: #262624;
+      --border: #33332f;
+      --text: #ffffff;
+      --text-2: #c3c2b7;
+      --muted: #9a9990;
+      --series-pg: #3987e5;
+      --series-comp: #5a5954;
+      --warn-bg: #3a2e10;
+      --warn-text: #fac860;
+      --chip-pg-bg: #1c2d44;
+      --chip-pg-text: #86b6ef;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --surface-2: #262624; --border: #33332f;
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #9a9990;
+    --series-pg: #3987e5; --series-comp: #5a5954;
+    --warn-bg: #3a2e10; --warn-text: #fac860; --chip-pg-bg: #1c2d44; --chip-pg-text: #86b6ef;
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0;
+    margin: 0; background: var(--bg); color: var(--text);
     font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
+    font-size: 14px; line-height: 1.45;
   }
-  header {
-    background: var(--pg-blue);
-    color: white;
-    padding: 20px 28px;
+  header { background: var(--pg-blue); color: #fff; padding: 18px 24px 16px; }
+  .header-inner { max-width: 1240px; margin: 0 auto; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .header-logo { background: #fff; border-radius: 6px; padding: 4px 8px; display: inline-flex; }
+  .header-logo img { height: 28px; display: block; }
+  header h1 { margin: 0; font-size: 19px; font-weight: 600; }
+  header .sub { font-size: 12.5px; opacity: .85; margin-top: 2px; }
+  .header-right { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .fresh-pill { font-size: 11.5px; padding: 3px 9px; border-radius: 12px; background: rgba(255,255,255,.14); white-space: nowrap; }
+  .fresh-pill.stale { background: rgba(250,178,25,.28); }
+  .btn { display: inline-block; padding: 7px 13px; border-radius: 6px; background: #fff; color: var(--pg-blue);
+         text-decoration: none; font-size: 13px; font-weight: 600; border: none; cursor: pointer; }
+  main { max-width: 1240px; margin: 0 auto; padding: 18px 16px 60px; }
+
+  .filters { position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 10px 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .seg { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 2px; flex-wrap: wrap; }
+  .seg button { border: none; background: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; color: var(--text-2); font-family: inherit; }
+  .seg button.active { background: var(--pg-blue); color: #fff; }
+  select, input[type=text] {
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px;
+    background: var(--surface); color: var(--text); font-family: inherit;
   }
-  .header-top { display: flex; align-items: center; gap: 14px; }
-  .header-logo {
-    background: #ffffff; border-radius: 6px; padding: 4px 8px;
-    display: inline-flex; align-items: center; flex: 0 0 auto;
-  }
-  .header-logo img { display: block; height: 28px; width: auto; }
-  header h1 { margin: 0; font-size: 20px; }
-  header p { margin: 4px 0 0; font-size: 13px; opacity: 0.85; }
-  main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 60px; }
-  .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
-  .tab-btn {
-    padding: 8px 16px; border-radius: 20px; border: 1px solid var(--border);
-    background: white; cursor: pointer; font-size: 14px; color: var(--text);
-  }
-  .tab-btn.active { background: var(--pg-blue); color: white; border-color: var(--pg-blue); }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 24px; }
-  .card {
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 16px 18px;
-  }
-  .card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
-  .card .value { font-size: 26px; font-weight: 600; margin-top: 4px; }
-  .card .value.warn { color: var(--danger); }
-  .section { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-bottom: 22px; }
-  .section h2 { margin: 0 0 12px; font-size: 16px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 8px 0 18px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .kpi .label { font-size: 12px; color: var(--text-2); }
+  .kpi .value { font-size: 26px; font-weight: 650; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .kpi .note { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+
+  .section { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-bottom: 18px; }
+  .section h2 { margin: 0; font-size: 16px; font-weight: 650; }
+  .section .lede { color: var(--text-2); font-size: 13px; margin: 4px 0 14px; max-width: 860px; }
+  .section-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
-  tr:hover td { background: #fafbfc; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; }
-  .badge.danger { background: var(--danger-bg); color: var(--danger); }
-  .status-line { font-size: 12px; color: var(--muted); margin-top: -8px; margin-bottom: 18px; }
-  .status-pill { padding: 2px 8px; border-radius: 10px; font-size: 11px; margin-left: 6px; }
-  .status-ok { background: #e6f4ea; color: var(--ok); }
-  .status-stale { background: #fff4e5; color: #b06000; }
-  .status-error { background: var(--danger-bg); color: var(--danger); }
+  th, td { text-align: left; padding: 7px 9px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  th { color: var(--text-2); font-weight: 600; font-size: 12px; background: var(--surface); position: sticky; top: 0; z-index: 1; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tbody tr:hover td { background: var(--surface-2); }
+  .scroll { max-height: 460px; overflow: auto; }
+  .tbl-wrap { overflow-x: auto; }
   .empty { color: var(--muted); font-size: 13px; padding: 10px 0; }
-  canvas { max-height: 320px; }
-  footer { text-align: center; font-size: 12px; color: var(--muted); padding: 20px; }
-  .search-row { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; flex-wrap: wrap; }
-  .search-row input {
-    flex: 1; min-width: 220px; padding: 8px 12px; border: 1px solid var(--border);
-    border-radius: 6px; font-size: 14px;
-  }
-  .search-count { font-size: 12px; color: var(--muted); white-space: nowrap; }
-  details.diagnostics { font-size: 13px; color: var(--muted); }
-  details.diagnostics summary { cursor: pointer; color: var(--pg-blue); font-weight: 600; margin-bottom: 8px; }
-  .diag-warning { background: #fff4e5; color: #b06000; padding: 8px 12px; border-radius: 6px; margin-bottom: 10px; font-size: 13px; }
-  .brand-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-  .brand-tag {
-    background: #eef1f4; border-radius: 4px; padding: 2px 8px; font-size: 12px;
-    display: inline-block; margin: 2px; border: none; cursor: pointer; font-family: inherit;
-  }
-  .brand-tag:hover { filter: brightness(0.94); }
-  .brand-tag.pg-brand { background: #e3edf9; color: var(--pg-blue); font-weight: 600; }
-  .scroll-table { max-height: 480px; overflow-y: auto; }
-  .search-row select {
-    padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
-    font-size: 14px; background: white; color: var(--text);
-  }
-  #sku-table tbody tr { cursor: pointer; }
-  #sku-table tbody tr:hover td { background: #eef4fb; }
-  .sku-detail { display: none; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
-  .sku-detail.open { display: block; }
-  .sku-detail h3 { margin: 0 0 4px; font-size: 15px; }
-  .sku-detail .sub { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
-  .close-detail { float: right; background: none; border: none; color: var(--muted); cursor: pointer; font-size: 13px; }
-  .num { text-align: right; }
-  .header-actions { margin-top: 8px; }
-  .btn-download {
-    display: inline-block; padding: 8px 14px; border-radius: 6px;
-    background: var(--accent, #004B93); color: #fff; text-decoration: none;
-    font-size: 13px; font-weight: 600;
-  }
-  .btn-download:hover { opacity: 0.9; }
-  .header-stale-warning {
-    display: none; margin-top: 6px; padding: 4px 10px; border-radius: 6px;
-    background: rgba(255,255,255,0.18); color: #ffe1b3; font-size: 12px; font-weight: 600;
-  }
-  .watchlist-card { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 12px; }
-  .watchlist-card-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
-  .watchlist-card-header h3 { margin: 0; font-size: 14px; }
-  .price-gap { font-size: 12px; color: var(--muted); }
-  .price-gap.gap-high { color: var(--danger); }
-  .price-gap.gap-low { color: var(--ok); }
-  .watchlist-row { display: flex; gap: 10px; align-items: flex-start; margin-top: 6px; }
-  .watchlist-side-label { flex: 0 0 90px; font-size: 11px; text-transform: uppercase; color: var(--muted); font-weight: 600; padding-top: 3px; }
-  #flagged-table-wrap th { position: relative; white-space: nowrap; }
-  .col-filter-btn {
-    background: none; border: none; color: var(--muted); cursor: pointer;
-    font-size: 11px; padding: 0 0 0 4px; vertical-align: middle;
-  }
-  .col-filter-btn.active { color: var(--pg-blue); font-weight: 700; }
-  .col-filter-panel {
-    position: absolute; top: 100%; left: 0; z-index: 30; background: #fff;
-    border: 1px solid var(--border); border-radius: 6px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15); padding: 8px; width: 220px;
-    max-height: 260px; overflow-y: auto; font-weight: normal;
-    text-transform: none; font-size: 13px; color: var(--text); cursor: default;
-  }
-  .col-filter-panel input[type="text"] {
-    width: 100%; margin-bottom: 6px; padding: 4px 6px; border: 1px solid var(--border);
-    border-radius: 4px; font-size: 12px; box-sizing: border-box;
-  }
-  .col-filter-panel .cf-actions { display: flex; justify-content: space-between; margin-bottom: 6px; }
-  .col-filter-panel .cf-actions button {
-    background: none; border: none; color: var(--pg-blue); cursor: pointer;
-    font-size: 11px; padding: 0;
-  }
-  .col-filter-panel .cf-list label {
-    display: block; padding: 2px 0; cursor: pointer; font-weight: normal; white-space: normal;
-  }
-  .col-filter-panel .cf-list label input { margin-right: 6px; }
+  .muted { color: var(--muted); }
+  .small { font-size: 12px; }
+
+  /* price-position matrix */
+  .matrix td.cell { text-align: center; font-weight: 600; font-variant-numeric: tabular-nums; cursor: pointer; border: 2px solid var(--surface); border-radius: 6px; padding: 9px 6px; }
+  .matrix td.cell:hover { outline: 2px solid var(--text); outline-offset: -2px; }
+  .matrix td.cell.sel { outline: 2px solid var(--text); outline-offset: -2px; }
+  .matrix td.cat { font-weight: 600; white-space: nowrap; cursor: pointer; }
+  .legend { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-2); flex-wrap: wrap; }
+  .legend .ramp { display: inline-flex; border-radius: 4px; overflow: hidden; }
+  .legend .ramp span { width: 26px; height: 12px; display: block; }
+
+  /* brand ladder */
+  .ladder-row { display: grid; grid-template-columns: 170px 1fr 230px; gap: 12px; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
+  @media (max-width: 700px) { .ladder-row { grid-template-columns: 110px 1fr; } .ladder-row .meta { grid-column: 1 / -1; } }
+  .ladder-row .name { font-weight: 600; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ladder-row .name .tag { font-size: 10.5px; font-weight: 600; padding: 1px 6px; border-radius: 8px; margin-left: 4px; vertical-align: 1px; }
+  .tag.pg { background: var(--chip-pg-bg); color: var(--chip-pg-text); }
+  .tag.comp { background: var(--surface-2); color: var(--text-2); }
+  .bar-track { position: relative; height: 18px; }
+  .bar { position: absolute; left: 0; top: 2px; height: 14px; border-radius: 0 4px 4px 0; }
+  .bar.pg { background: var(--series-pg); }
+  .bar.comp { background: var(--series-comp); }
+  .bar-val { position: absolute; top: 0; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+  .ladder-row .meta { font-size: 12px; color: var(--text-2); }
+  .ladder-row.clickable { cursor: pointer; }
+  .ladder-row.clickable:hover { background: var(--surface-2); }
+  .ref-line { position: absolute; top: -2px; bottom: -2px; width: 0; border-left: 1px solid var(--text-2); }
+
+  .chip { display: inline-block; font-size: 11.5px; padding: 2px 8px; border-radius: 10px; background: var(--surface-2); color: var(--text-2); white-space: nowrap; }
+  .chip.pg { background: var(--chip-pg-bg); color: var(--chip-pg-text); font-weight: 600; }
+  .chip.warn { background: var(--warn-bg); color: var(--warn-text); font-weight: 600; }
+  .delta { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .callout { background: var(--warn-bg); color: var(--warn-text); border-radius: 8px; padding: 9px 12px; font-size: 12.5px; margin-bottom: 12px; }
+
+  .tabs-inline { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+  .detail { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+  .detail h3 { margin: 0 0 2px; font-size: 14.5px; }
+  .close { float: right; background: none; border: none; color: var(--muted); cursor: pointer; font-size: 13px; }
+  canvas { max-height: 260px; }
+  .clickable-row { cursor: pointer; }
+
+  #tip { position: fixed; pointer-events: none; z-index: 100; background: var(--text); color: var(--surface);
+         font-size: 12px; padding: 6px 9px; border-radius: 6px; max-width: 320px; display: none; line-height: 1.4; }
+  footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 30px; font-size: 12px; color: var(--muted); }
+  details.how summary { cursor: pointer; color: var(--text-2); font-weight: 600; font-size: 13px; }
+  details.how p, details.how li { color: var(--text-2); font-size: 12.5px; }
 </style>
 </head>
 <body>
 <header>
-  <div class="header-top">
-    <span class="header-logo"><img src="assets/pg-logo.png" alt="P&amp;G logo"></span>
-    <h1>P&amp;G Croatia — Retail Price &amp; Assortment Monitor</h1>
-  </div>
-  <p id="generated-line">Loading…</p>
-  <p id="staleness-line" class="header-stale-warning"></p>
-  <div class="header-actions">
-    <a class="btn-download" href="PG_Price_Report.xlsx" download>⬇ Download Excel report</a>
+  <div class="header-inner">
+    <span class="header-logo"><img src="assets/pg-logo.png" alt="P&amp;G"></span>
+    <div>
+      <h1>P&amp;G Croatia — Price &amp; Assortment Monitor</h1>
+      <div class="sub" id="gen-line">Loading…</div>
+    </div>
+    <div class="header-right">
+      <span id="fresh-pills"></span>
+      <a class="btn" href="PG_Price_Report.xlsx" download>Download Excel</a>
+    </div>
   </div>
 </header>
+
 <main>
-  <div class="tabs" id="tabs"></div>
-  <div id="content"></div>
+  <div class="filters">
+    <div class="seg" id="retailer-seg"></div>
+    <select id="cat-select" aria-label="Category"></select>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="section">
+    <div class="section-head">
+      <div>
+        <h2>Price position by category</h2>
+        <p class="lede">P&amp;G's price vs. the named competitors in each fighting category, compared like-for-like (per wash for Laundry and Fabric Enhancers, per litre / kg / piece for everything else). 0% means parity; click any cell to open that category below.</p>
+      </div>
+      <div class="legend" id="matrix-legend"></div>
+    </div>
+    <div class="tbl-wrap"><table class="matrix" id="matrix"></table></div>
+  </div>
+
+  <div class="section" id="deep-dive">
+    <div class="section-head">
+      <div>
+        <h2 id="dd-title">Category deep dive</h2>
+        <p class="lede" id="dd-lede"></p>
+      </div>
+      <div class="seg" id="dd-retailer-seg"></div>
+    </div>
+    <div id="ladder"></div>
+    <div class="detail" id="brand-detail" style="display:none"></div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <div class="section-head">
+        <div>
+          <h2>On promotion today</h2>
+          <p class="lede" id="promo-lede"></p>
+        </div>
+        <div class="seg" id="promo-side"></div>
+      </div>
+      <div class="scroll" id="promo-table"></div>
+    </div>
+    <div class="section">
+      <h2>Price changes</h2>
+      <p class="lede" id="moves-lede"></p>
+      <div class="scroll" id="moves-table"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>P&amp;G distribution — share of stores listing each brand</h2>
+    <p class="lede">How many of each retailer's stores carry at least one SKU of the brand today, and the average number of that brand's SKUs per listing store.</p>
+    <div class="tbl-wrap" id="coverage"></div>
+  </div>
+
+  <div class="section">
+    <h2>Possible gaps on shelf</h2>
+    <p class="lede" id="gaps-lede"></p>
+    <div id="gaps"></div>
+  </div>
+
+  <div class="section">
+    <h2>SKU explorer</h2>
+    <p class="lede">Every P&amp;G SKU and tracked competitor SKU at one retailer. Click a row for its price in every store and its price over time.</p>
+    <div class="filters" style="position:static;padding-top:0">
+      <select id="sku-retailer" aria-label="Retailer"></select>
+      <input type="text" id="sku-search" placeholder="Search product or brand…" style="flex:1;min-width:200px">
+      <select id="sku-side" aria-label="Side"><option value="">P&amp;G + competitors</option><option value="pg">P&amp;G only</option><option value="competitor">Competitors only</option></select>
+      <span class="muted small" id="sku-count"></span>
+    </div>
+    <div class="scroll" id="sku-table"><p class="empty">Choose a retailer to load its products.</p></div>
+    <div class="detail" id="sku-detail" style="display:none"></div>
+  </div>
+
+  <div class="section">
+    <details class="how">
+      <summary>How the numbers are calculated</summary>
+      <ul>
+        <li><strong>Source:</strong> each retailer's legally mandated public daily price list (NN 75/2025), one file per store.</li>
+        <li><strong>Price position:</strong> for each brand, the median price per unit across all its store listings (in the category's most common unit, so €/piece toothbrushes are never averaged with €/l toothpaste). P&amp;G's figure is the average of its brands' medians, likewise for competitors; the cell shows how far P&amp;G sits above (+) or below (−) competitors.</li>
+        <li><strong>Promotions</strong> are rows where the retailer publishes a special-sale price below the regular price.</li>
+        <li><strong>Price changes</strong> compare the regular price of the same SKU in the same store against the previous published day, so stores that didn't publish can't create fake changes.</li>
+        <li><strong>Possible gaps</strong> are SKUs missing from a store's list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. That's a signal to check, not proof of out-of-stock — the product may also have been delisted.</li>
+      </ul>
+    </details>
+  </div>
 </main>
-<footer>
-  Data source: retailers' legally-mandated public daily price lists (NN 75/2025). "Flagged" items are inferred as
-  likely out of stock from N+ consecutive days missing from the published price list — this is not real warehouse
-  inventory data.
-</footer>
+<footer id="footer"></footer>
+<div id="tip"></div>
 
 <script>
-let dashboardData = null;
-let activeRetailer = null;
-let chartInstance = null;
-let productsCache = {};   // retailer -> array of product rows (lazy-loaded)
+const RETAILER_LABEL = { konzum: 'Konzum', kaufland: 'Kaufland', spar: 'Spar', lidl: 'Lidl' };
+const MIN_ROWS = 3;                 // a brand needs this many priced store-rows to enter a comparison
+const state = { retailer: 'all', category: null, ddRetailer: null, ddUnit: null, promoSide: 'pg' };
+let D = null;
 
-async function loadData() {
+// ---------- helpers ----------
+const esc = s => s == null ? '' : String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtInt = n => (n ?? 0).toLocaleString('en-GB');
+const label = r => RETAILER_LABEL[r] || (r.charAt(0).toUpperCase() + r.slice(1));
+const fmtDate = iso => iso ? new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '—';
+const mean = a => a.reduce((s, x) => s + x, 0) / a.length;
+function unitLabel(u, basis) {
+  if (basis === 'wash' && (u === 'pranje' || !u)) return 'wash';
+  return ({ l: 'l', kg: 'kg', kom: 'piece', pranje: 'wash', ml: 'ml', g: 'g', m: 'm' })[u] || u || 'unit';
+}
+function fmtUnitPrice(v, u, basis) {
+  if (v == null) return '—';
+  return `€${v.toFixed(v < 1 ? 3 : 2)}/${unitLabel(u, basis)}`;
+}
+const okRetailers = () => D.retailers.filter(r => r.status !== 'error');
+const selectedRetailers = () => okRetailers().filter(r => state.retailer === 'all' || r.retailer === state.retailer);
+
+// Diverging scale: blue = P&G below competitors, orange = above, gray = parity.
+const DIV_BLUE = ['#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#256abf'];
+const DIV_ORANGE = ['#fde0d3', '#f9c0a6', '#f39b77', '#eb6834', '#c24e1d'];
+const DIV_MID = '#e9e8e4';
+const DIV_STEPS = [3, 10, 20, 35, 55]; // |gap %| thresholds
+function divColor(gapPct) {
+  if (gapPct == null) return null;
+  const a = Math.abs(gapPct);
+  if (a < DIV_STEPS[0]) return { bg: DIV_MID, fg: '#2b2b2a' };
+  let i = DIV_STEPS.findIndex(t => a < t); if (i === -1) i = 5;
+  const ramp = gapPct > 0 ? DIV_ORANGE : DIV_BLUE;
+  const bg = ramp[Math.min(i, 5) - 1];
+  return { bg, fg: i >= 4 ? '#ffffff' : '#1b1b1a' };
+}
+const SEQ_BLUE = ['#eef4fc', '#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#256abf', '#184f95'];
+function seqColor(pct) {
+  if (pct == null) return null;
+  const i = Math.min(SEQ_BLUE.length - 1, Math.floor(pct / 100 * (SEQ_BLUE.length - 1) + 0.0001));
+  return { bg: SEQ_BLUE[i], fg: i >= 4 ? '#ffffff' : '#1b1b1a' };
+}
+
+// ---------- category math ----------
+// Returns one entry per brand with a like-for-like value in the category's
+// dominant unit, plus the P&G-vs-competitor gap.
+function categoryView(r, cat, forcedUnit) {
+  const w = (r.category_brand_watchlist || {})[cat];
+  if (!w) return null;
+  const brands = [
+    ...(w.pg_brands || []).map(b => ({ ...b, side: 'pg' })),
+    ...(w.competitor_brands || []).map(b => ({ ...b, side: 'comp' })),
+  ];
+  const hasUnits = brands.some(b => b.by_unit);
+  let unit = null, units = [];
+  if (hasUnits) {
+    const counts = {};
+    brands.forEach(b => Object.entries(b.by_unit || {}).forEach(([u, v]) => { counts[u] = (counts[u] || 0) + v.count; }));
+    units = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([u]) => u);
+    unit = (forcedUnit && counts[forcedUnit]) ? forcedUnit : (units[0] || null);
+  } else {
+    unit = (brands.find(b => b.comparison_unit) || {}).comparison_unit || null;
+  }
+  brands.forEach(b => {
+    if (hasUnits) {
+      const x = (b.by_unit || {})[unit];
+      b.value = x && x.count >= MIN_ROWS ? x.median : null;
+      b.valueRows = x ? x.count : 0;
+    } else {
+      b.value = b.count >= MIN_ROWS ? b.comparison_avg_price : null;
+      b.valueRows = b.count;
+    }
+  });
+  const pg = brands.filter(b => b.side === 'pg' && b.value != null);
+  const comp = brands.filter(b => b.side === 'comp' && b.value != null);
+  const pgAvg = pg.length ? mean(pg.map(b => b.value)) : null;
+  const compAvg = comp.length ? mean(comp.map(b => b.value)) : null;
+  const gap = pgAvg != null && compAvg ? 100 * (pgAvg - compAvg) / compAvg : null;
+  return { cat, unit, units, basis: w.comparison_basis, brands, pgAvg, compAvg, gap };
+}
+const allCategories = () => {
+  const s = [];
+  okRetailers().forEach(r => Object.keys(r.category_brand_watchlist || {}).forEach(c => { if (!s.includes(c)) s.push(c); }));
+  return s;
+};
+
+// ---------- tooltip ----------
+const tip = document.getElementById('tip');
+document.addEventListener('mouseover', e => {
+  const t = e.target.closest('[data-tip]');
+  if (!t) { tip.style.display = 'none'; return; }
+  tip.innerHTML = t.dataset.tip; tip.style.display = 'block';
+});
+document.addEventListener('mousemove', e => {
+  if (tip.style.display !== 'block') return;
+  const x = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8);
+  const y = e.clientY + 16 + tip.offsetHeight > window.innerHeight ? e.clientY - tip.offsetHeight - 10 : e.clientY + 16;
+  tip.style.left = x + 'px'; tip.style.top = y + 'px';
+});
+
+// ---------- boot ----------
+async function load() {
   try {
     const res = await fetch('data.json?_=' + Date.now());
-    dashboardData = await res.json();
-    render();
+    D = await res.json();
   } catch (e) {
-    document.getElementById('content').innerHTML =
-      '<div class="section"><p class="empty">Could not load data.json. If this is the first run, the daily job may not have completed yet.</p></div>';
-  }
-}
-
-function fmtDate(iso) {
-  if (!iso) return '—';
-  const d = new Date(iso);
-  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-}
-
-function fmtDateTime(iso) {
-  if (!iso) return '—';
-  const d = new Date(iso);
-  // toLocaleString renders in the viewer's own timezone/clock automatically.
-  return d.toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
-}
-
-function render() {
-  const genLine = document.getElementById('generated-line');
-  genLine.textContent = `Data generated ${fmtDateTime(dashboardData.generated_at)} · flags after ${dashboardData.missing_days_threshold}+ consecutive missing days`;
-
-  // The daily crawl is scheduled twice a day, but GitHub only *queues* scheduled
-  // runs at that time — it doesn't guarantee they start on time, so a run can
-  // lag by hours with no error anywhere. Rather than let that look like silently
-  // stale/broken data, say so plainly once a refresh is clearly overdue.
-  const staleEl = document.getElementById('staleness-line');
-  if (staleEl) {
-    const hoursSince = dashboardData.generated_at
-      ? (Date.now() - new Date(dashboardData.generated_at).getTime()) / 3600000
-      : null;
-    if (hoursSince != null && hoursSince > 20) {
-      staleEl.style.display = 'inline-block';
-      staleEl.textContent = `⚠ Last refreshed ${Math.round(hoursSince)}h ago — today's automatic update may be delayed. It runs on its own several times a day and should catch up shortly.`;
-    } else {
-      staleEl.style.display = 'none';
-    }
-  }
-
-  const tabs = document.getElementById('tabs');
-  tabs.innerHTML = '';
-  dashboardData.retailers.forEach((r, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
-    btn.textContent = r.retailer.charAt(0).toUpperCase() + r.retailer.slice(1);
-    btn.onclick = () => selectRetailer(r.retailer, btn);
-    tabs.appendChild(btn);
-  });
-
-  if (dashboardData.retailers.length) {
-    activeRetailer = dashboardData.retailers[0].retailer;
-    renderRetailer(activeRetailer);
-  }
-}
-
-function selectRetailer(name, btnEl) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  btnEl.classList.add('active');
-  activeRetailer = name;
-  renderRetailer(name);
-}
-
-function statusPill(status) {
-  if (status === 'ok') return '<span class="status-pill status-ok">up to date</span>';
-  if (status === 'stale') return '<span class="status-pill status-stale">showing last good data</span>';
-  return '<span class="status-pill status-error">crawl failed</span>';
-}
-
-function renderRetailer(name) {
-  const r = dashboardData.retailers.find(x => x.retailer === name);
-  const content = document.getElementById('content');
-  if (!r) { content.innerHTML = '<div class="section"><p class="empty">No data.</p></div>'; return; }
-
-  if (r.status === 'error') {
-    content.innerHTML = `
-      <div class="section">
-        <h2>${name.charAt(0).toUpperCase() + name.slice(1)} ${statusPill(r.status)}</h2>
-        <p class="empty">The crawler could not reach ${name}'s price list today, and there's no earlier snapshot to fall back on yet.</p>
-        <p class="empty" style="font-family:monospace;">${(r.error || '').slice(0, 300)}</p>
-      </div>`;
+    document.querySelector('main').innerHTML = '<div class="section"><p class="empty">Could not load data.json — the daily job may not have run yet.</p></div>';
     return;
   }
-
-  const diag = r.diagnostics || {};
-  const pgIsSuspiciouslyLow = r.pg_products_tracked === 0 || (diag.blank_brand_field_pct || 0) > 60;
-
-  content.innerHTML = `
-    <p class="status-line">Last updated ${fmtDate(r.last_updated)} ${statusPill(r.status)}</p>
-    ${pgIsSuspiciouslyLow ? `<div class="diag-warning">⚠ P&amp;G products tracked looks unexpectedly low for this retailer. Open "Why so few P&amp;G matches?" below — most likely the brand column isn't populated the way we expect for this retailer's files.</div>` : ''}
-    <div class="cards">
-      <div class="card"><div class="label">Total catalog size</div><div class="value">${r.total_catalog_size.toLocaleString()}</div></div>
-      <div class="card"><div class="label">P&amp;G products tracked</div><div class="value">${r.pg_products_tracked.toLocaleString()}</div></div>
-      <div class="card"><div class="label">Stores covered</div><div class="value">${r.stores_count.toLocaleString()}</div></div>
-      <div class="card"><div class="label">Flagged missing ${dashboardData.missing_days_threshold}+ days</div><div class="value ${r.flagged_count > 0 ? 'warn' : ''}">${r.flagged_count.toLocaleString()}</div></div>
-    </div>
-
-    <div class="section">
-      <h2>Price gap vs. named competitors, by category</h2>
-      <p class="status-line" style="margin-top:-4px;">P&amp;G's price vs. named competitors in each fighting category below, compared like-for-like (per wash for Laundry/Fabric Enhancers, per ml/kg/piece for everything else — not the retailer's own raw catalog categories, which mixed in unrelated things like food and drinks whenever a product happened to be filed oddly). Only categories with a priced brand on both sides today are shown.</p>
-      <canvas id="priceChart"></canvas>
-      <p class="empty" id="priceChart-empty" style="display:none;">Not enough prices today on both sides, in any category, to compare.</p>
-    </div>
-
-    <div class="section">
-      <h2>Competitor tracker, by category</h2>
-      <p class="status-line" style="margin-top:-4px;">P&amp;G's brand vs. named competitors in each fighting category — every tracked brand is shown, even at €0/not found today, so a real gap is visible rather than silently missing.</p>
-      <div class="search-row">
-        <select id="watchlist-category-filter"><option value="">All categories (Hair Care, Femcare, Laundry, …)</option></select>
-      </div>
-      <div id="watchlist-container"></div>
-
-      <div class="sku-detail" id="watchlist-detail">
-        <button class="close-detail" onclick="closeWatchlistDetail()">✕ close</button>
-        <h3 id="watchlist-detail-title"></h3>
-        <p class="sub" id="watchlist-detail-sub"></p>
-        <canvas id="watchlistChart"></canvas>
-        <div class="scroll-table" style="margin-top:14px;"><table id="watchlist-store-table"><thead>
-          <tr><th>Product</th><th>Store</th><th>Address</th><th>City</th><th class="num">Price</th></tr>
-        </thead><tbody></tbody></table></div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Flagged: likely out of stock (missing ${dashboardData.missing_days_threshold}+ consecutive published days)</h2>
-      <p class="status-line" style="margin-top:-4px;">Showing up to the 200 longest-flagged items. "Last seen" is the last published day this exact item appeared in this store's price list. Click the ▾ on a column header to filter by its values, like an Excel AutoFilter.</p>
-      <div class="search-row">
-        <input type="text" id="flagged-search" placeholder="Search by product or brand…">
-        <span class="search-count" id="flagged-count"></span>
-      </div>
-      <div class="scroll-table" id="flagged-table-wrap"></div>
-    </div>
-
-    <div class="section">
-      <h2>Products tracked — by SKU</h2>
-      <p class="status-line" style="margin-top:-4px;">One row per SKU across all stores — P&amp;G's own products plus the named competitor brands tracked in the Competitor Tracker above. Click a row to see its price by individual store and over time.</p>
-      <div class="search-row">
-        <input type="text" id="product-search" placeholder="Search by product or brand…">
-        <select id="category-filter"><option value="">All raw categories</option></select>
-        <select id="pg-category-filter"><option value="">All P&amp;G categories (Hair Care, Femcare, Laundry, …)</option></select>
-        <select id="brand-filter"><option value="">All brands</option></select>
-        <select id="side-filter">
-          <option value="">P&amp;G + competitors</option>
-          <option value="pg">P&amp;G only</option>
-          <option value="competitor">Tracked competitors only</option>
-        </select>
-        <span class="search-count" id="product-count"></span>
-      </div>
-      <div class="scroll-table"><table id="sku-table"><thead>
-        <tr><th>Product</th><th>Brand</th><th>Side</th><th>Category</th><th>EAN</th><th class="num"># Stores</th><th class="num">Min €</th><th class="num">Avg €</th><th class="num">Max €</th></tr>
-      </thead><tbody><tr><td colspan="9" class="empty">Loading…</td></tr></tbody></table></div>
-
-      <div class="sku-detail" id="sku-detail">
-        <button class="close-detail" onclick="closeSkuDetail()">✕ close</button>
-        <h3 id="sku-detail-title"></h3>
-        <p class="sub" id="sku-detail-sub"></p>
-        <canvas id="skuChart"></canvas>
-        <div class="scroll-table" style="margin-top:14px;"><table id="sku-store-table"><thead>
-          <tr><th>Store</th><th>Address</th><th>City</th><th class="num">Price</th></tr>
-        </thead><tbody></tbody></table></div>
-        <div id="sku-history-block" style="margin-top:18px;">
-          <h3 style="font-size:14px;margin-bottom:4px;">Price over time</h3>
-          <p class="sub" id="sku-history-sub"></p>
-          <canvas id="skuHistoryChart"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <details class="diagnostics">
-        <summary>Why so few P&amp;G matches? (brand-matching diagnostics)</summary>
-        <p>${diag.blank_brand_field_pct != null ? `${diag.blank_brand_field_pct}% of ${name}'s rows today had no value in the brand column` : 'No diagnostic data yet'}
-           ${diag.matched_via_product_name_fallback ? ` — ${diag.matched_via_product_name_fallback.toLocaleString()} of the P&amp;G matches above came from spotting a brand name inside the product title rather than the brand field, because the brand field was empty or didn't match.` : ''}
-        </p>
-        <p>Most common brand values across ${name}'s <strong>entire</strong> catalog today — this is a brand-matching debug list, not a competitor list, so it's dominated by high-volume grocery brands and can miss lower-volume real competitors (e.g. Persil). For actual named competitors, see "Competitor tracker, by category" above. Use this list to spot a P&amp;G brand spelled differently than expected in <code>config.py</code>'s <code>PG_BRANDS</code>:</p>
-        <div class="brand-tags">
-          ${(diag.top_brands_seen || []).map(([b, c]) => `<span class="brand-tag">${escapeHtml(b || '(blank)')} · ${c}</span>`).join('') || '<span class="empty">No data</span>'}
-        </div>
-      </details>
-    </div>
-  `;
-
-  renderChart(r.category_brand_watchlist);
-  renderWatchlistSection(r.category_brand_watchlist);
-  renderFlaggedSection(r.flagged_items);
-  loadProducts(name);
+  const cats = allCategories();
+  state.category = cats[0] || null;
+  renderChrome();
+  renderAll();
 }
 
-// --- Excel-style column filter dropdowns (used by the Flagged table) ---
-// filters[col] is either null/undefined ("all values selected", the default)
-// or a Set of the specific values to keep. Values are read from the FULL
-// unfiltered item list for that column every time the dropdown opens, so
-// deselecting a value and later wanting it back is always possible.
-let openFilterPanel = null;
+function renderChrome() {
+  document.getElementById('gen-line').textContent =
+    `Price lists of ${fmtDate(D.as_of_date)} · refreshed ${new Date(D.generated_at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
+  document.getElementById('thr').textContent = D.missing_days_threshold;
+  document.getElementById('fresh-pills').innerHTML = D.retailers.map(r => {
+    const stale = r.status !== 'ok' || r.last_updated !== D.as_of_date;
+    return `<span class="fresh-pill ${stale ? 'stale' : ''}" data-tip="${esc(stale ? (r.status === 'error' ? 'Crawl failed — no data' : 'Showing last good data from ' + fmtDate(r.last_updated)) : 'Up to date')}">${label(r.retailer)} ${stale ? '⚠ ' + fmtDate(r.last_updated) : '✓'}</span>`;
+  }).join(' ');
 
-function closeColumnFilterPanels() {
-  document.querySelectorAll('.col-filter-panel').forEach(p => p.remove());
-  openFilterPanel = null;
-}
-document.addEventListener('click', () => closeColumnFilterPanels());
+  const seg = document.getElementById('retailer-seg');
+  const opts = [['all', 'All retailers'], ...okRetailers().map(r => [r.retailer, label(r.retailer)])];
+  seg.innerHTML = opts.map(([k, v]) => `<button data-k="${k}" class="${state.retailer === k ? 'active' : ''}">${v}</button>`).join('');
+  seg.onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.retailer = b.dataset.k;
+    state.ddRetailer = state.retailer === 'all' ? null : state.retailer;
+    seg.querySelectorAll('button').forEach(x => x.classList.toggle('active', x === b));
+    renderAll();
+  };
 
-function openColumnFilterPanel(btn, col, allItems, filters, onApply) {
-  closeColumnFilterPanels();
-  const values = [...new Set(allItems.map(it => (it[col] || '').toString()))].filter(Boolean).sort();
-  const selected = filters[col]; // null = everything selected
+  const cs = document.getElementById('cat-select');
+  cs.innerHTML = allCategories().map(c => `<option>${esc(c)}</option>`).join('');
+  cs.onchange = () => { state.category = cs.value; state.ddUnit = null; renderMatrix(); renderDeepDive(); renderPromos(); renderMoves(); };
 
-  const panel = document.createElement('div');
-  panel.className = 'col-filter-panel';
-  panel.innerHTML = `
-    <input type="text" class="cf-search" placeholder="Search…">
-    <div class="cf-actions">
-      <button type="button" class="cf-select-all">Select all</button>
-      <button type="button" class="cf-clear">Clear</button>
-    </div>
-    <div class="cf-list">
-      ${values.map(v => `<label><input type="checkbox" value="${escapeHtml(v)}" ${(!selected || selected.has(v)) ? 'checked' : ''}> ${escapeHtml(v)}</label>`).join('') || '<span class="empty">No values</span>'}
-    </div>
-  `;
-  btn.parentElement.appendChild(panel);
-  openFilterPanel = panel;
-  panel.addEventListener('click', e => e.stopPropagation());
+  const ps = document.getElementById('promo-side');
+  ps.innerHTML = [['pg', 'P&amp;G'], ['competitor', 'Competitors'], ['all', 'All']].map(([k, v]) => `<button data-k="${k}" class="${state.promoSide === k ? 'active' : ''}">${v}</button>`).join('');
+  ps.onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.promoSide = b.dataset.k;
+    ps.querySelectorAll('button').forEach(x => x.classList.toggle('active', x === b));
+    renderPromos();
+  };
 
-  function apply() {
-    const checked = new Set(
-      [...panel.querySelectorAll('input[type="checkbox"]')].filter(cb => cb.checked).map(cb => cb.value)
-    );
-    filters[col] = checked.size === values.length ? null : checked;
-    btn.classList.toggle('active', filters[col] !== null);
-    onApply();
-  }
+  const sr = document.getElementById('sku-retailer');
+  sr.innerHTML = '<option value="">Choose retailer…</option>' + okRetailers().map(r => `<option value="${r.retailer}">${label(r.retailer)}</option>`).join('');
+  sr.onchange = () => loadSkus(sr.value);
 
-  panel.querySelector('.cf-search').addEventListener('input', e => {
-    const q = e.target.value.toLowerCase();
-    panel.querySelectorAll('.cf-list label').forEach(label => {
-      label.style.display = label.textContent.toLowerCase().includes(q) ? '' : 'none';
-    });
-  });
-  panel.querySelector('.cf-select-all').addEventListener('click', () => {
-    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = true; });
-    apply();
-  });
-  panel.querySelector('.cf-clear').addEventListener('click', () => {
-    panel.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = false; });
-    apply();
-  });
-  panel.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.addEventListener('change', apply));
+  document.getElementById('footer').textContent =
+    'Data: retailers\' public daily price lists (NN 75/2025). "Possible gaps" are inferred from price-list absence, not warehouse inventory.';
 }
 
-function renderFlaggedSection(items) {
-  const wrap = document.getElementById('flagged-table-wrap');
-  const searchInput = document.getElementById('flagged-search');
-  const countEl = document.getElementById('flagged-count');
-  if (!wrap) return;
+function renderAll() {
+  document.getElementById('cat-select').value = state.category;
+  renderKpis(); renderMatrix(); renderDeepDive(); renderPromos(); renderMoves(); renderCoverage(); renderGaps();
+}
 
-  const all = items || [];
-  if (!all.length) {
-    wrap.innerHTML = '<p class="empty">Nothing flagged right now.</p>';
-    countEl.textContent = '';
-    searchInput.value = '';
-    searchInput.oninput = null;
-    return;
-  }
+// ---------- KPIs ----------
+function renderKpis() {
+  const rs = selectedRetailers();
+  const stores = rs.reduce((s, r) => s + (r.stores_count || 0), 0);
+  const skus = rs.reduce((s, r) => s + ((r.insights || {}).pg_brand_coverage || []).reduce((a, b) => a + b.skus, 0), 0);
+  let above = 0, compared = 0;
+  rs.forEach(r => allCategories().forEach(c => { const v = categoryView(r, c); if (v && v.gap != null) { compared++; if (v.gap > 3) above++; } }));
+  const promos = rs.reduce((s, r) => s + ((r.insights || {}).promos_pg_total || 0), 0);
+  const gaps = rs.reduce((s, r) => s + (r.flagged_count || 0), 0);
+  const gapStores = rs.reduce((s, r) => s + (((r.insights || {}).flags_by_store) || []).length, 0);
+  const scope = state.retailer === 'all' ? `across ${rs.length} retailers` : label(state.retailer);
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="label">Stores reporting today</div><div class="value">${fmtInt(stores)}</div><div class="note">${scope}</div></div>
+    <div class="kpi"><div class="label">P&amp;G SKUs listed</div><div class="value">${skus ? fmtInt(skus) : '—'}</div><div class="note">unique barcodes${state.retailer === 'all' ? ', summed per retailer' : ''}</div></div>
+    <div class="kpi"><div class="label">Categories where P&amp;G is priced above competitors</div><div class="value">${above} <span class="muted" style="font-size:16px">of ${compared}</span></div><div class="note">more than 3% above, per unit</div></div>
+    <div class="kpi"><div class="label">P&amp;G SKUs on promotion</div><div class="value">${fmtInt(promos)}</div><div class="note">published special-sale price</div></div>
+    <div class="kpi"><div class="label">Possible gaps on shelf</div><div class="value">${fmtInt(gaps)}</div><div class="note">${gaps ? `store × SKU pairs in ${fmtInt(gapStores)} stores` : 'nothing missing ' + D.missing_days_threshold + '+ days'}</div></div>`;
+}
 
-  // One entry per filterable column; null = no filter applied to that column.
-  const filters = { product: null, brand: null, category: null, store_name: null };
-
-  function draw() {
-    const q = (searchInput.value || '').trim().toLowerCase();
-    const filtered = all.filter(it => {
-      if (q && !((it.product || '').toLowerCase().includes(q) || (it.brand || '').toLowerCase().includes(q))) {
-        return false;
+// ---------- matrix ----------
+function renderMatrix() {
+  const rs = selectedRetailers();
+  const cats = allCategories();
+  const head = `<thead><tr><th>Category</th>${rs.map(r => `<th class="num" style="text-align:center">${label(r.retailer)}</th>`).join('')}</tr></thead>`;
+  const body = cats.map(c => {
+    const cells = rs.map(r => {
+      const v = categoryView(r, c);
+      const isSel = c === state.category && (state.ddRetailer || defaultDdRetailer()) === r.retailer;
+      if (!v || v.gap == null) {
+        const why = !v ? 'No data' : (v.pgAvg == null ? 'No priced P&G brand in this category' : 'No priced competitor in this category');
+        return `<td class="cell ${isSel ? 'sel' : ''}" data-cat="${esc(c)}" data-r="${r.retailer}" style="color:var(--muted);background:var(--surface-2)" data-tip="${esc(why)}">—</td>`;
       }
-      for (const col of ['product', 'brand', 'category', 'store_name']) {
-        const sel = filters[col];
-        if (sel && !sel.has((it[col] || '').toString())) return false;
-      }
-      return true;
-    });
-    countEl.textContent = `${filtered.length.toLocaleString()} item${filtered.length === 1 ? '' : 's'}` +
-      (filtered.length !== all.length ? ` (of ${all.length.toLocaleString()} flagged)` : '');
-    wrap.innerHTML = renderFlaggedTable(filtered);
-    wrap.querySelectorAll('.col-filter-btn').forEach(btn => {
-      const col = btn.dataset.col;
-      if (filters[col]) btn.classList.add('active');
-      btn.addEventListener('click', e => {
-        e.stopPropagation();
-        openColumnFilterPanel(btn, col, all, filters, draw);
-      });
-    });
-  }
-
-  searchInput.value = '';
-  searchInput.oninput = draw;
-  draw();
-}
-
-let skuGroupsCache = {};  // retailer -> array of grouped SKU objects
-let skuChartInstance = null;
-
-function groupIntoSkus(rows) {
-  // Group per-store rows into one entry per SKU. Prefer the barcode (EAN) as
-  // the grouping key — it's the one identifier that's genuinely unique to a
-  // single product everywhere — over the retailer's own internal product_id,
-  // which isn't always reliable (Lidl's own code has been seen reused across
-  // more than a dozen completely different products), and which would
-  // otherwise silently lump unrelated SKUs into one inflated "store count".
-  // Falls back to product_id, then product+brand, only when no barcode is
-  // present on the row.
-  const groups = new Map();
-  for (const row of rows) {
-    const key = row.barcode ? `ean:${row.barcode}` : (row.product_id ? `id:${row.product_id}` : `nb:${row.product}|${row.brand}`);
-    if (!groups.has(key)) {
-      groups.set(key, {
-        product: row.product, brand: row.brand, category: row.category,
-        fighting_category: row.fighting_category || null,
-        side: row.side || 'pg',
-        ean: row.barcode || '', stores: [],
-      });
-    }
-    groups.get(key).stores.push(row);
-  }
-  return Array.from(groups.values()).map(g => {
-    const prices = g.stores.map(s => s.price).filter(p => p != null);
-    return {
-      ...g,
-      store_count: g.stores.length,
-      min_price: prices.length ? Math.min(...prices) : null,
-      max_price: prices.length ? Math.max(...prices) : null,
-      avg_price: prices.length ? prices.reduce((a, b) => a + b, 0) / prices.length : null,
-    };
-  });
-}
-
-async function loadProducts(retailer) {
-  const tbody = document.querySelector('#sku-table tbody');
-  const countEl = document.getElementById('product-count');
-  const categorySelect = document.getElementById('category-filter');
-  const pgCategorySelect = document.getElementById('pg-category-filter');
-  const brandSelect = document.getElementById('brand-filter');
-  const sideSelect = document.getElementById('side-filter');
-  const searchInput = document.getElementById('product-search');
-  closeSkuDetail();
-
-  try {
-    const allRows = await ensureAllTrackedProductsLoaded(retailer);
-    const skus = skuGroupsCache[retailer] || (skuGroupsCache[retailer] = groupIntoSkus(allRows));
-
-    // Populate filter dropdowns from what's actually in this retailer's data.
-    // Two different category taxonomies coexist here on purpose: "category"
-    // is the retailer's own raw label (HRANA, KOZMETIKA, …); "fighting
-    // category" is the manager-curated P&G grouping (Hair Care, Femcare,
-    // Laundry, …) used in the Competitor tracker section above — most P&G
-    // products don't have one (e.g. Braun, Vicks), which shows as "Other".
-    const categories = [...new Set(skus.map(s => s.category))].sort();
-    const brands = [...new Set(skus.map(s => s.brand).filter(Boolean))].sort();
-    const pgCategories = [...new Set(skus.map(s => s.fighting_category).filter(Boolean))].sort();
-    const hasUncategorized = skus.some(s => !s.fighting_category);
-    categorySelect.innerHTML = '<option value="">All raw categories</option>' +
-      categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
-    pgCategorySelect.innerHTML = '<option value="">All P&amp;G categories (Hair Care, Femcare, Laundry, …)</option>' +
-      pgCategories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('') +
-      (hasUncategorized ? '<option value="__other__">Other P&amp;G products (not in a fighting category)</option>' : '');
-    brandSelect.innerHTML = '<option value="">All brands</option>' +
-      brands.map(b => `<option value="${escapeHtml(b)}">${escapeHtml(b)}</option>`).join('');
-
-    function renderRows() {
-      const q = (searchInput.value || '').trim().toLowerCase();
-      const cat = categorySelect.value;
-      const pgCat = pgCategorySelect.value;
-      const brand = brandSelect.value;
-      const side = sideSelect.value;
-      const filtered = skus.filter(s =>
-        (!q || (s.product || '').toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q)) &&
-        (!cat || s.category === cat) &&
-        (!pgCat || (pgCat === '__other__' ? !s.fighting_category : s.fighting_category === pgCat)) &&
-        (!brand || s.brand === brand) &&
-        (!side || s.side === side)
-      );
-      const shown = filtered.slice(0, 300);
-      countEl.textContent = `${filtered.length.toLocaleString()} SKU${filtered.length === 1 ? '' : 's'}${filtered.length > 300 ? ' (showing first 300 — narrow your filter)' : ''}`;
-      tbody.innerHTML = shown.length ? shown.map((s, i) => `
-        <tr data-idx="${i}">
-          <td>${escapeHtml(s.product)}</td>
-          <td>${escapeHtml(s.brand)}</td>
-          <td>${s.side === 'competitor' ? 'Competitor' : 'P&amp;G'}</td>
-          <td>${escapeHtml(s.category)}</td>
-          <td>${escapeHtml(s.ean) || '—'}</td>
-          <td class="num">${s.store_count}</td>
-          <td class="num">${s.min_price != null ? s.min_price.toFixed(2) : '—'}</td>
-          <td class="num">${s.avg_price != null ? s.avg_price.toFixed(2) : '—'}</td>
-          <td class="num">${s.max_price != null ? s.max_price.toFixed(2) : '—'}</td>
-        </tr>`).join('') : '<tr><td colspan="9" class="empty">No matches.</td></tr>';
-
-      // Bind clicks in JS rather than inline onclick="" strings — product
-      // names/categories can contain quotes or accented characters that
-      // broke the previous inline-attribute approach and silently made
-      // clicking do nothing.
-      tbody.querySelectorAll('tr[data-idx]').forEach(row => {
-        row.addEventListener('click', () => {
-          showSkuDetail(shown[Number(row.dataset.idx)]);
-        });
-      });
-    }
-
-    renderRows();
-    searchInput.value = '';
-    searchInput.oninput = renderRows;
-    categorySelect.onchange = renderRows;
-    pgCategorySelect.onchange = renderRows;
-    brandSelect.onchange = renderRows;
-    sideSelect.onchange = renderRows;
-  } catch (e) {
-    tbody.innerHTML = '<tr><td colspan="9" class="empty">Could not load the product list for this retailer.</td></tr>';
-  }
-}
-
-let skuHistoryChartInstance = null;
-
-async function showSkuDetail(sku) {
-  if (!sku) return;
-
-  const panel = document.getElementById('sku-detail');
-  panel.classList.add('open');
-  document.getElementById('sku-detail-title').textContent = `${sku.product} — ${sku.brand}`;
-  document.getElementById('sku-detail-sub').textContent =
-    `${sku.category}${sku.ean ? ' · EAN ' + sku.ean : ''} · in ${sku.store_count} store${sku.store_count === 1 ? '' : 's'} · €${sku.min_price?.toFixed(2)}–€${sku.max_price?.toFixed(2)} (avg €${sku.avg_price?.toFixed(2)})`;
-
-  const storesSorted = [...sku.stores].sort((a, b) => (a.price ?? 0) - (b.price ?? 0));
-
-  const tbody = document.querySelector('#sku-store-table tbody');
-  tbody.innerHTML = storesSorted.map(s => `
-    <tr>
-      <td>${escapeHtml(s.store_name)}</td>
-      <td>${escapeHtml(s.street_address || '—')}</td>
-      <td>${escapeHtml(s.city || '')}</td>
-      <td class="num">${s.price != null ? '€' + Number(s.price).toFixed(2) : '—'}</td>
-    </tr>`).join('');
-
-  const ctx = document.getElementById('skuChart');
-  if (skuChartInstance) skuChartInstance.destroy();
-  const CHART_CAP = 60;
-  const chartStores = storesSorted.slice(0, CHART_CAP);
-  // Some retailers give two distinct physical stores the identical display
-  // name (e.g. two "Konzum Biograd Na Moru" branches) — disambiguate those
-  // with the street address so the chart doesn't look like a duplicate bar.
-  const nameCounts = {};
-  chartStores.forEach(s => { nameCounts[s.store_name] = (nameCounts[s.store_name] || 0) + 1; });
-  const chartLabel = s => nameCounts[s.store_name] > 1 && s.street_address
-    ? `${s.store_name} (${s.street_address})`
-    : s.store_name;
-  skuChartInstance = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: chartStores.map(chartLabel),
-      datasets: [{ label: 'Price (€)', data: chartStores.map(s => s.price), backgroundColor: '#004b93' }],
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        title: storesSorted.length > CHART_CAP
-          ? { display: true, text: `Showing lowest-priced ${CHART_CAP} of ${storesSorted.length} stores — full list in the table below`, font: { size: 11 }, color: '#6b7480' }
-          : { display: false },
-      },
-      scales: {
-        y: { beginAtZero: false, title: { display: true, text: 'EUR' } },
-        x: { ticks: { autoSkip: true, maxRotation: 60, minRotation: 30 } },
-      },
-    },
-  });
-
-  // Price-over-time chart — sourced from the daily history already kept for
-  // this product (by barcode), separate from the per-store bar chart above.
-  const historySub = document.getElementById('sku-history-sub');
-  const historyCtx = document.getElementById('skuHistoryChart');
-  if (skuHistoryChartInstance) { skuHistoryChartInstance.destroy(); skuHistoryChartInstance = null; }
-  if (!sku.ean) {
-    historySub.textContent = "No barcode on this product, so price history can't be tracked.";
-  } else {
-    const historyMap = await ensurePriceHistoryLoaded(activeRetailer);
-    const points = historyMap[sku.ean] || [];
-    if (points.length < 2) {
-      historySub.textContent = points.length === 1
-        ? 'Only one day of history recorded so far — check back after a few more daily updates.'
-        : 'No price history recorded yet for this product.';
-    } else {
-      historySub.textContent = `${points.length} day${points.length === 1 ? '' : 's'} of history, ${fmtDate(points[0].date)} – ${fmtDate(points[points.length - 1].date)}`;
-      skuHistoryChartInstance = new Chart(historyCtx, {
-        type: 'line',
-        data: {
-          labels: points.map(p => fmtDate(p.date)),
-          datasets: [{
-            label: 'Avg price (€)',
-            data: points.map(p => p.avg_price),
-            borderColor: '#004b93',
-            backgroundColor: 'rgba(0, 75, 147, 0.08)',
-            fill: true,
-            tension: 0.15,
-            pointRadius: points.length > 30 ? 0 : 3,
-          }],
-        },
-        options: {
-          responsive: true,
-          plugins: { legend: { display: false } },
-          scales: {
-            y: { beginAtZero: false, title: { display: true, text: 'EUR' } },
-            x: { ticks: { autoSkip: true, maxRotation: 60, minRotation: 30 } },
-          },
-        },
-      });
-    }
-  }
-
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-}
-
-function closeSkuDetail() {
-  const panel = document.getElementById('sku-detail');
-  if (panel) panel.classList.remove('open');
-}
-
-function brandChip(b, category, side, extraClass) {
-  const found = b.count > 0;
-  // "count" is store-level price rows seen today, not unique SKUs — the same
-  // product priced at 40 different stores counts as 40, which is why these
-  // numbers run into the hundreds/thousands for a brand sold everywhere.
-  // All of the price math below only runs when `found` — when a brand isn't
-  // sold today, avg_price/comparison_avg_price are null by design (see
-  // history.py), and calling .toFixed() on null throws. Since render() runs
-  // inside loadData()'s try block, that throw surfaces as the misleading
-  // "Could not load data.json" message.
-  let label;
-  if (found) {
-    const compPrice = fmtComparisonPrice(b.comparison_avg_price, b.comparison_unit, b.comparison_basis);
-    const shelf = b.avg_price != null ? `€${b.avg_price.toFixed(2)}` : null;
-    // Lead with the like-for-like comparison price when we have one (e.g.
-    // "€0.19/wash"), with raw shelf average as a secondary reference — raw
-    // price alone rewards whoever sells the smaller pack.
-    const priceLabel = compPrice
-      ? (shelf ? `${compPrice} (${shelf} shelf avg)` : compPrice)
-      : (shelf ? `${shelf} avg` : 'no price');
-    const coverage = b.wash_count_coverage_pct;
-    const coverageNote = (b.comparison_basis === 'wash' && coverage != null && coverage < 100)
-      ? ` · ${coverage}% of rows had a parsed wash count, rest used €/${b.comparison_unit || 'unit'} fallback`
-      : '';
-    label = `${escapeHtml(b.brand)} · ${priceLabel} · seen in ${b.count.toLocaleString()} store-rows today${coverageNote}`;
-  } else {
-    label = `${escapeHtml(b.brand)} · not found today`;
-  }
-  // A real <button>, not a span — clicking drills into the stores/prices
-  // behind the number, same idea as clicking a SKU row below.
-  return `<button type="button" class="brand-tag${extraClass ? ' ' + extraClass : ''}"${found ? '' : ' style="opacity:0.5;"'} data-category="${escapeHtml(category)}" data-brand="${escapeHtml(b.brand)}" data-side="${side}">${label}</button>`;
-}
-
-function comparisonUnitLabel(unit, basis) {
-  if (basis === 'wash') return 'wash';
-  if (!unit) return 'unit';
-  if (unit === 'kom') return 'piece';
-  return unit;
-}
-
-function fmtComparisonPrice(value, unit, basis) {
-  if (value == null) return null;
-  // €/ml and €/kg prices are typically well under €1, where 2 decimals
-  // rounds everything to €0.00-€0.05 and hides the real gap between
-  // brands — show more precision for small values.
-  const decimals = value < 1 ? 3 : 2;
-  return `€${value.toFixed(decimals)}/${comparisonUnitLabel(unit, basis)}`;
-}
-
-function categoryPriceGap(v) {
-  // Like-for-like read: average price *per the category's comparison
-  // basis* (€/wash, €/ml or €/kg, €/piece — see config.CATEGORY_COMPARISON_
-  // BASIS) across brands actually found today on each side, not raw shelf
-  // price, which would just reward whoever sells the smaller pack. Falls
-  // back to raw avg_price only if no brand on a side has a comparison price
-  // yet (e.g. a brand new to the watchlist with no unit_price data).
-  // Returns null when either side has no priced brand today.
-  const pgFound = (v.pg_brands || []).filter(b => b.count > 0);
-  const compFound = (v.competitor_brands || []).filter(b => b.count > 0);
-  if (!pgFound.length || !compFound.length) return null;
-
-  const pgComp = pgFound.filter(b => b.comparison_avg_price != null);
-  const compComp = compFound.filter(b => b.comparison_avg_price != null);
-  const useComparison = pgComp.length && compComp.length;
-
-  const basis = (pgFound[0] || compFound[0]).comparison_basis || 'unit';
-  const unit = (pgComp[0] || compComp[0] || {}).comparison_unit || '';
-
-  if (useComparison) {
-    const pgAvg = pgComp.reduce((sum, b) => sum + b.comparison_avg_price, 0) / pgComp.length;
-    const compAvg = compComp.reduce((sum, b) => sum + b.comparison_avg_price, 0) / compComp.length;
-    return { pgAvg, compAvg, diff: pgAvg - compAvg, basis, unit, isComparison: true };
-  }
-
-  const pgAvg = pgFound.reduce((sum, b) => sum + b.avg_price, 0) / pgFound.length;
-  const compAvg = compFound.reduce((sum, b) => sum + b.avg_price, 0) / compFound.length;
-  return { pgAvg, compAvg, diff: pgAvg - compAvg, basis, unit: '', isComparison: false };
-}
-
-function renderWatchlistCards(entries) {
-  if (!entries.length) {
-    return '<p class="empty">No brand watchlist data for this category.</p>';
-  }
-  return entries.map(([cat, v]) => {
-    const gap = categoryPriceGap(v);
-    const basisLabel = v.comparison_basis === 'wash' ? 'price per wash' : 'price per unit (€/ml, €/kg or €/piece)';
-    const gapHtml = gap
-      ? (gap.isComparison
-          ? `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G ${fmtComparisonPrice(gap.pgAvg, gap.unit, gap.basis)} vs. competitors ${fmtComparisonPrice(gap.compAvg, gap.unit, gap.basis)} — P&amp;G ${gap.diff > 0 ? 'higher' : 'lower'}</span>`
-          : `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G avg €${gap.pgAvg.toFixed(2)} vs. competitors avg €${gap.compAvg.toFixed(2)} (shelf price — no comparison-basis data yet) — P&amp;G ${Math.abs(gap.diff).toFixed(2)}€ ${gap.diff > 0 ? 'higher' : 'lower'}</span>`)
-      : `<span class="price-gap">Not enough prices today on both sides to compare</span>`;
-    return `
-      <div class="watchlist-card">
-        <div class="watchlist-card-header">
-          <h3>${escapeHtml(cat)} <span class="price-gap" style="font-weight:normal;">(compared ${basisLabel})</span></h3>
-          ${gapHtml}
-        </div>
-        <div class="watchlist-row">
-          <span class="watchlist-side-label">P&amp;G</span>
-          <div class="brand-tags">${(v.pg_brands || []).map(b => brandChip(b, cat, 'pg', 'pg-brand')).join(' ')}</div>
-        </div>
-        <div class="watchlist-row">
-          <span class="watchlist-side-label">Competitors</span>
-          <div class="brand-tags">${(v.competitor_brands || []).map(b => brandChip(b, cat, 'comp')).join(' ')}</div>
-        </div>
-      </div>`;
+      const col = divColor(v.gap);
+      const sign = v.gap > 0 ? '+' : (v.gap < 0 ? '−' : '');
+      const t = `<strong>${esc(c)} · ${label(r.retailer)}</strong><br>P&amp;G ${fmtUnitPrice(v.pgAvg, v.unit, v.basis)} vs. competitors ${fmtUnitPrice(v.compAvg, v.unit, v.basis)}<br>${Math.abs(v.gap).toFixed(1)}% ${v.gap >= 0 ? 'above' : 'below'} competitors`;
+      return `<td class="cell ${isSel ? 'sel' : ''}" data-cat="${esc(c)}" data-r="${r.retailer}" style="background:${col.bg};color:${col.fg}" data-tip="${esc(t)}">${sign}${Math.abs(v.gap).toFixed(0)}%</td>`;
+    }).join('');
+    return `<tr><td class="cat" data-cat="${esc(c)}">${esc(c)}</td>${cells}</tr>`;
   }).join('');
+  const m = document.getElementById('matrix');
+  m.innerHTML = head + `<tbody>${body}</tbody>`;
+  m.onclick = e => {
+    const td = e.target.closest('[data-cat]'); if (!td) return;
+    state.category = td.dataset.cat;
+    state.ddUnit = null;
+    if (td.dataset.r) state.ddRetailer = td.dataset.r;
+    document.getElementById('cat-select').value = state.category;
+    renderMatrix(); renderDeepDive(); renderPromos(); renderMoves();
+    document.getElementById('deep-dive').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  const sw = arr => arr.map(c => `<span style="background:${c}"></span>`).join('');
+  document.getElementById('matrix-legend').innerHTML =
+    `<span>P&amp;G cheaper</span><span class="ramp">${sw([...DIV_BLUE].reverse())}${sw([DIV_MID])}${sw(DIV_ORANGE)}</span><span>P&amp;G pricier</span>`;
 }
 
-function renderWatchlistSection(watchlist) {
-  const filterSelect = document.getElementById('watchlist-category-filter');
-  const container = document.getElementById('watchlist-container');
-  if (!filterSelect || !container) return;
+// ---------- deep dive ----------
+function defaultDdRetailer() {
+  if (state.retailer !== 'all') return state.retailer;
+  return (okRetailers()[0] || {}).retailer;
+}
+function renderDeepDive() {
+  const rid = state.ddRetailer || defaultDdRetailer();
+  const seg = document.getElementById('dd-retailer-seg');
+  seg.innerHTML = selectedRetailers().map(r => `<button data-k="${r.retailer}" class="${r.retailer === rid ? 'active' : ''}">${label(r.retailer)}</button>`).join('');
+  seg.onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.ddRetailer = b.dataset.k; renderDeepDive(); renderMatrix();
+  };
+  document.getElementById('brand-detail').style.display = 'none';
 
-  const categories = Object.keys(watchlist || {});
-  filterSelect.innerHTML = '<option value="">All categories (Hair Care, Femcare, Laundry, …)</option>' +
-    categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
-  filterSelect.value = '';
+  const r = D.retailers.find(x => x.retailer === rid);
+  const v = r && categoryView(r, state.category, state.ddUnit);
+  document.getElementById('dd-title').textContent = `${state.category || 'Category'} at ${r ? label(r.retailer) : '—'}`;
+  const el = document.getElementById('ladder');
+  if (!v) { el.innerHTML = '<p class="empty">No data for this category.</p>'; document.getElementById('dd-lede').textContent = ''; return; }
 
-  function draw() {
-    const selected = filterSelect.value;
-    const entries = Object.entries(watchlist || {}).filter(([cat]) => !selected || cat === selected);
-    container.innerHTML = renderWatchlistCards(entries);
-    container.querySelectorAll('.brand-tag[data-brand]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        showWatchlistDetail(btn.dataset.category, btn.dataset.brand, btn.dataset.side);
-      });
-    });
+  const ul = unitLabel(v.unit, v.basis);
+  const unitSwitch = (v.units || []).filter(u => u !== 'pak').length > 1
+    ? `<div style="margin-bottom:10px" class="small muted">Compare per: <span class="seg" id="dd-unit">${v.units.filter(u => u !== 'pak').map(u => `<button data-u="${u}" class="${u === v.unit ? 'active' : ''}">${unitLabel(u, v.basis)}</button>`).join('')}</span> <span>— this category mixes pack types (e.g. toothpaste per litre vs. brushes per piece)</span></div>`
+    : '';
+  document.getElementById('dd-lede').innerHTML = v.gap != null
+    ? `Median price per ${ul} for every tracked brand. P&amp;G averages <strong>${fmtUnitPrice(v.pgAvg, v.unit, v.basis)}</strong> vs. <strong>${fmtUnitPrice(v.compAvg, v.unit, v.basis)}</strong> for competitors — <strong>${Math.abs(v.gap).toFixed(1)}% ${v.gap >= 0 ? 'above' : 'below'}</strong>. The vertical line marks the competitor average. Click a brand for its SKUs and stores.`
+    : `Median price per ${ul} for every tracked brand. Not enough priced brands on both sides today to compute a gap. Click a brand for its SKUs and stores.`;
+
+  const sorted = [...v.brands].sort((a, b) => (a.side === b.side ? 0 : a.side === 'pg' ? -1 : 1) || ((a.value ?? Infinity) - (b.value ?? Infinity)));
+  const max = Math.max(...sorted.map(b => b.value || 0), v.compAvg || 0) || 1;
+  const stores = r.stores_count || 0;
+  el.innerHTML = unitSwitch + sorted.map(b => {
+    const found = b.count > 0;
+    const w = b.value != null ? Math.max(1.5, 100 * b.value / max * 0.82) : 0;
+    const reach = stores && b.store_count != null ? Math.round(100 * b.store_count / stores) : null;
+    const meta = !found ? '<span class="muted">Not listed at this retailer today</span>'
+      : [b.sku_count != null ? `${fmtInt(b.sku_count)} SKUs` : `${fmtInt(b.count)} listings`,
+         reach != null ? `${reach}% of stores` : null,
+         b.promo_pct ? `<span class="chip ${b.side === 'pg' ? 'pg' : ''}">${b.promo_pct}% on promo</span>` : null].filter(Boolean).join(' · ');
+    const barHtml = b.value != null
+      ? `<div class="bar ${b.side}" style="width:${w}%"></div><span class="bar-val" style="left:calc(${w}% + 6px)">${fmtUnitPrice(b.value, v.unit, v.basis)}</span>`
+      : `<span class="bar-val muted" style="left:0">${found ? `no ${ul} price (${fmtInt(b.valueRows)} of ${fmtInt(b.count)} rows priced per ${ul})` : '—'}</span>`;
+    const ref = v.compAvg ? `<div class="ref-line" style="left:${100 * v.compAvg / max * 0.82}%"></div>` : '';
+    const t = found ? `<strong>${esc(b.brand)}</strong><br>${b.value != null ? fmtUnitPrice(b.value, v.unit, v.basis) + ' median' : ''}${b.avg_price != null ? '<br>€' + b.avg_price.toFixed(2) + ' average shelf price' : ''}<br>${fmtInt(b.count)} store listings` : '';
+    return `<div class="ladder-row ${found ? 'clickable' : ''}" data-brand="${esc(b.brand)}" data-side="${b.side}" ${t ? `data-tip="${esc(t)}"` : ''}>
+      <div class="name" ${found ? '' : 'style="color:var(--muted);font-weight:500"'}>${esc(b.brand)}<span class="tag ${b.side}">${b.side === 'pg' ? 'P&amp;G' : 'Comp.'}</span></div>
+      <div class="bar-track">${ref}${barHtml}</div>
+      <div class="meta">${meta}</div>
+    </div>`;
+  }).join('');
+  el.onclick = e => {
+    const ub = e.target.closest('#dd-unit button');
+    if (ub) { state.ddUnit = ub.dataset.u; renderDeepDive(); return; }
+    const row = e.target.closest('.ladder-row.clickable'); if (!row) return;
+    showBrandDetail(rid, state.category, row.dataset.brand, row.dataset.side);
+  };
+}
+
+// ---------- lazy product files ----------
+const cache = {};
+async function getJson(path) {
+  if (!(path in cache)) {
+    cache[path] = fetch(path + '?_=' + (D.generated_at || '')).then(r => r.ok ? r.json() : []).catch(() => []);
   }
+  return cache[path];
+}
+const normBrand = s => (s || '').replace(/-/g, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
 
-  filterSelect.onchange = draw;
-  draw();
+async function showBrandDetail(rid, cat, brand, side) {
+  const box = document.getElementById('brand-detail');
+  box.style.display = 'block';
+  box.innerHTML = `<p class="empty">Loading ${esc(brand)} products…</p>`;
+  const rows = await getJson(`products/${rid}${side === 'pg' ? '' : '_watchlist_competitors'}.json`);
+  const target = normBrand(brand);
+  const mine = rows.filter(r => r.fighting_category === cat && (normBrand(r.pg_brand) === target || normBrand(r.brand) === target || normBrand(r.brand).startsWith(target + ' ')));
+  if (!mine.length) { box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><p class="empty">No ${esc(brand)} rows found in the product file.</p>`; return; }
+  const skus = groupSkus(mine).sort((a, b) => b.stores.length - a.stores.length);
+  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button>
+    <h3>${esc(brand)} — ${esc(cat)} at ${label(rid)}</h3>
+    <p class="muted small">${skus.length} SKUs · ${fmtInt(mine.length)} store listings</p>
+    <div class="scroll"><table><thead><tr><th>Product</th><th class="num">Stores</th><th class="num">Unit price</th><th class="num">Shelf price</th><th class="num">On promo</th></tr></thead><tbody>
+    ${skus.map(s => `<tr><td>${esc(s.product)}</td><td class="num">${s.stores.length}</td><td class="num">${s.unitPrice != null ? fmtUnitPrice(s.unitPrice, s.unit) : '—'}</td><td class="num">${priceRange(s)}</td><td class="num">${s.promoStores ? s.promoStores + ' stores' : '—'}</td></tr>`).join('')}
+    </tbody></table></div>`;
 }
 
-let watchlistCompetitorCache = {};  // retailer -> array of watchlisted competitor rows (lazy-loaded)
-let watchlistChartInstance = null;
-
-function normBrand(s) {
-  // Same normalization as history.py's _norm(): fold hyphens to spaces,
-  // collapse whitespace, upper-case. The hyphen fold matters because the
-  // watchlist's canonical brand name ("Oral-B") and a retailer's raw brand
-  // field ("ORAL B", no hyphen) differ only by that hyphen — without this,
-  // clicking the "Oral-B" chip found 0 rows even though the card above it
-  // correctly counted those same rows as Oral-B.
-  return (s || '').replace(/-/g, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
-}
-
-async function ensureProductsLoaded(retailer) {
-  if (!productsCache[retailer]) {
-    const res = await fetch(`products/${retailer}.json?_=` + Date.now());
-    productsCache[retailer] = await res.json();
+function median(a) { if (!a.length) return null; const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+function groupSkus(rows) {
+  const g = new Map();
+  for (const r of rows) {
+    const k = r.barcode ? 'e' + r.barcode : 'n' + r.product;
+    if (!g.has(k)) g.set(k, { product: r.product, brand: r.pg_brand || r.brand, side: r.side, category: r.fighting_category || r.category, ean: r.barcode, unit: r.comparison_unit || r.unit, stores: [] });
+    g.get(k).stores.push(r);
   }
-  return productsCache[retailer];
-}
-
-async function loadWatchlistCompetitorRows(retailer) {
-  if (!watchlistCompetitorCache[retailer]) {
-    try {
-      const res = await fetch(`products/${retailer}_watchlist_competitors.json?_=` + Date.now());
-      watchlistCompetitorCache[retailer] = await res.json();
-    } catch (e) {
-      watchlistCompetitorCache[retailer] = [];
-    }
-  }
-  return watchlistCompetitorCache[retailer];
-}
-
-let allTrackedProductsCache = {};  // retailer -> P&G rows + tracked-competitor rows, each tagged with `side`
-
-async function ensureAllTrackedProductsLoaded(retailer) {
-  // The "Products tracked — by SKU" table covers both P&G's own products
-  // and the named competitor brands tracked in the Competitor Tracker —
-  // not the retailer's entire catalog (thousands of unrelated grocery
-  // items), which the tool deliberately doesn't store row-by-row. Tags
-  // each row with `side` so the table can filter/label P&G vs. competitor,
-  // and so a competitor row without a raw `category` value still groups
-  // and filters sensibly.
-  if (!allTrackedProductsCache[retailer]) {
-    const [pgRows, compRows] = await Promise.all([
-      ensureProductsLoaded(retailer),
-      loadWatchlistCompetitorRows(retailer),
-    ]);
-    allTrackedProductsCache[retailer] = [
-      ...pgRows.map(r => ({ ...r, side: 'pg' })),
-      ...compRows.map(r => ({ ...r, side: 'competitor', category: r.category || 'Uncategorized' })),
-    ];
-  }
-  return allTrackedProductsCache[retailer];
-}
-
-let priceHistoryCache = {};  // retailer -> { barcode: [{date, avg_price, min_price, max_price, store_count}, ...] }
-
-async function ensurePriceHistoryLoaded(retailer) {
-  if (!priceHistoryCache[retailer]) {
-    try {
-      const res = await fetch(`history/${retailer}.json?_=` + Date.now());
-      priceHistoryCache[retailer] = await res.json();
-    } catch (e) {
-      priceHistoryCache[retailer] = {};
-    }
-  }
-  return priceHistoryCache[retailer];
-}
-
-async function showWatchlistDetail(category, brandDisplay, side) {
-  const retailer = activeRetailer;
-  const targetNorm = normBrand(brandDisplay);
-  let rows;
-  if (side === 'pg') {
-    const pgRows = await ensureProductsLoaded(retailer);
-    rows = pgRows.filter(r => r.fighting_category === category && normBrand(r.brand) === targetNorm);
-  } else {
-    const compRows = await loadWatchlistCompetitorRows(retailer);
-    rows = compRows.filter(r => r.fighting_category === category && normBrand(r.brand) === targetNorm);
-  }
-  renderWatchlistDetailPanel(category, brandDisplay, rows);
-}
-
-function renderWatchlistDetailPanel(category, brandDisplay, rows) {
-  const panel = document.getElementById('watchlist-detail');
-  panel.classList.add('open');
-  document.getElementById('watchlist-detail-title').textContent = `${brandDisplay} — ${category}`;
-  const tbody = document.querySelector('#watchlist-store-table tbody');
-
-  if (!rows.length) {
-    document.getElementById('watchlist-detail-sub').textContent =
-      "Not found in today's price list — no stores currently sell this brand under this category.";
-    tbody.innerHTML = '<tr><td colspan="5" class="empty">No data.</td></tr>';
-    if (watchlistChartInstance) { watchlistChartInstance.destroy(); watchlistChartInstance = null; }
-    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    return;
-  }
-
-  const prices = rows.map(r => r.price).filter(p => p != null);
-  const avg = prices.reduce((a, b) => a + b, 0) / prices.length;
-  const min = Math.min(...prices);
-  const max = Math.max(...prices);
-  const uniqueProducts = new Set(rows.map(r => r.product)).size;
-  document.getElementById('watchlist-detail-sub').textContent =
-    `${uniqueProducts} product${uniqueProducts === 1 ? '' : 's'} · ${rows.length.toLocaleString()} store-rows · €${min.toFixed(2)}–€${max.toFixed(2)} (avg €${avg.toFixed(2)})`;
-
-  const sorted = [...rows].sort((a, b) => (a.price ?? 0) - (b.price ?? 0));
-  tbody.innerHTML = sorted.map(r => `
-    <tr>
-      <td>${escapeHtml(r.product)}</td>
-      <td>${escapeHtml(r.store_name)}</td>
-      <td>${escapeHtml(r.street_address || '—')}</td>
-      <td>${escapeHtml(r.city || '')}</td>
-      <td class="num">${r.price != null ? '€' + Number(r.price).toFixed(2) : '—'}</td>
-    </tr>`).join('');
-
-  const ctx = document.getElementById('watchlistChart');
-  if (watchlistChartInstance) watchlistChartInstance.destroy();
-  const CHART_CAP = 60;
-  const chartRows = sorted.slice(0, CHART_CAP);
-  const nameCounts = {};
-  chartRows.forEach(r => { nameCounts[r.store_name] = (nameCounts[r.store_name] || 0) + 1; });
-  const chartLabel = r => nameCounts[r.store_name] > 1 ? `${r.store_name} (${r.product})` : r.store_name;
-  watchlistChartInstance = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: chartRows.map(chartLabel),
-      datasets: [{ label: 'Price (€)', data: chartRows.map(r => r.price), backgroundColor: '#004b93' }],
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        title: sorted.length > CHART_CAP
-          ? { display: true, text: `Showing lowest-priced ${CHART_CAP} of ${sorted.length} rows — full list in the table below`, font: { size: 11 }, color: '#6b7480' }
-          : { display: false },
-      },
-      scales: {
-        y: { beginAtZero: false, title: { display: true, text: 'EUR' } },
-        x: { ticks: { autoSkip: true, maxRotation: 60, minRotation: 30 } },
-      },
-    },
+  return [...g.values()].map(s => {
+    const p = s.stores.map(x => x.price).filter(x => x != null);
+    const up = s.stores.map(x => x.comparison_price ?? x.unit_price).filter(x => x != null);
+    return { ...s, min: p.length ? Math.min(...p) : null, max: p.length ? Math.max(...p) : null, med: median(p), unitPrice: median(up), promoStores: s.stores.filter(x => x.promo_price != null).length };
   });
+}
+const priceRange = s => s.min == null ? '—' : (s.min === s.max ? `€${s.min.toFixed(2)}` : `€${s.min.toFixed(2)}–${s.max.toFixed(2)}`);
 
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+// ---------- promos ----------
+function renderPromos() {
+  const rs = selectedRetailers();
+  let rows = [];
+  rs.forEach(r => ((r.insights || {}).promos || []).forEach(p => rows.push({ ...p, retailer: r.retailer })));
+  const totalPg = rs.reduce((s, r) => s + ((r.insights || {}).promos_pg_total || 0), 0);
+  const total = rs.reduce((s, r) => s + ((r.insights || {}).promos_total || 0), 0);
+  if (state.promoSide !== 'all') rows = rows.filter(p => p.side === state.promoSide);
+  rows.sort((a, b) => b.store_count - a.store_count || (b.depth_pct || 0) - (a.depth_pct || 0));
+  document.getElementById('promo-lede').innerHTML = rs.some(r => r.insights)
+    ? `${fmtInt(totalPg)} P&amp;G and ${fmtInt(total - totalPg)} tracked-competitor SKUs have a published promo price today. Sorted by number of stores running it.`
+    : 'Promotion data appears after the next daily update.';
+  const el = document.getElementById('promo-table');
+  if (!rows.length) { el.innerHTML = '<p class="empty">No promotions in this view today.</p>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Product</th>${state.retailer === 'all' ? '<th>Retailer</th>' : ''}<th class="num">Regular</th><th class="num">Promo</th><th class="num">Off</th><th class="num">Stores</th></tr></thead><tbody>
+    ${rows.slice(0, 200).map(p => `<tr><td>${esc(p.product)}<div class="small muted">${p.side === 'pg' ? '<span class="chip pg">P&amp;G</span> ' : ''}${esc(p.brand)}${p.fighting_category ? ' · ' + esc(p.fighting_category) : ''}</div></td>
+      ${state.retailer === 'all' ? `<td>${label(p.retailer)}</td>` : ''}
+      <td class="num" ${p.regular_price_source === 'other_stores' ? 'data-tip="Retailer publishes no regular price on promo rows — this is the SKU\'s median non-promo price in its other stores today"' : ''}>${p.regular_price != null ? "€" + p.regular_price.toFixed(2) + (p.regular_price_source === 'other_stores' ? '*' : '') : "—"}</td><td class="num"><strong>€${p.promo_price.toFixed(2)}</strong></td>
+      <td class="num">${p.depth_pct != null ? '−' + p.depth_pct.toFixed(0) + '%' : '—'}</td><td class="num">${p.store_count}</td></tr>`).join('')}
+    </tbody></table>`;
 }
 
-function closeWatchlistDetail() {
-  const panel = document.getElementById('watchlist-detail');
-  if (panel) panel.classList.remove('open');
+// ---------- price moves ----------
+function renderMoves() {
+  const rs = selectedRetailers();
+  let rows = [];
+  rs.forEach(r => ((r.insights || {}).price_moves || []).forEach(m => rows.push({ ...m, retailer: r.retailer })));
+  const total = rs.reduce((s, r) => s + ((r.insights || {}).price_moves_total || 0), 0);
+  const since = [...new Set(rs.map(r => (r.insights || {}).compared_with_date).filter(Boolean))];
+  rows.sort((a, b) => (a.side === 'pg' ? 0 : 1) - (b.side === 'pg' ? 0 : 1) || b.stores_changed - a.stores_changed);
+  document.getElementById('moves-lede').innerHTML = rs.some(r => r.insights)
+    ? `${fmtInt(total)} SKUs changed regular price since ${since.length ? since.map(fmtDate).join(' / ') : 'the previous day'} (same SKU, same store). P&amp;G first, then by number of stores.`
+    : 'Price-change tracking appears after the next daily update.';
+  const el = document.getElementById('moves-table');
+  if (!rows.length) { el.innerHTML = '<p class="empty">No regular-price changes in this view.</p>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Product</th>${state.retailer === 'all' ? '<th>Retailer</th>' : ''}<th class="num">Was</th><th class="num">Now</th><th class="num">Change</th><th class="num">Stores</th></tr></thead><tbody>
+    ${rows.slice(0, 200).map(m => `<tr><td>${esc(m.product)}<div class="small muted">${m.side === 'pg' ? '<span class="chip pg">P&amp;G</span> ' : ''}${esc(m.brand)}</div></td>
+      ${state.retailer === 'all' ? `<td>${label(m.retailer)}</td>` : ''}
+      <td class="num">€${m.prev_price.toFixed(2)}</td><td class="num">€${m.price.toFixed(2)}</td>
+      <td class="num delta">${m.pct > 0 ? '▲ +' : '▼ −'}${Math.abs(m.pct).toFixed(1)}%</td>
+      <td class="num" data-tip="${m.stores_changed} of ${m.stores_compared} stores that listed it both days">${m.stores_changed}/${m.stores_compared}</td></tr>`).join('')}
+    </tbody></table>`;
 }
 
-function renderFlaggedTable(items) {
-  const headerRow = `
-    <tr>
-      <th>Product <button type="button" class="col-filter-btn" data-col="product">▾</button></th>
-      <th>Brand <button type="button" class="col-filter-btn" data-col="brand">▾</button></th>
-      <th>Category <button type="button" class="col-filter-btn" data-col="category">▾</button></th>
-      <th>Store <button type="button" class="col-filter-btn" data-col="store_name">▾</button></th>
-      <th>Last seen</th>
-      <th>Missing since</th>
-      <th>Last seen price</th>
-      <th>Missing</th>
-    </tr>`;
-  if (!items || !items.length) {
-    return `<table><thead>${headerRow}</thead><tbody><tr><td colspan="8" class="empty">No items match the current filters.</td></tr></tbody></table>`;
+// ---------- coverage ----------
+function renderCoverage() {
+  const rs = selectedRetailers().filter(r => r.insights);
+  const el = document.getElementById('coverage');
+  if (!rs.length) { el.innerHTML = '<p class="empty">Distribution data appears after the next daily update.</p>'; return; }
+  const brands = {};
+  rs.forEach(r => r.insights.pg_brand_coverage.forEach(b => { (brands[b.brand] = brands[b.brand] || {})[r.retailer] = b; }));
+  const order = Object.keys(brands).sort((a, b) => {
+    const sa = Object.values(brands[a]).reduce((s, x) => s + x.skus, 0), sb = Object.values(brands[b]).reduce((s, x) => s + x.skus, 0);
+    return sb - sa;
+  });
+  el.innerHTML = `<table class="matrix"><thead><tr><th>Brand</th>${rs.map(r => `<th style="text-align:center">${label(r.retailer)} <span class="muted small">(${r.stores_count})</span></th>`).join('')}</tr></thead><tbody>
+    ${order.map(b => `<tr><td class="cat" style="cursor:default">${esc(b)}</td>${rs.map(r => {
+      const x = brands[b][r.retailer];
+      if (!x) return `<td class="cell" style="cursor:default;color:var(--muted);background:var(--surface-2)" data-tip="Not listed at ${label(r.retailer)}">—</td>`;
+      const c = seqColor(x.store_pct);
+      return `<td class="cell" style="cursor:default;background:${c.bg};color:${c.fg}" data-tip="<strong>${esc(b)} · ${label(r.retailer)}</strong><br>${x.stores} of ${x.total_stores} stores<br>${x.skus} SKUs, ~${x.avg_skus_per_store} per store${x.promo_pct ? '<br>' + x.promo_pct + '% of listings on promo' : ''}">${Math.round(x.store_pct)}%<div class="small" style="font-weight:400;opacity:.85">${x.skus} SKUs</div></td>`;
+    }).join('')}</tr>`).join('')}
+    </tbody></table>`;
+}
+
+// ---------- gaps ----------
+function renderGaps() {
+  const rs = selectedRetailers();
+  const total = rs.reduce((s, r) => s + (r.flagged_count || 0), 0);
+  const thr = D.missing_days_threshold;
+  const minHist = Math.min(...rs.map(r => r.history_days_available || 0));
+  document.getElementById('gaps-lede').innerHTML =
+    `P&amp;G SKUs that a store listed before but has left off its price list for ${thr}+ consecutive days on which that store published. Grouped by store — click a store for its SKUs.` +
+    (minHist <= thr ? ` <span class="chip warn">⚠ only ${minHist} days of history so far — expect this list to settle over the first week</span>` : '');
+  let stores = [];
+  rs.forEach(r => (((r.insights || {}).flags_by_store) || []).forEach(s => stores.push({ ...s, retailer: r.retailer })));
+  const el = document.getElementById('gaps');
+  if (!total) { el.innerHTML = '<p class="empty">✓ No P&amp;G SKU has been missing ' + thr + '+ days in this view.</p>'; return; }
+  if (!stores.length) {
+    // data.json from before the per-store summary existed
+    rs.forEach(r => (r.flagged_items || []).forEach(f => stores.push({ store_id: f.store_id, store_name: f.store_name, city: f.city, items: 1, max_days: f.days_missing, top_brands: [f.brand], retailer: r.retailer })));
   }
-  const rows = items.map(it => `
-    <tr>
-      <td>${escapeHtml(it.product)}</td>
-      <td>${escapeHtml(it.brand)}</td>
-      <td>${escapeHtml(it.category)}</td>
-      <td>${escapeHtml(it.store_name)} ${it.city ? '(' + escapeHtml(it.city) + ')' : ''}</td>
-      <td>${fmtDate(it.last_seen_date)}</td>
-      <td>${fmtDate(it.first_missing_date)}${it.as_of ? ' – ' + fmtDate(it.as_of) : ''}</td>
-      <td>${it.last_seen_price != null ? '€' + it.last_seen_price.toFixed(2) : '—'}</td>
-      <td><span class="badge danger">${it.days_missing} days</span></td>
-    </tr>
-  `).join('');
-  return `
-    <table>
-      <thead>${headerRow}</thead>
-      <tbody>${rows}</tbody>
-    </table>`;
+  stores.sort((a, b) => b.items - a.items);
+  el.innerHTML = `<div class="scroll"><table><thead><tr><th>Store</th>${state.retailer === 'all' ? '<th>Retailer</th>' : ''}<th>City</th><th class="num">SKUs missing</th><th class="num">Longest</th><th>Mostly</th></tr></thead><tbody>
+    ${stores.map(s => `<tr class="clickable-row" data-r="${s.retailer}" data-s="${esc(s.store_id)}"><td>${esc(s.store_name)}</td>${state.retailer === 'all' ? `<td>${label(s.retailer)}</td>` : ''}<td>${esc(s.city)}</td>
+      <td class="num"><span class="chip warn">⚠ ${s.items}</span></td><td class="num">${s.max_days} days</td><td class="small">${s.top_brands.map(esc).join(', ')}</td></tr>`).join('')}
+    </tbody></table></div><div class="detail" id="gap-detail" style="display:none"></div>`;
+  el.querySelector('tbody').onclick = async e => {
+    const tr = e.target.closest('tr[data-s]'); if (!tr) return;
+    const box = document.getElementById('gap-detail');
+    box.style.display = 'block'; box.innerHTML = '<p class="empty">Loading…</p>';
+    const flags = await getJson(`flags/${tr.dataset.r}.json`);
+    const mine = flags.filter(f => f.store_id === tr.dataset.s);
+    box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(mine[0]?.store_name || '')} ${mine[0]?.city ? '· ' + esc(mine[0].city) : ''}</h3>
+      <div class="scroll"><table><thead><tr><th>Product</th><th>Brand</th><th>Last seen</th><th class="num">Last price</th><th class="num">Days missing</th></tr></thead><tbody>
+      ${mine.map(f => `<tr><td>${esc(f.product)}</td><td>${esc(f.brand)}</td><td>${fmtDate(f.last_seen_date)}</td><td class="num">${f.last_seen_price != null ? '€' + f.last_seen_price.toFixed(2) : '—'}</td><td class="num">${f.days_missing}</td></tr>`).join('')}
+      </tbody></table></div>`;
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  };
 }
 
-function escapeHtml(s) {
-  if (s == null) return '';
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// ---------- SKU explorer ----------
+let skuState = null, histChart = null;
+async function loadSkus(rid) {
+  const el = document.getElementById('sku-table');
+  document.getElementById('sku-detail').style.display = 'none';
+  if (!rid) { el.innerHTML = '<p class="empty">Choose a retailer to load its products.</p>'; return; }
+  el.innerHTML = '<p class="empty">Loading products (this file is large — a few seconds)…</p>';
+  const [pg, comp] = await Promise.all([getJson(`products/${rid}.json`), getJson(`products/${rid}_watchlist_competitors.json`)]);
+  const skus = groupSkus([...pg.map(r => ({ ...r, side: 'pg' })), ...comp.map(r => ({ ...r, side: 'competitor' }))]);
+  skuState = { rid, skus };
+  const search = document.getElementById('sku-search'), side = document.getElementById('sku-side');
+  search.oninput = side.onchange = drawSkus;
+  drawSkus();
 }
-
-function computeCategoryGaps(watchlist) {
-  // Same price-gap math as the Competitor Tracker cards below
-  // (categoryPriceGap), but collected across every fighting category into
-  // one sorted list — the biggest real gaps first. Deliberately NOT based
-  // on the retailer's own raw catalog categories (category_stats), which
-  // mixed in things P&G doesn't even sell (food, drinks) whenever a product
-  // happened to be filed oddly in that retailer's own taxonomy.
-  const gaps = [];
-  for (const [cat, v] of Object.entries(watchlist || {})) {
-    const gap = categoryPriceGap(v);
-    if (gap && gap.compAvg) {
-      gaps.push({
-        category: cat, pgAvg: gap.pgAvg, compAvg: gap.compAvg,
-        diffPct: (gap.diff / gap.compAvg) * 100,
-        unit: gap.unit, basis: gap.basis, isComparison: gap.isComparison,
-      });
-    }
-  }
-  gaps.sort((a, b) => Math.abs(b.diffPct) - Math.abs(a.diffPct));
-  return gaps;
+function drawSkus() {
+  if (!skuState) return;
+  const q = document.getElementById('sku-search').value.trim().toLowerCase();
+  const side = document.getElementById('sku-side').value;
+  const list = skuState.skus.filter(s => (!side || s.side === side) && (!q || (s.product || '').toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q)))
+    .sort((a, b) => b.stores.length - a.stores.length);
+  document.getElementById('sku-count').textContent = `${fmtInt(list.length)} SKUs${list.length > 300 ? ' · showing 300' : ''}`;
+  const shown = list.slice(0, 300);
+  const el = document.getElementById('sku-table');
+  el.innerHTML = `<table><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th class="num">Stores</th><th class="num">Shelf price</th><th class="num">Unit price</th><th class="num">Promo</th></tr></thead><tbody>
+    ${shown.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}</td><td>${s.side === 'pg' ? '<span class="chip pg">' + esc(s.brand) + '</span>' : esc(s.brand)}</td><td class="small">${esc(s.category)}</td>
+      <td class="num">${s.stores.length}</td><td class="num">${priceRange(s)}</td><td class="num">${s.unitPrice != null ? fmtUnitPrice(s.unitPrice, s.unit) : '—'}</td><td class="num">${s.promoStores || '—'}</td></tr>`).join('') || '<tr><td colspan="7" class="empty">No matches.</td></tr>'}
+    </tbody></table>`;
+  el.querySelector('tbody').onclick = e => { const tr = e.target.closest('tr[data-i]'); if (tr) showSku(shown[+tr.dataset.i]); };
 }
-
-function renderChart(watchlist) {
-  const ctx = document.getElementById('priceChart');
-  const emptyEl = document.getElementById('priceChart-empty');
-  if (!ctx) return;
-  if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
-
-  const gaps = computeCategoryGaps(watchlist);
-  if (!gaps.length) {
-    ctx.style.display = 'none';
-    if (emptyEl) emptyEl.style.display = 'block';
-    return;
-  }
-  ctx.style.display = 'block';
-  if (emptyEl) emptyEl.style.display = 'none';
-
-  chartInstance = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: gaps.map(g => g.category),
-      datasets: [{
-        label: 'P&G price gap vs. named competitors',
-        data: gaps.map(g => Math.round(g.diffPct * 10) / 10),
-        backgroundColor: gaps.map(g => g.diffPct > 0 ? '#c0392b' : '#1e8e3e'),
-      }],
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: (ctx2) => {
-              const g = gaps[ctx2.dataIndex];
-              const sign = g.diffPct > 0 ? '+' : '';
-              const pgStr = g.isComparison ? fmtComparisonPrice(g.pgAvg, g.unit, g.basis) : `€${g.pgAvg.toFixed(2)} avg`;
-              const compStr = g.isComparison ? fmtComparisonPrice(g.compAvg, g.unit, g.basis) : `€${g.compAvg.toFixed(2)} avg`;
-              return `P&G ${pgStr} vs. competitors ${compStr} (${sign}${g.diffPct.toFixed(1)}%)`;
-            },
-          },
-        },
-      },
-      scales: {
-        x: { title: { display: true, text: '% P&G above (+) / below (-) competitor avg' } },
-      },
-    },
+async function showSku(s) {
+  const box = document.getElementById('sku-detail');
+  box.style.display = 'block';
+  const stores = [...s.stores].sort((a, b) => (a.promo_price ?? a.price) - (b.promo_price ?? b.price));
+  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button>
+    <h3>${esc(s.product)}</h3><p class="muted small">${esc(s.brand)} · EAN ${esc(s.ean || '—')} · ${s.stores.length} stores · ${priceRange(s)}</p>
+    <div class="grid-2"><div><h3 style="font-size:13px">Price over time (average across stores)</h3><p class="small muted" id="hist-note"></p><canvas id="hist"></canvas></div>
+    <div class="scroll" style="max-height:300px"><table><thead><tr><th>Store</th><th>City</th><th class="num">Price</th></tr></thead><tbody>
+    ${stores.map(r => `<tr><td>${esc(r.store_name)}<div class="small muted">${esc(r.street_address || '')}</div></td><td>${esc(r.city)}</td><td class="num">${r.promo_price != null ? `<s class="muted">€${r.price.toFixed(2)}</s> <strong>€${r.promo_price.toFixed(2)}</strong>` : '€' + (r.price ?? 0).toFixed(2)}</td></tr>`).join('')}
+    </tbody></table></div></div>`;
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (histChart) { histChart.destroy(); histChart = null; }
+  const hist = await getJson(`history/${skuState.rid}.json`);
+  const pts = (s.ean && hist[s.ean]) || [];
+  const note = document.getElementById('hist-note');
+  if (pts.length < 2) { note.textContent = pts.length ? 'Only one day recorded so far.' : 'No history recorded yet.'; return; }
+  note.textContent = `${pts.length} days, ${fmtDate(pts[0].date)} – ${fmtDate(pts[pts.length - 1].date)}`;
+  const css = getComputedStyle(document.documentElement);
+  histChart = new Chart(document.getElementById('hist'), {
+    type: 'line',
+    data: { labels: pts.map(p => fmtDate(p.date)), datasets: [{ data: pts.map(p => p.avg_price), borderColor: css.getPropertyValue('--series-pg').trim(), borderWidth: 2, pointRadius: 4, tension: 0 }] },
+    options: { plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false, callbacks: { label: c => `€${c.parsed.y.toFixed(2)} avg · ${pts[c.dataIndex].store_count} stores` } } },
+      interaction: { mode: 'index', intersect: false },
+      scales: { y: { grid: { color: css.getPropertyValue('--border').trim() }, ticks: { callback: v => '€' + v } }, x: { grid: { display: false } } } },
   });
 }
 
-loadData();
+load();
 </script>
 </body>
 </html>
