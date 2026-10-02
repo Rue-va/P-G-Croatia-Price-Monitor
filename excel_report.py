@@ -80,6 +80,20 @@ def _write_table(ws, headers: list[str], rows: list[list], table_name: str):
         ws.column_dimensions[get_column_letter(col_idx)].width = width
 
 
+def _dominant_unit(groups: dict) -> str | None:
+    counts: dict[str, int] = {}
+    for b in groups.get("pg_brands", []) + groups.get("competitor_brands", []):
+        for u, v in (b.get("by_unit") or {}).items():
+            counts[u] = counts.get(u, 0) + v.get("count", 0)
+    return max(counts, key=counts.get) if counts else None
+
+
+def _unit_label(unit: str | None, basis: str | None) -> str:
+    if basis == "wash" and unit == "pranje":
+        return "wash"
+    return {"l": "litre", "kg": "kg", "kom": "piece", "pranje": "wash", "pak": "pack"}.get(unit or "", unit or "")
+
+
 def build_report():
     data_path = DOCS_DIR / "data.json"
     if not data_path.exists():
@@ -165,13 +179,21 @@ def build_report():
             wl_ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Competitor Tracker"))
             wl_rows = []
             for cat, groups in watchlist.items():
-                for b in groups.get("pg_brands", []):
-                    wl_rows.append([cat, "P&G", b["brand"], b["count"], b["avg_price"]])
-                for b in groups.get("competitor_brands", []):
-                    wl_rows.append([cat, "Competitor", b["brand"], b["count"], b["avg_price"]])
+                # Same like-for-like basis as the dashboard: each brand's
+                # median unit price in the category's most common unit.
+                unit = _dominant_unit(groups)
+                for side, key in (("P&G", "pg_brands"), ("Competitor", "competitor_brands")):
+                    for b in groups.get(key, []):
+                        u = (b.get("by_unit") or {}).get(unit) or {}
+                        wl_rows.append([
+                            cat, side, b["brand"], b["count"], b.get("sku_count"), b.get("store_count"),
+                            b["avg_price"], u.get("median"), _unit_label(unit, groups.get("comparison_basis")),
+                            b.get("promo_pct"),
+                        ])
             _write_table(
                 wl_ws,
-                ["Category", "Side", "Brand", "Rows Seen Today", "Avg Price (EUR)"],
+                ["Category", "Side", "Brand", "Rows Seen Today", "SKUs", "Stores",
+                 "Avg Shelf Price (EUR)", "Median Unit Price (EUR)", "Per", "% Listings on Promo"],
                 wl_rows,
                 table_name=_safe_sheet_name(f"{retailer}_watchlist").replace(" ", "_"),
             )
@@ -179,7 +201,7 @@ def build_report():
             # or a brand-name spelling mismatch worth double-checking.
             for row_idx, row in enumerate(wl_rows, start=2):
                 if row[3] == 0:
-                    for col_idx in range(1, 6):
+                    for col_idx in range(1, 11):
                         wl_ws.cell(row=row_idx, column=col_idx).fill = WARN_FILL
 
         # --- P&G assortment sheet ---
@@ -189,10 +211,13 @@ def build_report():
             ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} P&G"))
             _write_table(
                 ws,
-                ["Product", "Brand", "Category", "EAN", "Store", "Address", "City", "Price (EUR)"],
+                ["Product", "Brand", "Category", "Fighting Category", "EAN", "Store", "Address", "City",
+                 "Price (EUR)", "Promo Price (EUR)", "Unit Price (EUR)", "Per"],
                 [
-                    [p.get("product"), p.get("brand"), p.get("category"), p.get("barcode"),
-                     p.get("store_name"), p.get("street_address"), p.get("city"), p.get("price")]
+                    [p.get("product"), p.get("pg_brand") or p.get("brand"), p.get("category"),
+                     p.get("fighting_category"), p.get("barcode"),
+                     p.get("store_name"), p.get("street_address"), p.get("city"), p.get("price"),
+                     p.get("promo_price"), p.get("unit_price"), _unit_label(p.get("unit"), None)]
                     for p in products
                 ],
                 table_name=_safe_sheet_name(f"{retailer}_pg").replace(" ", "_"),

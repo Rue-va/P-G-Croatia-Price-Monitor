@@ -25,6 +25,7 @@ from datetime import date, datetime, timezone
 from config import DASHBOARD_DATA_FILE, DOCS_DIR, MISSING_DAYS_THRESHOLD, RETAILERS
 from history import (
     build_day_payload,
+    build_insights,
     build_product_price_history,
     compute_missing_flags,
     save_day,
@@ -113,6 +114,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
             "flagged_count": len(flags),
             "flagged_items": flags[:200],  # cap so data.json stays light
             "history_days_available": len(available_dates(retailer)),
+            "insights": build_insights(retailer, target_date, payload, flags),
         }
     except Exception as exc:
         log.error("Retailer %s failed: %s", retailer, exc, exc_info=True)
@@ -136,6 +138,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
                     "flagged_count": len(flags),
                     "flagged_items": flags[:200],
                     "history_days_available": len(available_dates(retailer)),
+                    "insights": build_insights(retailer, d, prev, flags),
                 }
         return {
             "retailer": retailer,

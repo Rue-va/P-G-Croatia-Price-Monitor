@@ -9,8 +9,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1630",
@@ -22,8 +23,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1630",
@@ -35,8 +37,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2030",
@@ -48,8 +51,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2030",
@@ -61,8 +65,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5630",
@@ -74,8 +79,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5630",
@@ -87,8 +93,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3430",
@@ -100,8 +107,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5930",
@@ -113,8 +121,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5930",
@@ -126,8 +135,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5230",
@@ -139,8 +149,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5230",
@@ -152,8 +163,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5230",
@@ -165,8 +177,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5230",
@@ -178,8 +191,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3130",
@@ -191,8 +205,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3130",
@@ -204,8 +219,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4430",
@@ -217,8 +233,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4430",
@@ -230,8 +247,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2630",
@@ -243,8 +261,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.35,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2630",
@@ -256,8 +275,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2630",
@@ -269,8 +289,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2630",
@@ -282,8 +303,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2630",
@@ -295,8 +317,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -308,8 +331,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 38.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -321,8 +345,9 @@
   "category": "HRANA",
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -334,8 +359,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -347,8 +373,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -360,8 +387,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1930",
@@ -373,8 +401,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3230",
@@ -386,8 +415,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3230",
@@ -399,8 +429,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3230",
@@ -412,8 +443,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3230",
@@ -425,8 +457,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4230",
@@ -438,8 +471,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4230",
@@ -451,8 +485,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2330",
@@ -464,8 +499,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2330",
@@ -477,8 +513,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2330",
@@ -490,8 +527,9 @@
   "category": "TOALETNE POTREPŠTINE",
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1430",
@@ -503,8 +541,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1430",
@@ -516,8 +555,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1430",
@@ -529,8 +569,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -542,8 +583,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 23.29,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -555,8 +597,9 @@
   "category": "PIĆE",
   "last_seen_price": 2.09,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -568,8 +611,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -581,8 +625,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -594,8 +639,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2830",
@@ -607,8 +653,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2730",
@@ -620,8 +667,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2730",
@@ -633,8 +681,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2730",
@@ -646,8 +695,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6330",
@@ -659,8 +709,9 @@
   "category": "HRANA",
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6330",
@@ -672,8 +723,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6330",
@@ -685,8 +737,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7130",
@@ -698,8 +751,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7130",
@@ -711,8 +765,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4630",
@@ -724,8 +779,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4630",
@@ -737,8 +793,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3330",
@@ -750,8 +807,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 25.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3330",
@@ -763,8 +821,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3330",
@@ -776,8 +835,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3330",
@@ -789,8 +849,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 16.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3330",
@@ -802,8 +863,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2930",
@@ -815,8 +877,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2930",
@@ -828,8 +891,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 20.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2930",
@@ -841,8 +905,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6430",
@@ -854,8 +919,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6430",
@@ -867,8 +933,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1030",
@@ -880,8 +947,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1030",
@@ -893,8 +961,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1030",
@@ -906,8 +975,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1030",
@@ -919,8 +989,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 5.19,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1230",
@@ -932,8 +1003,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1230",
@@ -945,8 +1017,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1230",
@@ -958,8 +1031,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1230",
@@ -971,8 +1045,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1830",
@@ -984,8 +1059,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1830",
@@ -997,8 +1073,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3530",
@@ -1010,8 +1087,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3530",
@@ -1023,21 +1101,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
- },
- {
-  "store_id": "3630",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822909",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3030",
@@ -1049,8 +1115,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.29,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1530",
@@ -1062,8 +1129,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1530",
@@ -1075,8 +1143,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1530",
@@ -1088,8 +1157,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5830",
@@ -1101,8 +1171,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5830",
@@ -1114,8 +1185,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5830",
@@ -1127,8 +1199,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5830",
@@ -1140,8 +1213,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1153,8 +1227,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1166,8 +1241,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 6.12,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1179,8 +1255,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.75,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1192,8 +1269,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1205,8 +1283,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 37.19,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1218,8 +1297,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 7.35,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1231,8 +1311,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1244,8 +1325,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1257,8 +1339,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1270,8 +1353,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1283,8 +1367,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.97,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1296,8 +1381,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.36,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1309,8 +1395,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 7.9,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1322,8 +1409,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.36,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1335,8 +1423,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6230",
@@ -1348,8 +1437,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1330",
@@ -1361,8 +1451,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1330",
@@ -1374,8 +1465,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1330",
@@ -1387,8 +1479,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 11.19,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2230",
@@ -1400,8 +1493,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 7.89,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2230",
@@ -1413,8 +1507,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2230",
@@ -1426,8 +1521,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2230",
@@ -1439,8 +1535,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6530",
@@ -1452,8 +1549,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2130",
@@ -1465,8 +1563,9 @@
   "category": "HRANA",
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2130",
@@ -1478,8 +1577,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2130",
@@ -1491,8 +1591,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2130",
@@ -1504,8 +1605,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2130",
@@ -1517,8 +1619,9 @@
   "category": "TOALETNE POTREPŠTINE",
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5130",
@@ -1530,8 +1633,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5130",
@@ -1543,8 +1647,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5130",
@@ -1556,8 +1661,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5130",
@@ -1569,8 +1675,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4330",
@@ -1582,8 +1689,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1130",
@@ -1595,8 +1703,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1130",
@@ -1608,8 +1717,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1130",
@@ -1621,8 +1731,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "1130",
@@ -1634,8 +1745,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4730",
@@ -1647,8 +1759,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4730",
@@ -1660,8 +1773,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4730",
@@ -1673,8 +1787,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4730",
@@ -1686,8 +1801,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4730",
@@ -1699,8 +1815,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6730",
@@ -1712,8 +1829,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4130",
@@ -1725,8 +1843,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4130",
@@ -1738,8 +1857,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "4130",
@@ -1751,8 +1871,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6130",
@@ -1764,8 +1885,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7830",
@@ -1777,8 +1899,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7830",
@@ -1790,8 +1913,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7830",
@@ -1803,8 +1927,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7830",
@@ -1816,8 +1941,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7430",
@@ -1829,8 +1955,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7430",
@@ -1842,8 +1969,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "7430",
@@ -1855,8 +1983,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3830",
@@ -1868,8 +1997,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "3830",
@@ -1881,8 +2011,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6830",
@@ -1894,8 +2025,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6830",
@@ -1907,8 +2039,9 @@
   "category": "HRANA",
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "6830",
@@ -1920,8 +2053,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2530",
@@ -1933,8 +2067,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2530",
@@ -1946,8 +2081,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2530",
@@ -1959,8 +2095,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "2530",
@@ -1972,8 +2109,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -1985,8 +2123,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -1998,8 +2137,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -2011,8 +2151,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -2024,8 +2165,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -2037,8 +2179,9 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 8.99,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -2050,8 +2193,9 @@
   "category": "KOZMETIKA",
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
-  "days_missing": 3,
-  "as_of": "2026-10-01"
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
  },
  {
   "store_id": "5030",
@@ -2063,7 +2207,2878 @@
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-01"
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2030",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2030",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00130195",
+  "product": "Old Spice deo night panther 150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00111935",
+  "product": "Old Spice Deo Sprej deep sea m. 150ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5230",
+  "store_name": "Kaufland Zagreb Blato",
+  "city": "Zagreb Blato",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "00069198",
+  "product": "Venus swirl brijač 1 up",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 8.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "04801941",
+  "product": "Oral B zubni konac Essential 50 m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "20857696",
+  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20825932",
+  "product": "Ambi Pur Osvjež.zraka sprej Aloha 185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
+  "product_id": "20253935",
+  "product": "Pampers Maramice vlažne Harmonie aqu3x48",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
+  "product_id": "20804784",
+  "product": "Ariel Det.kapsule Mountain spring 70/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20743815",
+  "product": "Ambi Pur Osvježivač zraka Fruity t.185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20825932",
+  "product": "Ambi Pur Osvjež.zraka sprej Aloha 185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3230",
+  "store_name": "Kaufland Kutina",
+  "city": "Kutina",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4230",
+  "store_name": "Kaufland Trogir",
+  "city": "Trogir",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4230",
+  "store_name": "Kaufland Trogir",
+  "city": "Trogir",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4230",
+  "store_name": "Kaufland Trogir",
+  "city": "Trogir",
+  "product_id": "20857696",
+  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "00093812",
+  "product": "Pampers ABD pel.gaćice Giant Pack 5,56/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 18.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "00106088",
+  "product": "Old Spice Deo Sprej captain m. 150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2330",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1430",
+  "store_name": "Kaufland Vinkovci",
+  "city": "Vinkovci",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1430",
+  "store_name": "Kaufland Vinkovci",
+  "city": "Vinkovci",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6030",
+  "store_name": "Kaufland Umag",
+  "city": "Umag",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6030",
+  "store_name": "Kaufland Umag",
+  "city": "Umag",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6030",
+  "store_name": "Kaufland Umag",
+  "city": "Umag",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6330",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00023060",
+  "product": "Simply venus 2 brijač 4 +2 komada",
+  "brand": "Simply Venus",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.39,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00085724",
+  "product": "Old Spice Deo Gel white water m. 70ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00107316",
+  "product": "Oral B vodica za usta gum&enamel 500ml",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00138031",
+  "product": "Lenor Perlice mirisne Scent of Ariel210g",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.75,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00141619",
+  "product": "Lenor Omekšivač Spring Aw.49pr.1230ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.75,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00142495",
+  "product": "Lenor Omekšivač Calm 37pr.925ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.75,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00142653",
+  "product": "Lenor Omekšivač Sens.cott 48pr.1200ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.15,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00143593",
+  "product": "Head&Shoulders Šamp.deep cl.sea m.300ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "last_seen_price": 6.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "04700536",
+  "product": "Gillet.Pjena za brij. regular m. 200ml",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "04801941",
+  "product": "Oral B zubni konac Essential 50 m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20271606",
+  "product": "Pantene Šampon400ml+balzam Int.rep.200ml",
+  "brand": "Pantene",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20343851",
+  "product": "Pampers Maramice vlaž.new baby harmo4x46",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 11.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20765052",
+  "product": "Gillette Series Gel za brijanje2x200ml",
+  "brand": "Gillette Series",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20765053",
+  "product": "Gillette Series Pjena za brijanje2x200ml",
+  "brand": "Gillette Series",
+  "category": "KOZMETIKA",
+  "last_seen_price": 6.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20775187",
+  "product": "Oral B Četkice za zube Extra Soft 2/1",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 7.35,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804776",
+  "product": "Ariel Deterdžent za rublje tek.Mo.S.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 36.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804781",
+  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804784",
+  "product": "Ariel Det.kapsule Mountain spring 70/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20815948",
+  "product": "Lenor Perlice mirisne Scent of Ariel195g",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 2.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822908",
+  "product": "Ariel Deterdžent za rublje tek.Sen.3,87L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 36.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20825169",
+  "product": "Ariel Deterdžent za rublje kap.Color38/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835106",
+  "product": "Ariel Deterdžent za rublje Fresh a.2,2kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835169",
+  "product": "Ariel Deterdžent za rublje Amethyst 38/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20849844",
+  "product": "Lenor Omekšivač rublja G.Orchid2x1,239L",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 5.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20858764",
+  "product": "Ariel Deterdžent za rublje Amethyst 26/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20869112",
+  "product": "Pantene Pro-V Balzam za kosu Hydra.275ml",
+  "brand": "Pantene Pro-V",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20876714",
+  "product": "Old Spice Poklon paket Captain",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.36,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "04801941",
+  "product": "Oral B zubni konac Essential 50 m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20822182",
+  "product": "Lenor Omekš.rub.Ruby Jasmine 47w.987ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3330",
+  "store_name": "Kaufland Zapresic",
+  "city": "Zapresic",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2930",
+  "store_name": "Kaufland Virovitica",
+  "city": "Virovitica",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2930",
+  "store_name": "Kaufland Virovitica",
+  "city": "Virovitica",
+  "product_id": "20743815",
+  "product": "Ambi Pur Osvježivač zraka Fruity t.185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2930",
+  "store_name": "Kaufland Virovitica",
+  "city": "Virovitica",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6430",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6430",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "20681449",
+  "product": "Vinea Venus Vino crno 1L",
+  "brand": "Vinea",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6430",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6430",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "20970622",
+  "product": "Ariel Deterdžent za rub.Jap.blossom 30/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 11.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1030",
+  "store_name": "Kaufland Karlovac",
+  "city": "Karlovac",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1030",
+  "store_name": "Kaufland Karlovac",
+  "city": "Karlovac",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1030",
+  "store_name": "Kaufland Karlovac",
+  "city": "Karlovac",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1230",
+  "store_name": "Kaufland Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1230",
+  "store_name": "Kaufland Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20775187",
+  "product": "Oral B Četkice za zube Extra Soft 2/1",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 7.35,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20941272",
+  "product": "Old Spice Deo u spreju Cold 150 ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3530",
+  "store_name": "Kaufland Samobor",
+  "city": "Samobor",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3530",
+  "store_name": "Kaufland Samobor",
+  "city": "Samobor",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00066153",
+  "product": "Always Ulošci dnevni quattro normal 80/1",
+  "brand": "Always",
+  "category": "TOALETNE POTREPŠTINE",
+  "last_seen_price": 3.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "05101243",
+  "product": "Always Ulošci hig.Ult.Sen.Sup.pl.16/1_OC",
+  "brand": "Always",
+  "category": "TOALETNE POTREPŠTINE",
+  "last_seen_price": 3.45,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "20743734",
+  "product": "Old Spice Gel za tuširanje Wolfthorn 1L",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "00069184",
+  "product": "Pampers Pelene ABD Maxi Pack 5 54/1_OC",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 16.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "00091331",
+  "product": "Oral  B Dj.čet za zube Baby Winnie 0-2 g",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.45,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "20828282",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1530",
+  "store_name": "Kaufland Sisak",
+  "city": "Sisak",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00107316",
+  "product": "Oral B vodica za usta gum&enamel 500ml",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20346133",
+  "product": "Pampers Pelene Premium care vel.2 136/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804784",
+  "product": "Ariel Det.kapsule Mountain spring 70/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1330",
+  "store_name": "Kaufland Dakovo",
+  "city": "Dakovo",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1330",
+  "store_name": "Kaufland Dakovo",
+  "city": "Dakovo",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2230",
+  "store_name": "Kaufland Velika Gorica",
+  "city": "Velika Gorica",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2230",
+  "store_name": "Kaufland Velika Gorica",
+  "city": "Velika Gorica",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2230",
+  "store_name": "Kaufland Velika Gorica",
+  "city": "Velika Gorica",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6530",
+  "store_name": "Kaufland Biograd",
+  "city": "Biograd",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6530",
+  "store_name": "Kaufland Biograd",
+  "city": "Biograd",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2130",
+  "store_name": "Kaufland Nova Gradiska",
+  "city": "Nova Gradiska",
+  "product_id": "00033492",
+  "product": "Old Spice Deo Sprej Bearglove 150ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2130",
+  "store_name": "Kaufland Nova Gradiska",
+  "city": "Nova Gradiska",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
+  "product_id": "20085698",
+  "product": "Old Spice Antiperspirant i Deo gel 70ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5130",
+  "store_name": "Kaufland Porec",
+  "city": "Porec",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1130",
+  "store_name": "Kaufland Cakovec",
+  "city": "Cakovec",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1130",
+  "store_name": "Kaufland Cakovec",
+  "city": "Cakovec",
+  "product_id": "20743815",
+  "product": "Ambi Pur Osvježivač zraka Fruity t.185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1130",
+  "store_name": "Kaufland Cakovec",
+  "city": "Cakovec",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1130",
+  "store_name": "Kaufland Cakovec",
+  "city": "Cakovec",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4730",
+  "store_name": "Kaufland Vukovar",
+  "city": "Vukovar",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4730",
+  "store_name": "Kaufland Vukovar",
+  "city": "Vukovar",
+  "product_id": "20022897",
+  "product": "Pampers Pelene Premium care vel.5 88/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4730",
+  "store_name": "Kaufland Vukovar",
+  "city": "Vukovar",
+  "product_id": "20844262",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4730",
+  "store_name": "Kaufland Vukovar",
+  "city": "Vukovar",
+  "product_id": "20916678",
+  "product": "Always Ulošci hig.Ultra night norm.66/1",
+  "brand": "Always",
+  "category": "TOALETNE POTREPŠTINE",
+  "last_seen_price": 9.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
+  "product_id": "20079402",
+  "product": "Pampers Pelene Premium care vel.3 120/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
+  "product_id": "20825932",
+  "product": "Ambi Pur Osvjež.zraka sprej Aloha 185ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6730",
+  "store_name": "Kaufland Vodice",
+  "city": "Vodice",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6130",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6130",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "04801941",
+  "product": "Oral B zubni konac Essential 50 m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "20844950",
+  "product": "Pantene Sprej za kosu Sunkiss Glow 200ml",
+  "brand": "Pantene",
+  "category": "KOZMETIKA",
+  "last_seen_price": 6.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7330",
+  "store_name": "Kaufland Zabok",
+  "city": "Zabok",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7330",
+  "store_name": "Kaufland Zabok",
+  "city": "Zabok",
+  "product_id": "20085698",
+  "product": "Old Spice Antiperspirant i Deo gel 70ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7330",
+  "store_name": "Kaufland Zabok",
+  "city": "Zabok",
+  "product_id": "20954921",
+  "product": "Lenor Perlice mirisne Japanese Blos.195g",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 7.39,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7430",
+  "store_name": "Kaufland Cibaca",
+  "city": "Cibaca",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7430",
+  "store_name": "Kaufland Cibaca",
+  "city": "Cibaca",
+  "product_id": "20804777",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3830",
+  "store_name": "Kaufland Rovinj",
+  "city": "Rovinj",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3830",
+  "store_name": "Kaufland Rovinj",
+  "city": "Rovinj",
+  "product_id": "20822910",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3830",
+  "store_name": "Kaufland Rovinj",
+  "city": "Rovinj",
+  "product_id": "20844950",
+  "product": "Pantene Sprej za kosu Sunkiss Glow 200ml",
+  "brand": "Pantene",
+  "category": "KOZMETIKA",
+  "last_seen_price": 6.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6630",
+  "store_name": "Kaufland ",
+  "city": "",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6830",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20941272",
+  "product": "Old Spice Deo u spreju Cold 150 ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 2.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5330",
+  "store_name": "Kaufland ",
+  "city": "",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5030",
+  "store_name": "Kaufland Dugo Selo",
+  "city": "Dugo Selo",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5030",
+  "store_name": "Kaufland Dugo Selo",
+  "city": "Dugo Selo",
+  "product_id": "20826380",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5030",
+  "store_name": "Kaufland Dugo Selo",
+  "city": "Dugo Selo",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "5930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20921651",
+  "product": "Jar Kapsule za st.pr.pos.Orig.Limun140/1",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 27.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4430",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20927033",
+  "product": "Agustson Kavijar morskog zeca crni 100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2630",
+  "store_name": "Kaufland Pula",
+  "city": "Pula",
+  "product_id": "20835110",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "20927033",
+  "product": "Agustson Kavijar morskog zeca crni 100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "2730",
+  "store_name": "Kaufland Pozega",
+  "city": "Pozega",
+  "product_id": "20927104",
+  "product": "Agustson Kavijar morskog zeca crveni100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6330",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20921651",
+  "product": "Jar Kapsule za st.pr.pos.Orig.Limun140/1",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 27.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00064283",
+  "product": "Jar deterdžent za suđe,jabuka 1,35 l",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 5.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00125807",
+  "product": "Jar Dete.za suđe Tea tree&MintXXL2x1,35L",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 5.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7130",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20748166",
+  "product": "Jar Kapsule All in One lemon 116/1",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20922540",
+  "product": "Jar Kapsule za str.pr.pos.Orig.limun71/1",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 29.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "3030",
+  "store_name": "Kaufland Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "20822909",
+  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.8,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20927104",
+  "product": "Agustson Kavijar morskog zeca crveni100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00067408",
+  "product": "Head&shoulders šampon nourish 400 ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "last_seen_price": 6.69,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20085698",
+  "product": "Old Spice Antiperspirant i Deo gel 70ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20122856",
+  "product": "Gillette Brijač i 11 patrona Fusion 5",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 29.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20123350",
+  "product": "Gillette Brijač i 12 patrona Mach 3",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 21.84,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20346133",
+  "product": "Pampers Pelene Premium care vel.2 136/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20346449",
+  "product": "Lenor Omekšivač Cotton Fresh 48pr.2x1,2L",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 6.07,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20743375",
+  "product": "Head&Shoulders Šamp.Hair Fall.Defe.250ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20743376",
+  "product": "Head&Shoulders Šamp.Persi.Dand.Con.250ml",
+  "brand": "Head&Shoulders",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.19,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20927033",
+  "product": "Agustson Kavijar morskog zeca crni 100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6230",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20927104",
+  "product": "Agustson Kavijar morskog zeca crveni100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "1330",
+  "store_name": "Kaufland Dakovo",
+  "city": "Dakovo",
+  "product_id": "20927033",
+  "product": "Agustson Kavijar morskog zeca crni 100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4330",
+  "store_name": "Kaufland Sinj",
+  "city": "Sinj",
+  "product_id": "00137444",
+  "product": "Kandi Čokolada Milk choco fairy220g",
+  "brand": "Kandi",
+  "category": "HRANA",
+  "last_seen_price": 2.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "20927104",
+  "product": "Agustson Kavijar morskog zeca crveni100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "7830",
+  "store_name": "Kaufland Ivanec",
+  "city": "Ivanec",
+  "product_id": "20927033",
+  "product": "Agustson Kavijar morskog zeca crni 100g",
+  "brand": "Agustson",
+  "category": "HRANA",
+  "last_seen_price": 5.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
+ },
+ {
+  "store_id": "6830",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20804781",
+  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-02"
  }
 ]

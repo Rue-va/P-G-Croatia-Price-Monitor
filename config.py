@@ -1,6 +1,8 @@
 """
 Shared configuration for the P&G Croatia price/assortment dashboard.
 """
+from __future__ import annotations
+
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -74,6 +76,14 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
 #     lines under overlapping wording (see "Baby Wipes" below).
 # A row that matches neither is left uncounted here (it still counts
 # normally everywhere else in the dashboard).
+#
+# A rule also applies to a brand that sits in only ONE watchlist category
+# (e.g. "PUR" below) — there it acts as a gate that keeps unrelated
+# products sharing the brand's name out of the category.
+_JAR_ADW_KEYWORDS = [
+    "TABLET", "TAB", "KAPSUL", "CAPS", "STROJ", "MAŠIN", "MASIN", "PERILIC", "SOL ZA",
+]
+
 CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list[str]]]] = {
     "VIOLETA": {
         "Fabric Enhancers": ["OMEKŠIVA", "OMEKSIVA", "OM "],
@@ -97,14 +107,45 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list
         # No exclude list needed — Pampers doesn't sell makeup wipes, wet
         # toilet paper, or dry tissues, so any "wipe"-shaped product name
         # is safely a baby wipe.
-        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES"],
+        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES", "VL.MAR", "VL. MAR"],
     },
     "JAR": {
-        "Hand Dishwashing": ["POSUĐ", "POSUD", "SUĐE", "SUDJE"],
+        # Hand dishwashing is "every Jar product that isn't a machine
+        # product", not a positive keyword match: retailers abbreviate the
+        # liquid wildly ("DET.JAR LEMON 450 ml" at Spar, "Jar ... pos.šipak"
+        # or just "Jar Aloe&Pink Jasmin 900ml" at Kaufland), so any include
+        # list kept missing real hand-dish SKUs and Spar showed Jar as
+        # "not found" in Hand Dishwashing.
+        "Hand Dishwashing": {"exclude": _JAR_ADW_KEYWORDS},
         # Retailers abbreviate "tableta" as "TAB" in the product name
         # (e.g. "DET JAR PLATINUM PLUS 40 TAB"), not the full word "TABLETA".
-        "Automatic Dishwashing": ["TABLET", "TAB", "KAPSUL", "STROJ", "MAŠIN", "MASIN"],
+        "Automatic Dishwashing": _JAR_ADW_KEYWORDS,
     },
+    # "PUR" is also the standard abbreviation for turkey ("PUR. ŠUNKA",
+    # "PIL/PUR MESA"), appears in pet food ("WHIS.PUR.DEL") and inside Spar's
+    # "Natur*pur" private label — only count rows that are clearly dish soap.
+    "PUR": {
+        "Hand Dishwashing": {
+            "include": ["DET", "SUĐ", "SUD", "POSU", "PRANJ"],
+            "exclude": ["NATUR", "ŠUNK", "SUNK", "MESA", "HRAN", "MAČ", "PAS "],
+        },
+    },
+}
+
+# Retailer catalog categories P&G (and every watchlist competitor) never
+# sells in. Product-name matching skips these rows entirely, which removes
+# false hits like "LIGNJA JAR" (squid), "VINO VENUS" (wine) or "JAR
+# Chardonnay" without having to enumerate each one. Compared upper-cased.
+NON_HPC_RETAIL_CATEGORIES = {"HRANA", "PIĆE", "PIĆA", "PICE", "PICA"}
+
+# Canonical display name for each PG_BRANDS spelling, so "ORAL B", "Oral-B"
+# and a blank-brand Lidl row titled "Oral-B ..." all roll up to one brand
+# in the coverage/promo views. Spellings not listed fall back to title case.
+PG_BRAND_DISPLAY = {
+    "ORAL-B": "Oral-B", "ORAL B": "Oral-B",
+    "HEAD & SHOULDERS": "Head & Shoulders", "HEAD&SHOULDERS": "Head & Shoulders",
+    "AMBI PUR": "Ambi Pur", "AMBI-PUR": "Ambi Pur", "AMBIPUR": "Ambi Pur",
+    "MR. PROPER": "Mr. Proper", "MR PROPER": "Mr. Proper",
 }
 
 # Some retailers' own brand column already spells out which product line a
@@ -165,6 +206,8 @@ CATEGORY_COMPARISON_BASIS: dict[str, str] = {
 WASH_COUNT_PATTERNS: list[str] = [
     r"(\d{1,4})\s*X?\s*PRANJ",   # "60 PRANJA", "60X PRANJA", "60PRANJA"
     r"(\d{1,4})\s*WL\b",         # "40 WL", "40WL"
+    r"=\s*(\d{1,4})\s*PR\b",      # Konzum: "4.05 L=90PR", "1.8 L=40 PR"
+    r"(\d{1,4})\s*\.?\s*PR\b",    # Kaufland: "32pr.", "32.pr."
 ]
 
 # Best-effort store-brand name per retailer, used only for the "Private

@@ -11,6 +11,21 @@ static page (GitHub Pages) shows the result. Your manager bookmarks one URL.
 No Excel, no macros, no installs, no laptop that has to stay on — and it
 keeps running after you leave P&G, as long as the GitHub repo exists.
 
+## What the dashboard shows
+
+Filter by retailer (or all four) at the top; every section follows it.
+
+- **Price position by category** — a category × retailer grid: how far P&G
+  sits above (orange) or below (blue) the named competitors, per wash /
+  litre / kg / piece. Click a cell to open it.
+- **Category deep dive** — every tracked brand's median unit price as a
+  ladder, with SKU count, % of stores listing it and promo share. Click a
+  brand for its SKUs.
+- **On promotion today** and **Price changes** since the previous day.
+- **P&G distribution** — share of each retailer's stores listing each brand.
+- **Possible gaps on shelf** — missing-item flags grouped by store.
+- **SKU explorer** — any P&G or tracked competitor SKU, by store and over time.
+
 ## What "likely out of stock" means
 
 There is no warehouse inventory feed here — only the public price list. A
