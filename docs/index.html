@@ -276,7 +276,7 @@ function renderRetailer(name) {
 
     <div class="section">
       <h2>Price gap vs. named competitors, by category</h2>
-      <p class="status-line" style="margin-top:-4px;">P&amp;G's average price vs. the named competitors tracked in each fighting category below — not the retailer's own raw catalog categories, which mixed in unrelated things like food and drinks whenever a product happened to be filed oddly. Only categories with a priced brand on both sides today are shown.</p>
+      <p class="status-line" style="margin-top:-4px;">P&amp;G's price vs. named competitors in each fighting category below, compared like-for-like (per wash for Laundry/Fabric Enhancers, per ml/kg/piece for everything else — not the retailer's own raw catalog categories, which mixed in unrelated things like food and drinks whenever a product happened to be filed oddly). Only categories with a priced brand on both sides today are shown.</p>
       <canvas id="priceChart"></canvas>
       <p class="empty" id="priceChart-empty" style="display:none;">Not enough prices today on both sides, in any category, to compare.</p>
     </div>
@@ -703,22 +703,69 @@ function brandChip(b, category, side, extraClass) {
   // "count" is store-level price rows seen today, not unique SKUs — the same
   // product priced at 40 different stores counts as 40, which is why these
   // numbers run into the hundreds/thousands for a brand sold everywhere.
-  const label = found ? `${escapeHtml(b.brand)} · €${b.avg_price.toFixed(2)} avg · seen in ${b.count.toLocaleString()} store-rows today` : `${escapeHtml(b.brand)} · not found today`;
+  const compPrice = fmtComparisonPrice(b.comparison_avg_price, b.comparison_unit, b.comparison_basis);
+  // Lead with the like-for-like comparison price when we have one (e.g.
+  // "€0.19/wash"), with raw shelf average as a secondary reference — raw
+  // price alone rewards whoever sells the smaller pack.
+  const priceLabel = compPrice
+    ? `${compPrice} (€${b.avg_price.toFixed(2)} shelf avg)`
+    : `€${b.avg_price.toFixed(2)} avg`;
+  const coverage = b.wash_count_coverage_pct;
+  const coverageNote = (b.comparison_basis === 'wash' && coverage != null && coverage < 100)
+    ? ` · ${coverage}% of rows had a parsed wash count, rest used €/${b.comparison_unit || 'unit'} fallback`
+    : '';
+  const label = found
+    ? `${escapeHtml(b.brand)} · ${priceLabel} · seen in ${b.count.toLocaleString()} store-rows today${coverageNote}`
+    : `${escapeHtml(b.brand)} · not found today`;
   // A real <button>, not a span — clicking drills into the stores/prices
   // behind the number, same idea as clicking a SKU row below.
   return `<button type="button" class="brand-tag${extraClass ? ' ' + extraClass : ''}"${found ? '' : ' style="opacity:0.5;"'} data-category="${escapeHtml(category)}" data-brand="${escapeHtml(b.brand)}" data-side="${side}">${label}</button>`;
 }
 
+function comparisonUnitLabel(unit, basis) {
+  if (basis === 'wash') return 'wash';
+  if (!unit) return 'unit';
+  if (unit === 'kom') return 'piece';
+  return unit;
+}
+
+function fmtComparisonPrice(value, unit, basis) {
+  if (value == null) return null;
+  // €/ml and €/kg prices are typically well under €1, where 2 decimals
+  // rounds everything to €0.00-€0.05 and hides the real gap between
+  // brands — show more precision for small values.
+  const decimals = value < 1 ? 3 : 2;
+  return `€${value.toFixed(decimals)}/${comparisonUnitLabel(unit, basis)}`;
+}
+
 function categoryPriceGap(v) {
-  // Quick "are we priced above or below competitors?" read: average price
-  // across brands actually found today on each side. Returns null when
-  // either side has no priced brand today, rather than a misleading number.
+  // Like-for-like read: average price *per the category's comparison
+  // basis* (€/wash, €/ml or €/kg, €/piece — see config.CATEGORY_COMPARISON_
+  // BASIS) across brands actually found today on each side, not raw shelf
+  // price, which would just reward whoever sells the smaller pack. Falls
+  // back to raw avg_price only if no brand on a side has a comparison price
+  // yet (e.g. a brand new to the watchlist with no unit_price data).
+  // Returns null when either side has no priced brand today.
   const pgFound = (v.pg_brands || []).filter(b => b.count > 0);
   const compFound = (v.competitor_brands || []).filter(b => b.count > 0);
   if (!pgFound.length || !compFound.length) return null;
+
+  const pgComp = pgFound.filter(b => b.comparison_avg_price != null);
+  const compComp = compFound.filter(b => b.comparison_avg_price != null);
+  const useComparison = pgComp.length && compComp.length;
+
+  const basis = (pgFound[0] || compFound[0]).comparison_basis || 'unit';
+  const unit = (pgComp[0] || compComp[0] || {}).comparison_unit || '';
+
+  if (useComparison) {
+    const pgAvg = pgComp.reduce((sum, b) => sum + b.comparison_avg_price, 0) / pgComp.length;
+    const compAvg = compComp.reduce((sum, b) => sum + b.comparison_avg_price, 0) / compComp.length;
+    return { pgAvg, compAvg, diff: pgAvg - compAvg, basis, unit, isComparison: true };
+  }
+
   const pgAvg = pgFound.reduce((sum, b) => sum + b.avg_price, 0) / pgFound.length;
   const compAvg = compFound.reduce((sum, b) => sum + b.avg_price, 0) / compFound.length;
-  return { pgAvg, compAvg, diff: pgAvg - compAvg };
+  return { pgAvg, compAvg, diff: pgAvg - compAvg, basis, unit: '', isComparison: false };
 }
 
 function renderWatchlistCards(entries) {
@@ -727,13 +774,16 @@ function renderWatchlistCards(entries) {
   }
   return entries.map(([cat, v]) => {
     const gap = categoryPriceGap(v);
+    const basisLabel = v.comparison_basis === 'wash' ? 'price per wash' : 'price per unit (€/ml, €/kg or €/piece)';
     const gapHtml = gap
-      ? `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G avg €${gap.pgAvg.toFixed(2)} vs. competitors avg €${gap.compAvg.toFixed(2)} — P&amp;G ${Math.abs(gap.diff).toFixed(2)}€ ${gap.diff > 0 ? 'higher' : 'lower'}</span>`
+      ? (gap.isComparison
+          ? `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G ${fmtComparisonPrice(gap.pgAvg, gap.unit, gap.basis)} vs. competitors ${fmtComparisonPrice(gap.compAvg, gap.unit, gap.basis)} — P&amp;G ${gap.diff > 0 ? 'higher' : 'lower'}</span>`
+          : `<span class="price-gap ${gap.diff > 0 ? 'gap-high' : 'gap-low'}">P&amp;G avg €${gap.pgAvg.toFixed(2)} vs. competitors avg €${gap.compAvg.toFixed(2)} (shelf price — no comparison-basis data yet) — P&amp;G ${Math.abs(gap.diff).toFixed(2)}€ ${gap.diff > 0 ? 'higher' : 'lower'}</span>`)
       : `<span class="price-gap">Not enough prices today on both sides to compare</span>`;
     return `
       <div class="watchlist-card">
         <div class="watchlist-card-header">
-          <h3>${escapeHtml(cat)}</h3>
+          <h3>${escapeHtml(cat)} <span class="price-gap" style="font-weight:normal;">(compared ${basisLabel})</span></h3>
           ${gapHtml}
         </div>
         <div class="watchlist-row">
@@ -777,10 +827,13 @@ let watchlistCompetitorCache = {};  // retailer -> array of watchlisted competit
 let watchlistChartInstance = null;
 
 function normBrand(s) {
-  // Same normalization as history.py's _norm(): upper-case, collapse
-  // whitespace — needed because the watchlist's canonical brand name
-  // ("Ariel") and the retailer's raw brand field ("ARIEL") can differ in case.
-  return (s || '').replace(/\s+/g, ' ').trim().toUpperCase();
+  // Same normalization as history.py's _norm(): fold hyphens to spaces,
+  // collapse whitespace, upper-case. The hyphen fold matters because the
+  // watchlist's canonical brand name ("Oral-B") and a retailer's raw brand
+  // field ("ORAL B", no hyphen) differ only by that hyphen — without this,
+  // clicking the "Oral-B" chip found 0 rows even though the card above it
+  // correctly counted those same rows as Oral-B.
+  return (s || '').replace(/-/g, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
 }
 
 async function ensureProductsLoaded(retailer) {
@@ -973,7 +1026,11 @@ function computeCategoryGaps(watchlist) {
   for (const [cat, v] of Object.entries(watchlist || {})) {
     const gap = categoryPriceGap(v);
     if (gap && gap.compAvg) {
-      gaps.push({ category: cat, pgAvg: gap.pgAvg, compAvg: gap.compAvg, diffPct: (gap.diff / gap.compAvg) * 100 });
+      gaps.push({
+        category: cat, pgAvg: gap.pgAvg, compAvg: gap.compAvg,
+        diffPct: (gap.diff / gap.compAvg) * 100,
+        unit: gap.unit, basis: gap.basis, isComparison: gap.isComparison,
+      });
     }
   }
   gaps.sort((a, b) => Math.abs(b.diffPct) - Math.abs(a.diffPct));
@@ -1015,7 +1072,9 @@ function renderChart(watchlist) {
             label: (ctx2) => {
               const g = gaps[ctx2.dataIndex];
               const sign = g.diffPct > 0 ? '+' : '';
-              return `P&G €${g.pgAvg.toFixed(2)} avg vs. competitors €${g.compAvg.toFixed(2)} avg (${sign}${g.diffPct.toFixed(1)}%)`;
+              const pgStr = g.isComparison ? fmtComparisonPrice(g.pgAvg, g.unit, g.basis) : `€${g.pgAvg.toFixed(2)} avg`;
+              const compStr = g.isComparison ? fmtComparisonPrice(g.compAvg, g.unit, g.basis) : `€${g.compAvg.toFixed(2)} avg`;
+              return `P&G ${pgStr} vs. competitors ${compStr} (${sign}${g.diffPct.toFixed(1)}%)`;
             },
           },
         },

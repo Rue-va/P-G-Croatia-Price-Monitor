@@ -28,12 +28,14 @@ from typing import Iterable
 from config import (
     BRAND_FIELD_CATEGORY_OVERRIDES,
     CATEGORY_BRANDS,
+    CATEGORY_COMPARISON_BASIS,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
     HISTORY_DIR,
     LOOKBACK_DAYS,
     MISSING_DAYS_THRESHOLD,
     PG_BRANDS,
     PRIVATE_LABEL_BRANDS,
+    WASH_COUNT_PATTERNS,
 )
 
 # Sorted longest-first so "HEAD & SHOULDERS" is tried before any shorter
@@ -41,6 +43,7 @@ from config import (
 _PG_BRANDS_BY_LENGTH = sorted(PG_BRANDS, key=len, reverse=True)
 
 _word_match_cache: dict[str, re.Pattern] = {}
+_wash_count_regexes = [re.compile(p) for p in WASH_COUNT_PATTERNS]
 
 
 def _contains_as_word(haystack: str, needle: str) -> bool:
@@ -159,6 +162,62 @@ def is_pg(brand: str) -> bool:
     return _norm(brand) in PG_BRANDS
 
 
+def extract_wash_count(product_name: str, quantity: str = "") -> int | None:
+    """
+    Best-effort wash/load count parsed off a laundry or fabric-softener
+    product's name (and, as a second try, its quantity field — some
+    retailers put "60 PRANJA" there instead of a weight/volume). Returns
+    None, never 0, on no match, so callers fall through to the unit-price
+    fallback instead of producing a division-by-zero or a nonsense "€/0"
+    comparison price.
+    """
+    haystack = _norm(f"{product_name} {quantity}")
+    for regex in _wash_count_regexes:
+        m = regex.search(haystack)
+        if m:
+            count = int(m.group(1))
+            if count > 0:
+                return count
+    return None
+
+
+def _compute_comparison(category: str, price: float, item) -> tuple[float | None, str, str]:
+    """
+    Normalize a row's price onto the manager-decided comparison basis for its
+    fighting category (config.CATEGORY_COMPARISON_BASIS):
+      - "wash" (Laundry, Fabric Enhancers): price per wash, parsed from the
+        pack's own stated wash count, since a concentrated formula can use
+        far fewer ml/g per wash than a diluted one — €/kg or €/ml alone
+        would make a concentrate look overpriced. Falls back to the
+        retailer's own published unit price when no wash count can be read
+        off the product name.
+      - "unit" (everything else): the retailer's own published unit price
+        as-is — €/ml, €/kg, €/L or €/piece, whichever applies, exactly as
+        required by Croatia's price-transparency rules (NN 75/2025). This is
+        what makes "diapers and stuff" come out as €/piece and "liquid
+        dishwashers and stuff" come out as €/ml or €/kg, without needing a
+        separate pack-count parser for each.
+
+    Returns (comparison_price, comparison_unit, source). `source` records
+    how the number was derived ("wash_count", "unit_price", or
+    "unit_price_fallback" when a wash count was expected but not found) —
+    kept per-row so the aggregate can report how much of a category's
+    comparison rests on a real parsed wash count vs. a fallback, rather than
+    presenting both as equally solid.
+    """
+    basis = CATEGORY_COMPARISON_BASIS.get(category, "unit")
+    unit = (item.unit or "").strip().lower()
+    unit_price = float(item.unit_price) if item.unit_price is not None else None
+
+    if basis == "wash":
+        wash_count = extract_wash_count(item.product, item.quantity)
+        if wash_count:
+            return round(price / wash_count, 4), "pranje", "wash_count"
+        return (round(unit_price, 4) if unit_price is not None else None), unit, "unit_price_fallback"
+
+    return (round(unit_price, 4) if unit_price is not None else None), unit, "unit_price"
+
+
 def retailer_dir(retailer: str) -> Path:
     d = HISTORY_DIR / retailer
     d.mkdir(parents=True, exist_ok=True)
@@ -204,15 +263,32 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             else:
                 blank_brand_count += 1
 
+            # Manager-curated brand watchlist (config.CATEGORY_BRANDS): match
+            # on the brand field first, then fall back to spotting the brand
+            # name inside the product title, same tolerant approach as
+            # match_pg_brand below. row_fighting_category is stashed onto the
+            # P&G row itself (below) so the dashboard can filter the SKU list
+            # by the same "fighting category" taxonomy as the competitor
+            # tracker, not just by the retailer's own raw category string.
             row_fighting_category = None
+            comparison_price = None
+            comparison_unit = ""
+            comparison_source = ""
             if price is not None:
+                # Some retailers' own brand field already spells out which
+                # product line a row is (see BRAND_FIELD_CATEGORY_OVERRIDES
+                # in config.py) — that's a more reliable signal than
+                # guessing from the product name, so it's checked first and
+                # skips the keyword disambiguation below entirely.
+                watch_brand_key = None
+                target_cat = None
+
                 override = BRAND_FIELD_CATEGORY_OVERRIDES.get(norm_brand)
                 if override:
-                    override_brand_display, target_cat = override
+                    override_brand_display, override_cat = override
                     override_norm_brand = _norm(override_brand_display)
-                    if override_norm_brand in watch_prices.get(target_cat, {}):
-                        watch_prices[target_cat][override_norm_brand].append(price)
-                        row_fighting_category = target_cat
+                    if override_norm_brand in watch_prices.get(override_cat, {}):
+                        watch_brand_key, target_cat = override_norm_brand, override_cat
                 else:
                     matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
                     if matched_watch_brand is None and norm_product:
@@ -223,17 +299,36 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                     if matched_watch_brand:
                         cats_for_brand = watch_brand_to_categories[matched_watch_brand]
                         if len(cats_for_brand) == 1:
-                            target_cat = cats_for_brand[0]
+                            cat_candidate = cats_for_brand[0]
                         else:
-                            target_cat = None
+                            cat_candidate = None
                             for cat in cats_for_brand:
                                 rule = CATEGORY_DISAMBIGUATION_KEYWORDS.get(matched_watch_brand, {}).get(cat, [])
                                 if _keyword_rule_matches(norm_product, rule):
-                                    target_cat = cat
+                                    cat_candidate = cat
                                     break
-                        if target_cat:
-                            watch_prices[target_cat][matched_watch_brand].append(price)
-                            row_fighting_category = target_cat
+                        if cat_candidate:
+                            watch_brand_key, target_cat = matched_watch_brand, cat_candidate
+
+                if watch_brand_key and target_cat:
+                    # Normalize this row onto its category's comparison basis
+                    # (€/wash, €/ml, €/kg, €/piece — see _compute_comparison)
+                    # before stashing it, rather than the raw shelf price, so
+                    # category_brand_watchlist below can report a like-for-like
+                    # average instead of one that rewards whoever sells the
+                    # smaller pack.
+                    comparison_price, comparison_unit, comparison_source = _compute_comparison(
+                        target_cat, price, item
+                    )
+                    watch_prices[target_cat][watch_brand_key].append(
+                        {
+                            "price": price,
+                            "comparison_price": comparison_price,
+                            "comparison_unit": comparison_unit,
+                            "comparison_source": comparison_source,
+                        }
+                    )
+                    row_fighting_category = target_cat
 
             cs = category_stats.setdefault(
                 category,
@@ -265,13 +360,24 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         "category": category,
                         "fighting_category": row_fighting_category,
                         "price": price,
+                        "comparison_price": comparison_price,
+                        "comparison_unit": comparison_unit,
                         "barcode": item.barcode,
                         "matched_via": via,
                     }
                 )
             elif price is not None:
+                # Non-P&G row with a usable price: this is the true
+                # "competitor" population for price comparisons, kept
+                # separate from the all-brands average (which otherwise
+                # gets diluted by P&G's own prices).
                 cs["competitor_prices"].append(price)
                 if norm_brand:
+                    # Track named competitor brands per category (e.g.
+                    # Persil within Ariel's laundry category), scoped to
+                    # categories P&G actually competes in — unlike the
+                    # catalog-wide brand diagnostics below, this doesn't get
+                    # crowded out by unrelated grocery brands.
                     slot = cs["competitor_brands"].setdefault(
                         norm_brand, {"display": item.brand.strip(), "prices": []}
                     )
@@ -288,10 +394,13 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                             "brand": item.brand,
                             "fighting_category": row_fighting_category,
                             "price": price,
+                            "comparison_price": comparison_price,
+                            "comparison_unit": comparison_unit,
                             "barcode": item.barcode,
                         }
                     )
 
+    # collapse raw price lists into summary numbers before saving
     for cat, cs in category_stats.items():
         prices = cs.pop("prices")
         pg_prices = cs.pop("pg_prices")
@@ -314,20 +423,45 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             for b in top_brands
         ]
 
+    # Collapse the manager-curated brand watchlist into a display-ready
+    # structure: every configured brand appears for every configured
+    # category, even at count=0, so a brand that genuinely isn't sold today
+    # is visibly "not found" rather than silently absent from the page.
     category_brand_watchlist: dict[str, dict] = {}
     for cat, brands in watch_prices.items():
+        basis = CATEGORY_COMPARISON_BASIS.get(cat, "unit")
         pg_brands, competitor_brands_out = [], []
-        for norm, prices in brands.items():
+        for norm, entries in brands.items():
             display = watch_brand_display[norm]
+            prices = [e["price"] for e in entries]
+            comparison_prices = [e["comparison_price"] for e in entries if e["comparison_price"] is not None]
+            # Entries normally share one unit per brand/category (e.g. every
+            # Pampers diaper row is €/piece); Counter just guards against a
+            # stray retailer row using a different unit than the rest.
+            unit_counts = Counter(e["comparison_unit"] for e in entries if e["comparison_unit"])
+            comparison_unit = unit_counts.most_common(1)[0][0] if unit_counts else ""
+            # Only meaningful for "wash"-basis categories: what share of this
+            # brand's rows today got a real parsed wash count vs. fell back
+            # to the retailer's own unit price — lets Rue tell a solid €/wash
+            # number from a mostly-fallback one at a glance.
+            wash_coverage = None
+            if basis == "wash" and entries:
+                wash_based = sum(1 for e in entries if e["comparison_source"] == "wash_count")
+                wash_coverage = round(100 * wash_based / len(entries), 1)
             entry = {
                 "brand": display,
                 "count": len(prices),
                 "avg_price": round(mean(prices), 2) if prices else None,
+                "comparison_avg_price": round(mean(comparison_prices), 4) if comparison_prices else None,
+                "comparison_unit": comparison_unit,
+                "comparison_basis": basis,
+                "wash_count_coverage_pct": wash_coverage,
             }
             (pg_brands if is_pg(display) else competitor_brands_out).append(entry)
         category_brand_watchlist[cat] = {
             "pg_brands": pg_brands,
             "competitor_brands": competitor_brands_out,
+            "comparison_basis": basis,
         }
 
     return {
@@ -397,6 +531,7 @@ def build_product_price_history(
     dates = [d for d in available_dates(retailer) if d <= as_of]
     dates = dates[-lookback_days:]
 
+    # barcode -> date (iso string) -> list of prices seen that day (across stores)
     series: dict[str, dict[str, list[float]]] = {}
 
     for d in dates:
@@ -439,7 +574,7 @@ def compute_missing_flags(
       - has appeared at least once in the retained history, and
       - is absent from the price list for `threshold`+ consecutive
         *published* days counting back from the most recent file we have,
-      never counting back further than the product's first-ever appearance.
+    never counting back further than the product's first-ever appearance.
 
     This is an inference from public price-list presence/absence, not real
     warehouse inventory data.
@@ -449,6 +584,7 @@ def compute_missing_flags(
     if not dates:
         return []
 
+    # product_key -> {"first_seen": date, "last_seen": date, "meta": {...}}
     seen: dict[tuple, dict] = {}
     presence_by_date: dict[date, set] = {}
 
@@ -462,13 +598,18 @@ def compute_missing_flags(
             present_today.add(key)
             info = seen.setdefault(key, {"first_seen": d, "meta": row})
             info["last_seen_present"] = d
-            info["meta"] = row
-
+            info["meta"] = row  # keep freshest metadata
         presence_by_date[d] = present_today
 
     flags = []
     most_recent = dates[-1]
     for key, info in seen.items():
+        # Count consecutive missing days ending at most_recent, not going
+        # back further than first_seen. Walking backwards (most recent
+        # first), `first_missing_date` keeps getting overwritten with an
+        # earlier date as long as the item is still missing, so by the time
+        # the loop stops it holds the OLDEST date in this missing streak —
+        # i.e. the first day the gap started, not just how many days long it is.
         missing_days = 0
         first_missing_date = None
         for d in reversed(dates):
@@ -490,7 +631,15 @@ def compute_missing_flags(
                     "brand": meta["brand"],
                     "category": meta["category"],
                     "last_seen_price": meta.get("price"),
+                    # The last published day this exact (store, product) was
+                    # actually present, tracked as we walk forward through
+                    # `dates` above — not just "how many days missing", so a
+                    # manager can tell a product that vanished last week from
+                    # one that's been gone since the start of the window.
                     "last_seen_date": info["last_seen_present"].isoformat(),
+                    # Together with last_seen_date, this bounds the actual gap:
+                    # present through last_seen_date, absent from
+                    # first_missing_date through as_of (most_recent) below.
                     "first_missing_date": first_missing_date.isoformat() if first_missing_date else None,
                     "days_missing": missing_days,
                     "as_of": most_recent.isoformat(),

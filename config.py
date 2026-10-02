@@ -123,6 +123,50 @@ BRAND_FIELD_CATEGORY_OVERRIDES: dict[str, tuple[str, str]] = {
     "JAR ADW": ("Jar", "Automatic Dishwashing"),
 }
 
+# Manager-decided comparison basis per fighting category, so the price-gap
+# numbers compare like-for-like rather than raw shelf price (which rewards
+# whoever happens to sell the smaller pack):
+#   - "wash":   price per wash/load. Used for laundry detergent and fabric
+#     softener, where a concentrated formula can use far fewer ml/g per wash
+#     than a diluted one, so €/kg or €/ml alone would mislead. Falls back to
+#     the retailer's own published unit price (see "unit" below) whenever a
+#     wash-load count can't be read off the product name.
+#   - "unit":   the retailer's own published unit price as-is — €/ml, €/kg,
+#     €/L or €/piece, whichever applies to that product, exactly as required
+#     by Croatia's price-transparency rules (NN 75/2025). This covers both
+#     "liquid dishwashers and stuff" (€/ml or €/kg) and "diapers and stuff"
+#     (€/piece) with the same mechanism, since the retailer has already done
+#     the per-unit math for us on every row.
+# Only Laundry and Fabric Enhancers were explicitly called out as "per wash";
+# everything else defaults to "unit". Flag to Rue if any other category
+# (e.g. Automatic Dishwashing tablets) should also be wash/cycle-based.
+CATEGORY_COMPARISON_BASIS: dict[str, str] = {
+    "Laundry": "wash",
+    "Fabric Enhancers": "wash",
+    "Hand Dishwashing": "unit",
+    "Automatic Dishwashing": "unit",
+    "Air Care": "unit",
+    "Diapers": "unit",
+    "Baby Wipes": "unit",
+    "Femcare": "unit",
+    "Hair Care": "unit",
+    "APDO": "unit",
+    "Shave Care": "unit",
+    "Oral Care": "unit",
+}
+
+# Regex patterns tried in order against a normalized (upper-cased) product
+# name to pull a wash/load count off laundry and fabric-softener packaging.
+# Croatian packaging usually states it directly ("ARIEL PRASAK 60 PRANJA",
+# "LENOR 40 PRANJA"); imported stock sometimes uses "WL" (wash loads)
+# instead. Each pattern's first capture group is the wash count. A product
+# that matches neither falls back to the retailer's own €/ml or €/kg unit
+# price (CATEGORY_COMPARISON_BASIS above) rather than being dropped.
+WASH_COUNT_PATTERNS: list[str] = [
+    r"(\d{1,4})\s*X?\s*PRANJ",   # "60 PRANJA", "60X PRANJA", "60PRANJA"
+    r"(\d{1,4})\s*WL\b",         # "40 WL", "40WL"
+]
+
 # Best-effort store-brand name per retailer, used only for the "Private
 # Label" slot in Wipes. We only have a confirmed real name for Konzum
 # (K Plus, visible heavily in its own data) — for the others this just
