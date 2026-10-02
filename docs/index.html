@@ -703,20 +703,29 @@ function brandChip(b, category, side, extraClass) {
   // "count" is store-level price rows seen today, not unique SKUs — the same
   // product priced at 40 different stores counts as 40, which is why these
   // numbers run into the hundreds/thousands for a brand sold everywhere.
-  const compPrice = fmtComparisonPrice(b.comparison_avg_price, b.comparison_unit, b.comparison_basis);
-  // Lead with the like-for-like comparison price when we have one (e.g.
-  // "€0.19/wash"), with raw shelf average as a secondary reference — raw
-  // price alone rewards whoever sells the smaller pack.
-  const priceLabel = compPrice
-    ? `${compPrice} (€${b.avg_price.toFixed(2)} shelf avg)`
-    : `€${b.avg_price.toFixed(2)} avg`;
-  const coverage = b.wash_count_coverage_pct;
-  const coverageNote = (b.comparison_basis === 'wash' && coverage != null && coverage < 100)
-    ? ` · ${coverage}% of rows had a parsed wash count, rest used €/${b.comparison_unit || 'unit'} fallback`
-    : '';
-  const label = found
-    ? `${escapeHtml(b.brand)} · ${priceLabel} · seen in ${b.count.toLocaleString()} store-rows today${coverageNote}`
-    : `${escapeHtml(b.brand)} · not found today`;
+  // All of the price math below only runs when `found` — when a brand isn't
+  // sold today, avg_price/comparison_avg_price are null by design (see
+  // history.py), and calling .toFixed() on null throws. Since render() runs
+  // inside loadData()'s try block, that throw surfaces as the misleading
+  // "Could not load data.json" message.
+  let label;
+  if (found) {
+    const compPrice = fmtComparisonPrice(b.comparison_avg_price, b.comparison_unit, b.comparison_basis);
+    const shelf = b.avg_price != null ? `€${b.avg_price.toFixed(2)}` : null;
+    // Lead with the like-for-like comparison price when we have one (e.g.
+    // "€0.19/wash"), with raw shelf average as a secondary reference — raw
+    // price alone rewards whoever sells the smaller pack.
+    const priceLabel = compPrice
+      ? (shelf ? `${compPrice} (${shelf} shelf avg)` : compPrice)
+      : (shelf ? `${shelf} avg` : 'no price');
+    const coverage = b.wash_count_coverage_pct;
+    const coverageNote = (b.comparison_basis === 'wash' && coverage != null && coverage < 100)
+      ? ` · ${coverage}% of rows had a parsed wash count, rest used €/${b.comparison_unit || 'unit'} fallback`
+      : '';
+    label = `${escapeHtml(b.brand)} · ${priceLabel} · seen in ${b.count.toLocaleString()} store-rows today${coverageNote}`;
+  } else {
+    label = `${escapeHtml(b.brand)} · not found today`;
+  }
   // A real <button>, not a span — clicking drills into the stores/prices
   // behind the number, same idea as clicking a SKU row below.
   return `<button type="button" class="brand-tag${extraClass ? ' ' + extraClass : ''}"${found ? '' : ' style="opacity:0.5;"'} data-category="${escapeHtml(category)}" data-brand="${escapeHtml(b.brand)}" data-side="${side}">${label}</button>`;
