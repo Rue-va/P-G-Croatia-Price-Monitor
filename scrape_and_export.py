@@ -26,6 +26,7 @@ from config import DASHBOARD_DATA_FILE, DOCS_DIR, MISSING_DAYS_THRESHOLD, RETAIL
 from history import (
     build_day_payload,
     build_insights,
+    build_sku_table,
     build_product_price_history,
     compute_missing_flags,
     save_day,
@@ -46,7 +47,15 @@ def get_crawler(retailer: str):
     return getattr(module, class_name)()
 
 
-def run_retailer(retailer: str, target_date: date) -> dict:
+def write_sku_table(retailer: str, payload: dict) -> None:
+    skus_path = DOCS_DIR / "skus"
+    skus_path.mkdir(parents=True, exist_ok=True)
+    (skus_path / f"{retailer}.json").write_text(
+        json.dumps(build_sku_table(payload), ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
+
+
+def run_retailer(retailer: str, target_date: date, from_history: bool = False) -> dict:
     """
     Returns a dashboard-ready summary dict for this retailer, and saves the
     raw day payload + flags to disk as a side effect. Never raises: on
@@ -55,10 +64,27 @@ def run_retailer(retailer: str, target_date: date) -> dict:
     """
     try:
         log.info("Starting crawl: %s", retailer)
-        crawler = get_crawler(retailer)
-        stores = crawler.get_all_products(target_date)
-        payload = build_day_payload(retailer, target_date, stores)
-        save_day(retailer, target_date, payload)
+        if from_history:
+            payload = load_day(retailer, target_date)
+            if not payload or not payload.get("stores_count"):
+                raise RuntimeError(f"no usable saved snapshot for {target_date}")
+        else:
+            crawler = get_crawler(retailer)
+            stores = crawler.get_all_products(target_date)
+            payload = build_day_payload(retailer, target_date, stores)
+            # A retailer that hasn't published yet (or a broken crawl) can
+            # come back with zero stores. Saving that as a real day made
+            # the whole retailer look empty on the dashboard (Kaufland,
+            # 4 Oct) — treat it as a failed crawl and fall back instead.
+            prev_dates = [d for d in available_dates(retailer) if d < target_date]
+            prev = load_day(retailer, prev_dates[-1]) if prev_dates else None
+            prev_stores = (prev or {}).get("stores_count") or 0
+            if payload["stores_count"] == 0 or (prev_stores and payload["stores_count"] < 0.25 * prev_stores):
+                raise RuntimeError(
+                    f"only {payload['stores_count']} stores published (previous day: {prev_stores}) "
+                    "— treating as not yet published"
+                )
+            save_day(retailer, target_date, payload)
         log.info(
             "%s: %d stores, %d total products, %d P&G rows",
             retailer, payload["stores_count"], payload["total_products_all_stores"],
@@ -97,6 +123,7 @@ def run_retailer(retailer: str, target_date: date) -> dict:
         history_path = DOCS_DIR / "history"
         history_path.mkdir(parents=True, exist_ok=True)
         price_history = build_product_price_history(retailer, target_date)
+        write_sku_table(retailer, payload)
         (history_path / f"{retailer}.json").write_text(
             json.dumps(price_history, ensure_ascii=False, indent=1), encoding="utf-8"
         )
@@ -122,7 +149,8 @@ def run_retailer(retailer: str, target_date: date) -> dict:
         # so the dashboard degrades gracefully instead of losing a retailer.
         for d in reversed(available_dates(retailer)):
             prev = load_day(retailer, d)
-            if prev:
+            if prev and prev.get("stores_count"):
+                write_sku_table(retailer, prev)
                 flags = compute_missing_flags(retailer, d, threshold=MISSING_DAYS_THRESHOLD)
                 return {
                     "retailer": retailer,
@@ -152,6 +180,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", type=str, default=None, help="YYYY-MM-DD, default today")
     parser.add_argument("--retailers", type=str, default=None, help="Comma-separated subset")
+    parser.add_argument("--from-history", action="store_true",
+                        help="Rebuild dashboard files from the saved snapshot instead of crawling")
     args = parser.parse_args()
 
     target_date = date.fromisoformat(args.date) if args.date else date.today()
@@ -159,7 +189,7 @@ def main():
 
     results = []
     for retailer in retailers:
-        results.append(run_retailer(retailer.strip(), target_date))
+        results.append(run_retailer(retailer.strip(), target_date, from_history=args.from_history))
 
     dashboard = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

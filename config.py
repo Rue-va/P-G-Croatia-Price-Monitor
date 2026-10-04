@@ -24,6 +24,11 @@ PG_BRANDS = {
     "AMBI PUR", "AMBI-PUR", "AMBIPUR", "FEBREZE", "MR. PROPER", "MR PROPER",
     "OLD SPICE", "VENUS", "NATURA SIBERICA",
     "JAR",  # P&G's dishwashing brand (hand + automatic) in Croatia/the Balkans
+    "NATURELLA", "BLEND-A-MED", "BLEND A MED",
+    # Konzum's brand column truncates/annotates names, and its product names
+    # abbreviate Head & Shoulders as "H&S" ("ŠAMPON H&S MENTHOL 400ml").
+    # Written in normalized form ("&" spaced) since that's what's compared.
+    "HEAD & SHOULDE", "H & S", "ALWAYS P & G", "JAR HDW", "JAR ADW",
 }
 
 # Manager-curated watchlist: for each P&G "fighting category," the brands
@@ -146,6 +151,9 @@ PG_BRAND_DISPLAY = {
     "HEAD & SHOULDERS": "Head & Shoulders", "HEAD&SHOULDERS": "Head & Shoulders",
     "AMBI PUR": "Ambi Pur", "AMBI-PUR": "Ambi Pur", "AMBIPUR": "Ambi Pur",
     "MR. PROPER": "Mr. Proper", "MR PROPER": "Mr. Proper",
+    "HEAD & SHOULDE": "Head & Shoulders", "H & S": "Head & Shoulders",
+    "ALWAYS P & G": "Always", "JAR HDW": "Jar", "JAR ADW": "Jar",
+    "BLEND-A-MED": "Blend-a-med", "BLEND A MED": "Blend-a-med",
 }
 
 # Some retailers' own brand column already spells out which product line a
@@ -162,6 +170,10 @@ PG_BRAND_DISPLAY = {
 BRAND_FIELD_CATEGORY_OVERRIDES: dict[str, tuple[str, str]] = {
     "JAR HDW": ("Jar", "Hand Dishwashing"),
     "JAR ADW": ("Jar", "Automatic Dishwashing"),
+    # Konzum: brand field truncated to "HEAD&SHOULDE" / annotated "ALWAYS P&G"
+    # (keys are in normalized form — "&" with spaces around it)
+    "HEAD & SHOULDE": ("Head & Shoulders", "Hair Care"),
+    "ALWAYS P & G": ("Always", "Femcare"),
 }
 
 # Manager-decided comparison basis per fighting category, so the price-gap

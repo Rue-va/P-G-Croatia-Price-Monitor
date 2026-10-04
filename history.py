@@ -127,7 +127,12 @@ def _norm(text: str) -> str:
     and the brand shows as "not found today" even when it's clearly in the
     data.
     """
-    return re.sub(r"\s+", " ", (text or "").replace("-", " ").strip().upper())
+    # "&" spacing too: Kaufland writes "Head&Shoulders", the watchlist
+    # says "Head & Shoulders" — without this fold the brand silently shows
+    # as "not listed" at Kaufland.
+    t = (text or "").replace("-", " ")
+    t = re.sub(r"\s*&\s*", " & ", t)
+    return re.sub(r"\s+", " ", t.strip().upper())
 
 
 def pg_brand_display(brand: str, product_name: str = "") -> str:
@@ -757,6 +762,12 @@ def compute_missing_flags(
             stores_today.add(row["store_id"])
         stores_by_date[d] = stores_today
         for row in payload["pg_products"]:
+            # Re-apply today's matching rules to older snapshots: rows that
+            # were wrongly counted as P&G back then (squid "LIGNJA JAR",
+            # wine "VINO VENUS", caviar …) would otherwise all show up as
+            # "missing" the day the matching was fixed.
+            if not is_hpc_retail_category(row.get("category", "")) or not match_pg_brand(row.get("brand", ""), row.get("product", ""))[0]:
+                continue
             key = (row["store_id"], row["product_id"])
             present_today.add(key)
             info = seen.setdefault(key, {"first_seen": d, "meta": row})
@@ -840,6 +851,7 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
     # --- price moves vs. previous published day -------------------------
     prev_dates = [d for d in available_dates(retailer) if d < as_of]
     price_moves: list[dict] = []
+    implausible_moves = 0
     prev_date_iso = None
     if prev_dates:
         prev = load_day(retailer, prev_dates[-1]) or {}
@@ -862,7 +874,13 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
             g["pairs"].append((old, r["price"]))
 
         for barcode, g in by_barcode.items():
+            # A real regular-price change is a few percent, rarely more than
+            # ~50%. A 5x-10x jump (e.g. €0.54 -> €4.99) is a retailer file
+            # glitch or a placeholder price, so it's counted but not listed.
             changed = [(o, n) for o, n in g["pairs"] if abs(n - o) >= 0.01]
+            if changed and max(abs(n - o) / o for o, n in changed) >= 0.6:
+                implausible_moves += 1
+                continue
             if not changed:
                 continue
             r = g["row"]
@@ -974,9 +992,26 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
         key=lambda s: -s["items"],
     )
 
+    # --- flags rolled up per SKU: "which products are missing where" ------
+    by_sku: dict[str, dict] = {}
+    for f in flags:
+        key = f.get("product_id") or f["product"]
+        s_ = by_sku.setdefault(key, {
+            "product": f["product"], "brand": f["brand"], "stores": 0,
+            "max_days": 0, "last_seen_price": f.get("last_seen_price"), "store_names": [],
+        })
+        s_["stores"] += 1
+        s_["max_days"] = max(s_["max_days"], f["days_missing"])
+        if len(s_["store_names"]) < 8:
+            s_["store_names"].append(f"{f['store_name']}{' (' + f['city'] + ')' if f.get('city') else ''}")
+    flags_by_sku = sorted(by_sku.values(), key=lambda x: -x["stores"])
+
     return {
         "compared_with_date": prev_date_iso,
+        "flagged_skus_total": len(flags_by_sku),
+        "flags_by_sku": flags_by_sku[:150],
         "price_moves_total": len(price_moves),
+        "price_moves_excluded_implausible": implausible_moves,
         "price_moves": price_moves[:80],
         "promos_total": len(promos),
         "promos_pg_total": sum(1 for p in promos if p["side"] == "pg"),
@@ -984,3 +1019,52 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
         "pg_brand_coverage": pg_brand_coverage,
         "flags_by_store": flags_by_store[:100],
     }
+
+
+def build_sku_table(payload: dict) -> list[dict]:
+    """
+    One row per SKU (barcode) at this retailer — P&G's whole range plus the
+    tracked competitor brands — with its median shelf price, median
+    like-for-like unit price and how many stores list it / run it on promo.
+
+    This is what lets the dashboard show *actual products* (every SKU as a
+    dot on a price scale, the same EAN compared across retailers) instead
+    of one blended category average that a single odd pack size can skew.
+    """
+    groups: dict[str, dict] = {}
+    rows = [dict(r, side="pg") for r in payload.get("pg_products", [])] + [
+        dict(r, side="competitor") for r in payload.get("watchlist_competitor_products", [])
+    ]
+    for r in rows:
+        key = r.get("barcode") or f"{r['side']}:{r['product']}"
+        g = groups.setdefault(key, {"r": r, "shelf": [], "unit": [], "units": Counter(),
+                                    "promo": [], "stores": set(), "promo_stores": set()})
+        if r.get("price") is not None:
+            # shelf = regular price where known, so a promo doesn't make a
+            # SKU look structurally cheap; promos are reported separately
+            g["shelf"].append(r.get("regular_price") or r["price"])
+        if r.get("comparison_price") is not None and r.get("comparison_unit"):
+            g["unit"].append(r["comparison_price"])
+            g["units"][r["comparison_unit"]] += 1
+        g["stores"].add(r["store_id"])
+        if r.get("promo_price") is not None:
+            g["promo_stores"].add(r["store_id"])
+            g["promo"].append(r["promo_price"])
+    out = []
+    for key, g in groups.items():
+        r = g["r"]
+        unit = g["units"].most_common(1)[0][0] if g["units"] else ""
+        out.append({
+            "ean": r.get("barcode") or "",
+            "product": r["product"],
+            "brand": r.get("pg_brand") or (r.get("brand") or "").strip(),
+            "side": r["side"],
+            "cat": r.get("fighting_category"),
+            "shelf": round(median(g["shelf"]), 2) if g["shelf"] else None,
+            "unit_price": round(median(g["unit"]), 4) if g["unit"] else None,
+            "unit": unit,
+            "promo": round(median(g["promo"]), 2) if g["promo"] else None,
+            "stores": len(g["stores"]),
+            "promo_stores": len(g["promo_stores"]),
+        })
+    return out
