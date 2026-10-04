@@ -1,19 +1,5 @@
 [
  {
-  "store_id": "0913",
-  "store_name": "Konzum Županja",
-  "city": "Županja",
-  "product_id": "91005466",
-  "product": "PERLICE LENOR JAPANESE BLOSSOM 195 g",
-  "brand": "LENOR",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 7.79,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 4,
-  "as_of": "2026-10-03"
- },
- {
   "store_id": "0158",
   "store_name": "Konzum Split",
   "city": "Split",
@@ -24,8 +10,8 @@
   "last_seen_price": 12.49,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
-  "days_missing": 4,
-  "as_of": "2026-10-03"
+  "days_missing": 5,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0158",
@@ -38,8 +24,8 @@
   "last_seen_price": 9.49,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
-  "days_missing": 4,
-  "as_of": "2026-10-03"
+  "days_missing": 5,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0158",
@@ -52,8 +38,512 @@
   "last_seen_price": 10.0,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
+  "days_missing": 5,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0732",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
+  "product_id": "90919680",
+  "product": "DET ARIEL COLOR 4.5 L=100PR",
+  "brand": "ARIEL",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
   "days_missing": 4,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0913",
+  "store_name": "Konzum Županja",
+  "city": "Županja",
+  "product_id": "91005466",
+  "product": "PERLICE LENOR JAPANESE BLOSSOM 195 g",
+  "brand": "LENOR",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 7.79,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-29",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3262",
+  "store_name": "Konzum Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "90800084",
+  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
+  "brand": "PALOMA",
+  "category": "PROIZVODI ZA KUĆANSTVO",
+  "last_seen_price": 1.35,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0865",
+  "store_name": "Konzum Primošten",
+  "city": "Primošten",
+  "product_id": "06560936",
+  "product": "BRIJAČ Ž FW GILL VENUS BREEZE",
+  "brand": "VENUS",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.69,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0154",
+  "store_name": "Konzum Hum Na Sutli",
+  "city": "Hum Na Sutli",
+  "product_id": "90800084",
+  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
+  "brand": "PALOMA",
+  "category": "PROIZVODI ZA KUĆANSTVO",
+  "last_seen_price": 1.35,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3259",
+  "store_name": "Konzum Prelog",
+  "city": "Prelog",
+  "product_id": "91010029",
+  "product": "DET ARIEL JAPAN BLOSSOM 4.05 L=90PR",
+  "brand": "ARIEL",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 32.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90954847",
+  "product": "SET GILL UCL FUS 4UP+GEL200 ml",
+  "brand": "GILLETTE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 20.0,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90969905",
+  "product": "SET AFRODITA HOLIDAY FAIRYTALE",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.0,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3255",
+  "store_name": "Konzum Trnovec Bartolovečki",
+  "city": "Trnovec Bartolovečki",
+  "product_id": "90800084",
+  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
+  "brand": "PALOMA",
+  "category": "PROIZVODI ZA KUĆANSTVO",
+  "last_seen_price": 1.35,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90969905",
+  "product": "SET AFRODITA HOLIDAY FAIRYTALE",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.0,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "02197070",
+  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "02197068",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "02197069",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 100g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 6.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3222",
+  "store_name": "Konzum Daruvar",
+  "city": "Daruvar",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "90800084",
+  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
+  "brand": "PALOMA",
+  "category": "PROIZVODI ZA KUĆANSTVO",
+  "last_seen_price": 1.35,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0323",
+  "store_name": "Konzum Sesvete",
+  "city": "Sesvete",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3299",
+  "store_name": "Konzum Otok",
+  "city": "Otok",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3299",
+  "store_name": "Konzum Otok",
+  "city": "Otok",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0463",
+  "store_name": "Konzum Rubeši",
+  "city": "Rubeši",
+  "product_id": "02197070",
+  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0463",
+  "store_name": "Konzum Rubeši",
+  "city": "Rubeši",
+  "product_id": "02197068",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0865",
+  "store_name": "Konzum Primošten",
+  "city": "Primošten",
+  "product_id": "02197071",
+  "product": "ZAMJE KAVIJAR CRVE KAPEL 100g  KLARO",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 6.69,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0159",
+  "store_name": "Konzum Sv. Ivan Zelina",
+  "city": "Sv. Ivan Zelina",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0159",
+  "store_name": "Konzum Sv. Ivan Zelina",
+  "city": "Sv. Ivan Zelina",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1242",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1242",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0154",
+  "store_name": "Konzum Hum Na Sutli",
+  "city": "Hum Na Sutli",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0228",
@@ -67,7 +557,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 4,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0228",
@@ -81,35 +571,539 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 4,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0732",
-  "store_name": "Konzum Čakovec",
-  "city": "Čakovec",
-  "product_id": "90919680",
-  "product": "DET ARIEL COLOR 4.5 L=100PR",
-  "brand": "ARIEL",
+  "store_id": "1710",
+  "store_name": "Konzum Mlini",
+  "city": "Mlini",
+  "product_id": "90992861",
+  "product": "VL MARAMCE PAMPERS SENSITIVE 52/1",
+  "brand": "PAMPERS",
+  "category": "TOALETNE POTREPŠTINE",
+  "last_seen_price": 2.19,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1710",
+  "store_name": "Konzum Mlini",
+  "city": "Mlini",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
-  "last_seen_date": "2026-09-28",
+  "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "days_missing": 4,
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3262",
-  "store_name": "Konzum Koprivnica",
-  "city": "Koprivnica",
+  "store_id": "1710",
+  "store_name": "Konzum Mlini",
+  "city": "Mlini",
+  "product_id": "91010029",
+  "product": "DET ARIEL JAPAN BLOSSOM 4.05 L=90PR",
+  "brand": "ARIEL",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 32.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1710",
+  "store_name": "Konzum Mlini",
+  "city": "Mlini",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1710",
+  "store_name": "Konzum Mlini",
+  "city": "Mlini",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0010",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "02197070",
+  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "02197068",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "02197069",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 100g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 6.29,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0451",
+  "store_name": "Konzum Lovran",
+  "city": "Lovran",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0451",
+  "store_name": "Konzum Lovran",
+  "city": "Lovran",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1411",
+  "store_name": "Konzum Novi Marof",
+  "city": "Novi Marof",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1411",
+  "store_name": "Konzum Novi Marof",
+  "city": "Novi Marof",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1411",
+  "store_name": "Konzum Novi Marof",
+  "city": "Novi Marof",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1411",
+  "store_name": "Konzum Novi Marof",
+  "city": "Novi Marof",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3259",
+  "store_name": "Konzum Prelog",
+  "city": "Prelog",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3259",
+  "store_name": "Konzum Prelog",
+  "city": "Prelog",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3259",
+  "store_name": "Konzum Prelog",
+  "city": "Prelog",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0233",
+  "store_name": "Konzum Jastrebarsko",
+  "city": "Jastrebarsko",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0233",
+  "store_name": "Konzum Jastrebarsko",
+  "city": "Jastrebarsko",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0233",
+  "store_name": "Konzum Jastrebarsko",
+  "city": "Jastrebarsko",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0453",
+  "store_name": "Konzum Otočac",
+  "city": "Otočac",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0453",
+  "store_name": "Konzum Otočac",
+  "city": "Otočac",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 4,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3251",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
   "product_id": "90800084",
   "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
   "brand": "PALOMA",
   "category": "PROIZVODI ZA KUĆANSTVO",
   "last_seen_price": 1.35,
   "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3251",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
+  "product_id": "90598806",
+  "product": "DEO OLD SPICE DYNAM DEFENCE 200ml",
+  "brand": "OLD SPICE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.0,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3251",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3251",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0732",
+  "store_name": "Konzum Čakovec",
+  "city": "Čakovec",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0222",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0222",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90800084",
+  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
+  "brand": "PALOMA",
+  "category": "PROIZVODI ZA KUĆANSTVO",
+  "last_seen_price": 1.35,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90995756",
+  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 12.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3254",
@@ -123,35 +1117,77 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0865",
-  "store_name": "Konzum Primošten",
-  "city": "Primošten",
-  "product_id": "06560936",
-  "product": "BRIJAČ Ž FW GILL VENUS BREEZE",
-  "brand": "VENUS",
-  "category": "KOZMETIKA",
-  "last_seen_price": 9.69,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
+  "store_id": "1411",
+  "store_name": "Konzum Novi Marof",
+  "city": "Novi Marof",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0154",
-  "store_name": "Konzum Hum Na Sutli",
-  "city": "Hum Na Sutli",
+  "store_id": "0521",
+  "store_name": "Konzum Bjelovar",
+  "city": "Bjelovar",
   "product_id": "90800084",
   "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
   "brand": "PALOMA",
   "category": "PROIZVODI ZA KUĆANSTVO",
   "last_seen_price": 1.35,
-  "last_seen_date": "2026-09-29",
+  "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0521",
+  "store_name": "Konzum Bjelovar",
+  "city": "Bjelovar",
+  "product_id": "06633038",
+  "product": "BRIJAČ JEDNOK GILL BL II PL HRDC 1/1",
+  "brand": "GILLETTE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 0.5,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0159",
+  "store_name": "Konzum Sv. Ivan Zelina",
+  "city": "Sv. Ivan Zelina",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0154",
+  "store_name": "Konzum Hum Na Sutli",
+  "city": "Hum Na Sutli",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0229",
@@ -165,152 +1201,152 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1722",
+  "store_name": "Konzum Korčula",
+  "city": "Korčula",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1816",
+  "store_name": "Konzum Bilje",
+  "city": "Bilje",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3259",
   "store_name": "Konzum Prelog",
   "city": "Prelog",
-  "product_id": "91010029",
-  "product": "DET ARIEL JAPAN BLOSSOM 4.05 L=90PR",
-  "brand": "ARIEL",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 32.99,
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1260",
   "store_name": "Konzum Zagreb",
   "city": "Zagreb",
-  "product_id": "90995756",
-  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
-  "brand": "AFRODITA",
-  "category": "KOZMETIKA",
-  "last_seen_price": 12.49,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-30",
+  "product_id": "90730189",
+  "product": "VINO VENUS MUŠKAT HAMBURG 1L",
+  "brand": "ABD VINA",
+  "category": "PIĆE",
+  "last_seen_price": 0.2,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "1260",
-  "store_name": "Konzum Zagreb",
-  "city": "Zagreb",
-  "product_id": "90995753",
-  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
-  "brand": "AFRODITA",
-  "category": "KOZMETIKA",
-  "last_seen_price": 9.49,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3298",
   "store_name": "Konzum Osijek",
   "city": "Osijek",
-  "product_id": "90995756",
-  "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
-  "brand": "AFRODITA",
-  "category": "KOZMETIKA",
-  "last_seen_price": 12.49,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-10-01",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3298",
-  "store_name": "Konzum Osijek",
-  "city": "Osijek",
-  "product_id": "90995753",
-  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
-  "brand": "AFRODITA",
-  "category": "KOZMETIKA",
-  "last_seen_price": 9.49,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3298",
-  "store_name": "Konzum Osijek",
-  "city": "Osijek",
-  "product_id": "90954847",
-  "product": "SET GILL UCL FUS 4UP+GEL200 ml",
-  "brand": "GILLETTE",
-  "category": "KOZMETIKA",
-  "last_seen_price": 20.0,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3298",
-  "store_name": "Konzum Osijek",
-  "city": "Osijek",
-  "product_id": "90969905",
-  "product": "SET AFRODITA HOLIDAY FAIRYTALE",
-  "brand": "AFRODITA",
-  "category": "KOZMETIKA",
-  "last_seen_price": 10.0,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3255",
   "store_name": "Konzum Trnovec Bartolovečki",
   "city": "Trnovec Bartolovečki",
-  "product_id": "90800084",
-  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
-  "brand": "PALOMA",
-  "category": "PROIZVODI ZA KUĆANSTVO",
-  "last_seen_price": 1.35,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-30",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3271",
-  "store_name": "Konzum Rijeka",
-  "city": "Rijeka",
-  "product_id": "90995753",
-  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
-  "brand": "AFRODITA",
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
+  "product_id": "06633038",
+  "product": "BRIJAČ JEDNOK GILL BL II PL HRDC 1/1",
+  "brand": "GILLETTE",
   "category": "KOZMETIKA",
-  "last_seen_price": 9.49,
+  "last_seen_price": 0.5,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3271",
-  "store_name": "Konzum Rijeka",
-  "city": "Rijeka",
-  "product_id": "90969905",
-  "product": "SET AFRODITA HOLIDAY FAIRYTALE",
-  "brand": "AFRODITA",
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
+  "product_id": "06569447",
+  "product": "PATRONE Ž FW GILL VENUS DIV 4/1",
+  "brand": "VENUS",
   "category": "KOZMETIKA",
-  "last_seen_price": 10.0,
+  "last_seen_price": 0.7,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3271",
-  "store_name": "Konzum Rijeka",
-  "city": "Rijeka",
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
   "product_id": "90995756",
   "product": "TONIK AFRODITA DI PEPTIDE 100 ml",
   "brand": "AFRODITA",
@@ -319,7 +1355,63 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
+  "product_id": "90995753",
+  "product": "PJENA MIC AFROD DI PEPTIDE 150 ml",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.49,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
+  "product_id": "90969905",
+  "product": "SET AFRODITA HOLIDAY FAIRYTALE",
+  "brand": "AFRODITA",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.0,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3290",
+  "store_name": "Konzum Solin",
+  "city": "Solin",
+  "product_id": "90400626",
+  "product": "BRIJAČ GILL MACH3 TURBO 3D 2UP",
+  "brand": "GILLETTE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 0.1,
+  "last_seen_date": "2026-09-28",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0756",
@@ -333,7 +1425,49 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "90886346",
+  "product": "DET ARIEL MOUNTAIN SPRI 2.25 L=50PR",
+  "brand": "ARIEL",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 15.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "90954846",
+  "product": "SET GILL TORBA M3 4UP+200 ml",
+  "brand": "GILLETTE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 15.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -347,7 +1481,7 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -361,7 +1495,7 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -375,7 +1509,7 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -389,7 +1523,7 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -403,7 +1537,7 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3200",
@@ -417,152 +1551,306 @@
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
-  "product_id": "90895426",
-  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
-  "brand": "JAR ADW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 30.0,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
   "product_id": "90989897",
   "product": "ODREZAK SABLJARKE 170 g",
   "brand": "FIORITAL",
   "category": "HRANA",
   "last_seen_price": 6.49,
   "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
-  "product_id": "02197070",
-  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
-  "category": "HRANA",
-  "last_seen_price": 3.79,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
-  "product_id": "02197068",
-  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
-  "category": "HRANA",
-  "last_seen_price": 3.79,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
-  "product_id": "90904829",
-  "product": "DET JAR LEMON 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
-  "product_id": "90904832",
-  "product": "DET JAR TEA TREE & MINT 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3201",
-  "store_name": "Konzum Samobor",
-  "city": "Samobor",
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
   "product_id": "02197069",
   "product": "ZAMJE KAVIJAR CRNI KAPEL 100g KLAROM",
   "brand": "FRIEDRICHS",
   "category": "HRANA",
   "last_seen_price": 6.29,
   "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90433297",
+  "product": "SABLJARKA ODREZAK RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 25.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90330883",
+  "product": "LIGNJA JAR MEDUZA",
+  "brand": "MEDUZA",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "02197070",
+  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90433299",
+  "product": "SABLJARKA GLAVA RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 2.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "91022696",
+  "product": "LIGNJA JAR",
+  "brand": "ORADA ADRIATIC",
+  "category": "HRANA",
+  "last_seen_price": 16.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90894769",
+  "product": "LIGNJA JAR",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90894790",
+  "product": "SABLJARKA SVJEŽA",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 34.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90854805",
+  "product": "LIGNJA JAR",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 14.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "02197068",
+  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
+  "brand": "FRIEDRICHS",
+  "category": "HRANA",
+  "last_seen_price": 3.79,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90428171",
+  "product": "SABLJARKA RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90029597",
+  "product": "SABLJARKA FILET MEDUZA",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 19.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90789836",
+  "product": "DET JAR AIO PLATINUM LEMON 75TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 39.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90151822",
+  "product": "SABLJARKA ODREZAK",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 19.91,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "02198015",
+  "product": "SABLJARKA SVJ ODREZAK KONZUM",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 19.45,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0888",
+  "store_name": "Konzum Makarska",
+  "city": "Makarska",
+  "product_id": "90151820",
+  "product": "SABLJARKA CIJELA",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 17.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3201",
+  "store_name": "Konzum Samobor",
+  "city": "Samobor",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3222",
   "store_name": "Konzum Daruvar",
   "city": "Daruvar",
-  "product_id": "90989897",
-  "product": "ODREZAK SABLJARKE 170 g",
-  "brand": "FIORITAL",
-  "category": "HRANA",
-  "last_seen_price": 6.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1435",
-  "store_name": "Konzum Križevci",
-  "city": "Križevci",
-  "product_id": "90800084",
-  "product": "SALV PALOMA BOŽIĆ FAIRYTALE 33X33 20/1",
-  "brand": "PALOMA",
-  "category": "PROIZVODI ZA KUĆANSTVO",
-  "last_seen_price": 1.35,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0323",
-  "store_name": "Konzum Sesvete",
-  "city": "Sesvete",
-  "product_id": "90989897",
-  "product": "ODREZAK SABLJARKE 170 g",
-  "brand": "FIORITAL",
-  "category": "HRANA",
-  "last_seen_price": 6.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3299",
-  "store_name": "Konzum Otok",
-  "city": "Otok",
+  "store_id": "3222",
+  "store_name": "Konzum Daruvar",
+  "city": "Daruvar",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
@@ -571,12 +1859,12 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3299",
-  "store_name": "Konzum Otok",
-  "city": "Otok",
+  "store_id": "3222",
+  "store_name": "Konzum Daruvar",
+  "city": "Daruvar",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
@@ -585,7 +1873,105 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1435",
+  "store_name": "Konzum Križevci",
+  "city": "Križevci",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0323",
+  "store_name": "Konzum Sesvete",
+  "city": "Sesvete",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3299",
+  "store_name": "Konzum Otok",
+  "city": "Otok",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -599,7 +1985,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -613,7 +1999,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -627,7 +2013,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -641,7 +2027,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -655,7 +2041,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -669,7 +2055,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -683,7 +2069,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -697,7 +2083,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -711,7 +2097,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -725,7 +2111,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0715",
@@ -739,7 +2125,49 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1405",
+  "store_name": "Konzum Lepoglava",
+  "city": "Lepoglava",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1405",
+  "store_name": "Konzum Lepoglava",
+  "city": "Lepoglava",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1405",
+  "store_name": "Konzum Lepoglava",
+  "city": "Lepoglava",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3203",
@@ -753,49 +2181,77 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0463",
   "store_name": "Konzum Rubeši",
   "city": "Rubeši",
-  "product_id": "02197070",
-  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
-  "category": "HRANA",
-  "last_seen_price": 3.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0463",
   "store_name": "Konzum Rubeši",
   "city": "Rubeši",
-  "product_id": "02197068",
-  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
-  "category": "HRANA",
-  "last_seen_price": 3.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0865",
   "store_name": "Konzum Primošten",
   "city": "Primošten",
-  "product_id": "02197071",
-  "product": "ZAMJE KAVIJAR CRVE KAPEL 100g  KLARO",
-  "brand": "FRIEDRICHS",
-  "category": "HRANA",
-  "last_seen_price": 6.69,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0865",
+  "store_name": "Konzum Primošten",
+  "city": "Primošten",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0865",
+  "store_name": "Konzum Primošten",
+  "city": "Primošten",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0905",
@@ -809,7 +2265,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0905",
@@ -823,7 +2279,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0905",
@@ -837,35 +2293,21 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0159",
-  "store_name": "Konzum Sv. Ivan Zelina",
-  "city": "Sv. Ivan Zelina",
-  "product_id": "90904829",
-  "product": "DET JAR LEMON 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "store_id": "0738",
+  "store_name": "Konzum Zabok",
+  "city": "Zabok",
+  "product_id": "90598806",
+  "product": "DEO OLD SPICE DYNAM DEFENCE 200ml",
+  "brand": "OLD SPICE",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.0,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0159",
-  "store_name": "Konzum Sv. Ivan Zelina",
-  "city": "Sv. Ivan Zelina",
-  "product_id": "90904832",
-  "product": "DET JAR TEA TREE & MINT 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3292",
@@ -879,35 +2321,133 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1242",
-  "store_name": "Konzum Zagreb",
-  "city": "Zagreb",
+  "store_id": "1312",
+  "store_name": "Konzum Nova Gradiška",
+  "city": "Nova Gradiška",
+  "product_id": "90989897",
+  "product": "ODREZAK SABLJARKE 170 g",
+  "brand": "FIORITAL",
+  "category": "HRANA",
+  "last_seen_price": 6.49,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1312",
+  "store_name": "Konzum Nova Gradiška",
+  "city": "Nova Gradiška",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1312",
+  "store_name": "Konzum Nova Gradiška",
+  "city": "Nova Gradiška",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1312",
+  "store_name": "Konzum Nova Gradiška",
+  "city": "Nova Gradiška",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1312",
+  "store_name": "Konzum Nova Gradiška",
+  "city": "Nova Gradiška",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1816",
+  "store_name": "Konzum Bilje",
+  "city": "Bilje",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1816",
+  "store_name": "Konzum Bilje",
+  "city": "Bilje",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1242",
-  "store_name": "Konzum Zagreb",
-  "city": "Zagreb",
+  "store_id": "1816",
+  "store_name": "Konzum Bilje",
+  "city": "Bilje",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1242",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -921,7 +2461,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -935,7 +2475,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -949,7 +2489,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -963,7 +2503,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -977,7 +2517,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -991,7 +2531,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1005,7 +2545,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1019,7 +2559,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1033,7 +2573,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1047,7 +2587,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1061,7 +2601,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1075,7 +2615,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1089,7 +2629,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1103,7 +2643,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1117,7 +2657,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1131,7 +2671,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1145,7 +2685,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1159,7 +2699,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1173,7 +2713,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1187,7 +2727,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1201,7 +2741,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1215,7 +2755,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1270",
@@ -1229,21 +2769,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0154",
-  "store_name": "Konzum Hum Na Sutli",
-  "city": "Hum Na Sutli",
-  "product_id": "90904832",
-  "product": "DET JAR TEA TREE & MINT 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0228",
@@ -1257,7 +2783,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0228",
@@ -1271,7 +2797,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0228",
@@ -1285,7 +2811,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0893",
@@ -1299,7 +2825,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0893",
@@ -1313,91 +2839,63 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1710",
   "store_name": "Konzum Mlini",
   "city": "Mlini",
-  "product_id": "90992861",
-  "product": "VL MARAMCE PAMPERS SENSITIVE 52/1",
-  "brand": "PAMPERS",
-  "category": "TOALETNE POTREPŠTINE",
-  "last_seen_price": 2.19,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1710",
-  "store_name": "Konzum Mlini",
-  "city": "Mlini",
-  "product_id": "91004910",
-  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
-  "brand": "JAR ADW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 19.99,
+  "store_id": "0010",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1710",
-  "store_name": "Konzum Mlini",
-  "city": "Mlini",
-  "product_id": "91010029",
-  "product": "DET ARIEL JAPAN BLOSSOM 4.05 L=90PR",
-  "brand": "ARIEL",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 32.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "1710",
-  "store_name": "Konzum Mlini",
-  "city": "Mlini",
+  "store_id": "0010",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1710",
-  "store_name": "Konzum Mlini",
-  "city": "Mlini",
+  "store_id": "0010",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0010",
-  "store_name": "Konzum Zagreb",
-  "city": "Zagreb",
-  "product_id": "90989897",
-  "product": "ODREZAK SABLJARKE 170 g",
-  "brand": "FIORITAL",
-  "category": "HRANA",
-  "last_seen_price": 6.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1411,7 +2909,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1425,7 +2923,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1439,7 +2937,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1453,7 +2951,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1467,7 +2965,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1481,7 +2979,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1495,7 +2993,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1509,7 +3007,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1523,7 +3021,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1537,7 +3035,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1551,7 +3049,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1565,7 +3063,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1579,7 +3077,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1593,7 +3091,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1607,7 +3105,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1621,7 +3119,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1635,7 +3133,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1649,7 +3147,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1663,7 +3161,7 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0200",
@@ -1677,12 +3175,40 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0737",
   "store_name": "Konzum Sisak",
   "city": "Sisak",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0737",
+  "store_name": "Konzum Sisak",
+  "city": "Sisak",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90989897",
   "product": "ODREZAK SABLJARKE 170 g",
   "brand": "FIORITAL",
@@ -1691,77 +3217,203 @@
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0737",
-  "store_name": "Konzum Sisak",
-  "city": "Sisak",
-  "product_id": "02197070",
-  "product": "ZAMJE KAVIJAR CRVE KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "02198015",
+  "product": "SABLJARKA SVJ ODREZAK KONZUM",
+  "brand": "FIORITAL",
   "category": "HRANA",
-  "last_seen_price": 3.79,
+  "last_seen_price": 19.45,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0737",
-  "store_name": "Konzum Sisak",
-  "city": "Sisak",
-  "product_id": "02197068",
-  "product": "ZAMJE KAVIJAR CRNI KAPEL 50g KLAROM",
-  "brand": "FRIEDRICHS",
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90151820",
+  "product": "SABLJARKA CIJELA",
+  "brand": "",
   "category": "HRANA",
-  "last_seen_price": 3.79,
+  "last_seen_price": 17.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0737",
-  "store_name": "Konzum Sisak",
-  "city": "Sisak",
-  "product_id": "02197069",
-  "product": "ZAMJE KAVIJAR CRNI KAPEL 100g KLAROM",
-  "brand": "FRIEDRICHS",
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90437863",
+  "product": "SABLJARKA FILET  ŽUVELA",
+  "brand": "ŽUVELA",
   "category": "HRANA",
-  "last_seen_price": 6.29,
+  "last_seen_price": 22.0,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90428171",
+  "product": "SABLJARKA RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90433299",
+  "product": "SABLJARKA GLAVA RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 2.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90954871",
+  "product": "SABLJARKA ODREZAK ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 26.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90954873",
+  "product": "SABLJARKA GLAVA ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 2.89,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90894790",
+  "product": "SABLJARKA SVJEŽA",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 34.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90029597",
+  "product": "SABLJARKA FILET MEDUZA",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 19.59,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90298409",
+  "product": "FILET SABLJARKE KONZUM",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 15.39,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90433297",
+  "product": "SABLJARKA ODREZAK RZ KOMIŽA",
+  "brand": "RZ KOMIŽA",
+  "category": "HRANA",
+  "last_seen_price": 25.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90151822",
+  "product": "SABLJARKA ODREZAK",
+  "brand": "",
+  "category": "HRANA",
+  "last_seen_price": 19.91,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0214",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90483171",
+  "product": "SABLJARKA CIJELA ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 23.99,
+  "last_seen_date": "2026-09-29",
+  "first_missing_date": "2026-09-30",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0451",
   "store_name": "Konzum Lovran",
   "city": "Lovran",
-  "product_id": "91004910",
-  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
-  "brand": "JAR ADW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 19.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0451",
-  "store_name": "Konzum Lovran",
-  "city": "Lovran",
-  "product_id": "90904829",
-  "product": "DET JAR LEMON 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0204",
@@ -1775,7 +3427,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0204",
@@ -1789,7 +3441,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0204",
@@ -1803,7 +3455,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0204",
@@ -1817,7 +3469,119 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3262",
+  "store_name": "Konzum Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3262",
+  "store_name": "Konzum Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3262",
+  "store_name": "Konzum Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0892",
+  "store_name": "Konzum Hvar",
+  "city": "Hvar",
+  "product_id": "90886405",
+  "product": "DET ARIEL COLOR 22TAB",
+  "brand": "ARIEL",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 17.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0892",
+  "store_name": "Konzum Hvar",
+  "city": "Hvar",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0892",
+  "store_name": "Konzum Hvar",
+  "city": "Hvar",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0892",
+  "store_name": "Konzum Hvar",
+  "city": "Hvar",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0892",
+  "store_name": "Konzum Hvar",
+  "city": "Hvar",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0185",
@@ -1831,7 +3595,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0185",
@@ -1845,7 +3609,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1730",
@@ -1859,7 +3623,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1730",
@@ -1873,7 +3637,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1730",
@@ -1887,7 +3651,63 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1800",
+  "store_name": "Konzum Našice",
+  "city": "Našice",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1800",
+  "store_name": "Konzum Našice",
+  "city": "Našice",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1800",
+  "store_name": "Konzum Našice",
+  "city": "Našice",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1800",
+  "store_name": "Konzum Našice",
+  "city": "Našice",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0902",
@@ -1901,7 +3721,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0902",
@@ -1915,7 +3735,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0902",
@@ -1929,7 +3749,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0902",
@@ -1943,7 +3763,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1625",
@@ -1957,7 +3777,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1625",
@@ -1971,7 +3791,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1625",
@@ -1985,7 +3805,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1625",
@@ -1999,7 +3819,49 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1240",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1240",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1240",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3206",
@@ -2013,7 +3875,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3206",
@@ -2027,7 +3889,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3206",
@@ -2041,7 +3903,105 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1513",
+  "store_name": "Konzum Rab",
+  "city": "Rab",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1513",
+  "store_name": "Konzum Rab",
+  "city": "Rab",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1513",
+  "store_name": "Konzum Rab",
+  "city": "Rab",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1410",
+  "store_name": "Konzum Virovitica",
+  "city": "Virovitica",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1410",
+  "store_name": "Konzum Virovitica",
+  "city": "Virovitica",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1410",
+  "store_name": "Konzum Virovitica",
+  "city": "Virovitica",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1410",
+  "store_name": "Konzum Virovitica",
+  "city": "Virovitica",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0206",
@@ -2055,7 +4015,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0206",
@@ -2069,7 +4029,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0206",
@@ -2083,7 +4043,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0604",
@@ -2097,7 +4057,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0604",
@@ -2111,147 +4071,105 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1411",
-  "store_name": "Konzum Novi Marof",
-  "city": "Novi Marof",
-  "product_id": "90895426",
-  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
-  "brand": "JAR ADW",
+  "store_id": "1271",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 30.0,
+  "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1411",
-  "store_name": "Konzum Novi Marof",
-  "city": "Novi Marof",
+  "store_id": "1271",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0767",
+  "store_name": "Konzum Biograd Na Moru",
+  "city": "Biograd Na Moru",
   "product_id": "91004910",
   "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
   "brand": "JAR ADW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1411",
-  "store_name": "Konzum Novi Marof",
-  "city": "Novi Marof",
+  "store_id": "0767",
+  "store_name": "Konzum Biograd Na Moru",
+  "city": "Biograd Na Moru",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "1411",
-  "store_name": "Konzum Novi Marof",
-  "city": "Novi Marof",
+  "store_id": "0767",
+  "store_name": "Konzum Biograd Na Moru",
+  "city": "Biograd Na Moru",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "3259",
-  "store_name": "Konzum Prelog",
-  "city": "Prelog",
-  "product_id": "91004910",
-  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
-  "brand": "JAR ADW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 19.99,
+  "store_id": "0767",
+  "store_name": "Konzum Biograd Na Moru",
+  "city": "Biograd Na Moru",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3259",
-  "store_name": "Konzum Prelog",
-  "city": "Prelog",
-  "product_id": "90904829",
-  "product": "DET JAR LEMON 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "3259",
-  "store_name": "Konzum Prelog",
-  "city": "Prelog",
-  "product_id": "90904832",
-  "product": "DET JAR TEA TREE & MINT 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0233",
   "store_name": "Konzum Jastrebarsko",
   "city": "Jastrebarsko",
-  "product_id": "90904829",
-  "product": "DET JAR LEMON 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0233",
-  "store_name": "Konzum Jastrebarsko",
-  "city": "Jastrebarsko",
-  "product_id": "90904832",
-  "product": "DET JAR TEA TREE & MINT 750 ml",
-  "brand": "JAR HDW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.89,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
- },
- {
-  "store_id": "0233",
-  "store_name": "Konzum Jastrebarsko",
-  "city": "Jastrebarsko",
-  "product_id": "90895426",
-  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
-  "brand": "JAR ADW",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 30.0,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1737",
@@ -2265,7 +4183,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "1737",
@@ -2279,7 +4197,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0872",
@@ -2293,7 +4211,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0872",
@@ -2307,7 +4225,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3228",
@@ -2321,7 +4239,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3228",
@@ -2335,7 +4253,7 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "3228",
@@ -2349,54 +4267,138 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
   "store_id": "0453",
   "store_name": "Konzum Otočac",
   "city": "Otočac",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 4.75,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "91022696",
+  "product": "LIGNJA JAR",
+  "brand": "ORADA ADRIATIC",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90370320",
+  "product": "LIGNJA JAR ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 15.59,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90894769",
+  "product": "LIGNJA JAR",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0453",
-  "store_name": "Konzum Otočac",
-  "city": "Otočac",
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 1.89,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0158",
-  "store_name": "Konzum Split",
-  "city": "Split",
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90330883",
+  "product": "LIGNJA JAR MEDUZA",
+  "brand": "MEDUZA",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "91004910",
   "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
   "brand": "JAR ADW",
   "category": "SREDSTVA ZA ČIŠĆENJE",
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0158",
-  "store_name": "Konzum Split",
-  "city": "Split",
+  "store_id": "1260",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0207",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904829",
   "product": "DET JAR LEMON 750 ml",
   "brand": "JAR HDW",
@@ -2405,12 +4407,12 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
  },
  {
-  "store_id": "0158",
-  "store_name": "Konzum Split",
-  "city": "Split",
+  "store_id": "0207",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
   "product_id": "90904832",
   "product": "DET JAR TEA TREE & MINT 750 ml",
   "brand": "JAR HDW",
@@ -2419,6 +4421,412 @@
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
   "days_missing": 3,
-  "as_of": "2026-10-03"
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0207",
+  "store_name": "Konzum Zagreb",
+  "city": "Zagreb",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-01",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "91022696",
+  "product": "LIGNJA JAR",
+  "brand": "ORADA ADRIATIC",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90370320",
+  "product": "LIGNJA JAR ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 15.59,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90854805",
+  "product": "LIGNJA JAR",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 14.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90330883",
+  "product": "LIGNJA JAR MEDUZA",
+  "brand": "MEDUZA",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0158",
+  "store_name": "Konzum Split",
+  "city": "Split",
+  "product_id": "90894769",
+  "product": "LIGNJA JAR",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1621",
+  "store_name": "Konzum Zadar",
+  "city": "Zadar",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1621",
+  "store_name": "Konzum Zadar",
+  "city": "Zadar",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "1621",
+  "store_name": "Konzum Zadar",
+  "city": "Zadar",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90894769",
+  "product": "LIGNJA JAR",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90854805",
+  "product": "LIGNJA JAR",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 14.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90370320",
+  "product": "LIGNJA JAR ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 15.59,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "91022696",
+  "product": "LIGNJA JAR",
+  "brand": "ORADA ADRIATIC",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3271",
+  "store_name": "Konzum Rijeka",
+  "city": "Rijeka",
+  "product_id": "90330883",
+  "product": "LIGNJA JAR MEDUZA",
+  "brand": "MEDUZA",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3255",
+  "store_name": "Konzum Trnovec Bartolovečki",
+  "city": "Trnovec Bartolovečki",
+  "product_id": "90904829",
+  "product": "DET JAR LEMON 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3255",
+  "store_name": "Konzum Trnovec Bartolovečki",
+  "city": "Trnovec Bartolovečki",
+  "product_id": "90904832",
+  "product": "DET JAR TEA TREE & MINT 750 ml",
+  "brand": "JAR HDW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 1.89,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3255",
+  "store_name": "Konzum Trnovec Bartolovečki",
+  "city": "Trnovec Bartolovečki",
+  "product_id": "90895426",
+  "product": "DET JAR PLAT PLUS LEMON 63 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 30.0,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3255",
+  "store_name": "Konzum Trnovec Bartolovečki",
+  "city": "Trnovec Bartolovečki",
+  "product_id": "91004910",
+  "product": "DET JAR PLATINUM PLUS LEMON 102 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-09-30",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "0013",
+  "store_name": "Konzum Vir",
+  "city": "Vir",
+  "product_id": "90311362",
+  "product": "VINO VENUS 1L",
+  "brand": "VIZBA VALANDOVO",
+  "category": "PIĆE",
+  "last_seen_price": 5.09,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90894769",
+  "product": "LIGNJA JAR",
+  "brand": "BOSNIĆ",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90370320",
+  "product": "LIGNJA JAR ŽUVELA",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 15.59,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90330883",
+  "product": "LIGNJA JAR MEDUZA",
+  "brand": "MEDUZA",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90854805",
+  "product": "LIGNJA JAR",
+  "brand": "ŽUVELA",
+  "category": "HRANA",
+  "last_seen_price": 14.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "91022696",
+  "product": "LIGNJA JAR",
+  "brand": "ORADA ADRIATIC",
+  "category": "HRANA",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
+ },
+ {
+  "store_id": "3298",
+  "store_name": "Konzum Osijek",
+  "city": "Osijek",
+  "product_id": "90662888",
+  "product": "DET JAR PLAT LEMON 35 TAB",
+  "brand": "JAR ADW",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 10.0,
+  "last_seen_date": "2026-10-01",
+  "first_missing_date": "2026-10-02",
+  "days_missing": 3,
+  "as_of": "2026-10-04"
  }
 ]

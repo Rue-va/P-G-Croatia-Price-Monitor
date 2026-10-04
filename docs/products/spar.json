@@ -1118,7 +1118,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -1162,7 +1162,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -5430,7 +5430,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -5452,7 +5452,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -5805,28 +5805,6 @@
   "comparison_price": 3.03,
   "comparison_unit": "l",
   "barcode": "8700216880923",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8701",
-  "store_name": "Zd",
-  "street_address": "Bleiburskih Zrtava 18 8701 Interspar",
-  "city": "Zadar",
-  "product_id": "390443",
-  "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,5000",
-  "unit": "l",
-  "unit_price": 4.44,
-  "comparison_price": 4.44,
-  "comparison_unit": "l",
-  "barcode": "8700216691840",
   "matched_via": "brand"
  },
  {
@@ -9016,7 +8994,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -9060,7 +9038,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -13614,7 +13592,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -13636,7 +13614,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -17552,7 +17530,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -17596,7 +17574,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -18924,28 +18902,6 @@
   "store_name": "Sisak",
   "street_address": "Ivana Fistrovica 25 8703 Interspar",
   "city": "Sisak",
-  "product_id": "331864",
-  "product": "GEL OLD SPICE CAPTAIN 2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216961967",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8703",
-  "store_name": "Sisak",
-  "street_address": "Ivana Fistrovica 25 8703 Interspar",
-  "city": "Sisak",
   "product_id": "331872",
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
@@ -19466,7 +19422,7 @@
   "unit_price": 39.8,
   "comparison_price": 39.8,
   "comparison_unit": "l",
-  "barcode": "8700216884617",
+  "barcode": "8006540424148",
   "matched_via": "brand"
  },
  {
@@ -21996,7 +21952,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -22018,7 +21974,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -25626,7 +25582,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -25670,7 +25626,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -29740,7 +29696,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -29762,7 +29718,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -33414,7 +33370,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -33458,7 +33414,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -38166,7 +38122,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -38188,7 +38144,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -42016,7 +41972,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -42060,7 +42016,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -43322,28 +43278,6 @@
   "store_name": "Sb Osjecka",
   "street_address": "Osjecka 284 8706 Interspar",
   "city": "Slavonski Brod",
-  "product_id": "331857",
-  "product": "GEL OLD SPICE WHITEWAT.2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216980319",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8706",
-  "store_name": "Sb Osjecka",
-  "street_address": "Osjecka 284 8706 Interspar",
-  "city": "Slavonski Brod",
   "product_id": "331864",
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
@@ -43909,28 +43843,6 @@
   "comparison_price": 9.63,
   "comparison_unit": "l",
   "barcode": "4084500978973",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8706",
-  "store_name": "Sb Osjecka",
-  "street_address": "Osjecka 284 8706 Interspar",
-  "city": "Slavonski Brod",
-  "product_id": "362354",
-  "product": "VODICA ZUBNA ORAL B GUM 500ml",
-  "brand": "Oral B",
-  "category": "Kozmetika",
-  "pg_brand": "Oral-B",
-  "fighting_category": "Oral Care",
-  "price": 2.35,
-  "promo_price": 2.35,
-  "regular_price": null,
-  "quantity": "0,5000",
-  "unit": "l",
-  "unit_price": 4.7,
-  "comparison_price": 4.7,
-  "comparison_unit": "l",
-  "barcode": "8001090720399",
   "matched_via": "brand"
  },
  {
@@ -49232,7 +49144,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -49276,7 +49188,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -54622,7 +54534,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -54644,7 +54556,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -58692,7 +58604,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -58736,7 +58648,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -61890,28 +61802,6 @@
   "store_name": "Interspar",
   "street_address": "Gospodarska Ulica 5",
   "city": "Donji Stupnik",
-  "product_id": "378312",
-  "product": "DET.ARIEL FRESH AIR 1,7 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 11.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,7000",
-  "unit": "l",
-  "unit_price": 7.05,
-  "comparison_price": 7.05,
-  "comparison_unit": "l",
-  "barcode": "8700216340540",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8708",
-  "store_name": "Interspar",
-  "street_address": "Gospodarska Ulica 5",
-  "city": "Donji Stupnik",
   "product_id": "378322",
   "product": "ŠAM.HERBAL ESSENCE ARGA.350 ml",
   "brand": "Herbal Essences",
@@ -63268,7 +63158,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -63290,7 +63180,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -65890,6 +65780,28 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8708",
+  "store_name": "Interspar",
+  "street_address": "Gospodarska Ulica 5",
+  "city": "Donji Stupnik",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8711",
   "store_name": "Zg Garden",
   "street_address": "Kolakova 14  Dubrava 8711 Interspar",
@@ -67008,7 +66920,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -67052,7 +66964,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -71430,7 +71342,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -71452,7 +71364,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -73484,28 +73396,6 @@
   "store_name": "Zg Garden",
   "street_address": "Kolakova 14  Dubrava 8711 Interspar",
   "city": "Zagreb",
-  "product_id": "399784",
-  "product": "OME.LENOR JAPA.BLOSSOM 1.239 L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.95,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,2390",
-  "unit": "l",
-  "unit_price": 4.8,
-  "comparison_price": 4.8,
-  "comparison_unit": "l",
-  "barcode": "8006530389846",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8711",
-  "store_name": "Zg Garden",
-  "street_address": "Kolakova 14  Dubrava 8711 Interspar",
-  "city": "Zagreb",
   "product_id": "399790",
   "product": "DET.ARIEL JAP.BLOSSOM 1,8 L",
   "brand": "Ariel",
@@ -75104,7 +74994,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -75148,7 +75038,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -82166,7 +82056,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -82210,7 +82100,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -83993,28 +83883,6 @@
   "comparison_price": 56.9,
   "comparison_unit": "l",
   "barcode": "8006540124758",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8713",
-  "store_name": "Ka",
-  "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
-  "city": "Karlovac",
-  "product_id": "356609",
-  "product": "DET. JAR CITRUS 905 ml",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.19,
-  "promo_price": 2.19,
-  "regular_price": null,
-  "quantity": "0,9050",
-  "unit": "l",
-  "unit_price": 2.42,
-  "comparison_price": 2.42,
-  "comparison_unit": "l",
-  "barcode": "8700216528047",
   "matched_via": "brand"
  },
  {
@@ -86764,7 +86632,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -86786,7 +86654,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -90284,7 +90152,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -90328,7 +90196,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -94728,7 +94596,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -94750,7 +94618,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -98534,7 +98402,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -98578,7 +98446,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -100536,7 +100404,7 @@
   "unit_price": 39.8,
   "comparison_price": 39.8,
   "comparison_unit": "l",
-  "barcode": "8700216884617",
+  "barcode": "8006540424148",
   "matched_via": "brand"
  },
  {
@@ -102934,7 +102802,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -102956,7 +102824,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -103309,28 +103177,6 @@
   "comparison_price": 3.03,
   "comparison_unit": "l",
   "barcode": "8700216880923",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "390443",
-  "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,5000",
-  "unit": "l",
-  "unit_price": 4.44,
-  "comparison_price": 4.44,
-  "comparison_unit": "l",
-  "barcode": "8700216691840",
   "matched_via": "brand"
  },
  {
@@ -106498,7 +106344,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -106542,7 +106388,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -110854,7 +110700,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -110876,7 +110722,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -111273,28 +111119,6 @@
   "comparison_price": 4.44,
   "comparison_unit": "l",
   "barcode": "8700216691840",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8716",
-  "store_name": "Zg Cco",
-  "street_address": "Slavonska Avenija 11D 8716 Interspar",
-  "city": "Zagreb",
-  "product_id": "390447",
-  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kg",
-  "unit_price": 3.33,
-  "comparison_price": 3.33,
-  "comparison_unit": "kg",
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -114550,7 +114374,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -114594,7 +114418,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -118950,7 +118774,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -118972,7 +118796,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -119369,28 +119193,6 @@
   "comparison_price": 0.17,
   "comparison_unit": "kom",
   "barcode": "8700216784559",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8717",
-  "store_name": "Zg Buzin",
-  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
-  "city": "Zagreb",
-  "product_id": "389338",
-  "product": "ULOŠ.ALWAYS PLATINUM NOR 48/1",
-  "brand": "Always",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Always",
-  "fighting_category": "Femcare",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "48,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "8700216784719",
   "matched_via": "brand"
  },
  {
@@ -121726,6 +121528,28 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "8717",
+  "store_name": "Zg Buzin",
+  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
+  "city": "Zagreb",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "8718",
   "store_name": "St Mos",
   "street_address": "Josipa Jovica 93 8718 Interspar",
@@ -122866,7 +122690,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -122910,7 +122734,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -124780,7 +124604,7 @@
   "unit_price": 39.8,
   "comparison_price": 39.8,
   "comparison_unit": "l",
-  "barcode": "8700216884617",
+  "barcode": "8006540424148",
   "matched_via": "brand"
  },
  {
@@ -127200,7 +127024,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -127222,7 +127046,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -131116,7 +130940,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -131160,7 +130984,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -132569,28 +132393,6 @@
   "comparison_price": 59.9,
   "comparison_unit": "l",
   "barcode": "8700216961998",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8719",
-  "store_name": "Pu",
-  "street_address": "Rimske Centurijacije 101 8719 Interspar",
-  "city": "Pula",
-  "product_id": "332874",
-  "product": "TAB.JAR PLATINUM 125/1",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 26.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "125,0000",
-  "unit": "kom",
-  "unit_price": 0.22,
-  "comparison_price": 0.22,
-  "comparison_unit": "kom",
-  "barcode": "8001841513706",
   "matched_via": "brand"
  },
  {
@@ -136308,7 +136110,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -136330,7 +136132,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -140048,7 +139850,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -140092,7 +139894,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -144492,7 +144294,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -144514,7 +144316,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -148408,7 +148210,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -148452,7 +148254,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -152456,7 +152258,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -152478,7 +152280,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -156218,7 +156020,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -156262,7 +156064,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -161146,7 +160948,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -161168,7 +160970,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -165062,7 +164864,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -165106,7 +164908,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -166910,7 +166712,7 @@
   "unit_price": 39.8,
   "comparison_price": 39.8,
   "comparison_unit": "l",
-  "barcode": "8700216884617",
+  "barcode": "8006540424148",
   "matched_via": "brand"
  },
  {
@@ -172300,7 +172102,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -172344,7 +172146,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -176282,7 +176084,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -176304,7 +176106,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -179692,7 +179494,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -179736,7 +179538,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -187216,7 +187018,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -187260,7 +187062,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -191726,7 +191528,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -191748,7 +191550,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -195488,7 +195290,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -195532,7 +195334,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -199646,7 +199448,7 @@
   "unit_price": 4.75,
   "comparison_price": 4.75,
   "comparison_unit": "kom",
-  "barcode": "7702018440894",
+  "barcode": "8006530028882",
   "matched_via": "brand"
  },
  {
@@ -199668,7 +199470,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -206694,28 +206496,6 @@
   "store_name": "Valpovo",
   "street_address": "Ivana Fuderera Hanzike 3 87002 Spar",
   "city": "Valpovo",
-  "product_id": "387952",
-  "product": "TEK.DET. ARIEL MOUN.SPR.2,7 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 21.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 8.14,
-  "comparison_price": 8.14,
-  "comparison_unit": "l",
-  "barcode": "8700216690973",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87002",
-  "store_name": "Valpovo",
-  "street_address": "Ivana Fuderera Hanzike 3 87002 Spar",
-  "city": "Valpovo",
   "product_id": "388219",
   "product": "OME.LENOR GOLD ORCHID 2x987 ml",
   "brand": "Lenor",
@@ -207061,28 +206841,6 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87002",
-  "store_name": "Valpovo",
-  "street_address": "Ivana Fuderera Hanzike 3 87002 Spar",
-  "city": "Valpovo",
-  "product_id": "397074",
-  "product": "GEL OLD SPICE ROCKSTAR 1 L",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "l",
-  "unit_price": 7.99,
-  "comparison_price": 7.99,
-  "comparison_unit": "l",
-  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
@@ -211064,7 +210822,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -211108,7 +210866,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -220304,7 +220062,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -220348,7 +220106,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -228664,7 +228422,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -228708,7 +228466,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -231546,7 +231304,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -231590,7 +231348,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -233857,6 +233615,28 @@
   "comparison_price": 2.42,
   "comparison_unit": "l",
   "barcode": "8006530250665",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87017",
+  "store_name": "Zg Grada Mainz",
+  "street_address": "Ulica Grada Mainza 16 87017 Spar",
+  "city": "Zagreb",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
   "matched_via": "brand"
  },
  {
@@ -237839,6 +237619,50 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87020",
+  "store_name": "Zg",
+  "street_address": "Trg Zrtava Fasizma 6 87020 Spar",
+  "city": "Zagreb",
+  "product_id": "402085",
+  "product": "DET.JAR LEMON PLAT.PLUS 660 ml",
+  "brand": "Jar",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Jar",
+  "fighting_category": "Hand Dishwashing",
+  "price": 2.29,
+  "promo_price": 2.29,
+  "regular_price": null,
+  "quantity": "0,6600",
+  "unit": "l",
+  "unit_price": 3.47,
+  "comparison_price": 3.47,
+  "comparison_unit": "l",
+  "barcode": "8006530497930",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87020",
+  "store_name": "Zg",
+  "street_address": "Trg Zrtava Fasizma 6 87020 Spar",
+  "city": "Zagreb",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
   "matched_via": "brand"
  },
  {
@@ -249784,7 +249608,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -249828,7 +249652,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -255328,7 +255152,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -255372,7 +255196,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -263468,7 +263292,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -263512,7 +263336,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -266108,7 +265932,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -266152,7 +265976,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -275114,28 +274938,6 @@
   "store_name": "Jastrebarsko",
   "street_address": "Tresnjevka 1 1 87036 Spar",
   "city": "Jastrebarsko",
-  "product_id": "395918",
-  "product": "OME.LENOR SPRING AWAKENI.2.65L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.29,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2650",
-  "unit": "kg",
-  "unit_price": 23.74,
-  "comparison_price": 23.74,
-  "comparison_unit": "kg",
-  "barcode": "8006530170529",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87036",
-  "store_name": "Jastrebarsko",
-  "street_address": "Tresnjevka 1 1 87036 Spar",
-  "city": "Jastrebarsko",
   "product_id": "397054",
   "product": "PJENA GILLETTE SENSITIV.250 ml",
   "brand": "Gillette",
@@ -287452,28 +287254,6 @@
   "matched_via": "brand"
  },
  {
-  "store_id": "87043",
-  "store_name": "Spar",
-  "street_address": "Stubicka Cesta 17 D",
-  "city": "Marija Bistrica",
-  "product_id": "402092",
-  "product": "DET.JAR MALINA PLAT.PL.660 ml",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.29,
-  "promo_price": 2.29,
-  "regular_price": null,
-  "quantity": "0,6600",
-  "unit": "l",
-  "unit_price": 3.47,
-  "comparison_price": 3.47,
-  "comparison_unit": "l",
-  "barcode": "8006530498050",
-  "matched_via": "brand"
- },
- {
   "store_id": "87044",
   "store_name": "Vukovar",
   "street_address": "Priljevo 36 87044 Spar",
@@ -288152,7 +287932,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -288879,6 +288659,28 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87044",
+  "store_name": "Vukovar",
+  "street_address": "Priljevo 36 87044 Spar",
+  "city": "Vukovar",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -290206,6 +290008,28 @@
   "store_name": "Vukovar",
   "street_address": "Priljevo 36 87044 Spar",
   "city": "Vukovar",
+  "product_id": "397074",
+  "product": "GEL OLD SPICE ROCKSTAR 1 L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006530074001",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87044",
+  "store_name": "Vukovar",
+  "street_address": "Priljevo 36 87044 Spar",
+  "city": "Vukovar",
   "product_id": "398519",
   "product": "SPR.AMBI PUR ALOHA 185 ml",
   "brand": "Ambi Pur",
@@ -291078,7 +290902,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -291122,7 +290946,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -291673,6 +291497,50 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "367658",
+  "product": "GEL OLD SPICE CAPTAIN 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818824",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -293323,28 +293191,6 @@
   "comparison_price": 2.42,
   "comparison_unit": "l",
   "barcode": "8006530250665",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87049",
-  "store_name": "Kastel Sucurac",
-  "street_address": "Dr. Franje Tudmana 344 87049 Spar",
-  "city": "Kastel Sucurac",
-  "product_id": "4754",
-  "product": "LOSION OLD SP.WHITEWAT.100 ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 6.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 69.9,
-  "comparison_price": 69.9,
-  "comparison_unit": "l",
-  "barcode": "5000174440256",
   "matched_via": "brand"
  },
  {
@@ -302086,28 +301932,6 @@
   "store_name": "Zg Jordanovac",
   "street_address": "Jordanovac 7 87053 Spar",
   "city": "Zagreb",
-  "product_id": "237785",
-  "product": "ŠAMP.H&S APPLE 250 ml",
-  "brand": "Head&Shoulders",
-  "category": "Kozmetika",
-  "pg_brand": "Head & Shoulders",
-  "fighting_category": null,
-  "price": 4.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 17.96,
-  "comparison_price": null,
-  "comparison_unit": "",
-  "barcode": "8006540063248",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87053",
-  "store_name": "Zg Jordanovac",
-  "street_address": "Jordanovac 7 87053 Spar",
-  "city": "Zagreb",
   "product_id": "237791",
   "product": "ŠAMP.H&S CITRUS 250 ml",
   "brand": "Head&Shoulders",
@@ -307337,6 +307161,50 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87059",
+  "store_name": "Zg Bijenicka",
+  "street_address": "Bijenicka Cesta 5 87059 Spar",
+  "city": "Zagreb",
+  "product_id": "402085",
+  "product": "DET.JAR LEMON PLAT.PLUS 660 ml",
+  "brand": "Jar",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Jar",
+  "fighting_category": "Hand Dishwashing",
+  "price": 2.29,
+  "promo_price": 2.29,
+  "regular_price": null,
+  "quantity": "0,6600",
+  "unit": "l",
+  "unit_price": 3.47,
+  "comparison_price": 3.47,
+  "comparison_unit": "l",
+  "barcode": "8006530497930",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87059",
+  "store_name": "Zg Bijenicka",
+  "street_address": "Bijenicka Cesta 5 87059 Spar",
+  "city": "Zagreb",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
   "matched_via": "brand"
  },
  {
@@ -313214,6 +313082,50 @@
   "matched_via": "brand"
  },
  {
+  "store_id": "87066",
+  "store_name": "Zg Pomoraca",
+  "street_address": "Aleja Pomoraca 21 87066 Spar",
+  "city": "Zagreb",
+  "product_id": "402085",
+  "product": "DET.JAR LEMON PLAT.PLUS 660 ml",
+  "brand": "Jar",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Jar",
+  "fighting_category": "Hand Dishwashing",
+  "price": 2.29,
+  "promo_price": 2.29,
+  "regular_price": null,
+  "quantity": "0,6600",
+  "unit": "l",
+  "unit_price": 3.47,
+  "comparison_price": 3.47,
+  "comparison_unit": "l",
+  "barcode": "8006530497930",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87066",
+  "store_name": "Zg Pomoraca",
+  "street_address": "Aleja Pomoraca 21 87066 Spar",
+  "city": "Zagreb",
+  "product_id": "402587",
+  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 24.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.57,
+  "comparison_price": 0.57,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764940",
+  "matched_via": "brand"
+ },
+ {
   "store_id": "87067",
   "store_name": "Zg Varicakova",
   "street_address": "V. Varicaka 12 87067 Spar",
@@ -317544,7 +317456,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -317588,7 +317500,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -320668,7 +320580,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -320712,7 +320624,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -324078,7 +323990,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -324122,7 +324034,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -325003,28 +324915,6 @@
   "comparison_price": 3.45,
   "comparison_unit": "kom",
   "barcode": "7702018552313",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87073",
-  "store_name": "Zg Sr Njemacke",
-  "street_address": "Ulica Sr Njemacke 3 87073 Spar",
-  "city": "Zagreb",
-  "product_id": "356625",
-  "product": "ULOŠCI ALWAYS ULTRA NIGHT 24/1",
-  "brand": "Always",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Always",
-  "fighting_category": "Femcare",
-  "price": 4.19,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "24,0000",
-  "unit": "kom",
-  "unit_price": 0.17,
-  "comparison_price": 0.17,
-  "comparison_unit": "kom",
-  "barcode": "8006540093764",
   "matched_via": "brand"
  },
  {
@@ -327752,7 +327642,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -327796,7 +327686,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -330700,7 +330590,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -330744,7 +330634,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -334682,7 +334572,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -334726,7 +334616,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -342236,28 +342126,6 @@
   "store_name": "Vg",
   "street_address": "Trg K. P. Kresimira Iv Bb 87080 Spar",
   "city": "Velika Gorica",
-  "product_id": "402092",
-  "product": "DET.JAR MALINA PLAT.PL.660 ml",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.29,
-  "promo_price": 2.29,
-  "regular_price": null,
-  "quantity": "0,6600",
-  "unit": "l",
-  "unit_price": 3.47,
-  "comparison_price": 3.47,
-  "comparison_unit": "l",
-  "barcode": "8006530498050",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87080",
-  "store_name": "Vg",
-  "street_address": "Trg K. P. Kresimira Iv Bb 87080 Spar",
-  "city": "Velika Gorica",
   "product_id": "402174",
   "product": "OME.LENOR SENSITIVE 2x1239 ml",
   "brand": "Lenor",
@@ -343153,28 +343021,6 @@
   "comparison_price": 2.68,
   "comparison_unit": "l",
   "barcode": "8700216723985",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87081",
-  "store_name": "Zg",
-  "street_address": "Ulica Dubrava 45 87081 Spar",
-  "city": "Zagreb",
-  "product_id": "390447",
-  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kg",
-  "unit_price": 3.33,
-  "comparison_price": 3.33,
-  "comparison_unit": "kg",
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -344451,28 +344297,6 @@
   "comparison_price": null,
   "comparison_unit": "",
   "barcode": "8001841104614",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87082",
-  "store_name": "Zg Zerjaviceva",
-  "street_address": "Jurja Zerjavica 2 87082 Spar",
-  "city": "Zagreb",
-  "product_id": "346208",
-  "product": "DET.JAR LEMON 2x900ml",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 6.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,8000",
-  "unit": "l",
-  "unit_price": 3.77,
-  "comparison_price": 3.77,
-  "comparison_unit": "l",
-  "barcode": "8001090198068",
   "matched_via": "brand"
  },
  {
@@ -349254,28 +349078,6 @@
   "store_name": "Zg Bakiceva",
   "street_address": "Vojina Bakica 1 87085 Spar",
   "city": "Zagreb",
-  "product_id": "395918",
-  "product": "OME.LENOR SPRING AWAKENI.2.65L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.29,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2650",
-  "unit": "kg",
-  "unit_price": 23.74,
-  "comparison_price": 23.74,
-  "comparison_unit": "kg",
-  "barcode": "8006530170529",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87085",
-  "store_name": "Zg Bakiceva",
-  "street_address": "Vojina Bakica 1 87085 Spar",
-  "city": "Zagreb",
   "product_id": "397054",
   "product": "PJENA GILLETTE SENSITIV.250 ml",
   "brand": "Gillette",
@@ -351446,7 +351248,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -351490,7 +351292,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -354812,7 +354614,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -354856,7 +354658,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -355737,6 +355539,50 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "367658",
+  "product": "GEL OLD SPICE CAPTAIN 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818824",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -357306,28 +357152,6 @@
   "store_name": "Os Trpimirova",
   "street_address": "Kneza Trpimira 14 87089 Spar",
   "city": "Osijek",
-  "product_id": "397046",
-  "product": "GEL OLD SPICE BEARGLOVE 1 L",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "l",
-  "unit_price": 7.99,
-  "comparison_price": 7.99,
-  "comparison_unit": "l",
-  "barcode": "8700216610933",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87089",
-  "store_name": "Os Trpimirova",
-  "street_address": "Kneza Trpimira 14 87089 Spar",
-  "city": "Osijek",
   "product_id": "397050",
   "product": "GEL OLD SPICE COLD SPIC.400 ml",
   "brand": "Old Spice",
@@ -358530,7 +358354,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -358574,7 +358398,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -359323,28 +359147,6 @@
   "comparison_price": 0.02,
   "comparison_unit": "kg",
   "barcode": "8001841078052",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87090",
-  "store_name": "Vz Zagrebacka",
-  "street_address": "Zagrebacka Ulica 81 87090 Spar",
-  "city": "Varazdin",
-  "product_id": "328718",
-  "product": "VL.MARAMICE BABY PAMPERS 52/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Pampers",
-  "fighting_category": "Baby Wipes",
-  "price": 1.29,
-  "promo_price": 1.29,
-  "regular_price": null,
-  "quantity": "52,0000",
-  "unit": "kom",
-  "unit_price": 0.02,
-  "comparison_price": 0.02,
-  "comparison_unit": "kom",
-  "barcode": "8001841041391",
   "matched_via": "brand"
  },
  {
@@ -362358,7 +362160,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -362402,7 +362204,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -368276,7 +368078,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -368320,7 +368122,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -371268,7 +371070,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -371312,7 +371114,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -371995,6 +371797,28 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87094",
+  "store_name": "Vk Zvonimirova",
+  "street_address": "Kralja Zvonimira 59 87094 Spar",
+  "city": "Vinkovci",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -376072,28 +375896,6 @@
   "store_name": "Dakovo",
   "street_address": "Bana Jelacica 10A 87095 Spar",
   "city": "Dakovo",
-  "product_id": "395916",
-  "product": "OME.LENOR GOLD.ORCHID 2.65L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.29,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2650",
-  "unit": "kg",
-  "unit_price": 23.74,
-  "comparison_price": 23.74,
-  "comparison_unit": "kg",
-  "barcode": "8006530267502",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87095",
-  "store_name": "Dakovo",
-  "street_address": "Bana Jelacica 10A 87095 Spar",
-  "city": "Dakovo",
   "product_id": "395918",
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
@@ -377098,7 +376900,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -377142,7 +376944,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -378925,6 +378727,28 @@
   "comparison_price": 26.21,
   "comparison_unit": "l",
   "barcode": "8006530215138",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87096",
+  "store_name": "Os",
+  "street_address": "Strossmayerova 167 87096 Spar",
+  "city": "Osijek",
+  "product_id": "397074",
+  "product": "GEL OLD SPICE ROCKSTAR 1 L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
@@ -383046,28 +382870,6 @@
   "store_name": "Grubisno Polje",
   "street_address": "Polje  N. Subica Zrinskog 38 87098 Spar",
   "city": "Grubisno",
-  "product_id": "395916",
-  "product": "OME.LENOR GOLD.ORCHID 2.65L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.29,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2650",
-  "unit": "kg",
-  "unit_price": 23.74,
-  "comparison_price": 23.74,
-  "comparison_unit": "kg",
-  "barcode": "8006530267502",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87098",
-  "store_name": "Grubisno Polje",
-  "street_address": "Polje  N. Subica Zrinskog 38 87098 Spar",
-  "city": "Grubisno",
   "product_id": "395918",
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
@@ -383984,7 +383786,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -384028,7 +383830,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -384689,6 +384491,28 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87100",
+  "store_name": "Suhopolje",
+  "street_address": "Kralja Tomislava 2 87100 Spar",
+  "city": "Suhopolje",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -385745,6 +385569,28 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87100",
+  "store_name": "Suhopolje",
+  "street_address": "Kralja Tomislava 2 87100 Spar",
+  "city": "Suhopolje",
+  "product_id": "397074",
+  "product": "GEL OLD SPICE ROCKSTAR 1 L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
@@ -388516,7 +388362,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -388560,7 +388406,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -393158,7 +393004,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -393202,7 +393048,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -397096,7 +396942,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -397140,7 +396986,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -401144,7 +400990,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -401188,7 +401034,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -404378,7 +404224,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -404422,7 +404268,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -404995,6 +404841,28 @@
   "comparison_price": 4.32,
   "comparison_unit": "kg",
   "barcode": "8006540940150",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87107",
+  "store_name": "Porec",
+  "street_address": "Obala Rade Koncara 1A 87107 Spar",
+  "city": "Porec",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
   "matched_via": "brand"
  },
  {
@@ -409020,7 +408888,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006540069356",
+  "barcode": "8006530316699",
   "matched_via": "brand"
  },
  {
@@ -409064,7 +408932,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -414543,28 +414411,6 @@
   "comparison_price": 5.14,
   "comparison_unit": "l",
   "barcode": "8006530660686",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87119",
-  "store_name": "Zg",
-  "street_address": "Svetoklarska Ulica 32 87119 Spar",
-  "city": "Zagreb",
-  "product_id": "402174",
-  "product": "OME.LENOR SENSITIVE 2x1239 ml",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.99,
-  "promo_price": 5.99,
-  "regular_price": null,
-  "quantity": "2,4780",
-  "unit": "l",
-  "unit_price": 2.42,
-  "comparison_price": 2.42,
-  "comparison_unit": "l",
-  "barcode": "8006530250665",
   "matched_via": "brand"
  },
  {
@@ -422492,28 +422338,6 @@
   "store_name": "Popovaca",
   "street_address": "Kutinska Ulica 16 87127 Spar",
   "city": "Popovaca",
-  "product_id": "387952",
-  "product": "TEK.DET. ARIEL MOUN.SPR.2,7 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 21.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 8.14,
-  "comparison_price": 8.14,
-  "comparison_unit": "l",
-  "barcode": "8700216690973",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87127",
-  "store_name": "Popovaca",
-  "street_address": "Kutinska Ulica 16 87127 Spar",
-  "city": "Popovaca",
   "product_id": "388219",
   "product": "OME.LENOR GOLD ORCHID 2x987 ml",
   "brand": "Lenor",
@@ -422947,28 +422771,6 @@
   "comparison_price": 3.47,
   "comparison_unit": "l",
   "barcode": "8006530497930",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87127",
-  "store_name": "Popovaca",
-  "street_address": "Kutinska Ulica 16 87127 Spar",
-  "city": "Popovaca",
-  "product_id": "402092",
-  "product": "DET.JAR MALINA PLAT.PL.660 ml",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.29,
-  "promo_price": 2.29,
-  "regular_price": null,
-  "quantity": "0,6600",
-  "unit": "l",
-  "unit_price": 3.47,
-  "comparison_price": 3.47,
-  "comparison_unit": "l",
-  "barcode": "8006530498050",
   "matched_via": "brand"
  },
  {
@@ -427237,28 +427039,6 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87134",
-  "store_name": "Donja Stubica",
-  "street_address": "Toplicka Cesta 87 A 87134 Spar",
-  "city": "Donja Stubica",
-  "product_id": "397074",
-  "product": "GEL OLD SPICE ROCKSTAR 1 L",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "l",
-  "unit_price": 7.99,
-  "comparison_price": 7.99,
-  "comparison_unit": "l",
-  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
@@ -433492,6 +433272,28 @@
   "store_name": "Ozalj",
   "street_address": "Karlovacka Cesta 74 87140 Spar",
   "city": "Ozalj",
+  "product_id": "402085",
+  "product": "DET.JAR LEMON PLAT.PLUS 660 ml",
+  "brand": "Jar",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Jar",
+  "fighting_category": "Hand Dishwashing",
+  "price": 2.29,
+  "promo_price": 2.29,
+  "regular_price": null,
+  "quantity": "0,6600",
+  "unit": "l",
+  "unit_price": 3.47,
+  "comparison_price": 3.47,
+  "comparison_unit": "l",
+  "barcode": "8006530497930",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87140",
+  "store_name": "Ozalj",
+  "street_address": "Karlovacka Cesta 74 87140 Spar",
+  "city": "Ozalj",
   "product_id": "402174",
   "product": "OME.LENOR SENSITIVE 2x1239 ml",
   "brand": "Lenor",
@@ -438464,6 +438266,28 @@
   "store_name": "Cepin",
   "street_address": "Osjecka 21 87155 Spar",
   "city": "Cepin",
+  "product_id": "397074",
+  "product": "GEL OLD SPICE ROCKSTAR 1 L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006530074001",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87155",
+  "store_name": "Cepin",
+  "street_address": "Osjecka 21 87155 Spar",
+  "city": "Cepin",
   "product_id": "397085",
   "product": "PATRONE GILLETTE LABS 4/1",
   "brand": "Gillette",
@@ -438523,28 +438347,6 @@
   "comparison_price": null,
   "comparison_unit": "",
   "barcode": "8001841104959",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87155",
-  "store_name": "Cepin",
-  "street_address": "Osjecka 21 87155 Spar",
-  "city": "Cepin",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
   "matched_via": "brand"
  },
  {
@@ -439336,7 +439138,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -440130,28 +439932,6 @@
   "comparison_unit": "pranje",
   "barcode": "8001090727541",
   "matched_via": "product_name"
- },
- {
-  "store_id": "87156",
-  "store_name": "Gospic",
-  "street_address": "Budacka 100 87156 Spar",
-  "city": "Gospic",
-  "product_id": "367658",
-  "product": "GEL OLD SPICE CAPTAIN 1L",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "l",
-  "unit_price": 7.99,
-  "comparison_price": 7.99,
-  "comparison_unit": "l",
-  "barcode": "8006540818824",
-  "matched_via": "brand"
  },
  {
   "store_id": "87156",
@@ -448078,6 +447858,50 @@
   "store_name": "Os Svilajska",
   "street_address": "Svilajska Ulica 35B 87171 Spar",
   "city": "Osijek",
+  "product_id": "367658",
+  "product": "GEL OLD SPICE CAPTAIN 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818824",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "street_address": "Svilajska Ulica 35B 87171 Spar",
+  "city": "Osijek",
+  "product_id": "367659",
+  "product": "GEL OLD SPICE WHITEWATER 1L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006540818862",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "street_address": "Svilajska Ulica 35B 87171 Spar",
+  "city": "Osijek",
   "product_id": "367828",
   "product": "BRITVICE GILLETTE VENUS 3 6/1",
   "brand": "Gillette",
@@ -448687,6 +448511,28 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "street_address": "Svilajska Ulica 35B 87171 Spar",
+  "city": "Osijek",
+  "product_id": "397074",
+  "product": "GEL OLD SPICE ROCKSTAR 1 L",
+  "brand": "Old Spice",
+  "category": "Kozmetika",
+  "pg_brand": "Old Spice",
+  "fighting_category": "APDO",
+  "price": 7.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "l",
+  "unit_price": 7.99,
+  "comparison_price": 7.99,
+  "comparison_unit": "l",
+  "barcode": "8006530074001",
   "matched_via": "brand"
  },
  {
