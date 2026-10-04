@@ -212,19 +212,12 @@
     <div class="detail" id="gap-detail" style="display:none"></div>
   </div>
 
-  <div class="grid-2">
-    <div class="section" id="sec-promos">
+  <div class="section" id="sec-promos">
       <div class="section-head">
         <div><h2>On promotion today</h2><p class="lede" id="promo-lede"></p></div>
         <div class="seg" id="promo-side"></div>
       </div>
       <div class="scroll" id="promo-table"></div>
-    </div>
-    <div class="section" id="sec-moves">
-      <h2>Regular price changes</h2>
-      <p class="lede" id="moves-lede"></p>
-      <div class="scroll" id="moves-table"></div>
-    </div>
   </div>
 
   <div class="section" id="sec-skus">
@@ -249,7 +242,6 @@
         <li><strong>Category shelf:</strong> each dot is one SKU's median price per unit (per wash for Laundry/Fabric Enhancers, otherwise per litre, kg or piece as published by the retailer). Packs priced in different units are shown separately — switch with the unit buttons.</li>
         <li><strong>Missing SKUs:</strong> a P&amp;G SKU a store listed before but has left off its price list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. Worth checking with the store — the product may also have been delisted.</li>
         <li><strong>Promotions:</strong> rows with a published special-sale price. Where the retailer leaves the regular price blank (Konzum), it is estimated from the same SKU's non-promo price in other stores (marked *).</li>
-        <li><strong>Price changes:</strong> regular price of the same SKU in the same store vs. the previous published day; promo rows excluded.</li>
       </ul>
     </details>
   </div>
@@ -340,7 +332,7 @@ function renderChrome() {
 }
 
 function renderAll() {
-  renderKpis(); renderCross(); renderShelf(); renderShare(); renderGaps(); renderPromos(); renderMoves();
+  renderKpis(); renderCross(); renderShelf(); renderShare(); renderGaps(); renderPromos();
   if (state.retailer !== 'all') document.getElementById('sku-retailer').value = state.retailer;
   drawSkus();
 }
@@ -354,7 +346,6 @@ function renderKpis() {
   const missingSkus = rs.reduce((s, r) => s + ((r.insights || {}).flagged_skus_total || 0), 0);
   const missingStores = rs.reduce((s, r) => s + (((r.insights || {}).flags_by_store) || []).length, 0);
   const promos = rs.reduce((s, r) => s + ((r.insights || {}).promos || []).filter(p => p.side === 'pg' && catMatch(p.fighting_category)).length, 0);
-  const moves = rs.reduce((s, r) => s + ((r.insights || {}).price_moves || []).filter(m => m.side === 'pg' && catMatch(m.fighting_category)).length, 0);
   const scope = state.retailer === 'all' ? 'all retailers' : label(state.retailer);
   const tile = (target, lbl, val, note, go) =>
     `<button class="kpi" data-go="${target}"><div class="label">${lbl}</div><div class="value">${val}</div><div class="note">${note}</div><div class="go">${go} →</div></button>`;
@@ -363,8 +354,7 @@ function renderKpis() {
     tile('sec-skus', 'Stores reporting today', fmtInt(stores), rs.map(r => `${label(r.retailer)} ${r.stores_count}`).join(' · '), 'Explore SKUs') +
     tile('sec-shelf', 'P&amp;G SKUs listed', fmtInt(pgEans.size), `unique products, ${scope}${state.category ? ' · ' + esc(state.category) : ''}`, 'See the shelf') +
     tile('sec-gaps', 'P&amp;G SKUs missing', fmtInt(missingSkus), missingSkus ? `from ${fmtInt(missingStores)} stores' price lists, ${D.missing_days_threshold}+ days` : `nothing missing ${D.missing_days_threshold}+ days`, 'See which ones') +
-    tile('sec-promos', 'P&amp;G SKUs on promotion', fmtInt(promos), 'published special-sale price today', 'See promotions') +
-    tile('sec-moves', 'P&amp;G regular price changes', fmtInt(moves), 'since the previous day', 'See changes');
+    tile('sec-promos', 'P&amp;G SKUs on promotion', fmtInt(promos), 'published special-sale price today', 'See promotions');
   el.onclick = e => { const b = e.target.closest('[data-go]'); if (b) scrollTo(b.dataset.go); };
 }
 
@@ -581,22 +571,6 @@ function renderPromos() {
       <td class="num">${p.store_count}<span class="sub2">/${p.of}</span></td></tr>`).join('')}
     </tbody></table>` : '<p class="empty">No promotions in this view.</p>';
 }
-function renderMoves() {
-  const rs = selRetailers(), all = state.retailer === 'all';
-  let rows = [];
-  rs.forEach(r => ((r.insights || {}).price_moves || []).forEach(m => rows.push({ ...m, retailer: r.retailer })));
-  rows = rows.filter(m => catMatch(m.fighting_category));
-  rows.sort((a, b) => (a.side === 'pg' ? 0 : 1) - (b.side === 'pg' ? 0 : 1) || b.stores_changed - a.stores_changed);
-  const since = [...new Set(rs.map(r => (r.insights || {}).compared_with_date).filter(Boolean))];
-  const excl = rs.reduce((s, r) => s + ((r.insights || {}).price_moves_excluded_implausible || 0), 0);
-  document.getElementById('moves-lede').textContent = `${fmtInt(rows.length)} SKUs (P&G first) whose regular price changed since ${since.map(fmtDate).join(' / ') || 'the previous day'} — same SKU, same store.` + (excl ? ` ${excl} jumps of 60%+ left out as likely file errors.` : '');
-  document.getElementById('moves-table').innerHTML = rows.length ? `<table><thead><tr><th>Product</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Was</th><th class="num">Now</th><th class="num">Change</th><th class="num">Stores</th></tr></thead><tbody>
-    ${rows.slice(0, 200).map(m => `<tr><td>${esc(m.product)}<div class="sub2">${m.side === 'pg' ? '<span class="chip pg">P&amp;G</span> ' : ''}${esc(m.brand)}</div></td>${all ? `<td>${label(m.retailer)}</td>` : ''}
-      <td class="num">${eur(m.prev_price)}</td><td class="num">${eur(m.price)}</td><td class="num">${m.pct > 0 ? '▲ +' : '▼ −'}${Math.abs(m.pct).toFixed(1)}%</td>
-      <td class="num" data-tip="${m.stores_changed} of ${m.stores_compared} stores that listed it both days">${m.stores_changed}/${m.stores_compared}</td></tr>`).join('')}
-    </tbody></table>` : '<p class="empty">No regular-price changes in this view.</p>';
-}
-
 // ---------- SKU explorer ----------
 let shownSkus = [], histChart = null;
 function drawSkus() {
