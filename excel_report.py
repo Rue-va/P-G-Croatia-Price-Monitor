@@ -230,10 +230,10 @@ def build_report():
             ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Flagged"))
             _write_table(
                 ws,
-                ["Product", "Brand", "Category", "Store", "City",
+                ["Product", "EAN", "Brand", "Category", "Store", "City",
                  "Last Seen Price (EUR)", "Days Missing"],
                 [
-                    [f.get("product"), f.get("brand"), f.get("category"),
+                    [f.get("product"), f.get("barcode"), f.get("brand"), f.get("category"),
                      f.get("store_name"), f.get("city"), f.get("last_seen_price"),
                      f.get("days_missing")]
                     for f in flags
@@ -245,7 +245,7 @@ def build_report():
                 max_missing = max(f.get("days_missing", 0) for f in flags)
                 for row_idx, f in enumerate(flags, start=2):
                     if f.get("days_missing", 0) >= max(max_missing - 1, 3):
-                        for col_idx in range(1, 8):
+                        for col_idx in range(1, 9):
                             ws.cell(row=row_idx, column=col_idx).fill = WARN_FILL
 
     _write_table(summary_ws, summary_headers, summary_rows, table_name="SummaryTable")

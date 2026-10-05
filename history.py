@@ -803,6 +803,7 @@ def compute_missing_flags(
                     "store_name": meta["store_name"],
                     "city": meta.get("city", ""),
                     "product_id": meta["product_id"],
+                    "barcode": meta.get("barcode") or "",
                     "product": meta["product"],
                     "brand": meta["brand"],
                     "category": meta["category"],
@@ -997,7 +998,7 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
     for f in flags:
         key = f.get("product_id") or f["product"]
         s_ = by_sku.setdefault(key, {
-            "product": f["product"], "brand": f["brand"], "stores": 0,
+            "product": f["product"], "ean": f.get("barcode") or "", "brand": f["brand"], "stores": 0,
             "max_days": 0, "last_seen_price": f.get("last_seen_price"), "store_names": [],
         })
         s_["stores"] += 1

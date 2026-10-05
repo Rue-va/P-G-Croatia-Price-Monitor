@@ -172,7 +172,7 @@
       </div>
       <div>
         <div class="filters" style="position:static;padding-top:0">
-          <input type="text" id="cross-search" placeholder="Search product…" style="flex:1;min-width:180px">
+          <input type="text" id="cross-search" placeholder="Search product or EAN…" style="flex:1;min-width:180px">
           <span class="small muted" id="cross-count"></span>
         </div>
         <div class="scroll" id="cross-table"></div>
@@ -225,7 +225,7 @@
     <p class="lede">Any P&amp;G or tracked competitor SKU. Click a row for its price in every store and over time.</p>
     <div class="filters" style="position:static;padding-top:0">
       <select id="sku-retailer" aria-label="Retailer"></select>
-      <input type="text" id="sku-search" placeholder="Search product or brand…" style="flex:1;min-width:200px">
+      <input type="text" id="sku-search" placeholder="Search product, brand or EAN…" style="flex:1;min-width:200px">
       <select id="sku-side" aria-label="Side"><option value="">P&amp;G + competitors</option><option value="pg">P&amp;G only</option><option value="competitor">Competitors only</option></select>
       <span class="muted small" id="sku-count"></span>
     </div>
@@ -259,6 +259,7 @@ const esc = s => s == null ? '' : String(s).replace(/[&<>"']/g, c => ({'&':'&amp
 const fmtInt = n => (n ?? 0).toLocaleString('en-GB');
 const label = r => RETAILER_LABEL[r] || r;
 const fmtDate = iso => iso ? new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '—';
+const ean = e => (!e || e.includes(':')) ? '—' : e;
 const eur = v => v == null ? '—' : '€' + v.toFixed(2);
 const median = a => { if (!a.length) return null; const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
 const unitLabel = u => ({ l: 'l', kg: 'kg', kom: 'piece', pranje: 'wash', ml: 'ml', g: 'g', m: 'm' })[u] || u || 'unit';
@@ -400,10 +401,10 @@ function renderCross() {
     : 'No P&amp;G SKU in this view is listed at two or more retailers today.';
   if (suspect.length) document.getElementById('cross-callout').innerHTML += `<div class="sub2" style="margin-top:6px">${suspect.length} more SKUs show a gap above 2.5× — almost always a clearance or placeholder price in one retailer's file. They're listed at the bottom marked ⚠ and left out of the index.</div>`;
   const q = document.getElementById('cross-search').value.trim().toLowerCase();
-  const list = allRows.filter(g => !q || g.product.toLowerCase().includes(q) || (g.brand || '').toLowerCase().includes(q)).sort((a, b) => (a.suspect - b.suspect) || b.spread - a.spread);
+  const list = allRows.filter(g => !q || g.product.toLowerCase().includes(q) || (g.brand || '').toLowerCase().includes(q) || g.ean.includes(q)).sort((a, b) => (a.suspect - b.suspect) || b.spread - a.spread);
   document.getElementById('cross-count').textContent = `${fmtInt(list.length)} SKUs · largest gap first · ● = cheapest`;
-  document.getElementById('cross-table').innerHTML = list.length ? `<table><thead><tr><th>Product</th>${rids.map(r => `<th class="num">${label(r)}</th>`).join('')}<th class="num">Gap</th></tr></thead><tbody>
-    ${list.slice(0, 250).map(g => `<tr><td>${esc(g.product)}<div class="sub2">${esc(g.brand)}${g.cat ? ' · ' + esc(g.cat) : ''}</div></td>
+  document.getElementById('cross-table').innerHTML = list.length ? `<table><thead><tr><th>Product</th><th>EAN</th>${rids.map(r => `<th class="num">${label(r)}</th>`).join('')}<th class="num">Gap</th></tr></thead><tbody>
+    ${list.slice(0, 250).map(g => `<tr><td>${esc(g.product)}<div class="sub2">${esc(g.brand)}${g.cat ? ' · ' + esc(g.cat) : ''}</div></td><td class="small">${esc(g.ean)}</td>
       ${rids.map(r => { const s = g.prices[r]; if (!s) return `<td class="num muted ${state.retailer === r ? 'sel-col' : ''}">—</td>`;
         const t = `${label(r)}: ${eur(s.shelf)} regular, in ${s.stores} stores${s.promo != null ? `<br>On promo at ${eur(s.promo)} in ${s.promo_stores} stores` : ''}`;
         return `<td class="num ${g.cheapest.includes(r) && g.max > g.min ? 'cheapest' : ''} ${state.retailer === r ? 'sel-col' : ''}" data-tip="${esc(t)}">${eur(s.shelf)}${s.promo != null ? `<div class="sub2">promo ${eur(s.promo)}</div>` : ''}</td>`; }).join('')}
@@ -462,7 +463,7 @@ function renderShelf() {
   const grid = ticks.map(v => `<div class="gridline" style="left:${X(v)}%"></div>`).join('');
   const stores = r.stores_count || 1;
   el.innerHTML = brands.map((b, bi) => {
-    const dots = b.skus.map(s => `<div class="dot ${b.side}" style="left:${X(s.unit_price)}%" data-tip="${esc(`<strong>${esc(s.product)}</strong><br>${fmtUnit(s.unit_price, s.unit)} · ${eur(s.shelf)} shelf<br>${s.stores} of ${stores} stores${s.promo != null ? `<br>On promo ${eur(s.promo)} in ${s.promo_stores} stores` : ''}`)}"></div>`).join('');
+    const dots = b.skus.map(s => `<div class="dot ${b.side}" style="left:${X(s.unit_price)}%" data-tip="${esc(`<strong>${esc(s.product)}</strong><br>EAN ${ean(s.ean)}<br>${fmtUnit(s.unit_price, s.unit)} · ${eur(s.shelf)} shelf<br>${s.stores} of ${stores} stores${s.promo != null ? `<br>On promo ${eur(s.promo)} in ${s.promo_stores} stores` : ''}`)}"></div>`).join('');
     const med = b.med != null && b.skus.length > 1 ? `<div class="med" style="left:${X(b.med)}%" data-tip="${esc(`${esc(b.brand)} median ${fmtUnit(b.med, unit)}`)}"></div>` : '';
     const listed = (b.sku_count || 0) > 0;
     const meta = !listed ? 'Not listed today'
@@ -481,8 +482,8 @@ function renderShelf() {
     box.style.display = 'block';
     box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(b.brand)} — ${esc(cat)} at ${label(rid)}</h3>
       <p class="sub2">${list.length} SKUs</p>
-      <div class="scroll" style="max-height:340px"><table><thead><tr><th>Product</th><th class="num">Stores</th><th class="num">Shelf</th><th class="num">Unit price</th><th class="num">Promo</th></tr></thead><tbody>
-      ${list.map(s => `<tr><td>${esc(s.product)}</td><td class="num">${s.stores}</td><td class="num">${eur(s.shelf)}</td><td class="num">${s.unit !== 'pak' ? fmtUnit(s.unit_price, s.unit) : '—'}</td><td class="num">${s.promo != null ? `${eur(s.promo)} <span class="sub2">(${s.promo_stores} stores)</span>` : '—'}</td></tr>`).join('') || '<tr><td colspan="5" class="empty">No SKUs.</td></tr>'}
+      <div class="scroll" style="max-height:340px"><table><thead><tr><th>Product</th><th>EAN</th><th class="num">Stores</th><th class="num">Shelf</th><th class="num">Unit price</th><th class="num">Promo</th></tr></thead><tbody>
+      ${list.map(s => `<tr><td>${esc(s.product)}</td><td class="small">${ean(s.ean)}</td><td class="num">${s.stores}</td><td class="num">${eur(s.shelf)}</td><td class="num">${s.unit !== 'pak' ? fmtUnit(s.unit_price, s.unit) : '—'}</td><td class="num">${s.promo != null ? `${eur(s.promo)} <span class="sub2">(${s.promo_stores} stores)</span>` : '—'}</td></tr>`).join('') || '<tr><td colspan="6" class="empty">No SKUs.</td></tr>'}
       </tbody></table></div>`;
     box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   };
@@ -524,8 +525,8 @@ function renderGaps() {
   if (state.gapsView === 'sku') {
     rs.forEach(r => ((r.insights || {}).flags_by_sku || []).forEach(s => rows.push({ ...s, retailer: r.retailer, of: r.stores_count })));
     rows.sort((a, b) => b.stores - a.stores);
-    el.innerHTML = `<div class="scroll"><table><thead><tr><th>Product</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Stores missing it</th><th class="num">Longest</th><th class="num">Last price</th><th>Stores</th></tr></thead><tbody>
-      ${rows.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}<div class="sub2">${esc(s.brand)}</div></td>${all ? `<td>${label(s.retailer)}</td>` : ''}
+    el.innerHTML = `<div class="scroll"><table><thead><tr><th>Product</th><th>EAN</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Stores missing it</th><th class="num">Longest</th><th class="num">Last price</th><th>Stores</th></tr></thead><tbody>
+      ${rows.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}<div class="sub2">${esc(s.brand)}</div></td><td class="small">${ean(s.ean)}</td>${all ? `<td>${label(s.retailer)}</td>` : ''}
         <td class="num"><strong>${s.stores}</strong> <span class="sub2">of ${s.of}</span></td><td class="num">${s.max_days} days</td><td class="num">${eur(s.last_seen_price)}</td>
         <td class="small">${s.store_names.slice(0, 3).map(esc).join(', ')}${s.stores > 3 ? ` <span class="muted">+${s.stores - 3} more</span>` : ''}</td></tr>`).join('')}
       </tbody></table></div>`;
@@ -550,8 +551,8 @@ function showGapDetail(title, items, mode) {
   box.style.display = 'block';
   items.sort((a, b) => b.days_missing - a.days_missing);
   box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(title)}</h3><p class="sub2">${items.length} ${mode === 'store' ? 'stores' : 'SKUs'}</p>
-    <div class="scroll" style="max-height:340px"><table><thead><tr>${mode === 'store' ? '<th>Store</th><th>City</th>' : '<th>Product</th><th>Brand</th>'}<th>Last listed</th><th class="num">Last price</th><th class="num">Days missing</th></tr></thead><tbody>
-    ${items.map(f => `<tr>${mode === 'store' ? `<td>${esc(f.store_name)}</td><td>${esc(f.city)}</td>` : `<td>${esc(f.product)}</td><td>${esc(f.brand)}</td>`}<td>${fmtDate(f.last_seen_date)}</td><td class="num">${eur(f.last_seen_price)}</td><td class="num">${f.days_missing}</td></tr>`).join('')}
+    <div class="scroll" style="max-height:340px"><table><thead><tr>${mode === 'store' ? '<th>Store</th><th>City</th>' : '<th>Product</th><th>EAN</th><th>Brand</th>'}<th>Last listed</th><th class="num">Last price</th><th class="num">Days missing</th></tr></thead><tbody>
+    ${items.map(f => `<tr>${mode === 'store' ? `<td>${esc(f.store_name)}</td><td>${esc(f.city)}</td>` : `<td>${esc(f.product)}</td><td class="small">${ean(f.barcode)}</td><td>${esc(f.brand)}</td>`}<td>${fmtDate(f.last_seen_date)}</td><td class="num">${eur(f.last_seen_price)}</td><td class="num">${f.days_missing}</td></tr>`).join('')}
     </tbody></table></div>`;
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -564,8 +565,8 @@ function renderPromos() {
   rows = rows.filter(p => catMatch(p.fighting_category) && (state.promoSide === 'all' || p.side === state.promoSide));
   rows.sort((a, b) => b.store_count - a.store_count || (b.depth_pct || 0) - (a.depth_pct || 0));
   document.getElementById('promo-lede').textContent = `${fmtInt(rows.length)} SKUs on a published promotion${state.category ? ' in ' + state.category : ''}, most widely run first.`;
-  document.getElementById('promo-table').innerHTML = rows.length ? `<table><thead><tr><th>Product</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Regular</th><th class="num">Promo</th><th class="num">Off</th><th class="num">Stores</th></tr></thead><tbody>
-    ${rows.slice(0, 200).map(p => `<tr><td>${esc(p.product)}<div class="sub2">${p.side === 'pg' ? '<span class="chip pg">P&amp;G</span> ' : ''}${esc(p.brand)}</div></td>${all ? `<td>${label(p.retailer)}</td>` : ''}
+  document.getElementById('promo-table').innerHTML = rows.length ? `<table><thead><tr><th>Product</th><th>EAN</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Regular</th><th class="num">Promo</th><th class="num">Off</th><th class="num">Stores</th></tr></thead><tbody>
+    ${rows.slice(0, 200).map(p => `<tr><td>${esc(p.product)}<div class="sub2">${p.side === 'pg' ? '<span class="chip pg">P&amp;G</span> ' : ''}${esc(p.brand)}</div></td><td class="small">${ean(p.barcode)}</td>${all ? `<td>${label(p.retailer)}</td>` : ''}
       <td class="num" ${p.regular_price_source === 'other_stores' ? `data-tip="Estimated: this SKU's median non-promo price in ${label(p.retailer)}'s other stores today"` : ''}>${p.regular_price != null ? eur(p.regular_price) + (p.regular_price_source === 'other_stores' ? '*' : '') : '—'}</td>
       <td class="num"><strong>${eur(p.promo_price)}</strong></td><td class="num">${p.depth_pct != null ? '−' + p.depth_pct.toFixed(0) + '%' : '—'}</td>
       <td class="num">${p.store_count}<span class="sub2">/${p.of}</span></td></tr>`).join('')}
@@ -577,14 +578,14 @@ function drawSkus() {
   const rid = document.getElementById('sku-retailer').value || (okRetailers()[0] || {}).retailer;
   const q = document.getElementById('sku-search').value.trim().toLowerCase();
   const side = document.getElementById('sku-side').value;
-  const list = (SKUS[rid] || []).filter(s => catMatch(s.cat) && (!side || s.side === side) && (!q || s.product.toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q)))
+  const list = (SKUS[rid] || []).filter(s => catMatch(s.cat) && (!side || s.side === side) && (!q || s.product.toLowerCase().includes(q) || (s.brand || '').toLowerCase().includes(q) || (s.ean || '').includes(q)))
     .sort((a, b) => b.stores - a.stores);
   shownSkus = list.slice(0, 300);
   document.getElementById('sku-count').textContent = `${fmtInt(list.length)} SKUs${list.length > 300 ? ' · showing 300' : ''}`;
   const el = document.getElementById('sku-table');
-  el.innerHTML = `<table><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th class="num">Stores</th><th class="num">Shelf</th><th class="num">Unit price</th><th class="num">Promo</th></tr></thead><tbody>
-    ${shownSkus.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}</td><td>${s.side === 'pg' ? `<span class="chip pg">${esc(s.brand)}</span>` : esc(s.brand)}</td><td class="small">${esc(s.cat || '—')}</td>
-      <td class="num">${s.stores}</td><td class="num">${eur(s.shelf)}</td><td class="num">${s.unit !== 'pak' ? fmtUnit(s.unit_price, s.unit) : '—'}</td><td class="num">${s.promo != null ? eur(s.promo) : '—'}</td></tr>`).join('') || '<tr><td colspan="7" class="empty">No matches.</td></tr>'}
+  el.innerHTML = `<table><thead><tr><th>Product</th><th>EAN</th><th>Brand</th><th>Category</th><th class="num">Stores</th><th class="num">Shelf</th><th class="num">Unit price</th><th class="num">Promo</th></tr></thead><tbody>
+    ${shownSkus.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}</td><td class="small">${ean(s.ean)}</td><td>${s.side === 'pg' ? `<span class="chip pg">${esc(s.brand)}</span>` : esc(s.brand)}</td><td class="small">${esc(s.cat || '—')}</td>
+      <td class="num">${s.stores}</td><td class="num">${eur(s.shelf)}</td><td class="num">${s.unit !== 'pak' ? fmtUnit(s.unit_price, s.unit) : '—'}</td><td class="num">${s.promo != null ? eur(s.promo) : '—'}</td></tr>`).join('') || '<tr><td colspan="8" class="empty">No matches.</td></tr>'}
     </tbody></table>`;
   el.querySelector('tbody').onclick = e => { const tr = e.target.closest('tr[data-i]'); if (tr) showSku(rid, shownSkus[+tr.dataset.i]); };
 }
