@@ -11,8 +11,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -26,8 +26,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -41,8 +41,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -56,8 +56,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -71,8 +71,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -86,8 +86,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -101,23 +101,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -131,8 +116,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -146,8 +131,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -161,8 +146,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -176,8 +161,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -191,8 +176,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -206,8 +191,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -221,8 +206,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -236,8 +221,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -251,8 +236,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -266,8 +251,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -281,8 +266,8 @@
   "last_seen_price": 3.35,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -296,8 +281,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -311,8 +296,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -326,8 +311,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -341,8 +326,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -356,8 +341,8 @@
   "last_seen_price": 38.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -371,8 +356,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -386,8 +371,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -401,8 +386,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -416,8 +401,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3230",
@@ -431,38 +416,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3230",
-  "store_name": "Kaufland Kutina",
-  "city": "Kutina",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3230",
@@ -476,8 +431,8 @@
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4230",
@@ -491,8 +446,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4230",
@@ -506,8 +461,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -521,8 +476,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -536,8 +491,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -551,8 +506,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1430",
@@ -566,8 +521,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1430",
@@ -581,8 +536,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1430",
@@ -596,8 +551,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -611,8 +566,8 @@
   "last_seen_price": 23.29,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -626,8 +581,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -641,8 +596,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -656,23 +611,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2830",
-  "store_name": "Kaufland Slavonski Brod",
-  "city": "Slavonski Brod",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2730",
@@ -686,8 +626,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2730",
@@ -701,8 +641,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2730",
@@ -716,8 +656,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -731,8 +671,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -746,8 +686,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -761,8 +701,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -776,8 +716,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -791,8 +731,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -806,8 +746,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -821,8 +761,8 @@
   "last_seen_price": 25.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -836,23 +776,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -866,8 +791,8 @@
   "last_seen_price": 16.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -881,8 +806,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -896,8 +821,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -911,8 +836,8 @@
   "last_seen_price": 20.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -926,8 +851,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6430",
@@ -941,8 +866,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6430",
@@ -956,8 +881,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -971,23 +896,8 @@
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -1001,8 +911,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -1016,8 +926,8 @@
   "last_seen_price": 5.19,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -1031,8 +941,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -1046,23 +956,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1230",
-  "store_name": "Kaufland Koprivnica",
-  "city": "Koprivnica",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -1076,8 +971,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -1091,8 +986,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -1106,8 +1001,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3530",
@@ -1121,8 +1016,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3530",
@@ -1136,8 +1031,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -1151,8 +1046,8 @@
   "last_seen_price": 3.29,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -1166,23 +1061,8 @@
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -1196,8 +1076,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -1211,8 +1091,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -1226,8 +1106,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -1241,8 +1121,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -1256,8 +1136,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1271,8 +1151,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1286,8 +1166,8 @@
   "last_seen_price": 6.12,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1301,8 +1181,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1316,8 +1196,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1331,8 +1211,8 @@
   "last_seen_price": 37.19,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1346,8 +1226,8 @@
   "last_seen_price": 7.35,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1361,8 +1241,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1376,8 +1256,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1391,8 +1271,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1406,8 +1286,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1421,8 +1301,8 @@
   "last_seen_price": 3.97,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1436,8 +1316,8 @@
   "last_seen_price": 2.36,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1451,8 +1331,8 @@
   "last_seen_price": 7.9,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1466,8 +1346,8 @@
   "last_seen_price": 2.36,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1481,8 +1361,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -1496,23 +1376,8 @@
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1330",
-  "store_name": "Kaufland Dakovo",
-  "city": "Dakovo",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1330",
@@ -1526,8 +1391,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1330",
@@ -1541,8 +1406,8 @@
   "last_seen_price": 11.19,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -1556,8 +1421,8 @@
   "last_seen_price": 7.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -1571,23 +1436,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -1601,8 +1451,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6530",
@@ -1616,8 +1466,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -1631,8 +1481,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -1646,8 +1496,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -1661,8 +1511,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -1676,8 +1526,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -1691,8 +1541,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -1706,8 +1556,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -1721,8 +1571,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -1736,8 +1586,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4330",
@@ -1751,8 +1601,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -1766,8 +1616,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -1781,8 +1631,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -1796,8 +1646,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -1811,8 +1661,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -1826,8 +1676,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -1841,8 +1691,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -1856,8 +1706,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -1871,8 +1721,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -1886,8 +1736,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -1901,8 +1751,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -1916,8 +1766,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -1931,8 +1781,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -1946,8 +1796,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6130",
@@ -1961,8 +1811,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -1976,8 +1826,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -1991,23 +1841,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "7830",
-  "store_name": "Kaufland Ivanec",
-  "city": "Ivanec",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -2021,8 +1856,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -2036,8 +1871,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -2051,8 +1886,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -2066,8 +1901,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3830",
@@ -2081,8 +1916,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3830",
@@ -2096,8 +1931,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6830",
@@ -2111,8 +1946,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6830",
@@ -2126,8 +1961,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -2141,8 +1976,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -2156,23 +1991,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2530",
-  "store_name": "Kaufland Sibenik",
-  "city": "Sibenik",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-28",
-  "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -2186,8 +2006,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2201,8 +2021,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2216,8 +2036,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2231,8 +2051,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2246,8 +2066,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2261,8 +2081,8 @@
   "last_seen_price": 8.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2276,8 +2096,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -2291,8 +2111,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 6,
-  "as_of": "2026-10-05"
+  "days_missing": 7,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -2306,8 +2126,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -2321,8 +2141,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -2336,8 +2156,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -2351,8 +2171,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -2366,8 +2186,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -2381,8 +2201,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -2396,8 +2216,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -2411,23 +2231,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20844262",
-  "barcode": "8700216834292",
-  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "last_seen_price": 5.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -2441,8 +2246,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -2456,8 +2261,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -2471,8 +2276,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -2486,8 +2291,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -2501,8 +2306,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -2516,8 +2321,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -2531,8 +2336,8 @@
   "last_seen_price": 8.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -2546,23 +2351,8 @@
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3130",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20857696",
-  "barcode": "8700216486200",
-  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "last_seen_price": 5.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -2576,8 +2366,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -2591,8 +2381,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -2606,8 +2396,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -2621,8 +2411,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -2636,8 +2426,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -2651,23 +2441,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -2681,8 +2456,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4230",
@@ -2696,8 +2471,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4230",
@@ -2711,8 +2486,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -2726,8 +2501,8 @@
   "last_seen_price": 18.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -2741,8 +2516,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -2756,8 +2531,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -2771,8 +2546,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1430",
@@ -2786,8 +2561,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -2801,23 +2576,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2730",
-  "store_name": "Kaufland Pozega",
-  "city": "Pozega",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2730",
@@ -2831,8 +2591,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6030",
@@ -2846,8 +2606,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6030",
@@ -2861,8 +2621,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -2876,8 +2636,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2891,8 +2651,8 @@
   "last_seen_price": 5.39,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2906,8 +2666,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2921,8 +2681,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2936,8 +2696,8 @@
   "last_seen_price": 3.75,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2951,8 +2711,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2966,8 +2726,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2981,8 +2741,8 @@
   "last_seen_price": 3.15,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -2996,8 +2756,8 @@
   "last_seen_price": 6.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3011,8 +2771,8 @@
   "last_seen_price": 3.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3026,8 +2786,8 @@
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3041,8 +2801,8 @@
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3056,8 +2816,8 @@
   "last_seen_price": 11.89,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3071,8 +2831,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3086,8 +2846,8 @@
   "last_seen_price": 6.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3101,8 +2861,8 @@
   "last_seen_price": 7.35,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3116,8 +2876,8 @@
   "last_seen_price": 36.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3131,8 +2891,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3146,8 +2906,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3161,8 +2921,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3176,8 +2936,8 @@
   "last_seen_price": 2.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3191,8 +2951,8 @@
   "last_seen_price": 36.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3206,8 +2966,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3221,8 +2981,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3236,8 +2996,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3251,8 +3011,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3266,8 +3026,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3281,8 +3041,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3296,8 +3056,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -3311,23 +3071,8 @@
   "last_seen_price": 2.36,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "4630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
-  "product_id": "04801941",
-  "barcode": "5010622005029",
-  "product": "Oral B zubni konac Essential 50 m",
-  "brand": "Oral B",
-  "category": "KOZMETIKA",
-  "last_seen_price": 3.89,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -3341,8 +3086,8 @@
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -3356,8 +3101,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -3371,8 +3116,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -3386,23 +3131,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "6430",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20844262",
-  "barcode": "8700216834292",
-  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "last_seen_price": 5.49,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6430",
@@ -3416,23 +3146,8 @@
   "last_seen_price": 11.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1030",
-  "store_name": "Kaufland Karlovac",
-  "city": "Karlovac",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -3446,8 +3161,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -3461,8 +3176,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -3476,8 +3191,8 @@
   "last_seen_price": 7.35,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -3491,8 +3206,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3530",
@@ -3506,8 +3221,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -3521,8 +3236,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -3536,8 +3251,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -3551,8 +3266,8 @@
   "last_seen_price": 16.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -3566,8 +3281,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -3581,8 +3296,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -3596,8 +3311,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -3611,8 +3326,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -3626,8 +3341,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -3641,8 +3356,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -3656,8 +3371,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -3671,8 +3386,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -3686,8 +3401,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1330",
@@ -3701,23 +3416,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2230",
-  "store_name": "Kaufland Velika Gorica",
-  "city": "Velika Gorica",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -3731,8 +3431,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6530",
@@ -3746,8 +3446,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6530",
@@ -3761,8 +3461,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -3776,8 +3476,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -3791,8 +3491,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -3806,8 +3506,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -3821,8 +3521,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -3836,8 +3536,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -3851,23 +3551,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1130",
-  "store_name": "Kaufland Cakovec",
-  "city": "Cakovec",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -3881,8 +3566,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -3896,8 +3581,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -3911,8 +3596,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -3926,8 +3611,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -3941,8 +3626,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -3956,8 +3641,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -3971,8 +3656,8 @@
   "last_seen_price": 2.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -3986,8 +3671,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -4001,8 +3686,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -4016,8 +3701,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6130",
@@ -4031,8 +3716,8 @@
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -4046,8 +3731,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -4061,8 +3746,8 @@
   "last_seen_price": 6.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7330",
@@ -4076,8 +3761,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7330",
@@ -4091,8 +3776,8 @@
   "last_seen_price": 7.39,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -4106,8 +3791,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3830",
@@ -4121,8 +3806,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3830",
@@ -4136,8 +3821,8 @@
   "last_seen_price": 6.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6630",
@@ -4151,8 +3836,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6830",
@@ -4166,8 +3851,8 @@
   "last_seen_price": 2.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -4181,8 +3866,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5030",
@@ -4196,8 +3881,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -4211,8 +3896,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -4226,8 +3911,8 @@
   "last_seen_price": 1.8,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -4241,8 +3926,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -4256,8 +3941,8 @@
   "last_seen_price": 5.59,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -4271,8 +3956,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -4286,8 +3971,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -4301,23 +3986,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3030",
-  "store_name": "Kaufland Bjelovar",
-  "city": "Bjelovar",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 1.8,
-  "last_seen_date": "2026-09-29",
-  "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4331,8 +4001,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4346,8 +4016,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4361,8 +4031,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4376,8 +4046,8 @@
   "last_seen_price": 21.84,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4391,8 +4061,8 @@
   "last_seen_price": 24.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4406,8 +4076,8 @@
   "last_seen_price": 6.07,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4421,8 +4091,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -4436,8 +4106,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6830",
@@ -4451,8 +4121,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 5,
-  "as_of": "2026-10-05"
+  "days_missing": 6,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -4466,8 +4136,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -4481,8 +4151,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -4496,8 +4166,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -4511,8 +4181,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -4526,8 +4196,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -4541,8 +4211,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -4556,8 +4226,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -4571,8 +4241,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5630",
@@ -4586,8 +4256,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -4601,8 +4271,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -4616,8 +4286,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -4631,8 +4301,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -4646,8 +4316,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -4661,8 +4331,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -4676,8 +4346,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -4691,8 +4361,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4706,8 +4376,8 @@
   "last_seen_price": 4.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4721,8 +4391,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4736,8 +4406,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4751,23 +4421,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "4430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "04700435",
-  "barcode": "5011321336032",
-  "product": "Head&Shoulders šampon citrus fresh 400ml",
-  "brand": "Head&Shoulders",
-  "category": "KOZMETIKA",
-  "last_seen_price": 6.69,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4781,8 +4436,8 @@
   "last_seen_price": 22.95,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4796,8 +4451,8 @@
   "last_seen_price": 28.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4811,8 +4466,8 @@
   "last_seen_price": 37.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4826,8 +4481,8 @@
   "last_seen_price": 4.59,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4841,23 +4496,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "4430",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4871,8 +4511,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -4886,8 +4526,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -4901,8 +4541,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2630",
@@ -4916,8 +4556,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -4931,8 +4571,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -4946,23 +4586,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1930",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "00093812",
-  "barcode": "8006540069165",
-  "product": "Pampers ABD pel.gaćice Giant Pack 5,56/1",
-  "brand": "Pampers",
-  "category": "KOZMETIKA",
-  "last_seen_price": 26.49,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -4976,8 +4601,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -4991,8 +4616,8 @@
   "last_seen_price": 7.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5006,8 +4631,8 @@
   "last_seen_price": 2.3,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5021,8 +4646,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5036,8 +4661,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5051,8 +4676,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5066,8 +4691,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5081,8 +4706,8 @@
   "last_seen_price": 6.12,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5096,8 +4721,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5111,8 +4736,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5126,8 +4751,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5141,8 +4766,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5156,8 +4781,8 @@
   "last_seen_price": 8.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5171,8 +4796,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5186,8 +4811,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5201,8 +4826,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -5216,8 +4841,8 @@
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3230",
@@ -5231,8 +4856,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3230",
@@ -5246,8 +4871,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3230",
@@ -5261,8 +4886,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4230",
@@ -5276,8 +4901,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -5291,8 +4916,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -5306,8 +4931,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2330",
@@ -5321,38 +4946,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
-  "product_id": "20857350",
-  "barcode": "8700216686488",
-  "product": "Ambi Pur Uložak zamje.za dif.Gold 2x20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "last_seen_price": 10.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1430",
-  "store_name": "Kaufland Vinkovci",
-  "city": "Vinkovci",
-  "product_id": "20857696",
-  "barcode": "8700216486200",
-  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
-  "brand": "Ambi Pur",
-  "category": "KOZMETIKA",
-  "last_seen_price": 10.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -5366,8 +4961,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -5381,8 +4976,8 @@
   "last_seen_price": 3.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -5396,8 +4991,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -5411,8 +5006,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -5426,8 +5021,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6030",
@@ -5441,8 +5036,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6030",
@@ -5456,8 +5051,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -5471,8 +5066,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -5486,8 +5081,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -5501,8 +5096,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -5516,8 +5111,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -5531,23 +5126,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3330",
-  "store_name": "Kaufland Zapresic",
-  "city": "Zapresic",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -5561,8 +5141,8 @@
   "last_seen_price": 5.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3330",
@@ -5576,8 +5156,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -5591,8 +5171,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -5606,8 +5186,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -5621,8 +5201,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -5636,8 +5216,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6430",
@@ -5651,8 +5231,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6430",
@@ -5666,8 +5246,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -5681,8 +5261,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -5696,8 +5276,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -5711,8 +5291,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -5726,8 +5306,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -5741,23 +5321,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1830",
@@ -5771,8 +5336,8 @@
   "last_seen_price": 11.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3530",
@@ -5786,8 +5351,8 @@
   "last_seen_price": 5.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5801,8 +5366,8 @@
   "last_seen_price": 5.17,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5816,8 +5381,8 @@
   "last_seen_price": 3.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5831,8 +5396,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5846,8 +5411,8 @@
   "last_seen_price": 2.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5861,8 +5426,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5876,8 +5441,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5891,8 +5456,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5906,8 +5471,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5921,8 +5486,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5936,8 +5501,8 @@
   "last_seen_price": 7.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5951,8 +5516,8 @@
   "last_seen_price": 5.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5966,8 +5531,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5981,8 +5546,8 @@
   "last_seen_price": 48.79,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -5996,8 +5561,8 @@
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -6011,8 +5576,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -6026,8 +5591,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -6041,8 +5606,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -6056,8 +5621,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1530",
@@ -6071,8 +5636,8 @@
   "last_seen_price": 11.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -6086,8 +5651,8 @@
   "last_seen_price": 36.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -6101,8 +5666,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -6116,8 +5681,8 @@
   "last_seen_price": 6.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -6131,8 +5696,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -6146,8 +5711,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1730",
@@ -6161,8 +5726,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -6176,8 +5741,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6230",
@@ -6191,8 +5756,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1330",
@@ -6206,8 +5771,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1330",
@@ -6221,8 +5786,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -6236,8 +5801,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2230",
@@ -6251,8 +5816,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -6266,8 +5831,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -6281,8 +5846,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5130",
@@ -6296,8 +5861,8 @@
   "last_seen_price": 2.39,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4330",
@@ -6311,8 +5876,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4330",
@@ -6326,8 +5891,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4330",
@@ -6341,8 +5906,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -6356,8 +5921,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1130",
@@ -6371,8 +5936,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -6386,8 +5951,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -6401,8 +5966,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -6416,8 +5981,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4730",
@@ -6431,8 +5996,8 @@
   "last_seen_price": 5.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -6446,8 +6011,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -6461,8 +6026,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -6476,23 +6041,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "6130",
-  "store_name": "Kaufland Zadar",
-  "city": "Zadar",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-09-30",
-  "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6130",
@@ -6506,8 +6056,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -6521,8 +6071,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -6536,8 +6086,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -6551,8 +6101,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -6566,8 +6116,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3830",
@@ -6581,8 +6131,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6630",
@@ -6596,8 +6146,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5330",
@@ -6611,8 +6161,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5330",
@@ -6626,8 +6176,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5330",
@@ -6641,8 +6191,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5330",
@@ -6656,8 +6206,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -6671,8 +6221,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -6686,8 +6236,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2530",
@@ -6701,8 +6251,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -6716,8 +6266,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -6731,8 +6281,8 @@
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -6746,8 +6296,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -6761,8 +6311,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -6776,8 +6326,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -6791,8 +6341,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -6806,8 +6356,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -6821,8 +6371,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -6836,8 +6386,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -6851,8 +6401,8 @@
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -6866,8 +6416,8 @@
   "last_seen_price": 5.69,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -6881,8 +6431,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -6896,8 +6446,8 @@
   "last_seen_price": 13.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -6911,8 +6461,8 @@
   "last_seen_price": 13.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 4,
-  "as_of": "2026-10-05"
+  "days_missing": 5,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -6926,23 +6476,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1630",
-  "store_name": "Kaufland Split",
-  "city": "Split",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -6956,8 +6491,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1630",
@@ -6971,8 +6506,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2030",
@@ -6986,8 +6521,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3430",
@@ -7001,8 +6536,8 @@
   "last_seen_price": 26.49,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -7016,8 +6551,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5930",
@@ -7031,8 +6566,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -7046,8 +6581,8 @@
   "last_seen_price": 3.29,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5230",
@@ -7061,8 +6596,8 @@
   "last_seen_price": 3.97,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -7076,8 +6611,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -7091,23 +6626,8 @@
   "last_seen_price": 8.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3130",
-  "store_name": "Kaufland Osijek",
-  "city": "Osijek",
-  "product_id": "20828282",
-  "barcode": "8700216724371",
-  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3130",
@@ -7121,8 +6641,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4430",
@@ -7136,23 +6656,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "20834460",
-  "barcode": "8700216658614",
-  "product": "Head&Shoulders Šampon Clarify 800ml",
-  "brand": "Head&Shoulders",
-  "category": "KOZMETIKA",
-  "last_seen_price": 6.49,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7166,8 +6671,8 @@
   "last_seen_price": 3.77,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7181,8 +6686,8 @@
   "last_seen_price": 16.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7196,8 +6701,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7211,8 +6716,8 @@
   "last_seen_price": 7.89,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7226,8 +6731,8 @@
   "last_seen_price": 4.69,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7241,8 +6746,8 @@
   "last_seen_price": 18.55,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7256,8 +6761,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7271,8 +6776,8 @@
   "last_seen_price": 28.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7286,8 +6791,8 @@
   "last_seen_price": 37.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7301,8 +6806,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7316,8 +6821,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2830",
@@ -7331,8 +6836,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -7346,8 +6851,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -7361,8 +6866,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6330",
@@ -7376,8 +6881,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7130",
@@ -7391,8 +6896,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4630",
@@ -7406,8 +6911,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -7421,8 +6926,8 @@
   "last_seen_price": 26.49,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2930",
@@ -7436,8 +6941,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1030",
@@ -7451,8 +6956,8 @@
   "last_seen_price": 38.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1230",
@@ -7466,8 +6971,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3530",
@@ -7481,8 +6986,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7496,8 +7001,8 @@
   "last_seen_price": 1.75,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7511,8 +7016,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7526,8 +7031,8 @@
   "last_seen_price": 37.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7541,8 +7046,8 @@
   "last_seen_price": 4.59,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3030",
@@ -7556,68 +7061,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "3030",
-  "store_name": "Kaufland Bjelovar",
-  "city": "Bjelovar",
-  "product_id": "20834802",
-  "barcode": "8700216658317",
-  "product": "Head&Shoulders M.Šampon Old spice 800ml",
-  "brand": "Head&Shoulders",
-  "category": "KOZMETIKA",
-  "last_seen_price": 6.49,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1530",
-  "store_name": "Kaufland Sisak",
-  "city": "Sisak",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822909",
-  "barcode": "8700216723862",
-  "product": "Lenor Omekš.rub.Gold Orchid 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "5830",
-  "store_name": "Kaufland Zagreb",
-  "city": "Zagreb",
-  "product_id": "20822910",
-  "barcode": "8700216723909",
-  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
-  "brand": "Lenor",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 3.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "5830",
@@ -7631,23 +7076,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "1330",
-  "store_name": "Kaufland Dakovo",
-  "city": "Dakovo",
-  "product_id": "00020000",
-  "barcode": "4015600306595",
-  "product": "Old Spice Deo Sprej wolfthorn m.150ml",
-  "brand": "Old Spice",
-  "category": "KOZMETIKA",
-  "last_seen_price": 4.99,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6530",
@@ -7661,8 +7091,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6530",
@@ -7676,8 +7106,8 @@
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "2130",
@@ -7691,8 +7121,8 @@
   "last_seen_price": 3.77,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4330",
@@ -7706,8 +7136,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -7721,8 +7151,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "6730",
@@ -7736,8 +7166,8 @@
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -7751,8 +7181,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "4130",
@@ -7766,23 +7196,8 @@
   "last_seen_price": 3.97,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
- },
- {
-  "store_id": "2630",
-  "store_name": "Kaufland Pula",
-  "city": "Pula",
-  "product_id": "00064324",
-  "barcode": "4015400795193",
-  "product": "Jar deterdžent za suđe,limun 900 ml",
-  "brand": "Jar",
-  "category": "SREDSTVA ZA ČIŠĆENJE",
-  "last_seen_price": 4.19,
-  "last_seen_date": "2026-10-01",
-  "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7796,8 +7211,8 @@
   "last_seen_price": 5.59,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7811,8 +7226,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7826,8 +7241,8 @@
   "last_seen_price": 15.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7830",
@@ -7841,8 +7256,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "7430",
@@ -7856,8 +7271,8 @@
   "last_seen_price": 27.29,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7871,8 +7286,8 @@
   "last_seen_price": 4.89,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7886,8 +7301,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7901,8 +7316,8 @@
   "last_seen_price": 5.17,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7916,8 +7331,8 @@
   "last_seen_price": 10.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "1930",
@@ -7931,8 +7346,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7946,8 +7361,8 @@
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7961,8 +7376,8 @@
   "last_seen_price": 3.45,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7976,8 +7391,8 @@
   "last_seen_price": 4.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -7991,8 +7406,8 @@
   "last_seen_price": 22.49,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -8006,8 +7421,8 @@
   "last_seen_price": 28.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -8021,8 +7436,8 @@
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 3,
-  "as_of": "2026-10-05"
+  "days_missing": 4,
+  "as_of": "2026-10-06"
  },
  {
   "store_id": "3630",
@@ -8036,7 +7451,472 @@
   "last_seen_price": 2.49,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
+  "days_missing": 4,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20123350",
+  "barcode": "7702018425853",
+  "product": "Gillette Brijač i 12 patrona Mach 3",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 19.89,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
   "days_missing": 3,
-  "as_of": "2026-10-05"
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1630",
+  "store_name": "Kaufland Split",
+  "city": "Split",
+  "product_id": "20804781",
+  "barcode": "8700216733618",
+  "product": "Ariel Det.za pranje ru.Color 100pr.5,5kg",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "00020000",
+  "barcode": "4015600306595",
+  "product": "Old Spice Deo Sprej wolfthorn m.150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "05104190",
+  "barcode": "4015400343073",
+  "product": "Always Uloš.hig.sensit.norm.plus40/1_OC",
+  "brand": "Always",
+  "category": "TOALETNE POTREPŠTINE",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20667547",
+  "barcode": "8700216014878",
+  "product": "Ambi Pur Osvježivač kup.flowers sp.8ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.69,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20828282",
+  "barcode": "8700216724371",
+  "product": "Lenor Omekšivač Sensitive 38pr.798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20844262",
+  "barcode": "8700216834292",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20857696",
+  "barcode": "8700216486200",
+  "product": "Ambi Pur Ele.difuzor mirisa Gold or.20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "5930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "04801941",
+  "barcode": "5010622005029",
+  "product": "Oral B zubni konac Essential 50 m",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 3.89,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "3130",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "00124617",
+  "barcode": "4210201383994",
+  "product": "Oral B zamjenske glave Kids Frozen 2kom",
+  "brand": "Oral B",
+  "category": "KOZMETIKA",
+  "last_seen_price": 13.25,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1930",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20123350",
+  "barcode": "7702018425853",
+  "product": "Gillette Brijač i 12 patrona Mach 3",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 19.89,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "00106083",
+  "barcode": "4084500479784",
+  "product": "Old Spice deo sprej original 150ml",
+  "brand": "Old Spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "20667547",
+  "barcode": "8700216014878",
+  "product": "Ambi Pur Osvježivač kup.flowers sp.8ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 5.69,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "3330",
+  "store_name": "Kaufland Zapresic",
+  "city": "Zapresic",
+  "product_id": "00125778",
+  "barcode": "7702018575350",
+  "product": "Gillette Venus Brijač Smooth sensit.1/1",
+  "brand": "Gillette Venus",
+  "category": "KOZMETIKA",
+  "last_seen_price": 7.89,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "6430",
+  "store_name": "Kaufland Osijek",
+  "city": "Osijek",
+  "product_id": "20804777",
+  "barcode": "8700216692007",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1230",
+  "store_name": "Kaufland Koprivnica",
+  "city": "Koprivnica",
+  "product_id": "20824569",
+  "barcode": "8700216690874",
+  "product": "Ariel Deterdžent za rublje amethyst2,25L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 16.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20804777",
+  "barcode": "8700216692007",
+  "product": "Ariel Det.za pranje rub.Color 100pr.4,5L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20822910",
+  "barcode": "8700216723909",
+  "product": "Lenor Omekšivač rub.Floral 32pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20826380",
+  "barcode": "8700216724463",
+  "product": "Lenor Omekšivač Spring Awak. 38pr. 798ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1830",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20835110",
+  "barcode": "8700216723657",
+  "product": "Lenor Omekšivač rub.Cherry 32.pr.675ml",
+  "brand": "Lenor",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 3.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1730",
+  "store_name": "Kaufland Rijeka",
+  "city": "Rijeka",
+  "product_id": "20122856",
+  "barcode": "7702018425761",
+  "product": "Gillette Brijač i 11 patrona Fusion 5",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 28.19,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1330",
+  "store_name": "Kaufland Dakovo",
+  "city": "Dakovo",
+  "product_id": "00125765",
+  "barcode": "7702018517886",
+  "product": "Venus brijač Extra Smooth Sens Rosegold",
+  "brand": "Venus",
+  "category": "KOZMETIKA",
+  "last_seen_price": 9.59,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "1330",
+  "store_name": "Kaufland Dakovo",
+  "city": "Dakovo",
+  "product_id": "20844262",
+  "barcode": "8700216834292",
+  "product": "Ambi Pur Uložak zamje.za dif.Flow.2x20ml",
+  "brand": "Ambi Pur",
+  "category": "KOZMETIKA",
+  "last_seen_price": 10.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "4130",
+  "store_name": "Kaufland Makarska",
+  "city": "Makarska",
+  "product_id": "00112257",
+  "barcode": "8001841283906",
+  "product": "Old Spice Deo Stick deep sea men 50ml",
+  "brand": "Old spice",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "6130",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "20346133",
+  "barcode": "8006540855812",
+  "product": "Pampers Pelene Premium care vel.2 136/1",
+  "brand": "Pampers",
+  "category": "KOZMETIKA",
+  "last_seen_price": 24.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "6130",
+  "store_name": "Kaufland Zadar",
+  "city": "Zadar",
+  "product_id": "20822523",
+  "barcode": "8700216765183",
+  "product": "Ariel Kapsule za rublje Color Fresh 60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 29.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "3830",
+  "store_name": "Kaufland Rovinj",
+  "city": "Rovinj",
+  "product_id": "20880812",
+  "barcode": "8700216889100",
+  "product": "Gillette Brijač Stalak 3 patrone Mach3",
+  "brand": "Gillette",
+  "category": "KOZMETIKA",
+  "last_seen_price": 13.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "6830",
+  "store_name": "Kaufland Varazdin",
+  "city": "Varazdin",
+  "product_id": "20822523",
+  "barcode": "8700216765183",
+  "product": "Ariel Kapsule za rublje Color Fresh 60/1",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 29.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "2530",
+  "store_name": "Kaufland Sibenik",
+  "city": "Sibenik",
+  "product_id": "20922540",
+  "barcode": "8006530122122",
+  "product": "Jar Kapsule za str.pr.pos.Orig.limun71/1",
+  "brand": "Jar",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 29.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "3630",
+  "store_name": "Kaufland Zagreb",
+  "city": "Zagreb",
+  "product_id": "20825178",
+  "barcode": "8006530146357",
+  "product": "Ariel Deterdžent za rublje Ex.clean1,35L",
+  "brand": "Ariel",
+  "category": "SREDSTVA ZA ČIŠĆENJE",
+  "last_seen_price": 15.99,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
+ },
+ {
+  "store_id": "2830",
+  "store_name": "Kaufland Slavonski Brod",
+  "city": "Slavonski Brod",
+  "product_id": "00124518",
+  "barcode": "8001841914282",
+  "product": "Pantene sprej Hair Shake Repair 150 ml",
+  "brand": "Pantene",
+  "category": "KOZMETIKA",
+  "last_seen_price": 4.69,
+  "last_seen_date": "2026-10-02",
+  "first_missing_date": "2026-10-03",
+  "days_missing": 3,
+  "as_of": "2026-10-06"
  }
 ]
