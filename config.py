@@ -28,7 +28,7 @@ PG_BRANDS = {
 
 
 CATEGORY_BRANDS: dict[str, list[str]] = {
-    "Laundry": ["Ariel", "Persil", "Dash", "Weisse Riese", "Faks"],
+    "Laundry": ["Ariel", "Persil", "Dash", "Weisse Riese", "Faks", "Violeta"],
     "Fabric Enhancers": ["Lenor", "Violeta", "Ornel", "Silan"],
     "Hand Dishwashing": ["Jar", "Čarli", "Likvi", "Pur"],
     "Automatic Dishwashing": ["Jar", "Somat", "Finish"],
@@ -36,7 +36,7 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
 
     "Diapers": ["Pampers", "Violeta"],
     "Baby Wipes": ["Pampers", "Violeta"],
-    "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree"],
+    "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree", "Violeta"],
     "Hair Care": ["Pantene", "Head & Shoulders", "Herbal Essences", "Elseve", "Garnier", "Gliss", "Syoss", "Schauma"],
     "APDO": ["Old Spice", "Axe", "Rexona", "Nivea", "Dove", "Fa", "Borotalco"],
     "Shave Care": ["Gillette", "BIC", "Wilkinson"],
@@ -50,33 +50,58 @@ _JAR_ADW_KEYWORDS = [
 ]
 
 CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list[str]]]] = {
+    # Keywords match at the START of a word ("OM " matches "OM VIOLETA GOLD"
+    # but not "BL.BLOOM 2,7 L"), against the upper-cased product name.
+    # Violeta is checked in CATEGORY_BRANDS order: Laundry, Fabric
+    # Enhancers, Diapers, Baby Wipes, Femcare — first match wins.
     "VIOLETA": {
-        "Fabric Enhancers": ["OMEKŠIVA", "OMEKSIVA", "OM "],
-        "Diapers": ["PELEN", "PANTS"],
- 
+        "Laundry": {
+            "include": ["DET", "DETERD", "TEK.DET", "PRAŠ", "PRAS", "KAPS", "GEL ZA PRANJE"],
+            "exclude": ["POSU", "SUĐ", "OMEK", "OM "],
+        },
+        "Fabric Enhancers": {"include": ["OMEK", "OM ", "OM.", "SOFTENER"], "exclude": ["DET", "TEK.DET"]},
+        "Diapers": {"include": ["PELEN", "PEL ", "PEL.", "PANTS", "GAĆ", "GAC"], "exclude": ["PODLOG"]},
+        # Wet wipes only: wet toilet paper ("TP VLAŽNI", "VL.TP."), make-up
+        # wipes, dry paper tissues, baby shampoo/bath and changing mats all
+        # share words like "maramice"/"baby" and are excluded.
         "Baby Wipes": {
-            "include": ["BEBI", "BABY", "DJEČ", "DJEC"],
-            "exclude": ["MAKE UP", "MAKEUP", "ŠMINK", "SMINK", "DEMAKE", "TOAL"],
+            "include": ["VL MAR", "VL.MAR", "VL. MAR", "VLAŽNE MAR", "VLAZNE MAR", "VL.MARAM", "WATER CARE", "99% WATER"],
+            "exclude": ["MAKE UP", "MAKEUP", "ŠMINK", "SMINK", "DEMAKE", "TOAL", "TP ", "TP.", "VL.TP",
+                        "INTIM", "DEZINF", "ANTIBAKT", "PAPIR", "PAP "],
+        },
+        "Femcare": {
+            "include": ["HIG UL", "HIG.UL", "ULOŠ", "ULOS", "ULOŽ", "DNEVN", "TAMPON", "PADS"],
+            "exclude": ["PELEN", "PEL ", "PEL.", "BABY"],
         },
     },
     "PAMPERS": {
-        "Diapers": ["PELEN", "PANTS"],
-      
-        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES", "VL.MAR", "VL. MAR"],
+        "Diapers": ["PELEN", "PEL ", "PEL.", "PANTS", "GAĆ"],
+        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES", "VL MAR", "VL.MAR", "VL. MAR"],
     },
     "JAR": {
-       
         "Hand Dishwashing": {"exclude": _JAR_ADW_KEYWORDS},
-     
         "Automatic Dishwashing": _JAR_ADW_KEYWORDS,
     },
-
     "PUR": {
         "Hand Dishwashing": {
             "include": ["DET", "SUĐ", "SUD", "POSU", "PRANJ"],
             "exclude": ["NATUR", "ŠUNK", "SUNK", "MESA", "HRAN", "MAČ", "PAS "],
         },
     },
+}
+
+# Competitor brands that sell far beyond the category they're tracked in
+# (Nivea and Garnier skin/sun care, BIC lighters and pens). Any COMPETITOR
+# row in the category whose name contains one of these words (at the start
+# of a word) is left out, so P&G is compared with like products only.
+CATEGORY_COMPETITOR_EXCLUDE: dict[str, list[str]] = {
+    "Hair Care": ["MICEL", "VODICA", "DEO", "ROLL", "SPF", "SUN", "KREMA", "LOSION", "TUŠ", "TUS",
+                  "SAPUN", "RUKE", "LICE", "USNE", "TONIK", "PILING", "BOJA", "OLIA", "NUTRISSE",
+                  "COLOR NATURALS", "BRIJ", "AFTER", "ANTIPERSP", "SKIN"],
+    "APDO": ["SUN", "SPF", "KREMA", "KREM", "BALZAM", "USNE", "LIP", "LICE", "RUKE", "MICEL",
+             "MLIJEKO", "ULJE", "SERUM", "MASKA", "PILING", "TONIK", "VODICA", "ŠAMP", "SAMP",
+             "REGEN", "KOSA", "KOSU", "BRIJ", "AFTER", "SKIN", "SOFT", "CREME", "CREAM", "LOSION ZA"],
+    "Shave Care": ["UPALJ", "OLOVK", "KEMIJSK", "FLOMAST", "LIGHTER", "MARKER", "KOREKT"],
 }
 
 

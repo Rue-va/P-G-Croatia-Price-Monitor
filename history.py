@@ -29,6 +29,7 @@ from config import (
     BRAND_FIELD_CATEGORY_OVERRIDES,
     CATEGORY_BRANDS,
     CATEGORY_COMPARISON_BASIS,
+    CATEGORY_COMPETITOR_EXCLUDE,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
     HISTORY_DIR,
     LOOKBACK_DAYS,
@@ -80,10 +81,27 @@ def _keyword_rule_matches(norm_product: str, rule) -> bool:
     if isinstance(rule, dict):
         include = rule.get("include", [])
         exclude = rule.get("exclude", [])
-        if exclude and any(kw in norm_product for kw in exclude):
+        if exclude and any(_has_keyword(norm_product, kw) for kw in exclude):
             return False
-        return any(kw in norm_product for kw in include) if include else True
-    return any(kw in norm_product for kw in rule)
+        return any(_has_keyword(norm_product, kw) for kw in include) if include else True
+    return any(_has_keyword(norm_product, kw) for kw in rule)
+
+
+_kw_cache: dict[str, re.Pattern] = {}
+
+
+def _has_keyword(norm_product: str, keyword: str) -> bool:
+    """
+    True if `keyword` occurs at the START of a word in the product name.
+    Plain substring matching let "OM " (softener) match inside
+    "BL.BLOOM 2,7 L" (a detergent) and similar; requiring a word start
+    keeps abbreviations like "OM VIOLETA", "PEL.VIOLETA", "VL.MAR." working.
+    """
+    pat = _kw_cache.get(keyword)
+    if pat is None:
+        pat = re.compile(r"(?<![0-9A-ZČĆŠŽĐ])" + re.escape(keyword.upper()))
+        _kw_cache[keyword] = pat
+    return bool(pat.search(norm_product))
 
 
 def _build_watchlist_index(retailer: str):
@@ -435,6 +453,12 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                                 if _keyword_rule_matches(norm_product, rule):
                                     cat_candidate = cat
                                     break
+                        if cat_candidate and not is_pg(watch_brand_display[matched_watch_brand]) and any(
+                            _has_keyword(norm_product, kw) for kw in CATEGORY_COMPETITOR_EXCLUDE.get(cat_candidate, [])
+                        ):
+                            # e.g. Nivea sun cream or Garnier micellar water —
+                            # same competitor brand, different category
+                            cat_candidate = None
                         if cat_candidate:
                             watch_brand_key, target_cat = matched_watch_brand, cat_candidate
 
@@ -611,6 +635,9 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                     for u, v in by_unit.items()
                 },
                 "store_count": len({e["store_id"] for e in entries}),
+                # TDP (total distribution points): number of distinct
+                # store x SKU listings = sum over SKUs of stores listing it
+                "tdp": len({(e["store_id"], e["barcode"]) for e in entries}),
                 "sku_count": len({e["barcode"] for e in entries if e.get("barcode")}),
                 "promo_rows": promo_rows,
                 "promo_pct": round(100 * promo_rows / len(entries), 1) if entries else 0,
@@ -805,8 +832,16 @@ def compute_missing_flags(
                     "product_id": meta["product_id"],
                     "barcode": meta.get("barcode") or "",
                     "product": meta["product"],
-                    "brand": meta["brand"],
+                    "brand": pg_brand_display(meta.get("brand", ""), meta["product"]),
                     "category": meta["category"],
+                    "fighting_category": meta.get("fighting_category"),
+                    # Was it on promotion the last day it was listed? A SKU
+                    # that vanishes right after a promo most likely sold out
+                    # during the promo (or was a promo-only listing) — a
+                    # different conversation with the store than a quiet
+                    # delisting.
+                    "was_on_promo": meta.get("promo_price") is not None,
+                    "last_promo_price": meta.get("promo_price"),
                     "last_seen_price": meta.get("price"),
                     # The last published day this exact (store, product) was
                     # actually present, tracked as we walk forward through
@@ -951,8 +986,9 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
     cov: dict[str, dict] = {}
     for r in payload.get("pg_products", []):
         b = _row_brand(r)
-        c = cov.setdefault(b, {"stores": set(), "skus": set(), "rows": 0, "promo_rows": 0})
+        c = cov.setdefault(b, {"stores": set(), "skus": set(), "rows": 0, "promo_rows": 0, "points": set()})
         c["stores"].add(r["store_id"])
+        c["points"].add((r["store_id"], r.get("barcode") or r["product"]))
         if r.get("barcode"):
             c["skus"].add(r["barcode"])
         c["rows"] += 1
@@ -966,6 +1002,7 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
                 "total_stores": total_stores,
                 "store_pct": round(100 * len(c["stores"]) / total_stores, 1) if total_stores else None,
                 "skus": len(c["skus"]),
+                "tdp": len(c["points"]),
                 "avg_skus_per_store": round(c["rows"] / len(c["stores"]), 1) if c["stores"] else 0,
                 "promo_pct": round(100 * c["promo_rows"] / c["rows"], 1) if c["rows"] else 0,
             }
@@ -998,10 +1035,12 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
     for f in flags:
         key = f.get("product_id") or f["product"]
         s_ = by_sku.setdefault(key, {
-            "product": f["product"], "ean": f.get("barcode") or "", "brand": f["brand"], "stores": 0,
+            "product": f["product"], "ean": f.get("barcode") or "", "brand": f["brand"],
+            "cat": f.get("fighting_category"), "promo_stores": 0, "stores": 0,
             "max_days": 0, "last_seen_price": f.get("last_seen_price"), "store_names": [],
         })
         s_["stores"] += 1
+        s_["promo_stores"] += 1 if f.get("was_on_promo") else 0
         s_["max_days"] = max(s_["max_days"], f["days_missing"])
         if len(s_["store_names"]) < 8:
             s_["store_names"].append(f"{f['store_name']}{' (' + f['city'] + ')' if f.get('city') else ''}")
@@ -1010,7 +1049,7 @@ def build_insights(retailer: str, as_of: date, payload: dict, flags: list[dict])
     return {
         "compared_with_date": prev_date_iso,
         "flagged_skus_total": len(flags_by_sku),
-        "flags_by_sku": flags_by_sku[:150],
+        "flags_by_sku": flags_by_sku[:400],
         "price_moves_total": len(price_moves),
         "price_moves_excluded_implausible": implausible_moves,
         "price_moves": price_moves[:80],
@@ -1040,10 +1079,14 @@ def build_sku_table(payload: dict) -> list[dict]:
         key = r.get("barcode") or f"{r['side']}:{r['product']}"
         g = groups.setdefault(key, {"r": r, "shelf": [], "unit": [], "units": Counter(),
                                     "promo": [], "stores": set(), "promo_stores": set()})
-        if r.get("price") is not None:
-            # shelf = regular price where known, so a promo doesn't make a
-            # SKU look structurally cheap; promos are reported separately
-            g["shelf"].append(r.get("regular_price") or r["price"])
+        # Shelf = the regular (non-promo) price. Konzum leaves the regular
+        # price blank on promo rows, so those rows only count when the file
+        # also states a regular price; otherwise the promo price would pose
+        # as the shelf price (e.g. "Shelf €4.39, Promo €4.39").
+        if r.get("promo_price") is None and r.get("price") is not None:
+            g["shelf"].append(r["price"])
+        elif r.get("regular_price") is not None:
+            g["shelf"].append(r["regular_price"])
         if r.get("comparison_price") is not None and r.get("comparison_unit"):
             g["unit"].append(r["comparison_price"])
             g["units"][r["comparison_unit"]] += 1

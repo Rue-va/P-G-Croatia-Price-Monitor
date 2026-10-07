@@ -163,11 +163,12 @@
 
   <div class="section" id="sec-cross">
     <h2>Same P&amp;G product, different retailer</h2>
-    <p class="lede">Identical P&amp;G SKUs (same barcode) compared across the retailers that list them — the cleanest price comparison available, because it's exactly the same product. Each price is the median regular shelf price across that retailer's stores; promotions are shown underneath.</p>
+    <p class="lede">The same P&amp;G product (same barcode) priced at each retailer. Each price is the typical regular shelf price across that retailer's stores (the middle value, so one odd store doesn't skew it); a promotion, if running, is shown underneath.</p>
     <div class="grid-side">
       <div>
         <div class="callout" id="cross-callout"></div>
-        <div class="small muted" style="margin-bottom:6px">Price index on shared P&amp;G SKUs (cheapest retailer = 100)</div>
+        <div style="font-weight:600;font-size:13px;margin-bottom:2px">How much more each retailer charges</div>
+        <div class="small muted" style="margin-bottom:8px">For a typical P&amp;G product, compared with the cheapest retailer for that same product</div>
         <div id="cross-index"></div>
       </div>
       <div>
@@ -200,6 +201,12 @@
     <div class="tbl-wrap" id="share"></div>
   </div>
 
+  <div class="section" id="sec-tdp">
+    <h2>Distribution — TDP</h2>
+    <p class="lede" id="tdp-lede"></p>
+    <div class="tbl-wrap" id="tdp"></div>
+  </div>
+
   <div class="section" id="sec-gaps">
     <div class="section-head">
       <div>
@@ -208,8 +215,25 @@
       </div>
       <div class="seg" id="gaps-view"></div>
     </div>
+    <div class="filters" style="position:static;padding-top:0">
+      <select id="gaps-brand" aria-label="Brand"><option value="">All P&amp;G brands</option></select>
+      <label class="small" style="display:flex;gap:6px;align-items:center;color:var(--text-2)"><input type="checkbox" id="gaps-promo"> Only products that were on promotion when they disappeared</label>
+      <span class="small muted" id="gaps-count"></span>
+    </div>
     <div id="gaps"></div>
     <div class="detail" id="gap-detail" style="display:none"></div>
+  </div>
+
+  <div class="section" id="sec-store">
+    <h2>Store check — P&amp;G portfolio in one store</h2>
+    <p class="lede">Pick a store to see which P&amp;G products it lists today against the chain's core range (products listed in at least half of that retailer's stores), and which core products it is missing.</p>
+    <div class="filters" style="position:static;padding-top:0">
+      <select id="store-retailer" aria-label="Retailer"></select>
+      <select id="store-select" aria-label="Store" style="min-width:260px"><option value="">Choose a store…</option></select>
+      <select id="store-brand" aria-label="Brand"><option value="">All P&amp;G brands</option></select>
+      <span class="small muted" id="store-status"></span>
+    </div>
+    <div id="store-view"><p class="empty">Choose a retailer and a store.</p></div>
   </div>
 
   <div class="section" id="sec-promos">
@@ -240,7 +264,9 @@
         <li><strong>Source:</strong> each retailer's legally mandated public daily price list (NN 75/2025), one file per store, collected automatically every morning.</li>
         <li><strong>Same product, different retailer:</strong> SKUs matched by barcode. Each retailer's price is the median regular price across its stores. The price index takes, for every shared SKU, that retailer's price ÷ the cheapest retailer's price, then the median across SKUs.</li>
         <li><strong>Category shelf:</strong> each dot is one SKU's median price per unit (per wash for Laundry/Fabric Enhancers, otherwise per litre, kg or piece as published by the retailer). Packs priced in different units are shown separately — switch with the unit buttons.</li>
-        <li><strong>Missing SKUs:</strong> a P&amp;G SKU a store listed before but has left off its price list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. Worth checking with the store — the product may also have been delisted.</li>
+        <li><strong>TDP (total distribution points):</strong> for each product, the number of stores that list it, added up across products. A brand with 10 products each in 50 stores has a TDP of 500. It combines range and reach in one number, so it shows who has the wider distribution.</li>
+        <li><strong>Store check:</strong> a product is in the chain's core range if at least half of that retailer's stores list it today.</li>
+        <li><strong>Missing SKUs:</strong> a P&amp;G SKU a store listed before but has left off its price list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. Worth checking with the store — the product may also have been delisted. "Was on promotion" means the product had a promo price the last day it was listed: it most likely sold out during the promotion or was a promo-only listing.</li>
         <li><strong>Promotions:</strong> rows with a published special-sale price. Where the retailer leaves the regular price blank (Konzum), it is estimated from the same SKU's non-promo price in other stores (marked *).</li>
       </ul>
     </details>
@@ -330,10 +356,24 @@ function renderChrome() {
   document.getElementById('sku-search').oninput = drawSkus;
   document.getElementById('sku-side').onchange = drawSkus;
   document.getElementById('cross-search').oninput = renderCross;
+  const str = document.getElementById('store-retailer');
+  str.innerHTML = okRetailers().map(r => `<option value="${r.retailer}">${label(r.retailer)}</option>`).join('');
+  str.onchange = () => { document.getElementById('store-select').value = ''; renderStoreCheck(); };
+  // a shared link like …#store=kaufland/1234 opens straight on that store
+  const m = location.hash.match(/^#store=([a-z]+)\/(.+)$/);
+  if (m && okRetailers().some(r => r.retailer === m[1])) {
+    str.value = m[1];
+    const sel = document.getElementById('store-select');
+    sel.dataset.pending = decodeURIComponent(m[2]);
+  }
+  document.getElementById('store-select').onchange = renderStoreCheck;
+  document.getElementById('store-brand').onchange = renderStoreCheck;
 }
 
 function renderAll() {
-  renderKpis(); renderCross(); renderShelf(); renderShare(); renderGaps(); renderPromos();
+  renderKpis(); renderCross(); renderShelf(); renderShare(); renderTdp(); renderGaps(); renderPromos();
+  if (state.retailer !== 'all' && !location.hash.startsWith('#store=')) document.getElementById('store-retailer').value = state.retailer;
+  renderStoreCheck();
   if (state.retailer !== 'all') document.getElementById('sku-retailer').value = state.retailer;
   drawSkus();
 }
@@ -348,11 +388,12 @@ function renderKpis() {
   const missingStores = rs.reduce((s, r) => s + (((r.insights || {}).flags_by_store) || []).length, 0);
   const promos = rs.reduce((s, r) => s + ((r.insights || {}).promos || []).filter(p => p.side === 'pg' && catMatch(p.fighting_category)).length, 0);
   const scope = state.retailer === 'all' ? 'all retailers' : label(state.retailer);
+  const pgTdp = rs.reduce((s, r) => s + (SKUS[r.retailer] || []).filter(x => x.side === 'pg' && catMatch(x.cat)).reduce((a, x) => a + x.stores, 0), 0);
   const tile = (target, lbl, val, note, go) =>
     `<button class="kpi" data-go="${target}"><div class="label">${lbl}</div><div class="value">${val}</div><div class="note">${note}</div><div class="go">${go} →</div></button>`;
   const el = document.getElementById('kpis');
   el.innerHTML =
-    tile('sec-skus', 'Stores reporting today', fmtInt(stores), rs.map(r => `${label(r.retailer)} ${r.stores_count}`).join(' · '), 'Explore SKUs') +
+    tile('sec-tdp', 'P&amp;G distribution points (TDP)', fmtInt(pgTdp), `products × stores listing them · ${fmtInt(stores)} stores reporting`, 'See distribution') +
     tile('sec-shelf', 'P&amp;G SKUs listed', fmtInt(pgEans.size), `unique products, ${scope}${state.category ? ' · ' + esc(state.category) : ''}`, 'See the shelf') +
     tile('sec-gaps', 'P&amp;G SKUs missing', fmtInt(missingSkus), missingSkus ? `from ${fmtInt(missingStores)} stores' price lists, ${D.missing_days_threshold}+ days` : `nothing missing ${D.missing_days_threshold}+ days`, 'See which ones') +
     tile('sec-promos', 'P&amp;G SKUs on promotion', fmtInt(promos), 'published special-sale price today', 'See promotions');
@@ -382,34 +423,71 @@ function renderCross() {
   const rows = allRows.filter(g => !g.suspect);
   const suspect = allRows.filter(g => g.suspect);
   const rids = okRetailers().map(r => r.retailer);
-  const idx = rids.map(rid => {
-    const ratios = rows.filter(g => g.prices[rid]).map(g => g.prices[rid].shelf / g.min);
-    return { rid, n: ratios.length, index: ratios.length ? 100 * median(ratios) : null, cheapest: rows.filter(g => g.cheapest.includes(rid)).length };
+  // For every product sold at 2+ retailers: how much more this retailer
+  // charges than the cheapest one (0% when it IS the cheapest). The typical
+  // (median) value across its products is the headline per retailer.
+  const stats = rids.map(rid => {
+    const extra = rows.filter(g => g.prices[rid]).map(g => 100 * (g.prices[rid].shelf / g.min - 1));
+    return { rid, n: extra.length, extra: extra.length ? median(extra) : null, cheapest: rows.filter(g => g.cheapest.includes(rid)).length };
   }).filter(x => x.n);
-  const maxIdx = Math.max(...idx.map(x => x.index), 101);
-  document.getElementById('cross-index').innerHTML = idx.length ? [...idx].sort((a, b) => a.index - b.index).map(x =>
-    `<div class="hbar-row" data-tip="${esc(`<strong>${label(x.rid)}</strong><br>Typically ${(x.index - 100).toFixed(1)}% above the cheapest retailer<br>across ${x.n} shared P&amp;G SKUs<br>Cheapest on ${x.cheapest} of them`)}">
+  const maxExtra = Math.max(...stats.map(x => x.extra), 5);
+  document.getElementById('cross-index').innerHTML = stats.length ? [...stats].sort((a, b) => a.extra - b.extra).map(x =>
+    `<div class="hbar-row" style="grid-template-columns:80px 1fr 150px" data-tip="${esc(`<strong>${label(x.rid)}</strong><br>Sells ${x.n} of these P&amp;G products.<br>Cheapest (or joint cheapest) on ${x.cheapest} of them.<br>On a typical one it charges ${x.extra.toFixed(1)}% more than the cheapest retailer.`)}">
       <span class="small" style="font-weight:600">${label(x.rid)}</span>
-      <div class="hbar-track"><div class="hbar" style="width:${Math.max(2, 100 * (x.index - 95) / (maxIdx - 95))}%;${state.retailer !== 'all' && state.retailer !== x.rid ? 'opacity:.4' : ''}"></div></div>
-      <span class="hbar-val">${x.index.toFixed(1)} <span class="sub2">· ${x.n} SKUs</span></span></div>`).join('') +
-    '<div class="sub2" style="margin-top:4px">Axis starts at 95 so small differences stay visible.</div>'
-    : '<p class="empty">Not enough shared SKUs.</p>';
-  const best = [...idx].sort((a, b) => b.cheapest - a.cheapest)[0];
-  const wide = rows.filter(g => g.spread >= 15).length;
+      <div class="hbar-track"><div class="hbar" style="width:${Math.max(1.5, 100 * x.extra / maxExtra)}%;${state.retailer !== 'all' && state.retailer !== x.rid ? 'opacity:.4' : ''}"></div></div>
+      <span class="hbar-val">${x.extra < 0.05 ? '<strong>cheapest</strong>' : '+' + x.extra.toFixed(1) + '%'} <span class="sub2">· ${x.cheapest} of ${x.n} cheapest</span></span></div>`).join('')
+    : '<p class="empty">Not enough shared products.</p>';
+  const best = [...stats].sort((a, b) => b.cheapest - a.cheapest)[0];
   document.getElementById('cross-callout').innerHTML = rows.length
-    ? `<strong>${fmtInt(rows.length)}</strong> P&amp;G SKUs${state.category ? ' in ' + esc(state.category) : ''} are listed at two or more retailers. ${best ? `<strong>${label(best.rid)}</strong> is cheapest on the most of them (${best.cheapest}).` : ''} <strong>${fmtInt(wide)}</strong> differ by 15% or more between retailers — the top of the table.`
-    : 'No P&amp;G SKU in this view is listed at two or more retailers today.';
-  if (suspect.length) document.getElementById('cross-callout').innerHTML += `<div class="sub2" style="margin-top:6px">${suspect.length} more SKUs show a gap above 2.5× — almost always a clearance or placeholder price in one retailer's file. They're listed at the bottom marked ⚠ and left out of the index.</div>`;
+    ? `<strong>${fmtInt(rows.length)}</strong> P&amp;G products${state.category ? ' in ' + esc(state.category) : ''} are sold at two or more of these retailers. ${best ? `<strong>${label(best.rid)}</strong> is the cheapest place for the largest number of them (${best.cheapest}).` : ''}`
+    : 'No P&amp;G product in this view is sold at two or more retailers today.';
+  if (suspect.length) document.getElementById('cross-callout').innerHTML += `<div class="sub2" style="margin-top:6px">${suspect.length} products have one price more than 2.5× another retailer's — almost always a clearance or placeholder price in a retailer's file. They're at the bottom of the table marked ⚠ and not counted above.</div>`;
   const q = document.getElementById('cross-search').value.trim().toLowerCase();
   const list = allRows.filter(g => !q || g.product.toLowerCase().includes(q) || (g.brand || '').toLowerCase().includes(q) || g.ean.includes(q)).sort((a, b) => (a.suspect - b.suspect) || b.spread - a.spread);
-  document.getElementById('cross-count').textContent = `${fmtInt(list.length)} SKUs · largest gap first · ● = cheapest`;
-  document.getElementById('cross-table').innerHTML = list.length ? `<table><thead><tr><th>Product</th><th>EAN</th>${rids.map(r => `<th class="num">${label(r)}</th>`).join('')}<th class="num">Gap</th></tr></thead><tbody>
-    ${list.slice(0, 250).map(g => `<tr><td>${esc(g.product)}<div class="sub2">${esc(g.brand)}${g.cat ? ' · ' + esc(g.cat) : ''}</div></td><td class="small">${esc(g.ean)}</td>
+  document.getElementById('cross-count').textContent = `${fmtInt(list.length)} products · biggest price differences first · ● = cheapest`;
+  document.getElementById('cross-table').innerHTML = list.length ? `<table><thead><tr><th>Product</th><th>EAN</th>${rids.map(r => `<th class="num">${label(r)}</th>`).join('')}</tr></thead><tbody>
+    ${list.slice(0, 300).map(g => `<tr><td>${esc(g.product)}${g.suspect ? ' <span class="chip warn" data-tip="One retailer\'s price is more than 2.5× another\'s — likely a clearance or placeholder price; check before acting">⚠ check</span>' : ''}<div class="sub2">${esc(g.brand)}${g.cat ? ' · ' + esc(g.cat) : ''}</div></td><td class="small">${esc(g.ean)}</td>
       ${rids.map(r => { const s = g.prices[r]; if (!s) return `<td class="num muted ${state.retailer === r ? 'sel-col' : ''}">—</td>`;
         const t = `${label(r)}: ${eur(s.shelf)} regular, in ${s.stores} stores${s.promo != null ? `<br>On promo at ${eur(s.promo)} in ${s.promo_stores} stores` : ''}`;
         return `<td class="num ${g.cheapest.includes(r) && g.max > g.min ? 'cheapest' : ''} ${state.retailer === r ? 'sel-col' : ''}" data-tip="${esc(t)}">${eur(s.shelf)}${s.promo != null ? `<div class="sub2">promo ${eur(s.promo)}</div>` : ''}</td>`; }).join('')}
-      <td class="num">${g.suspect ? '<span class="chip warn" data-tip="Gap over 2.5× — likely a clearance or placeholder price; check before acting">⚠ check</span>' : g.max > g.min ? '+' + g.spread.toFixed(0) + '%' : '<span class="muted">same</span>'}</td></tr>`).join('')}
-    </tbody></table>` : '<p class="empty">No matching SKUs.</p>';
+      </tr>`).join('')}
+    </tbody></table>` : '<p class="empty">No matching products.</p>';
+}
+
+// ---------- distribution (TDP) ----------
+function brandTdp(b) { return b.tdp != null ? b.tdp : (b.count || 0); }
+function renderTdp() {
+  const rs = selRetailers();
+  const el = document.getElementById('tdp');
+  const bar = (pct, val, sub, tipHtml) => `<td data-tip="${esc(tipHtml)}"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:10px;background:var(--surface-2);border-radius:5px;overflow:hidden;min-width:40px"><div style="height:100%;width:${Math.min(100, pct)}%;background:var(--series-pg)"></div></div><span style="min-width:86px;text-align:right;font-variant-numeric:tabular-nums">${val} <span class="sub2">${sub}</span></span></div></td>`;
+  if (!state.category) {
+    document.getElementById('tdp-lede').innerHTML = `<strong>TDP</strong> = for each product, the number of stores that list it, added up. Here: P&amp;G's share of all distribution points in each category (P&amp;G + tracked competitors). Choose a category at the top to compare brand by brand.`;
+    el.innerHTML = `<table><thead><tr><th>Category</th>${rs.map(r => `<th>${label(r.retailer)}</th>`).join('')}</tr></thead><tbody>
+      ${allCategories().map(c => `<tr class="clickable-row" data-c="${esc(c)}"><td style="font-weight:600;white-space:nowrap">${esc(c)}</td>${rs.map(r => {
+        const w = (r.category_brand_watchlist || {})[c]; if (!w) return '<td class="muted">—</td>';
+        const pg = (w.pg_brands || []).reduce((s, b) => s + brandTdp(b), 0);
+        const all = pg + (w.competitor_brands || []).reduce((s, b) => s + brandTdp(b), 0);
+        if (!all) return '<td class="muted">—</td>';
+        return bar(100 * pg / all, `${Math.round(100 * pg / all)}%`, fmtInt(pg), `<strong>${esc(c)} · ${label(r.retailer)}</strong><br>P&amp;G TDP ${fmtInt(pg)} of ${fmtInt(all)} (all tracked brands)`);
+      }).join('')}</tr>`).join('')}</tbody></table>`;
+    el.querySelector('tbody').onclick = e => { const tr = e.target.closest('tr[data-c]'); if (!tr) return; state.category = tr.dataset.c; document.getElementById('cat-select').value = state.category; renderAll(); scrollTo('sec-tdp'); };
+    return;
+  }
+  const c = state.category;
+  const brands = [];
+  rs.forEach(r => { const w = (r.category_brand_watchlist || {})[c] || {}; [...(w.pg_brands || []).map(b => ({ ...b, side: 'pg' })), ...(w.competitor_brands || []).map(b => ({ ...b, side: 'comp' }))].forEach(b => { if (!brands.find(x => x.brand === b.brand)) brands.push({ brand: b.brand, side: b.side }); }); });
+  const get = (r, brand) => { const w = (r.category_brand_watchlist || {})[c] || {}; return [...(w.pg_brands || []), ...(w.competitor_brands || [])].find(b => b.brand === brand); };
+  const maxT = Math.max(1, ...rs.flatMap(r => brands.map(b => brandTdp(get(r, b.brand) || {}))));
+  document.getElementById('tdp-lede').innerHTML = `<strong>TDP</strong> = for each product, the number of stores that list it, added up — e.g. 10 products each in 50 stores = 500. Higher TDP means wider distribution (more products in more stores). ${esc(c)}, brand by brand; the % is each brand's share of the category's distribution points at that retailer.`;
+  el.innerHTML = `<table><thead><tr><th>Brand</th>${rs.map(r => `<th>${label(r.retailer)} <span class="sub2">(${r.stores_count} stores)</span></th>`).join('')}</tr></thead><tbody>
+    ${brands.map(b => `<tr><td style="font-weight:600;white-space:nowrap">${esc(b.brand)} ${b.side === 'pg' ? '<span class="chip pg">P&amp;G</span>' : ''}</td>${rs.map(r => {
+      const x = get(r, b.brand); const tdp = x ? brandTdp(x) : 0;
+      const w = (r.category_brand_watchlist || {})[c] || {};
+      const tot = [...(w.pg_brands || []), ...(w.competitor_brands || [])].reduce((s, y) => s + brandTdp(y), 0);
+      if (!tdp) return '<td class="muted small">not listed</td>';
+      return bar(100 * tdp / maxT, fmtInt(tdp), tot ? `${Math.round(100 * tdp / tot)}%` : '', `<strong>${esc(b.brand)} · ${label(r.retailer)}</strong><br>TDP ${fmtInt(tdp)} (${tot ? Math.round(100 * tdp / tot) : 0}% of category)<br>${x.sku_count} products, listed in ${x.store_count} of ${r.stores_count} stores<br>≈ ${(tdp / Math.max(1, x.store_count)).toFixed(1)} products per listing store`);
+    }).join('')}</tr>`).join('')}
+    </tbody></table>`;
 }
 
 // ---------- category shelf (strip plot) ----------
@@ -509,52 +587,160 @@ function renderShare() {
 }
 
 // ---------- missing SKUs ----------
-function renderGaps() {
+async function loadFlags(rs) {
+  const out = [];
+  await Promise.all(rs.map(async r => { (await getJson(`flags/${r.retailer}.json`)).forEach(f => out.push({ ...f, retailer: r.retailer, of: r.stores_count })); }));
+  return out;
+}
+async function renderGaps() {
   const rs = selRetailers();
   const thr = D.missing_days_threshold;
   const hist = Math.min(...rs.map(r => r.history_days_available || 0));
-  const total = rs.reduce((s, r) => s + ((r.insights || {}).flagged_skus_total || 0), 0);
   document.getElementById('gaps-lede').innerHTML =
-    `P&amp;G SKUs a store used to list but has left off its price list for ${thr}+ consecutive days on which that store <em>did</em> publish — likely out of stock or locally delisted. Click a row for the full list. ` +
+    `P&amp;G products a store used to list but has left off its price list for ${thr}+ days in a row (counting only days that store published a list). Treat each one as a signal to check with the store, not a confirmed out-of-stock. <span class="chip pg">Was on promo</span> means it had a promotional price the last day it was listed — it most likely sold out during the promotion. Click a row for the detail. ` +
     (hist < 10 ? `<span class="chip warn">Only ${hist} days of history so far — this gets more reliable over the first two weeks</span>` : '');
   const el = document.getElementById('gaps');
   document.getElementById('gap-detail').style.display = 'none';
-  if (!total) { el.innerHTML = `<p class="empty">✓ No P&amp;G SKU has been missing ${thr}+ days in this view.</p>`; return; }
+  el.innerHTML = '<p class="empty">Loading…</p>';
+  let flags = (await loadFlags(rs)).filter(f => catMatch(f.fighting_category) || (!state.category));
+  const bs = document.getElementById('gaps-brand');
+  const brands = [...new Set(flags.map(f => f.brand))].sort();
+  if (!brands.includes(bs.value)) bs.value = '';
+  const keep = bs.value;
+  bs.innerHTML = '<option value="">All P&amp;G brands</option>' + brands.map(b => `<option ${b === keep ? 'selected' : ''}>${esc(b)}</option>`).join('');
+  bs.onchange = renderGaps;
+  const promoOnly = document.getElementById('gaps-promo');
+  promoOnly.onchange = renderGaps;
+  if (bs.value) flags = flags.filter(f => f.brand === bs.value);
+  if (promoOnly.checked) flags = flags.filter(f => f.was_on_promo);
   const all = state.retailer === 'all';
-  let rows = [];
+  const key = f => `${f.retailer}|${f.barcode || f.product_id || f.product}`;
+  let rows;
   if (state.gapsView === 'sku') {
-    rs.forEach(r => ((r.insights || {}).flags_by_sku || []).forEach(s => rows.push({ ...s, retailer: r.retailer, of: r.stores_count })));
-    rows.sort((a, b) => b.stores - a.stores);
-    el.innerHTML = `<div class="scroll"><table><thead><tr><th>Product</th><th>EAN</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Stores missing it</th><th class="num">Longest</th><th class="num">Last price</th><th>Stores</th></tr></thead><tbody>
+    const g = new Map();
+    flags.forEach(f => {
+      const k = key(f);
+      if (!g.has(k)) g.set(k, { k, product: f.product, ean: f.barcode, brand: f.brand, retailer: f.retailer, of: f.of, items: [], promo: 0, max_days: 0, price: f.last_seen_price });
+      const x = g.get(k); x.items.push(f); x.max_days = Math.max(x.max_days, f.days_missing); if (f.was_on_promo) x.promo++;
+    });
+    rows = [...g.values()].sort((a, b) => b.items.length - a.items.length);
+    document.getElementById('gaps-count').textContent = `${fmtInt(rows.length)} products · ${fmtInt(flags.length)} store listings`;
+    el.innerHTML = rows.length ? `<div class="scroll"><table><thead><tr><th>Product</th><th>EAN</th>${all ? '<th>Retailer</th>' : ''}<th class="num">Stores missing it</th><th class="num">Longest</th><th class="num">Last price</th><th>Signal</th></tr></thead><tbody>
       ${rows.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.product)}<div class="sub2">${esc(s.brand)}</div></td><td class="small">${ean(s.ean)}</td>${all ? `<td>${label(s.retailer)}</td>` : ''}
-        <td class="num"><strong>${s.stores}</strong> <span class="sub2">of ${s.of}</span></td><td class="num">${s.max_days} days</td><td class="num">${eur(s.last_seen_price)}</td>
-        <td class="small">${s.store_names.slice(0, 3).map(esc).join(', ')}${s.stores > 3 ? ` <span class="muted">+${s.stores - 3} more</span>` : ''}</td></tr>`).join('')}
-      </tbody></table></div>`;
+        <td class="num"><strong>${s.items.length}</strong> <span class="sub2">stores</span></td><td class="num">${s.max_days} days</td><td class="num">${eur(s.price)}</td>
+        <td class="small">${s.promo ? `<span class="chip pg" data-tip="On promotion the last day it was listed in ${s.promo} of these ${s.items.length} stores — likely sold out during the promo">Was on promo · ${s.promo}/${s.items.length}</span>` : '<span class="muted">Not on promo</span>'}</td></tr>`).join('')}
+      </tbody></table></div>` : '<p class="empty">✓ Nothing missing in this view.</p>';
   } else {
-    rs.forEach(r => ((r.insights || {}).flags_by_store || []).forEach(s => rows.push({ ...s, retailer: r.retailer })));
-    rows.sort((a, b) => b.items - a.items);
-    el.innerHTML = `<div class="scroll"><table><thead><tr><th>Store</th>${all ? '<th>Retailer</th>' : ''}<th>City</th><th class="num">P&amp;G SKUs missing</th><th class="num">Longest</th><th>Mostly</th></tr></thead><tbody>
+    const g = new Map();
+    flags.forEach(f => {
+      const k = `${f.retailer}|${f.store_id}`;
+      if (!g.has(k)) g.set(k, { store_name: f.store_name, city: f.city, retailer: f.retailer, items: [], promo: 0, max_days: 0, brands: {} });
+      const x = g.get(k); x.items.push(f); x.max_days = Math.max(x.max_days, f.days_missing); if (f.was_on_promo) x.promo++; x.brands[f.brand] = (x.brands[f.brand] || 0) + 1;
+    });
+    rows = [...g.values()].sort((a, b) => b.items.length - a.items.length);
+    document.getElementById('gaps-count').textContent = `${fmtInt(rows.length)} stores · ${fmtInt(flags.length)} missing listings`;
+    el.innerHTML = rows.length ? `<div class="scroll"><table><thead><tr><th>Store</th>${all ? '<th>Retailer</th>' : ''}<th>City</th><th class="num">P&amp;G products missing</th><th class="num">Was on promo</th><th class="num">Longest</th><th>Mostly</th></tr></thead><tbody>
       ${rows.map((s, i) => `<tr class="clickable-row" data-i="${i}"><td>${esc(s.store_name)}</td>${all ? `<td>${label(s.retailer)}</td>` : ''}<td>${esc(s.city)}</td>
-        <td class="num"><strong>${s.items}</strong></td><td class="num">${s.max_days} days</td><td class="small">${s.top_brands.map(esc).join(', ')}</td></tr>`).join('')}
-      </tbody></table></div>`;
+        <td class="num"><strong>${s.items.length}</strong></td><td class="num">${s.promo || '—'}</td><td class="num">${s.max_days} days</td><td class="small">${Object.entries(s.brands).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([b]) => esc(b)).join(', ')}</td></tr>`).join('')}
+      </tbody></table></div>` : '<p class="empty">✓ Nothing missing in this view.</p>';
   }
-  el.querySelector('tbody').onclick = async e => {
+  const tb = el.querySelector('tbody');
+  if (tb) tb.onclick = e => {
     const tr = e.target.closest('tr[data-i]'); if (!tr) return;
     const s = rows[+tr.dataset.i];
-    const flags = await getJson(`flags/${s.retailer}.json`);
-    if (state.gapsView === 'sku') showGapDetail(`${s.product} — ${label(s.retailer)}`, flags.filter(f => f.product === s.product), 'store');
-    else showGapDetail(`${s.store_name}${s.city ? ', ' + s.city : ''} — ${label(s.retailer)}`, flags.filter(f => f.store_id === s.store_id), 'product');
+    if (state.gapsView === 'sku') showGapDetail(`${s.product}${s.ean && !s.ean.includes(':') ? ' · EAN ' + s.ean : ''} — ${label(s.retailer)}`, s.items, 'store');
+    else showGapDetail(`${s.store_name}${s.city ? ', ' + s.city : ''} — ${label(s.retailer)}`, s.items, 'product');
   };
 }
 function showGapDetail(title, items, mode) {
   const box = document.getElementById('gap-detail');
   box.style.display = 'block';
-  items.sort((a, b) => b.days_missing - a.days_missing);
-  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(title)}</h3><p class="sub2">${items.length} ${mode === 'store' ? 'stores' : 'SKUs'}</p>
-    <div class="scroll" style="max-height:340px"><table><thead><tr>${mode === 'store' ? '<th>Store</th><th>City</th>' : '<th>Product</th><th>EAN</th><th>Brand</th>'}<th>Last listed</th><th class="num">Last price</th><th class="num">Days missing</th></tr></thead><tbody>
-    ${items.map(f => `<tr>${mode === 'store' ? `<td>${esc(f.store_name)}</td><td>${esc(f.city)}</td>` : `<td>${esc(f.product)}</td><td class="small">${ean(f.barcode)}</td><td>${esc(f.brand)}</td>`}<td>${fmtDate(f.last_seen_date)}</td><td class="num">${eur(f.last_seen_price)}</td><td class="num">${f.days_missing}</td></tr>`).join('')}
+  items = [...items].sort((a, b) => b.days_missing - a.days_missing);
+  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(title)}</h3><p class="sub2">${items.length} ${mode === 'store' ? 'stores' : 'products'}</p>
+    <div class="scroll" style="max-height:360px"><table><thead><tr>${mode === 'store' ? '<th>Store</th><th>City</th>' : '<th>Product</th><th>EAN</th><th>Brand</th>'}<th>Last listed</th><th class="num">Last price</th><th>Promo when last listed</th><th class="num">Days missing</th></tr></thead><tbody>
+    ${items.map(f => `<tr>${mode === 'store' ? `<td>${esc(f.store_name)}</td><td>${esc(f.city)}</td>` : `<td>${esc(f.product)}</td><td class="small">${ean(f.barcode)}</td><td>${esc(f.brand)}</td>`}<td>${fmtDate(f.last_seen_date)}</td><td class="num">${eur(f.last_seen_price)}</td><td>${f.was_on_promo ? `<span class="chip pg">Yes${f.last_promo_price != null ? ' · ' + eur(f.last_promo_price) : ''}</span>` : '<span class="muted">No</span>'}</td><td class="num">${f.days_missing}</td></tr>`).join('')}
     </tbody></table></div>`;
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ---------- store check ----------
+async function renderStoreCheck() {
+  const rid = document.getElementById('store-retailer').value;
+  const sel = document.getElementById('store-select');
+  const view = document.getElementById('store-view');
+  const status = document.getElementById('store-status');
+  if (!rid) return;
+  status.textContent = 'Loading store lists…';
+  const rows = await getJson(`products/${rid}.json`);
+  status.textContent = '';
+  const r = D.retailers.find(x => x.retailer === rid);
+  // stores, sorted by city
+  const stores = new Map();
+  rows.forEach(x => { if (!stores.has(x.store_id)) stores.set(x.store_id, { id: x.store_id, name: x.store_name, city: x.city, addr: x.street_address }); });
+  const list = [...stores.values()].sort((a, b) => (a.city || '').localeCompare(b.city || '') || (a.addr || '').localeCompare(b.addr || ''));
+  if (sel.dataset.rid !== rid) {
+    sel.innerHTML = '<option value="">Choose a store…</option>' + list.map(s => `<option value="${esc(s.id)}">${esc(s.city || '')} — ${esc(s.name)}${s.addr ? ', ' + esc(s.addr) : ''}</option>`).join('');
+    sel.dataset.rid = rid;
+    if (sel.dataset.pending) { sel.value = sel.dataset.pending; delete sel.dataset.pending; }
+  }
+  const sid = sel.value;
+  history.replaceState(null, '', sid ? `#store=${rid}/${encodeURIComponent(sid)}` : location.pathname + location.search);
+  if (!sid) { view.innerHTML = `<p class="empty">${list.length} ${label(rid)} stores published a price list. Choose one above.</p>`; return; }
+  const brandF = document.getElementById('store-brand');
+  const nStores = stores.size;
+  // chain range: per SKU, how many stores list it
+  const chain = new Map();
+  rows.forEach(x => {
+    const k = x.barcode || x.product;
+    if (!chain.has(k)) chain.set(k, { ean: x.barcode, product: x.product, brand: x.pg_brand || x.brand, cat: x.fighting_category, stores: new Set(), prices: [] });
+    const c = chain.get(k); c.stores.add(x.store_id); if (x.price != null) c.prices.push(x.price);
+  });
+  const here = new Map(rows.filter(x => x.store_id === sid).map(x => [x.barcode || x.product, x]));
+  const brands = [...new Set([...chain.values()].map(c => c.brand))].sort();
+  if (!brands.includes(brandF.value)) brandF.value = '';
+  const keepB = brandF.value;
+  brandF.innerHTML = '<option value="">All P&amp;G brands</option>' + brands.map(b => `<option ${b === keepB ? 'selected' : ''}>${esc(b)}</option>`).join('');
+  const inScope = c => (!brandF.value || c.brand === brandF.value) && catMatch(c.cat);
+  const core = [...chain.values()].filter(c => c.stores.size >= nStores / 2 && inScope(c));
+  const missingCore = core.filter(c => !here.has(c.ean || c.product)).sort((a, b) => b.stores.size - a.stores.size);
+  const hereList = [...here.values()].filter(x => inScope({ brand: x.pg_brand || x.brand, cat: x.fighting_category }));
+  const flags = (await getJson(`flags/${rid}.json`)).filter(f => f.store_id === sid);
+  const flaggedKeys = new Set(flags.map(f => f.barcode || f.product));
+  const avgPerStore = rows.filter(x => inScope({ brand: x.pg_brand || x.brand, cat: x.fighting_category })).length / nStores;
+  const store = stores.get(sid);
+  // by brand
+  const byBrand = {};
+  [...chain.values()].filter(inScope).forEach(c => {
+    const b = byBrand[c.brand] = byBrand[c.brand] || { range: 0, core: 0, here: 0, coreHere: 0, promo: 0 };
+    b.range++; if (c.stores.size >= nStores / 2) { b.core++; if (here.has(c.ean || c.product)) b.coreHere++; }
+    const h = here.get(c.ean || c.product); if (h) { b.here++; if (h.promo_price != null) b.promo++; }
+  });
+  const coreHere = core.length - missingCore.length;
+  view.innerHTML = `
+    <div class="kpis" style="margin-top:4px">
+      <div class="kpi" style="cursor:default"><div class="label">P&amp;G products listed in this store</div><div class="value">${fmtInt(hereList.length)}</div><div class="note">chain average ${avgPerStore.toFixed(0)} per store</div></div>
+      <div class="kpi" style="cursor:default"><div class="label">Core range present</div><div class="value">${core.length ? Math.round(100 * coreHere / core.length) : 0}%</div><div class="note">${coreHere} of ${core.length} core products</div></div>
+      <div class="kpi" style="cursor:default"><div class="label">Core products missing</div><div class="value">${missingCore.length}</div><div class="note">listed in most ${label(rid)} stores, not here</div></div>
+      <div class="kpi" style="cursor:default"><div class="label">On promotion here</div><div class="value">${hereList.filter(x => x.promo_price != null).length}</div><div class="note">P&amp;G products with a promo price today</div></div>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3 style="font-size:14px;margin:0 0 6px">By brand — ${esc(store.name)}, ${esc(store.city || '')}</h3>
+        <div class="scroll" style="max-height:380px"><table><thead><tr><th>Brand</th><th class="num">Listed here</th><th class="num">Core present</th><th class="num">On promo</th></tr></thead><tbody>
+        ${Object.entries(byBrand).sort((a, b) => b[1].range - a[1].range).map(([b, x]) => `<tr><td style="font-weight:600">${esc(b)}</td><td class="num">${x.here} <span class="sub2">of ${x.range} in chain</span></td><td class="num">${x.core ? `${x.coreHere}/${x.core}` : '—'}</td><td class="num">${x.promo || '—'}</td></tr>`).join('')}
+        </tbody></table></div>
+      </div>
+      <div>
+        <h3 style="font-size:14px;margin:0 0 6px">Core products missing in this store</h3>
+        <div class="scroll" style="max-height:380px">${missingCore.length ? `<table><thead><tr><th>Product</th><th>EAN</th><th class="num">Chain stores with it</th><th class="num">Typical price</th></tr></thead><tbody>
+        ${missingCore.map(c => `<tr><td>${esc(c.product)}<div class="sub2">${esc(c.brand)}${flaggedKeys.has(c.ean || c.product) ? ' · <span class="chip warn">listed here before</span>' : ''}</div></td><td class="small">${ean(c.ean)}</td><td class="num">${c.stores.size} <span class="sub2">of ${nStores}</span></td><td class="num">${eur(median(c.prices))}</td></tr>`).join('')}
+        </tbody></table>` : '<p class="empty">✓ Every core product is listed here.</p>'}</div>
+      </div>
+    </div>
+    <h3 style="font-size:14px;margin:16px 0 6px">All P&amp;G products listed in this store today (${hereList.length})</h3>
+    <div class="scroll" style="max-height:380px"><table><thead><tr><th>Product</th><th>EAN</th><th>Brand</th><th>Category</th><th class="num">Regular price</th><th class="num">Promo</th></tr></thead><tbody>
+    ${hereList.sort((a, b) => (a.pg_brand || '').localeCompare(b.pg_brand || '') || a.product.localeCompare(b.product)).map(x => `<tr><td>${esc(x.product)}</td><td class="small">${ean(x.barcode)}</td><td>${esc(x.pg_brand || x.brand)}</td><td class="small">${esc(x.fighting_category || '—')}</td><td class="num">${x.promo_price == null ? eur(x.price) : x.regular_price != null ? eur(x.regular_price) : '<span class="muted" data-tip="This retailer publishes only the promo price while a promotion runs">—</span>'}</td><td class="num">${x.promo_price != null ? `<strong>${eur(x.promo_price)}</strong>` : '—'}</td></tr>`).join('')}
+    </tbody></table></div>`;
 }
 
 // ---------- promos / price changes ----------

@@ -186,13 +186,13 @@ def build_report():
                     for b in groups.get(key, []):
                         u = (b.get("by_unit") or {}).get(unit) or {}
                         wl_rows.append([
-                            cat, side, b["brand"], b["count"], b.get("sku_count"), b.get("store_count"),
+                            cat, side, b["brand"], b["count"], b.get("sku_count"), b.get("store_count"), b.get("tdp"),
                             b["avg_price"], u.get("median"), _unit_label(unit, groups.get("comparison_basis")),
                             b.get("promo_pct"),
                         ])
             _write_table(
                 wl_ws,
-                ["Category", "Side", "Brand", "Rows Seen Today", "SKUs", "Stores",
+                ["Category", "Side", "Brand", "Rows Seen Today", "SKUs", "Stores", "TDP (store x SKU)",
                  "Avg Shelf Price (EUR)", "Median Unit Price (EUR)", "Per", "% Listings on Promo"],
                 wl_rows,
                 table_name=_safe_sheet_name(f"{retailer}_watchlist").replace(" ", "_"),
@@ -201,7 +201,7 @@ def build_report():
             # or a brand-name spelling mismatch worth double-checking.
             for row_idx, row in enumerate(wl_rows, start=2):
                 if row[3] == 0:
-                    for col_idx in range(1, 11):
+                    for col_idx in range(1, 12):
                         wl_ws.cell(row=row_idx, column=col_idx).fill = WARN_FILL
 
         # --- P&G assortment sheet ---
@@ -231,11 +231,11 @@ def build_report():
             _write_table(
                 ws,
                 ["Product", "EAN", "Brand", "Category", "Store", "City",
-                 "Last Seen Price (EUR)", "Days Missing"],
+                 "Last Seen Price (EUR)", "Days Missing", "On Promo When Last Seen"],
                 [
                     [f.get("product"), f.get("barcode"), f.get("brand"), f.get("category"),
                      f.get("store_name"), f.get("city"), f.get("last_seen_price"),
-                     f.get("days_missing")]
+                     f.get("days_missing"), "Yes" if f.get("was_on_promo") else ""]
                     for f in flags
                 ],
                 table_name=_safe_sheet_name(f"{retailer}_flagged").replace(" ", "_"),
@@ -245,7 +245,7 @@ def build_report():
                 max_missing = max(f.get("days_missing", 0) for f in flags)
                 for row_idx, f in enumerate(flags, start=2):
                     if f.get("days_missing", 0) >= max(max_missing - 1, 3):
-                        for col_idx in range(1, 9):
+                        for col_idx in range(1, 10):
                             ws.cell(row=row_idx, column=col_idx).fill = WARN_FILL
 
     _write_table(summary_ws, summary_headers, summary_rows, table_name="SummaryTable")

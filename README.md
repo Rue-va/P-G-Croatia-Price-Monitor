@@ -13,18 +13,18 @@ keeps running after you leave P&G, as long as the GitHub repo exists.
 
 ## What the dashboard shows
 
-Filter by retailer (or all four) at the top; every section follows it.
+Filter by retailer (or all four) and category at the top; every section follows it.
 
-- **Price position by category** — a category × retailer grid: how far P&G
-  sits above (orange) or below (blue) the named competitors, per wash /
-  litre / kg / piece. Click a cell to open it.
-- **Category deep dive** — every tracked brand's median unit price as a
-  ladder, with SKU count, % of stores listing it and promo share. Click a
-  brand for its SKUs.
-- **On promotion today** and **Price changes** since the previous day.
-- **P&G distribution** — share of each retailer's stores listing each brand.
-- **Possible gaps on shelf** — missing-item flags grouped by store.
-- **SKU explorer** — any P&G or tracked competitor SKU, by store and over time.
+- **Same P&G product, different retailer** — identical barcodes priced at each
+  retailer, and how much more each retailer typically charges than the cheapest.
+- **Category shelf** — every SKU in a category as a dot on a price-per-unit
+  scale, grouped by brand.
+- **Share of assortment** — P&G's share of the tracked SKUs per category.
+- **Distribution (TDP)** — products × stores listing them, by brand and retailer.
+- **Missing products** — P&G SKUs gone from a store's list 3+ days, filterable
+  by brand, with a flag when the product was on promotion just before it vanished.
+- **Store check** — one store's P&G portfolio vs. the chain's core range.
+- **On promotion today** and the **SKU explorer** (with EAN codes throughout).
 
 ## What "likely out of stock" means
 

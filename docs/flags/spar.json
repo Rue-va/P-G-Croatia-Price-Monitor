@@ -8,11 +8,14 @@
   "product": "ULOŠ.ALWAYS PLAT.NIGHT 36/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8715",
@@ -23,11 +26,14 @@
   "product": "ULOŠCI ALWAYS ULTRA MAXI 6/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 1.29,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -38,11 +44,14 @@
   "product": "LOSION OLD SP.WHITEWAT.100 ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -53,11 +62,14 @@
   "product": "TEK.DET. ARIEL COLOR 1,125 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87016",
@@ -68,11 +80,14 @@
   "product": "PEL.GAĆ.NOĆNE PAMPERS S4 25/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 8.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87016",
@@ -81,13 +96,16 @@
   "product_id": "376167",
   "barcode": "8700216305259",
   "product": "ŠAMP.H&S APPLE  500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -98,11 +116,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -113,11 +134,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -128,11 +152,14 @@
   "product": "OME.LENOR ORCHID 2x1200 ml",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.35,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87040",
@@ -143,11 +170,14 @@
   "product": "TEK.DET. ARIEL COLOR 1,125 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -158,11 +188,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87091",
@@ -173,11 +206,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -186,13 +222,16 @@
   "product_id": "377150",
   "barcode": "8700216156936",
   "product": "ŠAMP.H&S 7U1 HAIR FALL 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -203,11 +242,14 @@
   "product": "REG.PANTENE AQUALIGHT 275 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -218,11 +260,14 @@
   "product": "DET.ARIEL FRESH AIR 4,4 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87094",
@@ -233,11 +278,14 @@
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87100",
@@ -248,11 +296,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87106",
@@ -263,11 +314,14 @@
   "product": "LOSION OLD SP.WHITEWAT.100 ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.89,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87123",
@@ -278,11 +332,14 @@
   "product": "P.P.GILLETTE PROGLIDE",
   "brand": "Gillette",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 27.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87135",
@@ -293,11 +350,14 @@
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -308,11 +368,14 @@
   "product": "P.P:OLD SPICE CAPTAIN TORBICA",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-28",
   "first_missing_date": "2026-09-29",
-  "days_missing": 8,
-  "as_of": "2026-10-06"
+  "days_missing": 9,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8708",
@@ -323,11 +386,14 @@
   "product": "GEL OLD SPICE WHITEWAT.2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8713",
@@ -338,11 +404,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8715",
@@ -353,11 +422,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8717",
@@ -368,11 +440,14 @@
   "product": "POK.PAK.PANTENE KEITH HARING",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 26.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8721",
@@ -383,11 +458,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8722",
@@ -398,11 +476,14 @@
   "product": "KAPSULE ARIEL SENSITIVE 44/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 13.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8725",
@@ -413,11 +494,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8728",
@@ -428,11 +512,14 @@
   "product": "OME.LENOR JAPA.BLOSSOM 1.239 L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.95,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8729",
@@ -443,11 +530,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8729",
@@ -458,11 +548,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87002",
@@ -473,11 +566,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -488,11 +584,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87004",
@@ -503,11 +602,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87007",
@@ -518,11 +620,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87007",
@@ -533,11 +638,14 @@
   "product": "EL.OSV.AP ALOHA 20 ml",
   "brand": "Ambi Pur",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 8.35,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87009",
@@ -548,11 +656,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87015",
@@ -563,11 +674,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87015",
@@ -578,11 +692,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87016",
@@ -593,11 +710,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87016",
@@ -608,11 +728,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87017",
@@ -623,11 +746,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87021",
@@ -638,11 +764,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87021",
@@ -653,11 +782,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87022",
@@ -668,11 +800,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87023",
@@ -683,11 +818,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87023",
@@ -698,11 +836,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87023",
@@ -713,11 +854,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87025",
@@ -728,11 +872,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87026",
@@ -743,11 +890,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87026",
@@ -758,11 +908,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87028",
@@ -773,11 +926,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87029",
@@ -788,11 +944,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87030",
@@ -803,11 +962,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87030",
@@ -818,11 +980,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87030",
@@ -833,11 +998,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87030",
@@ -848,11 +1016,14 @@
   "product": "DET.ARIEL FRESH AIR 4,4 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87031",
@@ -863,11 +1034,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87031",
@@ -878,11 +1052,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87033",
@@ -893,11 +1070,14 @@
   "product": "GEL OLD SPICE WHITEWAT.2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87034",
@@ -908,11 +1088,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87034",
@@ -923,11 +1106,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87034",
@@ -938,11 +1124,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87036",
@@ -953,11 +1142,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87036",
@@ -968,11 +1160,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87036",
@@ -983,11 +1178,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87037",
@@ -998,11 +1196,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87038",
@@ -1013,11 +1214,14 @@
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -1028,11 +1232,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -1043,11 +1250,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87040",
@@ -1058,11 +1268,14 @@
   "product": "ULOŠ.ALWAYS PLAT.NIGHT 12/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.65,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87042",
@@ -1073,11 +1286,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87042",
@@ -1088,11 +1304,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87044",
@@ -1103,11 +1322,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87044",
@@ -1118,11 +1340,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87045",
@@ -1133,11 +1358,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -1148,11 +1376,14 @@
   "product": "VL.MARAMICE BABY PAMPERS 52/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 1.29,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -1163,11 +1394,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87056",
@@ -1178,11 +1412,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87056",
@@ -1193,11 +1430,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87056",
@@ -1208,11 +1448,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87057",
@@ -1223,11 +1466,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87062",
@@ -1238,11 +1484,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87062",
@@ -1253,11 +1502,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87069",
@@ -1268,11 +1520,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87069",
@@ -1283,11 +1538,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87069",
@@ -1298,11 +1556,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87069",
@@ -1313,11 +1574,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87070",
@@ -1328,11 +1592,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87070",
@@ -1343,11 +1610,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87072",
@@ -1358,11 +1628,14 @@
   "product": "ULOŠ.ALWAYS PLAT.NIGHT 12/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.65,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87072",
@@ -1373,11 +1646,14 @@
   "product": "P.P.OLD SPICE GENTLEMAN CAP.",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 14.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87073",
@@ -1388,11 +1664,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87073",
@@ -1403,11 +1682,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87074",
@@ -1418,11 +1700,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87074",
@@ -1433,11 +1718,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87074",
@@ -1448,11 +1736,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1461,13 +1752,16 @@
   "product_id": "237793",
   "barcode": "8006540063330",
   "product": "ŠAMP.H&S CLASSIC CLEAN 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1476,13 +1770,16 @@
   "product_id": "376167",
   "barcode": "8700216305259",
   "product": "ŠAMP.H&S APPLE  500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1491,13 +1788,16 @@
   "product_id": "376174",
   "barcode": "8700216304733",
   "product": "ŠAMP.H&S CITRUS 330 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1506,13 +1806,16 @@
   "product_id": "376175",
   "barcode": "8700216158114",
   "product": "ŠAMP.H&S MENTHOL 500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1521,13 +1824,16 @@
   "product_id": "376176",
   "barcode": "8700216305303",
   "product": "ŠAMP.H&S CITRUS 500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87075",
@@ -1536,13 +1842,16 @@
   "product_id": "377124",
   "barcode": "8700216157919",
   "product": "ŠAMP.H&S 2U1 CLASSIC C.330ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.49,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87076",
@@ -1553,11 +1862,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87076",
@@ -1568,11 +1880,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87078",
@@ -1583,11 +1898,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87078",
@@ -1598,11 +1916,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87078",
@@ -1613,11 +1934,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87079",
@@ -1628,11 +1952,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87079",
@@ -1643,11 +1970,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87080",
@@ -1658,11 +1988,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87080",
@@ -1673,11 +2006,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87081",
@@ -1688,11 +2024,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87081",
@@ -1703,11 +2042,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87082",
@@ -1718,11 +2060,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87082",
@@ -1733,11 +2078,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87083",
@@ -1748,11 +2096,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87084",
@@ -1763,11 +2114,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -1778,11 +2132,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87091",
@@ -1793,11 +2150,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87091",
@@ -1808,11 +2168,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87091",
@@ -1823,11 +2186,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -1838,11 +2204,14 @@
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -1853,11 +2222,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87093",
@@ -1868,11 +2240,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87093",
@@ -1883,11 +2258,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87093",
@@ -1898,11 +2276,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87094",
@@ -1913,11 +2294,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87095",
@@ -1928,11 +2312,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87098",
@@ -1943,11 +2330,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87098",
@@ -1958,11 +2348,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87098",
@@ -1973,11 +2366,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87101",
@@ -1988,11 +2384,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87101",
@@ -2003,11 +2402,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87102",
@@ -2018,11 +2420,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87102",
@@ -2033,11 +2438,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87102",
@@ -2048,11 +2456,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87103",
@@ -2063,11 +2474,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87103",
@@ -2078,11 +2492,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87105",
@@ -2093,11 +2510,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87106",
@@ -2108,11 +2528,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87107",
@@ -2123,11 +2546,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87109",
@@ -2138,11 +2564,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87109",
@@ -2153,11 +2582,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87112",
@@ -2168,11 +2600,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87112",
@@ -2183,11 +2618,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87112",
@@ -2198,11 +2636,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87123",
@@ -2213,11 +2654,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87123",
@@ -2228,11 +2672,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87124",
@@ -2243,11 +2690,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87126",
@@ -2258,11 +2708,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87127",
@@ -2273,11 +2726,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87133",
@@ -2288,11 +2744,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87134",
@@ -2303,11 +2762,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87134",
@@ -2318,11 +2780,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87134",
@@ -2333,11 +2798,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87138",
@@ -2348,11 +2816,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87138",
@@ -2363,11 +2834,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87140",
@@ -2378,11 +2852,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87140",
@@ -2393,11 +2870,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87155",
@@ -2408,11 +2888,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87155",
@@ -2423,11 +2906,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -2438,11 +2924,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -2453,11 +2942,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -2468,11 +2960,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87169",
@@ -2483,11 +2978,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87169",
@@ -2498,11 +2996,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87171",
@@ -2513,11 +3014,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87171",
@@ -2528,11 +3032,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87171",
@@ -2543,11 +3050,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87004",
@@ -2558,11 +3068,14 @@
   "product": "TAB.JAR PLATINUM 81/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87041",
@@ -2573,11 +3086,14 @@
   "product": "TAB.JAR PLAT.PLUS BBQ 102/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87043",
@@ -2588,11 +3104,14 @@
   "product": "TAB.JAR MIR.PLATINUM PLUS 60/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-09-29",
   "first_missing_date": "2026-09-30",
-  "days_missing": 7,
-  "as_of": "2026-10-06"
+  "days_missing": 8,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8704",
@@ -2603,11 +3122,14 @@
   "product": "OSV.GEL AMBI PUR 24ml",
   "brand": "Ambi Pur",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Air Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 8.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8715",
@@ -2618,11 +3140,14 @@
   "product": "OME.LENOR JAPA.BLOSSOM 1.239 L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.95,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8716",
@@ -2631,13 +3156,16 @@
   "product_id": "368930",
   "barcode": "3014260101503",
   "product": "ČET.ORAL B SENSITIVE",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 3.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8717",
@@ -2646,13 +3174,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.55,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8725",
@@ -2663,11 +3194,14 @@
   "product": "OS.AMBI PUR ALOHA 2x20 ml",
   "brand": "Ambi Pur",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Air Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 8.35,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8729",
@@ -2678,11 +3212,14 @@
   "product": "OME.LENOR JAPA.BLOSSOM 1.239 L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.95,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87034",
@@ -2693,11 +3230,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87035",
@@ -2708,11 +3248,14 @@
   "product": "PEL.PAMPERS PREMIUM CARE 60/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87045",
@@ -2723,11 +3266,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87045",
@@ -2738,11 +3284,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2751,13 +3300,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.65,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2766,13 +3318,16 @@
   "product_id": "237793",
   "barcode": "8006540063330",
   "product": "ŠAMP.H&S CLASSIC CLEAN 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2781,13 +3336,16 @@
   "product_id": "237818",
   "barcode": "4015600734138",
   "product": "ŠAMP.H&S 2U1 CLASSIC C.360ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.79,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2798,11 +3356,14 @@
   "product": "ŠAMP.PANTENE MICELLAR 400 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.79,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2811,13 +3372,16 @@
   "product_id": "376174",
   "barcode": "8700216304733",
   "product": "ŠAMP.H&S CITRUS 330 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -2826,13 +3390,16 @@
   "product_id": "377151",
   "barcode": "8700216156844",
   "product": "ŠAMP.H&S 7U1 INTEN.ITCH 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.49,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87070",
@@ -2843,11 +3410,14 @@
   "product": "TEK.DET.ARIEL 3,87 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 29.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87072",
@@ -2858,11 +3428,14 @@
   "product": "DEO STICK OLD SPICE CAP.2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -2873,11 +3446,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87104",
@@ -2888,11 +3464,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87107",
@@ -2903,11 +3482,14 @@
   "product": "PEL.PAMPERS PREMIUM CARE 60/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 15.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87119",
@@ -2916,13 +3498,16 @@
   "product_id": "372684",
   "barcode": "8006530444224",
   "product": "ZUB.P.ORAL B WHITE GUM 2x75 ml",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.79,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87167",
@@ -2933,11 +3518,14 @@
   "product": "DEO OLD SPICE WHITEWATER2x50ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8701",
@@ -2948,11 +3536,14 @@
   "product": "DET. JAR CITRUS 905 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8706",
@@ -2963,11 +3554,14 @@
   "product": "DET. JAR CITRUS 905 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.19,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87041",
@@ -2978,11 +3572,14 @@
   "product": "TAB.JAR PLATINUM PLUS 54/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Automatic Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 14.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87133",
@@ -2993,11 +3590,14 @@
   "product": "TAB.JAR PLAT.PLUS BBQ 102/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Automatic Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87005",
@@ -3008,11 +3608,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87007",
@@ -3023,11 +3626,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87011",
@@ -3038,11 +3644,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87019",
@@ -3053,11 +3662,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87043",
@@ -3068,11 +3680,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87044",
@@ -3083,11 +3698,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87044",
@@ -3098,11 +3716,14 @@
   "product": "OME.LENOR SENSITIVE 2x1239 ml",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87106",
@@ -3113,11 +3734,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87107",
@@ -3128,11 +3752,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87109",
@@ -3143,11 +3770,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87112",
@@ -3158,11 +3788,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87123",
@@ -3173,11 +3806,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87140",
@@ -3188,11 +3824,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.89,
   "last_seen_date": "2026-09-30",
   "first_missing_date": "2026-10-01",
-  "days_missing": 6,
-  "as_of": "2026-10-06"
+  "days_missing": 7,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8703",
@@ -3203,11 +3842,14 @@
   "product": "KAPSULE ARIEL COLOR 100/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 24.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8706",
@@ -3218,11 +3860,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8714",
@@ -3233,11 +3878,14 @@
   "product": "GEL OLD SPICE EPIC LEGEND 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8718",
@@ -3248,11 +3896,14 @@
   "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8721",
@@ -3263,11 +3914,14 @@
   "product": "OSVJ.AMBI PUR ALOHA GEL 2x8 ml",
   "brand": "Ambi Pur",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Air Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 8.59,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87002",
@@ -3278,11 +3932,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -3293,11 +3950,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -3308,11 +3968,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87022",
@@ -3323,11 +3986,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87030",
@@ -3338,11 +4004,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -3353,11 +4022,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -3368,11 +4040,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -3383,11 +4058,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87034",
@@ -3396,13 +4074,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 1.55,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87045",
@@ -3413,11 +4094,14 @@
   "product": "KAPSULE ARIEL SENSITIVE 44/1",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 13.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -3428,11 +4112,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -3441,13 +4128,16 @@
   "product_id": "377150",
   "barcode": "8700216156936",
   "product": "ŠAMP.H&S 7U1 HAIR FALL 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 3.45,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -3458,11 +4148,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87050",
@@ -3473,11 +4166,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87050",
@@ -3488,11 +4184,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87062",
@@ -3503,11 +4202,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87062",
@@ -3518,11 +4220,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87070",
@@ -3533,11 +4238,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87074",
@@ -3548,11 +4256,14 @@
   "product": "PEL.GAĆICE PAMPERS S4 40/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 15.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87074",
@@ -3563,11 +4274,14 @@
   "product": "VL.MAR.PAMPERS SENSIT.5x52",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.54,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87086",
@@ -3578,11 +4292,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87088",
@@ -3593,11 +4310,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87088",
@@ -3608,11 +4328,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -3623,11 +4346,14 @@
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -3636,13 +4362,16 @@
   "product_id": "376174",
   "barcode": "8700216304733",
   "product": "ŠAMP.H&S CITRUS 330 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 3.19,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -3651,13 +4380,16 @@
   "product_id": "376176",
   "barcode": "8700216305303",
   "product": "ŠAMP.H&S CITRUS 500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87090",
@@ -3666,13 +4398,16 @@
   "product_id": "376167",
   "barcode": "8700216305259",
   "product": "ŠAMP.H&S APPLE  500 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 3.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -3683,11 +4418,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87101",
@@ -3698,11 +4436,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87108",
@@ -3713,11 +4454,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87108",
@@ -3728,11 +4472,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87108",
@@ -3743,11 +4490,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87109",
@@ -3758,11 +4508,14 @@
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87109",
@@ -3773,11 +4526,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87126",
@@ -3788,11 +4544,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87126",
@@ -3803,11 +4562,14 @@
   "product": "DET.ARIEL FRESH AIR 4,4 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87138",
@@ -3818,11 +4580,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87140",
@@ -3831,13 +4596,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 1.55,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -3848,11 +4616,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87167",
@@ -3863,11 +4634,14 @@
   "product": "GEL OLD SPICE WHITEWATER 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-01",
   "first_missing_date": "2026-10-02",
-  "days_missing": 5,
-  "as_of": "2026-10-06"
+  "days_missing": 6,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8704",
@@ -3876,13 +4650,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": true,
+  "last_promo_price": 1.55,
   "last_seen_price": 1.55,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8708",
@@ -3893,11 +4670,14 @@
   "product": "GEL TUŠ.OLD SPICE WHITE.675 ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": true,
+  "last_promo_price": 3.25,
   "last_seen_price": 3.25,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8712",
@@ -3908,11 +4688,14 @@
   "product": "GEL OLD SPICE WHITEWAT.2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8721",
@@ -3923,11 +4706,14 @@
   "product": "ŠAM.HERBAL ESSENCE COCO 350 ml",
   "brand": "Herbal Essences",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": true,
+  "last_promo_price": 2.99,
   "last_seen_price": 2.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8725",
@@ -3936,13 +4722,16 @@
   "product_id": "173748",
   "barcode": "3014260022839",
   "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": true,
+  "last_promo_price": 1.55,
   "last_seen_price": 1.55,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8725",
@@ -3953,11 +4742,14 @@
   "product": "PEL.PAMPERS ABD S3 70/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 15.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8725",
@@ -3968,11 +4760,14 @@
   "product": "ULO.ALWAYS ULTRA NIGHT 22/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.49,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8729",
@@ -3983,11 +4778,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87015",
@@ -3998,11 +4796,14 @@
   "product": "TEK.DET.ARIEL 1,125 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": true,
+  "last_promo_price": 9.59,
   "last_seen_price": 9.59,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4011,13 +4812,16 @@
   "product_id": "70664",
   "barcode": "5011321336124",
   "product": "ŠAMPON H&S SENSITIVE 400 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.19,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4026,13 +4830,16 @@
   "product_id": "194895",
   "barcode": "5410076659456",
   "product": "ŠAMP.H&S APPLE FRESH 400 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.19,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4041,13 +4848,16 @@
   "product_id": "376165",
   "barcode": "8700216156134",
   "product": "ŠAMP.H&S CLASSIC 800ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4056,13 +4866,16 @@
   "product_id": "376174",
   "barcode": "8700216304733",
   "product": "ŠAMP.H&S CITRUS 330 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": true,
+  "last_promo_price": 3.19,
   "last_seen_price": 3.19,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4071,13 +4884,16 @@
   "product_id": "376178",
   "barcode": "8700216156172",
   "product": "ŠAMP.H&S CITRUS  800 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4086,13 +4902,16 @@
   "product_id": "377124",
   "barcode": "8700216157919",
   "product": "ŠAMP.H&S 2U1 CLASSIC C.330ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": true,
+  "last_promo_price": 3.09,
   "last_seen_price": 3.09,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4103,11 +4922,14 @@
   "product": "ŠAMPON PANTENE T&S 400 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.35,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4118,11 +4940,14 @@
   "product": "REGENERATOR PANTENE T&S 275 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4133,11 +4958,14 @@
   "product": "REGENERATOR PANTENE R&P 275 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4148,11 +4976,14 @@
   "product": "REG.PANTENE AQUALIGHT 275 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4163,11 +4994,14 @@
   "product": "MASKA PANTENE R&P 220 ml",
   "brand": "Pantene",
   "category": "Kozmetika",
+  "fighting_category": "Hair Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.39,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87039",
@@ -4176,13 +5010,16 @@
   "product_id": "397037",
   "barcode": "8006530004527",
   "product": "ŠAMP.H&S CITRUS 2IN1 800 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 9.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87043",
@@ -4193,11 +5030,14 @@
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.29,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87066",
@@ -4208,11 +5048,14 @@
   "product": "PJENA GILLETTE SENS.300 ml",
   "brand": "Gillette",
   "category": "Kozmetika",
+  "fighting_category": "Shave Care",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.59,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87092",
@@ -4223,11 +5066,14 @@
   "product": "GEL OLD SPICE WHITEWAT.2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87169",
@@ -4236,13 +5082,16 @@
   "product_id": "368930",
   "barcode": "3014260101503",
   "product": "ČET.ORAL B SENSITIVE",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": true,
+  "last_promo_price": 1.75,
   "last_seen_price": 1.75,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8714",
@@ -4253,11 +5102,14 @@
   "product": "DET. JAR CITRUS 650 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.49,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8718",
@@ -4268,11 +5120,14 @@
   "product": "DET.JAR KAMILICA&VITA.E 900 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 2.29,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87004",
@@ -4283,11 +5138,14 @@
   "product": "DET.JAR LEMON 2x900ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.79,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87026",
@@ -4298,11 +5156,14 @@
   "product": "TAB.JAR PLATINUM PLUS 54/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Automatic Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 14.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87032",
@@ -4313,11 +5174,14 @@
   "product": "DET.JAR LEMON 2x900ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.79,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87033",
@@ -4328,11 +5192,14 @@
   "product": "DET.JAR LEMON 2x900ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.49,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87062",
@@ -4343,11 +5210,14 @@
   "product": "TAB.JAR ALL IN ONE YELLOW 71/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Automatic Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 14.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87003",
@@ -4358,11 +5228,14 @@
   "product": "OME.LENOR SENSITIVE 2x1239 ml",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": true,
+  "last_promo_price": 5.99,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-02",
   "first_missing_date": "2026-10-03",
-  "days_missing": 4,
-  "as_of": "2026-10-06"
+  "days_missing": 5,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8701",
@@ -4373,11 +5246,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8703",
@@ -4388,11 +5264,14 @@
   "product": "GEL OLD SPICE CAPTAIN 2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8706",
@@ -4403,11 +5282,14 @@
   "product": "GEL OLD SPICE WHITEWAT.2x400ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8706",
@@ -4416,13 +5298,16 @@
   "product_id": "362354",
   "barcode": "8001090720399",
   "product": "VODICA ZUBNA ORAL B GUM 500ml",
-  "brand": "Oral B",
+  "brand": "Oral-B",
   "category": "Kozmetika",
+  "fighting_category": "Oral Care",
+  "was_on_promo": true,
+  "last_promo_price": 2.35,
   "last_seen_price": 2.35,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8708",
@@ -4433,11 +5318,14 @@
   "product": "DET.ARIEL FRESH AIR 1,7 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 11.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8711",
@@ -4448,11 +5336,14 @@
   "product": "OME.LENOR JAPA.BLOSSOM 1.239 L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.95,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8715",
@@ -4463,11 +5354,14 @@
   "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8716",
@@ -4478,11 +5372,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8717",
@@ -4493,11 +5390,14 @@
   "product": "ULOŠ.ALWAYS PLATINUM NOR 48/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87002",
@@ -4508,11 +5408,14 @@
   "product": "TEK.DET. ARIEL MOUN.SPR.2,7 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 21.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87002",
@@ -4523,11 +5426,14 @@
   "product": "GEL OLD SPICE ROCKSTAR 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87036",
@@ -4538,11 +5444,14 @@
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87049",
@@ -4553,11 +5462,14 @@
   "product": "LOSION OLD SP.WHITEWAT.100 ml",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87053",
@@ -4566,13 +5478,16 @@
   "product_id": "237785",
   "barcode": "8006540063248",
   "product": "ŠAMP.H&S APPLE 250 ml",
-  "brand": "Head&Shoulders",
+  "brand": "Head & Shoulders",
   "category": "Kozmetika",
+  "fighting_category": null,
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.49,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87073",
@@ -4583,11 +5498,14 @@
   "product": "ULOŠCI ALWAYS ULTRA NIGHT 24/1",
   "brand": "Always",
   "category": "Toaletne potrepštine",
+  "fighting_category": "Femcare",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 4.19,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87081",
@@ -4598,11 +5516,14 @@
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 19.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87085",
@@ -4613,11 +5534,14 @@
   "product": "OME.LENOR SPRING AWAKENI.2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87089",
@@ -4628,11 +5552,14 @@
   "product": "GEL OLD SPICE BEARGLOVE 1 L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87090",
@@ -4643,11 +5570,14 @@
   "product": "VL.MARAMICE BABY PAMPERS 52/1",
   "brand": "Pampers",
   "category": "Toaletne potrepštine",
+  "fighting_category": "Baby Wipes",
+  "was_on_promo": true,
+  "last_promo_price": 1.29,
   "last_seen_price": 1.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87095",
@@ -4658,11 +5588,14 @@
   "product": "OME.LENOR GOLD.ORCHID 2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87098",
@@ -4673,11 +5606,14 @@
   "product": "OME.LENOR GOLD.ORCHID 2.65L",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87127",
@@ -4688,11 +5624,14 @@
   "product": "TEK.DET. ARIEL MOUN.SPR.2,7 L",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 21.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87155",
@@ -4703,11 +5642,14 @@
   "product": "DET.ARIEL FRESH AIR 4,4 kg",
   "brand": "Ariel",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 18.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87156",
@@ -4718,11 +5660,14 @@
   "product": "GEL OLD SPICE CAPTAIN 1L",
   "brand": "Old Spice",
   "category": "Kozmetika",
+  "fighting_category": "APDO",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 7.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8713",
@@ -4733,11 +5678,14 @@
   "product": "DET. JAR CITRUS 905 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": true,
+  "last_promo_price": 2.19,
   "last_seen_price": 2.19,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "8719",
@@ -4748,11 +5696,14 @@
   "product": "TAB.JAR PLATINUM 125/1",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Automatic Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 26.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87043",
@@ -4763,11 +5714,14 @@
   "product": "DET.JAR MALINA PLAT.PL.660 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": true,
+  "last_promo_price": 2.29,
   "last_seen_price": 2.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87080",
@@ -4778,11 +5732,14 @@
   "product": "DET.JAR MALINA PLAT.PL.660 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": true,
+  "last_promo_price": 2.29,
   "last_seen_price": 2.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87082",
@@ -4793,11 +5750,14 @@
   "product": "DET.JAR LEMON 2x900ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": false,
+  "last_promo_price": null,
   "last_seen_price": 6.79,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87119",
@@ -4808,11 +5768,14 @@
   "product": "OME.LENOR SENSITIVE 2x1239 ml",
   "brand": "Lenor",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Fabric Enhancers",
+  "was_on_promo": true,
+  "last_promo_price": 5.99,
   "last_seen_price": 5.99,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
-  "days_missing": 3,
-  "as_of": "2026-10-06"
+  "days_missing": 4,
+  "as_of": "2026-10-07"
  },
  {
   "store_id": "87127",
@@ -4823,10 +5786,49 @@
   "product": "DET.JAR MALINA PLAT.PL.660 ml",
   "brand": "Jar",
   "category": "Sredstva za čišćenje",
+  "fighting_category": "Hand Dishwashing",
+  "was_on_promo": true,
+  "last_promo_price": 2.29,
   "last_seen_price": 2.29,
   "last_seen_date": "2026-10-03",
   "first_missing_date": "2026-10-04",
+  "days_missing": 4,
+  "as_of": "2026-10-07"
+ },
+ {
+  "store_id": "87068",
+  "store_name": "Zapresic",
+  "city": "Zapresic",
+  "product_id": "390447",
+  "barcode": "8700216733618",
+  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
+  "last_seen_price": 19.99,
+  "last_seen_date": "2026-10-04",
+  "first_missing_date": "2026-10-05",
   "days_missing": 3,
-  "as_of": "2026-10-06"
+  "as_of": "2026-10-07"
+ },
+ {
+  "store_id": "87104",
+  "store_name": "Ri Osjecka",
+  "city": "Rijeka",
+  "product_id": "361542",
+  "barcode": "8001090804990",
+  "product": "GEL ARIEL KAPSULE EXTRA 36/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "fighting_category": "Laundry",
+  "was_on_promo": false,
+  "last_promo_price": null,
+  "last_seen_price": 14.99,
+  "last_seen_date": "2026-10-04",
+  "first_missing_date": "2026-10-05",
+  "days_missing": 3,
+  "as_of": "2026-10-07"
  }
 ]
