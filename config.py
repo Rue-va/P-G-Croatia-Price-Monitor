@@ -11,7 +11,7 @@ DOCS_DIR = BASE_DIR / "docs"
 DASHBOARD_DATA_FILE = DOCS_DIR / "data.json"
 
 
-RETAILERS = ["konzum", "kaufland", "spar", "lidl"]
+RETAILERS = ["konzum", "kaufland", "spar", "lidl", "dm"]
 
 
 PG_BRANDS = {
@@ -105,7 +105,7 @@ CATEGORY_COMPETITOR_EXCLUDE: dict[str, list[str]] = {
 }
 
 
-NON_HPC_RETAIL_CATEGORIES = {"HRANA", "PIĆE", "PIĆA", "PICE", "PICA"}
+NON_HPC_RETAIL_CATEGORIES = {"HRANA", "PIĆE", "PIĆA", "PICE", "PICA", "PREHRANA"}
 
 
 PG_BRAND_DISPLAY = {
@@ -157,6 +157,7 @@ PRIVATE_LABEL_BRANDS: dict[str, str] = {
     "kaufland": "Kaufland",
     "spar": "Spar",
     "lidl": "Lidl",
+    "dm": "babylove",
 }
 
 

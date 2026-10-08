@@ -1,12 +1,12 @@
 # P&G Croatia — Retail Price & Assortment Monitor
 
 A daily, fully automated dashboard tracking P&G vs. competitor pricing and
-likely out-of-stock products across **Konzum, Kaufland, Spar, and Lidl**,
+likely out-of-stock products across **Konzum, Kaufland, Spar, Lidl and dm**,
 built from each retailer's legally-mandated public daily price list
 (Odluka o objavi cjenika, NN 75/2025).
 
 **How it runs, once set up: nothing to run.** A free scheduled job on
-GitHub's infrastructure crawls all four retailers every morning, and a free
+GitHub's infrastructure crawls all five retailers every morning, and a free
 static page (GitHub Pages) shows the result. Your manager bookmarks one URL.
 No Excel, no macros, no installs, no laptop that has to stay on — and it
 keeps running after you leave P&G, as long as the GitHub repo exists.
@@ -108,6 +108,18 @@ initially-quiet dashboard.
 `config.py` has a `PG_BRANDS` set. If a report shows a P&G product not
 being tracked, it's almost always a brand spelling variant missing from
 that set — add it there.
+
+## dm and BIPA
+
+dm publishes one **national** price list per day (an Excel file on dm.hr)
+rather than one per store, so dm appears as a single "store": its prices,
+promotions and the same-product comparison work like any retailer's, but the
+store-level views (TDP, missing products per store, store check) don't apply.
+
+BIPA could not be added: as of October 2026 it doesn't publish a daily price
+list anywhere we could find (not on bipa.hr, and its online catalogue shows no
+prices or barcodes). If BIPA starts publishing, a crawler can be added the
+same way as dm.
 
 ## Adding another retailer later
 

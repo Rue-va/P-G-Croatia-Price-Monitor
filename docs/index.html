@@ -276,7 +276,9 @@
 <div id="tip"></div>
 
 <script>
-const RETAILER_LABEL = { konzum: 'Konzum', kaufland: 'Kaufland', spar: 'Spar', lidl: 'Lidl' };
+const RETAILER_LABEL = { konzum: 'Konzum', kaufland: 'Kaufland', spar: 'Spar', lidl: 'Lidl', dm: 'dm' };
+// dm publishes one national price list instead of one per store
+const isNational = r => (r.stores_count || 0) <= 1;
 const state = { retailer: 'all', category: '', shelfRetailer: null, shelfUnit: null, promoSide: 'pg', gapsView: 'sku' };
 let D = null;
 const SKUS = {};
@@ -339,7 +341,7 @@ function renderChrome() {
   document.getElementById('thr').textContent = D.missing_days_threshold;
   document.getElementById('fresh-pills').innerHTML = D.retailers.map(r => {
     const stale = r.status !== 'ok' || r.last_updated !== D.as_of_date;
-    const t = r.status === 'error' ? 'Crawl failed — no data' : stale ? `Today's list not published yet — showing ${fmtDate(r.last_updated)}` : `Today's price lists, ${r.stores_count} stores`;
+    const t = r.status === 'error' ? 'Crawl failed — no data' : stale ? `Today's list not published yet — showing ${fmtDate(r.last_updated)}` : isNational(r) ? `Today's national price list (one list for all ${label(r.retailer)} stores)` : `Today's price lists, ${r.stores_count} stores`;
     return `<span class="fresh-pill ${stale ? 'stale' : ''}" data-tip="${esc(t)}">${label(r.retailer)} ${stale ? '⚠ ' + fmtDate(r.last_updated) : '✓'}</span>`;
   }).join(' ');
   segment('retailer-seg', [['all', 'All retailers'], ...okRetailers().map(r => [r.retailer, label(r.retailer)])], () => state.retailer, k => {
@@ -381,19 +383,19 @@ function renderAll() {
 // ---------- KPIs (every tile opens its section) ----------
 function renderKpis() {
   const rs = selRetailers();
-  const stores = rs.reduce((s, r) => s + (r.stores_count || 0), 0);
+  const stores = rs.filter(r => !isNational(r)).reduce((s, r) => s + (r.stores_count || 0), 0);
   const pgEans = new Set();
   rs.forEach(r => (SKUS[r.retailer] || []).forEach(s => { if (s.side === 'pg' && catMatch(s.cat)) pgEans.add(s.ean || s.product); }));
   const missingSkus = rs.reduce((s, r) => s + ((r.insights || {}).flagged_skus_total || 0), 0);
   const missingStores = rs.reduce((s, r) => s + (((r.insights || {}).flags_by_store) || []).length, 0);
   const promos = rs.reduce((s, r) => s + ((r.insights || {}).promos || []).filter(p => p.side === 'pg' && catMatch(p.fighting_category)).length, 0);
   const scope = state.retailer === 'all' ? 'all retailers' : label(state.retailer);
-  const pgTdp = rs.reduce((s, r) => s + (SKUS[r.retailer] || []).filter(x => x.side === 'pg' && catMatch(x.cat)).reduce((a, x) => a + x.stores, 0), 0);
+  const pgTdp = rs.filter(r => !isNational(r)).reduce((s, r) => s + (SKUS[r.retailer] || []).filter(x => x.side === 'pg' && catMatch(x.cat)).reduce((a, x) => a + x.stores, 0), 0);
   const tile = (target, lbl, val, note, go) =>
     `<button class="kpi" data-go="${target}"><div class="label">${lbl}</div><div class="value">${val}</div><div class="note">${note}</div><div class="go">${go} →</div></button>`;
   const el = document.getElementById('kpis');
   el.innerHTML =
-    tile('sec-tdp', 'P&amp;G distribution points (TDP)', fmtInt(pgTdp), `products × stores listing them · ${fmtInt(stores)} stores reporting`, 'See distribution') +
+    tile('sec-tdp', 'P&amp;G distribution points (TDP)', fmtInt(pgTdp), `products × stores listing them · ${rs.filter(r => !isNational(r)).length < rs.length ? 'store-level retailers only · ' : ''}${fmtInt(stores)} stores reporting`, 'See distribution') +
     tile('sec-shelf', 'P&amp;G SKUs listed', fmtInt(pgEans.size), `unique products, ${scope}${state.category ? ' · ' + esc(state.category) : ''}`, 'See the shelf') +
     tile('sec-gaps', 'P&amp;G SKUs missing', fmtInt(missingSkus), missingSkus ? `from ${fmtInt(missingStores)} stores' price lists, ${D.missing_days_threshold}+ days` : `nothing missing ${D.missing_days_threshold}+ days`, 'See which ones') +
     tile('sec-promos', 'P&amp;G SKUs on promotion', fmtInt(promos), 'published special-sale price today', 'See promotions');
@@ -457,8 +459,9 @@ function renderCross() {
 // ---------- distribution (TDP) ----------
 function brandTdp(b) { return b.tdp != null ? b.tdp : (b.count || 0); }
 function renderTdp() {
-  const rs = selRetailers();
+  const rs = selRetailers().filter(r => !isNational(r));
   const el = document.getElementById('tdp');
+  if (!rs.length) { document.getElementById('tdp-lede').textContent = 'TDP needs store-level price lists — dm publishes a single national list, so it has no store distribution to measure.'; el.innerHTML = ''; return; }
   const bar = (pct, val, sub, tipHtml) => `<td data-tip="${esc(tipHtml)}"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:10px;background:var(--surface-2);border-radius:5px;overflow:hidden;min-width:40px"><div style="height:100%;width:${Math.min(100, pct)}%;background:var(--series-pg)"></div></div><span style="min-width:86px;text-align:right;font-variant-numeric:tabular-nums">${val} <span class="sub2">${sub}</span></span></div></td>`;
   if (!state.category) {
     document.getElementById('tdp-lede').innerHTML = `<strong>TDP</strong> = for each product, the number of stores that list it, added up. Here: P&amp;G's share of all distribution points in each category (P&amp;G + tracked competitors). Choose a category at the top to compare brand by brand.`;
@@ -674,6 +677,7 @@ async function renderStoreCheck() {
   const rows = await getJson(`products/${rid}.json`);
   status.textContent = '';
   const r = D.retailers.find(x => x.retailer === rid);
+  if (isNational(r)) { view.innerHTML = `<p class="empty">${label(rid)} publishes one national price list for all its stores, so there is no store-by-store portfolio to check. Its P&amp;G range and prices are in the other sections and the SKU explorer.</p>`; sel.innerHTML = '<option value="">—</option>'; sel.dataset.rid = rid; return; }
   // stores, sorted by city
   const stores = new Map();
   rows.forEach(x => { if (!stores.has(x.store_id)) stores.set(x.store_id, { id: x.store_id, name: x.store_name, city: x.city, addr: x.street_address }); });

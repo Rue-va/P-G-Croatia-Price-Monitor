@@ -49,6 +49,11 @@ WARN_FILL = PatternFill(start_color="FFF4E5", end_color="FFF4E5", fill_type="sol
 REPORT_PATH = DOCS_DIR / "PG_Price_Report.xlsx"
 
 
+def _retailer_name(retailer: str) -> str:
+    # "dm" is written in lower case; the others are proper names
+    return retailer if retailer == "dm" else retailer.title()
+
+
 def _safe_sheet_name(name: str) -> str:
     # Excel sheet names: max 31 chars, no []:*?/\\
     for ch in "[]:*?/\\":
@@ -114,7 +119,7 @@ def build_report():
         retailer = r["retailer"]
         status = r.get("status", "error")
         summary_rows.append([
-            retailer.title(),
+            _retailer_name(retailer),
             status,
             r.get("last_updated") or "—",
             r.get("total_catalog_size", 0),
@@ -129,7 +134,7 @@ def build_report():
         # --- Categories sheet (P&G vs. competitor pricing) + chart ---
         category_stats = r.get("category_stats") or {}
         if category_stats:
-            cat_ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Categories"))
+            cat_ws = wb.create_sheet(_safe_sheet_name(f"{_retailer_name(retailer)} Categories"))
             cat_rows = []
             for cat, cs in sorted(category_stats.items()):
                 top_brands = cs.get("top_competitor_brands") or []
@@ -160,7 +165,7 @@ def build_report():
                 chart = BarChart()
                 chart.type = "col"
                 chart.grouping = "clustered"
-                chart.title = f"{retailer.title()}: P&G vs. competitor avg price by category"
+                chart.title = f"{_retailer_name(retailer)}: P&G vs. competitor avg price by category"
                 chart.y_axis.title = "Avg price (EUR)"
                 chart.x_axis.title = "Category"
                 data_ref = Reference(cat_ws, min_col=4, max_col=5, min_row=1, max_row=n_cat + 1)
@@ -176,7 +181,7 @@ def build_report():
         # today" is visible instead of just missing from the sheet). ---
         watchlist = r.get("category_brand_watchlist") or {}
         if watchlist:
-            wl_ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Competitor Tracker"))
+            wl_ws = wb.create_sheet(_safe_sheet_name(f"{_retailer_name(retailer)} Competitor Tracker"))
             wl_rows = []
             for cat, groups in watchlist.items():
                 # Same like-for-like basis as the dashboard: each brand's
@@ -208,7 +213,7 @@ def build_report():
         products_path = DOCS_DIR / "products" / f"{retailer}.json"
         if products_path.exists():
             products = json.loads(products_path.read_text(encoding="utf-8"))
-            ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} P&G"))
+            ws = wb.create_sheet(_safe_sheet_name(f"{_retailer_name(retailer)} P&G"))
             _write_table(
                 ws,
                 ["Product", "Brand", "Category", "Fighting Category", "EAN", "Store", "Address", "City",
@@ -227,7 +232,7 @@ def build_report():
         flags_path = DOCS_DIR / "flags" / f"{retailer}.json"
         if flags_path.exists():
             flags = json.loads(flags_path.read_text(encoding="utf-8"))
-            ws = wb.create_sheet(_safe_sheet_name(f"{retailer.title()} Flagged"))
+            ws = wb.create_sheet(_safe_sheet_name(f"{_retailer_name(retailer)} Flagged"))
             _write_table(
                 ws,
                 ["Product", "EAN", "Brand", "Category", "Store", "City",
