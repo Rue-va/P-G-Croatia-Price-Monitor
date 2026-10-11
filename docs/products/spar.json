@@ -2284,7 +2284,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -5584,7 +5584,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -5915,28 +5915,6 @@
   "comparison_price": 3.03,
   "comparison_unit": "l",
   "barcode": "8700216880923",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8701",
-  "store_name": "Zd",
-  "street_address": "Bleiburskih Zrtava 18 8701 Interspar",
-  "city": "Zadar",
-  "product_id": "390447",
-  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kg",
-  "unit_price": 3.33,
-  "comparison_price": 3.33,
-  "comparison_unit": "kg",
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -10490,7 +10468,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -10535,28 +10513,6 @@
   "comparison_price": 0.22,
   "comparison_unit": "kom",
   "barcode": "8001841104652",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "323064",
-  "product": "BRITVICE VENUS3 PLUS 6/1",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "pg_brand": "Gillette",
-  "fighting_category": "Shave Care",
-  "price": 3.69,
-  "promo_price": 3.69,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kom",
-  "unit_price": 0.62,
-  "comparison_price": 0.62,
-  "comparison_unit": "kom",
-  "barcode": "7702018426232",
   "matched_via": "brand"
  },
  {
@@ -14076,7 +14032,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -16790,28 +16746,6 @@
   "store_name": "Zg Cco",
   "street_address": "Jankomir 33. 8702 Interspar",
   "city": "Zagreb",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
   "product_id": "401079",
   "product": "TAB.JAR PLAT.PLUS WINTER 122/1",
   "brand": "Jar",
@@ -19488,7 +19422,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -22876,7 +22810,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -27636,28 +27570,6 @@
   "store_name": "Os",
   "street_address": "Sv. Leopolda B. Mandica 7 8704 Interspar",
   "city": "Osijek",
-  "product_id": "321930",
-  "product": "DET.JAR ŠIPAK 1,35 L",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,3500",
-  "unit": "l",
-  "unit_price": 2.07,
-  "comparison_price": 2.07,
-  "comparison_unit": "l",
-  "barcode": "8001090621801",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8704",
-  "store_name": "Os",
-  "street_address": "Sv. Leopolda B. Mandica 7 8704 Interspar",
-  "city": "Osijek",
   "product_id": "322202",
   "product": "GEL OLD SPICE CAPTAIN 400 ml",
   "brand": "Old Spice",
@@ -27848,7 +27760,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -30972,7 +30884,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -35988,7 +35900,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -39684,7 +39596,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -44986,7 +44898,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -45830,28 +45742,6 @@
   "store_name": "Sb Osjecka",
   "street_address": "Osjecka 284 8706 Interspar",
   "city": "Slavonski Brod",
-  "product_id": "362489",
-  "product": "TAB.JAR ALL IN ONE 100/1",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "8006540750100",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8706",
-  "store_name": "Sb Osjecka",
-  "street_address": "Osjecka 284 8706 Interspar",
-  "city": "Slavonski Brod",
   "product_id": "363632",
   "product": "OSVJ.WC AMBIPUR APPLE 1/1",
   "brand": "Ambi Pur",
@@ -46329,28 +46219,6 @@
   "comparison_price": 38.6,
   "comparison_unit": "l",
   "barcode": "8006530444224",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8706",
-  "store_name": "Sb Osjecka",
-  "street_address": "Osjecka 284 8706 Interspar",
-  "city": "Slavonski Brod",
-  "product_id": "373515",
-  "product": "STARTER KIT AMBIPUR APPL.20 ml",
-  "brand": "Ambi Pur",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ambi Pur",
-  "fighting_category": "Air Care",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 5.99,
-  "comparison_price": 5.99,
-  "comparison_unit": "kg",
-  "barcode": "8700216149204",
   "matched_via": "brand"
  },
  {
@@ -52554,7 +52422,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -56866,7 +56734,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -62322,7 +62190,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -65842,7 +65710,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -67801,6 +67669,28 @@
   "comparison_price": 8.59,
   "comparison_unit": "kg",
   "barcode": "8006530250979",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "8708",
+  "store_name": "Interspar",
+  "street_address": "Gospodarska Ulica 5",
+  "city": "Donji Stupnik",
+  "product_id": "398899",
+  "product": "TAB.JAR PLAT.PLUS BBQ 102/1",
+  "brand": "Jar",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Jar",
+  "fighting_category": "Automatic Dishwashing",
+  "price": 19.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "102,0000",
+  "unit": "kom",
+  "unit_price": 0.2,
+  "comparison_price": 0.2,
+  "comparison_unit": "kom",
+  "barcode": "8006530390972",
   "matched_via": "brand"
  },
  {
@@ -70946,7 +70836,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -74356,7 +74246,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -79284,7 +79174,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -80055,28 +79945,6 @@
   "comparison_price": 9.63,
   "comparison_unit": "l",
   "barcode": "4084500978973",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8712",
-  "store_name": "Kc",
-  "street_address": "Gospodarska Ulica 1 8712 Interspar",
-  "city": "Koprivnica",
-  "product_id": "362489",
-  "product": "TAB.JAR ALL IN ONE 100/1",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "8006540750100",
   "matched_via": "brand"
  },
  {
@@ -86720,7 +86588,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -90262,7 +90130,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -95168,7 +95036,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -98622,7 +98490,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -103924,7 +103792,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -107290,7 +107158,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -112152,7 +112020,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -115496,7 +115364,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -120534,7 +120402,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -123922,7 +123790,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -129268,7 +129136,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -132590,7 +132458,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -135209,28 +135077,6 @@
   "comparison_price": 7.99,
   "comparison_unit": "l",
   "barcode": "8006530074018",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8718",
-  "store_name": "St Mos",
-  "street_address": "Josipa Jovica 93 8718 Interspar",
-  "city": "Split",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
   "matched_via": "brand"
  },
  {
@@ -137936,7 +137782,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -142028,7 +141874,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -147132,7 +146978,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -150564,7 +150410,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -155800,7 +155646,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -158880,7 +158726,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -164006,7 +163852,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -166500,28 +166346,6 @@
   "store_name": "Ri Krnjevo",
   "street_address": "Liburnijska Ulica 1 8722 Interspar",
   "city": "Rijeka",
-  "product_id": "378328",
-  "product": "REG.HERBAL ESSENCE ORAN.250 ml",
-  "brand": "Herbal Essences",
-  "category": "Kozmetika",
-  "pg_brand": "Herbal Essences",
-  "fighting_category": "Hair Care",
-  "price": 2.99,
-  "promo_price": 2.99,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 11.96,
-  "comparison_price": 11.96,
-  "comparison_unit": "l",
-  "barcode": "8700216210317",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8722",
-  "store_name": "Ri Krnjevo",
-  "street_address": "Liburnijska Ulica 1 8722 Interspar",
-  "city": "Rijeka",
   "product_id": "378329",
   "product": "REG.HERBAL ESSENCE COCO 250 ml",
   "brand": "Herbal Essences",
@@ -167878,7 +167702,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -173158,7 +172982,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -180682,7 +180506,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -181211,28 +181035,6 @@
   "comparison_price": 0.05,
   "comparison_unit": "kom",
   "barcode": "8006540100769",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8725",
-  "store_name": "Os",
-  "street_address": "Svilajska 31A 8725 Interspar",
-  "city": "Osijek",
-  "product_id": "350434",
-  "product": "PELENE GAĆ.PAMPERS JU.62/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Pampers",
-  "fighting_category": "Diapers",
-  "price": 15.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "62,0000",
-  "unit": "kom",
-  "unit_price": 0.26,
-  "comparison_price": 0.26,
-  "comparison_unit": "kom",
-  "barcode": "8006540069233",
   "matched_via": "brand"
  },
  {
@@ -183674,7 +183476,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -188382,7 +188184,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -189483,28 +189285,6 @@
   "comparison_price": 16.63,
   "comparison_unit": "kg",
   "barcode": "7702018405015",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8726",
-  "store_name": "Samobor",
-  "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
-  "city": "Samobor",
-  "product_id": "367811",
-  "product": "GEL ZA BRI.GILLETTE PRO 200 ml",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "pg_brand": "Gillette",
-  "fighting_category": "Shave Care",
-  "price": 3.85,
-  "promo_price": 3.85,
-  "regular_price": null,
-  "quantity": "0,2000",
-  "unit": "l",
-  "unit_price": 19.25,
-  "comparison_price": 19.25,
-  "comparison_unit": "l",
-  "barcode": "7702018604005",
   "matched_via": "brand"
  },
  {
@@ -196324,7 +196104,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -199822,7 +199602,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -204882,7 +204662,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -208094,7 +207874,7 @@
   "unit_price": 4.57,
   "comparison_price": 4.57,
   "comparison_unit": "kom",
-  "barcode": "8006530091626",
+  "barcode": "8001090819901",
   "matched_via": "brand"
  },
  {
@@ -217452,28 +217232,6 @@
   "store_name": "Si Supernova",
   "street_address": "Put Vida 6 87003 Spar",
   "city": "Sibenik",
-  "product_id": "331864",
-  "product": "GEL OLD SPICE CAPTAIN 2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216961967",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87003",
-  "store_name": "Si Supernova",
-  "street_address": "Put Vida 6 87003 Spar",
-  "city": "Sibenik",
   "product_id": "347842",
   "product": "ULOŠ.NATURELLA UL.PLUS 18/1",
   "brand": "Naturella",
@@ -218567,28 +218325,6 @@
   "comparison_price": 5.18,
   "comparison_unit": "l",
   "barcode": "8700216690829",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87003",
-  "store_name": "Si Supernova",
-  "street_address": "Put Vida 6 87003 Spar",
-  "city": "Sibenik",
-  "product_id": "387952",
-  "product": "TEK.DET. ARIEL MOUN.SPR.2,7 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 13.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 5.18,
-  "comparison_price": 5.18,
-  "comparison_unit": "l",
-  "barcode": "8700216690973",
   "matched_via": "brand"
  },
  {
@@ -222666,28 +222402,6 @@
   "store_name": "Zd Supernova",
   "street_address": "Ulica Akcije Maslenica 1 87004 Spar",
   "city": "Zadar",
-  "product_id": "398899",
-  "product": "TAB.JAR PLAT.PLUS BBQ 102/1",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "102,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "8006530390972",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87004",
-  "store_name": "Zd Supernova",
-  "street_address": "Ulica Akcije Maslenica 1 87004 Spar",
-  "city": "Zadar",
   "product_id": "399130",
   "product": "PEL.PAMPERS JP S5 58/1",
   "brand": "Pampers",
@@ -224484,7 +224198,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -228576,7 +228290,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -231481,28 +231195,6 @@
   "comparison_price": 0.37,
   "comparison_unit": "pranje",
   "barcode": "8700216764254",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87009",
-  "store_name": "Ck Galerija Sj",
-  "street_address": "Svetojelenska Cesta 25 87009 Spar",
-  "city": "Cakovec",
-  "product_id": "387930",
-  "product": "KAP.ARIEL COLOR FRESH 44/1",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 13.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "44,0000",
-  "unit": "kom",
-  "unit_price": 0.32,
-  "comparison_price": 0.32,
-  "comparison_unit": "pranje",
-  "barcode": "8700216764544",
   "matched_via": "brand"
  },
  {
@@ -234582,7 +234274,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -236232,7 +235924,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -239312,7 +239004,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -243889,28 +243581,6 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87017",
-  "store_name": "Zg Grada Mainz",
-  "street_address": "Ulica Grada Mainza 16 87017 Spar",
-  "city": "Zagreb",
-  "product_id": "397056",
-  "product": "GEL GILLETTE LABS 198 ml",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "pg_brand": "Gillette",
-  "fighting_category": "Shave Care",
-  "price": 5.19,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1980",
-  "unit": "l",
-  "unit_price": 26.21,
-  "comparison_price": 26.21,
-  "comparison_unit": "l",
-  "barcode": "8006530215138",
   "matched_via": "brand"
  },
  {
@@ -261774,7 +261444,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -265346,6 +265016,28 @@
   "store_name": "Ludbreg",
   "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
   "city": "Ludbreg",
+  "product_id": "387912",
+  "product": "OMEKŠIVAČ LENOR LOTUS 1,239 L",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Lenor",
+  "fighting_category": "Fabric Enhancers",
+  "price": 5.95,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,2390",
+  "unit": "l",
+  "unit_price": 4.8,
+  "comparison_price": 4.8,
+  "comparison_unit": "l",
+  "barcode": "8006530218306",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87028",
+  "store_name": "Ludbreg",
+  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
+  "city": "Ludbreg",
   "product_id": "387913",
   "product": "DET.ARIEL MOUNTA.SPRING 2,2 KG",
   "brand": "Ariel",
@@ -266109,6 +265801,28 @@
   "comparison_price": 0.47,
   "comparison_unit": "pranje",
   "barcode": "8006530540643",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87028",
+  "store_name": "Ludbreg",
+  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
+  "city": "Ludbreg",
+  "product_id": "401626",
+  "product": "OMEKŠIVAČ LENOR WINTER 1,239 L",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Lenor",
+  "fighting_category": "Fabric Enhancers",
+  "price": 5.95,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,2390",
+  "unit": "l",
+  "unit_price": 4.8,
+  "comparison_price": 4.8,
+  "comparison_unit": "l",
+  "barcode": "8006530554282",
   "matched_via": "brand"
  },
  {
@@ -271168,7 +270882,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -276228,7 +275942,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -281098,28 +280812,6 @@
   "store_name": "Pozega",
   "street_address": "Osjecka 10 87033 Spar",
   "city": "Pozega",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87033",
-  "store_name": "Pozega",
-  "street_address": "Osjecka 10 87033 Spar",
-  "city": "Pozega",
   "product_id": "401079",
   "product": "TAB.JAR PLAT.PLUS WINTER 122/1",
   "brand": "Jar",
@@ -285953,28 +285645,6 @@
   "comparison_price": 0.04,
   "comparison_unit": "kom",
   "barcode": "8006540523056",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87035",
-  "store_name": "Spar",
-  "street_address": "Zagrebacka Ulica 137",
-  "city": "Sv. Ivan Zelina",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
   "matched_via": "brand"
  },
  {
@@ -290946,7 +290616,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -291233,28 +290903,6 @@
   "comparison_price": 10.36,
   "comparison_unit": "l",
   "barcode": "8006530159142",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87038",
-  "store_name": "Zg",
-  "street_address": "Ante Topica Mimare 57 87038 Spar",
-  "city": "Zagreb",
-  "product_id": "402587",
-  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 14.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "44,0000",
-  "unit": "kom",
-  "unit_price": 0.34,
-  "comparison_price": 0.34,
-  "comparison_unit": "pranje",
-  "barcode": "8700216764940",
   "matched_via": "brand"
  },
  {
@@ -298536,7 +298184,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -301602,28 +301250,6 @@
   "store_name": "Spar",
   "street_address": "Stubicka Cesta 17 D",
   "city": "Marija Bistrica",
-  "product_id": "398899",
-  "product": "TAB.JAR PLAT.PLUS BBQ 102/1",
-  "brand": "Jar",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Jar",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "102,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "8006530390972",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87043",
-  "store_name": "Spar",
-  "street_address": "Stubicka Cesta 17 D",
-  "city": "Marija Bistrica",
   "product_id": "399153",
   "product": "VL.MAR.PAMPERS SENSITIVE 52/1",
   "brand": "Pampers",
@@ -302892,7 +302518,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -307432,6 +307058,28 @@
   "store_name": "Vk",
   "street_address": "Prilaz A. B. Simica 1 87045 Spar",
   "city": "Vinkovci",
+  "product_id": "390447",
+  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 19.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "6,0000",
+  "unit": "kg",
+  "unit_price": 3.33,
+  "comparison_price": 3.33,
+  "comparison_unit": "kg",
+  "barcode": "8700216733618",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
   "product_id": "390642",
   "product": "TEK.DET.ARIEL 1,125 L",
   "brand": "Ariel",
@@ -307887,6 +307535,28 @@
   "comparison_price": 0.28,
   "comparison_unit": "kom",
   "barcode": "8001841104959",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "400854",
+  "product": "DET.ARIEL COLOR 5 L",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 21.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "5,0000",
+  "unit": "l",
+  "unit_price": 4.4,
+  "comparison_price": 4.4,
+  "comparison_unit": "l",
+  "barcode": "8006530152532",
   "matched_via": "brand"
  },
  {
@@ -314860,7 +314530,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -315213,28 +314883,6 @@
   "comparison_price": 3.99,
   "comparison_unit": "l",
   "barcode": "8700216724074",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87051",
-  "store_name": "Zg Magovca",
-  "street_address": "Bozidara Magovca 47 87051 Spar",
-  "city": "Zagreb",
-  "product_id": "387946",
-  "product": "DET.ARIEL MOUNT.SPRING 3,46 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 13.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "3,4650",
-  "unit": "kg",
-  "unit_price": 4.04,
-  "comparison_price": 4.04,
-  "comparison_unit": "kg",
-  "barcode": "8700216733830",
   "matched_via": "brand"
  },
  {
@@ -316158,7 +315806,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -317236,7 +316884,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -318359,28 +318007,6 @@
   "comparison_price": 0.76,
   "comparison_unit": "kom",
   "barcode": "7702018849031",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87055",
-  "store_name": "Zg Horvatovac",
-  "street_address": "Horvatovac 58 87055 Spar",
-  "city": "Zagreb",
-  "product_id": "161760",
-  "product": "PEL.PAMPERS PREMIUM CARE 52/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Pampers",
-  "fighting_category": "Diapers",
-  "price": 15.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "52,0000",
-  "unit": "kom",
-  "unit_price": 0.31,
-  "comparison_price": 0.31,
-  "comparison_unit": "kom",
-  "barcode": "4015400278818",
   "matched_via": "brand"
  },
  {
@@ -333824,7 +333450,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -338144,28 +337770,6 @@
   "store_name": "Zg Branimirova",
   "street_address": "Kneza Branimira 163 87072 Spar",
   "city": "Zagreb",
-  "product_id": "387912",
-  "product": "OMEKŠIVAČ LENOR LOTUS 1,239 L",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.95,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,2390",
-  "unit": "l",
-  "unit_price": 4.8,
-  "comparison_price": 4.8,
-  "comparison_unit": "l",
-  "barcode": "8006530218306",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87072",
-  "store_name": "Zg Branimirova",
-  "street_address": "Kneza Branimira 163 87072 Spar",
-  "city": "Zagreb",
   "product_id": "387913",
   "product": "DET.ARIEL MOUNTA.SPRING 2,2 KG",
   "brand": "Ariel",
@@ -340798,7 +340402,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -347420,7 +347024,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -351688,7 +351292,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -356022,7 +355626,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -368302,28 +367906,6 @@
   "matched_via": "brand"
  },
  {
-  "store_id": "87086",
-  "store_name": "Zg Gruska",
-  "street_address": "Gruska 18 87086 Spar",
-  "city": "Zagreb",
-  "product_id": "402587",
-  "product": "KAP.ARIEL EXTRA CLEAN 44/1",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 14.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "44,0000",
-  "unit": "kom",
-  "unit_price": 0.34,
-  "comparison_price": 0.34,
-  "comparison_unit": "pranje",
-  "barcode": "8700216764940",
-  "matched_via": "brand"
- },
- {
   "store_id": "87088",
   "store_name": "Sb Svaciceva",
   "street_address": "Petra Svacica 2 87088 Spar",
@@ -369816,7 +369398,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -371313,28 +370895,6 @@
   "comparison_price": 8.88,
   "comparison_unit": "l",
   "barcode": "8700216691925",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87088",
-  "store_name": "Sb Svaciceva",
-  "street_address": "Petra Svacica 2 87088 Spar",
-  "city": "Slavonski Brod",
-  "product_id": "390644",
-  "product": "KAP.ARIEL COLOR FRESH 19/1",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 8.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "19,0000",
-  "unit": "kom",
-  "unit_price": 0.47,
-  "comparison_price": 0.47,
-  "comparison_unit": "pranje",
-  "barcode": "8700216765114",
   "matched_via": "brand"
  },
  {
@@ -375082,6 +374642,28 @@
   "store_name": "Os Trpimirova",
   "street_address": "Kneza Trpimira 14 87089 Spar",
   "city": "Osijek",
+  "product_id": "388766",
+  "product": "KAP.ARIEL MOUNTAIN SPRING 70/1",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 19.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "70,0000",
+  "unit": "kom",
+  "unit_price": 0.29,
+  "comparison_price": 0.29,
+  "comparison_unit": "pranje",
+  "barcode": "8700216764193",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
   "product_id": "388796",
   "product": "OME.LENOR SENSITIVE 1,491 L",
   "brand": "Lenor",
@@ -375097,6 +374679,28 @@
   "comparison_price": 3.99,
   "comparison_unit": "l",
   "barcode": "8700216723985",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "390443",
+  "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 19.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "4,5000",
+  "unit": "l",
+  "unit_price": 4.44,
+  "comparison_price": 4.44,
+  "comparison_unit": "l",
+  "barcode": "8700216691840",
   "matched_via": "brand"
  },
  {
@@ -375764,6 +375368,28 @@
   "store_name": "Os Trpimirova",
   "street_address": "Kneza Trpimira 14 87089 Spar",
   "city": "Osijek",
+  "product_id": "400854",
+  "product": "DET.ARIEL COLOR 5 L",
+  "brand": "Ariel",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Ariel",
+  "fighting_category": "Laundry",
+  "price": 21.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "5,0000",
+  "unit": "l",
+  "unit_price": 4.4,
+  "comparison_price": 4.4,
+  "comparison_unit": "l",
+  "barcode": "8006530152532",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
   "product_id": "401019",
   "product": "DET.ARIEL FRESH AIR 4,4 kg",
   "brand": "Ariel",
@@ -375801,6 +375427,50 @@
   "comparison_price": 5.14,
   "comparison_unit": "l",
   "barcode": "8006530660686",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "401625",
+  "product": "MIR.PERLICE LENOR WINTER 495 g",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Lenor",
+  "fighting_category": "Fabric Enhancers",
+  "price": 11.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "495,0000",
+  "unit": "kg",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kg",
+  "barcode": "8006530530132",
+  "matched_via": "brand"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "401626",
+  "product": "OMEKŠIVAČ LENOR WINTER 1,239 L",
+  "brand": "Lenor",
+  "category": "Sredstva za čišćenje",
+  "pg_brand": "Lenor",
+  "fighting_category": "Fabric Enhancers",
+  "price": 5.95,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,2390",
+  "unit": "l",
+  "unit_price": 4.8,
+  "comparison_price": 4.8,
+  "comparison_unit": "l",
+  "barcode": "8006530554282",
   "matched_via": "brand"
  },
  {
@@ -381344,7 +381014,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -384468,7 +384138,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -386060,28 +385730,6 @@
   "store_name": "Bjelovar",
   "street_address": "Andrije Hebranga 2A 87092 Spar",
   "city": "Bjelovar",
-  "product_id": "398520",
-  "product": "OSVJ.AMBI PUR ALOHA GEL 2x8 ml",
-  "brand": "Ambi Pur",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ambi Pur",
-  "fighting_category": "Air Care",
-  "price": 8.59,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 8.59,
-  "comparison_price": 8.59,
-  "comparison_unit": "kg",
-  "barcode": "8006530250979",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87092",
-  "store_name": "Bjelovar",
-  "street_address": "Andrije Hebranga 2A 87092 Spar",
-  "city": "Bjelovar",
   "product_id": "399154",
   "product": "PEL.PAMPERS JP.S4 68/1",
   "brand": "Pampers",
@@ -387614,7 +387262,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -387703,28 +387351,6 @@
   "comparison_price": 7.49,
   "comparison_unit": "l",
   "barcode": "8700216980319",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87093",
-  "store_name": "Ka Kresimirova",
-  "street_address": "Kralja P. Kresimira Iv 10 87093 Spar",
-  "city": "Karlovac",
-  "product_id": "331864",
-  "product": "GEL OLD SPICE CAPTAIN 2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216961967",
   "matched_via": "brand"
  },
  {
@@ -396876,7 +396502,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -397874,28 +397500,6 @@
   "store_name": "Os",
   "street_address": "Strossmayerova 167 87096 Spar",
   "city": "Osijek",
-  "product_id": "390443",
-  "product": "DET.ARIEL MOUNTAI.SPRING 4,5 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,5000",
-  "unit": "l",
-  "unit_price": 4.44,
-  "comparison_price": 4.44,
-  "comparison_unit": "l",
-  "barcode": "8700216691840",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87096",
-  "store_name": "Os",
-  "street_address": "Strossmayerova 167 87096 Spar",
-  "city": "Osijek",
   "product_id": "390447",
   "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
   "brand": "Ariel",
@@ -397933,28 +397537,6 @@
   "comparison_price": 8.88,
   "comparison_unit": "l",
   "barcode": "8700216691697",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87096",
-  "store_name": "Os",
-  "street_address": "Strossmayerova 167 87096 Spar",
-  "city": "Osijek",
-  "product_id": "390643",
-  "product": "TEK.DET. ARIEL COLOR 1,125 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 9.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,1250",
-  "unit": "l",
-  "unit_price": 8.88,
-  "comparison_price": 8.88,
-  "comparison_unit": "l",
-  "barcode": "8700216691925",
   "matched_via": "brand"
  },
  {
@@ -403257,28 +402839,6 @@
   "comparison_price": 1.3,
   "comparison_unit": "kom",
   "barcode": "7702018018116",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87100",
-  "store_name": "Suhopolje",
-  "street_address": "Kralja Tomislava 2 87100 Spar",
-  "city": "Suhopolje",
-  "product_id": "173748",
-  "product": "ČET.OB 3EFFECT NATURALS 1+1",
-  "brand": "Oral B",
-  "category": "Kozmetika",
-  "pg_brand": "Oral-B",
-  "fighting_category": "Oral Care",
-  "price": 1.55,
-  "promo_price": 1.55,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 1.55,
-  "comparison_price": 1.55,
-  "comparison_unit": "kg",
-  "barcode": "3014260022839",
   "matched_via": "brand"
  },
  {
@@ -409086,7 +408646,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -414124,7 +413684,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -425520,7 +425080,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -431219,28 +430779,6 @@
   "comparison_price": 0.01,
   "comparison_unit": "l",
   "barcode": "8700216722940",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87109",
-  "store_name": "Knin",
-  "street_address": "Getaldiceva Bb 87109 Spar",
-  "city": "Knin",
-  "product_id": "387869",
-  "product": "KONC.OMEKŠIVAČ LENOR 700 ml",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.95,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "700,0000",
-  "unit": "l",
-  "unit_price": 0.01,
-  "comparison_price": 0.01,
-  "comparison_unit": "l",
-  "barcode": "8700216722933",
   "matched_via": "brand"
  },
  {
@@ -438698,7 +438236,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {
@@ -447044,28 +446582,6 @@
   "store_name": "Nin",
   "street_address": "Put Bagata 11 87133 Spar",
   "city": "Nin",
-  "product_id": "390447",
-  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kg",
-  "unit_price": 3.33,
-  "comparison_price": 3.33,
-  "comparison_unit": "kg",
-  "barcode": "8700216733618",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87133",
-  "store_name": "Nin",
-  "street_address": "Put Bagata 11 87133 Spar",
-  "city": "Nin",
   "product_id": "390705",
   "product": "OSV.AMBI PUR GOLD 2x20 ml",
   "brand": "Ambi Pur",
@@ -451312,28 +450828,6 @@
   "store_name": "Pregrada",
   "street_address": "Ulica Janka Leskovara 46 87135 Spar",
   "city": "Pregrada",
-  "product_id": "390642",
-  "product": "TEK.DET.ARIEL 1,125 L",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 9.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,1250",
-  "unit": "l",
-  "unit_price": 8.88,
-  "comparison_price": 8.88,
-  "comparison_unit": "l",
-  "barcode": "8700216691697",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87135",
-  "store_name": "Pregrada",
-  "street_address": "Ulica Janka Leskovara 46 87135 Spar",
-  "city": "Pregrada",
   "product_id": "390705",
   "product": "OSV.AMBI PUR GOLD 2x20 ml",
   "brand": "Ambi Pur",
@@ -453791,28 +453285,6 @@
   "comparison_price": 0.14,
   "comparison_unit": "kom",
   "barcode": "8700216819305",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87138",
-  "store_name": "Prelog",
-  "street_address": "Cakovecka 113 87138 Spar",
-  "city": "Prelog",
-  "product_id": "398517",
-  "product": "OS.AMBI PUR ALOHA 2x20 ml",
-  "brand": "Ambi Pur",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ambi Pur",
-  "fighting_category": "Air Care",
-  "price": 8.35,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "40,0000",
-  "unit": "kg",
-  "unit_price": 0.21,
-  "comparison_price": 0.21,
-  "comparison_unit": "kg",
-  "barcode": "8700216776134",
   "matched_via": "brand"
  },
  {
@@ -462722,7 +462194,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8006530320009",
+  "barcode": "8001090759832",
   "matched_via": "brand"
  },
  {

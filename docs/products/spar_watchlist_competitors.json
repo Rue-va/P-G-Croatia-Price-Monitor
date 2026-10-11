@@ -1859,7 +1859,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8701",
@@ -2790,7 +2790,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8701",
@@ -2904,7 +2904,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8701",
@@ -3227,7 +3227,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8701",
@@ -4158,7 +4158,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8701",
@@ -4538,7 +4538,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8701",
@@ -12385,7 +12385,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8701",
@@ -15919,7 +15919,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8701",
@@ -18617,7 +18617,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8702",
@@ -19548,7 +19548,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8702",
@@ -19662,7 +19662,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8702",
@@ -19985,7 +19985,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8702",
@@ -20935,7 +20935,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8702",
@@ -21315,7 +21315,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8702",
@@ -23425,25 +23425,6 @@
   "comparison_price": 1.65,
   "comparison_unit": "kg",
   "barcode": "8718951197183"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "343366",
-  "product": "ROLL ON BOROTALCO INV.FR.50 ml",
-  "brand": "Borotalco",
-  "fighting_category": "APDO",
-  "price": 1.99,
-  "promo_price": 1.99,
-  "regular_price": null,
-  "quantity": "0,5000",
-  "unit": "kg",
-  "unit_price": 3.98,
-  "comparison_price": 3.98,
-  "comparison_unit": "kg",
-  "barcode": "80320159"
  },
  {
   "store_id": "8702",
@@ -29865,7 +29846,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8702",
@@ -33608,7 +33589,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8702",
@@ -36344,7 +36325,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8703",
@@ -37332,7 +37313,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8703",
@@ -37446,7 +37427,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8703",
@@ -37788,7 +37769,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8703",
@@ -38776,7 +38757,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8703",
@@ -39137,7 +39118,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8703",
@@ -46744,25 +46725,6 @@
   "store_name": "Sisak",
   "street_address": "Ivana Fistrovica 25 8703 Interspar",
   "city": "Sisak",
-  "product_id": "385095",
-  "product": "TABLETE FINISH ULTIMATE 100/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.18,
-  "comparison_price": 0.18,
-  "comparison_unit": "kom",
-  "barcode": "5999109583406"
- },
- {
-  "store_id": "8703",
-  "store_name": "Sisak",
-  "street_address": "Ivana Fistrovica 25 8703 Interspar",
-  "city": "Sisak",
   "product_id": "385125",
   "product": "ROLL ON BOROTALCO PURE M 50 ml",
   "brand": "Borotalco",
@@ -47611,7 +47573,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8703",
@@ -51202,7 +51164,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8703",
@@ -53900,7 +53862,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8704",
@@ -54812,7 +54774,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8704",
@@ -54926,7 +54888,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8704",
@@ -55230,7 +55192,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8704",
@@ -56199,7 +56161,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8704",
@@ -56541,7 +56503,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8704",
@@ -64597,7 +64559,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8704",
@@ -68245,7 +68207,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8704",
@@ -71038,7 +71000,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8705",
@@ -71950,7 +71912,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8705",
@@ -72064,7 +72026,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8705",
@@ -72406,7 +72368,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8705",
@@ -73173,25 +73135,6 @@
   "store_name": "Zg",
   "street_address": "Ulica Kneza Branimira 181 8705 Interspar",
   "city": "Zagreb",
-  "product_id": "259840",
-  "product": "ROOT RETOUCHER SYOSS K.120 ml",
-  "brand": "Syoss",
-  "fighting_category": "Hair Care",
-  "price": 3.15,
-  "promo_price": 3.15,
-  "regular_price": null,
-  "quantity": "0,1200",
-  "unit": "l",
-  "unit_price": 26.25,
-  "comparison_price": 26.25,
-  "comparison_unit": "l",
-  "barcode": "9000101052855"
- },
- {
-  "store_id": "8705",
-  "store_name": "Zg",
-  "street_address": "Ulica Kneza Branimira 181 8705 Interspar",
-  "city": "Zagreb",
   "product_id": "266022",
   "product": "ZUB.PASTA SIGNAL WHITE 125 ml",
   "brand": "Signal",
@@ -73375,7 +73318,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8705",
@@ -73755,7 +73698,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8705",
@@ -77214,25 +77157,6 @@
   "comparison_price": 416.33,
   "comparison_unit": "l",
   "barcode": "3600542432924"
- },
- {
-  "store_id": "8705",
-  "store_name": "Zg",
-  "street_address": "Ulica Kneza Branimira 181 8705 Interspar",
-  "city": "Zagreb",
-  "product_id": "354496",
-  "product": "KAPSULE FAKS COL.LAVANDA 14/1",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 7.95,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "14,0000",
-  "unit": "kom",
-  "unit_price": 0.57,
-  "comparison_price": 0.57,
-  "comparison_unit": "pranje",
-  "barcode": "3850105179296"
  },
  {
   "store_id": "8705",
@@ -82381,7 +82305,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8705",
@@ -86143,7 +86067,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8705",
@@ -89848,7 +89772,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8706",
@@ -90152,7 +90076,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8706",
@@ -91045,7 +90969,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8706",
@@ -91387,7 +91311,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8706",
@@ -99177,7 +99101,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8706",
@@ -102597,7 +102521,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8706",
@@ -105238,7 +105162,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8707",
@@ -106188,7 +106112,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8707",
@@ -106302,7 +106226,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8707",
@@ -106625,7 +106549,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8707",
@@ -107613,7 +107537,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8707",
@@ -107993,7 +107917,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8707",
@@ -110065,25 +109989,6 @@
   "comparison_price": 1.65,
   "comparison_unit": "kg",
   "barcode": "8718951197183"
- },
- {
-  "store_id": "8707",
-  "store_name": "Zg",
-  "street_address": "Skorpikova 34 2 8707 Interspar",
-  "city": "Zagreb",
-  "product_id": "343366",
-  "product": "ROLL ON BOROTALCO INV.FR.50 ml",
-  "brand": "Borotalco",
-  "fighting_category": "APDO",
-  "price": 1.99,
-  "promo_price": 1.99,
-  "regular_price": null,
-  "quantity": "0,5000",
-  "unit": "kg",
-  "unit_price": 3.98,
-  "comparison_price": 3.98,
-  "comparison_unit": "kg",
-  "barcode": "80320159"
  },
  {
   "store_id": "8707",
@@ -116657,7 +116562,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8707",
@@ -120400,7 +120305,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8707",
@@ -123193,7 +123098,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8708",
@@ -124086,7 +123991,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8708",
@@ -124200,7 +124105,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8708",
@@ -124504,7 +124409,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8708",
@@ -125492,7 +125397,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8708",
@@ -125891,7 +125796,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8708",
@@ -131465,19 +131370,19 @@
   "store_name": "Interspar",
   "street_address": "Gospodarska Ulica 5",
   "city": "Donji Stupnik",
-  "product_id": "369821",
-  "product": "ŠAMP.SYOSS KER. 750 ml",
-  "brand": "Syoss",
-  "fighting_category": "Hair Care",
-  "price": 5.49,
-  "promo_price": 5.49,
+  "product_id": "369741",
+  "product": "GEL TUŠ.FA MEN ENERGY 750 ml",
+  "brand": "Fa",
+  "fighting_category": "APDO",
+  "price": 4.99,
+  "promo_price": null,
   "regular_price": null,
   "quantity": "0,7500",
   "unit": "l",
-  "unit_price": 7.32,
-  "comparison_price": 7.32,
+  "unit_price": 6.65,
+  "comparison_price": 6.65,
   "comparison_unit": "l",
-  "barcode": "5201143725606"
+  "barcode": "9000101609394"
  },
  {
   "store_id": "8708",
@@ -134726,7 +134631,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8708",
@@ -138355,7 +138260,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8708",
@@ -139027,6 +138932,25 @@
   "store_name": "Interspar",
   "street_address": "Gospodarska Ulica 5",
   "city": "Donji Stupnik",
+  "product_id": "402144",
+  "product": "OME.ORNEL YELLOW 4 L",
+  "brand": "Ornel",
+  "fighting_category": "Fabric Enhancers",
+  "price": 6.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "4,0000",
+  "unit": "l",
+  "unit_price": 1.75,
+  "comparison_price": 1.75,
+  "comparison_unit": "l",
+  "barcode": "3850105190468"
+ },
+ {
+  "store_id": "8708",
+  "store_name": "Interspar",
+  "street_address": "Gospodarska Ulica 5",
+  "city": "Donji Stupnik",
   "product_id": "402145",
   "product": "TAB.FINISH ULT.PLUS AIO 70/1",
   "brand": "Finish",
@@ -139192,6 +139116,25 @@
   "comparison_price": 4.49,
   "comparison_unit": "kg",
   "barcode": "3858896370274"
+ },
+ {
+  "store_id": "8708",
+  "store_name": "Interspar",
+  "street_address": "Gospodarska Ulica 5",
+  "city": "Donji Stupnik",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "8708",
@@ -141072,7 +141015,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8711",
@@ -141965,7 +141908,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8711",
@@ -142079,7 +142022,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8711",
@@ -142383,7 +142326,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8711",
@@ -143333,7 +143276,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8711",
@@ -143694,7 +143637,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8711",
@@ -151465,7 +151408,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8711",
@@ -154075,25 +154018,6 @@
   "store_name": "Zg Garden",
   "street_address": "Kolakova 14  Dubrava 8711 Interspar",
   "city": "Zagreb",
-  "product_id": "396151",
-  "product": "ŠAM.SCHAUMA HAIR BOOOST 350 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,3500",
-  "unit": "l",
-  "unit_price": 7.11,
-  "comparison_price": 7.11,
-  "comparison_unit": "l",
-  "barcode": "9000101766783"
- },
- {
-  "store_id": "8711",
-  "store_name": "Zg Garden",
-  "street_address": "Kolakova 14  Dubrava 8711 Interspar",
-  "city": "Zagreb",
   "product_id": "396167",
   "product": "OME.SILAN MALDIVES 1,364 L",
   "brand": "Silan",
@@ -155094,7 +155018,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8711",
@@ -158761,7 +158685,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8712",
@@ -159046,7 +158970,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8712",
@@ -159977,7 +159901,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8712",
@@ -160338,7 +160262,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8712",
@@ -164677,25 +164601,6 @@
   "store_name": "Kc",
   "street_address": "Gospodarska Ulica 1 8712 Interspar",
   "city": "Koprivnica",
-  "product_id": "365159",
-  "product": "DET.VIO BADEM 450 ml",
-  "brand": "Čarli",
-  "fighting_category": "Hand Dishwashing",
-  "price": 1.39,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4500",
-  "unit": "l",
-  "unit_price": 3.09,
-  "comparison_price": 3.09,
-  "comparison_unit": "l",
-  "barcode": "3870128034501"
- },
- {
-  "store_id": "8712",
-  "store_name": "Kc",
-  "street_address": "Gospodarska Ulica 1 8712 Interspar",
-  "city": "Koprivnica",
   "product_id": "365887",
   "product": "DET.PERSIL REGULAR 1,98 L",
   "brand": "Persil",
@@ -168147,7 +168052,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8712",
@@ -169459,25 +169364,6 @@
   "comparison_price": 6.35,
   "comparison_unit": "kg",
   "barcode": "3850105187826"
- },
- {
-  "store_id": "8712",
-  "store_name": "Kc",
-  "street_address": "Gospodarska Ulica 1 8712 Interspar",
-  "city": "Koprivnica",
-  "product_id": "391794",
-  "product": "DET.FAKS SUPERAKTIV 1,1 kg",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 6.99,
-  "promo_price": 6.99,
-  "regular_price": null,
-  "quantity": "1,1000",
-  "unit": "kg",
-  "unit_price": 6.35,
-  "comparison_price": 6.35,
-  "comparison_unit": "kg",
-  "barcode": "3850105187857"
  },
  {
   "store_id": "8712",
@@ -171529,7 +171415,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8712",
@@ -174170,7 +174056,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8713",
@@ -175120,7 +175006,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8713",
@@ -175234,7 +175120,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8713",
@@ -175557,7 +175443,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8713",
@@ -176488,7 +176374,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8713",
@@ -176868,7 +176754,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8713",
@@ -182537,25 +182423,6 @@
   "store_name": "Ka",
   "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
   "city": "Karlovac",
-  "product_id": "374111",
-  "product": "KAP.PERSIL COLOR 26/1",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 9.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "26,0000",
-  "unit": "kom",
-  "unit_price": 0.37,
-  "comparison_price": 0.37,
-  "comparison_unit": "pranje",
-  "barcode": "9000101800043"
- },
- {
-  "store_id": "8713",
-  "store_name": "Ka",
-  "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
-  "city": "Karlovac",
   "product_id": "374185",
   "product": "MASKA FRUCTIS KAKAO MAS.390 ml",
   "brand": "Garnier",
@@ -184589,25 +184456,6 @@
   "store_name": "Ka",
   "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
   "city": "Karlovac",
-  "product_id": "385134",
-  "product": "TAB.FINISH ULTIMATE PLUS 90/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "90,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "5908252011025"
- },
- {
-  "store_id": "8713",
-  "store_name": "Ka",
-  "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
-  "city": "Karlovac",
   "product_id": "385307",
   "product": "ŠAMP.GLISS FULL HAIR 400 ml",
   "brand": "Gliss",
@@ -185323,7 +185171,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8713",
@@ -186407,25 +186255,6 @@
   "comparison_price": 9.99,
   "comparison_unit": "l",
   "barcode": "3856027802670"
- },
- {
-  "store_id": "8713",
-  "store_name": "Ka",
-  "street_address": "Prilaz V. Holjevca 12 8713 Interspar",
-  "city": "Karlovac",
-  "product_id": "389888",
-  "product": "GEL TUŠ.DOVE HYDRATE 2x450 ml",
-  "brand": "Dove",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,9000",
-  "unit": "l",
-  "unit_price": 6.66,
-  "comparison_price": 6.66,
-  "comparison_unit": "l",
-  "barcode": "3856027802632"
  },
  {
   "store_id": "8713",
@@ -188895,7 +188724,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8713",
@@ -191087,25 +190916,6 @@
   "store_name": "Zg Arena",
   "street_address": "Ulica Vice Vukova 6 8714 Interspar",
   "city": "Zagreb",
-  "product_id": "61524",
-  "product": "ŠAM.SCHAUMA REGENERACI.400 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 3.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 8.73,
-  "comparison_price": 8.73,
-  "comparison_unit": "l",
-  "barcode": "3838824138923"
- },
- {
-  "store_id": "8714",
-  "store_name": "Zg Arena",
-  "street_address": "Ulica Vice Vukova 6 8714 Interspar",
-  "city": "Zagreb",
   "product_id": "72309",
   "product": "DEO STICK AXE DARK TEMPT.50 ml",
   "brand": "Axe",
@@ -191612,7 +191422,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8714",
@@ -192543,7 +192353,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8714",
@@ -192657,7 +192467,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8714",
@@ -192961,7 +192771,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8714",
@@ -193576,25 +193386,6 @@
   "store_name": "Zg Arena",
   "street_address": "Ulica Vice Vukova 6 8714 Interspar",
   "city": "Zagreb",
-  "product_id": "257525",
-  "product": "DEO SPR.REXONA ACTIVE S.150ml",
-  "brand": "Rexona",
-  "fighting_category": "APDO",
-  "price": 5.45,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1500",
-  "unit": "l",
-  "unit_price": 36.33,
-  "comparison_price": 36.33,
-  "comparison_unit": "l",
-  "barcode": "8710908760716"
- },
- {
-  "store_id": "8714",
-  "store_name": "Zg Arena",
-  "street_address": "Ulica Vice Vukova 6 8714 Interspar",
-  "city": "Zagreb",
   "product_id": "257939",
   "product": "GEL TUŠ.NIVEA MEN SPORT 500 ml",
   "brand": "Nivea",
@@ -193911,7 +193702,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8714",
@@ -194253,7 +194044,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8714",
@@ -202803,7 +202594,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8714",
@@ -206394,7 +206185,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8714",
@@ -209111,7 +208902,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8715",
@@ -210023,7 +209814,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8715",
@@ -210137,7 +209928,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8715",
@@ -210441,7 +210232,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8715",
@@ -211391,7 +211182,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8715",
@@ -211790,7 +211581,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8715",
@@ -214736,25 +214527,6 @@
   "comparison_price": 0.99,
   "comparison_unit": "kg",
   "barcode": "9100000905914"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "350554",
-  "product": "SPAR VR. ZA SMEĆ EXT 25L 30/1",
-  "brand": "SPAR",
-  "fighting_category": "Baby Wipes",
-  "price": 2.39,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "30,0000",
-  "unit": "kg",
-  "unit_price": 0.08,
-  "comparison_price": 0.08,
-  "comparison_unit": "kg",
-  "barcode": "9100000545554"
  },
  {
   "store_id": "8715",
@@ -217820,25 +217592,6 @@
   "store_name": "St Cco ",
   "street_address": "Vukovarska 207 8715 Interspar",
   "city": "Split",
-  "product_id": "377050",
-  "product": "DEO S.REXONA MEN COBALT 200 ml",
-  "brand": "Rexona",
-  "fighting_category": "APDO",
-  "price": 6.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2000",
-  "unit": "l",
-  "unit_price": 34.95,
-  "comparison_price": 34.95,
-  "comparison_unit": "l",
-  "barcode": "8720181334757"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
   "product_id": "377052",
   "product": "DEO SP.AXE JUNGLE FRESH 150 ml",
   "brand": "Axe",
@@ -219846,7 +219599,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8715",
@@ -219980,25 +219733,6 @@
   "comparison_price": 223.8,
   "comparison_unit": "l",
   "barcode": "9005800404004"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "386627",
-  "product": "OME.SILAN SENSITIVE 2X1,67 L",
-  "brand": "Silan",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "3,3400",
-  "unit": "l",
-  "unit_price": 2.09,
-  "comparison_price": 2.09,
-  "comparison_unit": "l",
-  "barcode": "9000101597219"
  },
  {
   "store_id": "8715",
@@ -223475,7 +223209,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8715",
@@ -226154,7 +225888,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8716",
@@ -227066,7 +226800,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8716",
@@ -227180,7 +226914,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8716",
@@ -227484,7 +227218,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8716",
@@ -228434,7 +228168,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8716",
@@ -228795,7 +228529,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8716",
@@ -237193,7 +236927,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8716",
@@ -240727,7 +240461,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8716",
@@ -243463,7 +243197,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8717",
@@ -244394,7 +244128,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8717",
@@ -244508,7 +244242,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8717",
@@ -244812,7 +244546,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8717",
@@ -245762,7 +245496,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8717",
@@ -246104,7 +245838,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8717",
@@ -254445,7 +254179,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8717",
@@ -258283,7 +258017,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8717",
@@ -259006,6 +258740,25 @@
   "comparison_price": 0.28,
   "comparison_unit": "kom",
   "barcode": "5999109584700"
+ },
+ {
+  "store_id": "8717",
+  "store_name": "Zg Buzin",
+  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "8717",
@@ -260905,7 +260658,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8718",
@@ -261817,7 +261570,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8718",
@@ -261931,7 +261684,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8718",
@@ -262235,7 +261988,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8718",
@@ -263185,7 +262938,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8718",
@@ -263527,7 +263280,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8718",
@@ -271412,7 +271165,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8718",
@@ -275079,7 +274832,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8718",
@@ -277986,7 +277739,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8719",
@@ -279012,7 +278765,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8719",
@@ -279126,7 +278879,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8719",
@@ -279468,7 +279221,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8719",
@@ -280475,7 +280228,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8719",
@@ -280836,7 +280589,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8719",
@@ -287075,25 +286828,6 @@
   "store_name": "Pu",
   "street_address": "Rimske Centurijacije 101 8719 Interspar",
   "city": "Pula",
-  "product_id": "374110",
-  "product": "KAP.PERSIL UNIVERSAL 26/1",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 9.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "26,0000",
-  "unit": "kom",
-  "unit_price": 0.37,
-  "comparison_price": 0.37,
-  "comparison_unit": "pranje",
-  "barcode": "9000101599466"
- },
- {
-  "store_id": "8719",
-  "store_name": "Pu",
-  "street_address": "Rimske Centurijacije 101 8719 Interspar",
-  "city": "Pula",
   "product_id": "374185",
   "product": "MASKA FRUCTIS KAKAO MAS.390 ml",
   "brand": "Garnier",
@@ -290165,7 +289899,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8719",
@@ -293946,7 +293680,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8719",
@@ -296625,7 +296359,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8720",
@@ -297537,7 +297271,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8720",
@@ -297651,7 +297385,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8720",
@@ -297955,7 +297689,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8720",
@@ -298924,7 +298658,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8720",
@@ -299304,7 +299038,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8720",
@@ -307398,7 +307132,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8720",
@@ -311065,7 +310799,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8720",
@@ -313763,7 +313497,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8721",
@@ -314675,7 +314409,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8721",
@@ -314789,7 +314523,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8721",
@@ -315093,7 +314827,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8721",
@@ -316043,7 +315777,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8721",
@@ -316385,7 +316119,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8721",
@@ -317032,25 +316766,6 @@
   "comparison_price": 169.8,
   "comparison_unit": "l",
   "barcode": "3600542243377"
- },
- {
-  "store_id": "8721",
-  "store_name": "Ri Tower",
-  "street_address": "Janka Polica Kamova 81A 8721 Interspar",
-  "city": "Rijeka",
-  "product_id": "327514",
-  "product": "DET.ZA SUĐE LIKVI ULTRA 1,35 L",
-  "brand": "Likvi",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,3500",
-  "unit": "l",
-  "unit_price": 2.21,
-  "comparison_price": 2.21,
-  "comparison_unit": "l",
-  "barcode": "3850105170538"
  },
  {
   "store_id": "8721",
@@ -324270,7 +323985,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8721",
@@ -327975,7 +327690,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8721",
@@ -330730,7 +330445,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8722",
@@ -331661,7 +331376,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8722",
@@ -331775,7 +331490,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8722",
@@ -332098,7 +331813,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8722",
@@ -333105,7 +332820,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8722",
@@ -333466,7 +333181,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8722",
@@ -342206,7 +341921,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8722",
@@ -343347,25 +343062,6 @@
   "comparison_price": 9.99,
   "comparison_unit": "l",
   "barcode": "3856027802670"
- },
- {
-  "store_id": "8722",
-  "store_name": "Ri Krnjevo",
-  "street_address": "Liburnijska Ulica 1 8722 Interspar",
-  "city": "Rijeka",
-  "product_id": "389888",
-  "product": "GEL TUŠ.DOVE HYDRATE 2x450 ml",
-  "brand": "Dove",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,9000",
-  "unit": "l",
-  "unit_price": 6.66,
-  "comparison_price": 6.66,
-  "comparison_unit": "l",
-  "barcode": "3856027802632"
  },
  {
   "store_id": "8722",
@@ -345835,7 +345531,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8722",
@@ -348514,7 +348210,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8723",
@@ -349502,7 +349198,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8723",
@@ -349787,7 +349483,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8723",
@@ -350402,25 +350098,6 @@
   "store_name": "Zd",
   "street_address": "Ante Starcevica 5A 8723 Interspar",
   "city": "Zadar",
-  "product_id": "257525",
-  "product": "DEO SPR.REXONA ACTIVE S.150ml",
-  "brand": "Rexona",
-  "fighting_category": "APDO",
-  "price": 5.45,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1500",
-  "unit": "l",
-  "unit_price": 36.33,
-  "comparison_price": 36.33,
-  "comparison_unit": "l",
-  "barcode": "8710908760716"
- },
- {
-  "store_id": "8723",
-  "store_name": "Zd",
-  "street_address": "Ante Starcevica 5A 8723 Interspar",
-  "city": "Zadar",
   "product_id": "257939",
   "product": "GEL TUŠ.NIVEA MEN SPORT 500 ml",
   "brand": "Nivea",
@@ -350737,7 +350414,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8723",
@@ -351079,7 +350756,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8723",
@@ -358831,7 +358508,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8723",
@@ -362289,7 +361966,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8723",
@@ -364911,7 +364588,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8725",
@@ -365823,7 +365500,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8725",
@@ -365937,7 +365614,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8725",
@@ -366241,7 +365918,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8725",
@@ -366394,25 +366071,6 @@
   "comparison_price": 0.24,
   "comparison_unit": "kg",
   "barcode": "3870128010222"
- },
- {
-  "store_id": "8725",
-  "store_name": "Os",
-  "street_address": "Svilajska 31A 8725 Interspar",
-  "city": "Osijek",
-  "product_id": "241569",
-  "product": "PEL.VIOLETA MAX.4+ 9-20KG 56/1",
-  "brand": "Violeta",
-  "fighting_category": "Diapers",
-  "price": 15.89,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "56,0000",
-  "unit": "kg",
-  "unit_price": 0.28,
-  "comparison_price": 0.28,
-  "comparison_unit": "kg",
-  "barcode": "3870128010277"
  },
  {
   "store_id": "8725",
@@ -367153,7 +366811,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8725",
@@ -367495,7 +367153,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8725",
@@ -371967,25 +371625,6 @@
   "store_name": "Os",
   "street_address": "Svilajska 31A 8725 Interspar",
   "city": "Osijek",
-  "product_id": "367637",
-  "product": "ŠAMPON SCHAUMA 7LJ.T.2x400 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 5.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 6.86,
-  "comparison_price": 6.86,
-  "comparison_unit": "l",
-  "barcode": "3838824432977"
- },
- {
-  "store_id": "8725",
-  "store_name": "Os",
-  "street_address": "Svilajska 31A 8725 Interspar",
-  "city": "Osijek",
   "product_id": "367639",
   "product": "ŠAMP.SCHAUMA ZA MUŠ.2x400 ml",
   "brand": "Schauma",
@@ -373772,25 +373411,6 @@
   "store_name": "Os",
   "street_address": "Svilajska 31A 8725 Interspar",
   "city": "Osijek",
-  "product_id": "381238",
-  "product": "ZUB.PASTA SENSODYNE CLIN 75 ml",
-  "brand": "Sensodyne",
-  "fighting_category": "Oral Care",
-  "price": 8.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 113.2,
-  "comparison_price": 113.2,
-  "comparison_unit": "l",
-  "barcode": "5054563207357"
- },
- {
-  "store_id": "8725",
-  "store_name": "Os",
-  "street_address": "Svilajska 31A 8725 Interspar",
-  "city": "Osijek",
   "product_id": "381406",
   "product": "DET.PERSIL UNIVERSAL 2X2,43 L",
   "brand": "Persil",
@@ -374260,25 +373880,6 @@
   "comparison_price": 3.15,
   "comparison_unit": "kg",
   "barcode": "8720181501821"
- },
- {
-  "store_id": "8725",
-  "store_name": "Os",
-  "street_address": "Svilajska 31A 8725 Interspar",
-  "city": "Osijek",
-  "product_id": "384925",
-  "product": "ZUB.PASTA SIGNAL JUNIOR 75 ml",
-  "brand": "Signal",
-  "fighting_category": "Oral Care",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 3.79,
-  "comparison_price": 3.79,
-  "comparison_unit": "kg",
-  "barcode": "8720181501845"
  },
  {
   "store_id": "8725",
@@ -374962,7 +374563,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8725",
@@ -378363,7 +377964,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8725",
@@ -381023,7 +380624,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8726",
@@ -382011,7 +381612,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8726",
@@ -382296,7 +381897,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8726",
@@ -383208,7 +382809,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8726",
@@ -383588,7 +383189,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8726",
@@ -385907,25 +385508,6 @@
   "comparison_price": 2.54,
   "comparison_unit": "l",
   "barcode": "3850111304095"
- },
- {
-  "store_id": "8726",
-  "store_name": "Samobor",
-  "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
-  "city": "Samobor",
-  "product_id": "346656",
-  "product": "REG.FRUCTIS WATERMELON 350 ml",
-  "brand": "Garnier",
-  "fighting_category": "Hair Care",
-  "price": 2.69,
-  "promo_price": 2.69,
-  "regular_price": null,
-  "quantity": "0,3500",
-  "unit": "l",
-  "unit_price": 7.69,
-  "comparison_price": 7.69,
-  "comparison_unit": "l",
-  "barcode": "3600542397780"
  },
  {
   "store_id": "8726",
@@ -391283,7 +390865,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8726",
@@ -393399,25 +392981,6 @@
   "store_name": "Samobor",
   "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
   "city": "Samobor",
-  "product_id": "395845",
-  "product": "ZUB.PASTA SIGNAL DA.WH.2X75 ml",
-  "brand": "Signal",
-  "fighting_category": "Oral Care",
-  "price": 3.69,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1500",
-  "unit": "l",
-  "unit_price": 24.6,
-  "comparison_price": 24.6,
-  "comparison_unit": "l",
-  "barcode": "3856027802793"
- },
- {
-  "store_id": "8726",
-  "store_name": "Samobor",
-  "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
-  "city": "Samobor",
   "product_id": "395885",
   "product": "TR.SYOSS INTENSE GLAZE 100 ml",
   "brand": "Syoss",
@@ -394646,7 +394209,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8726",
@@ -397306,7 +396869,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8728",
@@ -398256,7 +397819,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8728",
@@ -398370,7 +397933,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8728",
@@ -398674,7 +398237,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8728",
@@ -399662,7 +399225,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8728",
@@ -400042,7 +399605,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8728",
@@ -408326,7 +407889,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8728",
@@ -411860,7 +411423,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8728",
@@ -414539,7 +414102,7 @@
   "unit_price": 99.87,
   "comparison_price": 99.87,
   "comparison_unit": "l",
-  "barcode": "5999518581956"
+  "barcode": "5054563231765"
  },
  {
   "store_id": "8729",
@@ -415470,7 +415033,7 @@
   "unit_price": 5.09,
   "comparison_price": 5.09,
   "comparison_unit": "kg",
-  "barcode": "4027800205707"
+  "barcode": "4027800536269"
  },
  {
   "store_id": "8729",
@@ -415584,7 +415147,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "8729",
@@ -415888,7 +415451,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "8729",
@@ -416838,7 +416401,7 @@
   "unit_price": 125.8,
   "comparison_price": 125.8,
   "comparison_unit": "l",
-  "barcode": "9005808021913"
+  "barcode": "9005800396149"
  },
  {
   "store_id": "8729",
@@ -417180,7 +416743,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "8729",
@@ -425084,7 +424647,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "8729",
@@ -425275,25 +424838,6 @@
   "comparison_price": 6.86,
   "comparison_unit": "l",
   "barcode": "3838824432991"
- },
- {
-  "store_id": "8729",
-  "store_name": "Interspar",
-  "street_address": "Kukuljanovo 362",
-  "city": "Kukuljanovo",
-  "product_id": "387197",
-  "product": "ŠAMP.SCHAUMA STRONG 400 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 3.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 8.73,
-  "comparison_price": 8.73,
-  "comparison_unit": "l",
-  "barcode": "9000101750058"
  },
  {
   "store_id": "8729",
@@ -427542,25 +427086,6 @@
   "store_name": "Interspar",
   "street_address": "Kukuljanovo 362",
   "city": "Kukuljanovo",
-  "product_id": "396151",
-  "product": "ŠAM.SCHAUMA HAIR BOOOST 350 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,3500",
-  "unit": "l",
-  "unit_price": 7.11,
-  "comparison_price": 7.11,
-  "comparison_unit": "l",
-  "barcode": "9000101766783"
- },
- {
-  "store_id": "8729",
-  "store_name": "Interspar",
-  "street_address": "Kukuljanovo 362",
-  "city": "Kukuljanovo",
   "product_id": "396167",
   "product": "OME.SILAN MALDIVES 1,364 L",
   "brand": "Silan",
@@ -428542,7 +428067,7 @@
   "unit_price": 17.27,
   "comparison_price": 17.27,
   "comparison_unit": "l",
-  "barcode": "9000101709766"
+  "barcode": "9000101709827"
  },
  {
   "store_id": "8729",
@@ -429075,25 +428600,6 @@
   "comparison_price": 4.27,
   "comparison_unit": "l",
   "barcode": "4015200038896"
- },
- {
-  "store_id": "8729",
-  "store_name": "Interspar",
-  "street_address": "Kukuljanovo 362",
-  "city": "Kukuljanovo",
-  "product_id": "401443",
-  "product": "DET.PERSIL UNIV.6,6 kg",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,6000",
-  "unit": "kg",
-  "unit_price": 3.79,
-  "comparison_price": 3.79,
-  "comparison_unit": "kg",
-  "barcode": "4015200038919"
  },
  {
   "store_id": "8729",
@@ -431183,7 +430689,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87001",
@@ -433831,6 +433337,25 @@
   "store_name": "Vz Supernova",
   "street_address": "Optujska 171 87001 Spar",
   "city": "Varazdin",
+  "product_id": "374359",
+  "product": "DET.PERSIL FRESHNESS 0,99 kg",
+  "brand": "Persil",
+  "fighting_category": "Laundry",
+  "price": 6.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "0,9900",
+  "unit": "kg",
+  "unit_price": 7.06,
+  "comparison_price": 7.06,
+  "comparison_unit": "kg",
+  "barcode": "9000101804775"
+ },
+ {
+  "store_id": "87001",
+  "store_name": "Vz Supernova",
+  "street_address": "Optujska 171 87001 Spar",
+  "city": "Varazdin",
   "product_id": "374361",
   "product": "DET.PERSIL UNIVERSAL 0,99 L",
   "brand": "Persil",
@@ -434850,7 +434375,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87001",
@@ -437548,7 +437073,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87002",
@@ -441766,7 +441291,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87002",
@@ -444958,7 +444483,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87003",
@@ -447416,25 +446941,6 @@
   "store_name": "Si Supernova",
   "street_address": "Put Vida 6 87003 Spar",
   "city": "Sibenik",
-  "product_id": "355207",
-  "product": "ŠAMP.ELSEVE HYALURON 250 ml",
-  "brand": "Elseve",
-  "fighting_category": "Hair Care",
-  "price": 4.69,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 18.76,
-  "comparison_price": 18.76,
-  "comparison_unit": "l",
-  "barcode": "3600524029500"
- },
- {
-  "store_id": "87003",
-  "store_name": "Si Supernova",
-  "street_address": "Put Vida 6 87003 Spar",
-  "city": "Sibenik",
   "product_id": "355214",
   "product": "REG.ELSEV.HYALURON  200 ml",
   "brand": "Elseve",
@@ -449518,7 +449024,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87003",
@@ -453204,7 +452710,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87004",
@@ -453394,7 +452900,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87004",
@@ -454249,7 +453755,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87004",
@@ -455447,25 +454953,6 @@
   "comparison_price": 11.34,
   "comparison_unit": "l",
   "barcode": "9000101277173"
- },
- {
-  "store_id": "87004",
-  "store_name": "Zd Supernova",
-  "street_address": "Ulica Akcije Maslenica 1 87004 Spar",
-  "city": "Zadar",
-  "product_id": "342691",
-  "product": "ŠAMP.SYOSS COL.GUARD 440 ml",
-  "brand": "Syoss",
-  "fighting_category": "Hair Care",
-  "price": 4.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4400",
-  "unit": "l",
-  "unit_price": 11.34,
-  "comparison_price": 11.34,
-  "comparison_unit": "l",
-  "barcode": "9000101276916"
  },
  {
   "store_id": "87004",
@@ -458657,7 +458144,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87004",
@@ -459247,25 +458734,6 @@
   "comparison_price": 3.94,
   "comparison_unit": "kg",
   "barcode": "3850105188090"
- },
- {
-  "store_id": "87004",
-  "store_name": "Zd Supernova",
-  "street_address": "Ulica Akcije Maslenica 1 87004 Spar",
-  "city": "Zadar",
-  "product_id": "391770",
-  "product": "DET.FAKS COLOR 2,7 L",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 10.99,
-  "promo_price": 10.99,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 4.07,
-  "comparison_price": 4.07,
-  "comparison_unit": "l",
-  "barcode": "3850105188991"
  },
  {
   "store_id": "87004",
@@ -461488,7 +460956,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87005",
@@ -462875,7 +462343,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87005",
@@ -463692,7 +463160,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87006",
@@ -464345,25 +463813,6 @@
   "store_name": "Zg Vlaska",
   "street_address": "Vlaska 44 87006 Spar",
   "city": "Zagreb",
-  "product_id": "374373",
-  "product": "DET.PERSIL UNIVERSAL 2,97 L",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 13.99,
-  "promo_price": 13.99,
-  "regular_price": null,
-  "quantity": "2,9700",
-  "unit": "l",
-  "unit_price": 4.71,
-  "comparison_price": 4.71,
-  "comparison_unit": "l",
-  "barcode": "9000101598902"
- },
- {
-  "store_id": "87006",
-  "store_name": "Zg Vlaska",
-  "street_address": "Vlaska 44 87006 Spar",
-  "city": "Zagreb",
   "product_id": "378023",
   "product": "GEL SYOSS Z. KMAX HOLD  250 ml",
   "brand": "Syoss",
@@ -464566,7 +464015,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87006",
@@ -464687,6 +464136,25 @@
   "store_name": "Zd City",
   "street_address": "Polacisce 4 87007 Spar",
   "city": "Zadar",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
+ },
+ {
+  "store_id": "87007",
+  "store_name": "Zd City",
+  "street_address": "Polacisce 4 87007 Spar",
+  "city": "Zadar",
   "product_id": "3601",
   "product": "BRIT.WILKINSON DUPLO JEDNO.5/1",
   "brand": "Wilkinson",
@@ -464795,6 +464263,25 @@
   "comparison_price": 22.6,
   "comparison_unit": "kg",
   "barcode": "5000204306910"
+ },
+ {
+  "store_id": "87007",
+  "store_name": "Zd City",
+  "street_address": "Polacisce 4 87007 Spar",
+  "city": "Zadar",
+  "product_id": "11002",
+  "product": "ČETK.ZA ZUBE COLGATE EX. 1+1",
+  "brand": "Colgate",
+  "fighting_category": "Oral Care",
+  "price": 1.55,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "kg",
+  "unit_price": 1.55,
+  "comparison_price": 1.55,
+  "comparison_unit": "kg",
+  "barcode": "8714789732244"
  },
  {
   "store_id": "87007",
@@ -466143,7 +465630,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87007",
@@ -467056,25 +466543,6 @@
   "comparison_price": 17.27,
   "comparison_unit": "l",
   "barcode": "9000101053111"
- },
- {
-  "store_id": "87007",
-  "store_name": "Zd City",
-  "street_address": "Polacisce 4 87007 Spar",
-  "city": "Zadar",
-  "product_id": "335034",
-  "product": "ŠAMPON FRUCTIS ALOE 400 ml",
-  "brand": "Garnier",
-  "fighting_category": "Hair Care",
-  "price": 4.69,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 11.73,
-  "comparison_price": 11.73,
-  "comparison_unit": "l",
-  "barcode": "3600542134781"
  },
  {
   "store_id": "87007",
@@ -469563,7 +469031,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87007",
@@ -470609,6 +470077,25 @@
   "comparison_price": 1.75,
   "comparison_unit": "l",
   "barcode": "3850105190468"
+ },
+ {
+  "store_id": "87007",
+  "store_name": "Zd City",
+  "street_address": "Polacisce 4 87007 Spar",
+  "city": "Zadar",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87008",
@@ -471729,7 +471216,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87008",
@@ -473135,7 +472622,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87008",
@@ -474263,25 +473750,6 @@
   "store_name": "Ck Galerija Sj",
   "street_address": "Svetojelenska Cesta 25 87009 Spar",
   "city": "Cakovec",
-  "product_id": "61524",
-  "product": "ŠAM.SCHAUMA REGENERACI.400 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 3.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 8.73,
-  "comparison_price": 8.73,
-  "comparison_unit": "l",
-  "barcode": "3838824138923"
- },
- {
-  "store_id": "87009",
-  "store_name": "Ck Galerija Sj",
-  "street_address": "Svetojelenska Cesta 25 87009 Spar",
-  "city": "Cakovec",
   "product_id": "72310",
   "product": "DEO SPRAY AXE TEMPTAT.150 ml",
   "brand": "Axe",
@@ -475263,7 +474731,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87009",
@@ -475852,7 +475320,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87009",
@@ -479576,7 +479044,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87009",
@@ -482027,7 +481495,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87011",
@@ -483414,7 +482882,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87011",
@@ -484231,7 +483699,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87012",
@@ -484972,7 +484440,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87012",
@@ -485618,7 +485086,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87014",
@@ -486549,7 +486017,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87014",
@@ -488582,7 +488050,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87015",
@@ -489647,25 +489115,6 @@
   "comparison_price": 3.21,
   "comparison_unit": "l",
   "barcode": "3850105170286"
- },
- {
-  "store_id": "87015",
-  "store_name": "Zg Dankovecka",
-  "street_address": "Dankovecka 4 87015 Spar",
-  "city": "Zagreb",
-  "product_id": "332016",
-  "product": "TAB.FINISH ALL IN1 MAX 80/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 14.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "80,0000",
-  "unit": "kom",
-  "unit_price": 0.19,
-  "comparison_price": 0.19,
-  "comparison_unit": "kom",
-  "barcode": "5997321733562"
  },
  {
   "store_id": "87015",
@@ -491705,25 +491154,6 @@
   "store_name": "Zg Dankovecka",
   "street_address": "Dankovecka 4 87015 Spar",
   "city": "Zagreb",
-  "product_id": "375210",
-  "product": "DET.PERSIL UNIVERSAL 4,5 L",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,5000",
-  "unit": "l",
-  "unit_price": 5.55,
-  "comparison_price": 5.55,
-  "comparison_unit": "l",
-  "barcode": "9000101567281"
- },
- {
-  "store_id": "87015",
-  "store_name": "Zg Dankovecka",
-  "street_address": "Dankovecka 4 87015 Spar",
-  "city": "Zagreb",
   "product_id": "375213",
   "product": "DET.PERSIL FRESHNESS 4,95 kg",
   "brand": "Persil",
@@ -492724,7 +492154,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87015",
@@ -496068,7 +495498,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87016",
@@ -500172,7 +499602,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87016",
@@ -501528,6 +500958,25 @@
   "store_name": "Zg Grada Mainz",
   "street_address": "Ulica Grada Mainza 16 87017 Spar",
   "city": "Zagreb",
+  "product_id": "11002",
+  "product": "ČETK.ZA ZUBE COLGATE EX. 1+1",
+  "brand": "Colgate",
+  "fighting_category": "Oral Care",
+  "price": 1.55,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "kg",
+  "unit_price": 1.55,
+  "comparison_price": 1.55,
+  "comparison_unit": "kg",
+  "barcode": "8714789732244"
+ },
+ {
+  "store_id": "87017",
+  "store_name": "Zg Grada Mainz",
+  "street_address": "Ulica Grada Mainza 16 87017 Spar",
+  "city": "Zagreb",
   "product_id": "11006",
   "product": "ČETK.ZA ZUBE COL.ZIG ZAG 1 kom",
   "brand": "Colgate",
@@ -502744,25 +502193,6 @@
   "store_name": "Zg Grada Mainz",
   "street_address": "Ulica Grada Mainza 16 87017 Spar",
   "city": "Zagreb",
-  "product_id": "186890",
-  "product": "ZUBNA PASTA COLGATE 100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.75,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 17.5,
-  "comparison_price": 17.5,
-  "comparison_unit": "l",
-  "barcode": "7891024132074"
- },
- {
-  "store_id": "87017",
-  "store_name": "Zg Grada Mainz",
-  "street_address": "Ulica Grada Mainza 16 87017 Spar",
-  "city": "Zagreb",
   "product_id": "188658",
   "product": "ŠAMP.SYOSS DRY ANTI GRE.200 ml",
   "brand": "Syoss",
@@ -503250,7 +502680,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87017",
@@ -507297,7 +506727,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87017",
@@ -508539,6 +507969,25 @@
   "store_name": "Zg Grada Mainz",
   "street_address": "Ulica Grada Mainza 16 87017 Spar",
   "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
+ },
+ {
+  "store_id": "87017",
+  "store_name": "Zg Grada Mainz",
+  "street_address": "Ulica Grada Mainza 16 87017 Spar",
+  "city": "Zagreb",
   "product_id": "402546",
   "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
   "brand": "Violeta",
@@ -509634,7 +509083,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87018",
@@ -510964,7 +510413,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87018",
@@ -513054,7 +512503,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87019",
@@ -516626,7 +516075,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87019",
@@ -518260,7 +517709,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87020",
@@ -519077,7 +518526,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87020",
@@ -519211,6 +518660,25 @@
   "comparison_price": 3.43,
   "comparison_unit": "kg",
   "barcode": "3850105188243"
+ },
+ {
+  "store_id": "87020",
+  "store_name": "Zg",
+  "street_address": "Trg Zrtava Fasizma 6 87020 Spar",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87021",
@@ -520331,7 +519799,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87021",
@@ -522383,7 +521851,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87021",
@@ -524587,7 +524055,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87022",
@@ -528387,7 +527855,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87022",
@@ -531275,7 +530743,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87023",
@@ -534816,25 +534284,6 @@
   "store_name": "Zg",
   "street_address": "Banjavciceva 22A 87023 Spar",
   "city": "Zagreb",
-  "product_id": "385733",
-  "product": "DEO ROLL ON NIVEA MEN B. 50 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,0500",
-  "unit": "l",
-  "unit_price": 49.8,
-  "comparison_price": 49.8,
-  "comparison_unit": "l",
-  "barcode": "4005900730336"
- },
- {
-  "store_id": "87023",
-  "store_name": "Zg",
-  "street_address": "Banjavciceva 22A 87023 Spar",
-  "city": "Zagreb",
   "product_id": "385739",
   "product": "DEO ROLL ON NIVEA FRESH 50 ml",
   "brand": "Nivea",
@@ -535094,7 +534543,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87023",
@@ -537602,7 +537051,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87024",
@@ -539236,7 +538685,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87024",
@@ -541345,7 +540794,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87025",
@@ -543708,25 +543157,6 @@
   "store_name": "Umag",
   "street_address": "Bujska Ul. Via Buie Br. 1 87025 Spar",
   "city": "Umag",
-  "product_id": "366321",
-  "product": "TAB.FINISH QUANTUM 100/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 26.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.27,
-  "comparison_price": 0.27,
-  "comparison_unit": "kom",
-  "barcode": "5999109581501"
- },
- {
-  "store_id": "87025",
-  "store_name": "Umag",
-  "street_address": "Bujska Ul. Via Buie Br. 1 87025 Spar",
-  "city": "Umag",
   "product_id": "367447",
   "product": "TAB.FINISH ULTIMATE PLUS 54/1",
   "brand": "Finish",
@@ -545050,7 +544480,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87025",
@@ -546513,7 +545943,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87026",
@@ -547083,7 +546513,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87026",
@@ -549021,7 +548451,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87027",
@@ -553049,7 +552479,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87027",
@@ -553316,25 +552746,6 @@
   "comparison_price": 4.71,
   "comparison_unit": "l",
   "barcode": "9000101599091"
- },
- {
-  "store_id": "87027",
-  "store_name": "Labin",
-  "street_address": "Pulska Ulica 2C 87027 Spar",
-  "city": "Labin",
-  "product_id": "388157",
-  "product": "GEL ZA TU.FA MYSTIC 400 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 9.48,
-  "comparison_price": 9.48,
-  "comparison_unit": "l",
-  "barcode": "9000101704457"
  },
  {
   "store_id": "87027",
@@ -553677,25 +553088,6 @@
   "comparison_price": 0.12,
   "comparison_unit": "kom",
   "barcode": "3870128040830"
- },
- {
-  "store_id": "87027",
-  "store_name": "Labin",
-  "street_address": "Pulska Ulica 2C 87027 Spar",
-  "city": "Labin",
-  "product_id": "392376",
-  "product": "DET.FAKS C.AQUAMARINE 4,95 kg",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 16.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,9500",
-  "unit": "kg",
-  "unit_price": 3.43,
-  "comparison_price": 3.43,
-  "comparison_unit": "kg",
-  "barcode": "3850105188243"
  },
  {
   "store_id": "87027",
@@ -554323,6 +553715,25 @@
   "comparison_price": 1.75,
   "comparison_unit": "l",
   "barcode": "3850105190468"
+ },
+ {
+  "store_id": "87027",
+  "store_name": "Labin",
+  "street_address": "Pulska Ulica 2C 87027 Spar",
+  "city": "Labin",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87028",
@@ -556070,7 +555481,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87028",
@@ -558205,25 +557616,6 @@
   "store_name": "Ludbreg",
   "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
   "city": "Ludbreg",
-  "product_id": "366321",
-  "product": "TAB.FINISH QUANTUM 100/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 26.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.27,
-  "comparison_price": 0.27,
-  "comparison_unit": "kom",
-  "barcode": "5999109581501"
- },
- {
-  "store_id": "87028",
-  "store_name": "Ludbreg",
-  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
-  "city": "Ludbreg",
   "product_id": "367447",
   "product": "TAB.FINISH ULTIMATE PLUS 54/1",
   "brand": "Finish",
@@ -559604,7 +558996,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87028",
@@ -559700,25 +559092,6 @@
   "comparison_price": 223.8,
   "comparison_unit": "l",
   "barcode": "9005800404004"
- },
- {
-  "store_id": "87028",
-  "store_name": "Ludbreg",
-  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
-  "city": "Ludbreg",
-  "product_id": "386627",
-  "product": "OME.SILAN SENSITIVE 2X1,67 L",
-  "brand": "Silan",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "3,3400",
-  "unit": "l",
-  "unit_price": 2.09,
-  "comparison_price": 2.09,
-  "comparison_unit": "l",
-  "barcode": "9000101597219"
  },
  {
   "store_id": "87028",
@@ -560783,6 +560156,25 @@
   "comparison_price": 1.75,
   "comparison_unit": "l",
   "barcode": "3850105190468"
+ },
+ {
+  "store_id": "87028",
+  "store_name": "Ludbreg",
+  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
+  "city": "Ludbreg",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87028",
@@ -563100,7 +562492,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87029",
@@ -568059,7 +567451,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87029",
@@ -571764,7 +571156,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87030",
@@ -572506,25 +571898,6 @@
   "comparison_price": 22.5,
   "comparison_unit": "l",
   "barcode": "8718951312722"
- },
- {
-  "store_id": "87030",
-  "store_name": "Ri Martinkovac",
-  "street_address": "Martinkovac 127 87030 Spar",
-  "city": "Rijeka",
-  "product_id": "324804",
-  "product": "ZUB.PASTA COLGATE MAX F.100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 2.25,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 22.5,
-  "comparison_price": 22.5,
-  "comparison_unit": "l",
-  "barcode": "8718951313576"
  },
  {
   "store_id": "87030",
@@ -575400,25 +574773,6 @@
   "store_name": "Ri Martinkovac",
   "street_address": "Martinkovac 127 87030 Spar",
   "city": "Rijeka",
-  "product_id": "385134",
-  "product": "TAB.FINISH ULTIMATE PLUS 90/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "90,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "5908252011025"
- },
- {
-  "store_id": "87030",
-  "store_name": "Ri Martinkovac",
-  "street_address": "Martinkovac 127 87030 Spar",
-  "city": "Rijeka",
   "product_id": "385307",
   "product": "ŠAMP.GLISS FULL HAIR 400 ml",
   "brand": "Gliss",
@@ -575773,7 +575127,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87030",
@@ -577091,6 +576445,25 @@
   "store_name": "Buje",
   "street_address": "Gospodarska 1A 87031 Spar",
   "city": "Buje",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
+ },
+ {
+  "store_id": "87031",
+  "store_name": "Buje",
+  "street_address": "Gospodarska 1A 87031 Spar",
+  "city": "Buje",
   "product_id": "1811",
   "product": "DEO ROLL ON NIVEA AQUA C.50 ml",
   "brand": "Nivea",
@@ -577199,6 +576572,25 @@
   "comparison_price": 22.6,
   "comparison_unit": "kg",
   "barcode": "5000204306910"
+ },
+ {
+  "store_id": "87031",
+  "store_name": "Buje",
+  "street_address": "Gospodarska 1A 87031 Spar",
+  "city": "Buje",
+  "product_id": "11002",
+  "product": "ČETK.ZA ZUBE COLGATE EX. 1+1",
+  "brand": "Colgate",
+  "fighting_category": "Oral Care",
+  "price": 1.55,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "kg",
+  "unit_price": 1.55,
+  "comparison_price": 1.55,
+  "comparison_unit": "kg",
+  "barcode": "8714789732244"
  },
  {
   "store_id": "87031",
@@ -578566,7 +577958,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87031",
@@ -581036,7 +580428,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87031",
@@ -583582,7 +582974,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87032",
@@ -583734,7 +583126,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87032",
@@ -584323,7 +583715,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87032",
@@ -584913,25 +584305,6 @@
   "comparison_price": 11.73,
   "comparison_unit": "l",
   "barcode": "3600542134781"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "street_address": "Tadije Smiciklasa 5A 87032 Spar",
-  "city": "Krizevci",
-  "product_id": "335510",
-  "product": "ŠAM.FRU.HAIR FOOD PAPAY.350 ml",
-  "brand": "Garnier",
-  "fighting_category": "Hair Care",
-  "price": 2.79,
-  "promo_price": 2.79,
-  "regular_price": null,
-  "quantity": "0,3500",
-  "unit": "l",
-  "unit_price": 7.97,
-  "comparison_price": 7.97,
-  "comparison_unit": "l",
-  "barcode": "3600542289979"
  },
  {
   "store_id": "87032",
@@ -587845,25 +587218,6 @@
   "store_name": "Krizevci",
   "street_address": "Tadije Smiciklasa 5A 87032 Spar",
   "city": "Krizevci",
-  "product_id": "385748",
-  "product": "DEO ROLL ON NIVEA B&W O. 50 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,0500",
-  "unit": "l",
-  "unit_price": 49.8,
-  "comparison_price": 49.8,
-  "comparison_unit": "l",
-  "barcode": "4005900388636"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "street_address": "Tadije Smiciklasa 5A 87032 Spar",
-  "city": "Krizevci",
   "product_id": "385749",
   "product": "DEO ROLL ON NIVEA DRY 50 ml",
   "brand": "Nivea",
@@ -588047,7 +587401,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87032",
@@ -588352,25 +587706,6 @@
   "comparison_price": 4.71,
   "comparison_unit": "l",
   "barcode": "9000101599091"
- },
- {
-  "store_id": "87032",
-  "store_name": "Krizevci",
-  "street_address": "Tadije Smiciklasa 5A 87032 Spar",
-  "city": "Krizevci",
-  "product_id": "388157",
-  "product": "GEL ZA TU.FA MYSTIC 400 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 9.48,
-  "comparison_price": 9.48,
-  "comparison_unit": "l",
-  "barcode": "9000101704457"
  },
  {
   "store_id": "87032",
@@ -591372,7 +590707,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87033",
@@ -591524,7 +590859,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87033",
@@ -596141,7 +595476,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87033",
@@ -599162,7 +598497,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87034",
@@ -602240,7 +601575,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87034",
@@ -604767,7 +604102,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87035",
@@ -607845,7 +607180,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87035",
@@ -610315,7 +609650,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87036",
@@ -613697,7 +613032,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87036",
@@ -616167,7 +615502,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87037",
@@ -617498,25 +616833,6 @@
   "comparison_price": 2.21,
   "comparison_unit": "l",
   "barcode": "3870128026087"
- },
- {
-  "store_id": "87037",
-  "store_name": "Spar",
-  "street_address": "Vrtnjakovec 115A",
-  "city": "Krapinske Toplice",
-  "product_id": "347578",
-  "product": "DET.ČARLI DIVLJA TREŠNJ.900 ml",
-  "brand": "Čarli",
-  "fighting_category": "Hand Dishwashing",
-  "price": 2.29,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,9000",
-  "unit": "l",
-  "unit_price": 2.54,
-  "comparison_price": 2.54,
-  "comparison_unit": "l",
-  "barcode": "3850111304101"
  },
  {
   "store_id": "87037",
@@ -619245,7 +618561,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87037",
@@ -620461,7 +619777,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87038",
@@ -621259,7 +620575,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87038",
@@ -623216,7 +622532,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87039",
@@ -626256,7 +625572,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87039",
@@ -626656,25 +625972,6 @@
   "comparison_price": 21.23,
   "comparison_unit": "l",
   "barcode": "3856027802755"
- },
- {
-  "store_id": "87039",
-  "store_name": "Ck Jug Mall",
-  "street_address": "Tomasa Goricanca 1 87039 Spar",
-  "city": "Cakovec",
-  "product_id": "389884",
-  "product": "DEO SPRAY AXE AFRICA 2x150 ml",
-  "brand": "Axe",
-  "fighting_category": "APDO",
-  "price": 6.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,3000",
-  "unit": "l",
-  "unit_price": 21.63,
-  "comparison_price": 21.63,
-  "comparison_unit": "l",
-  "barcode": "3856027802717"
  },
  {
   "store_id": "87039",
@@ -628973,7 +628270,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87040",
@@ -632545,7 +631842,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87040",
@@ -633008,25 +632305,6 @@
   "store_name": "Novi Marof",
   "street_address": "Grana 150 2 87040 Spar",
   "city": "Novi Marof",
-  "product_id": "392376",
-  "product": "DET.FAKS C.AQUAMARINE 4,95 kg",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 16.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,9500",
-  "unit": "kg",
-  "unit_price": 3.43,
-  "comparison_price": 3.43,
-  "comparison_unit": "kg",
-  "barcode": "3850105188243"
- },
- {
-  "store_id": "87040",
-  "store_name": "Novi Marof",
-  "street_address": "Grana 150 2 87040 Spar",
-  "city": "Novi Marof",
   "product_id": "392378",
   "product": "DET.FAKS UNIVERSAL 4,5 L",
   "brand": "Faks",
@@ -633192,25 +632470,6 @@
   "comparison_price": 16.63,
   "comparison_unit": "l",
   "barcode": "9000101758979"
- },
- {
-  "store_id": "87040",
-  "store_name": "Novi Marof",
-  "street_address": "Grana 150 2 87040 Spar",
-  "city": "Novi Marof",
-  "product_id": "395115",
-  "product": "SPREJ SYOSS ZA SJAJ 200 ml",
-  "brand": "Syoss",
-  "fighting_category": "Hair Care",
-  "price": 3.49,
-  "promo_price": 3.49,
-  "regular_price": null,
-  "quantity": "0,2000",
-  "unit": "l",
-  "unit_price": 17.45,
-  "comparison_price": 17.45,
-  "comparison_unit": "l",
-  "barcode": "9000101759570"
  },
  {
   "store_id": "87040",
@@ -634046,7 +633305,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87041",
@@ -635155,25 +634414,6 @@
   "store_name": "Zg",
   "street_address": "Ivane Brlic Mazuranic 2A 87041 Spar",
   "city": "Zagreb",
-  "product_id": "385095",
-  "product": "TABLETE FINISH ULTIMATE 100/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.18,
-  "comparison_price": 0.18,
-  "comparison_unit": "kom",
-  "barcode": "5999109583406"
- },
- {
-  "store_id": "87041",
-  "store_name": "Zg",
-  "street_address": "Ivane Brlic Mazuranic 2A 87041 Spar",
-  "city": "Zagreb",
   "product_id": "385134",
   "product": "TAB.FINISH ULTIMATE PLUS 90/1",
   "brand": "Finish",
@@ -635243,7 +634483,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87041",
@@ -637523,7 +636763,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87042",
@@ -637694,7 +636934,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87042",
@@ -641665,7 +640905,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87042",
@@ -644325,7 +643565,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87043",
@@ -646909,7 +646149,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87043",
@@ -647353,25 +646593,6 @@
   "store_name": "Spar",
   "street_address": "Stubicka Cesta 17 D",
   "city": "Marija Bistrica",
-  "product_id": "397059",
-  "product": "GEL TUŠ.AXE CHERRY FIZZ 400 ml",
-  "brand": "Axe",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 14.98,
-  "comparison_price": 14.98,
-  "comparison_unit": "l",
-  "barcode": "8720181831089"
- },
- {
-  "store_id": "87043",
-  "store_name": "Spar",
-  "street_address": "Stubicka Cesta 17 D",
-  "city": "Marija Bistrica",
   "product_id": "397363",
   "product": "KAP.PERSIL COLOR 28/1",
   "brand": "Persil",
@@ -647461,25 +646682,6 @@
   "comparison_price": 0.21,
   "comparison_unit": "kom",
   "barcode": "9000101852981"
- },
- {
-  "store_id": "87043",
-  "store_name": "Spar",
-  "street_address": "Stubicka Cesta 17 D",
-  "city": "Marija Bistrica",
-  "product_id": "400922",
-  "product": "KAP.PERSIL UNIVERSAL 100/1",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 25.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.26,
-  "comparison_price": 0.26,
-  "comparison_unit": "pranje",
-  "barcode": "9000101844320"
  },
  {
   "store_id": "87043",
@@ -649208,7 +648410,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87044",
@@ -650254,25 +649456,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87044",
-  "store_name": "Vukovar",
-  "street_address": "Priljevo 36 87044 Spar",
-  "city": "Vukovar",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87044",
@@ -652692,25 +651875,6 @@
   "store_name": "Vukovar",
   "street_address": "Priljevo 36 87044 Spar",
   "city": "Vukovar",
-  "product_id": "385095",
-  "product": "TABLETE FINISH ULTIMATE 100/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.18,
-  "comparison_price": 0.18,
-  "comparison_unit": "kom",
-  "barcode": "5999109583406"
- },
- {
-  "store_id": "87044",
-  "store_name": "Vukovar",
-  "street_address": "Priljevo 36 87044 Spar",
-  "city": "Vukovar",
   "product_id": "385134",
   "product": "TAB.FINISH ULTIMATE PLUS 90/1",
   "brand": "Finish",
@@ -653084,7 +652248,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87044",
@@ -654231,6 +653395,25 @@
   "store_name": "Vukovar",
   "street_address": "Priljevo 36 87044 Spar",
   "city": "Vukovar",
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
+ },
+ {
+  "store_id": "87044",
+  "store_name": "Vukovar",
+  "street_address": "Priljevo 36 87044 Spar",
+  "city": "Vukovar",
   "product_id": "401439",
   "product": "DET.PERSIL UNIVERSAL 2X2,925 L",
   "brand": "Persil",
@@ -654320,6 +653503,25 @@
   "comparison_price": 0.36,
   "comparison_unit": "kom",
   "barcode": "3870128045958"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
  },
  {
   "store_id": "87045",
@@ -655010,6 +654212,25 @@
   "store_name": "Vk",
   "street_address": "Prilaz A. B. Simica 1 87045 Spar",
   "city": "Vinkovci",
+  "product_id": "39836",
+  "product": "GEL TUŠ.NIVEA CASHMERE 250 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "0,2500",
+  "unit": "l",
+  "unit_price": 11.96,
+  "comparison_price": 11.96,
+  "comparison_unit": "l",
+  "barcode": "9005800222950"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
   "product_id": "40120",
   "product": "SRED.SOMAT TEKUĆINA 750 ml",
   "brand": "Somat",
@@ -655156,6 +654377,25 @@
   "comparison_price": 21.45,
   "comparison_unit": "l",
   "barcode": "9000100398572"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "58546",
+  "product": "GEL TUŠ.NIVEA SENSITIVE 250 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "0,2500",
+  "unit": "l",
+  "unit_price": 11.96,
+  "comparison_price": 11.96,
+  "comparison_unit": "l",
+  "barcode": "4005808782581"
  },
  {
   "store_id": "87045",
@@ -656238,7 +655478,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87045",
@@ -656827,7 +656067,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87045",
@@ -660722,7 +659962,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87045",
@@ -662091,6 +661331,25 @@
   "comparison_price": 0.26,
   "comparison_unit": "pranje",
   "barcode": "9000101844320"
+ },
+ {
+  "store_id": "87045",
+  "store_name": "Vk",
+  "street_address": "Prilaz A. B. Simica 1 87045 Spar",
+  "city": "Vinkovci",
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
  },
  {
   "store_id": "87045",
@@ -663769,25 +663028,6 @@
   "store_name": "Kastel Sucurac",
   "street_address": "Dr. Franje Tudmana 344 87049 Spar",
   "city": "Kastel Sucurac",
-  "product_id": "186890",
-  "product": "ZUBNA PASTA COLGATE 100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.75,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 17.5,
-  "comparison_price": 17.5,
-  "comparison_unit": "l",
-  "barcode": "7891024132074"
- },
- {
-  "store_id": "87049",
-  "store_name": "Kastel Sucurac",
-  "street_address": "Dr. Franje Tudmana 344 87049 Spar",
-  "city": "Kastel Sucurac",
   "product_id": "188658",
   "product": "ŠAMP.SYOSS DRY ANTI GRE.200 ml",
   "brand": "Syoss",
@@ -664313,7 +663553,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87049",
@@ -668645,7 +667885,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87049",
@@ -671913,7 +671153,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87050",
@@ -676226,7 +675466,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87050",
@@ -677620,25 +676860,6 @@
   "store_name": "Dugopolje",
   "street_address": "Ulica Matice Hrvatske 19 87050 Spar",
   "city": "Dugopolje",
-  "product_id": "401444",
-  "product": "KAP.PERSIL UNIVERSAL 2X50/1",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kg",
-  "unit_price": 0.25,
-  "comparison_price": 0.25,
-  "comparison_unit": "kg",
-  "barcode": "4015200038957"
- },
- {
-  "store_id": "87050",
-  "store_name": "Dugopolje",
-  "street_address": "Ulica Matice Hrvatske 19 87050 Spar",
-  "city": "Dugopolje",
   "product_id": "402144",
   "product": "OME.ORNEL YELLOW 4 L",
   "brand": "Ornel",
@@ -678772,7 +677993,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87051",
@@ -680406,7 +679627,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87051",
@@ -680559,25 +679780,6 @@
   "comparison_price": 3.94,
   "comparison_unit": "kg",
   "barcode": "3850105188069"
- },
- {
-  "store_id": "87051",
-  "store_name": "Zg Magovca",
-  "street_address": "Bozidara Magovca 47 87051 Spar",
-  "city": "Zagreb",
-  "product_id": "391770",
-  "product": "DET.FAKS COLOR 2,7 L",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 10.99,
-  "promo_price": 10.99,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 4.07,
-  "comparison_price": 4.07,
-  "comparison_unit": "l",
-  "barcode": "3850105188991"
  },
  {
   "store_id": "87051",
@@ -681622,7 +680824,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87052",
@@ -682269,25 +681471,6 @@
   "comparison_price": 23.95,
   "comparison_unit": "l",
   "barcode": "3600524029753"
- },
- {
-  "store_id": "87052",
-  "store_name": "Zg Picmanova",
-  "street_address": "Picmanova 1A 87052 Spar",
-  "city": "Zagreb",
-  "product_id": "356259",
-  "product": "REG.SCHAUMA 7HERBS 250 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "price": 3.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 13.96,
-  "comparison_price": 13.96,
-  "comparison_unit": "l",
-  "barcode": "9000101658088"
  },
  {
   "store_id": "87052",
@@ -682971,7 +682154,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87052",
@@ -683921,7 +683104,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87053",
@@ -684871,7 +684054,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87053",
@@ -685631,7 +684814,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87054",
@@ -686505,7 +685688,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87054",
@@ -687056,7 +686239,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87055",
@@ -687747,25 +686930,6 @@
   "store_name": "Zg Horvatovac",
   "street_address": "Horvatovac 58 87055 Spar",
   "city": "Zagreb",
-  "product_id": "385134",
-  "product": "TAB.FINISH ULTIMATE PLUS 90/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "90,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "5908252011025"
- },
- {
-  "store_id": "87055",
-  "store_name": "Zg Horvatovac",
-  "street_address": "Horvatovac 58 87055 Spar",
-  "city": "Zagreb",
   "product_id": "385763",
   "product": "GEL NIVEA MEN SPORT 250 ml",
   "brand": "Nivea",
@@ -687778,7 +686942,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87055",
@@ -688975,7 +688139,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87056",
@@ -690590,7 +689754,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87056",
@@ -692015,7 +691179,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87057",
@@ -693143,25 +692307,6 @@
   "store_name": "Zg Seferova",
   "street_address": "Seferova 6 8 87057 Spar",
   "city": "Zagreb",
-  "product_id": "379304",
-  "product": "TAB.FINISH QUANTUM LEMON 36/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 12.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "36,0000",
-  "unit": "kom",
-  "unit_price": 0.36,
-  "comparison_price": 0.36,
-  "comparison_unit": "kom",
-  "barcode": "5999109581532"
- },
- {
-  "store_id": "87057",
-  "store_name": "Zg Seferova",
-  "street_address": "Seferova 6 8 87057 Spar",
-  "city": "Zagreb",
   "product_id": "379393",
   "product": "GEL ZA TUŠ.DOVE VELVET 250 ml",
   "brand": "Dove",
@@ -693535,7 +692680,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87057",
@@ -694618,7 +693763,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87058",
@@ -695511,7 +694656,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87058",
@@ -696157,7 +695302,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87059",
@@ -696803,7 +695948,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87059",
@@ -696861,6 +696006,25 @@
   "comparison_price": 9.5,
   "comparison_unit": "kg",
   "barcode": "3850105187796"
+ },
+ {
+  "store_id": "87059",
+  "store_name": "Zg Bijenicka",
+  "street_address": "Bijenicka Cesta 5 87059 Spar",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87060",
@@ -697639,7 +696803,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87060",
@@ -698589,7 +697753,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87060",
@@ -699387,7 +698551,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87061",
@@ -700280,7 +699444,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87061",
@@ -701477,7 +700641,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87062",
@@ -702940,7 +702104,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87062",
@@ -703738,7 +702902,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87063",
@@ -704555,7 +703719,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87063",
@@ -704670,6 +703834,25 @@
   "comparison_price": 1.99,
   "comparison_unit": "l",
   "barcode": "3850105192806"
+ },
+ {
+  "store_id": "87064",
+  "store_name": "Zg Macanovica",
+  "street_address": "H. Macanovica 29 87064 Spar",
+  "city": "Zagreb",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
  },
  {
   "store_id": "87064",
@@ -705638,7 +704821,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87064",
@@ -705829,25 +705012,6 @@
   "comparison_price": 9.48,
   "comparison_unit": "l",
   "barcode": "3838824142296"
- },
- {
-  "store_id": "87064",
-  "store_name": "Zg Macanovica",
-  "street_address": "H. Macanovica 29 87064 Spar",
-  "city": "Zagreb",
-  "product_id": "327516",
-  "product": "DET.ZA SUĐE LIKVI 1,35 L",
-  "brand": "Likvi",
-  "fighting_category": "Hand Dishwashing",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,3500",
-  "unit": "l",
-  "unit_price": 2.81,
-  "comparison_price": 2.81,
-  "comparison_unit": "l",
-  "barcode": "3850105170330"
  },
  {
   "store_id": "87064",
@@ -706854,7 +706018,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87064",
@@ -708203,7 +707367,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87065",
@@ -709666,7 +708830,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87065",
@@ -710540,7 +709704,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87066",
@@ -711395,7 +710559,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87066",
@@ -711510,6 +710674,25 @@
   "comparison_price": 1.99,
   "comparison_unit": "l",
   "barcode": "3850105192806"
+ },
+ {
+  "store_id": "87066",
+  "store_name": "Zg Pomoraca",
+  "street_address": "Aleja Pomoraca 21 87066 Spar",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87067",
@@ -712459,7 +711642,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87067",
@@ -713504,7 +712687,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87067",
@@ -714796,7 +713979,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87068",
@@ -716449,7 +715632,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87068",
@@ -716912,25 +716095,6 @@
   "store_name": "Zapresic",
   "street_address": "Gjalskoga 66 87068 Spar",
   "city": "Zapresic",
-  "product_id": "400490",
-  "product": "TAB.SOMAT EXCELLEN.100/1",
-  "brand": "Somat",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 22.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.23,
-  "comparison_price": 0.23,
-  "comparison_unit": "kom",
-  "barcode": "9000101852677"
- },
- {
-  "store_id": "87068",
-  "store_name": "Zapresic",
-  "street_address": "Gjalskoga 66 87068 Spar",
-  "city": "Zapresic",
   "product_id": "400492",
   "product": "TAB.SOMAT EXCELLEN.110/1",
   "brand": "Somat",
@@ -716982,6 +716146,44 @@
   "comparison_price": 0.25,
   "comparison_unit": "kg",
   "barcode": "4015200038957"
+ },
+ {
+  "store_id": "87068",
+  "store_name": "Zapresic",
+  "street_address": "Gjalskoga 66 87068 Spar",
+  "city": "Zapresic",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
+ },
+ {
+  "store_id": "87069",
+  "store_name": "Zg",
+  "street_address": "Trg Ane Rukavine 1 87069 Spar",
+  "city": "Zagreb",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
  },
  {
   "store_id": "87069",
@@ -718064,7 +717266,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87069",
@@ -719983,7 +719185,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87069",
@@ -720351,25 +719553,6 @@
   "store_name": "Zg",
   "street_address": "Trg Ane Rukavine 1 87069 Spar",
   "city": "Zagreb",
-  "product_id": "400490",
-  "product": "TAB.SOMAT EXCELLEN.100/1",
-  "brand": "Somat",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 22.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kom",
-  "unit_price": 0.23,
-  "comparison_price": 0.23,
-  "comparison_unit": "kom",
-  "barcode": "9000101852677"
- },
- {
-  "store_id": "87069",
-  "store_name": "Zg",
-  "street_address": "Trg Ane Rukavine 1 87069 Spar",
-  "city": "Zagreb",
   "product_id": "400492",
   "product": "TAB.SOMAT EXCELLEN.110/1",
   "brand": "Somat",
@@ -720383,6 +719566,25 @@
   "comparison_price": 0.21,
   "comparison_unit": "kom",
   "barcode": "9000101852981"
+ },
+ {
+  "store_id": "87069",
+  "store_name": "Zg",
+  "street_address": "Trg Ane Rukavine 1 87069 Spar",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87070",
@@ -722263,7 +721465,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87070",
@@ -725082,6 +724284,25 @@
   "store_name": "Zg Borongajska",
   "street_address": "Borongajska Cesta 75 87070 Spar",
   "city": "Zagreb",
+  "product_id": "374359",
+  "product": "DET.PERSIL FRESHNESS 0,99 kg",
+  "brand": "Persil",
+  "fighting_category": "Laundry",
+  "price": 6.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "0,9900",
+  "unit": "kg",
+  "unit_price": 7.06,
+  "comparison_price": 7.06,
+  "comparison_unit": "kg",
+  "barcode": "9000101804775"
+ },
+ {
+  "store_id": "87070",
+  "store_name": "Zg Borongajska",
+  "street_address": "Borongajska Cesta 75 87070 Spar",
+  "city": "Zagreb",
   "product_id": "374361",
   "product": "DET.PERSIL UNIVERSAL 0,99 L",
   "brand": "Persil",
@@ -726234,7 +725455,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87070",
@@ -729426,7 +728647,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87072",
@@ -733872,7 +733093,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87072",
@@ -737520,7 +736741,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87073",
@@ -737710,7 +736931,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87073",
@@ -741916,6 +741137,25 @@
   "store_name": "Zg Sr Njemacke",
   "street_address": "Ulica Sr Njemacke 3 87073 Spar",
   "city": "Zagreb",
+  "product_id": "374374",
+  "product": "KAP.PERSIL UNIVERSAL 40/1",
+  "brand": "Persil",
+  "fighting_category": "Laundry",
+  "price": 13.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "40,0000",
+  "unit": "kom",
+  "unit_price": 0.35,
+  "comparison_price": 0.35,
+  "comparison_unit": "pranje",
+  "barcode": "9000101801255"
+ },
+ {
+  "store_id": "87073",
+  "store_name": "Zg Sr Njemacke",
+  "street_address": "Ulica Sr Njemacke 3 87073 Spar",
+  "city": "Zagreb",
   "product_id": "374376",
   "product": "KAP.PERSIL COLOR 40/1",
   "brand": "Persil",
@@ -743315,7 +742555,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87073",
@@ -747134,7 +746374,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87074",
@@ -747343,7 +746583,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87074",
@@ -751283,25 +750523,6 @@
   "store_name": "Zg Zagrebacka",
   "street_address": "Zagrebacka 3 87074 Spar",
   "city": "Zagreb",
-  "product_id": "385134",
-  "product": "TAB.FINISH ULTIMATE PLUS 90/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "90,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "5908252011025"
- },
- {
-  "store_id": "87074",
-  "store_name": "Zg Zagrebacka",
-  "street_address": "Zagrebacka 3 87074 Spar",
-  "city": "Zagreb",
   "product_id": "385307",
   "product": "ŠAMP.GLISS FULL HAIR 400 ml",
   "brand": "Gliss",
@@ -751694,7 +750915,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87074",
@@ -754810,7 +754031,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87075",
@@ -759503,7 +758724,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87075",
@@ -761239,25 +760460,6 @@
   "store_name": "Vg Matice Hrv",
   "street_address": "Matice Hrvatske 22 87076 Spar",
   "city": "Velika Gorica",
-  "product_id": "11002",
-  "product": "ČETK.ZA ZUBE COLGATE EX. 1+1",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.55,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 1.55,
-  "comparison_price": 1.55,
-  "comparison_unit": "kg",
-  "barcode": "8714789732244"
- },
- {
-  "store_id": "87076",
-  "store_name": "Vg Matice Hrv",
-  "street_address": "Matice Hrvatske 22 87076 Spar",
-  "city": "Velika Gorica",
   "product_id": "11006",
   "product": "ČETK.ZA ZUBE COL.ZIG ZAG 1 kom",
   "brand": "Colgate",
@@ -762398,25 +761600,6 @@
   "store_name": "Vg Matice Hrv",
   "street_address": "Matice Hrvatske 22 87076 Spar",
   "city": "Velika Gorica",
-  "product_id": "186890",
-  "product": "ZUBNA PASTA COLGATE 100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.75,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 17.5,
-  "comparison_price": 17.5,
-  "comparison_unit": "l",
-  "barcode": "7891024132074"
- },
- {
-  "store_id": "87076",
-  "store_name": "Vg Matice Hrv",
-  "street_address": "Matice Hrvatske 22 87076 Spar",
-  "city": "Velika Gorica",
   "product_id": "193641",
   "product": "ŠAMP.ELSEVE COLOR VIVE 400 ml",
   "brand": "Elseve",
@@ -762885,7 +762068,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87076",
@@ -766844,25 +766027,6 @@
   "store_name": "Vg Matice Hrv",
   "street_address": "Matice Hrvatske 22 87076 Spar",
   "city": "Velika Gorica",
-  "product_id": "385747",
-  "product": "DEO ROLL ON NIVEA MEN B. 50 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,0500",
-  "unit": "l",
-  "unit_price": 49.8,
-  "comparison_price": 49.8,
-  "comparison_unit": "l",
-  "barcode": "4005900388674"
- },
- {
-  "store_id": "87076",
-  "store_name": "Vg Matice Hrv",
-  "street_address": "Matice Hrvatske 22 87076 Spar",
-  "city": "Velika Gorica",
   "product_id": "385748",
   "product": "DEO ROLL ON NIVEA B&W O. 50 ml",
   "brand": "Nivea",
@@ -767046,7 +766210,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87076",
@@ -769706,7 +768870,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87078",
@@ -771701,7 +770865,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87078",
@@ -773734,7 +772898,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87079",
@@ -774628,25 +773792,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87079",
-  "store_name": "Zg Savska",
-  "street_address": "Savska 58 87079 Spar",
-  "city": "Zagreb",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87079",
@@ -776280,7 +775425,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87079",
@@ -778465,7 +777610,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87080",
@@ -778579,7 +777724,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87080",
@@ -781144,7 +780289,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87080",
@@ -783025,7 +782170,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87081",
@@ -784450,7 +783595,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87081",
@@ -786711,7 +785856,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87082",
@@ -787358,25 +786503,6 @@
   "comparison_price": 22.5,
   "comparison_unit": "l",
   "barcode": "8718951312722"
- },
- {
-  "store_id": "87082",
-  "store_name": "Zg Zerjaviceva",
-  "street_address": "Jurja Zerjavica 2 87082 Spar",
-  "city": "Zagreb",
-  "product_id": "324804",
-  "product": "ZUB.PASTA COLGATE MAX F.100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 2.25,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 22.5,
-  "comparison_price": 22.5,
-  "comparison_unit": "l",
-  "barcode": "8718951313576"
  },
  {
   "store_id": "87082",
@@ -789789,7 +788915,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87082",
@@ -791632,7 +790758,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87083",
@@ -793133,7 +792259,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87083",
@@ -794881,7 +794007,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87084",
@@ -795300,25 +794426,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87084",
-  "store_name": "Zg Marticeva ",
-  "street_address": "Marticeva 13 87084 Spar",
-  "city": "Zagreb",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87084",
@@ -797009,7 +796116,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87084",
@@ -798643,7 +797750,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87085",
@@ -800182,7 +799289,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87085",
@@ -801759,7 +800866,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87086",
@@ -802102,25 +801209,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87086",
-  "store_name": "Zg Gruska",
-  "street_address": "Gruska 18 87086 Spar",
-  "city": "Zagreb",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87086",
@@ -803355,7 +802443,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87086",
@@ -806015,7 +805103,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87088",
@@ -806224,7 +805312,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87088",
@@ -811563,7 +810651,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87088",
@@ -815591,7 +814679,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87089",
@@ -815781,7 +814869,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87089",
@@ -816655,7 +815743,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87089",
@@ -818670,6 +817758,25 @@
   "comparison_price": 0.07,
   "comparison_unit": "kom",
   "barcode": "7322541350530"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "353449",
+  "product": "ČET.COLGATE MAX WHITE",
+  "brand": "Colgate",
+  "fighting_category": "Oral Care",
+  "price": 2.25,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "1,0000",
+  "unit": "kg",
+  "unit_price": 2.25,
+  "comparison_price": 2.25,
+  "comparison_unit": "kg",
+  "barcode": "8718951382602"
  },
  {
   "store_id": "87089",
@@ -821633,7 +820740,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87089",
@@ -822356,6 +821463,25 @@
   "comparison_price": 3.94,
   "comparison_unit": "kg",
   "barcode": "3850105188090"
+ },
+ {
+  "store_id": "87089",
+  "store_name": "Os Trpimirova",
+  "street_address": "Kneza Trpimira 14 87089 Spar",
+  "city": "Osijek",
+  "product_id": "391769",
+  "product": "DET.FAKS COLOR 2,7 L",
+  "brand": "Faks",
+  "fighting_category": "Laundry",
+  "price": 9.99,
+  "promo_price": 9.99,
+  "regular_price": null,
+  "quantity": "2,7000",
+  "unit": "l",
+  "unit_price": 3.7,
+  "comparison_price": 3.7,
+  "comparison_unit": "l",
+  "barcode": "3850105188960"
  },
  {
   "store_id": "87089",
@@ -825908,7 +825034,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87090",
@@ -826136,7 +825262,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87090",
@@ -826915,7 +826041,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87090",
@@ -831931,7 +831057,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87090",
@@ -833642,25 +832768,6 @@
   "comparison_price": 0.21,
   "comparison_unit": "kom",
   "barcode": "9000101852981"
- },
- {
-  "store_id": "87090",
-  "store_name": "Vz Zagrebacka",
-  "street_address": "Zagrebacka Ulica 81 87090 Spar",
-  "city": "Varazdin",
-  "product_id": "400916",
-  "product": "DET.PERSIL COLOR 5,94 L",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 25.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "5,9400",
-  "unit": "l",
-  "unit_price": 4.38,
-  "comparison_price": 4.38,
-  "comparison_unit": "l",
-  "barcode": "9000101846157"
  },
  {
   "store_id": "87090",
@@ -835883,7 +834990,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87091",
@@ -836073,7 +835180,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87091",
@@ -840728,7 +839835,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87091",
@@ -841337,25 +840444,6 @@
   "comparison_price": 3.94,
   "comparison_unit": "kg",
   "barcode": "3850105188090"
- },
- {
-  "store_id": "87091",
-  "store_name": "Kc Kolodvorska",
-  "street_address": "Kolodvorska 31A 87091 Spar",
-  "city": "Koprivnica",
-  "product_id": "391770",
-  "product": "DET.FAKS COLOR 2,7 L",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 10.99,
-  "promo_price": 10.99,
-  "regular_price": null,
-  "quantity": "2,7000",
-  "unit": "l",
-  "unit_price": 4.07,
-  "comparison_price": 4.07,
-  "comparison_unit": "l",
-  "barcode": "3850105188991"
  },
  {
   "store_id": "87091",
@@ -843825,7 +842913,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87092",
@@ -847606,7 +846694,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87092",
@@ -850368,25 +849456,6 @@
   "store_name": "Ka Kresimirova",
   "street_address": "Kralja P. Kresimira Iv 10 87093 Spar",
   "city": "Karlovac",
-  "product_id": "186890",
-  "product": "ZUBNA PASTA COLGATE 100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.75,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 17.5,
-  "comparison_price": 17.5,
-  "comparison_unit": "l",
-  "barcode": "7891024132074"
- },
- {
-  "store_id": "87093",
-  "store_name": "Ka Kresimirova",
-  "street_address": "Kralja P. Kresimira Iv 10 87093 Spar",
-  "city": "Karlovac",
   "product_id": "193641",
   "product": "ŠAMP.ELSEVE COLOR VIVE 400 ml",
   "brand": "Elseve",
@@ -850874,7 +849943,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87093",
@@ -854807,7 +853876,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87093",
@@ -857847,7 +856916,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87094",
@@ -858037,7 +857106,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87094",
@@ -862464,7 +861533,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87094",
@@ -863662,25 +862731,6 @@
   "comparison_price": 3.79,
   "comparison_unit": "kg",
   "barcode": "4015200038919"
- },
- {
-  "store_id": "87094",
-  "store_name": "Vk Zvonimirova",
-  "street_address": "Kralja Zvonimira 59 87094 Spar",
-  "city": "Vinkovci",
-  "product_id": "401444",
-  "product": "KAP.PERSIL UNIVERSAL 2X50/1",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "100,0000",
-  "unit": "kg",
-  "unit_price": 0.25,
-  "comparison_price": 0.25,
-  "comparison_unit": "kg",
-  "barcode": "4015200038957"
  },
  {
   "store_id": "87094",
@@ -865808,7 +864858,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87095",
@@ -865998,7 +865048,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87095",
@@ -870520,7 +869570,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87095",
@@ -873902,7 +872952,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87096",
@@ -874073,7 +873123,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87096",
@@ -878690,7 +877740,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87096",
@@ -881616,7 +880666,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87097",
@@ -881730,7 +880780,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87097",
@@ -884758,25 +883808,6 @@
   "store_name": "Orahovica",
   "street_address": "Kralja Zvonimira 167 87097 Spar",
   "city": "Orahovica",
-  "product_id": "382922",
-  "product": "OMEKŠIVAČ ORNEL ALLURE 2,4 L",
-  "brand": "Ornel",
-  "fighting_category": "Fabric Enhancers",
-  "price": 5.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "2,4000",
-  "unit": "l",
-  "unit_price": 2.41,
-  "comparison_price": 2.41,
-  "comparison_unit": "l",
-  "barcode": "3850105186676"
- },
- {
-  "store_id": "87097",
-  "store_name": "Orahovica",
-  "street_address": "Kralja Zvonimira 167 87097 Spar",
-  "city": "Orahovica",
   "product_id": "383471",
   "product": "SPAR VREĆA ZA SMEĆE 20L,15/1",
   "brand": "SPAR",
@@ -885188,7 +884219,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87097",
@@ -887582,7 +886613,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87098",
@@ -890641,7 +889672,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87098",
@@ -891060,25 +890091,6 @@
   "comparison_price": 9.5,
   "comparison_unit": "kg",
   "barcode": "3850105187796"
- },
- {
-  "store_id": "87098",
-  "store_name": "Grubisno Polje",
-  "street_address": "Polje  N. Subica Zrinskog 38 87098 Spar",
-  "city": "Grubisno",
-  "product_id": "392376",
-  "product": "DET.FAKS C.AQUAMARINE 4,95 kg",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "price": 16.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,9500",
-  "unit": "kg",
-  "unit_price": 3.43,
-  "comparison_price": 3.43,
-  "comparison_unit": "kg",
-  "barcode": "3850105188243"
  },
  {
   "store_id": "87098",
@@ -893320,7 +892332,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87100",
@@ -893510,7 +892522,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87100",
@@ -897728,7 +896740,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87100",
@@ -900692,7 +899704,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87101",
@@ -903922,7 +902934,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87101",
@@ -906411,7 +905423,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87102",
@@ -906582,7 +905594,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87102",
@@ -907628,25 +906640,6 @@
   "comparison_price": 3.21,
   "comparison_unit": "l",
   "barcode": "3850105170286"
- },
- {
-  "store_id": "87102",
-  "store_name": "Pleternica",
-  "street_address": "Trg Hrv. Branitelja 9 87102 Spar",
-  "city": "Pleternica",
-  "product_id": "332016",
-  "product": "TAB.FINISH ALL IN1 MAX 80/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "price": 14.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "80,0000",
-  "unit": "kom",
-  "unit_price": 0.19,
-  "comparison_price": 0.19,
-  "comparison_unit": "kom",
-  "barcode": "5997321733562"
  },
  {
   "store_id": "87102",
@@ -910553,7 +909546,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87102",
@@ -913042,7 +912035,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87103",
@@ -916374,25 +915367,6 @@
   "store_name": "Nasice",
   "street_address": "Vinogradska 4 87103 Spar",
   "city": "Nasice",
-  "product_id": "385744",
-  "product": "DEO SPR.NIVEA B&W FRESH 150 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,1500",
-  "unit": "l",
-  "unit_price": 16.6,
-  "comparison_price": 16.6,
-  "comparison_unit": "l",
-  "barcode": "4005900388575"
- },
- {
-  "store_id": "87103",
-  "store_name": "Nasice",
-  "street_address": "Vinogradska 4 87103 Spar",
-  "city": "Nasice",
   "product_id": "385746",
   "product": "DEO SPRAY NIVEA B&W 150 ml",
   "brand": "Nivea",
@@ -916614,7 +915588,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87103",
@@ -917508,6 +916482,44 @@
   "comparison_price": 3.79,
   "comparison_unit": "kg",
   "barcode": "4015200038919"
+ },
+ {
+  "store_id": "87103",
+  "store_name": "Nasice",
+  "street_address": "Vinogradska 4 87103 Spar",
+  "city": "Nasice",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
+ },
+ {
+  "store_id": "87103",
+  "store_name": "Nasice",
+  "street_address": "Vinogradska 4 87103 Spar",
+  "city": "Nasice",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87104",
@@ -919730,7 +918742,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87104",
@@ -919939,7 +918951,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87104",
@@ -925164,7 +924176,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87104",
@@ -929363,7 +928375,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87105",
@@ -929553,7 +928565,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87105",
@@ -935595,7 +934607,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87105",
@@ -937477,6 +936489,25 @@
   "comparison_price": 4.49,
   "comparison_unit": "kg",
   "barcode": "3858896370274"
+ },
+ {
+  "store_id": "87105",
+  "store_name": "Pu Santoriova",
+  "street_address": "Santoriova 13 87105 Spar",
+  "city": "Pula",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87106",
@@ -939680,7 +938711,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87106",
@@ -939889,7 +938920,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87106",
@@ -944962,7 +943993,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87106",
@@ -946635,6 +945666,25 @@
   "comparison_price": 0.36,
   "comparison_unit": "kom",
   "barcode": "3870128045958"
+ },
+ {
+  "store_id": "87107",
+  "store_name": "Porec",
+  "street_address": "Obala Rade Koncara 1A 87107 Spar",
+  "city": "Porec",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
  },
  {
   "store_id": "87107",
@@ -948344,7 +947394,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87107",
@@ -951460,7 +950510,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87107",
@@ -952303,6 +951353,25 @@
   "store_name": "Porec",
   "street_address": "Obala Rade Koncara 1A 87107 Spar",
   "city": "Porec",
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
+ },
+ {
+  "store_id": "87107",
+  "store_name": "Porec",
+  "street_address": "Obala Rade Koncara 1A 87107 Spar",
+  "city": "Porec",
   "product_id": "401439",
   "product": "DET.PERSIL UNIVERSAL 2X2,925 L",
   "brand": "Persil",
@@ -952373,6 +951442,25 @@
   "comparison_price": 1.75,
   "comparison_unit": "l",
   "barcode": "3850105190468"
+ },
+ {
+  "store_id": "87107",
+  "store_name": "Porec",
+  "street_address": "Obala Rade Koncara 1A 87107 Spar",
+  "city": "Porec",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87108",
@@ -954006,7 +953094,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87108",
@@ -954120,7 +953208,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87108",
@@ -957483,7 +956571,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87108",
@@ -960333,7 +959421,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87109",
@@ -960542,7 +959630,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87109",
@@ -961322,25 +960410,6 @@
   "comparison_price": 22.5,
   "comparison_unit": "l",
   "barcode": "8718951312722"
- },
- {
-  "store_id": "87109",
-  "store_name": "Knin",
-  "street_address": "Getaldiceva Bb 87109 Spar",
-  "city": "Knin",
-  "product_id": "324804",
-  "product": "ZUB.PASTA COLGATE MAX F.100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 2.25,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 22.5,
-  "comparison_price": 22.5,
-  "comparison_unit": "l",
-  "barcode": "8718951313576"
  },
  {
   "store_id": "87109",
@@ -964646,7 +963715,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87109",
@@ -966261,7 +965330,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87112",
@@ -967173,7 +966242,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87112",
@@ -969377,7 +968446,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87119",
@@ -973405,7 +972474,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87119",
@@ -976217,7 +975286,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87123",
@@ -976997,25 +976066,6 @@
   "comparison_price": 5.79,
   "comparison_unit": "kg",
   "barcode": "7612412423143"
- },
- {
-  "store_id": "87123",
-  "store_name": "Zlatar",
-  "street_address": "Zagrebacka Ulica 40 87123 Spar",
-  "city": "Zlatar",
-  "product_id": "333173",
-  "product": "GEL ZA TU.FA PINK JASMI.400 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 9.48,
-  "comparison_price": 9.48,
-  "comparison_unit": "l",
-  "barcode": "9000100935531"
  },
  {
   "store_id": "87123",
@@ -979105,7 +978155,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87123",
@@ -981347,7 +980397,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87124",
@@ -983957,25 +983007,6 @@
   "store_name": "Ivanec",
   "street_address": "Ivana Gorana Kovacica 51 87124 Spar",
   "city": "Ivanec",
-  "product_id": "369355",
-  "product": "ZU.PAS.COLGATE  WHITENI.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 19.87,
-  "comparison_price": 19.87,
-  "comparison_unit": "l",
-  "barcode": "6920354836091"
- },
- {
-  "store_id": "87124",
-  "store_name": "Ivanec",
-  "street_address": "Ivana Gorana Kovacica 51 87124 Spar",
-  "city": "Ivanec",
   "product_id": "374104",
   "product": "DET.PERSIL UNIVERSAL 2,2 kg",
   "brand": "Persil",
@@ -985242,7 +984273,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87124",
@@ -987883,7 +986914,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87126",
@@ -990790,7 +989821,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87126",
@@ -991798,25 +990829,6 @@
   "comparison_price": 22.6,
   "comparison_unit": "kg",
   "barcode": "5000204306910"
- },
- {
-  "store_id": "87127",
-  "store_name": "Popovaca",
-  "street_address": "Kutinska Ulica 16 87127 Spar",
-  "city": "Popovaca",
-  "product_id": "11002",
-  "product": "ČETK.ZA ZUBE COLGATE EX. 1+1",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 1.55,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "1,0000",
-  "unit": "kg",
-  "unit_price": 1.55,
-  "comparison_price": 1.55,
-  "comparison_unit": "kg",
-  "barcode": "8714789732244"
  },
  {
   "store_id": "87127",
@@ -993336,7 +992348,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87127",
@@ -994173,25 +993185,6 @@
   "comparison_price": 13.38,
   "comparison_unit": "l",
   "barcode": "9000100663410"
- },
- {
-  "store_id": "87127",
-  "store_name": "Popovaca",
-  "street_address": "Kutinska Ulica 16 87127 Spar",
-  "city": "Popovaca",
-  "product_id": "328084",
-  "product": "ZU.PAS.COLGATE MAX WHITE 75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 2.69,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 35.87,
-  "comparison_price": 35.87,
-  "comparison_unit": "l",
-  "barcode": "8718951250017"
  },
  {
   "store_id": "87127",
@@ -995908,25 +994901,6 @@
   "store_name": "Popovaca",
   "street_address": "Kutinska Ulica 16 87127 Spar",
   "city": "Popovaca",
-  "product_id": "375213",
-  "product": "DET.PERSIL FRESHNESS 4,95 kg",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,9500",
-  "unit": "kg",
-  "unit_price": 5.05,
-  "comparison_price": 5.05,
-  "comparison_unit": "kg",
-  "barcode": "9000101805963"
- },
- {
-  "store_id": "87127",
-  "store_name": "Popovaca",
-  "street_address": "Kutinska Ulica 16 87127 Spar",
-  "city": "Popovaca",
   "product_id": "375848",
   "product": "DEO SPR.BOROTA.MEN INV. 150 ml",
   "brand": "Borotalco",
@@ -996680,7 +995654,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87127",
@@ -999454,7 +998428,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87133",
@@ -1003482,7 +1002456,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87133",
@@ -1006313,7 +1005287,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87134",
@@ -1009296,7 +1008270,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87134",
@@ -1011538,7 +1010512,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87135",
@@ -1014939,7 +1013913,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87135",
@@ -1017618,7 +1016592,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87138",
@@ -1021323,7 +1020297,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87138",
@@ -1024097,7 +1023071,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87140",
@@ -1027555,7 +1026529,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87140",
@@ -1028493,6 +1027467,25 @@
   "store_name": "Ozalj",
   "street_address": "Karlovacka Cesta 74 87140 Spar",
   "city": "Ozalj",
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
+ },
+ {
+  "store_id": "87140",
+  "store_name": "Ozalj",
+  "street_address": "Karlovacka Cesta 74 87140 Spar",
+  "city": "Ozalj",
   "product_id": "401443",
   "product": "DET.PERSIL UNIV.6,6 kg",
   "brand": "Persil",
@@ -1028506,6 +1027499,25 @@
   "comparison_price": 3.79,
   "comparison_unit": "kg",
   "barcode": "4015200038919"
+ },
+ {
+  "store_id": "87140",
+  "store_name": "Ozalj",
+  "street_address": "Karlovacka Cesta 74 87140 Spar",
+  "city": "Ozalj",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87142",
@@ -1030405,7 +1029417,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87142",
@@ -1031147,25 +1030159,6 @@
   "comparison_price": 22.5,
   "comparison_unit": "l",
   "barcode": "8718951312722"
- },
- {
-  "store_id": "87142",
-  "store_name": "Dugo Selo",
-  "street_address": "Zagrebacka Ulica 154 87142 Spar",
-  "city": "Dugo Selo",
-  "product_id": "324804",
-  "product": "ZUB.PASTA COLGATE MAX F.100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "price": 2.25,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 22.5,
-  "comparison_price": 22.5,
-  "comparison_unit": "l",
-  "barcode": "8718951313576"
  },
  {
   "store_id": "87142",
@@ -1034395,7 +1033388,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87142",
@@ -1034472,25 +1033465,6 @@
   "comparison_price": 223.8,
   "comparison_unit": "l",
   "barcode": "9005800404004"
- },
- {
-  "store_id": "87142",
-  "store_name": "Dugo Selo",
-  "street_address": "Zagrebacka Ulica 154 87142 Spar",
-  "city": "Dugo Selo",
-  "product_id": "386627",
-  "product": "OME.SILAN SENSITIVE 2X1,67 L",
-  "brand": "Silan",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "3,3400",
-  "unit": "l",
-  "unit_price": 2.09,
-  "comparison_price": 2.09,
-  "comparison_unit": "l",
-  "barcode": "9000101597219"
  },
  {
   "store_id": "87142",
@@ -1037625,7 +1036599,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87155",
@@ -1038176,7 +1037150,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87155",
@@ -1041425,7 +1040399,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87155",
@@ -1042515,19 +1041489,38 @@
   "store_name": "Cepin",
   "street_address": "Osjecka 21 87155 Spar",
   "city": "Cepin",
-  "product_id": "402144",
-  "product": "OME.ORNEL YELLOW 4 L",
-  "brand": "Ornel",
-  "fighting_category": "Fabric Enhancers",
-  "price": 6.99,
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
+ },
+ {
+  "store_id": "87155",
+  "store_name": "Cepin",
+  "street_address": "Osjecka 21 87155 Spar",
+  "city": "Cepin",
+  "product_id": "402546",
+  "product": "PEL.VIOLETA AIR DRY VEL.7 44/1",
+  "brand": "Violeta",
+  "fighting_category": "Diapers",
+  "price": 15.89,
   "promo_price": null,
   "regular_price": null,
-  "quantity": "4,0000",
-  "unit": "l",
-  "unit_price": 1.75,
-  "comparison_price": 1.75,
-  "comparison_unit": "l",
-  "barcode": "3850105190468"
+  "quantity": "44,0000",
+  "unit": "kom",
+  "unit_price": 0.36,
+  "comparison_price": 0.36,
+  "comparison_unit": "kom",
+  "barcode": "3870128045958"
  },
  {
   "store_id": "87156",
@@ -1044389,7 +1043382,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87156",
@@ -1044997,7 +1043990,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87156",
@@ -1048873,7 +1047866,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87156",
@@ -1052141,7 +1051134,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87167",
@@ -1052711,7 +1051704,7 @@
   "unit_price": 0.02,
   "comparison_price": 0.02,
   "comparison_unit": "kom",
-  "barcode": "9100000083568"
+  "barcode": "9100000632629"
  },
  {
   "store_id": "87167",
@@ -1056473,7 +1055466,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87167",
@@ -1056898,25 +1055891,6 @@
   "store_name": "Senj",
   "street_address": "D.Tomljanovica Gavrana 2B 87167 Spar",
   "city": "Senj",
-  "product_id": "389886",
-  "product": "GEL TUŠ.AXE AFRICA 2x400 ml",
-  "brand": "Axe",
-  "fighting_category": "APDO",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 9.99,
-  "comparison_price": 9.99,
-  "comparison_unit": "l",
-  "barcode": "3856027802670"
- },
- {
-  "store_id": "87167",
-  "store_name": "Senj",
-  "street_address": "D.Tomljanovica Gavrana 2B 87167 Spar",
-  "city": "Senj",
   "product_id": "391718",
   "product": "DET.FAKS COLOR 1,8 L",
   "brand": "Faks",
@@ -1057272,25 +1056246,6 @@
   "comparison_price": 15.99,
   "comparison_unit": "l",
   "barcode": "5999109583727"
- },
- {
-  "store_id": "87167",
-  "store_name": "Senj",
-  "street_address": "D.Tomljanovica Gavrana 2B 87167 Spar",
-  "city": "Senj",
-  "product_id": "394506",
-  "product": "DET.DASH ALPEN FRISCHE 5 kg",
-  "brand": "Dash",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "5,0000",
-  "unit": "kg",
-  "unit_price": 3.8,
-  "comparison_price": 3.8,
-  "comparison_unit": "kg",
-  "barcode": "4012400504275"
  },
  {
   "store_id": "87167",
@@ -1059912,7 +1058867,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87169",
@@ -1063826,7 +1062781,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87169",
@@ -1064853,6 +1063808,25 @@
   "comparison_price": 0.36,
   "comparison_unit": "kom",
   "barcode": "3870128045958"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "street_address": "Svilajska Ulica 35B 87171 Spar",
+  "city": "Osijek",
+  "product_id": "1784",
+  "product": "DEO ROLL ON NIVEA FRESH 50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "42242864"
  },
  {
   "store_id": "87171",
@@ -1066448,7 +1065422,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204301694"
+  "barcode": "5000204458855"
  },
  {
   "store_id": "87171",
@@ -1066562,7 +1065536,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87171",
@@ -1069849,7 +1068823,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87171",
@@ -1070483,6 +1069457,25 @@
   "store_name": "Os Svilajska",
   "street_address": "Svilajska Ulica 35B 87171 Spar",
   "city": "Osijek",
+  "product_id": "401210",
+  "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
+  "brand": "Nivea",
+  "fighting_category": "APDO",
+  "price": 2.49,
+  "promo_price": 2.49,
+  "regular_price": null,
+  "quantity": "0,0500",
+  "unit": "l",
+  "unit_price": 49.8,
+  "comparison_price": 49.8,
+  "comparison_unit": "l",
+  "barcode": "9005800390178"
+ },
+ {
+  "store_id": "87171",
+  "store_name": "Os Svilajska",
+  "street_address": "Svilajska Ulica 35B 87171 Spar",
+  "city": "Osijek",
   "product_id": "402503",
   "product": "EL.AP.GLADE ONE RELA.ZEN 10 ml",
   "brand": "Glade",
@@ -1070761,7 +1069754,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87172",
@@ -1071141,7 +1070134,26 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
+ },
+ {
+  "store_id": "87172",
+  "store_name": "Zg Jurisiceva",
+  "street_address": "Nikole Jurisica 2A 87172 City",
+  "city": "Zagreb",
+  "product_id": "402538",
+  "product": "VL.MAR.SPAR BABY SENSITIV.60/1",
+  "brand": "SPAR",
+  "fighting_category": "Baby Wipes",
+  "price": 0.99,
+  "promo_price": null,
+  "regular_price": null,
+  "quantity": "60,0000",
+  "unit": "kom",
+  "unit_price": 0.02,
+  "comparison_price": 0.02,
+  "comparison_unit": "kom",
+  "barcode": "8710671206886"
  },
  {
   "store_id": "87184",
@@ -1071882,7 +1070894,7 @@
   "unit_price": 12.97,
   "comparison_price": 12.97,
   "comparison_unit": "l",
-  "barcode": "3858895412272"
+  "barcode": "8002030116555"
  },
  {
   "store_id": "87184",
@@ -1072794,7 +1071806,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4006000032252"
+  "barcode": "4005808782444"
  },
  {
   "store_id": "87184",
