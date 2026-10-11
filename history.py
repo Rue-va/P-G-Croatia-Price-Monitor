@@ -404,6 +404,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             # by the same "fighting category" taxonomy as the competitor
             # tracker, not just by the retailer's own raw category string.
             row_fighting_category = None
+            row_watch_brand = None
             # A promotion ("poseban oblik prodaje") is published as a
             # separate, lower special price next to the regular one. Only
             # kept when it's genuinely below the regular price, since some
@@ -429,10 +430,19 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                 target_cat = None
 
                 override = BRAND_FIELD_CATEGORY_OVERRIDES.get(norm_brand)
+                if override is None and not norm_brand:
+                    # blank brand column (Lidl): fall back to the product name
+                    override = next((v for k, v in BRAND_FIELD_CATEGORY_OVERRIDES.items()
+                                     if _contains_as_word(norm_product, k)), None)
                 if override:
                     override_brand_display, override_cat = override
                     override_norm_brand = _norm(override_brand_display)
-                    if override_norm_brand in watch_prices.get(override_cat, {}):
+                    # For competitor brands the product must still look like
+                    # the category: dm's "We care" range also has a toilet
+                    # spray, which isn't a pad.
+                    rule = CATEGORY_DISAMBIGUATION_KEYWORDS.get(override_norm_brand, {}).get(override_cat)
+                    fits = is_pg(override_brand_display) or rule is None or _keyword_rule_matches(norm_product, rule)
+                    if fits and override_norm_brand in watch_prices.get(override_cat, {}):
                         watch_brand_key, target_cat = override_norm_brand, override_cat
                 else:
                     matched_watch_brand = norm_brand if norm_brand in watch_brand_to_categories else None
@@ -484,6 +494,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                         }
                     )
                     row_fighting_category = target_cat
+                    row_watch_brand = watch_brand_display.get(watch_brand_key) or (override[0] if override else None)
 
             cs = category_stats.setdefault(
                 category,
@@ -554,6 +565,10 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
                             "product": item.product,
                             "brand": item.brand,
                             "fighting_category": row_fighting_category,
+                            # the tracked brand this row was counted under (e.g.
+                            # dm's "We care" -> "Violeta"), so SKU lists group it
+                            # with the right brand
+                            "watch_brand": row_watch_brand,
                             "price": price,
                             "promo_price": promo_price,
                             "regular_price": regular_price,
@@ -1101,7 +1116,7 @@ def build_sku_table(payload: dict) -> list[dict]:
         out.append({
             "ean": r.get("barcode") or "",
             "product": r["product"],
-            "brand": r.get("pg_brand") or (r.get("brand") or "").strip(),
+            "brand": r.get("pg_brand") or r.get("watch_brand") or (r.get("brand") or "").strip(),
             "side": r["side"],
             "cat": r.get("fighting_category"),
             "shelf": round(median(g["shelf"]), 2) if g["shelf"] else None,

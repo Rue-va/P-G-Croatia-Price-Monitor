@@ -204070,5 +204070,23 @@
    "max_price": 5.09,
    "store_count": 21
   }
+ ],
+ "3870128040861": [
+  {
+   "date": "2026-10-11",
+   "avg_price": 2.39,
+   "min_price": 2.39,
+   "max_price": 2.39,
+   "store_count": 25
+  }
+ ],
+ "3870128041011": [
+  {
+   "date": "2026-10-11",
+   "avg_price": 1.85,
+   "min_price": 1.85,
+   "max_price": 1.85,
+   "store_count": 83
+  }
  ]
 }

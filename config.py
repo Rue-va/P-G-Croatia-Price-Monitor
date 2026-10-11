@@ -36,7 +36,9 @@ CATEGORY_BRANDS: dict[str, list[str]] = {
 
     "Diapers": ["Pampers", "Violeta"],
     "Baby Wipes": ["Pampers", "Violeta"],
-    "Femcare": ["Always", "Naturella", "Libresse", "WeCare", "Carefree", "Violeta"],
+    # WeCare is Violeta's femcare line ("DN UL VIOL WE CARE AIR FIT" at
+    # Konzum, brand "We care" at dm) — tracked as Violeta, not separately.
+    "Femcare": ["Always", "Naturella", "Libresse", "Carefree", "Violeta"],
     "Hair Care": ["Pantene", "Head & Shoulders", "Herbal Essences", "Elseve", "Garnier", "Gliss", "Syoss", "Schauma"],
     "APDO": ["Old Spice", "Axe", "Rexona", "Nivea", "Dove", "Fa", "Borotalco"],
     "Shave Care": ["Gillette", "BIC", "Wilkinson"],
@@ -57,7 +59,7 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list
     "VIOLETA": {
         "Laundry": {
             "include": ["DET", "DETERD", "TEK.DET", "PRAŠ", "PRAS", "KAPS", "GEL ZA PRANJE"],
-            "exclude": ["POSU", "SUĐ", "OMEK", "OM "],
+            "exclude": ["POSU", "SUĐ", "OMEK", "OM ", "INTIM", "LICE", "RUKU", "RUKE", "TIJEL", "TUŠ", "TUS"],
         },
         "Fabric Enhancers": {"include": ["OMEK", "OM ", "OM.", "SOFTENER"], "exclude": ["DET", "TEK.DET"]},
         "Diapers": {"include": ["PELEN", "PEL ", "PEL.", "PANTS", "GAĆ", "GAC"], "exclude": ["PODLOG"]},
@@ -70,8 +72,9 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list
                         "INTIM", "DEZINF", "ANTIBAKT", "PAPIR", "PAP "],
         },
         "Femcare": {
-            "include": ["HIG UL", "HIG.UL", "ULOŠ", "ULOS", "ULOŽ", "DNEVN", "TAMPON", "PADS"],
-            "exclude": ["PELEN", "PEL ", "PEL.", "BABY"],
+            "include": ["HIG UL", "HIG.UL", "DN UL", "DN.UL", "UL ", "UL.", "ULOŠ", "ULOS", "ULOŽ",
+                        "DNEVN", "NOĆN", "NOCN", "TAMPON", "PADS", "WE CARE", "WECARE", "INTIM"],
+            "exclude": ["PELEN", "PEL ", "PEL.", "BABY", "MARAMIC", "VL MAR", "VL.MAR", "GEL ZA", "SAPUN"],
         },
     },
     "PAMPERS": {
@@ -125,6 +128,9 @@ BRAND_FIELD_CATEGORY_OVERRIDES: dict[str, tuple[str, str]] = {
 
     "HEAD & SHOULDE": ("Head & Shoulders", "Hair Care"),
     "ALWAYS P & G": ("Always", "Femcare"),
+    # dm lists Violeta's femcare line under the brand "We care"
+    "WE CARE": ("Violeta", "Femcare"),
+    "WECARE": ("Violeta", "Femcare"),
 }
 
 
