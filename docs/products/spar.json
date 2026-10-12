@@ -1228,7 +1228,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -1272,7 +1272,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -2284,7 +2284,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -9368,7 +9368,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -9412,7 +9412,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -10468,7 +10468,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -10711,28 +10711,6 @@
   "comparison_price": 15.48,
   "comparison_unit": "l",
   "barcode": "8001841406688",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "331857",
-  "product": "GEL OLD SPICE WHITEWAT.2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216980319",
   "matched_via": "brand"
  },
  {
@@ -14451,28 +14429,6 @@
   "comparison_price": 4.44,
   "comparison_unit": "l",
   "barcode": "8700216691840",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "390447",
-  "product": "DET.ARIEL ALPINE COLOR 5,5 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 19.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,0000",
-  "unit": "kg",
-  "unit_price": 3.33,
-  "comparison_price": 3.33,
-  "comparison_unit": "kg",
-  "barcode": "8700216733618",
   "matched_via": "brand"
  },
  {
@@ -18300,7 +18256,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -18344,7 +18300,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -19422,7 +19378,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -26748,7 +26704,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -26792,7 +26748,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -27760,7 +27716,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -34778,7 +34734,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -34822,7 +34778,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -35900,7 +35856,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -43798,7 +43754,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -43842,7 +43798,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -44898,7 +44854,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -51278,7 +51234,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -51322,7 +51278,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -52422,7 +52378,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -61090,7 +61046,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -61134,7 +61090,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -62190,7 +62146,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -69736,7 +69692,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -69780,7 +69736,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -70836,7 +70792,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -78162,7 +78118,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -78206,7 +78162,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -79174,7 +79130,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -85510,7 +85466,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -85554,7 +85510,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -86588,7 +86544,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -93958,7 +93914,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -94002,7 +93958,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -95036,7 +94992,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -99128,7 +99084,7 @@
   "unit_price": 6.99,
   "comparison_price": 6.99,
   "comparison_unit": "kg",
-  "barcode": "8006530006095",
+  "barcode": "8006530399357",
   "matched_via": "brand"
  },
  {
@@ -102692,7 +102648,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -102736,7 +102692,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -103792,7 +103748,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -104013,28 +103969,6 @@
   "comparison_price": 15.48,
   "comparison_unit": "l",
   "barcode": "8001841406688",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "331857",
-  "product": "GEL OLD SPICE WHITEWAT.2x400ml",
-  "brand": "Old Spice",
-  "category": "Kozmetika",
-  "pg_brand": "Old Spice",
-  "fighting_category": "APDO",
-  "price": 5.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 7.49,
-  "comparison_price": 7.49,
-  "comparison_unit": "l",
-  "barcode": "8700216980319",
   "matched_via": "brand"
  },
  {
@@ -109784,28 +109718,6 @@
   "store_name": "Zg Cco",
   "street_address": "Slavonska Avenija 11D 8716 Interspar",
   "city": "Zagreb",
-  "product_id": "16134",
-  "product": "BR.GILL.BLUE II PLUS 5 KOM",
-  "brand": "Gillette",
-  "category": "Kozmetika",
-  "pg_brand": "Gillette",
-  "fighting_category": "Shave Care",
-  "price": 3.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "5,0000",
-  "unit": "kom",
-  "unit_price": 0.76,
-  "comparison_price": 0.76,
-  "comparison_unit": "kom",
-  "barcode": "3014260283254",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8716",
-  "store_name": "Zg Cco",
-  "street_address": "Slavonska Avenija 11D 8716 Interspar",
-  "city": "Zagreb",
   "product_id": "16156",
   "product": "JED.BRITVICE GILLETTE 5/1",
   "brand": "Gillette",
@@ -110986,7 +110898,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -111030,7 +110942,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -112020,7 +111932,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -119390,7 +119302,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -119434,7 +119346,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -120402,7 +120314,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -128058,7 +127970,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -128102,7 +128014,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -129136,7 +129048,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -136616,7 +136528,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -136660,7 +136572,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -137782,7 +137694,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -145900,7 +145812,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -145944,7 +145856,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -146978,7 +146890,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -154634,7 +154546,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -154678,7 +154590,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -155646,7 +155558,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -162752,7 +162664,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -162796,7 +162708,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -163852,7 +163764,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -171904,7 +171816,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -171948,7 +171860,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -172982,7 +172894,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -179516,7 +179428,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -179560,7 +179472,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -180506,7 +180418,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -187106,7 +187018,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -187150,7 +187062,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -188184,7 +188096,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -193428,28 +193340,6 @@
   "store_name": "Samobor",
   "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
   "city": "Samobor",
-  "product_id": "401019",
-  "product": "DET.ARIEL FRESH AIR 4,4 kg",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,4000",
-  "unit": "kg",
-  "unit_price": 4.32,
-  "comparison_price": 4.32,
-  "comparison_unit": "kg",
-  "barcode": "8006530125208",
-  "matched_via": "brand"
- },
- {
-  "store_id": "8726",
-  "store_name": "Samobor",
-  "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
-  "city": "Samobor",
   "product_id": "401079",
   "product": "TAB.JAR PLAT.PLUS WINTER 122/1",
   "brand": "Jar",
@@ -195026,7 +194916,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -195070,7 +194960,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -196104,7 +195994,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -203650,7 +203540,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -203694,7 +203584,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -204662,7 +204552,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -220040,7 +219930,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -220084,7 +219974,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -224198,7 +224088,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -226794,7 +226684,7 @@
   "unit_price": 6.99,
   "comparison_price": 6.99,
   "comparison_unit": "kg",
-  "barcode": "8006530006095",
+  "barcode": "8006530399357",
   "matched_via": "brand"
  },
  {
@@ -228290,7 +228180,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -229698,7 +229588,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -229742,7 +229632,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -234274,7 +234164,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -235924,7 +235814,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -238564,7 +238454,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -238608,7 +238498,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -239004,7 +238894,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -240017,28 +239907,6 @@
   "comparison_price": 6.22,
   "comparison_unit": "l",
   "barcode": "8700216691154",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87016",
-  "store_name": "Vz Medimurska",
-  "street_address": "Medimurska Ulica 31C 87016 Spar",
-  "city": "Varazdin",
-  "product_id": "387930",
-  "product": "KAP.ARIEL COLOR FRESH 44/1",
-  "brand": "Ariel",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Ariel",
-  "fighting_category": "Laundry",
-  "price": 13.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "44,0000",
-  "unit": "kom",
-  "unit_price": 0.32,
-  "comparison_price": 0.32,
-  "comparison_unit": "pranje",
-  "barcode": "8700216764544",
   "matched_via": "brand"
  },
  {
@@ -241644,7 +241512,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -241688,7 +241556,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -260938,7 +260806,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -260982,7 +260850,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -261444,7 +261312,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -266856,7 +266724,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -266900,7 +266768,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -270882,7 +270750,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -275568,7 +275436,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -275612,7 +275480,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -275942,7 +275810,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -278516,7 +278384,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -278560,7 +278428,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -290616,7 +290484,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -298184,7 +298052,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -302122,7 +301990,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -302518,7 +302386,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -305246,7 +305114,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -305290,7 +305158,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -314530,7 +314398,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -315806,7 +315674,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -316884,7 +316752,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -318755,28 +318623,6 @@
   "comparison_price": 0.76,
   "comparison_unit": "kom",
   "barcode": "7702018849031",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87056",
-  "store_name": "Zg",
-  "street_address": "Petrovaradinska 47 87056 Spar",
-  "city": "Zagreb",
-  "product_id": "161760",
-  "product": "PEL.PAMPERS PREMIUM CARE 52/1",
-  "brand": "Pampers",
-  "category": "Toaletne potrepštine",
-  "pg_brand": "Pampers",
-  "fighting_category": "Diapers",
-  "price": 15.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "52,0000",
-  "unit": "kom",
-  "unit_price": 0.31,
-  "comparison_price": 0.31,
-  "comparison_unit": "kom",
-  "barcode": "4015400278818",
   "matched_via": "brand"
  },
  {
@@ -332834,7 +332680,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -332878,7 +332724,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -333450,7 +333296,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -336134,7 +335980,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -336178,7 +336024,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -339632,7 +339478,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -339676,7 +339522,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -340402,7 +340248,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -343460,7 +343306,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -343504,7 +343350,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -346562,7 +346408,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -346606,7 +346452,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -347024,7 +346870,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -350698,7 +350544,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -350742,7 +350588,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -351292,7 +351138,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -355626,7 +355472,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -368826,7 +368672,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -368870,7 +368716,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -369398,7 +369244,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -372478,7 +372324,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -372522,7 +372368,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -376482,7 +376328,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -376526,7 +376372,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -380508,7 +380354,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -380552,7 +380398,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -381014,7 +380860,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -384138,7 +383984,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -386800,7 +386646,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -386844,7 +386690,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -387262,7 +387108,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -389924,7 +389770,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -389968,7 +389814,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -396018,7 +395864,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -396062,7 +395908,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -396502,7 +396348,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -403168,7 +403014,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -403212,7 +403058,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -408206,7 +408052,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -408250,7 +408096,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -408646,7 +408492,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -413068,7 +412914,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -413112,7 +412958,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -413684,7 +413530,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -417116,7 +416962,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -417160,7 +417006,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -418173,28 +418019,6 @@
   "comparison_price": 13.96,
   "comparison_unit": "l",
   "barcode": "8006540532089",
-  "matched_via": "brand"
- },
- {
-  "store_id": "87105",
-  "store_name": "Pu Santoriova",
-  "street_address": "Santoriova 13 87105 Spar",
-  "city": "Pula",
-  "product_id": "365757",
-  "product": "OMEK.LENOR DIAMOND 925 ml",
-  "brand": "Lenor",
-  "category": "Sredstva za čišćenje",
-  "pg_brand": "Lenor",
-  "fighting_category": "Fabric Enhancers",
-  "price": 3.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,9250",
-  "unit": "l",
-  "unit_price": 4.31,
-  "comparison_price": 4.31,
-  "comparison_unit": "l",
-  "barcode": "8006540909379",
   "matched_via": "brand"
  },
  {
@@ -421362,7 +421186,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -421406,7 +421230,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -424662,7 +424486,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -424706,7 +424530,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -425080,7 +424904,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -429722,7 +429546,7 @@
   "unit_price": 0.38,
   "comparison_price": 0.38,
   "comparison_unit": "kom",
-  "barcode": "8006530316699",
+  "barcode": "8006540069356",
   "matched_via": "brand"
  },
  {
@@ -429766,7 +429590,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -438236,7 +438060,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {
@@ -461732,7 +461556,7 @@
   "unit_price": 0.3,
   "comparison_price": 0.3,
   "comparison_unit": "kom",
-  "barcode": "8006540069264",
+  "barcode": "8006530316668",
   "matched_via": "brand"
  },
  {
@@ -462194,7 +462018,7 @@
   "unit_price": 0.4,
   "comparison_price": 0.4,
   "comparison_unit": "kom",
-  "barcode": "8001090759832",
+  "barcode": "8006530320009",
   "matched_via": "brand"
  },
  {

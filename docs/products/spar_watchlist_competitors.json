@@ -3057,7 +3057,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8701",
@@ -3917,7 +3917,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8701",
@@ -3937,7 +3937,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8701",
@@ -5197,7 +5197,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8701",
@@ -9617,7 +9617,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8701",
@@ -10737,7 +10737,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8701",
@@ -12937,7 +12937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8701",
@@ -12997,7 +12997,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8701",
@@ -13077,7 +13077,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8701",
@@ -20737,7 +20737,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8702",
@@ -21617,7 +21617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8702",
@@ -21637,7 +21637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8702",
@@ -22897,7 +22897,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8702",
@@ -27537,7 +27537,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8702",
@@ -28158,26 +28158,6 @@
   "comparison_price": 19.87,
   "comparison_unit": "l",
   "barcode": "6920354836091"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "369480",
-  "product": "ČET. COLGATE S.SOFT 3/1",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 4.49,
-  "promo_price": 4.49,
-  "regular_price": null,
-  "quantity": "3,0000",
-  "unit": "kom",
-  "unit_price": 1.5,
-  "comparison_price": 1.5,
-  "comparison_unit": "kom",
-  "barcode": "8714789940557"
  },
  {
   "store_id": "8702",
@@ -28917,7 +28897,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8702",
@@ -31337,7 +31317,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8702",
@@ -31397,7 +31377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8702",
@@ -31497,7 +31477,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8702",
@@ -33518,26 +33498,6 @@
   "comparison_price": 0.03,
   "comparison_unit": "kg",
   "barcode": "3831115332963"
- },
- {
-  "store_id": "8702",
-  "store_name": "Zg Cco",
-  "street_address": "Jankomir 33. 8702 Interspar",
-  "city": "Zagreb",
-  "product_id": "394268",
-  "product": "ZUB.P.COLGATE SHINE DIMA.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 2.09,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 27.87,
-  "comparison_price": 27.87,
-  "comparison_unit": "l",
-  "barcode": "8718951688001"
  },
  {
   "store_id": "8702",
@@ -39477,7 +39437,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8703",
@@ -40397,7 +40357,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8703",
@@ -40417,7 +40377,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8703",
@@ -41677,7 +41637,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8703",
@@ -46297,7 +46257,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8703",
@@ -47617,7 +47577,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8703",
@@ -49964,26 +49924,6 @@
   "store_name": "Sisak",
   "street_address": "Ivana Fistrovica 25 8703 Interspar",
   "city": "Sisak",
-  "product_id": "385749",
-  "product": "DEO ROLL ON NIVEA DRY 50 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "watch_brand": "Nivea",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,0500",
-  "unit": "l",
-  "unit_price": 49.8,
-  "comparison_price": 49.8,
-  "comparison_unit": "l",
-  "barcode": "4005900388513"
- },
- {
-  "store_id": "8703",
-  "store_name": "Sisak",
-  "street_address": "Ivana Fistrovica 25 8703 Interspar",
-  "city": "Sisak",
   "product_id": "385750",
   "product": "DEO ROLL ON NIVEA PURE 50 ml",
   "brand": "Nivea",
@@ -50017,7 +49957,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8703",
@@ -50077,7 +50017,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8703",
@@ -50197,7 +50137,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8703",
@@ -57897,7 +57837,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8704",
@@ -58757,7 +58697,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8704",
@@ -58777,7 +58717,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8704",
@@ -59997,7 +59937,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8704",
@@ -64477,7 +64417,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8704",
@@ -65697,7 +65637,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8704",
@@ -67937,7 +67877,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8704",
@@ -67997,7 +67937,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8704",
@@ -68117,7 +68057,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8704",
@@ -74177,7 +74117,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "8705",
@@ -75977,7 +75917,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8705",
@@ -76857,7 +76797,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8705",
@@ -76877,7 +76817,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8705",
@@ -78137,7 +78077,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8705",
@@ -82897,7 +82837,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8705",
@@ -84217,7 +84157,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8705",
@@ -86677,7 +86617,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8705",
@@ -86737,7 +86677,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8705",
@@ -86837,7 +86777,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8705",
@@ -94697,7 +94637,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8706",
@@ -95517,7 +95457,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8706",
@@ -95537,7 +95477,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8706",
@@ -96677,7 +96617,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8706",
@@ -100877,7 +100817,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8706",
@@ -102157,7 +102097,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8706",
@@ -104377,7 +104317,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8706",
@@ -104437,7 +104377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8706",
@@ -104557,7 +104497,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8706",
@@ -112057,7 +111997,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8707",
@@ -112937,7 +112877,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8707",
@@ -112957,7 +112897,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8707",
@@ -114237,7 +114177,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8707",
@@ -118957,7 +118897,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8707",
@@ -120337,7 +120277,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8707",
@@ -121784,26 +121724,6 @@
   "store_name": "Zg",
   "street_address": "Skorpikova 34 2 8707 Interspar",
   "city": "Zagreb",
-  "product_id": "383866",
-  "product": "TAB.LIKVI SUPREME 22/1",
-  "brand": "Likvi",
-  "fighting_category": "Hand Dishwashing",
-  "watch_brand": "Likvi",
-  "price": 4.79,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "22,0000",
-  "unit": "kom",
-  "unit_price": 0.22,
-  "comparison_price": 0.22,
-  "comparison_unit": "kom",
-  "barcode": "3850105187079"
- },
- {
-  "store_id": "8707",
-  "store_name": "Zg",
-  "street_address": "Skorpikova 34 2 8707 Interspar",
-  "city": "Zagreb",
   "product_id": "383867",
   "product": "TAB.LIKVI SUPREME 53/1",
   "brand": "Likvi",
@@ -122198,26 +122118,6 @@
   "comparison_price": 13.27,
   "comparison_unit": "l",
   "barcode": "8002410043099"
- },
- {
-  "store_id": "8707",
-  "store_name": "Zg",
-  "street_address": "Skorpikova 34 2 8707 Interspar",
-  "city": "Zagreb",
-  "product_id": "385134",
-  "product": "TAB.FINISH ULTIMATE PLUS 90/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "watch_brand": "Finish",
-  "price": 17.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "90,0000",
-  "unit": "kom",
-  "unit_price": 0.2,
-  "comparison_price": 0.2,
-  "comparison_unit": "kom",
-  "barcode": "5908252011025"
  },
  {
   "store_id": "8707",
@@ -122857,7 +122757,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8707",
@@ -122917,7 +122817,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8707",
@@ -122977,7 +122877,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8707",
@@ -130917,7 +130817,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8708",
@@ -131797,7 +131697,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8708",
@@ -131817,7 +131717,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8708",
@@ -133117,7 +133017,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8708",
@@ -137857,7 +137757,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8708",
@@ -138518,26 +138418,6 @@
   "comparison_price": 19.87,
   "comparison_unit": "kg",
   "barcode": "6920354836176"
- },
- {
-  "store_id": "8708",
-  "store_name": "Interspar",
-  "street_address": "Gospodarska Ulica 5",
-  "city": "Donji Stupnik",
-  "product_id": "369355",
-  "product": "ZU.PAS.COLGATE  WHITENI.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 1.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 19.87,
-  "comparison_price": 19.87,
-  "comparison_unit": "l",
-  "barcode": "6920354836091"
  },
  {
   "store_id": "8708",
@@ -139357,7 +139237,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8708",
@@ -141877,7 +141757,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8708",
@@ -141937,7 +141817,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8708",
@@ -142037,7 +141917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8708",
@@ -149817,7 +149697,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8711",
@@ -150657,7 +150537,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8711",
@@ -150677,7 +150557,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8711",
@@ -151917,7 +151797,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8711",
@@ -156217,7 +156097,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8711",
@@ -157437,7 +157317,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8711",
@@ -159597,7 +159477,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8711",
@@ -159657,7 +159537,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8711",
@@ -159737,7 +159617,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8711",
@@ -167397,7 +167277,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8712",
@@ -168197,7 +168077,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8712",
@@ -168217,7 +168097,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8712",
@@ -169284,26 +169164,6 @@
   "store_name": "Kc",
   "street_address": "Gospodarska Ulica 1 8712 Interspar",
   "city": "Koprivnica",
-  "product_id": "322482",
-  "product": "ZUB.P.COLGATE ORIGINAL 100 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 2.69,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,1000",
-  "unit": "l",
-  "unit_price": 26.9,
-  "comparison_price": 26.9,
-  "comparison_unit": "l",
-  "barcode": "8718951210394"
- },
- {
-  "store_id": "8712",
-  "store_name": "Kc",
-  "street_address": "Gospodarska Ulica 1 8712 Interspar",
-  "city": "Koprivnica",
   "product_id": "322600",
   "product": "ZUB.PASTA SENSODYNE GUM 75 ml",
   "brand": "Sensodyne",
@@ -169417,7 +169277,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8712",
@@ -173757,7 +173617,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8712",
@@ -174957,7 +174817,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8712",
@@ -177177,7 +177037,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8712",
@@ -177237,7 +177097,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8712",
@@ -177297,7 +177157,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8712",
@@ -179418,26 +179278,6 @@
   "comparison_price": 17.45,
   "comparison_unit": "l",
   "barcode": "9000101759570"
- },
- {
-  "store_id": "8712",
-  "store_name": "Kc",
-  "street_address": "Gospodarska Ulica 1 8712 Interspar",
-  "city": "Koprivnica",
-  "product_id": "395117",
-  "product": "GEL FA DIVINE MOMENTS 400 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "watch_brand": "Fa",
-  "price": 2.25,
-  "promo_price": 2.25,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 5.63,
-  "comparison_price": 5.63,
-  "comparison_unit": "l",
-  "barcode": "9000101054941"
  },
  {
   "store_id": "8712",
@@ -184737,7 +184577,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8713",
@@ -185577,7 +185417,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8713",
@@ -185597,7 +185437,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8713",
@@ -186857,7 +186697,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8713",
@@ -191437,7 +191277,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8713",
@@ -192797,7 +192637,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8713",
@@ -195217,7 +195057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8713",
@@ -195277,7 +195117,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8713",
@@ -195357,7 +195197,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8713",
@@ -203037,7 +202877,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8714",
@@ -203877,7 +203717,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8714",
@@ -203897,7 +203737,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8714",
@@ -205137,7 +204977,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8714",
@@ -206338,26 +206178,6 @@
   "comparison_price": 2.65,
   "comparison_unit": "l",
   "barcode": "9000101386745"
- },
- {
-  "store_id": "8714",
-  "store_name": "Zg Arena",
-  "street_address": "Ulica Vice Vukova 6 8714 Interspar",
-  "city": "Zagreb",
-  "product_id": "339078",
-  "product": "DET.PUR APPLE 750ml",
-  "brand": "Pur",
-  "fighting_category": "Hand Dishwashing",
-  "watch_brand": "Pur",
-  "price": 1.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,7500",
-  "unit": "l",
-  "unit_price": 2.65,
-  "comparison_price": 2.65,
-  "comparison_unit": "l",
-  "barcode": "9000101386141"
  },
  {
   "store_id": "8714",
@@ -209737,7 +209557,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8714",
@@ -211077,7 +210897,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8714",
@@ -213577,7 +213397,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8714",
@@ -213637,7 +213457,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8714",
@@ -213737,7 +213557,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8714",
@@ -221457,7 +221277,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8715",
@@ -222277,7 +222097,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8715",
@@ -222297,7 +222117,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8715",
@@ -223597,7 +223417,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8715",
@@ -224058,26 +223878,6 @@
   "comparison_price": 13.38,
   "comparison_unit": "l",
   "barcode": "9000100549837"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "327990",
-  "product": "ŠAMP.GLISS ULTIMATE REP.400 ml",
-  "brand": "Gliss",
-  "fighting_category": "Hair Care",
-  "watch_brand": "Gliss",
-  "price": 5.35,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 13.38,
-  "comparison_price": 13.38,
-  "comparison_unit": "l",
-  "barcode": "9000100663410"
  },
  {
   "store_id": "8715",
@@ -228077,7 +227877,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8715",
@@ -228658,26 +228458,6 @@
   "comparison_price": 5.61,
   "comparison_unit": "l",
   "barcode": "3838824432915"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "369352",
-  "product": "ZU.PAS.COLGATE MAX WHI.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 2.85,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 38.0,
-  "comparison_price": 38.0,
-  "comparison_unit": "l",
-  "barcode": "8718951540033"
  },
  {
   "store_id": "8715",
@@ -229317,7 +229097,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8715",
@@ -231517,7 +231297,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8715",
@@ -231577,7 +231357,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8715",
@@ -231677,7 +231457,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8715",
@@ -233624,26 +233404,6 @@
   "store_name": "St Cco ",
   "street_address": "Vukovarska 207 8715 Interspar",
   "city": "Split",
-  "product_id": "394268",
-  "product": "ZUB.P.COLGATE SHINE DIMA.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 2.09,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 27.87,
-  "comparison_price": 27.87,
-  "comparison_unit": "l",
-  "barcode": "8718951688001"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
   "product_id": "394269",
   "product": "ZUB.P.COLGATE EXP.PURYF. 75 ml",
   "brand": "Colgate",
@@ -234418,26 +234178,6 @@
   "comparison_price": 99.33,
   "comparison_unit": "l",
   "barcode": "5054563287564"
- },
- {
-  "store_id": "8715",
-  "store_name": "St Cco ",
-  "street_address": "Vukovarska 207 8715 Interspar",
-  "city": "Split",
-  "product_id": "396151",
-  "product": "ŠAM.SCHAUMA HAIR BOOOST 350 ml",
-  "brand": "Schauma",
-  "fighting_category": "Hair Care",
-  "watch_brand": "Schauma",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,3500",
-  "unit": "l",
-  "unit_price": 7.11,
-  "comparison_price": 7.11,
-  "comparison_unit": "l",
-  "barcode": "9000101766783"
  },
  {
   "store_id": "8715",
@@ -239377,7 +239117,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8716",
@@ -240217,7 +239957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8716",
@@ -240237,7 +239977,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8716",
@@ -241477,7 +241217,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8716",
@@ -246057,7 +245797,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8716",
@@ -247337,7 +247077,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8716",
@@ -249777,7 +249517,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8716",
@@ -249837,7 +249577,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8716",
@@ -249957,7 +249697,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8716",
@@ -251658,26 +251398,6 @@
   "comparison_price": 3.43,
   "comparison_unit": "kg",
   "barcode": "3850105188243"
- },
- {
-  "store_id": "8716",
-  "store_name": "Zg Cco",
-  "street_address": "Slavonska Avenija 11D 8716 Interspar",
-  "city": "Zagreb",
-  "product_id": "392832",
-  "product": "TEK.SAPUN AFRODITA SPAR.300 ml",
-  "brand": "Afrodita",
-  "fighting_category": "Baby Wipes",
-  "watch_brand": "Spar",
-  "price": 1.79,
-  "promo_price": 1.79,
-  "regular_price": null,
-  "quantity": "0,3000",
-  "unit": "l",
-  "unit_price": 5.97,
-  "comparison_price": 5.97,
-  "comparison_unit": "l",
-  "barcode": "3831070663775"
  },
  {
   "store_id": "8716",
@@ -254238,26 +253958,6 @@
   "comparison_price": 49.8,
   "comparison_unit": "l",
   "barcode": "9005800390178"
- },
- {
-  "store_id": "8716",
-  "store_name": "Zg Cco",
-  "street_address": "Slavonska Avenija 11D 8716 Interspar",
-  "city": "Zagreb",
-  "product_id": "401439",
-  "product": "DET.PERSIL UNIVERSAL 2X2,925 L",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "watch_brand": "Persil",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "5,8500",
-  "unit": "l",
-  "unit_price": 4.27,
-  "comparison_price": 4.27,
-  "comparison_unit": "l",
-  "barcode": "4015200038896"
  },
  {
   "store_id": "8716",
@@ -257657,7 +257357,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8717",
@@ -258497,7 +258197,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8717",
@@ -258517,7 +258217,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8717",
@@ -259757,7 +259457,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8717",
@@ -260998,26 +260698,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "8717",
-  "store_name": "Zg Buzin",
-  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
-  "city": "Zagreb",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "watch_brand": "Violeta",
-  "price": 2.39,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "8717",
@@ -264257,7 +263937,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8717",
@@ -265597,7 +265277,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8717",
@@ -267997,7 +267677,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8717",
@@ -268057,7 +267737,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8717",
@@ -268157,7 +267837,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8717",
@@ -269404,26 +269084,6 @@
   "store_name": "Zg Buzin",
   "street_address": "Avenija V. Holjevca 62 8717 Interspar",
   "city": "Zagreb",
-  "product_id": "389886",
-  "product": "GEL TUŠ.AXE AFRICA 2x400 ml",
-  "brand": "Axe",
-  "fighting_category": "APDO",
-  "watch_brand": "Axe",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 9.99,
-  "comparison_price": 9.99,
-  "comparison_unit": "l",
-  "barcode": "3856027802670"
- },
- {
-  "store_id": "8717",
-  "store_name": "Zg Buzin",
-  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
-  "city": "Zagreb",
   "product_id": "389888",
   "product": "GEL TUŠ.DOVE HYDRATE 2x450 ml",
   "brand": "Dove",
@@ -270604,26 +270264,6 @@
   "store_name": "Zg Buzin",
   "street_address": "Avenija V. Holjevca 62 8717 Interspar",
   "city": "Zagreb",
-  "product_id": "395108",
-  "product": "REG.SYOSS INTENSE GLAZE 250 ml",
-  "brand": "Syoss",
-  "fighting_category": "Hair Care",
-  "watch_brand": "Syoss",
-  "price": 3.99,
-  "promo_price": 3.99,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 15.96,
-  "comparison_price": 15.96,
-  "comparison_unit": "l",
-  "barcode": "9000101760132"
- },
- {
-  "store_id": "8717",
-  "store_name": "Zg Buzin",
-  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
-  "city": "Zagreb",
   "product_id": "395109",
   "product": "ŠAM.SYOSS INTENSE GLAZE 440 ml",
   "brand": "Syoss",
@@ -271098,26 +270738,6 @@
   "comparison_price": 99.33,
   "comparison_unit": "l",
   "barcode": "5054563287564"
- },
- {
-  "store_id": "8717",
-  "store_name": "Zg Buzin",
-  "street_address": "Avenija V. Holjevca 62 8717 Interspar",
-  "city": "Zagreb",
-  "product_id": "396106",
-  "product": "DEO SPR.FA GARDENIA 150 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "watch_brand": "Fa",
-  "price": 2.19,
-  "promo_price": 2.19,
-  "regular_price": null,
-  "quantity": "0,1500",
-  "unit": "l",
-  "unit_price": 14.6,
-  "comparison_price": 14.6,
-  "comparison_unit": "l",
-  "barcode": "9000101752649"
  },
  {
   "store_id": "8717",
@@ -274257,7 +273877,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "8718",
@@ -276057,7 +275677,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8718",
@@ -276917,7 +276537,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8718",
@@ -276937,7 +276557,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8718",
@@ -278157,7 +277777,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8718",
@@ -282497,7 +282117,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8718",
@@ -283657,7 +283277,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8718",
@@ -285917,7 +285537,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8718",
@@ -285977,7 +285597,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8718",
@@ -286077,7 +285697,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8718",
@@ -294197,7 +293817,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8719",
@@ -295137,7 +294757,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8719",
@@ -295157,7 +294777,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8719",
@@ -296437,7 +296057,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8719",
@@ -301337,7 +300957,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8719",
@@ -303057,7 +302677,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8719",
@@ -305697,7 +305317,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8719",
@@ -305757,7 +305377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8719",
@@ -305837,7 +305457,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8719",
@@ -313717,7 +313337,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8720",
@@ -314577,7 +314197,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8720",
@@ -314597,7 +314217,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8720",
@@ -315877,7 +315497,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8720",
@@ -320197,7 +319817,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8720",
@@ -321597,7 +321217,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8720",
@@ -323857,7 +323477,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8720",
@@ -323917,7 +323537,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8720",
@@ -324017,7 +323637,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8720",
@@ -331797,7 +331417,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8721",
@@ -332637,7 +332257,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8721",
@@ -332657,7 +332277,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8721",
@@ -333877,7 +333497,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8721",
@@ -338137,7 +337757,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8721",
@@ -339397,7 +339017,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8721",
@@ -341617,7 +341237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8721",
@@ -341677,7 +341297,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8721",
@@ -341797,7 +341417,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8721",
@@ -349697,7 +349317,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8722",
@@ -350597,7 +350217,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8722",
@@ -350617,7 +350237,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8722",
@@ -351897,7 +351517,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8722",
@@ -356477,7 +356097,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8722",
@@ -357977,7 +357597,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8722",
@@ -360537,7 +360157,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8722",
@@ -360597,7 +360217,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8722",
@@ -360717,7 +360337,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8722",
@@ -368377,7 +367997,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8723",
@@ -369217,7 +368837,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8723",
@@ -369237,7 +368857,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8723",
@@ -370417,7 +370037,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8723",
@@ -374677,7 +374297,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8723",
@@ -375777,7 +375397,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8723",
@@ -378057,7 +377677,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8723",
@@ -378117,7 +377737,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8723",
@@ -378217,7 +377837,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8723",
@@ -385697,7 +385317,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8725",
@@ -386517,7 +386137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8725",
@@ -386537,7 +386157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8725",
@@ -387717,7 +387337,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8725",
@@ -391957,7 +391577,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8725",
@@ -393037,7 +392657,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8725",
@@ -395037,7 +394657,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8725",
@@ -395097,7 +394717,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8725",
@@ -395157,7 +394777,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8725",
@@ -400857,7 +400477,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "8726",
@@ -402577,7 +402197,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8726",
@@ -403377,7 +402997,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8726",
@@ -403397,7 +403017,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8726",
@@ -404637,7 +404257,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8726",
@@ -408917,7 +408537,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8726",
@@ -410057,7 +409677,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8726",
@@ -412184,26 +411804,6 @@
   "store_name": "Samobor",
   "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
   "city": "Samobor",
-  "product_id": "385749",
-  "product": "DEO ROLL ON NIVEA DRY 50 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "watch_brand": "Nivea",
-  "price": 2.49,
-  "promo_price": 2.49,
-  "regular_price": null,
-  "quantity": "0,0500",
-  "unit": "l",
-  "unit_price": 49.8,
-  "comparison_price": 49.8,
-  "comparison_unit": "l",
-  "barcode": "4005900388513"
- },
- {
-  "store_id": "8726",
-  "store_name": "Samobor",
-  "street_address": "Ul. Grada Wirgesa 2 D 8726 Interspar",
-  "city": "Samobor",
   "product_id": "385750",
   "product": "DEO ROLL ON NIVEA PURE 50 ml",
   "brand": "Nivea",
@@ -412237,7 +411837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8726",
@@ -412297,7 +411897,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8726",
@@ -412357,7 +411957,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8726",
@@ -419797,7 +419397,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8728",
@@ -420677,7 +420277,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8728",
@@ -420697,7 +420297,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8728",
@@ -421957,7 +421557,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8728",
@@ -426457,7 +426057,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8728",
@@ -427737,7 +427337,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8728",
@@ -430177,7 +429777,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8728",
@@ -430237,7 +429837,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8728",
@@ -430317,7 +429917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8728",
@@ -434604,26 +434204,6 @@
   "store_name": "Vg",
   "street_address": "Rakarska Ulica 13 8728 Interspar",
   "city": "Velika Gorica",
-  "product_id": "401443",
-  "product": "DET.PERSIL UNIV.6,6 kg",
-  "brand": "Persil",
-  "fighting_category": "Laundry",
-  "watch_brand": "Persil",
-  "price": 24.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "6,6000",
-  "unit": "kg",
-  "unit_price": 3.79,
-  "comparison_price": 3.79,
-  "comparison_unit": "kg",
-  "barcode": "4015200038919"
- },
- {
-  "store_id": "8728",
-  "store_name": "Vg",
-  "street_address": "Rakarska Ulica 13 8728 Interspar",
-  "city": "Velika Gorica",
   "product_id": "401444",
   "product": "KAP.PERSIL UNIVERSAL 2X50/1",
   "brand": "Persil",
@@ -437957,7 +437537,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "8729",
@@ -438797,7 +438377,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "8729",
@@ -438817,7 +438397,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "8729",
@@ -440037,7 +439617,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "8729",
@@ -444377,7 +443957,7 @@
   "unit_price": 71.89,
   "comparison_price": 71.89,
   "comparison_unit": "l",
-  "barcode": "5999109546746"
+  "barcode": "5999109543325"
  },
  {
   "store_id": "8729",
@@ -445697,7 +445277,7 @@
   "unit_price": 2.4,
   "comparison_price": 2.4,
   "comparison_unit": "kg",
-  "barcode": "4027800175208"
+  "barcode": "4027800892266"
  },
  {
   "store_id": "8729",
@@ -447877,7 +447457,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "8729",
@@ -447937,7 +447517,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "8729",
@@ -447997,7 +447577,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "8729",
@@ -454557,7 +454137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87001",
@@ -454577,7 +454157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87001",
@@ -458137,7 +457717,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87001",
@@ -458177,7 +457757,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87001",
@@ -458257,7 +457837,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87001",
@@ -461317,7 +460897,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87002",
@@ -461337,7 +460917,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87002",
@@ -465417,7 +464997,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87002",
@@ -465457,7 +465037,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87002",
@@ -465557,7 +465137,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87002",
@@ -469177,7 +468757,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87003",
@@ -469197,7 +468777,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87003",
@@ -473617,7 +473197,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87003",
@@ -473657,7 +473237,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87003",
@@ -473717,7 +473297,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87003",
@@ -477597,7 +477177,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87004",
@@ -478237,7 +477817,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87004",
@@ -478257,7 +477837,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87004",
@@ -483217,7 +482797,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87004",
@@ -483277,7 +482857,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87004",
@@ -483337,7 +482917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87004",
@@ -486377,7 +485957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87005",
@@ -487657,7 +487237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87005",
@@ -487697,7 +487277,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87005",
@@ -487757,7 +487337,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87005",
@@ -488657,7 +488237,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87006",
@@ -489497,7 +489077,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87006",
@@ -489517,7 +489097,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87006",
@@ -491397,7 +490977,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87007",
@@ -491417,7 +490997,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87007",
@@ -494717,7 +494297,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87007",
@@ -494757,7 +494337,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87007",
@@ -494797,7 +494377,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87007",
@@ -496457,7 +496037,7 @@
   "unit_price": 38.6,
   "comparison_price": 38.6,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87008",
@@ -497197,7 +496777,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87008",
@@ -498457,7 +498037,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87008",
@@ -498497,7 +498077,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87008",
@@ -498577,7 +498157,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87008",
@@ -501037,7 +500617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87009",
@@ -501057,7 +500637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87009",
@@ -505257,7 +504837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87009",
@@ -505297,7 +504877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87009",
@@ -505357,7 +504937,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87009",
@@ -507317,7 +506897,7 @@
   "unit_price": 38.6,
   "comparison_price": 38.6,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87011",
@@ -508017,7 +507597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87011",
@@ -509277,7 +508857,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87011",
@@ -509317,7 +508897,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87011",
@@ -509397,7 +508977,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87011",
@@ -510297,7 +509877,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87012",
@@ -511017,7 +510597,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87012",
@@ -511037,7 +510617,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87012",
@@ -511757,7 +511337,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87014",
@@ -512657,7 +512237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87014",
@@ -512697,7 +512277,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87014",
@@ -515057,7 +514637,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87015",
@@ -515077,7 +514657,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87015",
@@ -519097,7 +518677,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87015",
@@ -519137,7 +518717,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87015",
@@ -519177,7 +518757,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87015",
@@ -522957,7 +522537,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87016",
@@ -522977,7 +522557,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87016",
@@ -526917,7 +526497,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87016",
@@ -526957,7 +526537,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87016",
@@ -527037,7 +526617,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87016",
@@ -530517,7 +530097,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87017",
@@ -530537,7 +530117,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87017",
@@ -533264,26 +532844,6 @@
   "store_name": "Zg Grada Mainz",
   "street_address": "Ulica Grada Mainza 16 87017 Spar",
   "city": "Zagreb",
-  "product_id": "369355",
-  "product": "ZU.PAS.COLGATE  WHITENI.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 1.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 19.87,
-  "comparison_price": 19.87,
-  "comparison_unit": "l",
-  "barcode": "6920354836091"
- },
- {
-  "store_id": "87017",
-  "store_name": "Zg Grada Mainz",
-  "street_address": "Ulica Grada Mainza 16 87017 Spar",
-  "city": "Zagreb",
   "product_id": "374104",
   "product": "DET.PERSIL UNIVERSAL 2,2 kg",
   "brand": "Persil",
@@ -534477,7 +534037,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87017",
@@ -534517,7 +534077,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87017",
@@ -534557,7 +534117,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87017",
@@ -537117,7 +536677,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87018",
@@ -538357,7 +537917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87018",
@@ -538397,7 +537957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87018",
@@ -538437,7 +537997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87018",
@@ -540817,7 +540377,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87019",
@@ -540837,7 +540397,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87019",
@@ -544277,7 +543837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87019",
@@ -544317,7 +543877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87019",
@@ -544397,7 +543957,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87019",
@@ -546157,7 +545717,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87020",
@@ -546957,7 +546517,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87020",
@@ -546977,7 +546537,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87020",
@@ -548397,7 +547957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87021",
@@ -548417,7 +547977,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87021",
@@ -548718,26 +548278,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87021",
-  "store_name": "Kastav",
-  "street_address": "Sporova Jama 1A 87021 Spar",
-  "city": "Kastav",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "watch_brand": "Violeta",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87021",
@@ -550377,7 +549917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87021",
@@ -550417,7 +549957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87021",
@@ -550477,7 +550017,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87021",
@@ -553017,7 +552557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87022",
@@ -553037,7 +552577,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87022",
@@ -556697,7 +556237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87022",
@@ -556737,7 +556277,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87022",
@@ -556817,7 +556357,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87022",
@@ -560057,7 +559597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87023",
@@ -560077,7 +559617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87023",
@@ -563757,7 +563297,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87023",
@@ -563797,7 +563337,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87023",
@@ -563877,7 +563417,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87023",
@@ -566597,7 +566137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87024",
@@ -566617,7 +566157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87024",
@@ -568157,7 +567697,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87024",
@@ -568197,7 +567737,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87024",
@@ -568237,7 +567777,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87024",
@@ -570657,7 +570197,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87025",
@@ -570677,7 +570217,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87025",
@@ -574257,7 +573797,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87025",
@@ -574297,7 +573837,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87025",
@@ -574357,7 +573897,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87025",
@@ -575917,7 +575457,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87026",
@@ -576497,7 +576037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87026",
@@ -578757,7 +578297,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87027",
@@ -578777,7 +578317,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87027",
@@ -582697,7 +582237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87027",
@@ -582737,7 +582277,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87027",
@@ -582797,7 +582337,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87027",
@@ -586157,7 +585697,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87028",
@@ -586177,7 +585717,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87028",
@@ -588884,26 +588424,6 @@
   "store_name": "Ludbreg",
   "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
   "city": "Ludbreg",
-  "product_id": "379304",
-  "product": "TAB.FINISH QUANTUM LEMON 36/1",
-  "brand": "Finish",
-  "fighting_category": "Automatic Dishwashing",
-  "watch_brand": "Finish",
-  "price": 12.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "36,0000",
-  "unit": "kom",
-  "unit_price": 0.36,
-  "comparison_price": 0.36,
-  "comparison_unit": "kom",
-  "barcode": "5999109581532"
- },
- {
-  "store_id": "87028",
-  "store_name": "Ludbreg",
-  "street_address": "Ul. Rudolfa Fizira 3 87028 Spar",
-  "city": "Ludbreg",
   "product_id": "379395",
   "product": "GEL ZA TUŠ.DOVE HYDRATE 250 ml",
   "brand": "Dove",
@@ -589557,7 +589077,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87028",
@@ -589597,7 +589117,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87028",
@@ -589677,7 +589197,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87028",
@@ -593697,7 +593217,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87029",
@@ -593717,7 +593237,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87029",
@@ -598477,7 +597997,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87029",
@@ -598537,7 +598057,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87029",
@@ -598597,7 +598117,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87029",
@@ -602717,7 +602237,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87030",
@@ -602737,7 +602257,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87030",
@@ -606597,7 +606117,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87030",
@@ -606637,7 +606157,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87030",
@@ -606697,7 +606217,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87030",
@@ -609817,7 +609337,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87031",
@@ -609837,7 +609357,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87031",
@@ -612197,7 +611717,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87031",
@@ -612237,7 +611757,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87031",
@@ -612277,7 +611797,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87031",
@@ -614957,7 +614477,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87032",
@@ -615377,7 +614897,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87032",
@@ -615397,7 +614917,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87032",
@@ -619497,7 +619017,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87032",
@@ -619537,7 +619057,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87032",
@@ -619637,7 +619157,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87032",
@@ -623117,7 +622637,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87033",
@@ -623597,7 +623117,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87033",
@@ -623617,7 +623137,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87033",
@@ -628037,7 +627557,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87033",
@@ -628077,7 +627597,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87033",
@@ -628157,7 +627677,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87033",
@@ -631497,7 +631017,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87034",
@@ -631517,7 +631037,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87034",
@@ -634457,7 +633977,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87034",
@@ -634497,7 +634017,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87034",
@@ -634577,7 +634097,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87034",
@@ -637417,7 +636937,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87035",
@@ -637437,7 +636957,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87035",
@@ -639384,26 +638904,6 @@
   "store_name": "Spar",
   "street_address": "Zagrebacka Ulica 137",
   "city": "Sv. Ivan Zelina",
-  "product_id": "369187",
-  "product": "GEL ZA TUŠ.FA SPORT 2x400 ml",
-  "brand": "Fa",
-  "fighting_category": "APDO",
-  "watch_brand": "Fa",
-  "price": 4.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 5.61,
-  "comparison_price": 5.61,
-  "comparison_unit": "l",
-  "barcode": "3838824432939"
- },
- {
-  "store_id": "87035",
-  "store_name": "Spar",
-  "street_address": "Zagrebacka Ulica 137",
-  "city": "Sv. Ivan Zelina",
   "product_id": "369354",
   "product": "ZU.PAS.COLGATE CAV.PRO 75 m",
   "brand": "Colgate",
@@ -640337,7 +639837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87035",
@@ -640377,7 +639877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87035",
@@ -640477,7 +639977,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87035",
@@ -643277,7 +642777,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87036",
@@ -643297,7 +642797,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87036",
@@ -646577,7 +646077,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87036",
@@ -646617,7 +646117,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87036",
@@ -646657,7 +646157,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87036",
@@ -649377,7 +648877,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87037",
@@ -649397,7 +648897,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87037",
@@ -652357,7 +651857,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87037",
@@ -652397,7 +651897,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87037",
@@ -652477,7 +651977,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87037",
@@ -653817,7 +653317,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87038",
@@ -654557,7 +654057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87038",
@@ -654597,7 +654097,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87038",
@@ -656857,7 +656357,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87039",
@@ -656877,7 +656377,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87039",
@@ -659797,7 +659297,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87039",
@@ -659837,7 +659337,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87039",
@@ -659877,7 +659377,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87039",
@@ -661697,7 +661197,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87040",
@@ -662957,7 +662457,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87040",
@@ -662977,7 +662477,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87040",
@@ -666377,7 +665877,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87040",
@@ -666417,7 +665917,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87040",
@@ -666497,7 +665997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87040",
@@ -666858,26 +666358,6 @@
   "comparison_price": 21.63,
   "comparison_unit": "l",
   "barcode": "3856027802717"
- },
- {
-  "store_id": "87040",
-  "store_name": "Novi Marof",
-  "street_address": "Grana 150 2 87040 Spar",
-  "city": "Novi Marof",
-  "product_id": "389886",
-  "product": "GEL TUŠ.AXE AFRICA 2x400 ml",
-  "brand": "Axe",
-  "fighting_category": "APDO",
-  "watch_brand": "Axe",
-  "price": 7.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,8000",
-  "unit": "l",
-  "unit_price": 9.99,
-  "comparison_price": 9.99,
-  "comparison_unit": "l",
-  "barcode": "3856027802670"
  },
  {
   "store_id": "87040",
@@ -668077,7 +667557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87041",
@@ -669237,7 +668717,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87041",
@@ -669277,7 +668757,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87041",
@@ -671677,7 +671157,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87042",
@@ -672117,7 +671597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87042",
@@ -672137,7 +671617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87042",
@@ -675937,7 +675417,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87042",
@@ -675977,7 +675457,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87042",
@@ -676057,7 +675537,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87042",
@@ -678957,7 +678437,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87043",
@@ -678977,7 +678457,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87043",
@@ -679277,7 +678757,7 @@
   "unit_price": 5.99,
   "comparison_price": 5.99,
   "comparison_unit": "kg",
-  "barcode": "5000204818376"
+  "barcode": "5000204392555"
  },
  {
   "store_id": "87043",
@@ -681457,7 +680937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87043",
@@ -681497,7 +680977,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87043",
@@ -681577,7 +681057,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87043",
@@ -684137,7 +683617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87044",
@@ -684157,7 +683637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87044",
@@ -687897,7 +687377,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87044",
@@ -687937,7 +687417,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87044",
@@ -688017,7 +687497,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87044",
@@ -691657,7 +691137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87045",
@@ -691677,7 +691157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87045",
@@ -695997,7 +695477,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87045",
@@ -696037,7 +695517,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87045",
@@ -696157,7 +695637,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87045",
@@ -700197,7 +699677,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87049",
@@ -700217,7 +699697,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87049",
@@ -704437,7 +703917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87049",
@@ -704477,7 +703957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87049",
@@ -704517,7 +703997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87049",
@@ -706717,7 +706197,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87050",
@@ -708177,7 +707657,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87050",
@@ -708197,7 +707677,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87050",
@@ -712397,7 +711877,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87050",
@@ -712437,7 +711917,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87050",
@@ -712517,7 +711997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87050",
@@ -715257,7 +714737,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87051",
@@ -715277,7 +714757,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87051",
@@ -716777,7 +716257,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87051",
@@ -716817,7 +716297,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87051",
@@ -716897,7 +716377,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87051",
@@ -718237,7 +717717,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87052",
@@ -719497,7 +718977,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87052",
@@ -719557,7 +719037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87052",
@@ -720597,7 +720077,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87053",
@@ -721537,7 +721017,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87053",
@@ -721557,7 +721037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87053",
@@ -722397,7 +721877,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87054",
@@ -723257,7 +722737,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87054",
@@ -723277,7 +722757,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87054",
@@ -723897,7 +723377,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87055",
@@ -724597,7 +724077,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87055",
@@ -725937,7 +725417,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87056",
@@ -725957,7 +725437,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87056",
@@ -726258,26 +725738,6 @@
   "comparison_price": 0.11,
   "comparison_unit": "kom",
   "barcode": "3870128040984"
- },
- {
-  "store_id": "87056",
-  "store_name": "Zg",
-  "street_address": "Petrovaradinska 47 87056 Spar",
-  "city": "Zagreb",
-  "product_id": "340200",
-  "product": "ULOŠ.HIG.VIOLETA AIR FIT 20/1",
-  "brand": "Violeta",
-  "fighting_category": "Femcare",
-  "watch_brand": "Violeta",
-  "price": 2.39,
-  "promo_price": 2.39,
-  "regular_price": null,
-  "quantity": "20,0000",
-  "unit": "kom",
-  "unit_price": 0.12,
-  "comparison_price": 0.12,
-  "comparison_unit": "kom",
-  "barcode": "3870128041042"
  },
  {
   "store_id": "87056",
@@ -727477,7 +726937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87056",
@@ -727517,7 +726977,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87056",
@@ -727557,7 +727017,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87056",
@@ -729137,7 +728597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87057",
@@ -729157,7 +728617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87057",
@@ -730537,7 +729997,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87057",
@@ -730577,7 +730037,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87057",
@@ -730637,7 +730097,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87057",
@@ -731817,7 +731277,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87058",
@@ -732677,7 +732137,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87058",
@@ -732717,7 +732177,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87058",
@@ -733437,7 +732897,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87059",
@@ -734057,7 +733517,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87059",
@@ -734077,7 +733537,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87059",
@@ -735017,7 +734477,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87060",
@@ -735897,7 +735357,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87060",
@@ -735977,7 +735437,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87060",
@@ -736857,7 +736317,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87061",
@@ -737737,7 +737197,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87061",
@@ -737757,7 +737217,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87061",
@@ -739097,7 +738557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87062",
@@ -739117,7 +738577,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87062",
@@ -740457,7 +739917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87062",
@@ -740497,7 +739957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87062",
@@ -740557,7 +740017,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87062",
@@ -741457,7 +740917,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87063",
@@ -742237,7 +741697,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87063",
@@ -742257,7 +741717,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87063",
@@ -743497,7 +742957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87064",
@@ -743517,7 +742977,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87064",
@@ -744597,7 +744057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87064",
@@ -744637,7 +744097,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87064",
@@ -744677,7 +744137,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87064",
@@ -746177,7 +745637,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87065",
@@ -746197,7 +745657,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87065",
@@ -747537,7 +746997,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87065",
@@ -747577,7 +747037,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87065",
@@ -747637,7 +747097,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87065",
@@ -748597,7 +748057,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87066",
@@ -749437,7 +748897,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87066",
@@ -749457,7 +748917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87066",
@@ -750677,7 +750137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87067",
@@ -751617,7 +751077,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87067",
@@ -751657,7 +751117,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87067",
@@ -751697,7 +751157,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87067",
@@ -753137,7 +752597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87068",
@@ -753157,7 +752617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87068",
@@ -754697,7 +754157,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87068",
@@ -754737,7 +754197,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87068",
@@ -754797,7 +754257,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87068",
@@ -755138,26 +754598,6 @@
   "comparison_price": 9.5,
   "comparison_unit": "kg",
   "barcode": "3850105187796"
- },
- {
-  "store_id": "87068",
-  "store_name": "Zapresic",
-  "street_address": "Gjalskoga 66 87068 Spar",
-  "city": "Zapresic",
-  "product_id": "394508",
-  "product": "DET.DASH ALPEN FRISCHE 4,5 L",
-  "brand": "Dash",
-  "fighting_category": "Laundry",
-  "watch_brand": "Dash",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "4,5000",
-  "unit": "l",
-  "unit_price": 4.22,
-  "comparison_price": 4.22,
-  "comparison_unit": "l",
-  "barcode": "4012400504497"
  },
  {
   "store_id": "87068",
@@ -756597,7 +756037,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87069",
@@ -756617,7 +756057,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87069",
@@ -758437,7 +757877,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87069",
@@ -758477,7 +757917,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87069",
@@ -758537,7 +757977,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87069",
@@ -761177,7 +760617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87070",
@@ -761197,7 +760637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87070",
@@ -765017,7 +764457,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87070",
@@ -765057,7 +764497,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87070",
@@ -765157,7 +764597,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87070",
@@ -768777,7 +768217,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87072",
@@ -768797,7 +768237,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87072",
@@ -773097,7 +772537,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87072",
@@ -773137,7 +772577,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87072",
@@ -773217,7 +772657,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87072",
@@ -775637,7 +775077,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87073",
@@ -777057,7 +776497,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87073",
@@ -777657,7 +777097,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87073",
@@ -777677,7 +777117,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87073",
@@ -783077,7 +782517,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87073",
@@ -783117,7 +782557,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87073",
@@ -783197,7 +782637,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87073",
@@ -787217,7 +786657,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87074",
@@ -787697,7 +787137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87074",
@@ -787717,7 +787157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87074",
@@ -791897,7 +791337,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87074",
@@ -791937,7 +791377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87074",
@@ -792017,7 +791457,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87074",
@@ -795557,7 +794997,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87075",
@@ -795577,7 +795017,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87075",
@@ -800117,7 +799557,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87075",
@@ -800157,7 +799597,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87075",
@@ -800257,7 +799697,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87075",
@@ -804037,7 +803477,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87076",
@@ -804057,7 +803497,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87076",
@@ -808017,7 +807457,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87076",
@@ -808057,7 +807497,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87076",
@@ -808157,7 +807597,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87076",
@@ -811117,7 +810557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87078",
@@ -811137,7 +810577,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87078",
@@ -812977,7 +812417,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87078",
@@ -813017,7 +812457,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87078",
@@ -813057,7 +812497,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87078",
@@ -815317,7 +814757,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87079",
@@ -815337,7 +814777,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87079",
@@ -817777,7 +817217,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87079",
@@ -817817,7 +817257,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87079",
@@ -817877,7 +817317,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87079",
@@ -820177,7 +819617,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87080",
@@ -820517,7 +819957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87080",
@@ -820537,7 +819977,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87080",
@@ -822897,7 +822337,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87080",
@@ -822937,7 +822377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87080",
@@ -822997,7 +822437,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87080",
@@ -825057,7 +824497,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87081",
@@ -825077,7 +824517,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87081",
@@ -826377,7 +825817,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87081",
@@ -826417,7 +825857,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87081",
@@ -826477,7 +825917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87081",
@@ -829057,7 +828497,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87082",
@@ -829077,7 +828517,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87082",
@@ -831997,7 +831437,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87082",
@@ -832037,7 +831477,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87082",
@@ -832077,7 +831517,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87082",
@@ -834157,7 +833597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87083",
@@ -834177,7 +833617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87083",
@@ -835497,7 +834937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87083",
@@ -835537,7 +834977,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87083",
@@ -835597,7 +835037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87083",
@@ -835758,26 +835198,6 @@
   "comparison_price": 9.67,
   "comparison_unit": "l",
   "barcode": "8720181468407"
- },
- {
-  "store_id": "87083",
-  "store_name": "Zg Vincenta",
-  "street_address": "Vincenta Iz Kastva 10 87083 Spar",
-  "city": "Zagreb",
-  "product_id": "389870",
-  "product": "DEO DOVE ORIGINAL 2x200 ml",
-  "brand": "Dove",
-  "fighting_category": "APDO",
-  "watch_brand": "Dove",
-  "price": 8.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,4000",
-  "unit": "l",
-  "unit_price": 21.23,
-  "comparison_price": 21.23,
-  "comparison_unit": "l",
-  "barcode": "3856027802755"
  },
  {
   "store_id": "87083",
@@ -837537,7 +836957,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87084",
@@ -837557,7 +836977,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87084",
@@ -839557,7 +838977,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87084",
@@ -839597,7 +839017,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87084",
@@ -839657,7 +839077,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87084",
@@ -841517,7 +840937,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87085",
@@ -841537,7 +840957,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87085",
@@ -842897,7 +842317,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87085",
@@ -842937,7 +842357,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87085",
@@ -842997,7 +842417,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87085",
@@ -844017,7 +843437,7 @@
   "unit_price": 38.6,
   "comparison_price": 38.6,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87086",
@@ -844737,7 +844157,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87086",
@@ -844757,7 +844177,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87086",
@@ -846197,7 +845617,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87086",
@@ -846237,7 +845657,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87086",
@@ -846317,7 +845737,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87086",
@@ -847797,7 +847217,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87088",
@@ -849117,7 +848537,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87088",
@@ -849717,7 +849137,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87088",
@@ -849737,7 +849157,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87088",
@@ -854837,7 +854257,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87088",
@@ -854877,7 +854297,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87088",
@@ -854977,7 +854397,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87088",
@@ -859217,7 +858637,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87089",
@@ -859837,7 +859257,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87089",
@@ -859857,7 +859277,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87089",
@@ -865517,7 +864937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87089",
@@ -865577,7 +864997,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87089",
@@ -865617,7 +865037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87089",
@@ -870137,7 +869557,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87090",
@@ -870757,7 +870177,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87090",
@@ -870777,7 +870197,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87090",
@@ -876377,7 +875797,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87090",
@@ -876417,7 +875837,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87090",
@@ -876497,7 +875917,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87090",
@@ -880637,7 +880057,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87091",
@@ -881117,7 +880537,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87091",
@@ -881137,7 +880557,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87091",
@@ -885617,7 +885037,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87091",
@@ -885657,7 +885077,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87091",
@@ -885757,7 +885177,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87091",
@@ -887917,7 +887337,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87092",
@@ -889197,7 +888617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87092",
@@ -889217,7 +888637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87092",
@@ -892917,7 +892337,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87092",
@@ -892957,7 +892377,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87092",
@@ -892997,7 +892417,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87092",
@@ -896657,7 +896077,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87093",
@@ -896677,7 +896097,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87093",
@@ -900497,7 +899917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87093",
@@ -900537,7 +899957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87093",
@@ -900577,7 +899997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87093",
@@ -903777,7 +903197,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87094",
@@ -904297,7 +903717,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87094",
@@ -904317,7 +903737,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87094",
@@ -908537,7 +907957,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87094",
@@ -908577,7 +907997,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87094",
@@ -908657,7 +908077,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87094",
@@ -912157,7 +911577,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87095",
@@ -912637,7 +912057,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87095",
@@ -912657,7 +912077,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87095",
@@ -917017,7 +916437,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87095",
@@ -917057,7 +916477,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87095",
@@ -917137,7 +916557,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87095",
@@ -920697,7 +920117,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87096",
@@ -921197,7 +920617,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87096",
@@ -921217,7 +920637,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87096",
@@ -925637,7 +925057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87096",
@@ -925677,7 +925097,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87096",
@@ -925757,7 +925177,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87096",
@@ -928837,7 +928257,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87097",
@@ -929177,7 +928597,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87097",
@@ -929197,7 +928617,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87097",
@@ -932477,7 +931897,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87097",
@@ -932517,7 +931937,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87097",
@@ -932577,7 +931997,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87097",
@@ -935217,7 +934637,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87098",
@@ -935237,7 +934657,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87098",
@@ -938177,7 +937597,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87098",
@@ -938217,7 +937637,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87098",
@@ -938317,7 +937737,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87098",
@@ -938778,26 +938198,6 @@
   "comparison_price": 49.8,
   "comparison_unit": "l",
   "barcode": "9005800390246"
- },
- {
-  "store_id": "87098",
-  "store_name": "Grubisno Polje",
-  "street_address": "Polje  N. Subica Zrinskog 38 87098 Spar",
-  "city": "Grubisno",
-  "product_id": "394506",
-  "product": "DET.DASH ALPEN FRISCHE 5 kg",
-  "brand": "Dash",
-  "fighting_category": "Laundry",
-  "watch_brand": "Dash",
-  "price": 18.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "5,0000",
-  "unit": "kg",
-  "unit_price": 3.8,
-  "comparison_price": 3.8,
-  "comparison_unit": "kg",
-  "barcode": "4012400504275"
  },
  {
   "store_id": "87098",
@@ -941117,7 +940517,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87100",
@@ -941577,7 +940977,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87100",
@@ -941597,7 +940997,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87100",
@@ -945657,7 +945057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87100",
@@ -945697,7 +945097,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87100",
@@ -945777,7 +945177,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87100",
@@ -949077,7 +948477,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87101",
@@ -949097,7 +948497,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87101",
@@ -952137,7 +951537,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87101",
@@ -952177,7 +951577,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87101",
@@ -952297,7 +951697,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87101",
@@ -954917,7 +954317,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87102",
@@ -955337,7 +954737,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87102",
@@ -955357,7 +954757,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87102",
@@ -959137,7 +958537,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87102",
@@ -959177,7 +958577,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87102",
@@ -959257,7 +958657,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87102",
@@ -962057,7 +961457,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87103",
@@ -962077,7 +961477,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87103",
@@ -965477,7 +964877,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87103",
@@ -965517,7 +964917,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87103",
@@ -965617,7 +965017,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87103",
@@ -968937,7 +968337,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87104",
@@ -969497,7 +968897,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87104",
@@ -969517,7 +968917,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87104",
@@ -974517,7 +973917,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87104",
@@ -974557,7 +973957,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87104",
@@ -974677,7 +974077,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87104",
@@ -979097,7 +978497,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87105",
@@ -979717,7 +979117,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87105",
@@ -979737,7 +979137,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87105",
@@ -984944,26 +984344,6 @@
   "store_name": "Pu Santoriova",
   "street_address": "Santoriova 13 87105 Spar",
   "city": "Pula",
-  "product_id": "384342",
-  "product": "KAP.FAKS UNIVERSAL 14/1",
-  "brand": "Faks",
-  "fighting_category": "Laundry",
-  "watch_brand": "Faks",
-  "price": 7.95,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "14,0000",
-  "unit": "kom",
-  "unit_price": 0.57,
-  "comparison_price": 0.57,
-  "comparison_unit": "pranje",
-  "barcode": "3850105187222"
- },
- {
-  "store_id": "87105",
-  "store_name": "Pu Santoriova",
-  "street_address": "Santoriova 13 87105 Spar",
-  "city": "Pula",
   "product_id": "384343",
   "product": "KAP.FAKS COLOR 22/1",
   "brand": "Faks",
@@ -985557,7 +984937,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87105",
@@ -985617,7 +984997,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87105",
@@ -985644,26 +985024,6 @@
   "store_name": "Pu Santoriova",
   "street_address": "Santoriova 13 87105 Spar",
   "city": "Pula",
-  "product_id": "385760",
-  "product": "GEL TUŠ.NIVEA FRES.ALOE 250 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "watch_brand": "Nivea",
-  "price": 2.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 11.96,
-  "comparison_price": 11.96,
-  "comparison_unit": "l",
-  "barcode": "4006000032238"
- },
- {
-  "store_id": "87105",
-  "store_name": "Pu Santoriova",
-  "street_address": "Santoriova 13 87105 Spar",
-  "city": "Pula",
   "product_id": "385763",
   "product": "GEL NIVEA MEN SPORT 250 ml",
   "brand": "Nivea",
@@ -985677,7 +985037,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87105",
@@ -989997,7 +989357,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87106",
@@ -990557,7 +989917,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87106",
@@ -990577,7 +989937,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87106",
@@ -995457,7 +994817,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87106",
@@ -995497,7 +994857,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87106",
@@ -995577,7 +994937,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87106",
@@ -998017,7 +997377,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87107",
@@ -999337,7 +998697,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87107",
@@ -999357,7 +998717,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87107",
@@ -1002297,7 +1001657,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87107",
@@ -1002337,7 +1001697,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87107",
@@ -1002437,7 +1001797,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87107",
@@ -1005157,7 +1004517,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87108",
@@ -1005497,7 +1004857,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87108",
@@ -1005517,7 +1004877,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87108",
@@ -1008737,7 +1008097,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87108",
@@ -1008777,7 +1008137,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87108",
@@ -1008817,7 +1008177,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87108",
@@ -1011817,7 +1011177,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87109",
@@ -1012277,7 +1011637,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87109",
@@ -1012297,7 +1011657,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87109",
@@ -1016217,7 +1015577,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87109",
@@ -1016257,7 +1015617,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87109",
@@ -1016357,7 +1015717,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87109",
@@ -1018117,7 +1017477,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87112",
@@ -1018997,7 +1018357,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87112",
@@ -1019017,7 +1018377,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87112",
@@ -1021557,7 +1020917,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87119",
@@ -1021577,7 +1020937,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87119",
@@ -1025477,7 +1024837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87119",
@@ -1025517,7 +1024877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87119",
@@ -1025597,7 +1024957,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87119",
@@ -1028677,7 +1028037,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87123",
@@ -1028697,7 +1028057,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87123",
@@ -1031477,7 +1030837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87123",
@@ -1031517,7 +1030877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87123",
@@ -1031577,7 +1030937,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87123",
@@ -1034157,7 +1033517,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87124",
@@ -1034177,7 +1033537,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87124",
@@ -1037897,7 +1037257,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87124",
@@ -1037937,7 +1037297,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87124",
@@ -1038037,7 +1037397,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87124",
@@ -1039797,7 +1039157,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87126",
@@ -1040957,7 +1040317,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87126",
@@ -1040977,7 +1040337,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87126",
@@ -1043737,7 +1043097,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87126",
@@ -1043777,7 +1043137,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87126",
@@ -1043877,7 +1043237,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87126",
@@ -1046717,7 +1046077,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87127",
@@ -1046737,7 +1046097,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87127",
@@ -1049957,7 +1049317,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87127",
@@ -1049997,7 +1049357,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87127",
@@ -1050037,7 +1049397,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87127",
@@ -1053197,7 +1052557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87133",
@@ -1053217,7 +1052577,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87133",
@@ -1057137,7 +1056497,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87133",
@@ -1057177,7 +1056537,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87133",
@@ -1057217,7 +1056577,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87133",
@@ -1060317,7 +1059677,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87134",
@@ -1060337,7 +1059697,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87134",
@@ -1063257,7 +1062617,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87134",
@@ -1063297,7 +1062657,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87134",
@@ -1063357,7 +1062717,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87134",
@@ -1065877,7 +1065237,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87135",
@@ -1065897,7 +1065257,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87135",
@@ -1069197,7 +1068557,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87135",
@@ -1069237,7 +1068597,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87135",
@@ -1069317,7 +1068677,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87135",
@@ -1072317,7 +1071677,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87138",
@@ -1072337,7 +1071697,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87138",
@@ -1075877,7 +1075237,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87138",
@@ -1075917,7 +1075277,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87138",
@@ -1076037,7 +1075397,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87138",
@@ -1079117,7 +1078477,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87140",
@@ -1079137,7 +1078497,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87140",
@@ -1082477,7 +1081837,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87140",
@@ -1082517,7 +1081877,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87140",
@@ -1082617,7 +1081977,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87140",
@@ -1085857,7 +1085217,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87142",
@@ -1085877,7 +1085237,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87142",
@@ -1089697,7 +1089057,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87142",
@@ -1089737,7 +1089097,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87142",
@@ -1089857,7 +1089217,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87142",
@@ -1093457,7 +1092817,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87155",
@@ -1093477,7 +1092837,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87155",
@@ -1097137,7 +1096497,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87155",
@@ -1097177,7 +1096537,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87155",
@@ -1097257,7 +1096617,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87155",
@@ -1099277,7 +1098637,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87156",
@@ -1100637,7 +1099997,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87156",
@@ -1100657,7 +1100017,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87156",
@@ -1104997,7 +1104357,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87156",
@@ -1105037,7 +1104397,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87156",
@@ -1105137,7 +1104497,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87156",
@@ -1107337,7 +1106697,7 @@
   "unit_price": 37.27,
   "comparison_price": 37.27,
   "comparison_unit": "l",
-  "barcode": "8717163994252"
+  "barcode": "8720181291623"
  },
  {
   "store_id": "87167",
@@ -1108797,7 +1108157,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87167",
@@ -1108817,7 +1108177,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87167",
@@ -1113057,7 +1112417,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87167",
@@ -1113097,7 +1112457,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87167",
@@ -1113157,7 +1112517,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87167",
@@ -1116977,7 +1116337,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87169",
@@ -1116997,7 +1116357,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87169",
@@ -1120757,7 +1120117,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87169",
@@ -1120797,7 +1120157,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87169",
@@ -1120877,7 +1120237,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87169",
@@ -1123657,7 +1123017,7 @@
   "unit_price": 32.68,
   "comparison_price": 32.68,
   "comparison_unit": "l",
-  "barcode": "5000204458855"
+  "barcode": "5000204301694"
  },
  {
   "store_id": "87171",
@@ -1123937,7 +1123297,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87171",
@@ -1123957,7 +1123317,7 @@
   "unit_price": 0.43,
   "comparison_price": 0.43,
   "comparison_unit": "kg",
-  "barcode": "9100000632667"
+  "barcode": "9100000083520"
  },
  {
   "store_id": "87171",
@@ -1127117,7 +1126477,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87171",
@@ -1127157,7 +1126517,7 @@
   "unit_price": 16.6,
   "comparison_price": 16.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87171",
@@ -1127204,26 +1126564,6 @@
   "store_name": "Os Svilajska",
   "street_address": "Svilajska Ulica 35B 87171 Spar",
   "city": "Osijek",
-  "product_id": "385760",
-  "product": "GEL TUŠ.NIVEA FRES.ALOE 250 ml",
-  "brand": "Nivea",
-  "fighting_category": "APDO",
-  "watch_brand": "Nivea",
-  "price": 2.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,2500",
-  "unit": "l",
-  "unit_price": 11.96,
-  "comparison_price": 11.96,
-  "comparison_unit": "l",
-  "barcode": "4006000032238"
- },
- {
-  "store_id": "87171",
-  "store_name": "Os Svilajska",
-  "street_address": "Svilajska Ulica 35B 87171 Spar",
-  "city": "Osijek",
   "product_id": "385763",
   "product": "GEL NIVEA MEN SPORT 250 ml",
   "brand": "Nivea",
@@ -1127237,7 +1126577,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87171",
@@ -1127884,26 +1127224,6 @@
   "store_name": "Os Svilajska",
   "street_address": "Svilajska Ulica 35B 87171 Spar",
   "city": "Osijek",
-  "product_id": "400492",
-  "product": "TAB.SOMAT EXCELLEN.110/1",
-  "brand": "Somat",
-  "fighting_category": "Automatic Dishwashing",
-  "watch_brand": "Somat",
-  "price": 22.99,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "110,0000",
-  "unit": "kom",
-  "unit_price": 0.21,
-  "comparison_price": 0.21,
-  "comparison_unit": "kom",
-  "barcode": "9000101852981"
- },
- {
-  "store_id": "87171",
-  "store_name": "Os Svilajska",
-  "street_address": "Svilajska Ulica 35B 87171 Spar",
-  "city": "Osijek",
   "product_id": "401210",
   "product": "DEO ROLL ON NIVEA MEN DE.50 ml",
   "brand": "Nivea",
@@ -1128237,7 +1127557,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87172",
@@ -1128597,7 +1127917,7 @@
   "unit_price": 26.6,
   "comparison_price": 26.6,
   "comparison_unit": "l",
-  "barcode": "4005808723256"
+  "barcode": "4005900388476"
  },
  {
   "store_id": "87172",
@@ -1128617,7 +1127937,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87172",
@@ -1129457,7 +1128777,7 @@
   "unit_price": 0.01,
   "comparison_price": 0.01,
   "comparison_unit": "kom",
-  "barcode": "9100000632650"
+  "barcode": "9100000083599"
  },
  {
   "store_id": "87184",
@@ -1130064,26 +1129384,6 @@
   "store_name": "Ri",
   "street_address": "Ul.Viktora Cara Emina 10C 87184 Spar",
   "city": "Rijeka",
-  "product_id": "369355",
-  "product": "ZU.PAS.COLGATE  WHITENI.75 ml",
-  "brand": "Colgate",
-  "fighting_category": "Oral Care",
-  "watch_brand": "Colgate",
-  "price": 1.49,
-  "promo_price": null,
-  "regular_price": null,
-  "quantity": "0,0750",
-  "unit": "l",
-  "unit_price": 19.87,
-  "comparison_price": 19.87,
-  "comparison_unit": "l",
-  "barcode": "6920354836091"
- },
- {
-  "store_id": "87184",
-  "store_name": "Ri",
-  "street_address": "Ul.Viktora Cara Emina 10C 87184 Spar",
-  "city": "Rijeka",
   "product_id": "374108",
   "product": "DET.PERSIL COLOR 1,98 L",
   "brand": "Persil",
@@ -1130337,7 +1129637,7 @@
   "unit_price": 49.8,
   "comparison_price": 49.8,
   "comparison_unit": "l",
-  "barcode": "42242147"
+  "barcode": "4005900389015"
  },
  {
   "store_id": "87184",
@@ -1130377,7 +1129677,7 @@
   "unit_price": 11.96,
   "comparison_price": 11.96,
   "comparison_unit": "l",
-  "barcode": "4005808782444"
+  "barcode": "4006000032252"
  },
  {
   "store_id": "87184",
