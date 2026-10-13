@@ -22,12 +22,14 @@ import sys
 import traceback
 from datetime import date, datetime, timezone
 
-from config import DASHBOARD_DATA_FILE, DOCS_DIR, MISSING_DAYS_THRESHOLD, RETAILERS
+from config import DASHBOARD_DATA_FILE, DOCS_DIR, FILTER_AT_SOURCE_RETAILERS, MISSING_DAYS_THRESHOLD, RETAILERS
 from history import (
     build_day_payload,
     build_insights,
     build_sku_table,
-    build_product_price_history,
+    is_tracked_row,
+    rebuild_price_history,
+    update_price_history,
     compute_missing_flags,
     save_day,
     load_day,
@@ -44,7 +46,10 @@ log = logging.getLogger("scrape_and_export")
 def get_crawler(retailer: str):
     module = importlib.import_module(f"crawler_vendor.{retailer}")
     class_name = f"{retailer.capitalize()}Crawler"
-    return getattr(module, class_name)()
+    crawler = getattr(module, class_name)()
+    if retailer in FILTER_AT_SOURCE_RETAILERS:
+        crawler.row_filter = lambda p: is_tracked_row(p.brand, p.product)
+    return crawler
 
 
 def write_sku_table(retailer: str, payload: dict) -> None:
@@ -95,7 +100,7 @@ def run_retailer(retailer: str, target_date: date, from_history: bool = False) -
         flags_path = DOCS_DIR / "flags"
         flags_path.mkdir(parents=True, exist_ok=True)
         (flags_path / f"{retailer}.json").write_text(
-            json.dumps(flags, ensure_ascii=False, indent=1), encoding="utf-8"
+            json.dumps(flags, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
         )
 
         # Full P&G product list for the "Products tracked" tab — kept as its
@@ -104,7 +109,7 @@ def run_retailer(retailer: str, target_date: date, from_history: bool = False) -
         products_path = DOCS_DIR / "products"
         products_path.mkdir(parents=True, exist_ok=True)
         (products_path / f"{retailer}.json").write_text(
-            json.dumps(payload["pg_products"], ensure_ascii=False, indent=1), encoding="utf-8"
+            json.dumps(payload["pg_products"], ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
         )
 
         # Same idea, but for the (much smaller) set of watchlisted competitor
@@ -112,7 +117,7 @@ def run_retailer(retailer: str, target_date: date, from_history: bool = False) -
         # detail when someone clicks a competitor brand chip in the
         # Competitor Tracker, not just P&G's own brands.
         (products_path / f"{retailer}_watchlist_competitors.json").write_text(
-            json.dumps(payload.get("watchlist_competitor_products", []), ensure_ascii=False, indent=1),
+            json.dumps(payload.get("watchlist_competitor_products", []), ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8",
         )
 
@@ -120,13 +125,8 @@ def run_retailer(retailer: str, target_date: date, from_history: bool = False) -
         # own products and the tracked competitor watchlist — powers the
         # price history chart shown when someone clicks into an individual
         # product, rather than only ever showing today's snapshot.
-        history_path = DOCS_DIR / "history"
-        history_path.mkdir(parents=True, exist_ok=True)
-        price_history = build_product_price_history(retailer, target_date)
+        update_price_history(retailer, payload, DOCS_DIR)
         write_sku_table(retailer, payload)
-        (history_path / f"{retailer}.json").write_text(
-            json.dumps(price_history, ensure_ascii=False, indent=1), encoding="utf-8"
-        )
 
         return {
             "retailer": retailer,
@@ -180,12 +180,20 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", type=str, default=None, help="YYYY-MM-DD, default today")
     parser.add_argument("--retailers", type=str, default=None, help="Comma-separated subset")
+    parser.add_argument("--rebuild-price-history", action="store_true",
+                        help="Rebuild docs/pricehist/ from all saved daily snapshots, then exit")
     parser.add_argument("--from-history", action="store_true",
                         help="Rebuild dashboard files from the saved snapshot instead of crawling")
     args = parser.parse_args()
 
     target_date = date.fromisoformat(args.date) if args.date else date.today()
     retailers = args.retailers.split(",") if args.retailers else RETAILERS
+
+    if args.rebuild_price_history:
+        for retailer in retailers:
+            n = rebuild_price_history(retailer.strip(), DOCS_DIR)
+            log.info("%s: price history rebuilt from %d days", retailer, n)
+        return
 
     results = []
     for retailer in retailers:

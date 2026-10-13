@@ -16,6 +16,7 @@ history.
 """
 from __future__ import annotations
 
+import gzip
 import json
 import re
 from collections import Counter
@@ -31,6 +32,7 @@ from config import (
     CATEGORY_COMPARISON_BASIS,
     CATEGORY_COMPETITOR_EXCLUDE,
     CATEGORY_DISAMBIGUATION_KEYWORDS,
+    FOOD_NAME_WORDS,
     HISTORY_DIR,
     LOOKBACK_DAYS,
     MISSING_DAYS_THRESHOLD,
@@ -61,7 +63,7 @@ def _contains_as_word(haystack: str, needle: str) -> bool:
     """
     pattern = _word_match_cache.get(needle)
     if pattern is None:
-        pattern = re.compile(r"\b" + re.escape(needle) + r"\b")
+        pattern = re.compile(r"\b" + re.escape(_strip_accents(needle)) + r"\b")
         _word_match_cache[needle] = pattern
     return bool(pattern.search(haystack))
 
@@ -99,7 +101,7 @@ def _has_keyword(norm_product: str, keyword: str) -> bool:
     """
     pat = _kw_cache.get(keyword)
     if pat is None:
-        pat = re.compile(r"(?<![0-9A-ZČĆŠŽĐ])" + re.escape(keyword.upper()))
+        pat = re.compile(r"(?<![0-9A-Z])" + re.escape(_strip_accents(keyword).upper()))
         _kw_cache[keyword] = pat
     return bool(pat.search(norm_product))
 
@@ -150,7 +152,19 @@ def _norm(text: str) -> str:
     # as "not listed" at Kaufland.
     t = (text or "").replace("-", " ")
     t = re.sub(r"\s*&\s*", " & ", t)
-    return re.sub(r"\s+", " ", t.strip().upper())
+    return re.sub(r"\s+", " ", _strip_accents(t).strip().upper())
+
+
+def _strip_accents(text: str) -> str:
+    """
+    Fold Croatian letters to plain ASCII (Č->C, Š->S, Ž->Z, Ć->C, Đ->D) so
+    "ČARLI" (Konzum) and "CARLI" (Plodine, which drops accents) match.
+    Applied to both product names and keywords.
+    """
+    return text.translate(_ACCENT_FOLD)
+
+
+_ACCENT_FOLD = str.maketrans("ČĆŠŽĐčćšžđ", "CCSZDccszd")
 
 
 def pg_brand_display(brand: str, product_name: str = "") -> str:
@@ -248,9 +262,37 @@ def infer_unit_price_unit(item) -> str:
     return candidates[0][0] if candidates else ""
 
 
-def is_hpc_retail_category(category: str) -> bool:
-    """False for retailer categories P&G never sells in (food, drinks)."""
-    return (category or "").strip().upper() not in NON_HPC_RETAIL_CATEGORIES
+def is_hpc_retail_category(category: str, product: str = "") -> bool:
+    """
+    False for retailer categories P&G never sells in (food, drinks). When the
+    retailer publishes no category at all, the product name is checked for
+    obvious food/drink words instead.
+    """
+    cat = (category or "").strip().upper()
+    if cat in NON_HPC_RETAIL_CATEGORIES:
+        return False
+    if (not cat or cat == "UNCATEGORIZED") and product:
+        norm = _norm(product)
+        return not any(_has_keyword(norm, w) for w in FOOD_NAME_WORDS)
+    return True
+
+
+_TRACKED_NAMES: list[str] | None = None
+
+
+def is_tracked_row(brand: str, product: str) -> bool:
+    """
+    True if a row could matter to the dashboard: a P&G brand or one of the
+    tracked competitor brands appears in its brand field or product name.
+    Used to thin out very large retailer files while reading them.
+    """
+    global _TRACKED_NAMES
+    if _TRACKED_NAMES is None:
+        names = set(PG_BRANDS) | {_norm(b) for bs in CATEGORY_BRANDS.values() for b in bs}
+        names |= set(BRAND_FIELD_CATEGORY_OVERRIDES)
+        _TRACKED_NAMES = sorted(names, key=len, reverse=True)
+    nb, np_ = _norm(brand), _norm(product)
+    return any(n == nb or _contains_as_word(nb, n) or _contains_as_word(np_, n) for n in _TRACKED_NAMES)
 
 
 def match_pg_brand(brand: str, product_name: str = "") -> tuple[bool, str]:
@@ -358,6 +400,12 @@ def retailer_dir(retailer: str) -> Path:
 
 
 def day_path(retailer: str, day: date) -> Path:
+    """Daily snapshots are stored gzip-compressed (~10x smaller)."""
+    return retailer_dir(retailer) / f"{day.isoformat()}.json.gz"
+
+
+def _legacy_day_path(retailer: str, day: date) -> Path:
+    """Snapshots saved before compression was introduced (plain .json)."""
     return retailer_dir(retailer) / f"{day.isoformat()}.json"
 
 
@@ -419,7 +467,7 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
             comparison_price = None
             comparison_unit = ""
             comparison_source = ""
-            hpc_row = is_hpc_retail_category(category)
+            hpc_row = is_hpc_retail_category(category, item.product)
             if price is not None and hpc_row:
                 # Some retailers' own brand field already spells out which
                 # product line a row is (see BRAND_FIELD_CATEGORY_OVERRIDES
@@ -685,85 +733,130 @@ def build_day_payload(retailer: str, day: date, stores: list) -> dict:
 
 
 def save_day(retailer: str, day: date, payload: dict) -> Path:
+    # Compact + gzip: a Plodine day (155 stores) is ~115 MB as indented
+    # JSON, over GitHub's 100 MB file limit; compressed it's a few MB.
     path = day_path(retailer, day)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    with gzip.open(path, "wt", encoding="utf-8", compresslevel=6) as f:
+        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+    _legacy_day_path(retailer, day).unlink(missing_ok=True)
     return path
 
 
 def load_day(retailer: str, day: date) -> dict | None:
     path = day_path(retailer, day)
-    if not path.exists():
-        return None
-    return json.loads(path.read_text(encoding="utf-8"))
+    if path.exists():
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            return json.load(f)
+    legacy = _legacy_day_path(retailer, day)
+    if legacy.exists():
+        return json.loads(legacy.read_text(encoding="utf-8"))
+    return None
 
 
 def available_dates(retailer: str) -> list[date]:
-    d = retailer_dir(retailer)
-    out = []
-    for f in d.glob("*.json"):
+    out = set()
+    for f in retailer_dir(retailer).iterdir():
+        name = f.name.removesuffix(".gz").removesuffix(".json")
         try:
-            out.append(date.fromisoformat(f.stem))
+            out.add(date.fromisoformat(name))
         except ValueError:
             continue
     return sorted(out)
 
 
-def build_product_price_history(
-    retailer: str, as_of: date, lookback_days: int = LOOKBACK_DAYS
-) -> dict[str, list[dict]]:
+PRICE_HISTORY_DIR_NAME = "pricehist"
+PRICE_HISTORY_KEEP_DAYS = 400
+
+
+def _price_shard(barcode: str) -> str:
+    """Barcodes are spread over 100 small files by their last two digits."""
+    tail = re.sub(r"\D", "", barcode or "")[-2:]
+    return tail if len(tail) == 2 else "xx"
+
+
+def _daily_price_points(payload: dict) -> dict[str, list]:
     """
-    Per-product (by barcode) daily price history for the last
-    `lookback_days` published days, so the dashboard can show "how has this
-    product's price moved" when someone clicks into it — not just today's
-    per-store snapshot.
-
-    Covers the same two row sets already saved in each day's history file —
-    P&G's own products and the manager's tracked competitor watchlist
-    brands — not the retailer's full catalog, which is what keeps this
-    small enough to publish alongside the rest of the dashboard's data.
-
-    Returns: barcode -> list of {date, avg_price, min_price, max_price,
-    store_count}, oldest first. A barcode simply has no entry for a day it
-    wasn't seen on, rather than a zero/null placeholder — a product on the
-    market for only part of the window shouldn't look like it was ever
-    priced at zero.
+    One price point per barcode for one retailer-day, across all its stores:
+      [date, regular, lowest, stores, promo_stores]
+    - regular: typical (median) regular shelf price — rows without a promo,
+      or the published regular price where a promo row states it
+    - lowest:  the lowest price a shopper could pay in any store that day,
+      promotions included
+    Older snapshots (before promo prices were recorded) simply have
+    regular == lowest.
     """
-    dates = [d for d in available_dates(retailer) if d <= as_of]
-    dates = dates[-lookback_days:]
-
-    # barcode -> date (iso string) -> list of prices seen that day (across stores)
-    series: dict[str, dict[str, list[float]]] = {}
-
-    for d in dates:
-        payload = load_day(retailer, d)
-        if not payload:
+    day = payload["date"]
+    groups: dict[str, dict] = {}
+    for r in payload.get("pg_products", []) + payload.get("watchlist_competitor_products", []):
+        bc, price = r.get("barcode"), r.get("price")
+        if not bc or price is None or ":" in bc:
             continue
-        rows = list(payload.get("pg_products", [])) + list(
-            payload.get("watchlist_competitor_products", [])
-        )
-        for row in rows:
-            barcode = row.get("barcode")
-            price = row.get("price")
-            if not barcode or price is None:
-                continue
-            series.setdefault(barcode, {}).setdefault(d.isoformat(), []).append(price)
+        g = groups.setdefault(bc, {"reg": [], "paid": [], "stores": set(), "promo": set()})
+        promo = r.get("promo_price")
+        if promo is None:
+            g["reg"].append(price)
+            g["paid"].append(price)
+        else:
+            if r.get("regular_price") is not None:
+                g["reg"].append(r["regular_price"])
+            g["paid"].append(promo)
+            g["promo"].add(r["store_id"])
+        g["stores"].add(r["store_id"])
+    out = {}
+    for bc, g in groups.items():
+        out[bc] = [
+            day,
+            round(median(g["reg"]), 2) if g["reg"] else None,
+            round(min(g["paid"]), 2) if g["paid"] else None,
+            len(g["stores"]),
+            len(g["promo"]),
+        ]
+    return out
 
-    result: dict[str, list[dict]] = {}
-    for barcode, by_date in series.items():
-        points = []
-        for iso_date, prices in sorted(by_date.items()):
-            points.append(
-                {
-                    "date": iso_date,
-                    "avg_price": round(mean(prices), 2),
-                    "min_price": round(min(prices), 2),
-                    "max_price": round(max(prices), 2),
-                    "store_count": len(prices),
-                }
-            )
-        result[barcode] = points
-    return result
 
+def update_price_history(retailer: str, payload: dict, docs_dir: Path) -> None:
+    """
+    Add one day's prices to the retailer's long-term price history
+    (docs/pricehist/<retailer>/<shard>.json, {barcode: [[date, regular,
+    lowest, stores, promo_stores], ...]}), replacing that date if it was
+    already there and dropping points older than PRICE_HISTORY_KEEP_DAYS.
+
+    Kept as a small rolling store instead of being rebuilt from every saved
+    daily snapshot, so a 90-day (or year-long) chart stays cheap to produce
+    and the page only downloads the shard holding the product it shows.
+    """
+    points = _daily_price_points(payload)
+    day = payload["date"]
+    cutoff = (date.fromisoformat(day) - timedelta(days=PRICE_HISTORY_KEEP_DAYS)).isoformat()
+    by_shard: dict[str, dict[str, list]] = {}
+    for bc, p in points.items():
+        by_shard.setdefault(_price_shard(bc), {})[bc] = p
+    out_dir = docs_dir / PRICE_HISTORY_DIR_NAME / retailer
+    out_dir.mkdir(parents=True, exist_ok=True)
+    shards = {f.stem for f in out_dir.glob("*.json")} | set(by_shard)
+    for shard in shards:
+        path = out_dir / f"{shard}.json"
+        data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        for bc in list(data):
+            data[bc] = [p for p in data[bc] if p[0] != day and p[0] >= cutoff]
+        for bc, p in by_shard.get(shard, {}).items():
+            data.setdefault(bc, []).append(p)
+        data = {bc: sorted(ps) for bc, ps in data.items() if ps}
+        path.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
+
+
+def rebuild_price_history(retailer: str, docs_dir: Path) -> int:
+    """Rebuild a retailer's price history from every saved daily snapshot."""
+    out_dir = docs_dir / PRICE_HISTORY_DIR_NAME / retailer
+    for f in out_dir.glob("*.json"):
+        f.unlink()
+    n = 0
+    for d in available_dates(retailer):
+        payload = load_day(retailer, d)
+        if payload and payload.get("stores_count"):
+            update_price_history(retailer, payload, docs_dir)
+            n += 1
+    return n
 
 def compute_missing_flags(
     retailer: str, as_of: date, threshold: int = MISSING_DAYS_THRESHOLD, lookback_days: int = 60

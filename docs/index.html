@@ -23,6 +23,7 @@
     --chip-pg-bg: #e3edf9;
     --chip-pg-text: #1c5cab;
     --hl: #eaf2fc;
+    --r-konzum: #2a78d6; --r-kaufland: #eb6834; --r-spar: #1baf7a; --r-lidl: #eda100; --r-dm: #e87ba4; --r-plodine: #008300;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -32,6 +33,7 @@
       --series-pg: #3987e5; --series-comp: #6f6e68;
       --warn-bg: #3a2e10; --warn-text: #fac860; --chip-pg-bg: #1c2d44; --chip-pg-text: #86b6ef;
       --hl: #1c2a3c;
+      --r-konzum: #3987e5; --r-kaufland: #d95926; --r-spar: #199e70; --r-lidl: #c98500; --r-dm: #d55181; --r-plodine: #008300;
     }
   }
   :root[data-theme="dark"] {
@@ -41,6 +43,7 @@
     --series-pg: #3987e5; --series-comp: #6f6e68;
     --warn-bg: #3a2e10; --warn-text: #fac860; --chip-pg-bg: #1c2d44; --chip-pg-text: #86b6ef;
     --hl: #1c2a3c;
+    --r-konzum: #3987e5; --r-kaufland: #d95926; --r-spar: #199e70; --r-lidl: #c98500; --r-dm: #d55181; --r-plodine: #008300;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
@@ -261,11 +264,11 @@
     <details class="how">
       <summary>How the numbers are calculated</summary>
       <ul>
-        <li><strong>Source:</strong> each retailer's legally mandated public daily price list (NN 75/2025, NN 101/2026), collected automatically every morning. Konzum, Kaufland, Spar and Lidl publish one file per store; dm publishes one national list for all its stores.</li>
+        <li><strong>Source:</strong> each retailer's legally mandated public daily price list (NN 75/2025, NN 101/2026), collected automatically every morning. Konzum, Kaufland, Spar, Lidl and Plodine publish one file per store; Dm publishes one national list for all its stores. Plodine's files have no category or promo-price column: its promotions show the promo price only, and products without a category are screened by name for food and drink.</li>
         <li><strong>Same product, different retailer:</strong> SKUs matched by barcode. Each retailer's price is the median regular price across its stores. "How much more each retailer charges": for every shared product, how much more that retailer's price is than the cheapest retailer's price for the same product; the figure shown is the typical (median) value across those products.</li>
         <li><strong>Category shelf:</strong> each dot is one SKU's median price per unit (per wash for Laundry/Fabric Enhancers, otherwise per litre, kg or piece as published by the retailer). Packs priced in different units are shown separately — switch with the unit buttons.</li>
         <li><strong>TDP (total distribution points):</strong> for each product, the number of stores that list it, added up across products. A brand with 10 products each in 50 stores has a TDP of 500. It combines range and reach in one number, so it shows who has the wider distribution.</li>
-        <li><strong>Core product (used in Store check):</strong> a P&amp;G product listed by <em>at least half</em> of that retailer's stores today — what a typical store of that chain carries. Example: if 30 of Kaufland's 53 stores list a Pantene shampoo, it is core for Kaufland; if only 12 do, it is not. It is worked out from the price lists every day, separately for each retailer. This is the dashboard's own rule, <em>not</em> an official P&amp;G or retailer must-stock list, and it doesn't account for store size — a small supermarket may lack some core products simply because of its format. Not available for dm (one national list).</li>
+        <li><strong>Core product (used in Store check):</strong> a P&amp;G product listed by <em>at least half</em> of that retailer's stores today — what a typical store of that chain carries. Example: if 30 of Kaufland's 53 stores list a Pantene shampoo, it is core for Kaufland; if only 12 do, it is not. It is worked out from the price lists every day, separately for each retailer. This is the dashboard's own rule, <em>not</em> an official P&amp;G or retailer must-stock list, and it doesn't account for store size — a small supermarket may lack some core products simply because of its format. Not available for Dm (one national list).</li>
         <li><strong>Missing SKUs:</strong> a P&amp;G SKU a store listed before but has left off its price list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. Worth checking with the store — the product may also have been delisted. "Was on promotion" means the product had a promo price the last day it was listed: it most likely sold out during the promotion or was a promo-only listing.</li>
         <li><strong>Promotions:</strong> rows with a published special-sale price. Where the retailer leaves the regular price blank (Konzum), it is estimated from the same SKU's non-promo price in other stores (marked *).</li>
       </ul>
@@ -276,7 +279,7 @@
 <div id="tip"></div>
 
 <script>
-const RETAILER_LABEL = { konzum: 'Konzum', kaufland: 'Kaufland', spar: 'Spar', lidl: 'Lidl', dm: 'dm' };
+const RETAILER_LABEL = { konzum: 'Konzum', kaufland: 'Kaufland', spar: 'Spar', lidl: 'Lidl', dm: 'Dm', plodine: 'Plodine' };
 // dm publishes one national price list instead of one per store
 const isNational = r => (r.stores_count || 0) <= 1;
 const state = { retailer: 'all', category: '', shelfRetailer: null, shelfUnit: null, promoSide: 'pg', gapsView: 'sku' };
@@ -322,6 +325,12 @@ async function load() {
   await Promise.all(okRetailers().map(async r => { SKUS[r.retailer] = await getJson(`skus/${r.retailer}.json`); }));
   renderChrome();
   renderAll();
+  // a shared link like …#sku=konzum/8001090908339 opens that product's prices
+  const m = location.hash.match(/^#sku=([a-z]+)\/(\d+)$/);
+  if (m && SKUS[m[1]]) {
+    const s = SKUS[m[1]].find(x => x.ean === m[2]);
+    if (s) { document.getElementById('sku-retailer').value = m[1]; drawSkus(); showSku(m[1], s); }
+  }
 }
 function allCategories() {
   const s = [];
@@ -406,7 +415,7 @@ function renderKpis() {
 function crossRows() {
   const byEan = new Map();
   okRetailers().forEach(r => (SKUS[r.retailer] || []).forEach(s => {
-    if (s.side !== 'pg' || !s.ean || s.ean.includes(':') || s.shelf == null) return;
+    if (s.side !== 'pg' || !s.ean || s.ean.includes(':') || !(s.shelf > 0)) return;
     if (!byEan.has(s.ean)) byEan.set(s.ean, { ean: s.ean, product: s.product, brand: s.brand, cat: s.cat, prices: {} });
     const g = byEan.get(s.ean);
     if (!g.cat && s.cat) g.cat = s.cat;
@@ -461,7 +470,7 @@ function brandTdp(b) { return b.tdp != null ? b.tdp : (b.count || 0); }
 function renderTdp() {
   const rs = selRetailers().filter(r => !isNational(r));
   const el = document.getElementById('tdp');
-  if (!rs.length) { document.getElementById('tdp-lede').textContent = 'TDP needs store-level price lists — dm publishes a single national list, so it has no store distribution to measure.'; el.innerHTML = ''; return; }
+  if (!rs.length) { document.getElementById('tdp-lede').textContent = 'TDP needs store-level price lists — Dm publishes a single national list, so it has no store distribution to measure.'; el.innerHTML = ''; return; }
   const bar = (pct, val, sub, tipHtml) => `<td data-tip="${esc(tipHtml)}"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:10px;background:var(--surface-2);border-radius:5px;overflow:hidden;min-width:40px"><div style="height:100%;width:${Math.min(100, pct)}%;background:var(--series-pg)"></div></div><span style="min-width:86px;text-align:right;font-variant-numeric:tabular-nums">${val} <span class="sub2">${sub}</span></span></div></td>`;
   if (!state.category) {
     document.getElementById('tdp-lede').innerHTML = `<strong>TDP</strong> = for each product, the number of stores that list it, added up. Here: P&amp;G's share of all distribution points in each category (P&amp;G + tracked competitors). Choose a category at the top to compare brand by brand.`;
@@ -779,34 +788,101 @@ function drawSkus() {
     </tbody></table>`;
   el.querySelector('tbody').onclick = e => { const tr = e.target.closest('tr[data-i]'); if (tr) showSku(rid, shownSkus[+tr.dataset.i]); };
 }
+const priceShard = e => { const d = (e || '').replace(/\D/g, '').slice(-2); return d.length === 2 ? d : 'xx'; };
+const retailerColor = rid => getComputedStyle(document.documentElement).getPropertyValue('--r-' + rid).trim() || '#888';
+const skuView = { range: 30, metric: 'low' };
+
 async function showSku(rid, s) {
+  if (s.ean && !s.ean.includes(':')) history.replaceState(null, '', `#sku=${rid}/${s.ean}`);
   const box = document.getElementById('sku-detail');
   box.style.display = 'block';
-  box.innerHTML = `<h3>${esc(s.product)}</h3><p class="empty">Loading store prices…</p>`;
+  box.innerHTML = `<h3>${esc(s.product)}</h3><p class="empty">Loading prices…</p>`;
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  const [rows, hist] = await Promise.all([
+  const realEan = s.ean && !s.ean.includes(':');
+  const [rows, ...hist] = await Promise.all([
     getJson(`products/${rid}${s.side === 'pg' ? '' : '_watchlist_competitors'}.json`),
-    getJson(`history/${rid}.json`),
+    ...okRetailers().map(r => realEan ? getJson(`pricehist/${r.retailer}/${priceShard(s.ean)}.json`) : Promise.resolve({})),
   ]);
+  // retailer -> [[date, regular, lowest, stores, promoStores], ...]
+  const series = {};
+  okRetailers().forEach((r, i) => { const pts = (hist[i] || {})[s.ean]; if (pts && pts.length) series[r.retailer] = pts; });
   const stores = rows.filter(r => (s.ean ? r.barcode === s.ean : r.product === s.product)).sort((a, b) => (a.promo_price ?? a.price) - (b.promo_price ?? b.price));
-  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button><h3>${esc(s.product)}</h3><p class="sub2">${esc(s.brand)} · EAN ${esc(s.ean || '—')} · ${stores.length} stores at ${label(rid)}</p>
-    <div class="grid-2"><div><div class="small muted">Average price over time</div><p class="sub2" id="hist-note"></p><canvas id="hist"></canvas></div>
+  box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button>
+    <h3>${esc(s.product)}</h3><p class="sub2">${esc(s.brand)} · EAN ${ean(s.ean)}</p>
+    <div class="section-head" style="margin:10px 0 6px">
+      <div style="font-weight:600;font-size:13.5px">Price over time — every retailer selling this product</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="seg" id="hist-metric"></span><span class="seg" id="hist-range"></span></div>
+    </div>
+    <p class="sub2" id="hist-note"></p>
+    <div style="position:relative;height:280px"><canvas id="hist"></canvas></div>
+    <div class="tbl-wrap" style="margin-top:12px" id="hist-table"></div>
+    <h3 style="font-size:13.5px;margin:18px 0 6px">${label(rid)} — price in each store today (${stores.length})</h3>
     <div class="scroll" style="max-height:300px"><table><thead><tr><th>Store</th><th>City</th><th class="num">Price</th></tr></thead><tbody>
-    ${stores.map(r => `<tr><td>${esc(r.store_name)}<div class="sub2">${esc(r.street_address || '')}</div></td><td>${esc(r.city)}</td><td class="num">${r.promo_price != null ? `<strong>${eur(r.promo_price)}</strong> <span class="sub2">promo</span>` : eur(r.price)}</td></tr>`).join('')}
-    </tbody></table></div></div>`;
+    ${stores.map(r => `<tr><td>${esc(r.store_name)}<div class="sub2">${esc(r.street_address || '')}</div></td><td>${esc(r.city)}</td><td class="num">${r.promo_price != null ? `<strong>${eur(r.promo_price)}</strong> <span class="sub2">promo</span>` : eur(r.price)}</td></tr>`).join('') || '<tr><td colspan="3" class="empty">—</td></tr>'}
+    </tbody></table></div>`;
+  const draw = () => drawHistory(s, series);
+  segment('hist-range', [['30', '30 days'], ['90', '90 days'], ['0', 'All']], () => String(skuView.range), k => { skuView.range = +k; draw(); });
+  segment('hist-metric', [['low', 'Lowest price incl. promos'], ['reg', 'Regular price']], () => skuView.metric, k => { skuView.metric = k; draw(); });
+  draw();
+}
+
+function drawHistory(s, series) {
   if (histChart) { histChart.destroy(); histChart = null; }
-  const pts = (s.ean && hist[s.ean]) || [];
-  const note = document.getElementById('hist-note');
-  if (pts.length < 2) { note.textContent = pts.length ? 'Only one day recorded so far.' : 'No history recorded yet.'; return; }
-  note.textContent = `${pts.length} days, ${fmtDate(pts[0].date)} – ${fmtDate(pts[pts.length - 1].date)}`;
+  const note = document.getElementById('hist-note'), tbl = document.getElementById('hist-table');
+  const rids = Object.keys(series);
+  if (!rids.length) { note.textContent = s.ean && !s.ean.includes(':') ? 'No price history recorded for this barcode yet.' : 'This product has no barcode, so it can’t be followed over time or across retailers.'; tbl.innerHTML = ''; return; }
+  const latest = rids.flatMap(r => series[r].map(p => p[0])).sort().pop();
+  const from = skuView.range ? new Date(new Date(latest).getTime() - (skuView.range - 1) * 864e5).toISOString().slice(0, 10) : '0000';
+  const inRange = r => series[r].filter(p => p[0] >= from);
+  const dates = [...new Set(rids.flatMap(r => inRange(r).map(p => p[0])))].sort();
+  const idx = skuView.metric === 'low' ? 2 : 1;
+  const first = dates[0];
+  note.textContent = `${dates.length} day${dates.length === 1 ? '' : 's'} of data, ${fmtDate(first)} – ${fmtDate(latest)}` +
+    (skuView.range && first > from ? ` · tracking started ${fmtDate(first)}, so the full ${skuView.range} days aren't available yet` : '') +
+    (skuView.metric === 'low' ? ' · lowest price a shopper could pay in any of the retailer’s stores that day' : ' · typical regular shelf price across the retailer’s stores');
   const css = getComputedStyle(document.documentElement);
   histChart = new Chart(document.getElementById('hist'), {
     type: 'line',
-    data: { labels: pts.map(p => fmtDate(p.date)), datasets: [{ data: pts.map(p => p.avg_price), borderColor: css.getPropertyValue('--series-pg').trim(), borderWidth: 2, pointRadius: 4, tension: 0 }] },
-    options: { plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => `€${c.parsed.y.toFixed(2)} avg · ${pts[c.dataIndex].store_count} stores` } } },
+    data: {
+      labels: dates.map(fmtDate),
+      datasets: rids.map(r => {
+        const m = Object.fromEntries(inRange(r).map(p => [p[0], p[idx]]));
+        return { label: label(r), data: dates.map(d => m[d] ?? null), borderColor: retailerColor(r), backgroundColor: retailerColor(r),
+          borderWidth: 2, pointRadius: dates.length > 45 ? 0 : 3, pointHoverRadius: 5, spanGaps: true, tension: 0 };
+      }),
+    },
+    options: {
+      maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
-      scales: { y: { grid: { color: css.getPropertyValue('--border').trim() }, ticks: { callback: v => '€' + v } }, x: { grid: { display: false } } } },
+      plugins: {
+        legend: { position: 'top', align: 'start', labels: { boxWidth: 10, boxHeight: 10, usePointStyle: true, color: css.getPropertyValue('--text-2').trim() } },
+        tooltip: { callbacks: { label: c => c.parsed.y == null ? null : `${c.dataset.label}: €${c.parsed.y.toFixed(2)}` } },
+      },
+      scales: {
+        y: { grid: { color: css.getPropertyValue('--border').trim() }, ticks: { color: css.getPropertyValue('--muted').trim(), callback: v => '€' + Number(v).toFixed(2) } },
+        x: { grid: { display: false }, ticks: { color: css.getPropertyValue('--muted').trim(), maxRotation: 0, autoSkip: true, maxTicksLimit: 10 } },
+      },
+    },
   });
+  // period summary per retailer
+  const rowsT = rids.map(r => {
+    const pts = inRange(r); const now = pts[pts.length - 1];
+    const lows = pts.filter(p => p[2] != null); const regs = pts.filter(p => p[1] != null);
+    const minLow = lows.reduce((m, p) => (m == null || p[2] < m[2] ? p : m), null);
+    const maxReg = regs.reduce((m, p) => (m == null || p[1] > m[1] ? p : m), null);
+    return { r, now, minLow, maxReg, promoDays: pts.filter(p => p[4] > 0).length, days: pts.length };
+  });
+  const best = Math.min(...rowsT.filter(x => x.minLow).map(x => x.minLow[2]));
+  tbl.innerHTML = `<table><thead><tr><th>Retailer</th><th class="num">Regular today</th><th class="num">Lowest today</th><th class="num">Lowest in period</th><th class="num">Highest regular in period</th><th class="num">Days with a promo</th><th class="num">Stores today</th></tr></thead><tbody>
+    ${rowsT.map(x => `<tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${retailerColor(x.r)};margin-right:6px"></span>${label(x.r)}</td>
+      <td class="num">${x.now && x.now[0] === latest ? eur(x.now[1]) : `<span class="muted" data-tip="Last listed ${fmtDate(x.now && x.now[0])}">—</span>`}</td>
+      <td class="num">${x.now && x.now[0] === latest ? eur(x.now[2]) : '—'}</td>
+      <td class="num ${x.minLow && x.minLow[2] === best ? 'cheapest' : ''}">${x.minLow ? `${eur(x.minLow[2])} <span class="sub2">${fmtDate(x.minLow[0])}</span>` : '—'}</td>
+      <td class="num">${x.maxReg ? `${eur(x.maxReg[1])} <span class="sub2">${fmtDate(x.maxReg[0])}</span>` : '—'}</td>
+      <td class="num">${x.promoDays} <span class="sub2">of ${x.days}</span></td>
+      <td class="num">${x.now && x.now[0] === latest ? x.now[3] : '—'}</td></tr>`).join('')}
+    </tbody></table>
+    <p class="sub2" style="margin-top:4px">● = lowest price anywhere in the selected period. Not sold at: ${okRetailers().filter(r => !series[r.retailer]).map(r => label(r.retailer)).join(', ') || '—'}.</p>`;
 }
 
 load();

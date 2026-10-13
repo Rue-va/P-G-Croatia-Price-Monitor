@@ -11,7 +11,7 @@ DOCS_DIR = BASE_DIR / "docs"
 DASHBOARD_DATA_FILE = DOCS_DIR / "data.json"
 
 
-RETAILERS = ["konzum", "kaufland", "spar", "lidl", "dm"]
+RETAILERS = ["konzum", "kaufland", "spar", "lidl", "dm", "plodine"]
 
 
 PG_BRANDS = {
@@ -51,6 +51,8 @@ _JAR_ADW_KEYWORDS = [
     "TABLET", "TAB", "KAPSUL", "CAPS", "STROJ", "MAŠIN", "MASIN", "PERILIC", "SOL ZA",
 ]
 
+_PAMPERS_WIPES_KEYWORDS = ["MARAMIC", "VLAŽN", "VLAZN", "WIPES", "VL MAR", "VL.MAR", "VL. MAR", "V.MAR", "V. MAR"]
+
 CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list[str]]]] = {
     # Keywords match at the START of a word ("OM " matches "OM VIOLETA GOLD"
     # but not "BL.BLOOM 2,7 L"), against the upper-cased product name.
@@ -77,9 +79,11 @@ CATEGORY_DISAMBIGUATION_KEYWORDS: dict[str, dict[str, list[str] | dict[str, list
             "exclude": ["PELEN", "PEL ", "PEL.", "BABY", "MARAMIC", "VL MAR", "VL.MAR", "GEL ZA", "SAPUN"],
         },
     },
+    # Pampers only sells diapers and wipes, so anything that isn't a wipe is a
+    # diaper — Plodine names diapers just "PAMPERS PREMIUM CARE 5, 44 KOM".
     "PAMPERS": {
-        "Diapers": ["PELEN", "PEL ", "PEL.", "PANTS", "GAĆ"],
-        "Baby Wipes": ["MARAMIC", "VLAŽN", "VLAZN", "WIPES", "VL MAR", "VL.MAR", "VL. MAR"],
+        "Diapers": {"exclude": _PAMPERS_WIPES_KEYWORDS},
+        "Baby Wipes": _PAMPERS_WIPES_KEYWORDS,
     },
     "JAR": {
         "Hand Dishwashing": {"exclude": _JAR_ADW_KEYWORDS},
@@ -109,6 +113,23 @@ CATEGORY_COMPETITOR_EXCLUDE: dict[str, list[str]] = {
 
 
 NON_HPC_RETAIL_CATEGORIES = {"HRANA", "PIĆE", "PIĆA", "PICE", "PICA", "PREHRANA"}
+
+# Some retailers' files have no category column at all (Plodine since its
+# October 2026 format). For those rows only, a product name starting a word
+# with one of these is treated as food/drink and skipped — otherwise
+# "VINO ... VENUS" (wine) would count as a P&G razor.
+FOOD_NAME_WORDS = [
+    "VINO", "PIVO", "RAKIJ", "LIKER", "VOTK", "VODK", "WHISK", "GIN ", "SOK ", "NAPITAK", "NEKTAR", "MLIJEK",
+    "JOGURT", "SIR ", "ŠUNK", "SUNK", "SALAM", "KOBAS", "MESO", "PILE", "PUREĆ", "PURET", "LIGNJ", "RIBA",
+    "TUNA", "KAVIJAR", "ČOKOL", "COKOL", "KEKS", "BOMBON", "ČIPS", "CIPS", "KAVA ", "ČAJ ", "CAJ ", "TJESTEN",
+    "RIŽA", "RIZA", "BRAŠN", "BRASN", "KRUH", "PECIV", "HRANA ZA", "GRICK", "SLADOLED", "VODA ",
+]
+
+# Retailers whose daily files are so large (Plodine: ~6 million rows across
+# 155 stores) that only rows for P&G or a tracked competitor brand are kept
+# while reading, to stay within the GitHub runner's memory. Catalog-wide
+# totals for these retailers then cover tracked brands only.
+FILTER_AT_SOURCE_RETAILERS = {"plodine"}
 
 
 PG_BRAND_DISPLAY = {
@@ -164,6 +185,7 @@ PRIVATE_LABEL_BRANDS: dict[str, str] = {
     "spar": "Spar",
     "lidl": "Lidl",
     "dm": "babylove",
+    "plodine": "Plodine",
 }
 
 

@@ -1,12 +1,12 @@
 # P&G Croatia — Retail Price & Assortment Monitor
 
 A daily, fully automated dashboard tracking P&G vs. competitor pricing and
-likely out-of-stock products across **Konzum, Kaufland, Spar, Lidl and dm**,
+likely out-of-stock products across **Konzum, Kaufland, Spar, Lidl, Plodine and Dm**,
 built from each retailer's legally-mandated public daily price list
 (Odluka o objavi cjenika, NN 75/2025).
 
 **How it runs, once set up: nothing to run.** A free scheduled job on
-GitHub's infrastructure crawls all five retailers every morning, and a free
+GitHub's infrastructure crawls all six retailers every morning, and a free
 static page (GitHub Pages) shows the result. Your manager bookmarks one URL.
 No Excel, no macros, no installs, no laptop that has to stay on — and it
 keeps running after you leave P&G, as long as the GitHub repo exists.
@@ -25,6 +25,9 @@ Filter by retailer (or all four) and category at the top; every section follows 
   by brand, with a flag when the product was on promotion just before it vanished.
 - **Store check** — one store's P&G portfolio vs. the chain's core range.
 - **On promotion today** and the **SKU explorer** (with EAN codes throughout).
+  Clicking a product shows its price over the last 30 / 90 days / all time at
+  every retailer that sells it, with each retailer's lowest price in the
+  period. Price history is kept for 400 days in `docs/pricehist/`.
 
 ## What "likely out of stock" means
 
@@ -109,12 +112,20 @@ initially-quiet dashboard.
 being tracked, it's almost always a brand spelling variant missing from
 that set — add it there.
 
-## dm and BIPA
+## Dm, Plodine and BIPA
 
-dm publishes one **national** price list per day (an Excel file on dm.hr)
-rather than one per store, so dm appears as a single "store": its prices,
+Dm publishes one **national** price list per day (an Excel file on dm.hr)
+rather than one per store, so Dm appears as a single "store": its prices,
 promotions and the same-product comparison work like any retailer's, but the
 store-level views (TDP, missing products per store, store check) don't apply.
+
+Plodine publishes one file per store (155 stores, ~6 million rows a day).
+To stay within the GitHub runner's memory only rows for P&G and the tracked
+competitor brands are kept while reading (`FILTER_AT_SOURCE_RETAILERS` in
+config.py). Its current file format has no category, net-quantity or
+promo-price column: rows without a category are screened by product name for
+food and drink, units come from the product name, and promotions show the
+promo price only. Crawling Plodine takes ~25 minutes.
 
 BIPA could not be added: as of October 2026 it doesn't publish a daily price
 list anywhere we could find (not on bipa.hr, and its online catalogue shows no

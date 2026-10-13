@@ -34,7 +34,7 @@ class DmCrawler(BaseCrawler):
     INDEX_URL = f"{CONTENT_BASE_URL}/novo/promocije/nove-oznake-cijena-i-vazeci-cjenik-u-dm-u-2906632?mrclx=false"
 
     STORE_ID = "all"
-    STORE_NAME = "dm (national price list)"
+    STORE_NAME = "Dm (national price list)"
 
     # parse_excel reads columns by their (normalized) header text instead of
     # the shared map-driven CSV parser, so these stay empty.
