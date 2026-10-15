@@ -765,31 +765,31 @@ def available_dates(retailer: str) -> list[date]:
 
 
 PRICE_HISTORY_DIR_NAME = "pricehist"
-PRICE_HISTORY_KEEP_DAYS = 400
+# Long enough to cover the public archive this history was backfilled from
+# (api.cijene.dev, daily since 15 May 2025) plus well over a year ahead.
+PRICE_HISTORY_KEEP_DAYS = 900
 
 
 def _price_shard(barcode: str) -> str:
-    """Barcodes are spread over 100 small files by their last two digits."""
-    tail = re.sub(r"\D", "", barcode or "")[-2:]
-    return tail if len(tail) == 2 else "xx"
+    """Within a month, barcodes are spread over 10 files by their last digit."""
+    tail = re.sub(r"\D", "", barcode or "")[-1:]
+    return tail or "x"
 
 
-def _daily_price_points(payload: dict) -> dict[str, list]:
+def price_points_from_rows(rows: list[dict]) -> dict[str, list]:
     """
     One price point per barcode for one retailer-day, across all its stores:
-      [date, regular, lowest, stores, promo_stores]
+      [regular, lowest, stores, promo_stores]
     - regular: typical (median) regular shelf price — rows without a promo,
       or the published regular price where a promo row states it
     - lowest:  the lowest price a shopper could pay in any store that day,
       promotions included
-    Older snapshots (before promo prices were recorded) simply have
-    regular == lowest.
+    Rows need: barcode, store_id, price, promo_price (or None), regular_price.
     """
-    day = payload["date"]
     groups: dict[str, dict] = {}
-    for r in payload.get("pg_products", []) + payload.get("watchlist_competitor_products", []):
+    for r in rows:
         bc, price = r.get("barcode"), r.get("price")
-        if not bc or price is None or ":" in bc:
+        if not bc or price is None or ":" in bc or price <= 0:
             continue
         g = groups.setdefault(bc, {"reg": [], "paid": [], "stores": set(), "promo": set()})
         promo = r.get("promo_price")
@@ -802,54 +802,96 @@ def _daily_price_points(payload: dict) -> dict[str, list]:
             g["paid"].append(promo)
             g["promo"].add(r["store_id"])
         g["stores"].add(r["store_id"])
-    out = {}
-    for bc, g in groups.items():
-        out[bc] = [
-            day,
-            round(median(g["reg"]), 2) if g["reg"] else None,
-            round(min(g["paid"]), 2) if g["paid"] else None,
-            len(g["stores"]),
-            len(g["promo"]),
-        ]
-    return out
+    return {
+        bc: [round(median(g["reg"]), 2) if g["reg"] else None,
+             round(min(g["paid"]), 2) if g["paid"] else None,
+             len(g["stores"]), len(g["promo"])]
+        for bc, g in groups.items()
+    }
+
+
+def write_price_points(retailer: str, docs_dir: Path, days: dict[str, dict[str, list]],
+                       overwrite: bool = True) -> None:
+    """
+    Merge price points into docs/pricehist/<retailer>/<YYYY-MM>/<digit>.json,
+    each {barcode: [[day_of_month, regular, lowest, stores, promo_stores], ...]}.
+
+    `days` is {iso_date: {barcode: [regular, lowest, stores, promo_stores]}}.
+    Partitioned by month so that past months are written once and never
+    rewritten — the daily job only touches the current month — and the page
+    downloads just the months (and the one shard) a chart needs.
+    With overwrite=False, days already present are kept (used by the archive
+    backfill so it never replaces the dashboard's own data).
+    """
+    root = docs_dir / PRICE_HISTORY_DIR_NAME / retailer
+    by_month: dict[str, dict[str, dict[str, dict[int, list]]]] = {}
+    for iso, points in days.items():
+        month, day = iso[:7], int(iso[8:10])
+        for bc, p in points.items():
+            by_month.setdefault(month, {}).setdefault(_price_shard(bc), {}).setdefault(bc, {})[day] = p
+    for month, shards in by_month.items():
+        mdir = root / month
+        mdir.mkdir(parents=True, exist_ok=True)
+        for shard, items in shards.items():
+            path = mdir / f"{shard}.json"
+            data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+            for bc, new_days in items.items():
+                have = {p[0]: p for p in data.get(bc, [])}
+                for day, p in new_days.items():
+                    if overwrite or day not in have:
+                        have[day] = [day, *p]
+                data[bc] = [have[d] for d in sorted(have)]
+            path.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
+    # drop months that fell out of the retention window
+    cutoff = (date.today() - timedelta(days=PRICE_HISTORY_KEEP_DAYS)).isoformat()[:7]
+    for mdir in root.glob("????-??"):
+        if mdir.name < cutoff:
+            for f in mdir.glob("*.json"):
+                f.unlink()
+            mdir.rmdir()
+    write_price_index(docs_dir)
+
+
+def write_price_index(docs_dir: Path) -> None:
+    """docs/pricehist/index.json: {retailer: [months available]} for the page."""
+    root = docs_dir / PRICE_HISTORY_DIR_NAME
+    index = {r.name: sorted(m.name for m in r.glob("????-??") if m.is_dir())
+             for r in sorted(root.iterdir()) if r.is_dir()}
+    (root / "index.json").write_text(json.dumps(index, separators=(",", ":")), encoding="utf-8")
+
+
+def write_price_names(retailer: str, docs_dir: Path, names: dict[str, list]) -> None:
+    """
+    docs/pricehist/<retailer>/names.json: {barcode: [product, brand, side, category]}
+    so exports can label products that are no longer listed today.
+    """
+    path = docs_dir / PRICE_HISTORY_DIR_NAME / retailer / "names.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    for bc, v in names.items():
+        old = data.get(bc)
+        # keep the richer entry (one with a tracked category beats one without)
+        if not old or v[3] or not old[3]:
+            data[bc] = v
+    path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def update_price_history(retailer: str, payload: dict, docs_dir: Path) -> None:
-    """
-    Add one day's prices to the retailer's long-term price history
-    (docs/pricehist/<retailer>/<shard>.json, {barcode: [[date, regular,
-    lowest, stores, promo_stores], ...]}), replacing that date if it was
-    already there and dropping points older than PRICE_HISTORY_KEEP_DAYS.
-
-    Kept as a small rolling store instead of being rebuilt from every saved
-    daily snapshot, so a 90-day (or year-long) chart stays cheap to produce
-    and the page only downloads the shard holding the product it shows.
-    """
-    points = _daily_price_points(payload)
-    day = payload["date"]
-    cutoff = (date.fromisoformat(day) - timedelta(days=PRICE_HISTORY_KEEP_DAYS)).isoformat()
-    by_shard: dict[str, dict[str, list]] = {}
-    for bc, p in points.items():
-        by_shard.setdefault(_price_shard(bc), {})[bc] = p
-    out_dir = docs_dir / PRICE_HISTORY_DIR_NAME / retailer
-    out_dir.mkdir(parents=True, exist_ok=True)
-    shards = {f.stem for f in out_dir.glob("*.json")} | set(by_shard)
-    for shard in shards:
-        path = out_dir / f"{shard}.json"
-        data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-        for bc in list(data):
-            data[bc] = [p for p in data[bc] if p[0] != day and p[0] >= cutoff]
-        for bc, p in by_shard.get(shard, {}).items():
-            data.setdefault(bc, []).append(p)
-        data = {bc: sorted(ps) for bc, ps in data.items() if ps}
-        path.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
+    """Add one day's prices (from the dashboard's own snapshot) to the history."""
+    rows = payload.get("pg_products", []) + payload.get("watchlist_competitor_products", [])
+    write_price_points(retailer, docs_dir, {payload["date"]: price_points_from_rows(rows)})
+    names = {}
+    for side, part in (("pg", "pg_products"), ("c", "watchlist_competitor_products")):
+        for r in payload.get(part, []):
+            bc = r.get("barcode")
+            if bc and ":" not in bc:
+                names[bc] = [r["product"], r.get("pg_brand") or r.get("watch_brand") or (r.get("brand") or "").strip(),
+                             side, r.get("fighting_category")]
+    write_price_names(retailer, docs_dir, names)
 
 
 def rebuild_price_history(retailer: str, docs_dir: Path) -> int:
-    """Rebuild a retailer's price history from every saved daily snapshot."""
-    out_dir = docs_dir / PRICE_HISTORY_DIR_NAME / retailer
-    for f in out_dir.glob("*.json"):
-        f.unlink()
+    """Re-add every saved daily snapshot to the price history (overwriting those days)."""
     n = 0
     for d in available_dates(retailer):
         payload = load_day(retailer, d)

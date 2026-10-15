@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>P&amp;G Croatia Price Monitor</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
   :root {
     color-scheme: light;
@@ -247,6 +248,25 @@
       <div class="scroll" id="promo-table"></div>
   </div>
 
+  <div class="section" id="sec-pricex">
+    <h2>Price history export</h2>
+    <p class="lede">Download daily prices for any period as an Excel file — e.g. the last 90 days for every P&amp;G product at every retailer. Follows the category filter at the top. The workbook has a <strong>Summary</strong> sheet (per product and retailer: price at the start and end of the period, the change, the lowest price and when, the highest regular price, days on promotion) and a <strong>Daily prices</strong> sheet with one row per product, retailer and day.</p>
+    <div class="filters" style="position:static;padding-top:0">
+      <span class="seg" id="px-quick"></span>
+      <label class="small muted">From <input type="date" id="px-from"></label>
+      <label class="small muted">To <input type="date" id="px-to"></label>
+    </div>
+    <div class="filters" style="position:static;padding-top:0">
+      <span id="px-retailers" class="small" style="display:flex;gap:10px;flex-wrap:wrap"></span>
+      <select id="px-side" aria-label="Products"><option value="pg">P&amp;G products</option><option value="c">Tracked competitors</option><option value="">P&amp;G + competitors</option></select>
+      <select id="px-brand" aria-label="Brand"><option value="">All brands</option></select>
+      <input type="text" id="px-search" placeholder="Product name or EAN (optional)" style="min-width:200px">
+      <button class="btn" id="px-go" style="background:var(--pg-blue);color:#fff">Download Excel</button>
+      <span class="small muted" id="px-status"></span>
+    </div>
+    <p class="sub2" id="px-note"></p>
+  </div>
+
   <div class="section" id="sec-skus">
     <h2>SKU explorer</h2>
     <p class="lede">Any P&amp;G or tracked competitor SKU. Click a row for its price in every store and over time.</p>
@@ -269,6 +289,7 @@
         <li><strong>Category shelf:</strong> each dot is one SKU's median price per unit (per wash for Laundry/Fabric Enhancers, otherwise per litre, kg or piece as published by the retailer). Packs priced in different units are shown separately — switch with the unit buttons.</li>
         <li><strong>TDP (total distribution points):</strong> for each product, the number of stores that list it, added up across products. A brand with 10 products each in 50 stores has a TDP of 500. It combines range and reach in one number, so it shows who has the wider distribution.</li>
         <li><strong>Core product (used in Store check):</strong> a P&amp;G product listed by <em>at least half</em> of that retailer's stores today — what a typical store of that chain carries. Example: if 30 of Kaufland's 53 stores list a Pantene shampoo, it is core for Kaufland; if only 12 do, it is not. It is worked out from the price lists every day, separately for each retailer. This is the dashboard's own rule, <em>not</em> an official P&amp;G or retailer must-stock list, and it doesn't account for store size — a small supermarket may lack some core products simply because of its format. Not available for Dm (one national list).</li>
+        <li><strong>Price history:</strong> for each product and retailer, per day: the typical (median) regular price across its stores, and the lowest price a shopper could pay in any store that day, promotions included. Collected by the dashboard since 28 Sep 2026; earlier days, back to 15 May 2025, come from the public <a href="https://cijene.dev" style="color:inherit">cijene.dev</a> archive of the same retailer price lists.</li>
         <li><strong>Missing SKUs:</strong> a P&amp;G SKU a store listed before but has left off its price list for <span id="thr">3</span>+ consecutive days on which that store <em>did</em> publish. Worth checking with the store — the product may also have been delisted. "Was on promotion" means the product had a promo price the last day it was listed: it most likely sold out during the promotion or was a promo-only listing.</li>
         <li><strong>Promotions:</strong> rows with a published special-sale price. Where the retailer leaves the regular price blank (Konzum), it is estimated from the same SKU's non-promo price in other stores (marked *).</li>
       </ul>
@@ -367,6 +388,7 @@ function renderChrome() {
   document.getElementById('sku-search').oninput = drawSkus;
   document.getElementById('sku-side').onchange = drawSkus;
   document.getElementById('cross-search').oninput = renderCross;
+  setupPriceExport();
   const str = document.getElementById('store-retailer');
   str.innerHTML = okRetailers().map(r => `<option value="${r.retailer}">${label(r.retailer)}</option>`).join('');
   str.onchange = () => { document.getElementById('store-select').value = ''; renderStoreCheck(); };
@@ -788,7 +810,40 @@ function drawSkus() {
     </tbody></table>`;
   el.querySelector('tbody').onclick = e => { const tr = e.target.closest('tr[data-i]'); if (tr) showSku(rid, shownSkus[+tr.dataset.i]); };
 }
-const priceShard = e => { const d = (e || '').replace(/\D/g, '').slice(-2); return d.length === 2 ? d : 'xx'; };
+const shardOf = e => (e || '').replace(/\D/g, '').slice(-1) || 'x';
+const ALL_SHARDS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'x'];
+let PH_INDEX = null;
+async function priceIndex() {
+  if (!PH_INDEX) { const x = await getJson('pricehist/index.json'); PH_INDEX = Array.isArray(x) ? {} : x; }
+  return PH_INDEX;
+}
+const isoDaysAgo = (iso, n) => new Date(new Date(iso + 'T12:00:00Z').getTime() - n * 864e5).toISOString().slice(0, 10);
+// Price history for some barcodes (or all, when eans is null) at some
+// retailers between two dates: {retailer: {ean: [[date, regular, lowest, stores, promoStores], ...]}}
+async function loadPriceSeries(eans, rids, fromIso, toIso, onProgress) {
+  const idx = await priceIndex();
+  const want = eans ? new Set(eans) : null;
+  const shards = eans ? [...new Set(eans.map(shardOf))] : ALL_SHARDS;
+  const jobs = [];
+  rids.forEach(rid => (idx[rid] || []).filter(m => m >= fromIso.slice(0, 7) && m <= toIso.slice(0, 7))
+    .forEach(m => shards.forEach(sh => jobs.push([rid, m, sh]))));
+  const out = {};
+  let done = 0;
+  await Promise.all(jobs.map(async ([rid, m, sh]) => {
+    const data = await getJson(`pricehist/${rid}/${m}/${sh}.json`);
+    for (const [e, pts] of Object.entries(Array.isArray(data) ? {} : data)) {
+      if (want && !want.has(e)) continue;
+      const arr = ((out[rid] ??= {})[e] ??= []);
+      for (const p of pts) {
+        const iso = `${m}-${String(p[0]).padStart(2, '0')}`;
+        if (iso >= fromIso && iso <= toIso) arr.push([iso, p[1], p[2], p[3], p[4]]);
+      }
+    }
+    if (onProgress) onProgress(++done, jobs.length);
+  }));
+  Object.values(out).forEach(byEan => Object.values(byEan).forEach(a => a.sort((x, y) => (x[0] < y[0] ? -1 : 1))));
+  return out;
+}
 const retailerColor = rid => getComputedStyle(document.documentElement).getPropertyValue('--r-' + rid).trim() || '#888';
 const skuView = { range: 30, metric: 'low' };
 
@@ -799,19 +854,20 @@ async function showSku(rid, s) {
   box.innerHTML = `<h3>${esc(s.product)}</h3><p class="empty">Loading prices…</p>`;
   box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   const realEan = s.ean && !s.ean.includes(':');
-  const [rows, ...hist] = await Promise.all([
+  const rids = okRetailers().map(r => r.retailer);
+  const [rows, hist] = await Promise.all([
     getJson(`products/${rid}${s.side === 'pg' ? '' : '_watchlist_competitors'}.json`),
-    ...okRetailers().map(r => realEan ? getJson(`pricehist/${r.retailer}/${priceShard(s.ean)}.json`) : Promise.resolve({})),
+    realEan ? loadPriceSeries([s.ean], rids, '2000-01-01', D.as_of_date) : Promise.resolve({}),
   ]);
   // retailer -> [[date, regular, lowest, stores, promoStores], ...]
   const series = {};
-  okRetailers().forEach((r, i) => { const pts = (hist[i] || {})[s.ean]; if (pts && pts.length) series[r.retailer] = pts; });
+  rids.forEach(r => { const pts = (hist[r] || {})[s.ean]; if (pts && pts.length) series[r] = pts; });
   const stores = rows.filter(r => (s.ean ? r.barcode === s.ean : r.product === s.product)).sort((a, b) => (a.promo_price ?? a.price) - (b.promo_price ?? b.price));
   box.innerHTML = `<button class="close" onclick="this.parentElement.style.display='none'">✕ close</button>
     <h3>${esc(s.product)}</h3><p class="sub2">${esc(s.brand)} · EAN ${ean(s.ean)}</p>
     <div class="section-head" style="margin:10px 0 6px">
       <div style="font-weight:600;font-size:13.5px">Price over time — every retailer selling this product</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="seg" id="hist-metric"></span><span class="seg" id="hist-range"></span></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="seg" id="hist-metric"></span><span class="seg" id="hist-range"></span><button class="btn" id="hist-export" style="border:1px solid var(--border)">Export to Excel</button></div>
     </div>
     <p class="sub2" id="hist-note"></p>
     <div style="position:relative;height:280px"><canvas id="hist"></canvas></div>
@@ -821,9 +877,131 @@ async function showSku(rid, s) {
     ${stores.map(r => `<tr><td>${esc(r.store_name)}<div class="sub2">${esc(r.street_address || '')}</div></td><td>${esc(r.city)}</td><td class="num">${r.promo_price != null ? `<strong>${eur(r.promo_price)}</strong> <span class="sub2">promo</span>` : eur(r.price)}</td></tr>`).join('') || '<tr><td colspan="3" class="empty">—</td></tr>'}
     </tbody></table></div>`;
   const draw = () => drawHistory(s, series);
-  segment('hist-range', [['30', '30 days'], ['90', '90 days'], ['0', 'All']], () => String(skuView.range), k => { skuView.range = +k; draw(); });
+  segment('hist-range', [['30', '30 days'], ['90', '90 days'], ['365', '1 year'], ['0', 'All']], () => String(skuView.range), k => { skuView.range = +k; draw(); });
+  document.getElementById('hist-export').onclick = () => exportSkuHistory(s, series);
   segment('hist-metric', [['low', 'Lowest price incl. promos'], ['reg', 'Regular price']], () => skuView.metric, k => { skuView.metric = k; draw(); });
   draw();
+}
+
+// ---------- Excel exports (built in the browser with SheetJS) ----------
+function sheetFrom(rows, widths) {
+  const ws = XLSX.utils.json_to_sheet(rows, { cellDates: true, dateNF: 'yyyy-mm-dd' });
+  if (widths) ws['!cols'] = widths.map(w => ({ wch: w }));
+  if (rows.length) ws['!autofilter'] = { ref: ws['!ref'] };
+  return ws;
+}
+const asDate = iso => new Date(iso + 'T00:00:00');
+const fileStamp = () => new Date().toISOString().slice(0, 10);
+
+function exportSkuHistory(s, series) {
+  const rids = Object.keys(series);
+  if (!rids.length) return;
+  const latest = rids.flatMap(r => series[r].map(p => p[0])).sort().pop();
+  const from = skuView.range ? isoDaysAgo(latest, skuView.range - 1) : '0000';
+  const dates = [...new Set(rids.flatMap(r => series[r].filter(p => p[0] >= from).map(p => p[0])))].sort();
+  const byR = Object.fromEntries(rids.map(r => [r, Object.fromEntries(series[r].map(p => [p[0], p]))]));
+  const daily = dates.map(d => {
+    const row = { Date: asDate(d) };
+    rids.forEach(r => { const p = byR[r][d]; row[`${label(r)} regular`] = p ? p[1] : null; row[`${label(r)} lowest incl. promo`] = p ? p[2] : null; row[`${label(r)} stores on promo`] = p ? p[4] : null; });
+    return row;
+  });
+  const summary = rids.map(r => summarise(series[r].filter(p => p[0] >= from), r, s.ean, s.product, s.brand, s.cat));
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, sheetFrom(summary, [12, 15, 42, 16, 18, 10, 12, 12, 12, 12, 9, 14, 12, 14, 12, 10]), 'Summary');
+  XLSX.utils.book_append_sheet(wb, sheetFrom(daily, [12, ...rids.flatMap(() => [14, 18, 16])]), 'Daily prices');
+  XLSX.writeFile(wb, `Price history ${s.ean} ${skuView.range ? 'last ' + skuView.range + ' days' : 'all'} ${fileStamp()}.xlsx`, { compression: true });
+}
+
+// one product at one retailer over a period -> summary row
+function summarise(pts, rid, eanCode, product, brand, cat) {
+  const reg = pts.filter(p => p[1] != null), low = pts.filter(p => p[2] != null);
+  const first = reg[0], last = reg[reg.length - 1];
+  const minLow = low.reduce((m, p) => (!m || p[2] < m[2] ? p : m), null);
+  const maxReg = reg.reduce((m, p) => (!m || p[1] > m[1] ? p : m), null);
+  return {
+    Retailer: label(rid), EAN: eanCode, Product: product || '', Brand: brand || '', Category: cat || '',
+    'Days with a price': pts.length,
+    'First date': first ? asDate(first[0]) : null, 'Regular price at start': first ? first[1] : null,
+    'Last date': last ? asDate(last[0]) : null, 'Regular price at end': last ? last[1] : null,
+    'Change': first && last && first[1] ? +(last[1] / first[1] - 1).toFixed(4) : null,
+    'Lowest price incl. promo': minLow ? minLow[2] : null, 'Lowest price date': minLow ? asDate(minLow[0]) : null,
+    'Highest regular price': maxReg ? maxReg[1] : null,
+    'Average regular price': reg.length ? +(reg.reduce((a, p) => a + p[1], 0) / reg.length).toFixed(2) : null,
+    'Days on promo': pts.filter(p => p[4] > 0).length,
+  };
+}
+
+function setupPriceExport() {
+  const from = document.getElementById('px-from'), to = document.getElementById('px-to');
+  to.value = D.as_of_date; from.value = isoDaysAgo(D.as_of_date, 89);
+  let quick = '90';
+  segment('px-quick', [['30', 'Last 30 days'], ['90', 'Last 90 days'], ['180', '6 months'], ['365', '1 year']], () => quick, k => { quick = k; to.value = D.as_of_date; from.value = isoDaysAgo(D.as_of_date, +k - 1); });
+  document.getElementById('px-retailers').innerHTML = okRetailers().map(r => `<label><input type="checkbox" value="${r.retailer}" checked> ${label(r.retailer)}</label>`).join('');
+  const brandSel = document.getElementById('px-brand'), sideSel = document.getElementById('px-side');
+  const fillBrands = () => {
+    const side = sideSel.value;
+    const brands = [...new Set(okRetailers().flatMap(r => (SKUS[r.retailer] || []).filter(s => !side || (side === 'pg') === (s.side === 'pg')).map(s => s.brand).filter(Boolean)))].sort();
+    brandSel.innerHTML = '<option value="">All brands</option>' + brands.map(b => `<option>${esc(b)}</option>`).join('');
+  };
+  sideSel.onchange = fillBrands; fillBrands();
+  priceIndex().then(idx => {
+    const months = Object.values(idx).flat().sort();
+    document.getElementById('px-note').textContent = months.length ? `Price history available from ${months[0]} to ${D.as_of_date}.` : '';
+  });
+  document.getElementById('px-go').onclick = runPriceExport;
+}
+
+async function runPriceExport() {
+  const status = document.getElementById('px-status'), btn = document.getElementById('px-go');
+  const fromIso = document.getElementById('px-from').value, toIso = document.getElementById('px-to').value;
+  if (!fromIso || !toIso || fromIso > toIso) { status.textContent = 'Choose a valid From and To date.'; return; }
+  const rids = [...document.querySelectorAll('#px-retailers input:checked')].map(i => i.value);
+  if (!rids.length) { status.textContent = 'Choose at least one retailer.'; return; }
+  const side = document.getElementById('px-side').value, brand = document.getElementById('px-brand').value;
+  const q = document.getElementById('px-search').value.trim().toLowerCase();
+  btn.disabled = true;
+  try {
+    status.textContent = 'Loading product names…';
+    const names = Object.fromEntries(await Promise.all(rids.map(async r => [r, await getJson(`pricehist/${r}/names.json`)])));
+    // product info: today's SKU table first, else the history's own label
+    const info = (r, e) => {
+      const s = (SKUS[r] || []).find(x => x.ean === e);
+      if (s) return { product: s.product, brand: s.brand, side: s.side === 'pg' ? 'pg' : 'c', cat: s.cat || '' };
+      const n = (names[r] || {})[e];
+      return n ? { product: n[0], brand: n[1], side: n[2], cat: n[3] || '' } : { product: '', brand: '', side: '', cat: '' };
+    };
+    const skuIndex = {};
+    rids.forEach(r => (SKUS[r] || []).forEach(s => { skuIndex[r + '|' + s.ean] = s; }));
+    const data = await loadPriceSeries(null, rids, fromIso, toIso, (d, n) => { status.textContent = `Loading prices… ${Math.round(100 * d / n)}%`; });
+    status.textContent = 'Building workbook…';
+    const daily = [], summary = [];
+    for (const r of rids) {
+      for (const [e, pts] of Object.entries(data[r] || {})) {
+        if (!pts.length) continue;
+        const i = info(r, e);
+        if (side && i.side !== side) continue;
+        if (brand && i.brand !== brand) continue;
+        if (state.category && i.cat !== state.category) continue;
+        if (q && !(e.includes(q) || (i.product || '').toLowerCase().includes(q))) continue;
+        summary.push(summarise(pts, r, e, i.product, i.brand, i.cat));
+        for (const p of pts) daily.push({ Date: asDate(p[0]), Retailer: label(r), EAN: e, Product: i.product, Brand: i.brand, Category: i.cat,
+          'Regular price': p[1], 'Lowest price incl. promo': p[2], 'Stores listing': p[3], 'Stores on promo': p[4] });
+      }
+    }
+    if (!summary.length) { status.textContent = 'No prices match these filters.'; return; }
+    if (daily.length > 1000000) { status.textContent = `That's ${fmtInt(daily.length)} daily rows — more than Excel can hold. Narrow the period, retailers or brand.`; return; }
+    summary.sort((a, b) => (a.Brand || '').localeCompare(b.Brand || '') || (a.Product || '').localeCompare(b.Product || '') || a.Retailer.localeCompare(b.Retailer));
+    daily.sort((a, b) => a.Date - b.Date || a.Retailer.localeCompare(b.Retailer) || (a.Product || '').localeCompare(b.Product || ''));
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, sheetFrom(summary, [12, 15, 42, 16, 18, 10, 12, 12, 12, 12, 9, 14, 12, 14, 12, 10]), 'Summary');
+    XLSX.utils.book_append_sheet(wb, sheetFrom(daily, [12, 11, 15, 42, 16, 18, 12, 14, 10, 10]), 'Daily prices');
+    XLSX.writeFile(wb, `Price history ${fromIso} to ${toIso}${brand ? ' ' + brand : ''}${state.category ? ' ' + state.category : ''}.xlsx`, { compression: true });
+    status.textContent = `Done — ${fmtInt(summary.length)} products, ${fmtInt(daily.length)} daily prices.`;
+  } catch (err) {
+    status.textContent = 'Export failed: ' + err.message;
+  } finally {
+    btn.disabled = false;
+  }
 }
 
 function drawHistory(s, series) {

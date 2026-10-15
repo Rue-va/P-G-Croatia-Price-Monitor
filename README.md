@@ -27,7 +27,15 @@ Filter by retailer (or all four) and category at the top; every section follows 
 - **On promotion today** and the **SKU explorer** (with EAN codes throughout).
   Clicking a product shows its price over the last 30 / 90 days / all time at
   every retailer that sells it, with each retailer's lowest price in the
-  period. Price history is kept for 400 days in `docs/pricehist/`.
+  period, with an **Export to Excel** button.
+- **Price history export** — download daily prices for any period (e.g. the
+  last 90 days), retailers, brand and category as an Excel workbook.
+
+Price history lives in `docs/pricehist/<retailer>/<YYYY-MM>/` (one folder per
+month, so past months are never rewritten). The dashboard collects it itself
+from 28 Sep 2026; earlier days back to 15 May 2025 were backfilled once from
+the public [cijene.dev](https://cijene.dev) daily archive of the same retailer
+price lists (`scripts/backfill_price_history.py`; free to use, provided as is).
 
 ## What "likely out of stock" means
 
