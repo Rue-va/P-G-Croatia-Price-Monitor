@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:03:20.574156+00:00",
+ "generated_at": "2026-11-01T14:56:54.736102+00:00",
  "as_of_date": "2026-11-01",
  "missing_days_threshold": 3,
  "retailers": [
@@ -161,56 +161,6 @@
       }
      ]
     },
-    "TOALETNE POTREPŠTINE": {
-     "count": 41654,
-     "pg_count": 9854,
-     "avg_price": 5.62,
-     "pg_avg_price": 11.14,
-     "competitor_avg_price": 3.91,
-     "competitor_count": 31800,
-     "top_competitor_brands": [
-      {
-       "brand": "VIOLETA",
-       "count": 7018,
-       "avg_price": 6.5
-      },
-      {
-       "brand": "LUMPI",
-       "count": 3306,
-       "avg_price": 5.28
-      },
-      {
-       "brand": "NATUR",
-       "count": 2883,
-       "avg_price": 2.33
-      },
-      {
-       "brand": "OLEA",
-       "count": 2807,
-       "avg_price": 1.36
-      },
-      {
-       "brand": "LIBRESSE",
-       "count": 2533,
-       "avg_price": 2.82
-      },
-      {
-       "brand": "ZEWA",
-       "count": 1894,
-       "avg_price": 3.96
-      },
-      {
-       "brand": "PALOMA",
-       "count": 1297,
-       "avg_price": 3.26
-      },
-      {
-       "brand": "LOLA",
-       "count": 898,
-       "avg_price": 1.95
-      }
-     ]
-    },
     "SREDSTVA ZA ČIŠĆENJE": {
      "count": 108187,
      "pg_count": 21988,
@@ -308,6 +258,56 @@
        "brand": "PEDIGREE",
        "count": 3587,
        "avg_price": 3.65
+      }
+     ]
+    },
+    "TOALETNE POTREPŠTINE": {
+     "count": 41654,
+     "pg_count": 9854,
+     "avg_price": 5.62,
+     "pg_avg_price": 11.14,
+     "competitor_avg_price": 3.91,
+     "competitor_count": 31800,
+     "top_competitor_brands": [
+      {
+       "brand": "VIOLETA",
+       "count": 7018,
+       "avg_price": 6.5
+      },
+      {
+       "brand": "LUMPI",
+       "count": 3306,
+       "avg_price": 5.28
+      },
+      {
+       "brand": "NATUR",
+       "count": 2883,
+       "avg_price": 2.33
+      },
+      {
+       "brand": "OLEA",
+       "count": 2807,
+       "avg_price": 1.36
+      },
+      {
+       "brand": "LIBRESSE",
+       "count": 2533,
+       "avg_price": 2.82
+      },
+      {
+       "brand": "ZEWA",
+       "count": 1894,
+       "avg_price": 3.96
+      },
+      {
+       "brand": "PALOMA",
+       "count": 1297,
+       "avg_price": 3.26
+      },
+      {
+       "brand": "LOLA",
+       "count": 898,
+       "avg_price": 1.95
       }
      ]
     }
@@ -711,15 +711,15 @@
          "median": 0.4,
          "count": 2354
         },
-        "kg": {
-         "avg": 55.9109,
-         "median": 49.83,
-         "count": 459
-        },
         "l": {
          "avg": 13.4065,
          "median": 10.18,
          "count": 992
+        },
+        "kg": {
+         "avg": 55.9109,
+         "median": 49.83,
+         "count": 459
         }
        },
        "store_count": 188,
@@ -801,15 +801,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "l": {
-         "avg": 113.0468,
-         "median": 32.68,
-         "count": 1655
-        },
         "kg": {
          "avg": 32.686,
          "median": 23.93,
          "count": 891
+        },
+        "l": {
+         "avg": 113.0468,
+         "median": 32.68,
+         "count": 1655
         },
         "kom": {
          "avg": 6.6017,
@@ -961,15 +961,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 0.4555,
-         "median": 0.2,
-         "count": 2983
-        },
         "l": {
          "avg": 2.8986,
          "median": 3.1,
          "count": 2703
+        },
+        "kom": {
+         "avg": 0.4555,
+         "median": 0.2,
+         "count": 2983
         },
         "kg": {
          "avg": 230.6335,
@@ -1109,15 +1109,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 18.1445,
-         "median": 14.49,
-         "count": 269
-        },
         "l": {
          "avg": 31.0708,
          "median": 20.0,
          "count": 3046
+        },
+        "kom": {
+         "avg": 18.1445,
+         "median": 14.49,
+         "count": 269
         }
        },
        "store_count": 188,
@@ -1342,15 +1342,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 11.4073,
-         "median": 10.49,
-         "count": 672
-        },
         "l": {
          "avg": 37.1025,
          "median": 36.6,
          "count": 3368
+        },
+        "kom": {
+         "avg": 11.4073,
+         "median": 10.49,
+         "count": 672
         }
        },
        "store_count": 188,
@@ -1394,15 +1394,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 9.2427,
-         "median": 9.39,
-         "count": 1394
-        },
         "l": {
          "avg": 50.1562,
          "median": 35.27,
          "count": 11813
+        },
+        "kom": {
+         "avg": 9.2427,
+         "median": 9.39,
+         "count": 1394
         },
         "kg": {
          "avg": 11.11,
@@ -1425,11 +1425,6 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 13.3796,
-         "median": 10.99,
-         "count": 582
-        },
         "l": {
          "avg": 42.2375,
          "median": 41.93,
@@ -1439,6 +1434,11 @@
          "avg": 20.1346,
          "median": 19.89,
          "count": 142
+        },
+        "kom": {
+         "avg": 13.3796,
+         "median": 10.99,
+         "count": 582
         }
        },
        "store_count": 188,
@@ -1456,15 +1456,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "kom": {
-         "avg": 7.9634,
-         "median": 9.99,
-         "count": 830
-        },
         "l": {
          "avg": 13.6548,
          "median": 7.99,
          "count": 4058
+        },
+        "kom": {
+         "avg": 7.9634,
+         "median": 9.99,
+         "count": 830
         }
        },
        "store_count": 188,
@@ -1662,15 +1662,15 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
-        "l": {
-         "avg": 40.5161,
-         "median": 39.87,
-         "count": 1431
-        },
         "kom": {
          "avg": 3.2633,
          "median": 3.25,
          "count": 746
+        },
+        "l": {
+         "avg": 40.5161,
+         "median": 39.87,
+         "count": 1431
         }
        },
        "store_count": 188,
@@ -1709,6 +1709,11 @@
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
+        "l": {
+         "avg": 38.4154,
+         "median": 34.0,
+         "count": 2817
+        },
         "kom": {
          "avg": 3.4956,
          "median": 3.09,
@@ -1718,11 +1723,6 @@
          "avg": 13.4062,
          "median": 13.27,
          "count": 188
-        },
-        "l": {
-         "avg": 38.4154,
-         "median": 34.0,
-         "count": 2817
         }
        },
        "store_count": 188,
@@ -11122,26 +11122,14 @@
       "store_count": 184
      },
      {
-      "barcode": "8006540791394",
-      "product": "DN ULOŠCI ALWAYS LONG 52/1",
-      "brand": "Always",
+      "barcode": "8700216156172",
+      "product": "ŠAMPON H&S CITRUS 800 ml",
+      "brand": "Head & Shoulders",
       "side": "pg",
-      "fighting_category": "Femcare",
+      "fighting_category": "Hair Care",
       "regular_price": null,
       "regular_price_source": null,
-      "promo_price": 2.9,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "4015400563846",
-      "product": "DN ULOŠCI ALWAYS EXT LONG 44/1",
-      "brand": "Always",
-      "side": "pg",
-      "fighting_category": "Femcare",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.9,
+      "promo_price": 8.56,
       "depth_pct": null,
       "store_count": 184
      },
@@ -11166,6 +11154,30 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 18.23,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "8006540791394",
+      "product": "DN ULOŠCI ALWAYS LONG 52/1",
+      "brand": "Always",
+      "side": "pg",
+      "fighting_category": "Femcare",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.9,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "4015400563846",
+      "product": "DN ULOŠCI ALWAYS EXT LONG 44/1",
+      "brand": "Always",
+      "side": "pg",
+      "fighting_category": "Femcare",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.9,
       "depth_pct": null,
       "store_count": 184
      },
@@ -11214,18 +11226,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 1.91,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "8700216156172",
-      "product": "ŠAMPON H&S CITRUS 800 ml",
-      "brand": "Head & Shoulders",
-      "side": "pg",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 8.56,
       "depth_pct": null,
       "store_count": 184
      },
@@ -11350,18 +11350,6 @@
       "store_count": 182
      },
      {
-      "barcode": "8001841105130",
-      "product": "PEL PAMPERS PREM CARE VEL 6 13+ 38KOM",
-      "brand": "Pampers",
-      "side": "pg",
-      "fighting_category": "Diapers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 15.99,
-      "depth_pct": null,
-      "store_count": 181
-     },
-     {
       "barcode": "7702018982011",
       "product": "GEL BRIJ GILL SENSITIVE 240 ML",
       "brand": "Gillette",
@@ -11370,6 +11358,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 3.99,
+      "depth_pct": null,
+      "store_count": 181
+     },
+     {
+      "barcode": "8001841105130",
+      "product": "PEL PAMPERS PREM CARE VEL 6 13+ 38KOM",
+      "brand": "Pampers",
+      "side": "pg",
+      "fighting_category": "Diapers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.99,
       "depth_pct": null,
       "store_count": 181
      },
@@ -11470,18 +11470,6 @@
       "store_count": 171
      },
      {
-      "barcode": "4015400278870",
-      "product": "PEL PAMPERS PREMIUM JUN 5 11-18KG 44/1",
-      "brand": "Pampers",
-      "side": "pg",
-      "fighting_category": "Diapers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 15.99,
-      "depth_pct": null,
-      "store_count": 171
-     },
-     {
       "barcode": "8006530122122",
       "product": "DET JAR ORIGINAL 71 TAB",
       "brand": "Jar",
@@ -11490,6 +11478,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 18.23,
+      "depth_pct": null,
+      "store_count": 171
+     },
+     {
+      "barcode": "4015400278870",
+      "product": "PEL PAMPERS PREMIUM JUN 5 11-18KG 44/1",
+      "brand": "Pampers",
+      "side": "pg",
+      "fighting_category": "Diapers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.99,
       "depth_pct": null,
       "store_count": 171
      },
@@ -11518,18 +11518,6 @@
       "store_count": 168
      },
      {
-      "barcode": "8006530503198",
-      "product": "DET ARIEL WINTER DREAM 4.05L=90PR",
-      "brand": "Ariel",
-      "side": "pg",
-      "fighting_category": "Laundry",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 18.99,
-      "depth_pct": null,
-      "store_count": 167
-     },
-     {
       "barcode": "8700216764544",
       "product": "DET ARIEL COLOR 44TAB",
       "brand": "Ariel",
@@ -11538,6 +11526,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 12.58,
+      "depth_pct": null,
+      "store_count": 167
+     },
+     {
+      "barcode": "8006530503198",
+      "product": "DET ARIEL WINTER DREAM 4.05L=90PR",
+      "brand": "Ariel",
+      "side": "pg",
+      "fighting_category": "Laundry",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 18.99,
       "depth_pct": null,
       "store_count": 167
      },
@@ -11602,18 +11602,6 @@
       "store_count": 164
      },
      {
-      "barcode": "8001090948731",
-      "product": "PEL PAMPERS AB MAXIPACK S4 62/1",
-      "brand": "Pampers",
-      "side": "pg",
-      "fighting_category": "Diapers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 14.99,
-      "depth_pct": null,
-      "store_count": 163
-     },
-     {
       "barcode": "8700216497039",
       "product": "PJENA GILLETTE SENSITIVE 400 ml",
       "brand": "Gillette",
@@ -11622,6 +11610,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 3.18,
+      "depth_pct": null,
+      "store_count": 163
+     },
+     {
+      "barcode": "8001090948731",
+      "product": "PEL PAMPERS AB MAXIPACK S4 62/1",
+      "brand": "Pampers",
+      "side": "pg",
+      "fighting_category": "Diapers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 14.99,
       "depth_pct": null,
       "store_count": 163
      },
@@ -11722,18 +11722,6 @@
       "store_count": 150
      },
      {
-      "barcode": "4015400278818",
-      "product": "PEL PAMPERS PREMIUM MAXI 4 7-18KG 52/1",
-      "brand": "Pampers",
-      "side": "pg",
-      "fighting_category": "Diapers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 15.99,
-      "depth_pct": null,
-      "store_count": 140
-     },
-     {
       "barcode": "8700216356794",
       "product": "BRIJAČ GILLETTE FUSION+5 PATRONA",
       "brand": "Gillette",
@@ -11742,6 +11730,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 19.99,
+      "depth_pct": null,
+      "store_count": 140
+     },
+     {
+      "barcode": "4015400278818",
+      "product": "PEL PAMPERS PREMIUM MAXI 4 7-18KG 52/1",
+      "brand": "Pampers",
+      "side": "pg",
+      "fighting_category": "Diapers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.99,
       "depth_pct": null,
       "store_count": 140
      },
@@ -11842,18 +11842,6 @@
       "store_count": 109
      },
      {
-      "barcode": "8006530155557",
-      "product": "STICK OLD SPICE COLD 70 ml",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.99,
-      "depth_pct": null,
-      "store_count": 109
-     },
-     {
       "barcode": "7702018886166",
       "product": "BRIJAČ Ž FW GILL VENUS BREEZE",
       "brand": "Venus",
@@ -11862,6 +11850,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 9.79,
+      "depth_pct": null,
+      "store_count": 109
+     },
+     {
+      "barcode": "8006530155557",
+      "product": "STICK OLD SPICE COLD 70 ml",
+      "brand": "Old Spice",
+      "side": "pg",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.99,
       "depth_pct": null,
       "store_count": 109
      },
@@ -12214,18 +12214,6 @@
       "store_count": 84
      },
      {
-      "barcode": "4084500978973",
-      "product": "GEL ZA TUŠIRANJE OLDSPICE WOLFTHORN 400ml",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 80
-     },
-     {
       "barcode": "7702018457342",
       "product": "BRIJAČ JEDNOK GILL BLUE3 COOL 6+2",
       "brand": "Gillette",
@@ -12238,16 +12226,16 @@
       "store_count": 80
      },
      {
-      "barcode": "8006540499382",
-      "product": "PEL GAĆ PAMPERS JP S8 32/1",
-      "brand": "Pampers",
+      "barcode": "4084500978973",
+      "product": "GEL ZA TUŠIRANJE OLDSPICE WOLFTHORN 400ml",
+      "brand": "Old Spice",
       "side": "pg",
-      "fighting_category": "Diapers",
+      "fighting_category": "APDO",
       "regular_price": null,
       "regular_price_source": null,
-      "promo_price": 15.99,
+      "promo_price": 2.99,
       "depth_pct": null,
-      "store_count": 79
+      "store_count": 80
      },
      {
       "barcode": "8700216685382",
@@ -12258,6 +12246,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 3.85,
+      "depth_pct": null,
+      "store_count": 79
+     },
+     {
+      "barcode": "8006540499382",
+      "product": "PEL GAĆ PAMPERS JP S8 32/1",
+      "brand": "Pampers",
+      "side": "pg",
+      "fighting_category": "Diapers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.99,
       "depth_pct": null,
       "store_count": 79
      },
@@ -12406,18 +12406,6 @@
       "store_count": 67
      },
      {
-      "barcode": "5011321772335",
-      "product": "LOSION OLDSP ORIGINAL 100ml",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 5.99,
-      "depth_pct": null,
-      "store_count": 67
-     },
-     {
       "barcode": "8006530139311",
       "product": "GEL TUŠ OLD SPICE COLD 400 ml",
       "brand": "Old Spice",
@@ -12438,6 +12426,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 4.99,
+      "depth_pct": null,
+      "store_count": 67
+     },
+     {
+      "barcode": "5011321772335",
+      "product": "LOSION OLDSP ORIGINAL 100ml",
+      "brand": "Old Spice",
+      "side": "pg",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 5.99,
       "depth_pct": null,
       "store_count": 67
      },
@@ -12478,6 +12478,18 @@
       "store_count": 67
      },
      {
+      "barcode": "8700216143608",
+      "product": "BRIJAČ VENUS SIMPLY 3 OŠTRICE 4 kom",
+      "brand": "Venus",
+      "side": "pg",
+      "fighting_category": null,
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 5.34,
+      "depth_pct": null,
+      "store_count": 66
+     },
+     {
       "barcode": "8700216306782",
       "product": "ŠAMPON H&S APPLE FRESH 800 ml",
       "brand": "Head & Shoulders",
@@ -12498,18 +12510,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 7.79,
-      "depth_pct": null,
-      "store_count": 66
-     },
-     {
-      "barcode": "8700216143608",
-      "product": "BRIJAČ VENUS SIMPLY 3 OŠTRICE 4 kom",
-      "brand": "Venus",
-      "side": "pg",
-      "fighting_category": null,
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 5.34,
       "depth_pct": null,
       "store_count": 66
      },
@@ -12574,6 +12574,18 @@
       "store_count": 63
      },
      {
+      "barcode": "8006540750100",
+      "product": "DET JAR ALL IN 1 LEMON 100 TAB",
+      "brand": "Jar",
+      "side": "pg",
+      "fighting_category": "Automatic Dishwashing",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 19.99,
+      "depth_pct": null,
+      "store_count": 61
+     },
+     {
       "barcode": "8006530121958",
       "product": "DET JAR PLATINUM 81 TAB",
       "brand": "Jar",
@@ -12596,30 +12608,6 @@
       "promo_price": 12.58,
       "depth_pct": null,
       "store_count": 61
-     },
-     {
-      "barcode": "8006540750100",
-      "product": "DET JAR ALL IN 1 LEMON 100 TAB",
-      "brand": "Jar",
-      "side": "pg",
-      "fighting_category": "Automatic Dishwashing",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 19.99,
-      "depth_pct": null,
-      "store_count": 61
-     },
-     {
-      "barcode": "8006530112406",
-      "product": "BRIJAČ GILL LABS H+1+DRŽ",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 14.99,
-      "depth_pct": null,
-      "store_count": 60
      },
      {
       "barcode": "8006530090971",
@@ -12666,6 +12654,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 15.89,
+      "depth_pct": null,
+      "store_count": 60
+     },
+     {
+      "barcode": "8006530112406",
+      "product": "BRIJAČ GILL LABS H+1+DRŽ",
+      "brand": "Gillette",
+      "side": "pg",
+      "fighting_category": "Shave Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 14.99,
       "depth_pct": null,
       "store_count": 60
      },
@@ -12718,18 +12718,6 @@
       "store_count": 56
      },
      {
-      "barcode": "8700216130516",
-      "product": "BRIJAČ VENUS SUGARBERRY",
-      "brand": "Venus",
-      "side": "pg",
-      "fighting_category": null,
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 9.79,
-      "depth_pct": null,
-      "store_count": 56
-     },
-     {
       "barcode": "8001841326153",
       "product": "GEL TUŠ OLD SPICE DEEP SEA 400ml",
       "brand": "Old Spice",
@@ -12742,14 +12730,14 @@
       "store_count": 56
      },
      {
-      "barcode": "8700216357227",
-      "product": "BRIJAČ GILL PROGLIDE H+ 4/1+ D",
-      "brand": "Gillette",
+      "barcode": "8700216130516",
+      "product": "BRIJAČ VENUS SUGARBERRY",
+      "brand": "Venus",
       "side": "pg",
-      "fighting_category": "Shave Care",
+      "fighting_category": null,
       "regular_price": null,
       "regular_price_source": null,
-      "promo_price": 21.59,
+      "promo_price": 9.79,
       "depth_pct": null,
       "store_count": 56
      },
@@ -12762,6 +12750,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 3.85,
+      "depth_pct": null,
+      "store_count": 56
+     },
+     {
+      "barcode": "8700216357227",
+      "product": "BRIJAČ GILL PROGLIDE H+ 4/1+ D",
+      "brand": "Gillette",
+      "side": "pg",
+      "fighting_category": "Shave Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 21.59,
       "depth_pct": null,
       "store_count": 56
      },
@@ -12838,18 +12838,6 @@
       "store_count": 51
      },
      {
-      "barcode": "8700216538961",
-      "product": "KONAC ZUBNI OB SUPERFLOSS 50",
-      "brand": "Oral-B",
-      "side": "pg",
-      "fighting_category": "Oral Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.15,
-      "depth_pct": null,
-      "store_count": 51
-     },
-     {
       "barcode": "8006530254878",
       "product": "ZP ORAL B COMPLETE 75 ml",
       "brand": "Oral-B",
@@ -12870,6 +12858,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 5.75,
+      "depth_pct": null,
+      "store_count": 51
+     },
+     {
+      "barcode": "8700216538961",
+      "product": "KONAC ZUBNI OB SUPERFLOSS 50",
+      "brand": "Oral-B",
+      "side": "pg",
+      "fighting_category": "Oral Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.15,
       "depth_pct": null,
       "store_count": 51
      },
@@ -12970,18 +12970,6 @@
       "store_count": 43
      },
      {
-      "barcode": "4210201385233",
-      "product": "GLAVA ZAMJ ORAL B ZA EL ČETK KIDS FR 4 KOM",
-      "brand": "Oral-B",
-      "side": "pg",
-      "fighting_category": "Oral Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 15.89,
-      "depth_pct": null,
-      "store_count": 42
-     },
-     {
       "barcode": "8006530254779",
       "product": "ZP ORAL B COMPLETE WHITE 75 ml",
       "brand": "Oral-B",
@@ -12990,18 +12978,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.79,
-      "depth_pct": null,
-      "store_count": 42
-     },
-     {
-      "barcode": "8006540805237",
-      "product": "GLAVA Z ORALB EL ČET KID SPID 4 KOM",
-      "brand": "Oral-B",
-      "side": "pg",
-      "fighting_category": "Oral Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 15.89,
       "depth_pct": null,
       "store_count": 42
      },
@@ -13026,6 +13002,30 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 12.99,
+      "depth_pct": null,
+      "store_count": 42
+     },
+     {
+      "barcode": "4210201385233",
+      "product": "GLAVA ZAMJ ORAL B ZA EL ČETK KIDS FR 4 KOM",
+      "brand": "Oral-B",
+      "side": "pg",
+      "fighting_category": "Oral Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.89,
+      "depth_pct": null,
+      "store_count": 42
+     },
+     {
+      "barcode": "8006540805237",
+      "product": "GLAVA Z ORALB EL ČET KID SPID 4 KOM",
+      "brand": "Oral-B",
+      "side": "pg",
+      "fighting_category": "Oral Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 15.89,
       "depth_pct": null,
       "store_count": 42
      },
@@ -13078,18 +13078,6 @@
       "store_count": 38
      },
      {
-      "barcode": "8700216579889",
-      "product": "PJENA GILLETTE SOOTHING 400 ml",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 5.61,
-      "depth_pct": null,
-      "store_count": 37
-     },
-     {
       "barcode": "8700216674195",
       "product": "BRIJAČ VENUS COMF GL+DRŽ",
       "brand": "Venus",
@@ -13098,6 +13086,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 9.79,
+      "depth_pct": null,
+      "store_count": 37
+     },
+     {
+      "barcode": "8700216579889",
+      "product": "PJENA GILLETTE SOOTHING 400 ml",
+      "brand": "Gillette",
+      "side": "pg",
+      "fighting_category": "Shave Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 5.61,
       "depth_pct": null,
       "store_count": 37
      },
@@ -13114,6 +13114,18 @@
       "store_count": 36
      },
      {
+      "barcode": "8700216685351",
+      "product": "STICK OLD SPICE ROCKSTAR 65 ml",
+      "brand": "Old Spice",
+      "side": "pg",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 3.85,
+      "depth_pct": null,
+      "store_count": 36
+     },
+     {
       "barcode": "3014260262693",
       "product": "BRIJAČ Ž GILL VENUS     2693",
       "brand": "Venus",
@@ -13122,6 +13134,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 7.99,
+      "depth_pct": null,
+      "store_count": 36
+     },
+     {
+      "barcode": "8006530121828",
+      "product": "DET JAR PLATINUM 45 TAB",
+      "brand": "Jar",
+      "side": "pg",
+      "fighting_category": "Automatic Dishwashing",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 14.98,
       "depth_pct": null,
       "store_count": 36
      },
@@ -13150,30 +13174,6 @@
       "store_count": 36
      },
      {
-      "barcode": "8006530121828",
-      "product": "DET JAR PLATINUM 45 TAB",
-      "brand": "Jar",
-      "side": "pg",
-      "fighting_category": "Automatic Dishwashing",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 14.98,
-      "depth_pct": null,
-      "store_count": 36
-     },
-     {
-      "barcode": "8700216685351",
-      "product": "STICK OLD SPICE ROCKSTAR 65 ml",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 3.85,
-      "depth_pct": null,
-      "store_count": 36
-     },
-     {
       "barcode": "8700216878333",
       "product": "BRIJAČ VENUS SIMPLY3+ H+4/1",
       "brand": "Venus",
@@ -13198,54 +13198,6 @@
       "store_count": 35
      },
      {
-      "barcode": "8700216634168",
-      "product": "DEO OLD SPICE TIGER CLAW 200 ml",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 3.85,
-      "depth_pct": null,
-      "store_count": 34
-     },
-     {
-      "barcode": "8700216685207",
-      "product": "STICK OS TIGER CLAW 65 ML",
-      "brand": "Old Spice",
-      "side": "pg",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 3.85,
-      "depth_pct": null,
-      "store_count": 34
-     },
-     {
-      "barcode": "8700216957489",
-      "product": "GEL VENUS SATIN CARE DRY SKIN 200 ml",
-      "brand": "Venus",
-      "side": "pg",
-      "fighting_category": null,
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.75,
-      "depth_pct": null,
-      "store_count": 34
-     },
-     {
-      "barcode": "7702018323012",
-      "product": "BRIJAČ VENUS EXTRA SMOOTH H+",
-      "brand": "Venus",
-      "side": "pg",
-      "fighting_category": null,
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 7.89,
-      "depth_pct": null,
-      "store_count": 34
-     },
-     {
       "barcode": "8006530004527",
       "product": "ŠAMPON H&S 2IN1 CITRUS 800 ml",
       "brand": "Head & Shoulders",
@@ -13254,18 +13206,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 8.11,
-      "depth_pct": null,
-      "store_count": 34
-     },
-     {
-      "barcode": "8006530203036",
-      "product": "DET ARIEL GOLD ORCHID 38 TAB",
-      "brand": "Ariel",
-      "side": "pg",
-      "fighting_category": "Laundry",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 12.58,
       "depth_pct": null,
       "store_count": 34
      },
@@ -13308,6 +13248,30 @@
      {
       "barcode": "8700216685474",
       "product": "STICK OLD SPICE OASIS 65 ml",
+      "brand": "Old Spice",
+      "side": "pg",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 3.85,
+      "depth_pct": null,
+      "store_count": 34
+     },
+     {
+      "barcode": "8700216634168",
+      "product": "DEO OLD SPICE TIGER CLAW 200 ml",
+      "brand": "Old Spice",
+      "side": "pg",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 3.85,
+      "depth_pct": null,
+      "store_count": 34
+     },
+     {
+      "barcode": "8700216685207",
+      "product": "STICK OS TIGER CLAW 65 ML",
       "brand": "Old Spice",
       "side": "pg",
       "fighting_category": "APDO",
@@ -13366,6 +13330,42 @@
       "store_count": 34
      },
      {
+      "barcode": "8700216957489",
+      "product": "GEL VENUS SATIN CARE DRY SKIN 200 ml",
+      "brand": "Venus",
+      "side": "pg",
+      "fighting_category": null,
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.75,
+      "depth_pct": null,
+      "store_count": 34
+     },
+     {
+      "barcode": "8006530203036",
+      "product": "DET ARIEL GOLD ORCHID 38 TAB",
+      "brand": "Ariel",
+      "side": "pg",
+      "fighting_category": "Laundry",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 12.58,
+      "depth_pct": null,
+      "store_count": 34
+     },
+     {
+      "barcode": "7702018323012",
+      "product": "BRIJAČ VENUS EXTRA SMOOTH H+",
+      "brand": "Venus",
+      "side": "pg",
+      "fighting_category": null,
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 7.89,
+      "depth_pct": null,
+      "store_count": 34
+     },
+     {
       "barcode": "8006530045995",
       "product": "KONAC ZUBNI OB MENTA 2X50 m",
       "brand": "Oral-B",
@@ -13375,6 +13375,30 @@
       "regular_price_source": "other_stores",
       "promo_price": 4.79,
       "depth_pct": 20.0,
+      "store_count": 33
+     },
+     {
+      "barcode": "8006530254854",
+      "product": "ZP ORAL B COMPLETE FRESH 75 ml",
+      "brand": "Oral-B",
+      "side": "pg",
+      "fighting_category": "Oral Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.79,
+      "depth_pct": null,
+      "store_count": 33
+     },
+     {
+      "barcode": "8006530444187",
+      "product": "ZP ORAL B PRO EXPERT 2X75 ml",
+      "brand": "Oral-B",
+      "side": "pg",
+      "fighting_category": "Oral Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 5.75,
+      "depth_pct": null,
       "store_count": 33
      },
      {
@@ -13410,30 +13434,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 4.55,
-      "depth_pct": null,
-      "store_count": 33
-     },
-     {
-      "barcode": "8006530254854",
-      "product": "ZP ORAL B COMPLETE FRESH 75 ml",
-      "brand": "Oral-B",
-      "side": "pg",
-      "fighting_category": "Oral Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.79,
-      "depth_pct": null,
-      "store_count": 33
-     },
-     {
-      "barcode": "8006530444187",
-      "product": "ZP ORAL B PRO EXPERT 2X75 ml",
-      "brand": "Oral-B",
-      "side": "pg",
-      "fighting_category": "Oral Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 5.75,
       "depth_pct": null,
       "store_count": 33
      },
@@ -13642,6 +13642,66 @@
       "store_count": 184
      },
      {
+      "barcode": "3870128034655",
+      "product": "OM VIOLETA PARADISE 1.71L",
+      "brand": "VIOLETA",
+      "side": "competitor",
+      "fighting_category": "Fabric Enhancers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "3850105182074",
+      "product": "OM ORNEL CALMING 1.6L",
+      "brand": "ORNEL",
+      "side": "competitor",
+      "fighting_category": "Fabric Enhancers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "3850105170286",
+      "product": "DET LIKVI ULTRA FRESH 900ml",
+      "brand": "LIKVI",
+      "side": "competitor",
+      "fighting_category": "Hand Dishwashing",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.19,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "9000101584608",
+      "product": "OM SILAN MAGNOLIA 1.1L",
+      "brand": "SILAN",
+      "side": "competitor",
+      "fighting_category": "Fabric Enhancers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "3838824138923",
+      "product": "ŠAMPON SCHAUMA REG NJEGA 400ml",
+      "brand": "SCHAUMA",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
       "barcode": "3850105192806",
       "product": "OM ORNEL SUNSET 1.5 L",
       "brand": "ORNEL",
@@ -13650,6 +13710,30 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "9000101277173",
+      "product": "ŠAMPON SYOSS ANTI DANDR 440ml",
+      "brand": "SYOSS",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.49,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "3850105187949",
+      "product": "DET FAKS AQUAMARINE HYG 2.2 kg 40 PR",
+      "brand": "FAKS",
+      "side": "competitor",
+      "fighting_category": "Laundry",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 9.49,
       "depth_pct": null,
       "store_count": 184
      },
@@ -13666,14 +13750,26 @@
       "store_count": 184
      },
      {
-      "barcode": "3850105187949",
-      "product": "DET FAKS AQUAMARINE HYG 2.2 kg 40 PR",
-      "brand": "FAKS",
+      "barcode": "3838824086675",
+      "product": "ŠAMPON SCHAUMA ZA MUŠKAR 400ml",
+      "brand": "SCHAUMA",
       "side": "competitor",
-      "fighting_category": "Laundry",
+      "fighting_category": "Hair Care",
       "regular_price": null,
       "regular_price_source": null,
-      "promo_price": 9.49,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 184
+     },
+     {
+      "barcode": "8711600350212",
+      "product": "DEO REXONA SHOWER CLEAN 150ml",
+      "brand": "REXONA",
+      "side": "competitor",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.75,
       "depth_pct": null,
       "store_count": 184
      },
@@ -13695,18 +13791,6 @@
       "brand": "VIOLETA",
       "side": "competitor",
       "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "3838824138923",
-      "product": "ŠAMPON SCHAUMA REG NJEGA 400ml",
-      "brand": "SCHAUMA",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.99,
@@ -13774,90 +13858,6 @@
       "store_count": 184
      },
      {
-      "barcode": "3870128034655",
-      "product": "OM VIOLETA PARADISE 1.71L",
-      "brand": "VIOLETA",
-      "side": "competitor",
-      "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "3850105182074",
-      "product": "OM ORNEL CALMING 1.6L",
-      "brand": "ORNEL",
-      "side": "competitor",
-      "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "9000101277173",
-      "product": "ŠAMPON SYOSS ANTI DANDR 440ml",
-      "brand": "SYOSS",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.49,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "3838824086675",
-      "product": "ŠAMPON SCHAUMA ZA MUŠKAR 400ml",
-      "brand": "SCHAUMA",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "3850105170286",
-      "product": "DET LIKVI ULTRA FRESH 900ml",
-      "brand": "LIKVI",
-      "side": "competitor",
-      "fighting_category": "Hand Dishwashing",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.19,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "9000101584608",
-      "product": "OM SILAN MAGNOLIA 1.1L",
-      "brand": "SILAN",
-      "side": "competitor",
-      "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
-      "barcode": "8711600350212",
-      "product": "DEO REXONA SHOWER CLEAN 150ml",
-      "brand": "REXONA",
-      "side": "competitor",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.75,
-      "depth_pct": null,
-      "store_count": 184
-     },
-     {
       "barcode": "3838824086750",
       "product": "ŠAMPON SCHAUMA 7 LJEK TR 400ml",
       "brand": "SCHAUMA",
@@ -13918,18 +13918,6 @@
       "store_count": 180
      },
      {
-      "barcode": "3838824116204",
-      "product": "DEO FA PINK P 150ml     6228",
-      "brand": "FA",
-      "side": "competitor",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.59,
-      "depth_pct": null,
-      "store_count": 179
-     },
-     {
       "barcode": "3870128035324",
       "product": "OM VIOLETA LUX 1.55L",
       "brand": "VIOLETA",
@@ -13938,6 +13926,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 179
+     },
+     {
+      "barcode": "3838824116204",
+      "product": "DEO FA PINK P 150ml     6228",
+      "brand": "FA",
+      "side": "competitor",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.59,
       "depth_pct": null,
       "store_count": 179
      },
@@ -14014,18 +14014,6 @@
       "store_count": 173
      },
      {
-      "barcode": "9000100999786",
-      "product": "SOMAT MACHINE CLEANER 60g=3PR",
-      "brand": "SOMAT",
-      "side": "competitor",
-      "fighting_category": "Automatic Dishwashing",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 171
-     },
-     {
       "barcode": "3850105182197",
       "product": "OM ORNEL VIOLET 1.6L",
       "brand": "ORNEL",
@@ -14038,16 +14026,16 @@
       "store_count": 171
      },
      {
-      "barcode": "9000100549837",
-      "product": "ŠAMPON GLISS OIL NUTRITIVE 400ml",
-      "brand": "GLISS",
+      "barcode": "9000100999786",
+      "product": "SOMAT MACHINE CLEANER 60g=3PR",
+      "brand": "SOMAT",
       "side": "competitor",
-      "fighting_category": "Hair Care",
+      "fighting_category": "Automatic Dishwashing",
       "regular_price": null,
       "regular_price_source": null,
-      "promo_price": 4.49,
+      "promo_price": 2.99,
       "depth_pct": null,
-      "store_count": 170
+      "store_count": 171
      },
      {
       "barcode": "9000101801125",
@@ -14058,6 +14046,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 170
+     },
+     {
+      "barcode": "9000100549837",
+      "product": "ŠAMPON GLISS OIL NUTRITIVE 400ml",
+      "brand": "GLISS",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.49,
       "depth_pct": null,
       "store_count": 170
      },
@@ -14074,18 +14074,6 @@
       "store_count": 168
      },
      {
-      "barcode": "3850334103154",
-      "product": "GEL TUŠ K PLUS OLEA ROSE/JOG 300ml",
-      "brand": "OLEA",
-      "side": "competitor",
-      "fighting_category": "Baby Wipes",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 0.95,
-      "depth_pct": null,
-      "store_count": 168
-     },
-     {
       "barcode": "3850105186645",
       "product": "OM ORNEL ALLURE 1.6 L",
       "brand": "ORNEL",
@@ -14094,6 +14082,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 168
+     },
+     {
+      "barcode": "3850334103154",
+      "product": "GEL TUŠ K PLUS OLEA ROSE/JOG 300ml",
+      "brand": "OLEA",
+      "side": "competitor",
+      "fighting_category": "Baby Wipes",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 0.95,
       "depth_pct": null,
       "store_count": 168
      },
@@ -14134,18 +14134,6 @@
       "store_count": 164
      },
      {
-      "barcode": "3870128034594",
-      "product": "OM VIOLETA ORIGINAL 1.71L",
-      "brand": "VIOLETA",
-      "side": "competitor",
-      "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 163
-     },
-     {
       "barcode": "3838824085272",
       "product": "DEO FA SPORT SPR 150ml  5555",
       "brand": "FA",
@@ -14154,6 +14142,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.59,
+      "depth_pct": null,
+      "store_count": 163
+     },
+     {
+      "barcode": "3870128034594",
+      "product": "OM VIOLETA ORIGINAL 1.71L",
+      "brand": "VIOLETA",
+      "side": "competitor",
+      "fighting_category": "Fabric Enhancers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
       "depth_pct": null,
       "store_count": 163
      },
@@ -14170,18 +14170,6 @@
       "store_count": 162
      },
      {
-      "barcode": "4015000941334",
-      "product": "REGENER GLISS ULTIM REPAIR 200ML",
-      "brand": "GLISS",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.49,
-      "depth_pct": null,
-      "store_count": 161
-     },
-     {
       "barcode": "9000100663410",
       "product": "ŠAMPON GLISS ULTIM REP 400ml",
       "brand": "GLISS",
@@ -14194,8 +14182,20 @@
       "store_count": 161
      },
      {
-      "barcode": "3838824142173",
-      "product": "GEL TUŠ FA ALOE VERA YOGURT 400 ml",
+      "barcode": "4015000941334",
+      "product": "REGENER GLISS ULTIM REPAIR 200ML",
+      "brand": "GLISS",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.49,
+      "depth_pct": null,
+      "store_count": 161
+     },
+     {
+      "barcode": "9000101053111",
+      "product": "DEOSPREJ FA DIVINE MOMENTS 150ml",
       "brand": "FA",
       "side": "competitor",
       "fighting_category": "APDO",
@@ -14218,8 +14218,8 @@
       "store_count": 152
      },
      {
-      "barcode": "9000101053111",
-      "product": "DEOSPREJ FA DIVINE MOMENTS 150ml",
+      "barcode": "3838824142173",
+      "product": "GEL TUŠ FA ALOE VERA YOGURT 400 ml",
       "brand": "FA",
       "side": "competitor",
       "fighting_category": "APDO",
@@ -14410,30 +14410,6 @@
       "store_count": 108
      },
      {
-      "barcode": "9000101765564",
-      "product": "ŠAMPON SCHAUMA AD INTENSIVE 350 ml",
-      "brand": "SCHAUMA",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 107
-     },
-     {
-      "barcode": "9000101760019",
-      "product": "ŠAMPON SYOSS INTENSE GLAZE 440 ml",
-      "brand": "SYOSS",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.49,
-      "depth_pct": null,
-      "store_count": 107
-     },
-     {
       "barcode": "9000101750058",
       "product": "ŠAMPON SCHAUMA LONG HAIR 400 ml",
       "brand": "SCHAUMA",
@@ -14470,6 +14446,30 @@
       "store_count": 107
      },
      {
+      "barcode": "9000101765564",
+      "product": "ŠAMPON SCHAUMA AD INTENSIVE 350 ml",
+      "brand": "SCHAUMA",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
+      "depth_pct": null,
+      "store_count": 107
+     },
+     {
+      "barcode": "9000101760019",
+      "product": "ŠAMPON SYOSS INTENSE GLAZE 440 ml",
+      "brand": "SYOSS",
+      "side": "competitor",
+      "fighting_category": "Hair Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.49,
+      "depth_pct": null,
+      "store_count": 107
+     },
+     {
       "barcode": "9000101836783",
       "product": "OM SILAN PARF BLUE JASMINE 540 ml",
       "brand": "SILAN",
@@ -14480,6 +14480,18 @@
       "promo_price": 2.99,
       "depth_pct": null,
       "store_count": 106
+     },
+     {
+      "barcode": "9000100147293",
+      "product": "SOL SOMAT 1.5kg         7293",
+      "brand": "SOMAT",
+      "side": "competitor",
+      "fighting_category": "Automatic Dishwashing",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.29,
+      "depth_pct": null,
+      "store_count": 105
      },
      {
       "barcode": "3850105192097",
@@ -14502,18 +14514,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.19,
-      "depth_pct": null,
-      "store_count": 105
-     },
-     {
-      "barcode": "9000100147293",
-      "product": "SOL SOMAT 1.5kg         7293",
-      "brand": "SOMAT",
-      "side": "competitor",
-      "fighting_category": "Automatic Dishwashing",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.29,
       "depth_pct": null,
       "store_count": 105
      },
@@ -14566,18 +14566,6 @@
       "store_count": 99
      },
      {
-      "barcode": "3850105182043",
-      "product": "OM ORNEL BABY&SENS ALOE 1.6L",
-      "brand": "ORNEL",
-      "side": "competitor",
-      "fighting_category": "Fabric Enhancers",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.99,
-      "depth_pct": null,
-      "store_count": 98
-     },
-     {
       "barcode": "9000101709766",
       "product": "DEO FA GLAMOROUS MOMENTS 150ml",
       "brand": "FA",
@@ -14586,6 +14574,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 2.59,
+      "depth_pct": null,
+      "store_count": 98
+     },
+     {
+      "barcode": "3850105182043",
+      "product": "OM ORNEL BABY&SENS ALOE 1.6L",
+      "brand": "ORNEL",
+      "side": "competitor",
+      "fighting_category": "Fabric Enhancers",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.99,
       "depth_pct": null,
       "store_count": 98
      }
