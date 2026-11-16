@@ -1,11 +1,12 @@
 {
- "generated_at": "2026-11-16T18:15:06.342842+00:00",
+ "generated_at": "2026-11-16T20:21:54.582857+00:00",
  "as_of_date": "2026-11-16",
  "missing_days_threshold": 3,
  "retailers": [
   {
    "retailer": "konzum",
-   "status": "ok",
+   "status": "stale",
+   "error": "only 0 stores published (previous day: 91) — treating as not yet published",
    "last_updated": "2026-11-16",
    "stores_count": 77,
    "total_catalog_size": 722173,
