@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T18:40:01.935883+00:00",
- "as_of_date": "2026-11-20",
+ "generated_at": "2026-11-21T12:14:24.604063+00:00",
+ "as_of_date": "2026-11-21",
  "missing_days_threshold": 3,
  "retailers": [
   {
@@ -48837,7 +48837,7 @@
   {
    "retailer": "dm",
    "status": "stale",
-   "error": "No dm price list published for 20.11.2026",
+   "error": "No dm price list published for 21.11.2026",
    "last_updated": "2026-11-16",
    "stores_count": 1,
    "total_catalog_size": 22052,
@@ -55532,32 +55532,32 @@
   {
    "retailer": "plodine",
    "status": "ok",
-   "last_updated": "2026-11-20",
+   "last_updated": "2026-11-21",
    "stores_count": 154,
-   "total_catalog_size": 305004,
-   "pg_products_tracked": 70646,
+   "total_catalog_size": 305481,
+   "pg_products_tracked": 70880,
    "category_stats": {
     "Uncategorized": {
-     "count": 305004,
-     "pg_count": 70646,
-     "avg_price": 6.62,
-     "pg_avg_price": 8.93,
-     "competitor_avg_price": 5.92,
-     "competitor_count": 234358,
+     "count": 305481,
+     "pg_count": 70880,
+     "avg_price": 6.63,
+     "pg_avg_price": 8.96,
+     "competitor_avg_price": 5.93,
+     "competitor_count": 234601,
      "top_competitor_brands": [
       {
        "brand": "NIVEA",
-       "count": 50075,
+       "count": 50077,
        "avg_price": 6.41
       },
       {
        "brand": "VIOLETA",
-       "count": 17322,
+       "count": 17340,
        "avg_price": 5.83
       },
       {
        "brand": "DOVE",
-       "count": 16889,
+       "count": 16891,
        "avg_price": 4.71
       },
       {
@@ -55567,22 +55567,22 @@
       },
       {
        "brand": "PERSIL",
-       "count": 8216,
-       "avg_price": 11.29
+       "count": 8313,
+       "avg_price": 11.32
       },
       {
        "brand": "DASH",
        "count": 6832,
-       "avg_price": 13.67
+       "avg_price": 13.68
       },
       {
        "brand": "FAKS",
-       "count": 5899,
-       "avg_price": 10.5
+       "count": 6007,
+       "avg_price": 10.55
       },
       {
        "brand": "SOMAT",
-       "count": 5483,
+       "count": 5484,
        "avg_price": 11.83
       }
      ]
@@ -55593,17 +55593,17 @@
      "pg_brands": [
       {
        "brand": "Ariel",
-       "count": 12608,
-       "avg_price": 14.68,
-       "comparison_avg_price": 0.7888,
+       "count": 12680,
+       "avg_price": 14.75,
+       "comparison_avg_price": 0.7879,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
-       "wash_count_coverage_pct": 56.1,
+       "wash_count_coverage_pct": 56.2,
        "by_unit": {
         "pranje": {
-         "avg": 0.5545,
+         "avg": 0.5546,
          "median": 0.3253,
-         "count": 12044
+         "count": 12116
         },
         "kg": {
          "avg": 7.2547,
@@ -55611,27 +55611,27 @@
          "count": 186
         },
         "l": {
-         "avg": 5.0722,
+         "avg": 5.0834,
          "median": 4.69,
          "count": 378
         }
        },
        "store_count": 154,
-       "tdp": 12608,
+       "tdp": 12680,
        "sku_count": 128,
-       "promo_rows": 914,
+       "promo_rows": 918,
        "promo_pct": 7.2
       }
      ],
      "competitor_brands": [
       {
        "brand": "Persil",
-       "count": 8216,
-       "avg_price": 11.29,
-       "comparison_avg_price": 0.5717,
+       "count": 8313,
+       "avg_price": 11.32,
+       "comparison_avg_price": 0.5681,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
-       "wash_count_coverage_pct": 54.1,
+       "wash_count_coverage_pct": 54.4,
        "by_unit": {
         "kg": {
          "avg": 3.9996,
@@ -55639,9 +55639,9 @@
          "count": 414
         },
         "pranje": {
-         "avg": 0.282,
+         "avg": 0.2817,
          "median": 0.2591,
-         "count": 7580
+         "count": 7677
         },
         "l": {
          "avg": 4.0719,
@@ -55650,7 +55650,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 8216,
+       "tdp": 8313,
        "sku_count": 86,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -55658,14 +55658,14 @@
       {
        "brand": "Dash",
        "count": 6832,
-       "avg_price": 13.67,
-       "comparison_avg_price": 0.3531,
+       "avg_price": 13.68,
+       "comparison_avg_price": 0.3532,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
        "wash_count_coverage_pct": 85.7,
        "by_unit": {
         "pranje": {
-         "avg": 0.3531,
+         "avg": 0.3532,
          "median": 0.2971,
          "count": 6832
         }
@@ -55699,22 +55699,22 @@
       },
       {
        "brand": "Faks",
-       "count": 5991,
-       "avg_price": 10.39,
-       "comparison_avg_price": 1.0697,
+       "count": 6099,
+       "avg_price": 10.44,
+       "comparison_avg_price": 1.0599,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
-       "wash_count_coverage_pct": 69.2,
+       "wash_count_coverage_pct": 68.8,
        "by_unit": {
         "pranje": {
-         "avg": 0.4246,
+         "avg": 0.423,
          "median": 0.305,
-         "count": 5195
+         "count": 5300
         },
         "l": {
-         "avg": 5.4986,
+         "avg": 5.5049,
          "median": 5.55,
-         "count": 546
+         "count": 549
         },
         "kg": {
          "avg": 4.8012,
@@ -55723,24 +55723,24 @@
         }
        },
        "store_count": 154,
-       "tdp": 5991,
+       "tdp": 6099,
        "sku_count": 60,
        "promo_rows": 236,
        "promo_pct": 3.9
       },
       {
        "brand": "Violeta",
-       "count": 1388,
-       "avg_price": 6.93,
-       "comparison_avg_price": 1.0033,
+       "count": 1398,
+       "avg_price": 6.92,
+       "comparison_avg_price": 1.0116,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
-       "wash_count_coverage_pct": 56.1,
+       "wash_count_coverage_pct": 55.7,
        "by_unit": {
         "l": {
-         "avg": 2.0761,
+         "avg": 2.0776,
          "median": 1.91,
-         "count": 610
+         "count": 620
         },
         "pranje": {
          "avg": 0.162,
@@ -55749,10 +55749,10 @@
         }
        },
        "store_count": 152,
-       "tdp": 1388,
+       "tdp": 1398,
        "sku_count": 14,
-       "promo_rows": 587,
-       "promo_pct": 42.3
+       "promo_rows": 597,
+       "promo_pct": 42.7
       }
      ],
      "comparison_basis": "wash"
@@ -55794,21 +55794,21 @@
      "competitor_brands": [
       {
        "brand": "Violeta",
-       "count": 3656,
+       "count": 3664,
        "avg_price": 3.55,
-       "comparison_avg_price": 2.1887,
+       "comparison_avg_price": 2.1893,
        "comparison_unit": "l",
        "comparison_basis": "wash",
        "wash_count_coverage_pct": 0.0,
        "by_unit": {
         "l": {
-         "avg": 2.1887,
+         "avg": 2.1893,
          "median": 2.35,
-         "count": 3656
+         "count": 3664
         }
        },
        "store_count": 154,
-       "tdp": 3656,
+       "tdp": 3664,
        "sku_count": 30,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -55816,14 +55816,14 @@
       {
        "brand": "Ornel",
        "count": 5357,
-       "avg_price": 4.04,
-       "comparison_avg_price": 2.7643,
+       "avg_price": 4.05,
+       "comparison_avg_price": 2.7661,
        "comparison_unit": "l",
        "comparison_basis": "wash",
        "wash_count_coverage_pct": 0.7,
        "by_unit": {
         "l": {
-         "avg": 2.7836,
+         "avg": 2.7854,
          "median": 2.49,
          "count": 5316
         },
@@ -55841,9 +55841,9 @@
       },
       {
        "brand": "Silan",
-       "count": 3474,
+       "count": 3475,
        "avg_price": 3.58,
-       "comparison_avg_price": 0.6875,
+       "comparison_avg_price": 0.6873,
        "comparison_unit": "pranje",
        "comparison_basis": "wash",
        "wash_count_coverage_pct": 66.6,
@@ -55851,7 +55851,7 @@
         "pranje": {
          "avg": 0.0526,
          "median": 0.0531,
-         "count": 2314
+         "count": 2315
         },
         "l": {
          "avg": 1.954,
@@ -55860,7 +55860,7 @@
         }
        },
        "store_count": 153,
-       "tdp": 3474,
+       "tdp": 3475,
        "sku_count": 53,
        "promo_rows": 367,
        "promo_pct": 10.6
@@ -55872,17 +55872,17 @@
      "pg_brands": [
       {
        "brand": "Jar",
-       "count": 6373,
+       "count": 6375,
        "avg_price": 10.9,
-       "comparison_avg_price": 2.4694,
+       "comparison_avg_price": 2.4696,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 3.8348,
+         "avg": 3.8344,
          "median": 3.17,
-         "count": 3182
+         "count": 3184
         },
         "kom": {
          "avg": 0.2679,
@@ -55896,9 +55896,9 @@
         }
        },
        "store_count": 154,
-       "tdp": 6373,
+       "tdp": 6375,
        "sku_count": 61,
-       "promo_rows": 1668,
+       "promo_rows": 1670,
        "promo_pct": 26.2
       }
      ],
@@ -55926,7 +55926,7 @@
       },
       {
        "brand": "Likvi",
-       "count": 2378,
+       "count": 2379,
        "avg_price": 3.62,
        "comparison_avg_price": 2.4033,
        "comparison_unit": "l",
@@ -55939,9 +55939,9 @@
          "count": 272
         },
         "l": {
-         "avg": 2.7299,
+         "avg": 2.7297,
          "median": 2.77,
-         "count": 1967
+         "count": 1968
         },
         "kg": {
          "avg": 1.8078,
@@ -55950,7 +55950,7 @@
         }
        },
        "store_count": 153,
-       "tdp": 2378,
+       "tdp": 2379,
        "sku_count": 23,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -56000,9 +56000,9 @@
      "competitor_brands": [
       {
        "brand": "Somat",
-       "count": 5483,
+       "count": 5484,
        "avg_price": 11.83,
-       "comparison_avg_price": 6.3392,
+       "comparison_avg_price": 6.3383,
        "comparison_unit": "kom",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
@@ -56013,9 +56013,9 @@
          "count": 1739
         },
         "kg": {
-         "avg": 75.2235,
+         "avg": 74.9,
          "median": 1.46,
-         "count": 227
+         "count": 228
         },
         "kom": {
          "avg": 0.2519,
@@ -56024,16 +56024,16 @@
         }
        },
        "store_count": 154,
-       "tdp": 5483,
+       "tdp": 5484,
        "sku_count": 62,
        "promo_rows": 0,
        "promo_pct": 0.0
       },
       {
        "brand": "Finish",
-       "count": 4177,
-       "avg_price": 13.01,
-       "comparison_avg_price": 7.7964,
+       "count": 4182,
+       "avg_price": 13.2,
+       "comparison_avg_price": 7.7921,
        "comparison_unit": "kom",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
@@ -56049,13 +56049,13 @@
          "count": 583
         },
         "kom": {
-         "avg": 4.0876,
-         "median": 0.2,
-         "count": 2808
+         "avg": 4.0859,
+         "median": 0.23,
+         "count": 2811
         }
        },
        "store_count": 154,
-       "tdp": 4177,
+       "tdp": 4182,
        "sku_count": 63,
        "promo_rows": 739,
        "promo_pct": 17.7
@@ -56067,17 +56067,17 @@
      "pg_brands": [
       {
        "brand": "Ambi Pur",
-       "count": 1283,
+       "count": 1288,
        "avg_price": 3.89,
-       "comparison_avg_price": 80.7735,
+       "comparison_avg_price": 80.5794,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 92.113,
+         "avg": 91.8384,
          "median": 30.76,
-         "count": 1112
+         "count": 1117
         },
         "kg": {
          "avg": 54.73,
@@ -56091,7 +56091,7 @@
         }
        },
        "store_count": 151,
-       "tdp": 1283,
+       "tdp": 1288,
        "sku_count": 39,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -56100,17 +56100,17 @@
      "competitor_brands": [
       {
        "brand": "Glade",
-       "count": 4159,
+       "count": 4160,
        "avg_price": 4.74,
-       "comparison_avg_price": 94.5212,
+       "comparison_avg_price": 94.5105,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "kg": {
-         "avg": 30.105,
+         "avg": 30.1287,
          "median": 21.93,
-         "count": 836
+         "count": 837
         },
         "l": {
          "avg": 119.2852,
@@ -56124,7 +56124,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 4159,
+       "tdp": 4160,
        "sku_count": 74,
        "promo_rows": 631,
        "promo_pct": 15.2
@@ -56167,7 +56167,7 @@
      "pg_brands": [
       {
        "brand": "Pampers",
-       "count": 3361,
+       "count": 3363,
        "avg_price": 17.31,
        "comparison_avg_price": 0.7754,
        "comparison_unit": "kom",
@@ -56177,11 +56177,11 @@
         "kom": {
          "avg": 0.7754,
          "median": 0.39,
-         "count": 3361
+         "count": 3363
         }
        },
        "store_count": 154,
-       "tdp": 3361,
+       "tdp": 3363,
        "sku_count": 44,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -56497,9 +56497,9 @@
       },
       {
        "brand": "Garnier",
-       "count": 908,
+       "count": 909,
        "avg_price": 8.53,
-       "comparison_avg_price": 103.2425,
+       "comparison_avg_price": 103.1294,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
@@ -56510,9 +56510,9 @@
          "count": 818
         },
         "kom": {
-         "avg": 4.2012,
+         "avg": 4.1571,
          "median": 7.3,
-         "count": 84
+         "count": 85
         },
         "kg": {
          "avg": 598.0,
@@ -56521,7 +56521,7 @@
         }
        },
        "store_count": 150,
-       "tdp": 908,
+       "tdp": 909,
        "sku_count": 18,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -56611,17 +56611,17 @@
      "pg_brands": [
       {
        "brand": "Old Spice",
-       "count": 8279,
+       "count": 8318,
        "avg_price": 5.99,
-       "comparison_avg_price": 49.2744,
+       "comparison_avg_price": 49.3528,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 68.4408,
+         "avg": 68.424,
          "median": 33.27,
-         "count": 5663
+         "count": 5702
         },
         "kom": {
          "avg": 7.7838,
@@ -56630,7 +56630,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 8279,
+       "tdp": 8318,
        "sku_count": 90,
        "promo_rows": 441,
        "promo_pct": 5.3
@@ -56666,14 +56666,14 @@
       {
        "brand": "Rexona",
        "count": 4515,
-       "avg_price": 4.31,
-       "comparison_avg_price": 48.7798,
+       "avg_price": 4.58,
+       "comparison_avg_price": 51.0173,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 51.1872,
+         "avg": 53.5476,
          "median": 36.6,
          "count": 4279
         },
@@ -56691,17 +56691,17 @@
       },
       {
        "brand": "Nivea",
-       "count": 25863,
+       "count": 25864,
        "avg_price": 4.96,
-       "comparison_avg_price": 28.1309,
+       "comparison_avg_price": 28.1319,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 34.3982,
+         "avg": 34.3988,
          "median": 17.93,
-         "count": 19818
+         "count": 19820
         },
         "kom": {
          "avg": 7.0478,
@@ -56715,16 +56715,16 @@
         }
        },
        "store_count": 154,
-       "tdp": 25863,
+       "tdp": 25864,
        "sku_count": 275,
        "promo_rows": 7872,
        "promo_pct": 30.4
       },
       {
        "brand": "Dove",
-       "count": 13826,
-       "avg_price": 4.9,
-       "comparison_avg_price": 30.8208,
+       "count": 13828,
+       "avg_price": 4.91,
+       "comparison_avg_price": 30.8197,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
@@ -56735,9 +56735,9 @@
          "count": 10320
         },
         "kom": {
-         "avg": 6.361,
+         "avg": 6.3726,
          "median": 5.99,
-         "count": 2884
+         "count": 2886
         },
         "kg": {
          "avg": 17.4746,
@@ -56746,7 +56746,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 13826,
+       "tdp": 13828,
        "sku_count": 191,
        "promo_rows": 269,
        "promo_pct": 1.9
@@ -56784,17 +56784,17 @@
       },
       {
        "brand": "Borotalco",
-       "count": 3743,
+       "count": 3744,
        "avg_price": 3.76,
-       "comparison_avg_price": 39.2819,
+       "comparison_avg_price": 39.2785,
        "comparison_unit": "l",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 40.8039,
+         "avg": 40.7996,
          "median": 26.6,
-         "count": 3346
+         "count": 3347
         },
         "kg": {
          "avg": 26.4546,
@@ -56803,7 +56803,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 3743,
+       "tdp": 3744,
        "sku_count": 42,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -56815,29 +56815,29 @@
      "pg_brands": [
       {
        "brand": "Gillette",
-       "count": 11708,
-       "avg_price": 9.23,
-       "comparison_avg_price": 9.4966,
+       "count": 11792,
+       "avg_price": 9.28,
+       "comparison_avg_price": 9.5496,
        "comparison_unit": "kom",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "l": {
-         "avg": 21.524,
+         "avg": 21.5393,
          "median": 16.76,
-         "count": 2856
+         "count": 2881
         },
         "kom": {
-         "avg": 5.5843,
+         "avg": 5.6395,
          "median": 3.08,
-         "count": 8780
+         "count": 8834
         }
        },
        "store_count": 154,
-       "tdp": 11708,
+       "tdp": 11792,
        "sku_count": 149,
-       "promo_rows": 249,
-       "promo_pct": 2.1
+       "promo_rows": 265,
+       "promo_pct": 2.2
       }
      ],
      "competitor_brands": [
@@ -56890,26 +56890,26 @@
      "pg_brands": [
       {
        "brand": "Oral-B",
-       "count": 2618,
-       "avg_price": 4.08,
-       "comparison_avg_price": 12.1703,
+       "count": 2648,
+       "avg_price": 4.06,
+       "comparison_avg_price": 12.098,
        "comparison_unit": "kom",
        "comparison_basis": "unit",
        "wash_count_coverage_pct": null,
        "by_unit": {
         "kom": {
-         "avg": 3.3089,
+         "avg": 3.2791,
          "median": 1.92,
-         "count": 1957
+         "count": 1984
         },
         "l": {
-         "avg": 38.4454,
+         "avg": 38.4883,
          "median": 38.93,
-         "count": 660
+         "count": 663
         }
        },
        "store_count": 153,
-       "tdp": 2618,
+       "tdp": 2648,
        "sku_count": 61,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -57022,7 +57022,7 @@
       },
       {
        "brand": "Colgate",
-       "count": 4861,
+       "count": 4860,
        "avg_price": 3.47,
        "comparison_avg_price": 25.9242,
        "comparison_unit": "l",
@@ -57041,7 +57041,7 @@
         }
        },
        "store_count": 154,
-       "tdp": 4861,
+       "tdp": 4860,
        "sku_count": 79,
        "promo_rows": 0,
        "promo_pct": 0.0
@@ -57053,44 +57053,44 @@
    "diagnostics": {
     "blank_brand_field_rows": 534,
     "blank_brand_field_pct": 0.2,
-    "matched_via_brand_field": 65059,
-    "matched_via_product_name_fallback": 5587,
+    "matched_via_brand_field": 65291,
+    "matched_via_product_name_fallback": 5589,
     "top_brands_seen": [
      [
       "NIVEA",
-      50092
+      50094
      ],
      [
       "VIOLETA",
-      17322
+      17340
      ],
      [
       "DOVE",
-      16889
+      16891
      ],
      [
       "ARIEL",
-      12462
+      12534
      ],
      [
       "GILLETTE",
-      11708
+      11792
      ],
      [
       "JAR",
-      8962
+      8964
      ],
      [
       "AXE",
       8726
      ],
      [
-      "OLD SPICE",
-      8238
+      "PERSIL",
+      8313
      ],
      [
-      "PERSIL",
-      8216
+      "OLD SPICE",
+      8277
      ],
      [
       "LENOR",
@@ -57102,11 +57102,11 @@
      ],
      [
       "FAKS",
-      5899
+      6007
      ],
      [
       "SOMAT",
-      5483
+      5484
      ],
      [
       "ORNEL",
@@ -57114,7 +57114,7 @@
      ],
      [
       "COLGATE",
-      5000
+      4999
      ],
      [
       "ALWAYS",
@@ -57142,7 +57142,7 @@
      ],
      [
       "GLADE",
-      4342
+      4343
      ],
      [
       "SYOSS",
@@ -57154,11 +57154,11 @@
      ],
      [
       "BOROTALCO",
-      3955
+      3956
      ],
      [
       "FINISH LINE",
-      3868
+      3863
      ],
      [
       "PANTENE",
@@ -57174,15 +57174,15 @@
      ],
      [
       "SILAN",
-      3474
+      3475
      ],
      [
       "FINISH",
-      3306
+      3312
      ],
      [
       "GARNIER SKIN NATURALS",
-      3228
+      3239
      ],
      [
       "SENSODYNE",
@@ -57190,7 +57190,7 @@
      ],
      [
       "PAMPERS PELENE",
-      3086
+      3088
      ],
      [
       "AIRWICK",
@@ -57205,20 +57205,20 @@
       2894
      ],
      [
+      "ORAL B",
+      2747
+     ],
+     [
       "GLISS KUR",
       2721
      ],
      [
-      "ORAL B",
-      2717
-     ],
-     [
       "LIKVI",
-      2286
+      2287
      ]
     ]
    },
-   "flagged_count": 62,
+   "flagged_count": 63,
    "flagged_items": [
     {
      "store_id": "036",
@@ -57235,8 +57235,8 @@
      "last_seen_price": 13.99,
      "last_seen_date": "2026-10-14",
      "first_missing_date": "2026-10-15",
-     "days_missing": 35,
-     "as_of": "2026-11-20"
+     "days_missing": 36,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "066",
@@ -57253,8 +57253,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "001",
@@ -57271,8 +57271,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "001",
@@ -57289,8 +57289,8 @@
      "last_seen_price": 4.39,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "055",
@@ -57307,8 +57307,8 @@
      "last_seen_price": 4.49,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "008",
@@ -57325,8 +57325,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "008",
@@ -57343,8 +57343,8 @@
      "last_seen_price": 4.49,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "091",
@@ -57361,8 +57361,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "073",
@@ -57379,8 +57379,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "108",
@@ -57397,8 +57397,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "015",
@@ -57415,8 +57415,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "015",
@@ -57433,8 +57433,8 @@
      "last_seen_price": 4.39,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "061",
@@ -57451,8 +57451,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "061",
@@ -57469,8 +57469,8 @@
      "last_seen_price": 4.39,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "124",
@@ -57487,8 +57487,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "151",
@@ -57505,8 +57505,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "120",
@@ -57523,8 +57523,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "050",
@@ -57541,8 +57541,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "057",
@@ -57559,8 +57559,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "034",
@@ -57577,8 +57577,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "166",
@@ -57595,8 +57595,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "033",
@@ -57613,8 +57613,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "122",
@@ -57631,8 +57631,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "161",
@@ -57649,8 +57649,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "030",
@@ -57667,8 +57667,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "030",
@@ -57685,8 +57685,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "012",
@@ -57703,8 +57703,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "056",
@@ -57721,8 +57721,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "129",
@@ -57739,8 +57739,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "051",
@@ -57757,8 +57757,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "042",
@@ -57775,8 +57775,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "042",
@@ -57793,8 +57793,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "071",
@@ -57811,8 +57811,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "049",
@@ -57829,8 +57829,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "010",
@@ -57847,8 +57847,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "007",
@@ -57865,8 +57865,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "169",
@@ -57883,8 +57883,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "026",
@@ -57901,8 +57901,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "109",
@@ -57919,8 +57919,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "087",
@@ -57937,8 +57937,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "085",
@@ -57955,8 +57955,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "088",
@@ -57973,8 +57973,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "074",
@@ -57991,8 +57991,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "020",
@@ -58009,8 +58009,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "153",
@@ -58027,8 +58027,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "029",
@@ -58045,8 +58045,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "047",
@@ -58063,8 +58063,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "177",
@@ -58081,8 +58081,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "082",
@@ -58099,8 +58099,8 @@
      "last_seen_price": 7.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "082",
@@ -58117,8 +58117,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "101",
@@ -58135,8 +58135,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "025",
@@ -58153,8 +58153,8 @@
      "last_seen_price": 4.39,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "025",
@@ -58171,8 +58171,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "140",
@@ -58189,8 +58189,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "114",
@@ -58207,8 +58207,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "045",
@@ -58225,8 +58225,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "121",
@@ -58243,8 +58243,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "013",
@@ -58261,8 +58261,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "021",
@@ -58279,8 +58279,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "170",
@@ -58297,8 +58297,8 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "170",
@@ -58315,8 +58315,8 @@
      "last_seen_price": 3.99,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
     },
     {
      "store_id": "139",
@@ -58333,13 +58333,31 @@
      "last_seen_price": 1.67,
      "last_seen_date": "2026-11-13",
      "first_missing_date": "2026-11-14",
-     "days_missing": 6,
-     "as_of": "2026-11-20"
+     "days_missing": 7,
+     "as_of": "2026-11-21"
+    },
+    {
+     "store_id": "038",
+     "store_name": "Plodine Kutina",
+     "city": "Kutina",
+     "product_id": "881760",
+     "barcode": "8006540458563",
+     "product": "PAMPERS VLAZNE MARAMICE HARMONIE AQUA 48/1",
+     "brand": "Pampers",
+     "category": "Uncategorized",
+     "fighting_category": "Baby Wipes",
+     "was_on_promo": false,
+     "last_promo_price": null,
+     "last_seen_price": 1.67,
+     "last_seen_date": "2026-11-17",
+     "first_missing_date": "2026-11-18",
+     "days_missing": 3,
+     "as_of": "2026-11-21"
     }
    ],
-   "history_days_available": 38,
+   "history_days_available": 39,
    "insights": {
-    "compared_with_date": "2026-11-18",
+    "compared_with_date": "2026-11-20",
     "flagged_skus_total": 7,
     "flags_by_sku": [
      {
@@ -58348,8 +58366,8 @@
       "brand": "Pampers",
       "cat": "Baby Wipes",
       "promo_stores": 0,
-      "stores": 42,
-      "max_days": 6,
+      "stores": 43,
+      "max_days": 7,
       "last_seen_price": 1.67,
       "store_names": [
        "Plodine Viskovo (Viskovo)",
@@ -58369,7 +58387,7 @@
       "cat": "Baby Wipes",
       "promo_stores": 0,
       "stores": 9,
-      "max_days": 6,
+      "max_days": 7,
       "last_seen_price": 3.99,
       "store_names": [
        "Plodine Zagreb (Zagreb)",
@@ -58389,7 +58407,7 @@
       "cat": "Baby Wipes",
       "promo_stores": 0,
       "stores": 4,
-      "max_days": 6,
+      "max_days": 7,
       "last_seen_price": 4.39,
       "store_names": [
        "Plodine Viskovo (Viskovo)",
@@ -58405,7 +58423,7 @@
       "cat": "Baby Wipes",
       "promo_stores": 0,
       "stores": 3,
-      "max_days": 6,
+      "max_days": 7,
       "last_seen_price": 3.99,
       "store_names": [
        "Plodine Kukuljanovo (Kukuljanovo)",
@@ -58420,7 +58438,7 @@
       "cat": "Oral Care",
       "promo_stores": 0,
       "stores": 2,
-      "max_days": 6,
+      "max_days": 7,
       "last_seen_price": 4.49,
       "store_names": [
        "Plodine Zagreb (Zagreb)",
@@ -58434,7 +58452,7 @@
       "cat": "Laundry",
       "promo_stores": 0,
       "stores": 1,
-      "max_days": 35,
+      "max_days": 36,
       "last_seen_price": 13.99,
       "store_names": [
        "Plodine Djakovo (Djakovo)"
@@ -58447,195 +58465,39 @@
       "cat": "Air Care",
       "promo_stores": 0,
       "stores": 1,
-      "max_days": 6,
+      "max_days": 7,
       "last_seen_price": 7.99,
       "store_names": [
        "Plodine Pag (Pag)"
       ]
      }
     ],
-    "price_moves_total": 59,
-    "price_moves_excluded_implausible": 16,
+    "price_moves_total": 9,
+    "price_moves_excluded_implausible": 34,
     "price_moves": [
      {
-      "barcode": "9000100398435",
-      "product": "GLISS SAMPON 250 ML OIL NUTRITIVE",
-      "brand": "GLISS KUR",
+      "barcode": "3850105188007",
+      "product": "FAKS 2,2 KG 40PR. SPORT AKTIV",
+      "brand": "FAKS",
       "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 154,
-      "stores_compared": 154
+      "fighting_category": "Laundry",
+      "prev_price": 9.49,
+      "price": 12.99,
+      "pct": 36.9,
+      "stores_changed": 8,
+      "stores_compared": 55
      },
      {
-      "barcode": "9000100398572",
-      "product": "GLISS KUR REGENERATOR 200 ML OIL NUTRITIVE",
-      "brand": "GLISS KUR",
+      "barcode": "9000101804775",
+      "product": "PERSIL 990 G  18 PRANJA POWER EXPERT SILAN",
+      "brand": "PERSIL",
       "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 153,
+      "fighting_category": "Laundry",
+      "prev_price": 4.99,
+      "price": 7.19,
+      "pct": 44.1,
+      "stores_changed": 4,
       "stores_compared": 153
-     },
-     {
-      "barcode": "9000100663410",
-      "product": "GLISS SAMPON 400 ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 147,
-      "stores_compared": 147
-     },
-     {
-      "barcode": "9000100662987",
-      "product": "GLISS REGENERATOR  200 ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 147,
-      "stores_compared": 148
-     },
-     {
-      "barcode": "9000100549837",
-      "product": "GLISS SAMPON 400 ML OIL NUTRITIVE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 137,
-      "stores_compared": 142
-     },
-     {
-      "barcode": "9000100398701",
-      "product": "GLISS EXP.REP.REG.200 ML OIL NUTRITIVE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 115,
-      "stores_compared": 145
-     },
-     {
-      "barcode": "9000101735857",
-      "product": "TAFT X GLISS LAK ZA KOSU 250 ML HOLD ME STRONG",
-      "brand": "TAFT",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 5.99,
-      "price": 4.19,
-      "pct": -30.1,
-      "stores_changed": 107,
-      "stores_compared": 108
-     },
-     {
-      "barcode": "9000100801416",
-      "product": "GLISS SAMP. 250 ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 86,
-      "stores_compared": 140
-     },
-     {
-      "barcode": "9000101201376",
-      "product": "GLISS REGENERATOR 200 ML EXPRESS REPAIR SUPREME LENGHT",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 70,
-      "stores_compared": 90
-     },
-     {
-      "barcode": "5410091767334",
-      "product": "GLISS NIGHT ELIXIR TRETMAN 100ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.99,
-      "price": 7.99,
-      "pct": -20.0,
-      "stores_changed": 76,
-      "stores_compared": 81
-     },
-     {
-      "barcode": "4015000941334",
-      "product": "GLISS EXP.REPAIR REGENERATOR  200 ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 40,
-      "stores_compared": 68
-     },
-     {
-      "barcode": "9000101201147",
-      "product": "GLISS SAMPON 400 ML SUPREME LENGTH",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 40,
-      "stores_compared": 78
-     },
-     {
-      "barcode": "9000101749175",
-      "product": "GLISS SAMPON  250 ML FULL HAIR WONDER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 40,
-      "stores_compared": 40
-     },
-     {
-      "barcode": "9000101749533",
-      "product": "GLISS REG.200 ML FULL HAIR WONDER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 40,
-      "stores_compared": 40
-     },
-     {
-      "barcode": "9000100549592",
-      "product": "GLISS SAMP.400ML LIQUID SILK",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 39,
-      "stores_compared": 69
      },
      {
       "barcode": "8700216497039",
@@ -58646,104 +58508,8 @@
       "prev_price": 2.93,
       "price": 4.19,
       "pct": 43.0,
-      "stores_changed": 27,
+      "stores_changed": 2,
       "stores_compared": 146
-     },
-     {
-      "barcode": "3838824086699",
-      "product": "GLISS REG.200 ML LIQUID SILK",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 38,
-      "stores_compared": 39
-     },
-     {
-      "barcode": "9000101287431",
-      "product": "GLISS SAMPON 400 ML SPLIT END MIRACLE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 31,
-      "stores_compared": 45
-     },
-     {
-      "barcode": "9000101287172",
-      "product": "GLISS REGENERATOR 200 ML SPLIT END MIRACLE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 27,
-      "stores_compared": 43
-     },
-     {
-      "barcode": "8700216809610",
-      "product": "AMBI PUR OSVJEZIVAC KUPAONICE 8 ML ALOHA",
-      "brand": "Ambi Pur",
-      "side": "pg",
-      "fighting_category": "Air Care",
-      "prev_price": 2.84,
-      "price": 1.99,
-      "pct": -29.9,
-      "stores_changed": 27,
-      "stores_compared": 33
-     },
-     {
-      "barcode": "9000101702286",
-      "product": "GLISS NIGHT ELIXIR TRETMAN 100ML SPLIT  ENDS MIRACLE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.99,
-      "price": 7.99,
-      "pct": -20.0,
-      "stores_changed": 40,
-      "stores_compared": 40
-     },
-     {
-      "barcode": "9000101754858",
-      "product": "TAFT X GLISS SPREJ 150 ML SILKY SHINE",
-      "brand": "TAFT",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 5.99,
-      "price": 4.19,
-      "pct": -30.1,
-      "stores_changed": 26,
-      "stores_compared": 26
-     },
-     {
-      "barcode": "9000101735710",
-      "product": "TAFT X GLISS SPREJ 150 ML LOVELY LONG",
-      "brand": "TAFT",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 5.99,
-      "price": 4.19,
-      "pct": -30.1,
-      "stores_changed": 25,
-      "stores_compared": 25
-     },
-     {
-      "barcode": "3850105188007",
-      "product": "FAKS 2,2 KG 40PR. SPORT AKTIV",
-      "brand": "FAKS",
-      "side": "competitor",
-      "fighting_category": "Laundry",
-      "prev_price": 9.49,
-      "price": 12.99,
-      "pct": 36.9,
-      "stores_changed": 18,
-      "stores_compared": 53
      },
      {
       "barcode": "7702018866946",
@@ -58754,312 +58520,12 @@
       "prev_price": 14.69,
       "price": 20.99,
       "pct": 42.9,
-      "stores_changed": 15,
-      "stores_compared": 96
+      "stores_changed": 2,
+      "stores_compared": 105
      },
      {
-      "barcode": "9000101610352",
-      "product": "GLISS 7 SECONDS TRETMAN 200 ML ULTIMATE REPAIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 21,
-      "stores_compared": 56
-     },
-     {
-      "barcode": "7702018085514",
-      "product": "GILLETTE PROGLIDE PATRONE 4 KOM",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 17.84,
-      "price": 25.45,
-      "pct": 42.7,
-      "stores_changed": 14,
-      "stores_compared": 115
-     },
-     {
-      "barcode": "9000101287233",
-      "product": "GLISS EXP.REPAIR REG. 200 ML SPLIT END MIRACLE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 16,
-      "stores_compared": 21
-     },
-     {
-      "barcode": "9000101749298",
-      "product": "GLISS SAMPON 400 ML FULL HAIR WONDER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 16,
-      "stores_compared": 17
-     },
-     {
-      "barcode": "9000101749670",
-      "product": "GLISS REGENERATOR U SPREJU 200 ML FULL HAIR WONDER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 16,
-      "stores_compared": 17
-     },
-     {
-      "barcode": "9000100256087",
-      "product": "GLISS SPREJ 200 ML LIQUID SILK",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 16,
-      "stores_compared": 17
-     },
-     {
-      "barcode": "9000101726138",
-      "product": "GLISS MASKA 400ML REPAIR TREATMAN",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 16,
-      "stores_compared": 17
-     },
-     {
-      "barcode": "7702018390816",
-      "product": "GILLETTE PROGLIDE FLEX BALL MANUAL H+2 BRIJAC + PATRONE",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 15.79,
-      "price": 22.56,
-      "pct": 42.9,
-      "stores_changed": 11,
-      "stores_compared": 115
-     },
-     {
-      "barcode": "8006530250979",
-      "product": "AMBI PUR REFIL MERLION 2X8ML ALOHA",
-      "brand": "Ambi Pur",
-      "side": "pg",
-      "fighting_category": "Air Care",
-      "prev_price": 4.34,
-      "price": 3.04,
-      "pct": -30.0,
-      "stores_changed": 15,
-      "stores_compared": 22
-     },
-     {
-      "barcode": "8700216775854",
-      "product": "AMBI PUR APARAT SA PUNJENJEM 20 ML ALOHA",
-      "brand": "Ambi Pur",
-      "side": "pg",
-      "fighting_category": "Air Care",
-      "prev_price": 4.99,
-      "price": 3.49,
-      "pct": -30.1,
-      "stores_changed": 14,
-      "stores_compared": 24
-     },
-     {
-      "barcode": "9000101610277",
-      "product": "GLISS 7 SECONDS 200 ML OIL NUTRITIVE TRETMAN",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 5.99,
-      "pct": 39.6,
-      "stores_changed": 9,
-      "stores_compared": 24
-     },
-     {
-      "barcode": "9000100695732",
-      "product": "GLISS SERUM 75 ML OIL ELIXIR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.99,
-      "price": 4.49,
-      "pct": -50.1,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101725896",
-      "product": "GLISS MASKA 400ML REGENERATION TREATMAN",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 10,
-      "stores_compared": 18
-     },
-     {
-      "barcode": "8700216776134",
-      "product": "AMBI PUR REFIL DUO 2X20 ML ALOHA",
-      "brand": "Ambi Pur",
-      "side": "pg",
-      "fighting_category": "Air Care",
-      "prev_price": 2.94,
-      "price": 2.06,
-      "pct": -29.9,
-      "stores_changed": 10,
-      "stores_compared": 26
-     },
-     {
-      "barcode": "9000101287332",
-      "product": "GLISS SAMP.250 ML SPLIT END MIRACLE",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 4.29,
-      "price": 2.99,
-      "pct": -30.3,
-      "stores_changed": 8,
-      "stores_compared": 46
-     },
-     {
-      "barcode": "9000101617481",
-      "product": "GLISS SAMPON 250 ML BLOND PERFECTOR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 6.49,
-      "price": 4.49,
-      "pct": -30.8,
-      "stores_changed": 7,
-      "stores_compared": 11
-     },
-     {
-      "barcode": "7702018849031",
-      "product": "GILLETTE BLUE II JED. BRITVICE 5 KOM",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 3.14,
-      "price": 4.49,
-      "pct": 43.0,
-      "stores_changed": 5,
-      "stores_compared": 142
-     },
-     {
-      "barcode": "9000101737202",
-      "product": "GLISS REGENERATOR U SPREJU 200 ML BLONDE PERFECTOR",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101726336",
-      "product": "GLISS MASKA 400 ML 4U1 SHINE TREATMENT",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101726053",
-      "product": "GLISS MASKA 400ML NOURISH TREATMAN",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 8.59,
-      "price": 5.99,
-      "pct": -30.3,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101749373",
-      "product": "GLISS SERUM ZA TJEME 100 ML FULL HAIR WONDER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.99,
-      "price": 7.99,
-      "pct": -20.0,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101771848",
-      "product": "GLISS SAMPON 200 ML DEEP CLEANSER",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.99,
-      "price": 7.99,
-      "pct": -20.0,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "9000101771862",
-      "product": "GLISS SAMPON 200 ML GENTLE SCALP",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.99,
-      "price": 7.99,
-      "pct": -20.0,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "8700216357227",
-      "product": "GILLETTE FUSION BRIJAC PROGLIDE + 4 PATRONE",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 20.99,
-      "price": 29.99,
-      "pct": 42.9,
-      "stores_changed": 3,
-      "stores_compared": 106
-     },
-     {
-      "barcode": "9000101771800",
-      "product": "GLISS SERUM 100 ML OIL CONTROL",
-      "brand": "GLISS KUR",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 10.99,
-      "price": 8.99,
-      "pct": -18.2,
-      "stores_changed": 7,
-      "stores_compared": 7
-     },
-     {
-      "barcode": "3850105182197",
-      "product": "ORNEL 1,6 L VIOLET OMEKSIVAC",
+      "barcode": "3850105182135",
+      "product": "ORNEL 1,6 L JASMINE COTON OMEKSIVAC",
       "brand": "ORNEL",
       "side": "competitor",
       "fighting_category": "Fabric Enhancers",
@@ -59067,7 +58533,19 @@
       "price": 4.59,
       "pct": 53.5,
       "stores_changed": 1,
-      "stores_compared": 148
+      "stores_compared": 151
+     },
+     {
+      "barcode": "9000101598902",
+      "product": "PERSIL GEL 2,97 L UNIVERSAL 66 PRANJA",
+      "brand": "PERSIL",
+      "side": "competitor",
+      "fighting_category": "Laundry",
+      "prev_price": 11.99,
+      "price": 13.99,
+      "pct": 16.7,
+      "stores_changed": 3,
+      "stores_compared": 135
      },
      {
       "barcode": "8006530380782",
@@ -59079,31 +58557,19 @@
       "price": 8.99,
       "pct": -50.0,
       "stores_changed": 1,
-      "stores_compared": 52
+      "stores_compared": 55
      },
      {
-      "barcode": "7702018490080",
-      "product": "GILL.BLUE3 3/1 SENSIT.JEDNOK. BRITVICE",
+      "barcode": "7702018390816",
+      "product": "GILLETTE PROGLIDE FLEX BALL MANUAL H+2 BRIJAC + PATRONE",
       "brand": "Gillette",
       "side": "pg",
       "fighting_category": "Shave Care",
-      "prev_price": 3.69,
-      "price": 5.29,
-      "pct": 43.4,
-      "stores_changed": 1,
-      "stores_compared": 146
-     },
-     {
-      "barcode": "7702018866984",
-      "product": "GILLETTE FUSION PATR. 4 KOM",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 14.34,
-      "price": 20.49,
+      "prev_price": 15.79,
+      "price": 22.56,
       "pct": 42.9,
       "stores_changed": 1,
-      "stores_compared": 147
+      "stores_compared": 125
      },
      {
       "barcode": "7702018867219",
@@ -59115,55 +58581,7 @@
       "price": 22.95,
       "pct": 42.9,
       "stores_changed": 1,
-      "stores_compared": 68
-     },
-     {
-      "barcode": "3600542433327",
-      "product": "GARNIER SERUM 30 ML VITAMIN C",
-      "brand": "GARNIER SKIN NATURALS",
-      "side": "competitor",
-      "fighting_category": "Hair Care",
-      "prev_price": 9.09,
-      "price": 12.99,
-      "pct": 42.9,
-      "stores_changed": 1,
-      "stores_compared": 45
-     },
-     {
-      "barcode": "7322540276855",
-      "product": "LIBRESSE DNEV.EXT.NORM.58",
-      "brand": "LIBRESSE",
-      "side": "competitor",
-      "fighting_category": "Femcare",
-      "prev_price": 2.33,
-      "price": 3.29,
-      "pct": 41.2,
-      "stores_changed": 1,
-      "stores_compared": 129
-     },
-     {
-      "barcode": "3870128031975",
-      "product": "VIOLETA PELENE PREMIUM 6+ 44 KOM (16+ KG)",
-      "brand": "VIOLETA",
-      "side": "competitor",
-      "fighting_category": "Diapers",
-      "prev_price": 14.39,
-      "price": 18.95,
-      "pct": 31.7,
-      "stores_changed": 1,
-      "stores_compared": 145
-     },
-     {
-      "barcode": "8700216148092",
-      "product": "GILLETTE  JEDNOKRATNE BRITVICE BLUE 3 12 CT BLIST",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "prev_price": 12.29,
-      "price": 13.19,
-      "pct": 7.3,
-      "stores_changed": 3,
-      "stores_compared": 142
+      "stores_compared": 69
      }
     ],
     "promos_total": 145,
@@ -59350,6 +58768,18 @@
       "store_count": 147
      },
      {
+      "barcode": "8700216690973",
+      "product": "ARIEL TEKUCI  DETRDZENT M. SPRING 60 PRANJA 2,7 L",
+      "brand": "Ariel",
+      "side": "pg",
+      "fighting_category": "Laundry",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 13.49,
+      "depth_pct": null,
+      "store_count": 146
+     },
+     {
       "barcode": "8006530121880",
       "product": "JAR TAB.60 KOM PLATINUM",
       "brand": "Jar",
@@ -59360,18 +58790,6 @@
       "promo_price": 14.99,
       "depth_pct": null,
       "store_count": 146
-     },
-     {
-      "barcode": "8700216690973",
-      "product": "ARIEL TEKUCI  DETRDZENT M. SPRING 60 PRANJA 2,7 L",
-      "brand": "Ariel",
-      "side": "pg",
-      "fighting_category": "Laundry",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 13.49,
-      "depth_pct": null,
-      "store_count": 145
      },
      {
       "barcode": "8006530122122",
@@ -59398,6 +58816,18 @@
       "store_count": 138
      },
      {
+      "barcode": "8006530450393",
+      "product": "GILLETTE PP MACH3 XMASS CHARCOAL",
+      "brand": "Gillette",
+      "side": "pg",
+      "fighting_category": "Shave Care",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 10.59,
+      "depth_pct": null,
+      "store_count": 134
+     },
+     {
       "barcode": "8006530472470",
       "product": "GILLETTE PP FUSION5 XMASS",
       "brand": "Gillette",
@@ -59407,7 +58837,7 @@
       "regular_price_source": null,
       "promo_price": 9.89,
       "depth_pct": null,
-      "store_count": 130
+      "store_count": 131
      },
      {
       "barcode": "4015400997542",
@@ -59430,18 +58860,6 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 14.99,
-      "depth_pct": null,
-      "store_count": 119
-     },
-     {
-      "barcode": "8006530450393",
-      "product": "GILLETTE PP MACH3 XMASS CHARCOAL",
-      "brand": "Gillette",
-      "side": "pg",
-      "fighting_category": "Shave Care",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 10.59,
       "depth_pct": null,
       "store_count": 119
      },
@@ -59539,7 +58957,7 @@
       "regular_price_source": null,
       "promo_price": 2.09,
       "depth_pct": null,
-      "store_count": 70
+      "store_count": 72
      },
      {
       "barcode": "8001841078052",
@@ -59611,7 +59029,7 @@
       "regular_price_source": null,
       "promo_price": 13.49,
       "depth_pct": null,
-      "store_count": 19
+      "store_count": 21
      },
      {
       "barcode": "8700216764667",
@@ -59623,7 +59041,7 @@
       "regular_price_source": null,
       "promo_price": 13.49,
       "depth_pct": null,
-      "store_count": 16
+      "store_count": 17
      },
      {
       "barcode": "8006530139953",
@@ -60391,7 +59809,7 @@
       "regular_price_source": null,
       "promo_price": 4.99,
       "depth_pct": null,
-      "store_count": 117
+      "store_count": 118
      },
      {
       "barcode": "9005800396415",
@@ -60442,8 +59860,8 @@
       "store_count": 94
      },
      {
-      "barcode": "9005800401140",
-      "product": "NIVEA MEN ROLL-ON 50 ML B W EPIC NIGHT",
+      "barcode": "9005800390246",
+      "product": "NIVEA ROLL-ON 50 ML DERMA CONTROL DEFEND EXTRA COMFORT",
       "brand": "NIVEA",
       "side": "competitor",
       "fighting_category": "APDO",
@@ -60454,8 +59872,8 @@
       "store_count": 88
      },
      {
-      "barcode": "9005800390246",
-      "product": "NIVEA ROLL-ON 50 ML DERMA CONTROL DEFEND EXTRA COMFORT",
+      "barcode": "9005800401140",
+      "product": "NIVEA MEN ROLL-ON 50 ML B W EPIC NIGHT",
       "brand": "NIVEA",
       "side": "competitor",
       "fighting_category": "APDO",
@@ -60463,7 +59881,7 @@
       "regular_price_source": null,
       "promo_price": 2.79,
       "depth_pct": null,
-      "store_count": 87
+      "store_count": 88
      },
      {
       "barcode": "3850105191793",
@@ -60679,7 +60097,7 @@
       "regular_price_source": null,
       "promo_price": 2.79,
       "depth_pct": null,
-      "store_count": 41
+      "store_count": 40
      },
      {
       "barcode": "9005800401195",
@@ -60715,7 +60133,7 @@
       "regular_price_source": null,
       "promo_price": 3.99,
       "depth_pct": null,
-      "store_count": 34
+      "store_count": 38
      },
      {
       "barcode": "9005800365749",
@@ -60802,6 +60220,18 @@
       "store_count": 26
      },
      {
+      "barcode": "3870128038981",
+      "product": "VIOLETA DET. 2,7 L BLUSHING BLOOM",
+      "brand": "VIOLETA",
+      "side": "competitor",
+      "fighting_category": "Laundry",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 4.99,
+      "depth_pct": null,
+      "store_count": 26
+     },
+     {
       "barcode": "5000204001006",
       "product": "GLADE REFIL 269 ML OCEAN ADVENTURE",
       "brand": "GLADE",
@@ -60824,18 +60254,6 @@
       "promo_price": 3.44,
       "depth_pct": null,
       "store_count": 25
-     },
-     {
-      "barcode": "3870128038981",
-      "product": "VIOLETA DET. 2,7 L BLUSHING BLOOM",
-      "brand": "VIOLETA",
-      "side": "competitor",
-      "fighting_category": "Laundry",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 4.99,
-      "depth_pct": null,
-      "store_count": 23
      },
      {
       "barcode": "9005800401102",
@@ -60862,18 +60280,6 @@
       "store_count": 22
      },
      {
-      "barcode": "9005800352220",
-      "product": "NIVEA STICK 50 ML MEN FRESH ACTIVE",
-      "brand": "NIVEA",
-      "side": "competitor",
-      "fighting_category": "APDO",
-      "regular_price": null,
-      "regular_price_source": null,
-      "promo_price": 2.79,
-      "depth_pct": null,
-      "store_count": 15
-     },
-     {
       "barcode": "3870128038950",
       "product": "VIOLETA DETERDJENT LDD 1,8 L BLUSHING BLOOM",
       "brand": "VIOLETA",
@@ -60882,6 +60288,18 @@
       "regular_price": null,
       "regular_price_source": null,
       "promo_price": 3.99,
+      "depth_pct": null,
+      "store_count": 17
+     },
+     {
+      "barcode": "9005800352220",
+      "product": "NIVEA STICK 50 ML MEN FRESH ACTIVE",
+      "brand": "NIVEA",
+      "side": "competitor",
+      "fighting_category": "APDO",
+      "regular_price": null,
+      "regular_price_source": null,
+      "promo_price": 2.79,
       "depth_pct": null,
       "store_count": 15
      },
@@ -60917,9 +60335,9 @@
       "total_stores": 154,
       "store_pct": 100.0,
       "skus": 149,
-      "tdp": 11708,
-      "avg_skus_per_store": 76.0,
-      "promo_pct": 2.1
+      "tdp": 11792,
+      "avg_skus_per_store": 76.6,
+      "promo_pct": 2.2
      },
      {
       "brand": "Ariel",
@@ -60927,8 +60345,8 @@
       "total_stores": 154,
       "store_pct": 100.0,
       "skus": 128,
-      "tdp": 12608,
-      "avg_skus_per_store": 81.9,
+      "tdp": 12680,
+      "avg_skus_per_store": 82.3,
       "promo_pct": 7.2
      },
      {
@@ -60937,8 +60355,8 @@
       "total_stores": 154,
       "store_pct": 100.0,
       "skus": 90,
-      "tdp": 8279,
-      "avg_skus_per_store": 53.8,
+      "tdp": 8318,
+      "avg_skus_per_store": 54.0,
       "promo_pct": 5.3
      },
      {
@@ -60947,8 +60365,8 @@
       "total_stores": 154,
       "store_pct": 100.0,
       "skus": 84,
-      "tdp": 8969,
-      "avg_skus_per_store": 58.2,
+      "tdp": 8971,
+      "avg_skus_per_store": 58.3,
       "promo_pct": 22.7
      },
      {
@@ -60967,8 +60385,8 @@
       "total_stores": 154,
       "store_pct": 99.4,
       "skus": 61,
-      "tdp": 2618,
-      "avg_skus_per_store": 17.1,
+      "tdp": 2648,
+      "avg_skus_per_store": 17.3,
       "promo_pct": 0.0
      },
      {
@@ -60987,7 +60405,7 @@
       "total_stores": 154,
       "store_pct": 100.0,
       "skus": 54,
-      "tdp": 4142,
+      "tdp": 4144,
       "avg_skus_per_store": 26.9,
       "promo_pct": 13.5
      },
@@ -61007,7 +60425,7 @@
       "total_stores": 154,
       "store_pct": 98.1,
       "skus": 39,
-      "tdp": 1283,
+      "tdp": 1288,
       "avg_skus_per_store": 8.5,
       "promo_pct": 0.0
      },
@@ -61078,7 +60496,7 @@
       "store_name": "Plodine Viskovo",
       "city": "Viskovo",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61088,7 +60506,7 @@
       "store_name": "Plodine Zagreb",
       "city": "Zagreb",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers",
        "Oral-B"
@@ -61099,7 +60517,7 @@
       "store_name": "Plodine Zadar",
       "city": "Zadar",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61109,7 +60527,7 @@
       "store_name": "Plodine Rijeka",
       "city": "Rijeka",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61119,7 +60537,7 @@
       "store_name": "Plodine Osijek",
       "city": "Osijek",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61129,7 +60547,7 @@
       "store_name": "Plodine Cazma",
       "city": "Cazma",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61139,7 +60557,7 @@
       "store_name": "Plodine Pag",
       "city": "Pag",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Ambi Pur",
        "Pampers"
@@ -61150,7 +60568,7 @@
       "store_name": "Plodine Rovinj",
       "city": "Rovinj",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61160,7 +60578,7 @@
       "store_name": "Plodine Vukovar",
       "city": "Vukovar",
       "items": 2,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61170,7 +60588,7 @@
       "store_name": "Plodine Djakovo",
       "city": "Djakovo",
       "items": 1,
-      "max_days": 35,
+      "max_days": 36,
       "top_brands": [
        "Ariel"
       ]
@@ -61180,7 +60598,7 @@
       "store_name": "Plodine Kukuljanovo",
       "city": "Kukuljanovo",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61190,7 +60608,7 @@
       "store_name": "Plodine Zagreb",
       "city": "Zagreb",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Oral-B"
       ]
@@ -61200,7 +60618,7 @@
       "store_name": "Plodine Pula",
       "city": "Pula",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61210,7 +60628,7 @@
       "store_name": "Plodine Zagreb Novi Zagreb",
       "city": "Zagreb Novi Zagreb",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61220,7 +60638,7 @@
       "store_name": "Plodine Rijeka",
       "city": "Rijeka",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61230,7 +60648,7 @@
       "store_name": "Plodine Korcula",
       "city": "Korcula",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61240,7 +60658,7 @@
       "store_name": "Plodine Daruvar",
       "city": "Daruvar",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61250,7 +60668,7 @@
       "store_name": "Plodine Orebic",
       "city": "Orebic",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61260,7 +60678,7 @@
       "store_name": "Plodine Rijeka",
       "city": "Rijeka",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61270,7 +60688,7 @@
       "store_name": "Plodine Biograd Na Moru",
       "city": "Biograd Na Moru",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61280,7 +60698,7 @@
       "store_name": "Plodine Gospic",
       "city": "Gospic",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61290,7 +60708,7 @@
       "store_name": "Plodine Donja Stubica",
       "city": "Donja Stubica",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61300,7 +60718,7 @@
       "store_name": "Plodine Nova Gradiska",
       "city": "Nova Gradiska",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61310,7 +60728,7 @@
       "store_name": "Plodine Posedarje",
       "city": "Posedarje",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61320,7 +60738,7 @@
       "store_name": "Plodine Pregrada",
       "city": "Pregrada",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61330,7 +60748,7 @@
       "store_name": "Plodine Pula",
       "city": "Pula",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61340,7 +60758,7 @@
       "store_name": "Plodine Matulji",
       "city": "Matulji",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61350,7 +60768,7 @@
       "store_name": "Plodine Zagreb",
       "city": "Zagreb",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61360,7 +60778,7 @@
       "store_name": "Plodine Porec",
       "city": "Porec",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61370,7 +60788,7 @@
       "store_name": "Plodine Medulin",
       "city": "Medulin",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61380,7 +60798,7 @@
       "store_name": "Plodine Ogulin",
       "city": "Ogulin",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61390,7 +60808,7 @@
       "store_name": "Plodine Umag",
       "city": "Umag",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61400,7 +60818,7 @@
       "store_name": "Plodine Rijeka",
       "city": "Rijeka",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61410,7 +60828,7 @@
       "store_name": "Plodine Pasman",
       "city": "Pasman",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61420,7 +60838,7 @@
       "store_name": "Plodine Bjelovar",
       "city": "Bjelovar",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61430,7 +60848,7 @@
       "store_name": "Plodine Pirovac",
       "city": "Pirovac",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61440,7 +60858,7 @@
       "store_name": "Plodine Nin",
       "city": "Nin",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61450,7 +60868,7 @@
       "store_name": "Plodine Fazana",
       "city": "Fazana",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61460,7 +60878,7 @@
       "store_name": "Plodine Lovran",
       "city": "Lovran",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61470,7 +60888,7 @@
       "store_name": "Plodine Novalja",
       "city": "Novalja",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61480,7 +60898,7 @@
       "store_name": "Plodine Nedescina",
       "city": "Nedescina",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61490,7 +60908,7 @@
       "store_name": "Plodine Volosko",
       "city": "Volosko",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61500,7 +60918,7 @@
       "store_name": "Plodine Pitomaca",
       "city": "Pitomaca",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61510,7 +60928,7 @@
       "store_name": "Plodine Slatina",
       "city": "Slatina",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61520,7 +60938,7 @@
       "store_name": "Plodine Sibenik",
       "city": "Sibenik",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61530,7 +60948,7 @@
       "store_name": "Plodine Vodnjan",
       "city": "Vodnjan",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61540,7 +60958,7 @@
       "store_name": "Plodine Velika Gorica",
       "city": "Velika Gorica",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61550,7 +60968,7 @@
       "store_name": "Plodine Strmec",
       "city": "Strmec",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61560,7 +60978,7 @@
       "store_name": "Plodine Zagreb",
       "city": "Zagreb",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61570,7 +60988,7 @@
       "store_name": "Plodine Makarska",
       "city": "Makarska",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61580,7 +60998,7 @@
       "store_name": "Plodine Kostrena",
       "city": "Kostrena",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61590,7 +61008,7 @@
       "store_name": "Plodine Rijeka",
       "city": "Rijeka",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
       "top_brands": [
        "Pampers"
       ]
@@ -61600,7 +61018,17 @@
       "store_name": "Plodine Sveti Ivan Zelina",
       "city": "Sveti Ivan Zelina",
       "items": 1,
-      "max_days": 6,
+      "max_days": 7,
+      "top_brands": [
+       "Pampers"
+      ]
+     },
+     {
+      "store_id": "038",
+      "store_name": "Plodine Kutina",
+      "city": "Kutina",
+      "items": 1,
+      "max_days": 3,
       "top_brands": [
        "Pampers"
       ]
