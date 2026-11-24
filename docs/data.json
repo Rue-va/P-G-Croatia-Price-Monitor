@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T22:16:20.628719+00:00",
- "as_of_date": "2026-11-23",
+ "generated_at": "2026-11-24T14:42:13.931032+00:00",
+ "as_of_date": "2026-11-24",
  "missing_days_threshold": 3,
  "retailers": [
   {
@@ -48837,7 +48837,7 @@
   {
    "retailer": "dm",
    "status": "stale",
-   "error": "No dm price list published for 23.11.2026",
+   "error": "No dm price list published for 24.11.2026",
    "last_updated": "2026-11-16",
    "stores_count": 1,
    "total_catalog_size": 22052,
@@ -55531,7 +55531,8 @@
   },
   {
    "retailer": "plodine",
-   "status": "ok",
+   "status": "stale",
+   "error": "only 0 stores published (previous day: 154) — treating as not yet published",
    "last_updated": "2026-11-23",
    "stores_count": 154,
    "total_catalog_size": 305638,
