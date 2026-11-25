@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T20:41:34.548785+00:00",
- "as_of_date": "2026-11-24",
+ "generated_at": "2026-11-25T13:58:23.151500+00:00",
+ "as_of_date": "2026-11-25",
  "missing_days_threshold": 3,
  "retailers": [
   {
@@ -48837,7 +48837,7 @@
   {
    "retailer": "dm",
    "status": "stale",
-   "error": "No dm price list published for 24.11.2026",
+   "error": "No dm price list published for 25.11.2026",
    "last_updated": "2026-11-16",
    "stores_count": 1,
    "total_catalog_size": 22052,
